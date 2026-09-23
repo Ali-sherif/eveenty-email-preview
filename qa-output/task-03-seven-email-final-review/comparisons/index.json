@@ -1,0 +1,65 @@
+[
+  {
+    "id": "activate_email",
+    "figma": "../figma/activate-en-desktop-800.png",
+    "browser": "../screenshots/activate_email-en-desktop-800.png",
+    "figmaNode": "4:2",
+    "file": "compare-activate_email.html",
+    "figmaPresent": true,
+    "browserPresent": true
+  },
+  {
+    "id": "festival_donation",
+    "figma": "../figma/donation-en-desktop-800.png",
+    "browser": "../screenshots/festival_donation-en-desktop-800.png",
+    "figmaNode": "21:2",
+    "file": "compare-festival_donation.html",
+    "figmaPresent": true,
+    "browserPresent": true
+  },
+  {
+    "id": "festival_ticket_sale",
+    "figma": "../figma/ticket-sale-en-desktop-800.png",
+    "browser": "../screenshots/festival_ticket_sale-en-desktop-800.png",
+    "figmaNode": "21:53",
+    "file": "compare-festival_ticket_sale.html",
+    "figmaPresent": true,
+    "browserPresent": true
+  },
+  {
+    "id": "festival_ticket_registration_approval",
+    "figma": "../figma/reg-approval-en-desktop-800.png",
+    "browser": "../screenshots/festival_ticket_registration_approval-en-desktop-800.png",
+    "figmaNode": "48:45",
+    "file": "compare-festival_ticket_registration_approval.html",
+    "figmaPresent": true,
+    "browserPresent": true
+  },
+  {
+    "id": "support",
+    "figma": "../figma/support-en-desktop-800.png",
+    "browser": "../screenshots/support-en-desktop-800.png",
+    "figmaNode": "22:113",
+    "file": "compare-support.html",
+    "figmaPresent": true,
+    "browserPresent": true
+  },
+  {
+    "id": "dispute_notification",
+    "figma": "../figma/dispute-en-desktop-800.png",
+    "browser": "../screenshots/dispute_notification-en-desktop-800.png",
+    "figmaNode": "72:44",
+    "file": "compare-dispute_notification.html",
+    "figmaPresent": true,
+    "browserPresent": true
+  },
+  {
+    "id": "festival_marketing_email_target",
+    "figma": "../figma/marketing-en-desktop-800.png",
+    "browser": "../screenshots/festival_marketing_email_target-en-desktop-800.png",
+    "figmaNode": "72:175",
+    "file": "compare-festival_marketing_email_target.html",
+    "figmaPresent": true,
+    "browserPresent": true
+  }
+]
