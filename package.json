@@ -1,0 +1,16 @@
+{
+  "name": "email-preview",
+  "version": "1.0.0",
+  "description": "Local, standalone HTML implementations of the five active Eveenty **reference** email designs, plus a browser preview app for owner visual review.",
+  "main": "preview.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

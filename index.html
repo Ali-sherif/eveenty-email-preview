@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eveenty Email Preview — Phase 1 (DRAFT)</title>
+  <link rel="stylesheet" href="./preview.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <h1>Eveenty Email Preview</h1>
+      <p class="status-badge">DRAFT / AWAITING APPROVAL · Design implementation only · Not production mail</p>
+    </div>
+    <p class="container-note">Email container: <strong>Fluid Hybrid 600</strong> (Figma canvas 800px is design reference only)</p>
+  </header>
+
+  <aside class="controls">
+    <label>
+      Email reference
+      <select id="emailSelect"></select>
+    </label>
+    <label>
+      Locale
+      <select id="localeSelect"></select>
+    </label>
+    <label>
+      Sample variant
+      <select id="variantSelect"></select>
+    </label>
+    <label>
+      Viewport
+      <select id="viewportSelect">
+        <option value="800">Desktop 800</option>
+        <option value="768">Tablet 768</option>
+        <option value="600" selected>Email width 600</option>
+        <option value="414">Mobile 414</option>
+        <option value="375">Mobile 375</option>
+        <option value="320">Mobile 320</option>
+      </select>
+    </label>
+    <label class="check">
+      <input type="checkbox" id="blockedImages" />
+      Blocked-images simulation
+    </label>
+    <label class="check">
+      <input type="checkbox" id="longContent" />
+      Long-content preview mode
+    </label>
+    <div class="actions">
+      <button type="button" id="btnRefresh">Refresh</button>
+      <button type="button" id="btnDownload">Download HTML</button>
+      <button type="button" id="btnToggleSource">Toggle HTML source</button>
+    </div>
+    <dl class="meta" id="metaPanel"></dl>
+  </aside>
+
+  <main class="stage">
+    <div class="viewport-chrome">
+      <span id="viewportLabel">600px</span>
+      <div id="frameWrap" class="frame-wrap" style="width:600px">
+        <iframe id="previewFrame" title="Email preview" sandbox="allow-same-origin"></iframe>
+      </div>
+    </div>
+    <section id="sourcePanel" class="source-panel" hidden>
+      <h2>Standalone HTML</h2>
+      <pre id="sourcePre"></pre>
+    </section>
+  </main>
+
+  <script type="module" src="./preview.js"></script>
+</body>
+</html>

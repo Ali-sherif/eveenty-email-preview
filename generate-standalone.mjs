@@ -1,0 +1,35 @@
+/**
+ * Writes default EN standalone HTML files into emails/.
+ * Run: node generate-standalone.mjs
+ */
+import { writeFileSync, mkdirSync } from 'node:fs';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { renderEmail } from './shared/render-emails.js';
+
+const root = dirname(fileURLToPath(import.meta.url));
+const outDir = join(root, 'emails');
+mkdirSync(outDir, { recursive: true });
+
+const ids = [
+  'activate_email',
+  'festival_donation',
+  'festival_ticket_sale',
+  'festival_ticket_registration_approval',
+  'support',
+];
+
+const defaults = {
+  activate_email: { locale: 'en', variant: 'default' },
+  festival_donation: { locale: 'en', variant: 'donatorUser' },
+  festival_ticket_sale: { locale: 'en', variant: 'buyerUser' },
+  festival_ticket_registration_approval: { locale: 'en', variant: 'user_completeOrder' },
+  support: { locale: 'en', variant: 'default' },
+};
+
+for (const id of ids) {
+  const html = renderEmail(id, { ...defaults[id], assetBase: '../' });
+  const path = join(outDir, `${id}.html`);
+  writeFileSync(path, html, 'utf8');
+  console.log('wrote', path);
+}
