@@ -17,6 +17,8 @@ const ids = [
   'festival_ticket_sale',
   'festival_ticket_registration_approval',
   'support',
+  'dispute_notification',
+  'festival_marketing_email_target',
 ];
 
 const defaults = {
@@ -25,6 +27,8 @@ const defaults = {
   festival_ticket_sale: { locale: 'en', variant: 'buyerUser' },
   festival_ticket_registration_approval: { locale: 'en', variant: 'user_completeOrder' },
   support: { locale: 'en', variant: 'default' },
+  dispute_notification: { locale: 'en', variant: 'organizer' },
+  festival_marketing_email_target: { locale: 'en', variant: 'default' },
 };
 
 for (const id of ids) {

@@ -71,11 +71,35 @@ function applyBlockedImages(html) {
 
 function updatePreviewAnnotation(def) {
   if (!els.annotation) return;
-  // Account Activation only — other templates unchanged until their review pass.
+  // Preview-only notes stay outside the email canvas.
   if (def.id === 'activate_email') {
     els.annotation.hidden = false;
     els.annotation.innerHTML =
       `<strong>PREVIEW ANNOTATION</strong> — Hidden inbox preheader (not in email body): ${SAMPLE.activate.preheader}`;
+  } else if (def.id === 'festival_donation') {
+    els.annotation.hidden = false;
+    els.annotation.innerHTML =
+      `<strong>PREVIEW ANNOTATION</strong> — Hidden inbox preheader outside canvas. Totals SAMPLE. Admin donation path is EN-forced in production.`;
+  } else if (def.id === 'festival_ticket_sale') {
+    els.annotation.hidden = false;
+    els.annotation.innerHTML =
+      `<strong>PREVIEW ANNOTATION</strong> — Hidden inbox preheader outside canvas. QR/Wallet/Calendar use SAMPLE fixtures (example.com). MIME attachments not rendered.`;
+  } else if (def.id === 'festival_ticket_registration_approval') {
+    els.annotation.hidden = false;
+    els.annotation.innerHTML =
+      `<strong>PREVIEW ANNOTATION</strong> — Complete Order CTA uses design-kit yellow (Activation standard). Production template still uses magenta #d80073 — owner decision.`;
+  } else if (def.id === 'support') {
+    els.annotation.hidden = false;
+    els.annotation.innerHTML =
+      `<strong>PREVIEW ANNOTATION</strong> — EN-only internal ops. No primary CTA in production contract. Preview uses branded header (design kit), not production header_3 footer CDN logo.`;
+  } else if (def.id === 'dispute_notification') {
+    els.annotation.hidden = false;
+    els.annotation.innerHTML =
+      `<strong>PREVIEW ANNOTATION</strong> — Organizer uses locale; admin variant forces EN. View Payment CTA only when variant=withPaymentLink.`;
+  } else if (def.id === 'festival_marketing_email_target') {
+    els.annotation.hidden = false;
+    els.annotation.innerHTML =
+      `<strong>PREVIEW ANNOTATION</strong> — Author body + festival assets. Unsubscribe URL is SAMPLE (example.com). organizer_announcement excluded from Phase 1.`;
   } else {
     els.annotation.hidden = true;
     els.annotation.textContent = '';

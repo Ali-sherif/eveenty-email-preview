@@ -1,0 +1,2570 @@
+{
+  "generatedAt": "2026-09-23T22:26:31.191Z",
+  "previewUrl": "http://localhost:4173/",
+  "note": "Browser Chromium QA only. Gmail/Outlook/Apple Mail NOT EXECUTED.",
+  "total": 40,
+  "passed": 40,
+  "failed": 0,
+  "results": [
+    {
+      "id": "activate_email",
+      "locale": "en",
+      "variant": "default",
+      "view": "desktop-800",
+      "tag": null,
+      "file": "activate_email-en-desktop-800.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "heading-600",
+          "ok": true,
+          "detail": "Activation heading weight"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=600"
+        },
+        {
+          "name": "cta-touch-approx",
+          "ok": true,
+          "detail": "h=51"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 600,
+        "ctaH": 51,
+        "ctaW": 237,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\nWelcome to Eveenty!\n\nHello Alex 👋,\n\nThank you for creating your Eveenty account. To get started, please activate your"
+      }
+    },
+    {
+      "id": "activate_email",
+      "locale": "en",
+      "variant": "default",
+      "view": "mobile-375",
+      "tag": null,
+      "file": "activate_email-en-mobile-375.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "heading-600",
+          "ok": true,
+          "detail": "Activation heading weight"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=359"
+        },
+        {
+          "name": "cta-touch-approx",
+          "ok": true,
+          "detail": "h=51"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 359,
+        "ctaH": 51,
+        "ctaW": 205,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\nWelcome to Eveenty!\n\nHello Alex 👋,\n\nThank you for creating your Eveenty account. To get started, please activate your"
+      }
+    },
+    {
+      "id": "festival_ticket_sale",
+      "locale": "en",
+      "variant": "buyerUser",
+      "view": "desktop-800",
+      "tag": null,
+      "file": "festival_ticket_sale-en-desktop-800.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "qr-fixture",
+          "ok": true,
+          "detail": "QR present"
+        },
+        {
+          "name": "wallet-links",
+          "ok": true,
+          "detail": "wallet"
+        },
+        {
+          "name": "totals",
+          "ok": true,
+          "detail": "totals"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=600"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 600,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nHello Alex User,\n\nWe have received your registration for the event Summer Music Festival 2026.\n\nTo claim your entry, "
+      }
+    },
+    {
+      "id": "festival_ticket_sale",
+      "locale": "en",
+      "variant": "buyerUser",
+      "view": "tablet-768",
+      "tag": null,
+      "file": "festival_ticket_sale-en-tablet-768.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "qr-fixture",
+          "ok": true,
+          "detail": "QR present"
+        },
+        {
+          "name": "wallet-links",
+          "ok": true,
+          "detail": "wallet"
+        },
+        {
+          "name": "totals",
+          "ok": true,
+          "detail": "totals"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=600"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 600,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nHello Alex User,\n\nWe have received your registration for the event Summer Music Festival 2026.\n\nTo claim your entry, "
+      }
+    },
+    {
+      "id": "festival_ticket_sale",
+      "locale": "en",
+      "variant": "buyerUser",
+      "view": "mobile-414",
+      "tag": null,
+      "file": "festival_ticket_sale-en-mobile-414.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "qr-fixture",
+          "ok": true,
+          "detail": "QR present"
+        },
+        {
+          "name": "wallet-links",
+          "ok": true,
+          "detail": "wallet"
+        },
+        {
+          "name": "totals",
+          "ok": true,
+          "detail": "totals"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=398"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 398,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nHello Alex User,\n\nWe have received your registration for the event Summer Music Festival 2026.\n\nTo claim your entry, "
+      }
+    },
+    {
+      "id": "festival_ticket_sale",
+      "locale": "en",
+      "variant": "buyerUser",
+      "view": "mobile-375",
+      "tag": null,
+      "file": "festival_ticket_sale-en-mobile-375.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "qr-fixture",
+          "ok": true,
+          "detail": "QR present"
+        },
+        {
+          "name": "wallet-links",
+          "ok": true,
+          "detail": "wallet"
+        },
+        {
+          "name": "totals",
+          "ok": true,
+          "detail": "totals"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=359"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 359,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nHello Alex User,\n\nWe have received your registration for the event Summer Music Festival 2026.\n\nTo claim your entry, "
+      }
+    },
+    {
+      "id": "festival_ticket_sale",
+      "locale": "en",
+      "variant": "buyerUser",
+      "view": "mobile-320",
+      "tag": null,
+      "file": "festival_ticket_sale-en-mobile-320.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "qr-fixture",
+          "ok": true,
+          "detail": "QR present"
+        },
+        {
+          "name": "wallet-links",
+          "ok": true,
+          "detail": "wallet"
+        },
+        {
+          "name": "totals",
+          "ok": true,
+          "detail": "totals"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=304"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 304,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nHello Alex User,\n\nWe have received your registration for the event Summer Music Festival 2026.\n\nTo claim your entry, "
+      }
+    },
+    {
+      "id": "festival_ticket_sale",
+      "locale": "fr",
+      "variant": "buyerUser",
+      "view": "desktop-800",
+      "tag": null,
+      "file": "festival_ticket_sale-fr-desktop-800.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "qr-fixture",
+          "ok": true,
+          "detail": "QR present"
+        },
+        {
+          "name": "wallet-links",
+          "ok": true,
+          "detail": "wallet"
+        },
+        {
+          "name": "totals",
+          "ok": true,
+          "detail": "totals"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=600"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 600,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nBonjour Alex User,\n\nNous avons bien reçu votre inscription à l'événement Summer Music Festival 2026.\n\nPour accéder à "
+      }
+    },
+    {
+      "id": "festival_ticket_sale",
+      "locale": "es",
+      "variant": "buyerUser",
+      "view": "desktop-800",
+      "tag": null,
+      "file": "festival_ticket_sale-es-desktop-800.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "qr-fixture",
+          "ok": true,
+          "detail": "QR present"
+        },
+        {
+          "name": "wallet-links",
+          "ok": true,
+          "detail": "wallet"
+        },
+        {
+          "name": "totals",
+          "ok": true,
+          "detail": "totals"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=600"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 600,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 65,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nHola Alex User,\n\nHemos recibido tu registro para el evento Summer Music Festival 2026.\n\nPara reclamar tu entrada, por"
+      }
+    },
+    {
+      "id": "festival_ticket_sale",
+      "locale": "ar",
+      "variant": "buyerUser",
+      "view": "desktop-800",
+      "tag": null,
+      "file": "festival_ticket_sale-ar-desktop-800.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "rtl-dir",
+          "ok": true,
+          "detail": "RTL html dir"
+        },
+        {
+          "name": "qr-fixture",
+          "ok": true,
+          "detail": "QR present"
+        },
+        {
+          "name": "wallet-links",
+          "ok": true,
+          "detail": "wallet"
+        },
+        {
+          "name": "totals",
+          "ok": true,
+          "detail": "totals"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=600"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 600,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nمرحباً Alex User،\n\nلقد استلمنا تسجيلك في الفعالية Summer Music Festival 2026.\n\nلاستخدام تذكرتك، يرجى إحضار نسخة من ال"
+      }
+    },
+    {
+      "id": "festival_ticket_sale",
+      "locale": "ar",
+      "variant": "buyerUser",
+      "view": "mobile-375",
+      "tag": null,
+      "file": "festival_ticket_sale-ar-mobile-375.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "rtl-dir",
+          "ok": true,
+          "detail": "RTL html dir"
+        },
+        {
+          "name": "qr-fixture",
+          "ok": true,
+          "detail": "QR present"
+        },
+        {
+          "name": "wallet-links",
+          "ok": true,
+          "detail": "wallet"
+        },
+        {
+          "name": "totals",
+          "ok": true,
+          "detail": "totals"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=359"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 359,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nمرحباً Alex User،\n\nلقد استلمنا تسجيلك في الفعالية Summer Music Festival 2026.\n\nلاستخدام تذكرتك، يرجى إحضار نسخة من ال"
+      }
+    },
+    {
+      "id": "festival_ticket_sale",
+      "locale": "fa",
+      "variant": "guestUser",
+      "view": "desktop-800",
+      "tag": null,
+      "file": "festival_ticket_sale-fa-desktop-800.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "rtl-dir",
+          "ok": true,
+          "detail": "RTL html dir"
+        },
+        {
+          "name": "qr-fixture",
+          "ok": true,
+          "detail": "QR present"
+        },
+        {
+          "name": "wallet-links",
+          "ok": true,
+          "detail": "wallet"
+        },
+        {
+          "name": "totals",
+          "ok": true,
+          "detail": "totals"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=600"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 600,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nسلام Jordan Guest،\n\nAlex User برای شما بلیت رویداد Summer Music Festival 2026.\n\nبرای ورود به رویداد، لطفاً یک نسخه از"
+      }
+    },
+    {
+      "id": "festival_ticket_sale",
+      "locale": "fa",
+      "variant": "guestUser",
+      "view": "mobile-320",
+      "tag": null,
+      "file": "festival_ticket_sale-fa-mobile-320.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "rtl-dir",
+          "ok": true,
+          "detail": "RTL html dir"
+        },
+        {
+          "name": "qr-fixture",
+          "ok": true,
+          "detail": "QR present"
+        },
+        {
+          "name": "wallet-links",
+          "ok": true,
+          "detail": "wallet"
+        },
+        {
+          "name": "totals",
+          "ok": true,
+          "detail": "totals"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=304"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 304,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nسلام Jordan Guest،\n\nAlex User برای شما بلیت رویداد Summer Music Festival 2026.\n\nبرای ورود به رویداد، لطفاً یک نسخه از"
+      }
+    },
+    {
+      "id": "festival_ticket_sale",
+      "locale": "en",
+      "variant": "guestUser",
+      "view": "desktop-800",
+      "tag": "guest",
+      "file": "festival_ticket_sale-en-desktop-800-guest.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "qr-fixture",
+          "ok": true,
+          "detail": "QR present"
+        },
+        {
+          "name": "wallet-links",
+          "ok": true,
+          "detail": "wallet"
+        },
+        {
+          "name": "totals",
+          "ok": true,
+          "detail": "totals"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=600"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 600,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nHello Jordan Guest,\n\nAlex User has bought you a ticket at the Summer Music Festival 2026.\n\nTo claim your entry, pleas"
+      }
+    },
+    {
+      "id": "festival_ticket_sale",
+      "locale": "en",
+      "variant": "buyerUser",
+      "view": "mobile-320",
+      "tag": "long",
+      "file": "festival_ticket_sale-en-mobile-320-long.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "qr-fixture",
+          "ok": true,
+          "detail": "QR present"
+        },
+        {
+          "name": "wallet-links",
+          "ok": true,
+          "detail": "wallet"
+        },
+        {
+          "name": "totals",
+          "ok": true,
+          "detail": "totals"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=304"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 304,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nHello Alex User,\n\nWe have received your registration for the event Summer Music Festival 2026 — Extended Preview Titl"
+      }
+    },
+    {
+      "id": "festival_ticket_sale",
+      "locale": "en",
+      "variant": "buyerUser",
+      "view": "desktop-800",
+      "tag": "blocked",
+      "file": "festival_ticket_sale-en-desktop-800-blocked.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "wallet-links",
+          "ok": true,
+          "detail": "wallet"
+        },
+        {
+          "name": "totals",
+          "ok": true,
+          "detail": "totals"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=600"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 600,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": null,
+        "logoH": null,
+        "overflowX": false,
+        "bodyTextSample": "[blocked image]\nEveenty\n\n\nHello Alex User,\n\nWe have received your registration for the event Summer Music Festival 2026."
+      }
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "en",
+      "variant": "organizer",
+      "view": "desktop-800",
+      "tag": null,
+      "file": "dispute_notification-en-desktop-800.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "details-table",
+          "ok": true,
+          "detail": "details"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=600"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 600,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nDear Alex,\n\n\n\n⚠️ New Dispute Alert\n\nA new dispute has been filed for your event Summer Music Festival 2026. Please re"
+      }
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "en",
+      "variant": "organizer",
+      "view": "tablet-768",
+      "tag": null,
+      "file": "dispute_notification-en-tablet-768.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "details-table",
+          "ok": true,
+          "detail": "details"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=600"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 600,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nDear Alex,\n\n\n\n⚠️ New Dispute Alert\n\nA new dispute has been filed for your event Summer Music Festival 2026. Please re"
+      }
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "en",
+      "variant": "organizer",
+      "view": "mobile-414",
+      "tag": null,
+      "file": "dispute_notification-en-mobile-414.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "details-table",
+          "ok": true,
+          "detail": "details"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=398"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 398,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nDear Alex,\n\n\n\n⚠️ New Dispute Alert\n\nA new dispute has been filed for your event Summer Music Festival 2026. Please re"
+      }
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "en",
+      "variant": "organizer",
+      "view": "mobile-375",
+      "tag": null,
+      "file": "dispute_notification-en-mobile-375.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "details-table",
+          "ok": true,
+          "detail": "details"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=359"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 359,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nDear Alex,\n\n\n\n⚠️ New Dispute Alert\n\nA new dispute has been filed for your event Summer Music Festival 2026. Please re"
+      }
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "en",
+      "variant": "organizer",
+      "view": "mobile-320",
+      "tag": null,
+      "file": "dispute_notification-en-mobile-320.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "details-table",
+          "ok": true,
+          "detail": "details"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=304"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 304,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nDear Alex,\n\n\n\n⚠️ New Dispute Alert\n\nA new dispute has been filed for your event Summer Music Festival 2026. Please re"
+      }
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "fr",
+      "variant": "organizer",
+      "view": "desktop-800",
+      "tag": null,
+      "file": "dispute_notification-fr-desktop-800.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "details-table",
+          "ok": true,
+          "detail": "details"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=600"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 600,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nCher/Chère Alex,\n\n\n\n⚠️ Nouvelle Alerte de Litige\n\nUn nouveau litige a été déposé pour votre événement Summer Music Fe"
+      }
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "es",
+      "variant": "organizer",
+      "view": "desktop-800",
+      "tag": null,
+      "file": "dispute_notification-es-desktop-800.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "details-table",
+          "ok": true,
+          "detail": "details"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=600"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 600,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 65,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nEstimado/a Alex,\n\n\n\n⚠️ Nueva Alerta de Disputa\n\nSe ha presentado una nueva disputa para tu evento Summer Music Festiv"
+      }
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "ar",
+      "variant": "organizer",
+      "view": "desktop-800",
+      "tag": null,
+      "file": "dispute_notification-ar-desktop-800.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "rtl-dir",
+          "ok": true,
+          "detail": "RTL html dir"
+        },
+        {
+          "name": "details-table",
+          "ok": true,
+          "detail": "details"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=600"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 600,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nمرحباً Alex,\n\n\n\n⚠️ تنبيه: نزاع جديد\n\nتم تقديم نزاع جديد بشأن فعاليتك Summer Music Festival 2026. يرجى مراجعة التفاصيل"
+      }
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "ar",
+      "variant": "organizer",
+      "view": "mobile-375",
+      "tag": null,
+      "file": "dispute_notification-ar-mobile-375.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "rtl-dir",
+          "ok": true,
+          "detail": "RTL html dir"
+        },
+        {
+          "name": "details-table",
+          "ok": true,
+          "detail": "details"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=359"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 359,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nمرحباً Alex,\n\n\n\n⚠️ تنبيه: نزاع جديد\n\nتم تقديم نزاع جديد بشأن فعاليتك Summer Music Festival 2026. يرجى مراجعة التفاصيل"
+      }
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "fa",
+      "variant": "organizer",
+      "view": "desktop-800",
+      "tag": null,
+      "file": "dispute_notification-fa-desktop-800.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "rtl-dir",
+          "ok": true,
+          "detail": "RTL html dir"
+        },
+        {
+          "name": "details-table",
+          "ok": true,
+          "detail": "details"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=600"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 600,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nبا سلام Alex,\n\n\n\n⚠️ هشدار: اعتراض جدید\n\nیک اعتراض جدید برای رویداد شما Summer Music Festival 2026 ثبت شده است. لطفاً "
+      }
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "fa",
+      "variant": "organizer",
+      "view": "mobile-320",
+      "tag": null,
+      "file": "dispute_notification-fa-mobile-320.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "rtl-dir",
+          "ok": true,
+          "detail": "RTL html dir"
+        },
+        {
+          "name": "details-table",
+          "ok": true,
+          "detail": "details"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=304"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 304,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nبا سلام Alex,\n\n\n\n⚠️ هشدار: اعتراض جدید\n\nیک اعتراض جدید برای رویداد شما Summer Music Festival 2026 ثبت شده است. لطفاً "
+      }
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "en",
+      "variant": "admin",
+      "view": "desktop-800",
+      "tag": "admin",
+      "file": "dispute_notification-en-desktop-800-admin.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "details-table",
+          "ok": true,
+          "detail": "details"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=600"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 600,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nDear Admin,\n\n\n\n⚠️ New Dispute Alert\n\nA new dispute has been filed for your event Summer Music Festival 2026. Please r"
+      }
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "en",
+      "variant": "withPaymentLink",
+      "view": "desktop-800",
+      "tag": "cta",
+      "file": "dispute_notification-en-desktop-800-cta.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "details-table",
+          "ok": true,
+          "detail": "details"
+        },
+        {
+          "name": "yellow-cta",
+          "ok": true,
+          "detail": "yellow CTA"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=600"
+        },
+        {
+          "name": "cta-touch-approx",
+          "ok": true,
+          "detail": "h=51"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 600,
+        "ctaH": 51,
+        "ctaW": 256,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nDear Alex,\n\n\n\n⚠️ New Dispute Alert\n\nA new dispute has been filed for your event Summer Music Festival 2026. Please re"
+      }
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "en",
+      "variant": "withPaymentLink",
+      "view": "mobile-375",
+      "tag": "cta",
+      "file": "dispute_notification-en-mobile-375-cta.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "details-table",
+          "ok": true,
+          "detail": "details"
+        },
+        {
+          "name": "yellow-cta",
+          "ok": true,
+          "detail": "yellow CTA"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=359"
+        },
+        {
+          "name": "cta-touch-approx",
+          "ok": true,
+          "detail": "h=51"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 359,
+        "ctaH": 51,
+        "ctaW": 224,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nDear Alex,\n\n\n\n⚠️ New Dispute Alert\n\nA new dispute has been filed for your event Summer Music Festival 2026. Please re"
+      }
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "en",
+      "variant": "stripeConnect",
+      "view": "desktop-800",
+      "tag": "stripe",
+      "file": "dispute_notification-en-desktop-800-stripe.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "details-table",
+          "ok": true,
+          "detail": "details"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=600"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 600,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nDear Alex,\n\n\n\n⚠️ New Dispute Alert\n\nA new dispute has been filed for your event Summer Music Festival 2026. Please re"
+      }
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "en",
+      "variant": "noEvidence",
+      "view": "desktop-800",
+      "tag": "no-evidence",
+      "file": "dispute_notification-en-desktop-800-no-evidence.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "details-table",
+          "ok": true,
+          "detail": "details"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=600"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 600,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nDear Alex,\n\n\n\n⚠️ New Dispute Alert\n\nA new dispute has been filed for your event Summer Music Festival 2026. Please re"
+      }
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "en",
+      "variant": "organizer",
+      "view": "mobile-320",
+      "tag": "long",
+      "file": "dispute_notification-en-mobile-320-long.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": "nominal logo width"
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": "canonical header bg"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "details-table",
+          "ok": true,
+          "detail": "details"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=304"
+        },
+        {
+          "name": "logo-display-160",
+          "ok": true,
+          "detail": "w=160"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 304,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 160,
+        "logoH": 64,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nDear Alex,\n\n\n\n⚠️ New Dispute Alert\n\nA new dispute has been filed for your event Summer Music Festival 2026. Please re"
+      }
+    },
+    {
+      "id": "festival_marketing_email_target",
+      "locale": "en",
+      "variant": "default",
+      "view": "desktop-800",
+      "tag": null,
+      "file": "festival_marketing_email_target-en-desktop-800.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "festival-logo-slot",
+          "ok": true,
+          "detail": "festival logo fixture"
+        },
+        {
+          "name": "unsubscribe-present",
+          "ok": true,
+          "detail": "production unsubscribe"
+        },
+        {
+          "name": "no-invented-legal",
+          "ok": true,
+          "detail": "no invented legal"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=600"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 600,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 200,
+        "logoH": 80,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nJoin us at Summer Music Festival 2026 — early-bird weekend passes are open. SAMPLE campaign body from organizer (auth"
+      }
+    },
+    {
+      "id": "festival_marketing_email_target",
+      "locale": "en",
+      "variant": "default",
+      "view": "tablet-768",
+      "tag": null,
+      "file": "festival_marketing_email_target-en-tablet-768.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "festival-logo-slot",
+          "ok": true,
+          "detail": "festival logo fixture"
+        },
+        {
+          "name": "unsubscribe-present",
+          "ok": true,
+          "detail": "production unsubscribe"
+        },
+        {
+          "name": "no-invented-legal",
+          "ok": true,
+          "detail": "no invented legal"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=600"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 600,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 200,
+        "logoH": 80,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nJoin us at Summer Music Festival 2026 — early-bird weekend passes are open. SAMPLE campaign body from organizer (auth"
+      }
+    },
+    {
+      "id": "festival_marketing_email_target",
+      "locale": "en",
+      "variant": "default",
+      "view": "mobile-414",
+      "tag": null,
+      "file": "festival_marketing_email_target-en-mobile-414.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "festival-logo-slot",
+          "ok": true,
+          "detail": "festival logo fixture"
+        },
+        {
+          "name": "unsubscribe-present",
+          "ok": true,
+          "detail": "production unsubscribe"
+        },
+        {
+          "name": "no-invented-legal",
+          "ok": true,
+          "detail": "no invented legal"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=398"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 398,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 200,
+        "logoH": 80,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nJoin us at Summer Music Festival 2026 — early-bird weekend passes are open. SAMPLE campaign body from organizer (auth"
+      }
+    },
+    {
+      "id": "festival_marketing_email_target",
+      "locale": "en",
+      "variant": "default",
+      "view": "mobile-375",
+      "tag": null,
+      "file": "festival_marketing_email_target-en-mobile-375.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "festival-logo-slot",
+          "ok": true,
+          "detail": "festival logo fixture"
+        },
+        {
+          "name": "unsubscribe-present",
+          "ok": true,
+          "detail": "production unsubscribe"
+        },
+        {
+          "name": "no-invented-legal",
+          "ok": true,
+          "detail": "no invented legal"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=359"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 359,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 200,
+        "logoH": 80,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nJoin us at Summer Music Festival 2026 — early-bird weekend passes are open. SAMPLE campaign body from organizer (auth"
+      }
+    },
+    {
+      "id": "festival_marketing_email_target",
+      "locale": "en",
+      "variant": "default",
+      "view": "mobile-320",
+      "tag": null,
+      "file": "festival_marketing_email_target-en-mobile-320.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "festival-logo-slot",
+          "ok": true,
+          "detail": "festival logo fixture"
+        },
+        {
+          "name": "unsubscribe-present",
+          "ok": true,
+          "detail": "production unsubscribe"
+        },
+        {
+          "name": "no-invented-legal",
+          "ok": true,
+          "detail": "no invented legal"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=304"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 304,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 179,
+        "logoH": 72,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nJoin us at Summer Music Festival 2026 — early-bird weekend passes are open. SAMPLE campaign body from organizer (auth"
+      }
+    },
+    {
+      "id": "festival_marketing_email_target",
+      "locale": "en",
+      "variant": "default",
+      "view": "mobile-320",
+      "tag": "long",
+      "file": "festival_marketing_email_target-en-mobile-320-long.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "festival-logo-slot",
+          "ok": true,
+          "detail": "festival logo fixture"
+        },
+        {
+          "name": "unsubscribe-present",
+          "ok": true,
+          "detail": "production unsubscribe"
+        },
+        {
+          "name": "no-invented-legal",
+          "ok": true,
+          "detail": "no invented legal"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=304"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 304,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": 179,
+        "logoH": 72,
+        "overflowX": false,
+        "bodyTextSample": "\n\n\nJoin us at Summer Music Festival 2026 — early-bird weekend passes are open. SAMPLE campaign body from organizer (auth"
+      }
+    },
+    {
+      "id": "festival_marketing_email_target",
+      "locale": "en",
+      "variant": "default",
+      "view": "desktop-800",
+      "tag": "blocked",
+      "file": "festival_marketing_email_target-en-desktop-800-blocked.png",
+      "pass": true,
+      "checks": [
+        {
+          "name": "blocked-fallback",
+          "ok": true,
+          "detail": "blocked image alt"
+        },
+        {
+          "name": "unsubscribe-present",
+          "ok": true,
+          "detail": "production unsubscribe"
+        },
+        {
+          "name": "no-invented-legal",
+          "ok": true,
+          "detail": "no invented legal"
+        },
+        {
+          "name": "no-visible-preheader-bar",
+          "ok": true,
+          "detail": "no body preheader bar"
+        },
+        {
+          "name": "hidden-preheader",
+          "ok": true,
+          "detail": "hidden preheader present"
+        },
+        {
+          "name": "container-max-600",
+          "ok": true,
+          "detail": "w=600"
+        },
+        {
+          "name": "no-overflow-x",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "measurements": {
+        "containerW": 600,
+        "ctaH": null,
+        "ctaW": null,
+        "logoW": null,
+        "logoH": null,
+        "overflowX": false,
+        "bodyTextSample": "[blocked image]\nSAMPLE festival logo\n\n\nJoin us at Summer Music Festival 2026 — early-bird weekend passes are open. SAMPL"
+      }
+    }
+  ]
+}

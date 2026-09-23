@@ -1,0 +1,30 @@
+[
+  {
+    "value": "activate_email",
+    "label": "Auth / Simple — activate_email"
+  },
+  {
+    "value": "festival_donation",
+    "label": "Financial / Receipt — festival_donation"
+  },
+  {
+    "value": "festival_ticket_sale",
+    "label": "Ticket / Pass — festival_ticket_sale"
+  },
+  {
+    "value": "festival_ticket_registration_approval",
+    "label": "Workflow / Status — registration_approval"
+  },
+  {
+    "value": "support",
+    "label": "Internal / Operational — support"
+  },
+  {
+    "value": "dispute_notification",
+    "label": "Workflow / Status — dispute_notification"
+  },
+  {
+    "value": "festival_marketing_email_target",
+    "label": "Campaign / Announcement — festival_marketing_email_target"
+  }
+]

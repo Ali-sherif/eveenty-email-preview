@@ -15,23 +15,24 @@
   <style type="text/css">
     body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
     table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
-    img { -ms-interpolation-mode: bicubic; border: 0; outline: none; text-decoration: none; }
+    img { -ms-interpolation-mode: bicubic; border: 0; outline: none; text-decoration: none; max-width: 100%; height: auto; }
+    .email-container { width: 100% !important; max-width: 600px !important; }
     @media only screen and (max-width: 620px) {
       .email-container { width: 100% !important; max-width: 100% !important; }
       .stack-col { display: block !important; width: 100% !important; max-width: 100% !important; }
       .stack-pad { padding-left: 16px !important; padding-right: 16px !important; }
-      .wallet-btn { display: block !important; width: 100% !important; margin: 0 0 8px 0 !important; text-align: center !important; }
-      /* Narrow viewports: keep Activation CTA on one line without shrinking below 16px */
+      .wallet-btn { display: block !important; width: 100% !important; max-width: 100% !important; margin: 0 0 8px 0 !important; text-align: center !important; padding-left: 0 !important; padding-right: 0 !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !important; }
+      .outer-pad { padding-left: 8px !important; padding-right: 8px !important; }
     }
   </style>
 </head>
-<body style="margin:0;padding:0;background-color:#f9f9f9;font-family:'Roboto', Arial, Helvetica, Tahoma, sans-serif;">
+<body style="margin:0;padding:0;width:100%;max-width:100%;overflow-x:hidden;background-color:#f9f9f9;font-family:'Roboto', Arial, Helvetica, Tahoma, sans-serif;">
   <div style="display:none;font-size:1px;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;mso-hide:all;">Activate your Eveenty account to get started.</div>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f9f9f9;margin:0;padding:0;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f9f9f9;margin:0;padding:0;width:100%;max-width:100%;table-layout:fixed;">
     <tr>
-      <td align="center" style="padding:40px 16px;">
-        <table role="presentation" class="email-container" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background-color:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+      <td align="center" class="outer-pad" style="padding:40px 16px;width:100%;max-width:100%;">
+        <table role="presentation" class="email-container" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background-color:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 2px 4px rgba(0,0,0,0.1);table-layout:fixed;">
           
     
     <tr>

@@ -49,9 +49,96 @@ export function visiblePreheaderBar(text, dir = 'ltr') {
 }
 
 /**
+ * Warning / dispute status alert (Notification family).
+ * Colors aligned to Activation-approved neutrals + semantic warning chrome.
+ */
+export function statusAlertWarning({ title, bodyHtml, dir = 'ltr' } = {}) {
+  const align = dir === 'rtl' ? 'right' : 'left';
+  return `
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#fffbeb;border:1px solid #fde68a;border-radius:8px;">
+      <tr>
+        <td align="${align}" style="padding:20px;font-family:${T.fontStack};">
+          <h2 style="margin:0 0 12px 0;font-size:18px;font-weight:600;line-height:1.3;color:#856404;">${esc(title)}</h2>
+          <p style="margin:0;font-size:15px;font-weight:500;line-height:1.5;color:#856404;">${bodyHtml}</p>
+        </td>
+      </tr>
+    </table>`;
+}
+
+/** Magenta-accent “what happens next” panel for Notification emails. */
+export function nextStepsPanel({ title, bodyHtml, dir = 'ltr' } = {}) {
+  const align = dir === 'rtl' ? 'right' : 'left';
+  return `
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#fdf2f8;border:1px solid #fbcfe8;border-radius:8px;">
+      <tr>
+        <td align="${align}" style="padding:20px;font-family:${T.fontStack};">
+          <h3 style="margin:0 0 12px 0;font-size:17px;font-weight:600;line-height:1.3;color:${T.secondary};">${esc(title)}</h3>
+          <p style="margin:0;font-size:15px;line-height:1.5;color:${T.secondary};">${bodyHtml}</p>
+        </td>
+      </tr>
+    </table>`;
+}
+
+/** Two-column details table (dispute / notification). */
+export function detailsTable({ headers, rows, dir = 'ltr' } = {}) {
+  const align = dir === 'rtl' ? 'right' : 'left';
+  const [hField, hDetails] = headers;
+  const body = rows
+    .map(
+      ([label, valueHtml], i) => `
+    <tr style="border-bottom:1px solid ${T.border};">
+      <td align="${align}" style="padding:14px 16px;font-family:${T.fontStack};font-size:14px;font-weight:600;color:${T.heading};background-color:${T.light100};width:35%;border-bottom:1px solid ${T.border};">${esc(label)}</td>
+      <td align="${align}" style="padding:14px 16px;font-family:${T.fontStack};font-size:14px;color:${T.body};border-bottom:1px solid ${T.border};">${valueHtml}</td>
+    </tr>`
+    )
+    .join('');
+  return `
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:100%;border:1px solid ${T.border};border-radius:8px;overflow:hidden;">
+      <tr>
+        <th align="${align}" style="padding:14px 16px;font-family:${T.fontStack};font-size:14px;font-weight:600;color:${T.heading};background-color:${T.primary};border-bottom:2px solid ${T.border};">${esc(hField)}</th>
+        <th align="${align}" style="padding:14px 16px;font-family:${T.fontStack};font-size:14px;font-weight:600;color:${T.heading};background-color:${T.primary};border-bottom:2px solid ${T.border};">${esc(hDetails)}</th>
+      </tr>
+      ${body}
+    </table>`;
+}
+
+/**
+ * Marketing campaign header — production uses festival logo, not Eveenty brand header.
+ * Keep Eveenty localized logos out of this slot.
+ */
+export function marketingFestivalHeader({ logoSrc, alt = 'Festival logo' } = {}) {
+  return `
+    <tr>
+      <td align="center" style="background-color:${T.surface};padding:28px 24px 12px 24px;">
+        <img src="${logoSrc}" alt="${esc(alt)}" width="200" height="80" style="display:block;width:200px;max-width:70%;height:auto;border:0;outline:none;margin:0 auto;" />
+      </td>
+    </tr>`;
+}
+
+/**
+ * Marketing footer matching festival_marketing_email_target.template fields:
+ * Powered by Eveenty + preferences + existing unsubscribe link.
+ * Do not invent additional legal slots beyond the production template.
+ */
+export function marketingCampaignFooter({ unsubscribeUrl } = {}) {
+  return `
+    <tr>
+      <td align="center" style="background-color:#777777;padding:20px 24px;font-family:${T.fontStack};">
+        <p style="margin:0 0 10px 0;font-size:14px;font-weight:700;color:#ffffff;">Powered by Eveenty</p>
+        <p style="margin:0;font-size:13px;line-height:1.6;color:#ffffff;">
+          Want to change how you receive these emails?<br>
+          You can update your preferences<br>
+          or <a href="${esc(unsubscribeUrl)}" style="color:#ffffff;text-decoration:underline;">unsubscribe</a> from this list.
+        </p>
+      </td>
+    </tr>`;
+}
+
+/**
  * Branded header band (canonical primary-50 #FEFDF4).
  * logoWidth: Account Activation owner-approved nominal width is 160px.
- * Other templates keep prior ~200 until their own visual decisions close.
+ * Task 03 seven-email set passes logoWidth:160 explicitly on each branded template.
+ * Default 200 retained only for any future deferred catalog templates.
  */
 export function brandedHeader({ locale = 'en', dir = 'ltr', logoWidth = 200 } = {}) {
   const src = logoUrl(locale);
@@ -153,10 +240,10 @@ export function primaryCtaMagenta({ href, label }) {
     </table>`;
 }
 
-export function sectionTitle({ title, dir = 'ltr' }) {
+export function sectionTitle({ title, dir = 'ltr', fontFamily = T.fontStack, fontWeight = 700 } = {}) {
   const borderSide = dir === 'rtl' ? 'border-right' : 'border-left';
   const padSide = dir === 'rtl' ? 'padding-right' : 'padding-left';
-  return `<p style="margin:0 0 12px 0;font-family:${T.fontStack};font-size:18px;font-weight:700;color:${T.heading};${borderSide}:4px solid ${T.secondary};${padSide}:12px;line-height:1.3;">${esc(title)}</p>`;
+  return `<p style="margin:0 0 12px 0;font-family:${fontFamily};font-size:18px;font-weight:${fontWeight};color:${T.heading};${borderSide}:4px solid ${T.secondary};${padSide}:12px;line-height:1.3;">${esc(title)}</p>`;
 }
 
 export function kvRow(label, value, dir = 'ltr') {
@@ -185,23 +272,24 @@ export function wrapEmailDocument({ lang, dir, title, bodyRows, preheader, fontF
   <style type="text/css">
     body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
     table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
-    img { -ms-interpolation-mode: bicubic; border: 0; outline: none; text-decoration: none; }
+    img { -ms-interpolation-mode: bicubic; border: 0; outline: none; text-decoration: none; max-width: 100%; height: auto; }
+    .email-container { width: 100% !important; max-width: 600px !important; }
     @media only screen and (max-width: 620px) {
       .email-container { width: 100% !important; max-width: 100% !important; }
       .stack-col { display: block !important; width: 100% !important; max-width: 100% !important; }
       .stack-pad { padding-left: 16px !important; padding-right: 16px !important; }
-      .wallet-btn { display: block !important; width: 100% !important; margin: 0 0 8px 0 !important; text-align: center !important; }
-      /* Narrow viewports: keep Activation CTA on one line without shrinking below 16px */
+      .wallet-btn { display: block !important; width: 100% !important; max-width: 100% !important; margin: 0 0 8px 0 !important; text-align: center !important; padding-left: 0 !important; padding-right: 0 !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !important; }
+      .outer-pad { padding-left: 8px !important; padding-right: 8px !important; }
     }
   </style>
 </head>
-<body style="margin:0;padding:0;background-color:${T.viewport};font-family:${fontFamily};${dir === 'rtl' ? 'direction:rtl;' : ''}">
+<body style="margin:0;padding:0;width:100%;max-width:100%;overflow-x:hidden;background-color:${T.viewport};font-family:${fontFamily};${dir === 'rtl' ? 'direction:rtl;' : ''}">
   ${hiddenPreheader(preheader)}
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:${T.viewport};margin:0;padding:0;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:${T.viewport};margin:0;padding:0;width:100%;max-width:100%;table-layout:fixed;">
     <tr>
-      <td align="center" style="padding:40px 16px;">
-        <table role="presentation" class="email-container" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background-color:${T.surface};border-radius:8px;overflow:hidden;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+      <td align="center" class="outer-pad" style="padding:40px 16px;width:100%;max-width:100%;">
+        <table role="presentation" class="email-container" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background-color:${T.surface};border-radius:8px;overflow:hidden;box-shadow:0 2px 4px rgba(0,0,0,0.1);table-layout:fixed;">
           ${bodyRows}
         </table>
       </td>

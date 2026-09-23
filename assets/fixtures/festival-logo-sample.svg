@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="400" height="160" viewBox="0 0 400 160">
+  <rect width="400" height="160" fill="#FEFDF4"/>
+  <rect x="16" y="16" width="368" height="128" rx="12" fill="#E9D023"/>
+  <text x="200" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#4D4C49">SAMPLE FESTIVAL</text>
+  <text x="200" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#4D4C49">Logo fixture — not production art</text>
+</svg>
