@@ -48,13 +48,21 @@ export function visiblePreheaderBar(text, dir = 'ltr') {
     </tr>`;
 }
 
-export function brandedHeader({ locale = 'en', dir = 'ltr' } = {}) {
+/**
+ * Branded header band (canonical primary-50 #FEFDF4).
+ * logoWidth: Account Activation owner-approved nominal width is 160px.
+ * Other templates keep prior ~200 until their own visual decisions close.
+ */
+export function brandedHeader({ locale = 'en', dir = 'ltr', logoWidth = 200 } = {}) {
   const src = logoUrl(locale);
   const alt = LOGO_ALT[locale] || LOGO_ALT.en;
+  const w = Number(logoWidth) || 200;
+  // Proportional height from owner PNG canvas (EN/FR/AR/FA 3014×1208; ES 2958×1208)
+  const h = locale === 'es' ? Math.round((w * 1208) / 2958) : Math.round((w * 1208) / 3014);
   return `
     <tr>
       <td align="center" style="background-color:${T.primary50};padding:32px 24px 16px 24px;">
-        <img src="${src}" alt="${esc(alt)}" width="200" height="80" style="display:block;width:200px;max-width:200px;height:auto;border:0;outline:none;text-decoration:none;" />
+        <img src="${src}" alt="${esc(alt)}" width="${w}" height="${h}" style="display:block;width:${w}px;max-width:${w}px;height:auto;border:0;outline:none;text-decoration:none;" />
         <!--[if mso]><p style="font-family:Arial,sans-serif;font-size:12px;color:${T.muted};">Eveenty</p><![endif]-->
       </td>
     </tr>`;

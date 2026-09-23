@@ -55,11 +55,13 @@ function renderActivate(L, dir, lang, longContent) {
   const headingFont = dir === 'rtl' ? T.fontBodyRtl : T.fontHeading;
   // Greeting markup mirrors production activate_email.template:
   //   {{ GreetingLead }} <bdi>{{ DisplayName }}</bdi> 👋,
+  // Owner-approved Activation visuals (2026-09-24): logo 160px, heading SemiBold 600,
+  // CTA yellow #E9D023/#4D4C49, header primary-50 #FEFDF4.
   const rows = `
-    ${brandedHeader({ locale: L.logo, dir })}
+    ${brandedHeader({ locale: L.logo, dir, logoWidth: 160 })}
     <tr>
       <td align="center" class="stack-pad" style="padding:40px 30px 30px 30px;background-color:${T.surface};">
-        <h1 style="margin:0 0 20px 0;font-family:${headingFont};font-size:24px;font-weight:700;line-height:1.3;color:${T.heading};text-align:center;">${esc(a.welcome)}</h1>
+        <h1 style="margin:0 0 20px 0;font-family:${headingFont};font-size:24px;font-weight:600;line-height:1.3;color:${T.heading};text-align:center;">${esc(a.welcome)}</h1>
         <p style="margin:0 0 20px 0;font-family:${bodyFont};font-size:16px;line-height:1.6;color:${T.body};text-align:center;">${esc(a.greeting)} <bdi>${esc(name)}</bdi> 👋,</p>
         <p style="margin:0;font-family:${bodyFont};font-size:16px;line-height:1.6;color:${T.body};text-align:center;">${esc(body)}</p>
       </td>

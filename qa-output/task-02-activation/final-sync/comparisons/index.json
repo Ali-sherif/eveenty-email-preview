@@ -1,0 +1,45 @@
+{
+  "pairs": [
+    {
+      "id": "en-desktop-800",
+      "figma": "figma/activate-en-desktop-800.png",
+      "browser": "screenshots/desktop-en-800-email.png"
+    },
+    {
+      "id": "fr-desktop-800",
+      "figma": "figma/activate-fr-desktop-800.png",
+      "browser": "screenshots/desktop-fr-800-email.png"
+    },
+    {
+      "id": "es-desktop-800",
+      "figma": "figma/activate-es-desktop-800.png",
+      "browser": "screenshots/desktop-es-800-email.png"
+    },
+    {
+      "id": "ar-desktop-800",
+      "figma": "figma/activate-ar-desktop-800.png",
+      "browser": "screenshots/desktop-ar-800-email.png"
+    },
+    {
+      "id": "fa-desktop-800",
+      "figma": "figma/activate-fa-desktop-800.png",
+      "browser": "screenshots/desktop-fa-800-email.png"
+    },
+    {
+      "id": "en-mobile-320",
+      "figma": "figma/activate-en-mobile-320.png",
+      "browser": "screenshots/mobile-en-320-email.png"
+    },
+    {
+      "id": "ar-mobile-375",
+      "figma": "figma/activate-ar-mobile-375.png",
+      "browser": "screenshots/mobile-ar-375-email.png"
+    },
+    {
+      "id": "fa-mobile-320",
+      "figma": "figma/activate-fa-mobile-320.png",
+      "browser": "screenshots/mobile-fa-320-email.png"
+    }
+  ],
+  "generatedAt": "2026-09-23T22:10:17.569Z"
+}
