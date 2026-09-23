@@ -73,11 +73,14 @@ export const LOCALES = {
     dir: 'ltr',
     logo: 'en',
     activate: {
+      // Exact strings from pkg/locales/translations/email/en.yaml (ActivateEmail*)
       title: 'Activate Your Eveenty Account',
       welcome: 'Welcome to Eveenty!',
       greeting: 'Hello',
       body: 'Thank you for creating your Eveenty account. To get started, please activate your account by clicking the button below.',
       button: 'Activate My Account',
+      footerLead: 'This message was sent to',
+      footerSuffix: '.',
       copyright: '© Eveenty. All rights reserved.',
     },
     donation: {
@@ -141,12 +144,15 @@ export const LOCALES = {
     dir: 'rtl',
     logo: 'ar',
     activate: {
-      title: 'تفعيل حساب إيفينتي',
-      welcome: 'مرحباً بك في إيفينتي!',
-      greeting: 'مرحباً',
-      body: 'شكراً لإنشاء حسابك في إيفينتي. للبدء، يرجى تفعيل حسابك بالنقر على الزر أدناه.',
+      // Exact strings from pkg/locales/translations/email/ar.yaml (ActivateEmail*)
+      title: 'قم بتفعيل حساب ايفينتي الخاص بك',
+      welcome: 'مرحباً بك في ايفينتي',
+      greeting: '،مرحباً',
+      body: 'شكراً لإنشاء حساب ايفينتي الخاص بك. للبدء، يرجى تفعيل حسابك بالنقر على الزر أدناه.',
       button: 'تفعيل حسابي',
-      copyright: '© إيفينتي. جميع الحقوق محفوظة.',
+      footerLead: 'تم إرسال هذه الرسالة إلى',
+      footerSuffix: '.',
+      copyright: '.© ايفينتي. جميع الحقوق محفوظة',
     },
     donation: {
       title: 'إيصال التبرع',
@@ -201,12 +207,15 @@ export const LOCALES = {
     dir: 'rtl',
     logo: 'fa',
     activate: {
-      title: 'فعال‌سازی حساب ایونتی',
-      welcome: 'به ایونتی خوش آمدید!',
-      greeting: 'سلام',
-      body: 'از ایجاد حساب ایونتی متشکریم. برای شروع، لطفاً با کلیک روی دکمه زیر حساب خود را فعال کنید.',
-      button: 'فعال‌سازی حساب',
-      copyright: '© ایونتی. تمامی حقوق محفوظ است.',
+      // Exact strings from pkg/locales/translations/email/fa.yaml (ActivateEmail*)
+      title: 'حساب Eveenty خود را فعال کنید',
+      welcome: '!به Eveenty خوش آمدید',
+      greeting: '،سلام',
+      body: 'از ایجاد حساب Eveenty خود متشکریم. برای شروع، لطفاً با کلیک بر روی دکمه زیر حساب خود را فعال کنید.',
+      button: 'فعال‌سازی حساب من',
+      footerLead: 'این پیام به',
+      footerSuffix: ' ارسال شد.',
+      copyright: '.© Eveenty. تمامی حقوق محفوظ است',
     },
     donation: {
       title: 'رسید کمک مالی',
@@ -256,6 +265,49 @@ export const LOCALES = {
     },
     support: null,
   },
+  /**
+   * FR/ES added for Account Activation only (Task 02 remediation).
+   * Other templates stay en/ar/fa — do not offer fr/es in their EMAIL_IDS.locales.
+   * Strings from pkg/locales/translations/email/{fr,es}.yaml ActivateEmail*.
+   */
+  fr: {
+    lang: 'fr',
+    dir: 'ltr',
+    logo: 'fr',
+    activate: {
+      title: 'Activez votre compte Eveenty',
+      welcome: 'Bienvenue sur Eveenty !',
+      greeting: 'Bonjour',
+      body: "Merci d'avoir créé votre compte Eveenty. Pour commencer, veuillez activer votre compte en cliquant sur le bouton ci-dessous.",
+      button: 'Activer mon compte',
+      footerLead: 'Ce message a été envoyé à',
+      footerSuffix: '.',
+      copyright: '© Eveenty. Tous droits réservés.',
+    },
+    donation: null,
+    ticketSale: null,
+    regApproval: null,
+    support: null,
+  },
+  es: {
+    lang: 'es',
+    dir: 'ltr',
+    logo: 'es',
+    activate: {
+      title: 'Active su cuenta Eveenty',
+      welcome: '¡Bienvenido a Eveenty!',
+      greeting: 'Hola',
+      body: 'Gracias por crear su cuenta Eveenty. Para comenzar, active su cuenta haciendo clic en el botón a continuación.',
+      button: 'Activar mi cuenta',
+      footerLead: 'Este mensaje fue enviado a',
+      footerSuffix: '.',
+      copyright: '© Eveenty. Todos los derechos reservados.',
+    },
+    donation: null,
+    ticketSale: null,
+    regApproval: null,
+    support: null,
+  },
 };
 
 export const EMAIL_IDS = [
@@ -264,7 +316,7 @@ export const EMAIL_IDS = [
     label: 'Auth / Simple — activate_email',
     master: 'TRANSACTIONAL',
     figma: '4:2',
-    locales: ['en', 'ar', 'fa'],
+    locales: ['en', 'fr', 'es', 'ar', 'fa'],
     variants: ['default'],
   },
   {

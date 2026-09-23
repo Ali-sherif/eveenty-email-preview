@@ -46,12 +46,15 @@ export function renderEmail(emailId, options = {}) {
 
 function renderActivate(L, dir, lang, longContent) {
   const a = L.activate;
+  if (!a) throw new Error(`activate locale copy missing for lang=${lang}`);
   const name = longContent ? `${SAMPLE.user.displayName} ${'VeryLongMiddleName '.repeat(4).trim()}` : SAMPLE.user.displayName;
   const body = longContent
     ? `${a.body} ${'Additional onboarding guidance for preview wrapping. '.repeat(6)}`
     : a.body;
   const bodyFont = dir === 'rtl' ? T.fontBodyRtl : T.fontBody;
   const headingFont = dir === 'rtl' ? T.fontBodyRtl : T.fontHeading;
+  // Greeting markup mirrors production activate_email.template:
+  //   {{ GreetingLead }} <bdi>{{ DisplayName }}</bdi> 👋,
   const rows = `
     ${brandedHeader({ locale: L.logo, dir })}
     <tr>
@@ -62,16 +65,25 @@ function renderActivate(L, dir, lang, longContent) {
       </td>
     </tr>
     <tr>
-      <td align="center" style="padding:0 30px 30px 30px;background-color:${T.surface};">
+      <td align="center" class="stack-pad" style="padding:0 30px 30px 30px;background-color:${T.surface};">
         ${primaryCtaYellow({ href: SAMPLE.activate.activateUrl, label: a.button, fontFamily: bodyFont })}
       </td>
     </tr>
-    ${brandedFooter({ email: SAMPLE.user.email, copyright: a.copyright, dir, fontFamily: bodyFont })}
+    ${brandedFooter({
+      email: SAMPLE.user.email,
+      copyright: a.copyright,
+      dir,
+      fontFamily: bodyFont,
+      footerLead: a.footerLead,
+      footerSuffix: a.footerSuffix,
+    })}
   `;
   return wrapEmailDocument({
     lang,
     dir,
     title: a.title,
+    // Preview-only hidden preheader — production template has no preheader key;
+    // English SAMPLE string retained for all locales (no YAML equivalent to invent).
     preheader: SAMPLE.activate.preheader,
     bodyRows: rows,
     fontFamily: bodyFont,

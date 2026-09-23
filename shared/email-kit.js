@@ -14,11 +14,22 @@ export function setAssetBase(base) {
 export function logoUrl(locale = 'en') {
   const map = {
     en: 'assets/logos/eveenty-logo-en.png',
+    fr: 'assets/logos/eveenty-logo-fr.png',
+    es: 'assets/logos/eveenty-logo-es.png',
     ar: 'assets/logos/eveenty-logo-ar.png',
     fa: 'assets/logos/eveenty-logo-fa.png',
   };
   return `${assetBase}${map[locale] || map.en}`;
 }
+
+/** Locale-appropriate logo alt (manifest guidance; not a production YAML key). */
+const LOGO_ALT = {
+  en: 'Eveenty',
+  fr: 'Eveenty',
+  es: 'Eveenty',
+  ar: 'إيفينتي',
+  fa: 'ایوینتی',
+};
 
 export function fixtureUrl(name) {
   return `${assetBase}assets/fixtures/${name}`;
@@ -39,22 +50,35 @@ export function visiblePreheaderBar(text, dir = 'ltr') {
 
 export function brandedHeader({ locale = 'en', dir = 'ltr' } = {}) {
   const src = logoUrl(locale);
+  const alt = LOGO_ALT[locale] || LOGO_ALT.en;
   return `
     <tr>
       <td align="center" style="background-color:${T.primary50};padding:32px 24px 16px 24px;">
-        <img src="${src}" alt="Eveenty — Events Made Easy" width="200" height="80" style="display:block;width:200px;max-width:200px;height:auto;border:0;outline:none;text-decoration:none;" />
+        <img src="${src}" alt="${esc(alt)}" width="200" height="80" style="display:block;width:200px;max-width:200px;height:auto;border:0;outline:none;text-decoration:none;" />
         <!--[if mso]><p style="font-family:Arial,sans-serif;font-size:12px;color:${T.muted};">Eveenty</p><![endif]-->
       </td>
     </tr>`;
 }
 
-export function brandedFooter({ email, copyright, dir = 'ltr', fontFamily = T.fontStack } = {}) {
+/**
+ * Branded footer matching production activate_email.template:
+ *   {{ FooterLead }} <a dir=ltr>email</a>{{ FooterSuffix }}
+ * Pass footerLead / footerSuffix from locale YAML; defaults keep EN for other templates.
+ */
+export function brandedFooter({
+  email,
+  copyright,
+  dir = 'ltr',
+  fontFamily = T.fontStack,
+  footerLead = 'This message was sent to',
+  footerSuffix = '.',
+} = {}) {
   const align = dir === 'rtl' ? 'right' : 'left';
   return `
     <tr>
-      <td align="${align}" style="background-color:${T.surface};padding:24px 30px;border-top:1px solid #e5e5e5;font-family:${fontFamily};">
+      <td align="${align}" class="stack-pad" style="background-color:${T.surface};padding:24px 30px;border-top:1px solid #e5e5e5;font-family:${fontFamily};">
         <p style="margin:0 0 10px 0;color:${T.dark500};font-size:13px;line-height:1.6;">
-          This message was sent to <a href="mailto:${esc(email)}" dir="ltr" style="color:${T.secondary};text-decoration:none;unicode-bidi:embed;">${esc(email)}</a>.
+          ${esc(footerLead)} <a href="mailto:${esc(email)}" dir="ltr" style="color:${T.secondary};text-decoration:none;unicode-bidi:embed;">${esc(email)}</a>${esc(footerSuffix)}
         </p>
         <p style="margin:0;color:${T.footerMuted};font-size:12px;line-height:1.6;">${esc(copyright || '© Eveenty. All rights reserved.')}</p>
       </td>
@@ -104,7 +128,7 @@ export function primaryCtaYellow({ href, label, fontFamily = T.fontStack }) {
     <table role="presentation" cellpadding="0" cellspacing="0" border="0">
       <tr>
         <td align="center" bgcolor="${T.primary}" style="background-color:${T.primary};border-radius:12px;">
-          <a href="${esc(href)}" target="_blank" style="display:inline-block;padding:16px 40px;font-family:${fontFamily};font-size:16px;font-weight:700;color:${T.body};text-decoration:none;border-radius:12px;min-width:44px;line-height:1.2;">${esc(label)}</a>
+          <a class="cta-yellow" href="${esc(href)}" target="_blank" style="display:inline-block;padding:16px 40px;font-family:${fontFamily};font-size:16px;font-weight:700;color:${T.body};text-decoration:none;border-radius:12px;min-width:44px;line-height:1.2;">${esc(label)}</a>
         </td>
       </tr>
     </table>`;
@@ -159,6 +183,8 @@ export function wrapEmailDocument({ lang, dir, title, bodyRows, preheader, fontF
       .stack-col { display: block !important; width: 100% !important; max-width: 100% !important; }
       .stack-pad { padding-left: 16px !important; padding-right: 16px !important; }
       .wallet-btn { display: block !important; width: 100% !important; margin: 0 0 8px 0 !important; text-align: center !important; }
+      /* Narrow viewports: keep Activation CTA on one line without shrinking below 16px */
+      .cta-yellow { padding-left: 24px !important; padding-right: 24px !important; }
     }
   </style>
 </head>
