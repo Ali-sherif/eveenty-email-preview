@@ -48,11 +48,11 @@ export function brandedHeader({ locale = 'en', dir = 'ltr' } = {}) {
     </tr>`;
 }
 
-export function brandedFooter({ email, copyright, dir = 'ltr' } = {}) {
+export function brandedFooter({ email, copyright, dir = 'ltr', fontFamily = T.fontStack } = {}) {
   const align = dir === 'rtl' ? 'right' : 'left';
   return `
     <tr>
-      <td align="${align}" style="background-color:${T.surface};padding:24px 30px;border-top:1px solid #e5e5e5;font-family:${T.fontStack};">
+      <td align="${align}" style="background-color:${T.surface};padding:24px 30px;border-top:1px solid #e5e5e5;font-family:${fontFamily};">
         <p style="margin:0 0 10px 0;color:${T.dark500};font-size:13px;line-height:1.6;">
           This message was sent to <a href="mailto:${esc(email)}" dir="ltr" style="color:${T.secondary};text-decoration:none;unicode-bidi:embed;">${esc(email)}</a>.
         </p>
@@ -92,12 +92,19 @@ export function totalsBox({ subtotal, tax, processingFee, grandTotal, dir = 'ltr
     </table>`;
 }
 
-export function primaryCtaYellow({ href, label }) {
+/**
+ * Yellow primary CTA (Account Activation / TRANSACTIONAL).
+ * Target ~48–51px height via anchor padding (16+16) + 16px/1.2 line — do not
+ * rely on td min-height (Outlook often ignores it). Full VML/bulletproof Outlook
+ * button suite remains DEFERRED — no production engineering in Task 02.
+ * Client rendering tests: NOT EXECUTED.
+ */
+export function primaryCtaYellow({ href, label, fontFamily = T.fontStack }) {
   return `
     <table role="presentation" cellpadding="0" cellspacing="0" border="0">
       <tr>
-        <td align="center" bgcolor="${T.primary}" style="background-color:${T.primary};border-radius:12px;min-height:48px;">
-          <a href="${esc(href)}" target="_blank" style="display:inline-block;padding:16px 40px;font-family:${T.fontStack};font-size:16px;font-weight:700;color:${T.body};text-decoration:none;border-radius:12px;min-width:44px;line-height:1.2;">${esc(label)}</a>
+        <td align="center" bgcolor="${T.primary}" style="background-color:${T.primary};border-radius:12px;">
+          <a href="${esc(href)}" target="_blank" style="display:inline-block;padding:16px 40px;font-family:${fontFamily};font-size:16px;font-weight:700;color:${T.body};text-decoration:none;border-radius:12px;min-width:44px;line-height:1.2;">${esc(label)}</a>
         </td>
       </tr>
     </table>`;
@@ -128,7 +135,7 @@ export function kvRow(label, value, dir = 'ltr') {
     </tr>`;
 }
 
-export function wrapEmailDocument({ lang, dir, title, bodyRows, preheader }) {
+export function wrapEmailDocument({ lang, dir, title, bodyRows, preheader, fontFamily = T.fontStack }) {
   return `<!DOCTYPE html>
 <html lang="${esc(lang)}" dir="${esc(dir)}">
 <head>
@@ -155,7 +162,7 @@ export function wrapEmailDocument({ lang, dir, title, bodyRows, preheader }) {
     }
   </style>
 </head>
-<body style="margin:0;padding:0;background-color:${T.viewport};font-family:${T.fontStack};${dir === 'rtl' ? 'direction:rtl;' : ''}">
+<body style="margin:0;padding:0;background-color:${T.viewport};font-family:${fontFamily};${dir === 'rtl' ? 'direction:rtl;' : ''}">
   ${hiddenPreheader(preheader)}
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:${T.viewport};margin:0;padding:0;">
     <tr>

@@ -1,4 +1,4 @@
-import { EMAIL_IDS } from './shared/sample-data.js';
+import { EMAIL_IDS, SAMPLE } from './shared/sample-data.js';
 import { renderEmail } from './shared/render-emails.js';
 
 const els = {
@@ -11,6 +11,7 @@ const els = {
   frame: document.getElementById('previewFrame'),
   wrap: document.getElementById('frameWrap'),
   label: document.getElementById('viewportLabel'),
+  annotation: document.getElementById('previewAnnotation'),
   meta: document.getElementById('metaPanel'),
   sourcePanel: document.getElementById('sourcePanel'),
   sourcePre: document.getElementById('sourcePre'),
@@ -68,6 +69,19 @@ function applyBlockedImages(html) {
   });
 }
 
+function updatePreviewAnnotation(def) {
+  if (!els.annotation) return;
+  // Account Activation only — other templates unchanged until their review pass.
+  if (def.id === 'activate_email') {
+    els.annotation.hidden = false;
+    els.annotation.innerHTML =
+      `<strong>PREVIEW ANNOTATION</strong> — Hidden inbox preheader (not in email body): ${SAMPLE.activate.preheader}`;
+  } else {
+    els.annotation.hidden = true;
+    els.annotation.textContent = '';
+  }
+}
+
 function render() {
   const def = currentDef();
   const locale = els.locale.value;
@@ -83,6 +97,7 @@ function render() {
   els.frame.srcdoc = html;
   els.sourcePre.textContent = html;
   updateMeta();
+  updatePreviewAnnotation(def);
 }
 
 function setViewport() {

@@ -78,9 +78,9 @@ Outputs land in `emails/*.html` with `../assets/` paths.
 - Does **not** send mail
 - QR / Wallet use **SAMPLE** fixtures and example.com links — no live passes or credentials
 - Support long-content uses sanitized synthetic stack text
-- Does **not** edit the Figma file
-- Does **not** claim Gmail/Outlook/Apple Mail client parity from browser screenshots alone
-- Designs remain **DRAFT / not APPROVED**
+- Does **not** edit Commerce / Notification / Marketing / catalog frames (Activation only in Task 02)
+- Does **not** claim Gmail/Outlook/Apple Mail client parity from browser screenshots alone — **client tests NOT EXECUTED**
+- Designs remain **DRAFT / not APPROVED** — **STOP for Account Activation owner visual approval** before other families
 
 ## Docs
 

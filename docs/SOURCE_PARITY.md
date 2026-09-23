@@ -15,7 +15,7 @@ Legend: **P** = in production template · **S** = in sender payload/model · **H
 | `UserEmail` (footer mailto) | Y | Y | Y | |
 | `ActivateBaseURL` CTA | Y | Y | Y | example.com preview URL |
 | Locales: Welcome, Greeting, Body, Button, Footer, Copyright | Y | Y | Y | EN from yaml; AR/FA preview strings |
-| Preheader | N | N | Y | **Proposed addition** — present in Figma |
+| Preheader | N | N | Y | **Hidden** inbox preheader in email HTML; visible “Preheader: …” row removed from canvas (Task 02). Designer metadata = preview annotation outside iframe / Figma annotation outside container. |
 | CTA color yellow (`#e9d023`) | N | — | Y | Prod uses magenta `#d80073`; Figma = yellow |
 | Header cream band (`#fefdf4`) | N | — | Y | Figma master TRANSACTIONAL |
 | Card radius / shadow | Partial | — | Y | |

@@ -24,6 +24,21 @@ export const TOKENS = {
   errorFg: '#991b1b',
   /** Email container: Figma frame is 800px design canvas; content uses Fluid Hybrid 600 */
   containerMax: 600,
+  /**
+   * Legacy shared stack (other Phase-1 templates). Arial-first intentionally unchanged
+   * outside Account Activation until those references are reviewed.
+   */
   fontStack: "Arial, Helvetica, 'Roboto', Tahoma, sans-serif",
+  /**
+   * Account Activation (Figma-approved intent):
+   * - Headings: Plus Jakarta Sans
+   * - Body / CTA: Roboto
+   * Realistic email-client fallbacks follow. Web-font loading is NOT claimed —
+   * clients without the family fall through; formal client QA NOT EXECUTED.
+   */
+  fontHeading: "'Plus Jakarta Sans', Arial, Helvetica, sans-serif",
+  fontBody: "'Roboto', Arial, Helvetica, Tahoma, sans-serif",
+  /** AR/FA Activation preview: approved local-script fallbacks (Tahoma first). */
+  fontBodyRtl: 'Tahoma, Arial, Helvetica, sans-serif',
   fontMono: "Consolas, 'Courier New', Courier, monospace",
 };

@@ -137,6 +137,25 @@ body {
   color: var(--muted);
 }
 
+.preview-annotation {
+  width: 100%;
+  max-width: 800px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px 12px;
+  border: 1px dashed #7b7b79;
+  border-radius: 6px;
+  background: #1e1e1e;
+  color: #cfcfc8;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.preview-annotation strong {
+  color: var(--accent);
+  font-weight: 700;
+}
+
 .frame-wrap {
   max-width: 100%;
   background: #f9f9f9;

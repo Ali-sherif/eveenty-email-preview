@@ -50,22 +50,23 @@ function renderActivate(L, dir, lang, longContent) {
   const body = longContent
     ? `${a.body} ${'Additional onboarding guidance for preview wrapping. '.repeat(6)}`
     : a.body;
+  const bodyFont = dir === 'rtl' ? T.fontBodyRtl : T.fontBody;
+  const headingFont = dir === 'rtl' ? T.fontBodyRtl : T.fontHeading;
   const rows = `
-    ${visiblePreheaderBar(`Preheader: ${SAMPLE.activate.preheader}`, dir)}
     ${brandedHeader({ locale: L.logo, dir })}
     <tr>
       <td align="center" class="stack-pad" style="padding:40px 30px 30px 30px;background-color:${T.surface};">
-        <h1 style="margin:0 0 20px 0;font-family:${T.fontStack};font-size:24px;font-weight:700;line-height:1.3;color:${T.heading};text-align:center;">${esc(a.welcome)}</h1>
-        <p style="margin:0 0 20px 0;font-family:${T.fontStack};font-size:16px;line-height:1.6;color:${T.body};text-align:center;">${esc(a.greeting)} <bdi>${esc(name)}</bdi> 👋,</p>
-        <p style="margin:0;font-family:${T.fontStack};font-size:16px;line-height:1.6;color:${T.body};text-align:center;">${esc(body)}</p>
+        <h1 style="margin:0 0 20px 0;font-family:${headingFont};font-size:24px;font-weight:700;line-height:1.3;color:${T.heading};text-align:center;">${esc(a.welcome)}</h1>
+        <p style="margin:0 0 20px 0;font-family:${bodyFont};font-size:16px;line-height:1.6;color:${T.body};text-align:center;">${esc(a.greeting)} <bdi>${esc(name)}</bdi> 👋,</p>
+        <p style="margin:0;font-family:${bodyFont};font-size:16px;line-height:1.6;color:${T.body};text-align:center;">${esc(body)}</p>
       </td>
     </tr>
     <tr>
       <td align="center" style="padding:0 30px 30px 30px;background-color:${T.surface};">
-        ${primaryCtaYellow({ href: SAMPLE.activate.activateUrl, label: a.button })}
+        ${primaryCtaYellow({ href: SAMPLE.activate.activateUrl, label: a.button, fontFamily: bodyFont })}
       </td>
     </tr>
-    ${brandedFooter({ email: SAMPLE.user.email, copyright: a.copyright, dir })}
+    ${brandedFooter({ email: SAMPLE.user.email, copyright: a.copyright, dir, fontFamily: bodyFont })}
   `;
   return wrapEmailDocument({
     lang,
@@ -73,6 +74,7 @@ function renderActivate(L, dir, lang, longContent) {
     title: a.title,
     preheader: SAMPLE.activate.preheader,
     bodyRows: rows,
+    fontFamily: bodyFont,
   });
 }
 
