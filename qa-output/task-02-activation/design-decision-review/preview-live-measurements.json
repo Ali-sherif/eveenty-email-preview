@@ -1,0 +1,24 @@
+{
+  "headerBg": "rgb(254, 253, 244)",
+  "headerPad": "32px 24px 16px",
+  "logo": {
+    "displayW": 200,
+    "displayH": 80.15625,
+    "naturalW": 3014,
+    "naturalH": 1208,
+    "attrW": "200"
+  },
+  "h1": {
+    "weight": "700",
+    "size": "24px",
+    "family": "\"Plus Jakarta Sans\", Arial, Helvetica, sans-serif",
+    "color": "rgb(43, 42, 40)",
+    "text": "Welcome to Eveenty!"
+  },
+  "cta": {
+    "textColor": "rgb(77, 76, 73)",
+    "weight": "700",
+    "bg": "rgb(233, 208, 35)",
+    "text": "Activate My Account"
+  }
+}

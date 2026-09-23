@@ -1,0 +1,98 @@
+{
+  "testedAt": "2026-09-23T21:54:40.965Z",
+  "previewUrl": "http://localhost:54701/",
+  "contrasts": {
+    "whiteOnMagenta": 5.039177326566029,
+    "darkOnYellow": 5.524892166869123,
+    "headingOnWhite": 14.338931680033804
+  },
+  "logoSizes": {
+    "w120": {
+      "img": {
+        "x": 273,
+        "y": -2113.6875,
+        "width": 120,
+        "height": 48.09375
+      },
+      "headerBand": {
+        "x": 33,
+        "y": -2145.6875,
+        "width": 600,
+        "height": 96.09375
+      },
+      "headerHeightPx": 96.09,
+      "imgHeightPx": 48.09
+    },
+    "w160": {
+      "img": {
+        "x": 895,
+        "y": -2113.6875,
+        "width": 160,
+        "height": 64.125
+      },
+      "headerBand": {
+        "x": 675,
+        "y": -2145.6875,
+        "width": 600,
+        "height": 112.125
+      },
+      "headerHeightPx": 112.13,
+      "imgHeightPx": 64.13
+    },
+    "w200": {
+      "img": {
+        "x": 233,
+        "y": -1693.59375,
+        "width": 200,
+        "height": 80.15625
+      },
+      "headerBand": {
+        "x": 33,
+        "y": -1725.59375,
+        "width": 600,
+        "height": 128.15625
+      },
+      "headerHeightPx": 128.16,
+      "imgHeightPx": 80.16
+    }
+  },
+  "preview": {
+    "hasIframe": true,
+    "logoBox": {
+      "x": 350,
+      "y": 934.390625,
+      "width": 200,
+      "height": 80.15625
+    },
+    "h1Styles": {
+      "fontWeight": "700",
+      "fontSize": "24px",
+      "fontFamily": "\"Plus Jakarta Sans\", Arial, Helvetica, sans-serif",
+      "color": "rgb(43, 42, 40)"
+    },
+    "ctaStyles": {
+      "color": "rgb(77, 76, 73)",
+      "fontWeight": "700",
+      "bgSelf": "rgba(0, 0, 0, 0)",
+      "bgParent": "rgb(233, 208, 35)"
+    },
+    "headerBg": "rgba(0, 0, 0, 0)"
+  },
+  "shots": [
+    "D:\\last\\eveenty-email-preview\\qa-output\\task-02-activation\\design-decision-review\\screenshots\\compare-cta-magenta.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\task-02-activation\\design-decision-review\\screenshots\\compare-cta-yellow.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\task-02-activation\\design-decision-review\\screenshots\\compare-logo-120-desktop.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\task-02-activation\\design-decision-review\\screenshots\\compare-logo-160-desktop.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\task-02-activation\\design-decision-review\\screenshots\\compare-logo-200-desktop.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\task-02-activation\\design-decision-review\\screenshots\\compare-logo-120-mobile320.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\task-02-activation\\design-decision-review\\screenshots\\compare-logo-160-mobile320.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\task-02-activation\\design-decision-review\\screenshots\\compare-logo-200-mobile320.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\task-02-activation\\design-decision-review\\screenshots\\compare-header-primary50.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\task-02-activation\\design-decision-review\\screenshots\\compare-header-white.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\task-02-activation\\design-decision-review\\screenshots\\compare-header-legacy-fcf9df.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\task-02-activation\\design-decision-review\\screenshots\\compare-heading-weight-600.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\task-02-activation\\design-decision-review\\screenshots\\compare-heading-weight-700.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\task-02-activation\\design-decision-review\\screenshots\\compare-logo-locales-200.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\task-02-activation\\design-decision-review\\screenshots\\compare-full-page.png"
+  ]
+}

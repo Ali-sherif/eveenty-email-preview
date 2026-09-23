@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Task 02 — Isolated Design Decision Comparisons (READ-ONLY artifacts)</title>
+  <style>
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #1a1a1a; color: #eee; }
+    h1 { font-size: 18px; padding: 16px 20px; margin: 0; border-bottom: 1px solid #333; }
+    h2 { font-size: 14px; margin: 24px 20px 8px; color: #E9D023; }
+    p.note { margin: 0 20px 16px; font-size: 12px; color: #aaa; max-width: 900px; }
+    .row { display: flex; flex-wrap: wrap; gap: 16px; padding: 0 20px 24px; align-items: flex-start; }
+    .card { background: #2a2a2a; border: 1px solid #444; border-radius: 8px; padding: 12px; }
+    .card h3 { margin: 0 0 8px; font-size: 12px; font-weight: 600; color: #ccc; }
+    .email { width: 600px; background: #fff; color: #000; border-radius: 8px; overflow: hidden; }
+    .email.narrow { width: 320px; }
+    .hdr { text-align: center; padding: 32px 24px 16px; }
+    .hdr img { display: block; margin: 0 auto; height: auto; }
+    .body { padding: 40px 30px 30px; text-align: center; }
+    .body h1 { border: 0; padding: 0; margin: 0 0 20px; color: #2b2a28; font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif; font-size: 24px; line-height: 1.3; }
+    .body p { margin: 0 0 16px; color: #4d4c49; font-family: Roboto, Arial, Helvetica, sans-serif; font-size: 16px; line-height: 1.6; }
+    .cta-wrap { text-align: center; padding: 0 30px 30px; }
+    .cta { display: inline-block; padding: 16px 40px; border-radius: 12px; text-decoration: none; font-family: Roboto, Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 700; line-height: 1.2; }
+    .cta-yellow { background: #E9D023; color: #4D4C49; }
+    .cta-magenta { background: #D80073; color: #FFFFFF; border-radius: 6px; font-weight: 600; }
+    .foot { padding: 24px 30px; border-top: 1px solid #e5e5e5; font-size: 13px; color: #4d4c49; text-align: left; }
+    .meta { font-size: 11px; color: #888; margin-top: 8px; }
+    .swatch { display: inline-block; width: 48px; height: 48px; border-radius: 6px; border: 1px solid #666; vertical-align: middle; margin-right: 8px; }
+    .weight-row { background: #fff; color: #2b2a28; padding: 20px 24px; width: 540px; border-radius: 8px; }
+    .weight-row p { margin: 0 0 12px; font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif; font-size: 24px; line-height: 1.3; text-align: center; }
+    .weight-row .lbl { font-family: Arial, sans-serif; font-size: 11px; color: #888; text-align: center; margin-bottom: 4px; }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700&family=Roboto:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <h1>Account Activation — Isolated option comparisons (QA only; does not modify production)</h1>
+  <p class="note">Artifacts for owner review. Yellow/magenta CTAs, logo widths, header surfaces, and heading weights are shown on otherwise identical Activation layouts. Logos load from preview assets (byte-identical to owner PNGs).</p>
+
+  <h2 id="cta">1. CTA color</h2>
+  <div class="row">
+    <div class="card" id="cta-magenta">
+      <h3>Option A — Production magenta (#D80073 / white)</h3>
+      <div class="email">
+        <div class="hdr" style="background:#FEFDF4"><img src="../../../assets/logos/eveenty-logo-en.png" width="200" alt="Eveenty" /></div>
+        <div class="body">
+          <h1 style="font-weight:600">Welcome to Eveenty!</h1>
+          <p>Hello Alex 👋,</p>
+          <p>Thank you for creating your Eveenty account. To get started, please activate your account by clicking the button below.</p>
+        </div>
+        <div class="cta-wrap"><a class="cta cta-magenta" href="#">Activate My Account</a></div>
+        <div class="foot">This message was sent to alex.user@example.com.</div>
+      </div>
+      <div class="meta">Contrast white on #D80073 ≈ 4.9:1 (AA large / borderline normal — verify). Matches production activate_email.template.</div>
+    </div>
+    <div class="card" id="cta-yellow">
+      <h3>Option B — Email Kit yellow (#E9D023 / #4D4C49)</h3>
+      <div class="email">
+        <div class="hdr" style="background:#FEFDF4"><img src="../../../assets/logos/eveenty-logo-en.png" width="200" alt="Eveenty" /></div>
+        <div class="body">
+          <h1 style="font-weight:600">Welcome to Eveenty!</h1>
+          <p>Hello Alex 👋,</p>
+          <p>Thank you for creating your Eveenty account. To get started, please activate your account by clicking the button below.</p>
+        </div>
+        <div class="cta-wrap"><a class="cta cta-yellow" href="#">Activate My Account</a></div>
+        <div class="foot">This message was sent to alex.user@example.com.</div>
+      </div>
+      <div class="meta">Contrast #4D4C49 on #E9D023 ≈ 5.52:1 (AA pass). Matches Figma Buttons Primary + Email Kit CTA.</div>
+    </div>
+  </div>
+
+  <h2 id="logo">2. Logo size @ 600 desktop + 320 mobile</h2>
+  <div class="row">
+    <div class="card" id="logo-120">
+      <h3>120px width (production activate_email)</h3>
+      <div class="email">
+        <div class="hdr" style="background:#FEFDF4"><img src="../../../assets/logos/eveenty-logo-en.png" width="120" alt="Eveenty" id="img-120" /></div>
+        <div class="body"><h1 style="font-weight:600">Welcome to Eveenty!</h1><p>Logo display comparison — identical layout.</p></div>
+        <div class="cta-wrap"><a class="cta cta-yellow" href="#">Activate My Account</a></div>
+      </div>
+    </div>
+    <div class="card" id="logo-160">
+      <h3>160px width (intermediate)</h3>
+      <div class="email">
+        <div class="hdr" style="background:#FEFDF4"><img src="../../../assets/logos/eveenty-logo-en.png" width="160" alt="Eveenty" id="img-160" /></div>
+        <div class="body"><h1 style="font-weight:600">Welcome to Eveenty!</h1><p>Logo display comparison — identical layout.</p></div>
+        <div class="cta-wrap"><a class="cta cta-yellow" href="#">Activate My Account</a></div>
+      </div>
+    </div>
+    <div class="card" id="logo-200">
+      <h3>200px width (Email Kit / Task 01 proposal)</h3>
+      <div class="email">
+        <div class="hdr" style="background:#FEFDF4"><img src="../../../assets/logos/eveenty-logo-en.png" width="200" alt="Eveenty" id="img-200" /></div>
+        <div class="body"><h1 style="font-weight:600">Welcome to Eveenty!</h1><p>Logo display comparison — identical layout.</p></div>
+        <div class="cta-wrap"><a class="cta cta-yellow" href="#">Activate My Account</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="card" id="logo-120-m">
+      <h3>120px @ 320 viewport</h3>
+      <div class="email narrow">
+        <div class="hdr" style="background:#FEFDF4"><img src="../../../assets/logos/eveenty-logo-en.png" width="120" alt="Eveenty" /></div>
+        <div class="body"><h1 style="font-weight:600">Welcome to Eveenty!</h1></div>
+        <div class="cta-wrap"><a class="cta cta-yellow" href="#">Activate My Account</a></div>
+      </div>
+    </div>
+    <div class="card" id="logo-160-m">
+      <h3>160px @ 320 viewport</h3>
+      <div class="email narrow">
+        <div class="hdr" style="background:#FEFDF4"><img src="../../../assets/logos/eveenty-logo-en.png" width="160" alt="Eveenty" /></div>
+        <div class="body"><h1 style="font-weight:600">Welcome to Eveenty!</h1></div>
+        <div class="cta-wrap"><a class="cta cta-yellow" href="#">Activate My Account</a></div>
+      </div>
+    </div>
+    <div class="card" id="logo-200-m">
+      <h3>200px @ 320 viewport</h3>
+      <div class="email narrow">
+        <div class="hdr" style="background:#FEFDF4"><img src="../../../assets/logos/eveenty-logo-en.png" width="200" alt="Eveenty" /></div>
+        <div class="body"><h1 style="font-weight:600">Welcome to Eveenty!</h1></div>
+        <div class="cta-wrap"><a class="cta cta-yellow" href="#">Activate My Account</a></div>
+      </div>
+    </div>
+  </div>
+
+  <h2 id="header">3. Header background</h2>
+  <div class="row">
+    <div class="card" id="hdr-primary50">
+      <h3>canonical primary-50 #FEFDF4</h3>
+      <div class="email">
+        <div class="hdr" style="background:#FEFDF4"><img src="../../../assets/logos/eveenty-logo-en.png" width="200" alt="Eveenty" /></div>
+        <div class="body" style="background:#FFFFFF"><h1 style="font-weight:600">Welcome to Eveenty!</h1><p>White body below cream header band.</p></div>
+      </div>
+      <div class="meta"><span class="swatch" style="background:#FEFDF4"></span> Figma variable primary-50 · Email Kit proposal · NOT legacy #FCF9DF</div>
+    </div>
+    <div class="card" id="hdr-white">
+      <h3>white #FFFFFF (production-like flat header)</h3>
+      <div class="email">
+        <div class="hdr" style="background:#FFFFFF"><img src="../../../assets/logos/eveenty-logo-en.png" width="200" alt="Eveenty" /></div>
+        <div class="body" style="background:#FFFFFF"><h1 style="font-weight:600">Welcome to Eveenty!</h1><p>Header and body share the same white surface.</p></div>
+      </div>
+      <div class="meta"><span class="swatch" style="background:#FFFFFF"></span> Production activate_email has white container; no cream band. Light-50 token.</div>
+    </div>
+    <div class="card" id="hdr-legacy">
+      <h3>legacy paint-style alias #FCF9DF (do not adopt silently)</h3>
+      <div class="email">
+        <div class="hdr" style="background:#FCF9DF"><img src="../../../assets/logos/eveenty-logo-en.png" width="200" alt="Eveenty" /></div>
+        <div class="body" style="background:#FFFFFF"><h1 style="font-weight:600">Welcome to Eveenty!</h1><p>Shown only to distinguish from canonical #FEFDF4.</p></div>
+      </div>
+      <div class="meta"><span class="swatch" style="background:#FCF9DF"></span> LEGACY COMPATIBILITY alias — Task 01 says annotate only.</div>
+    </div>
+  </div>
+
+  <h2 id="weight">4. Heading font weight (identical frames)</h2>
+  <div class="row">
+    <div class="card" id="weight-600">
+      <h3>SemiBold 600 — Original DS H2 + Email Kit Figma</h3>
+      <div class="weight-row">
+        <div class="lbl">EN · Plus Jakarta Sans 24px / weight 600</div>
+        <p style="font-weight:600">Welcome to Eveenty!</p>
+        <div class="lbl">FR</div>
+        <p style="font-weight:600">Bienvenue sur Eveenty !</p>
+        <div class="lbl">ES</div>
+        <p style="font-weight:600">¡Bienvenido a Eveenty!</p>
+        <div class="lbl">AR · Tahoma fallback</div>
+        <p style="font-weight:600;font-family:Tahoma,Arial,sans-serif" dir="rtl">مرحباً بك في ايفينتي</p>
+        <div class="lbl">FA · Tahoma fallback</div>
+        <p style="font-weight:600;font-family:Tahoma,Arial,sans-serif" dir="rtl">!به Eveenty خوش آمدید</p>
+        <div class="lbl">Fallback without Plus Jakarta (Arial 600)</div>
+        <p style="font-weight:600;font-family:Arial,Helvetica,sans-serif">Welcome to Eveenty!</p>
+      </div>
+    </div>
+    <div class="card" id="weight-700">
+      <h3>Bold 700 — Current HTML preview</h3>
+      <div class="weight-row">
+        <div class="lbl">EN · Plus Jakarta Sans 24px / weight 700</div>
+        <p style="font-weight:700">Welcome to Eveenty!</p>
+        <div class="lbl">FR</div>
+        <p style="font-weight:700">Bienvenue sur Eveenty !</p>
+        <div class="lbl">ES</div>
+        <p style="font-weight:700">¡Bienvenido a Eveenty!</p>
+        <div class="lbl">AR · Tahoma fallback</div>
+        <p style="font-weight:700;font-family:Tahoma,Arial,sans-serif" dir="rtl">مرحباً بك في ايفينتي</p>
+        <div class="lbl">FA · Tahoma fallback</div>
+        <p style="font-weight:700;font-family:Tahoma,Arial,sans-serif" dir="rtl">!به Eveenty خوش آمدید</p>
+        <div class="lbl">Fallback without Plus Jakarta (Arial 700)</div>
+        <p style="font-weight:700;font-family:Arial,Helvetica,sans-serif">Welcome to Eveenty!</p>
+      </div>
+    </div>
+  </div>
+
+  <h2>Locale logo optical strip @ 200px</h2>
+  <div class="row" id="logo-locales">
+    <div class="card"><h3>EN</h3><div style="background:#FEFDF4;padding:16px;width:240px;text-align:center"><img src="../../../assets/logos/eveenty-logo-en.png" width="200" alt="en" /></div></div>
+    <div class="card"><h3>FR</h3><div style="background:#FEFDF4;padding:16px;width:240px;text-align:center"><img src="../../../assets/logos/eveenty-logo-fr.png" width="200" alt="fr" /></div></div>
+    <div class="card"><h3>ES</h3><div style="background:#FEFDF4;padding:16px;width:240px;text-align:center"><img src="../../../assets/logos/eveenty-logo-es.png" width="200" alt="es" /></div></div>
+    <div class="card"><h3>AR</h3><div style="background:#FEFDF4;padding:16px;width:240px;text-align:center"><img src="../../../assets/logos/eveenty-logo-ar.png" width="200" alt="ar" /></div></div>
+    <div class="card"><h3>FA</h3><div style="background:#FEFDF4;padding:16px;width:240px;text-align:center"><img src="../../../assets/logos/eveenty-logo-fa.png" width="200" alt="fa" /></div></div>
+  </div>
+</body>
+</html>
