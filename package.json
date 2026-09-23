@@ -1,16 +1,13 @@
 {
-  "name": "email-preview",
+  "name": "eveenty-email-preview",
   "version": "1.0.0",
-  "description": "Local, standalone HTML implementations of the five active Eveenty **reference** email designs, plus a browser preview app for owner visual review.",
-  "main": "preview.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "description": "Standalone HTML implementations of Eveenty reference email designs, plus a browser preview app for visual review.",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx --yes serve -p 4173 .",
+    "generate": "node generate-standalone.mjs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "license": "ISC"
 }
+

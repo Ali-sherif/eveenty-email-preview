@@ -34,14 +34,24 @@ See [docs/COMPATIBILITY.md](docs/COMPATIBILITY.md).
 Requires a local static server (ES modules + `srcdoc` asset URLs). From this directory:
 
 ```bash
-# Node
-npx --yes serve -p 4173 .
+npm start
 
-# or Python
+# or
+npx --yes serve -p 4173 .
 python -m http.server 4173
 ```
 
 Open: http://localhost:4173/
+
+## Deploy (Vercel)
+
+Static site — no build step. Connect the GitHub repo in Vercel:
+
+- **Framework Preset:** Other
+- **Build Command:** leave empty
+- **Output Directory:** `.` (project root)
+
+Or: `npx vercel --prod` after `vercel login`.
 
 ### Preview features
 
