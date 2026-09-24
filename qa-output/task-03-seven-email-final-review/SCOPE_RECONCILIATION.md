@@ -74,3 +74,23 @@ No stop-conflict on the seven-item list. Phase F remains **HOLD** until scope de
 - `D:\emails\Eveenty-Email-Kit-Phase1\shared-foundations.json`
 - `qa-output/task-03-seven-email-review/SCOPE_CONFLICT_REPORT.md` (prior pass — superseded by this reconciliation)
 - Backend filesystem: **59** top-level `email/templates/*.template` (excluding partials) — unchanged
+
+---
+
+## Owner decision recorded (2026-09-24)
+
+**Status label:** **`SCOPE DECISION CLOSED — OPTION B`**
+
+The owner has **explicitly approved restoring** `organizer_announcement.template` to Phase 1. This section records that decision only; the evidence tables above are left as they stood at investigation time.
+
+| Item | Resolution |
+|---|---|
+| Authoritative baseline | **59** physical / **11** excluded / **48** in-scope |
+| Marketing in-scope | **3** — `festival_marketing_email_target`, `festival_rescounts_marketing_email_target`, `organizer_announcement` |
+| Chosen option | **B — Revert exclusion** (see pending-options table above) |
+| Seven completed references | Unchanged and still in-scope; no redesign required |
+| Remaining undesigned in-scope | **41** (48 − 7) |
+| `organizer_announcement` design | In-scope; **not started** in this document-correction pass |
+| Phase F | **NOT STARTED** |
+
+Subsequent register correction lives in `D:\emails\Eveenty-Email-Kit-Phase1\phase-1-email-scope.md`. Historical Task 03 reports that cited **59 / 12 / 47** remain evidence of the pre-decision state and are not rewritten here.

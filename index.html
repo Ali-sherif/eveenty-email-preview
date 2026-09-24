@@ -53,6 +53,31 @@
       <button type="button" id="btnToggleSource">Toggle HTML source</button>
     </div>
     <dl class="meta" id="metaPanel"></dl>
+    <section class="catalog-panel" id="catalogPanel" aria-label="Phase 1 catalog">
+      <h2>Catalog browse</h2>
+      <p class="catalog-note">59 / 11 / 48 · Seven designed previews only. No placeholder designs.</p>
+      <label>
+        Family
+        <select id="catalogFamily">
+          <option value="all">All families</option>
+          <option value="TRANSACTIONAL">01-Transactional</option>
+          <option value="COMMERCE">02-Commerce</option>
+          <option value="NOTIFICATION">03-Notification</option>
+          <option value="MARKETING">04-Marketing</option>
+          <option value="Excluded">Excluded</option>
+        </select>
+      </label>
+      <label>
+        Design status
+        <select id="catalogStatus">
+          <option value="all">All statuses</option>
+          <option value="DESIGNED">Designed (previewable)</option>
+          <option value="UNDESIGNED">Undesigned</option>
+          <option value="EXCLUDED_NO_DESIGN">Excluded</option>
+        </select>
+      </label>
+      <ul id="catalogList" class="catalog-list"></ul>
+    </section>
   </aside>
 
   <main class="stage">

@@ -18,7 +18,13 @@ const els = {
   btnRefresh: document.getElementById('btnRefresh'),
   btnDownload: document.getElementById('btnDownload'),
   btnToggleSource: document.getElementById('btnToggleSource'),
+  catalogFamily: document.getElementById('catalogFamily'),
+  catalogStatus: document.getElementById('catalogStatus'),
+  catalogList: document.getElementById('catalogList'),
 };
+
+/** @type {null | { emails: Array<Record<string, unknown>> }} */
+let catalog = null;
 
 let currentHtml = '';
 
@@ -52,10 +58,54 @@ function updateMeta() {
   const def = currentDef();
   els.meta.innerHTML = `
     <dt>Template</dt><dd>${def.id}</dd>
-    <dt>Master</dt><dd>${def.master}</dd>
+    <dt>Design Kit family</dt><dd>${def.master}</dd>
+    <dt>Backend family</dt><dd>${def.backendFamily || '—'}</dd>
+    <dt>Subfolder</dt><dd>${def.subfolder || '—'}</dd>
     <dt>Figma node</dt><dd>${def.figma}</dd>
-    <dt>Status</dt><dd>DRAFT — not approved</dd>
+    <dt>Design status</dt><dd>${def.designStatus || 'DESIGNED'} — owner visual approval pending</dd>
   `;
+}
+
+function renderCatalogList() {
+  if (!els.catalogList || !catalog) return;
+  const family = els.catalogFamily?.value || 'all';
+  const status = els.catalogStatus?.value || 'all';
+  const items = catalog.emails.filter((e) => {
+    const famKey = e.scope === 'EXCLUDED' ? 'Excluded' : e.design_kit_family;
+    if (family !== 'all' && famKey !== family) return false;
+    if (status !== 'all' && e.design_status !== status) return false;
+    return true;
+  });
+  els.catalogList.innerHTML = items
+    .map((e) => {
+      const selectable = e.preview_selectable;
+      const statusLabel = e.design_status === 'DESIGNED' ? 'DESIGNED' : e.design_status === 'UNDESIGNED' ? 'UNDESIGNED' : 'EXCLUDED';
+      if (selectable) {
+        return `<li><button type="button" class="catalog-link" data-email-id="${e.id}">${e.id}</button> <span class="catalog-tag">${statusLabel}</span> <span class="catalog-path">${e.functional_subfolder}</span></li>`;
+      }
+      return `<li><span class="catalog-id">${e.id}</span> <span class="catalog-tag muted">${statusLabel}</span> <span class="catalog-path">${e.functional_subfolder}</span></li>`;
+    })
+    .join('');
+  els.catalogList.querySelectorAll('[data-email-id]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      els.email.value = btn.getAttribute('data-email-id');
+      syncDependentControls();
+      render();
+    });
+  });
+}
+
+async function loadCatalog() {
+  try {
+    const res = await fetch('./catalog/email-catalog.json');
+    if (!res.ok) throw new Error(String(res.status));
+    catalog = await res.json();
+    renderCatalogList();
+  } catch (err) {
+    if (els.catalogList) {
+      els.catalogList.innerHTML = `<li class="catalog-error">Catalog unavailable (${err.message}). Seven previews still work.</li>`;
+    }
+  }
 }
 
 function applyBlockedImages(html) {
@@ -99,7 +149,7 @@ function updatePreviewAnnotation(def) {
   } else if (def.id === 'festival_marketing_email_target') {
     els.annotation.hidden = false;
     els.annotation.innerHTML =
-      `<strong>PREVIEW ANNOTATION</strong> — Author body + festival assets. Unsubscribe URL is SAMPLE (example.com). organizer_announcement excluded from Phase 1.`;
+      `<strong>PREVIEW ANNOTATION</strong> — Author body + festival assets. Unsubscribe URL is SAMPLE (example.com). organizer_announcement is IN SCOPE / UNDESIGNED (not in this selector).`;
   } else {
     els.annotation.hidden = true;
     els.annotation.textContent = '';
@@ -147,6 +197,7 @@ fillSelect(els.email, EMAIL_IDS, EMAIL_IDS[0].id);
 syncDependentControls();
 setViewport();
 render();
+loadCatalog();
 
 els.email.addEventListener('change', () => {
   syncDependentControls();
@@ -162,3 +213,5 @@ els.btnDownload.addEventListener('click', downloadHtml);
 els.btnToggleSource.addEventListener('click', () => {
   els.sourcePanel.hidden = !els.sourcePanel.hidden;
 });
+els.catalogFamily?.addEventListener('change', renderCatalogList);
+els.catalogStatus?.addEventListener('change', renderCatalogList);
