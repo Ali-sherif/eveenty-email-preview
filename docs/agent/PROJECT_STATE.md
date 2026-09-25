@@ -22,19 +22,18 @@ Catalog status for all seven: `DESIGNED`, `preview_selectable: true`, preview HT
 - `organizer_announcement` — Phase 1 scope, Marketing / Campaign-Announcement, **IN_SCOPE · UNDESIGNED** (catalog + CSV row confirmed).
 
 ## Approved design standards
-See `.agents/skills/email-rendering-compatibility/SKILL.md` for packaged token values.
+See `.agents/skills/email-rendering-compatibility/SKILL.md` and `shared/tokens.js` (aligned 2026-09-25 owner-approved corrections).
 
-**Token cross-check note (this session):** `shared/tokens.js` agrees on primary `#e9d023`, branded header `#fefdf4`, heading `#2b2a28`, body `#4d4c49`, border `#ebebeb`, container max 600. Differences observed vs skill text: muted (`tokens.js` `#7b7b79` / skill `#898988`) and success text (`tokens.js` successBody `#629a77` / skill `#166534`). Treat skill values as **needs owner/Figma confirmation** before design work — do not silently change either file in this infra-only task.
+**Implemented email kit values (verified in tokens + HTML this session):** primary CTA `#e9d023` / `#4d4c49` (DS Large pad 13×24, Medium 500); branded header `#fefdf4`; heading `#2b2a28`; body/meaningful muted `#4d4c49`; border `#ebebeb`; success text `#166534` on `#f0fdf4`; warning `#92400e` on `#fffbeb` border `#e6d1b9`; error title `#991b1b` / body `#4d4c49` on `#fef2f2`; container max 600; logo 160px.
 
 ## Current active task
-AI infrastructure install + validation only. No email design task is in progress.
+OD-W1 option B — official multilingual Wallet badges in Design Kit `festival_ticket_sale` HTML — **implemented**. Awaiting owner visual review + CDN deploy authorization. See `docs/agent/HANDOFF.md` and `qa-output/approved-component-corrections/OFFICIAL_MULTILINGUAL_WALLET_BADGES.md`.
 
 ## Known blockers
-- No `package.json` wiring for `email:*` scripts (intentional — infra-only; use `node .agents/scripts/email-cli.mjs …`).
-- No Playwright/`*.spec` suite in this repo; `email:qa` reports preview/screenshot artifact evidence only.
-- Cursor project-skill auto-discovery of `.agents/skills/` vs need for `.cursor/skills/` adapter: filesystem present; live Rules UI / skill picker confirmation is operator-side.
-- Figma files and live SMTP/client Level B QA not accessed this session.
-
+- Production CDN upload of `assets/wallet/official/**` (and optional backend locale URL wiring) — **not authorized yet**.
+- No `package.json` wiring for `email:*` scripts (intentional — use `node .agents/scripts/email-cli.mjs …`).
+- Level B real email-client QA not executed.
+- Owner visual approval pending.
 ## Canonical audit artifact locations (verified readable)
 - `D:\emails\Eveenty-Email-Kit-Phase1\organization\` (FAMILY_TAXONOMY_AUDIT, TRACEABILITY CSV, etc.)
 - Mirrored copies under `eveenty-email-preview/catalog/`

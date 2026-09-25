@@ -10,11 +10,12 @@ import {
   primaryCtaYellow,
   sectionTitle,
   kvRow,
-  statusAlertWarning,
+  statusAlert,
   nextStepsPanel,
   detailsTable,
   marketingFestivalHeader,
   marketingCampaignFooter,
+  walletActionButtons,
   esc,
   setAssetBase,
   fixtureUrl,
@@ -119,7 +120,7 @@ function renderDonation(L, dir, lang, variant, longContent) {
     ${brandedHeader({ locale: L.logo, dir, logoWidth: 160 })}
     <tr>
       <td align="center" class="stack-pad" style="padding:32px 30px 24px 30px;background-color:${T.surface};">
-        ${variant !== 'organizerNotify' ? `<p style="margin:0 0 16px 0;font-family:${bodyFont};font-size:14px;font-weight:500;color:${T.muted};text-align:center;">${esc(d.notTax)}</p>` : ''}
+        ${variant !== 'organizerNotify' ? `<p style="margin:0 0 16px 0;font-family:${bodyFont};font-size:14px;font-weight:500;color:${T.dark500};text-align:center;">${esc(d.notTax)}</p>` : ''}
         <p style="margin:0;font-family:${headingFont};font-size:20px;font-weight:600;line-height:1.4;color:${T.heading};text-align:center;">${thankYou}</p>
       </td>
     </tr>
@@ -180,25 +181,28 @@ function renderTicketSale(L, dir, lang, variant, longContent) {
           <p style="margin:0 0 12px 0;font-family:${headingFont};font-size:18px;font-weight:600;color:${T.heading};"><bdi>${esc(fest)}</bdi></p>
           <p style="margin:0 0 12px 0;font-size:14px;font-weight:500;color:${T.secondary};">${esc(SAMPLE.ticket.type)}</p>
           <p style="margin:0 0 12px 0;font-size:14px;color:${T.body};"><bdi>${esc(greetName)}</bdi></p>
-          <p style="margin:0 0 12px 0;font-size:13px;color:${T.muted};">${esc(SAMPLE.ticket.indexLabel)}&nbsp;&nbsp;·&nbsp;&nbsp;#${esc(SAMPLE.ticket.id)}</p>
+          <p style="margin:0 0 12px 0;font-size:13px;color:${T.dark500};">${esc(SAMPLE.ticket.indexLabel)}&nbsp;&nbsp;·&nbsp;&nbsp;#${esc(SAMPLE.ticket.id)}</p>
           <p style="margin:0 0 12px 0;font-size:13px;color:${T.body};">${esc(SAMPLE.festival.start)}</p>
           <p style="margin:0;font-size:13px;color:${T.body};"><bdi>${esc(SAMPLE.festival.place)}</bdi>, Toronto</p>
-          ${longContent ? `<p style="margin:12px 0 0 0;font-size:13px;color:${T.muted};">Seat notes / accessibility: aisle preferred · companion seating request on file (preview long-content).</p>` : ''}
+          ${longContent ? `<p style="margin:12px 0 0 0;font-size:13px;color:${T.dark500};">Seat notes / accessibility: aisle preferred · companion seating request on file (preview long-content).</p>` : ''}
         </td>
       </tr>
     </table>`;
 
-  const walletBtns = `
-    <table role="presentation" cellpadding="0" cellspacing="0" border="0">
-      <tr>
-        <td class="wallet-btn" style="padding:0 6px 0 0;">
-          <a href="https://example.com/preview/google-wallet" target="_blank" style="display:inline-block;padding:12px 16px;min-height:44px;box-sizing:border-box;font-family:${bodyFont};font-size:12px;font-weight:500;color:${T.secondary};text-decoration:none;border:1px solid ${T.secondary};border-radius:8px;background-color:${T.light100};line-height:1.3;">${esc(t.googleWallet)}</a>
-        </td>
-        <td class="wallet-btn" style="padding:0 0 0 6px;">
-          <a href="https://example.com/preview/apple-wallet" target="_blank" style="display:inline-block;padding:12px 16px;min-height:44px;box-sizing:border-box;font-family:${bodyFont};font-size:12px;font-weight:500;color:${T.secondary};text-decoration:none;border:1px solid ${T.secondary};border-radius:8px;background-color:${T.light100};line-height:1.3;">${esc(t.appleWallet)}</a>
-        </td>
-      </tr>
-    </table>`;
+  // Production: Google badge when GoogleWalletPassLink set; Apple badge when AppleWalletPassFile
+  // (pkpass attachment) present. Organizer/admin previews omit customer wallet actions.
+  // Preview sample URLs stand in for live pass link / cid:ticket-N.pkpass — not production secrets.
+  const showWallets = !isOrgAdmin && variant !== 'noWallet';
+  const walletBtns = showWallets
+    ? walletActionButtons({
+        googleHref: SAMPLE.ticket.googleWalletUrl,
+        appleHref: SAMPLE.ticket.appleWalletUrl,
+        googleLabel: t.googleWallet,
+        appleLabel: t.appleWallet,
+        locale: lang,
+        dir,
+      })
+    : '';
 
   // Activation standards applied: logo 160, header #FEFDF4, no visible inbox preheader in body.
   // Preview-only hidden preheader remains outside the canvas via wrapEmailDocument.
@@ -221,10 +225,10 @@ function renderTicketSale(L, dir, lang, variant, longContent) {
             </td>
           </tr>
           <tr>
-            <td align="center" style="padding-top:8px;font-family:${bodyFont};font-size:12px;color:${T.muted};">${esc(t.qrCaption)}</td>
+            <td align="center" style="padding-top:8px;font-family:${bodyFont};font-size:12px;color:${T.dark500};">${esc(t.qrCaption)}</td>
           </tr>
         </table>
-        <div style="margin-top:16px;">${walletBtns}</div>
+        ${walletBtns ? `<div class="wallet-section" style="margin-top:16px;">${walletBtns}</div>` : ''}
         <p style="margin:16px 0 0 0;font-family:${bodyFont};font-size:13px;color:${T.secondary};">
           ${esc(t.addTo)}&nbsp;
           <a href="https://example.com/preview/cal-google" style="color:${T.secondary};text-decoration:none;">${esc(t.googleCal)}</a>
@@ -233,6 +237,7 @@ function renderTicketSale(L, dir, lang, variant, longContent) {
           &nbsp;|&nbsp;
           <a href="https://example.com/preview/cal-yahoo" style="color:${T.secondary};text-decoration:none;">${esc(t.yahooCal)}</a>
         </p>
+        ${showWallets ? `
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:16px;background-color:${T.primary50};border:1px solid ${T.border};border-radius:8px;">
           <tr>
             <td style="padding:12px 16px;font-family:${bodyFont};">
@@ -240,7 +245,7 @@ function renderTicketSale(L, dir, lang, variant, longContent) {
               <p style="margin:0;font-size:12px;color:${T.body};">${esc(t.attachBody)}</p>
             </td>
           </tr>
-        </table>
+        </table>` : ''}
       </td>
     </tr>
     <tr>
@@ -278,7 +283,7 @@ function renderDispute(L, dir, lang, variant, longContent) {
   const fest = SAMPLE.festival.name;
   const statusBody = D.statusNeedsResponse.replace(
     '{{FEST}}',
-    `<span dir="auto" style="unicode-bidi:isolate;color:${T.primary};font-weight:700;"><bdi>${esc(fest)}</bdi></span>`
+    `<span dir="auto" style="unicode-bidi:isolate;color:${T.heading};font-weight:700;"><bdi>${esc(fest)}</bdi></span>`
   );
   const nextBody =
     variant === 'stripeConnect'
@@ -318,16 +323,23 @@ function renderDispute(L, dir, lang, variant, longContent) {
     </tr>
     <tr>
       <td class="stack-pad" style="padding:0 30px 24px 30px;background-color:${T.surface};">
-        ${statusAlertWarning({ title: D.alertNeedsResponse, bodyHtml: statusBody, dir: effectiveDir })}
+        ${statusAlert({
+          variant: 'warning',
+          title: D.alertNeedsResponse,
+          bodyHtml: statusBody,
+          dir: effectiveDir,
+          titleFontFamily: headingFont,
+          bodyFontFamily: bodyFont,
+        })}
       </td>
     </tr>
     <tr>
       <td class="stack-pad" style="padding:0 30px 24px 30px;background-color:${T.surface};">
-        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:${T.light100};border-${effectiveDir === 'rtl' ? 'right' : 'left'}:4px solid ${T.primary};">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:${T.light100};border:1px solid ${T.border};border-radius:8px;">
           <tr>
             <td align="${effectiveDir === 'rtl' ? 'right' : 'left'}" style="padding:20px;font-family:${bodyFont};">
               <h3 style="margin:0 0 12px 0;font-family:${headingFont};font-size:17px;font-weight:600;color:${T.heading};">${esc(D.eventInfo)}</h3>
-              <p style="margin:0;font-size:15px;color:${T.body};"><strong>${esc(D.eventName)}:</strong> <span style="color:${T.primary};font-weight:700;"><bdi>${esc(fest)}</bdi></span></p>
+              <p style="margin:0;font-size:15px;color:${T.body};"><strong>${esc(D.eventName)}:</strong> <span style="color:${T.heading};font-weight:700;"><bdi>${esc(fest)}</bdi></span></p>
             </td>
           </tr>
         </table>
@@ -358,9 +370,9 @@ function renderDispute(L, dir, lang, variant, longContent) {
       </td>
     </tr>
     <tr>
-      <td align="${effectiveDir === 'rtl' ? 'right' : 'left'}" class="stack-pad" style="padding:8px 30px 24px 30px;background-color:${T.surface};border-top:2px solid ${T.primary};font-family:${bodyFont};">
+      <td align="${effectiveDir === 'rtl' ? 'right' : 'left'}" class="stack-pad" style="padding:8px 30px 24px 30px;background-color:${T.surface};border-top:1px solid ${T.border};font-family:${bodyFont};">
         <p style="margin:0 0 8px 0;font-size:15px;font-weight:500;color:${T.heading};">${esc(D.bestRegards)}</p>
-        <p style="margin:0;font-size:15px;font-weight:600;color:${T.primary};">${esc(D.teamName)}</p>
+        <p style="margin:0;font-size:15px;font-weight:600;color:${T.heading};">${esc(D.teamName)}</p>
       </td>
     </tr>
   `;
@@ -427,7 +439,7 @@ function renderRegApproval(L, dir, lang, variant, longContent) {
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:8px;background-color:${T.light100};border:1px solid ${T.border};border-radius:8px;">
       <tr>
         <td style="padding:12px;font-family:${bodyFont};font-size:13px;color:${T.body};">
-          <p style="margin:0 0 6px 0;font-weight:700;color:${T.muted};">Answers:</p>
+          <p style="margin:0 0 6px 0;font-weight:700;color:${T.dark500};">Answers:</p>
           <p style="margin:0 0 6px 0;line-height:1.4;">Dietary requirements: Vegetarian</p>
           <p style="margin:0;line-height:1.4;">T-shirt size: M</p>
           ${longContent ? `<p style="margin:6px 0 0 0;line-height:1.4;">Accessibility notes: Prefers quiet entry lane; companion seat requested for preview long-content mode.</p>` : ''}
@@ -455,17 +467,20 @@ function renderRegApproval(L, dir, lang, variant, longContent) {
     ${brandedHeader({ locale: L.logo, dir, logoWidth: 160 })}
     <tr>
       <td class="stack-pad" style="padding:16px 30px 8px 30px;background-color:${T.surface};">
-        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:${T.successSurface};border:1px solid ${T.successBorder};border-radius:12px;">
-          <tr>
-            <td style="padding:20px;font-family:${bodyFont};font-size:14px;line-height:1.5;color:${T.successBody};">${esc(r.alert)}</td>
-          </tr>
-        </table>
+        ${statusAlert({
+          variant: 'success',
+          title: r.alert,
+          bodyHtml: '',
+          dir,
+          titleFontFamily: headingFont,
+          bodyFontFamily: bodyFont,
+        })}
       </td>
     </tr>
     <tr>
       <td align="${dir === 'rtl' ? 'right' : 'left'}" class="stack-pad" style="padding:16px 30px 8px 30px;background-color:${T.surface};font-family:${bodyFont};">
         <p style="margin:0 0 10px 0;font-size:16px;font-weight:500;line-height:1.5;color:${T.body};">${esc(greeting)}</p>
-        <p style="margin:0;font-size:14px;color:${T.muted};">${esc(r.summarySubtitle)}</p>
+        <p style="margin:0;font-size:14px;color:${T.dark500};">${esc(r.summarySubtitle)}</p>
       </td>
     </tr>
     ${ctaRow}
@@ -476,12 +491,12 @@ function renderRegApproval(L, dir, lang, variant, longContent) {
           <tr>
             <td style="padding:24px;font-family:${bodyFont};">
               <p style="margin:0 0 8px 0;font-size:18px;font-weight:700;color:${T.secondary};text-align:center;">🎫 Event: <bdi>${esc(fest)}</bdi></p>
-              <p style="margin:0 0 16px 0;font-size:14px;color:${T.muted};text-align:center;">Registration ID: <span dir="ltr">${esc(SAMPLE.registration.id)}</span></p>
-              <p style="margin:0 0 4px 0;font-size:11px;font-weight:500;color:${T.muted};letter-spacing:0.5px;">REGISTRATION DATE &amp; TIME</p>
+              <p style="margin:0 0 16px 0;font-size:14px;color:${T.dark500};text-align:center;">Registration ID: <span dir="ltr">${esc(SAMPLE.registration.id)}</span></p>
+              <p style="margin:0 0 4px 0;font-size:11px;font-weight:500;color:${T.dark500};letter-spacing:0.5px;">REGISTRATION DATE &amp; TIME</p>
               <p style="margin:0 0 12px 0;font-size:15px;font-weight:500;color:${T.secondary};">${esc(SAMPLE.registration.dateTime)}</p>
-              <p style="margin:0 0 4px 0;font-size:11px;font-weight:500;color:${T.muted};letter-spacing:0.5px;">CURRENT STATUS</p>
+              <p style="margin:0 0 4px 0;font-size:11px;font-weight:500;color:${T.dark500};letter-spacing:0.5px;">CURRENT STATUS</p>
               <p style="margin:0 0 12px 0;font-size:15px;font-weight:500;color:${T.secondary};">${esc(SAMPLE.registration.status)}</p>
-              <p style="margin:0 0 4px 0;font-size:11px;font-weight:500;color:${T.muted};letter-spacing:0.5px;">PAYMENT DEADLINE</p>
+              <p style="margin:0 0 4px 0;font-size:11px;font-weight:500;color:${T.dark500};letter-spacing:0.5px;">PAYMENT DEADLINE</p>
               <p style="margin:0;font-size:15px;font-weight:500;color:${T.body};">${esc(SAMPLE.registration.paymentDeadline)}</p>
             </td>
           </tr>
@@ -505,7 +520,7 @@ function renderRegApproval(L, dir, lang, variant, longContent) {
     <tr>
       <td class="stack-pad" style="padding:8px 30px 16px 30px;background-color:${T.surface};">
         ${sectionTitle({ title: `${r.ticketsTitle} (2)`, dir, fontFamily: headingFont, fontWeight: 600 })}
-        <p style="margin:0 0 12px 0;font-family:${bodyFont};font-size:14px;color:${T.muted};">${esc(r.ticketsSubtitle)}</p>
+        <p style="margin:0 0 12px 0;font-family:${bodyFont};font-size:14px;color:${T.dark500};">${esc(r.ticketsSubtitle)}</p>
         ${ticketItem(1, 2, 'General Admission', SAMPLE.user.fullName, SAMPLE.user.email, SAMPLE.user.phone, true)}
         ${ticketItem(2, 2, 'VIP', SAMPLE.guest.fullName, SAMPLE.guest.email, null, false)}
       </td>
@@ -513,7 +528,7 @@ function renderRegApproval(L, dir, lang, variant, longContent) {
     <tr>
       <td class="stack-pad" style="padding:8px 30px 16px 30px;background-color:${T.surface};">
         ${sectionTitle({ title: r.eventTitle, dir, fontFamily: headingFont, fontWeight: 600 })}
-        <p style="margin:0 0 12px 0;font-family:${bodyFont};font-size:14px;color:${T.muted};">${esc(r.eventSubtitle)}</p>
+        <p style="margin:0 0 12px 0;font-family:${bodyFont};font-size:14px;color:${T.dark500};">${esc(r.eventSubtitle)}</p>
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid ${T.border};border-radius:12px;">
           <tr>
             <td style="padding:24px;font-family:${bodyFont};">
@@ -532,7 +547,7 @@ function renderRegApproval(L, dir, lang, variant, longContent) {
             </td>
           </tr>
         </table>
-        <p style="margin:12px 0 0 0;font-family:${bodyFont};font-size:12px;color:${T.muted};text-align:center;">${esc(SAMPLE.festival.timezoneNote)}</p>
+        <p style="margin:12px 0 0 0;font-family:${bodyFont};font-size:12px;color:${T.dark500};text-align:center;">${esc(SAMPLE.festival.timezoneNote)}</p>
       </td>
     </tr>
     ${ctaRow}
@@ -543,13 +558,13 @@ function renderRegApproval(L, dir, lang, variant, longContent) {
             <td align="center" style="padding:20px 24px;font-family:${bodyFont};">
               <p style="margin:0 0 10px 0;font-size:14px;font-weight:700;color:${T.body};">${esc(r.footerTag)}</p>
               <p style="margin:0 0 10px 0;font-size:13px;font-weight:700;color:${T.body};">${esc(r.contactUs)}</p>
-              <p style="margin:0 0 10px 0;font-size:12px;color:${T.muted};">[WA]&nbsp;&nbsp;[LI]&nbsp;&nbsp;[FB]&nbsp;&nbsp;[X]&nbsp;&nbsp;[IG]</p>
+              <p style="margin:0 0 10px 0;font-size:12px;color:${T.dark500};">[WA]&nbsp;&nbsp;[LI]&nbsp;&nbsp;[FB]&nbsp;&nbsp;[X]&nbsp;&nbsp;[IG]</p>
               <p style="margin:0;font-size:13px;color:${T.body};">${esc(r.copyright)}</p>
             </td>
           </tr>
         </table>
-        <p style="margin:10px 0 0 0;font-family:${bodyFont};font-size:12px;color:${T.muted};text-align:center;">${esc(r.autoNote)}</p>
-        <p style="margin:6px 0 0 0;font-family:${bodyFont};font-size:12px;color:${T.muted};text-align:center;">${esc(r.help)}</p>
+        <p style="margin:10px 0 0 0;font-family:${bodyFont};font-size:12px;color:${T.dark500};text-align:center;">${esc(r.autoNote)}</p>
+        <p style="margin:6px 0 0 0;font-family:${bodyFont};font-size:12px;color:${T.dark500};text-align:center;">${esc(r.help)}</p>
       </td>
     </tr>
   `;
@@ -582,17 +597,20 @@ function renderSupport(L, dir, lang, variant, longContent) {
     </tr>
     <tr>
       <td class="stack-pad" style="padding:8px 30px;background-color:${T.surface};">
-        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:${T.errorSurface};border:1px solid ${T.errorBorder};border-radius:8px;">
-          <tr>
-            <td style="padding:16px;font-family:${T.fontBody};font-size:14px;font-weight:700;color:${T.errorFg};">Environment: ${esc(SAMPLE.support.environment)}</td>
-          </tr>
-        </table>
+        ${statusAlert({
+          variant: 'error',
+          title: 'Environment',
+          bodyHtml: esc(SAMPLE.support.environment),
+          dir: 'ltr',
+          titleFontFamily: T.fontHeading,
+          bodyFontFamily: T.fontBody,
+        })}
       </td>
     </tr>
     <tr>
       <td class="stack-pad" style="padding:16px 30px;background-color:${T.surface};font-family:${T.fontBody};">
         <p style="margin:0 0 10px 0;font-size:16px;font-weight:500;color:${T.body};">${esc(s.intro)}</p>
-        <p style="margin:0 0 12px 0;font-size:13px;color:${T.muted};">${esc(s.hint)}</p>
+        <p style="margin:0 0 12px 0;font-size:13px;color:${T.dark500};">${esc(s.hint)}</p>
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:${T.light100};border:1px solid ${T.border};border-radius:8px;">
           <tr>
             <td style="padding:16px;font-family:${T.fontMono};font-size:13px;line-height:1.45;color:${T.body};white-space:pre-wrap;word-break:break-word;">${esc(details)}</td>
@@ -602,8 +620,8 @@ function renderSupport(L, dir, lang, variant, longContent) {
     </tr>
     <tr>
       <td class="stack-pad" style="padding:20px 30px 24px 30px;background-color:${T.surface};font-family:${T.fontBody};font-size:12px;">
-        <p style="margin:0 0 8px 0;color:${T.muted};">${esc(s.footer1)}</p>
-        <p style="margin:0;color:${T.muted};">${esc(s.footer2)}</p>
+        <p style="margin:0 0 8px 0;color:${T.dark500};">${esc(s.footer1)}</p>
+        <p style="margin:0;color:${T.dark500};">${esc(s.footer2)}</p>
       </td>
     </tr>
   `;

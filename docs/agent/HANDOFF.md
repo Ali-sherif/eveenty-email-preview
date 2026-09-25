@@ -1,49 +1,38 @@
 # HANDOFF — Eveenty Email Design Kit
 
 ## Current task
-AI agent infrastructure **install + local validation** in `D:\last\eveenty-email-preview`. No email design task is active.
+Owner-approved **official multilingual Wallet badges** (OD-W1 option B) for `festival_ticket_sale`, with **48px min height at all viewports including 320px** (condensed Google on narrow). Awaiting owner visual review + CDN deploy authorization.
 
-## Exact scope of what was done
-- Read `INSTALL.md` from `D:\last\eveenty-agent-infra.zip` (extracted to a temp folder for inspection).
-- Inspected existing repo agent configs: **none** present (`AGENTS.md`, `.cursor/`, `.agents/` absent). Existing `docs/BLOCKERS.md`, `COMPATIBILITY.md`, `SOURCE_PARITY.md`, `VISUAL_DEVIATION_LOG.md` left untouched.
-- Compared package files to workspace; copied only missing infrastructure files (no blind overwrites).
-- Verified authoritative inventory against live `catalog/email-catalog.json` + traceability CSV.
-- Implemented deterministic CLI under `.agents/scripts/` only (no `package.json` / app / template / YAML changes).
-- Smoke-tested `activate_email` and `organizer_announcement` context retrieval + catalog validation.
+## Exact scope of what was done (latest)
+- **Mobile 320 fix:** Primary Google `wallet-button` cannot fit at 48px + 8dp clear inside 320px (FR needs 304px; max usable ~302). Switched ≤620px to official Google **condensed** `add-wallet-badge` (174–186×48). Desktop/tablet keep primary.
+- Maximized mobile wallet width: `.wallet-section` cancels nested stack-pad; outer horizontal pad → 0; retain 8px clear space. Removed fluid shrink below 48px.
+- Chromium QA: **PASS** — `heightFailCount: 0` across en/ar/fr/es/fa × 800/768/414/375/320 (+ blocked-image cases).
+- Did **not** edit Figma, backend, other six emails, or badge artwork (copies only). Did **not** commit/push/deploy.
 
-## Completed this session
-- Root: `AGENTS.md`, `CLAUDE.md`
-- Cursor rule: `.cursor/rules/eveenty-email-kit.mdc` (`alwaysApply: true`)
-- Skills (8): `.agents/skills/{email-context,generate-email,review-email,email-batch,email-traceability,email-security-review,email-handoff,email-rendering-compatibility}/`
-- Docs: `docs/agent/{PROJECT_STATE,DECISION_LOG,HANDOFF,RUNBOOK}.md`
-- Scripts: `node .agents/scripts/email-cli.mjs` commands `context`, `validate-catalog`, `validate-template`, `qa`, `status`, `handoff`
-
-## Verification results (actual)
+## Verification results
 | Check | Result |
 |---|---|
-| Catalog 59 / 11 / 48 | **PASS** |
-| Backend families 2/20/8/15/7/7 | **PASS** |
-| Design Kit in-scope 2/26/17/3 | **PASS** |
-| Designed 7 / undesigned in-scope 41 | **PASS** (ids match seven references) |
-| `activate_email` context | **PASS** — IN_SCOPE · DESIGNED · TRANSACTIONAL · preview `emails/activate_email.html` exists |
-| `organizer_announcement` context | **PASS** — IN_SCOPE · UNDESIGNED · MARKETING · no preview |
-| Working-tree scope | Infra paths only (see git status) |
-| package.json / production / templates / YAML / Figma / previews / existing tests | **Not modified** |
+| Inventory 59/11/48 · designed 7 · undesigned 41 | **PASS** (carried) |
+| Official badges EN/AR/FR/ES/FA | **PASS** |
+| ≥48px height at **all** widths incl. 320 | **PASS** |
+| Condensed Google ≤620px / primary ≥768 | **PASS** |
+| Google min 48 dp + clear space 8 dp | **PASS** |
+| Apple clear space / min 40px | **PASS** |
+| Buyer/guest show · organizer omit | **PASS** |
+| Image-blocked alt | **PASS** |
+| Testing PNG evidence on disk | **DISCARDED** (mail assets under `assets/` retained) |
+| Gmail/Outlook/Apple Mail | **NOT RUN** |
+| Production CDN upload | **NOT DONE** (needs owner auth; now includes `google/condensed/*`) |
+| Owner visual approval | **Pending** |
 
-## NOT done / untested
-- Cursor Rules panel UI confirmation that `eveenty-email-kit.mdc` shows as active (file installed; UI not inspected).
-- Whether this Cursor build auto-loads project `.agents/skills/` without a `.cursor/skills/` adapter (skills are on disk; discovery not proven in-product).
-- Codex / Claude Code skill discovery (CLAUDE.md pointer only; Claude Code not exercised).
-- Level A Playwright browser QA re-run (no suite in repo; historical 87/87 not re-executed).
-- Level B real-client / Litmus rendering.
-- Figma token re-approval for muted/success color deltas vs `shared/tokens.js`.
-- `npm` dependency installs, commit, push, deploy — intentionally skipped.
-
-## Known blockers
-None blocking infra install. Design rollout still requires separate owner authorization.
+## Known blockers / open owner items
+- **CDN deploy** of `assets/wallet/official/**` including `google/condensed/{en,ar,fr,es,fa}.png`.
+- Optional: authorize backend template locale CDN URLs.
+- OD-2: Optional stronger status borders
+- OD-3: Owner visual approval of corrected seven (prior CTA/alert work)
 
 ## Next authorized action
-Await owner authorization before any design of the 41 undesigned templates (including `organizer_announcement`). Optional follow-ups: confirm Cursor Rules/skills UI discovery; resolve token deltas with Figma; optionally add thin `.cursor/skills/` adapters only if discovery fails.
+Stop. Review `qa-output/approved-component-corrections/WALLET_BADGE_SIZING_FIX.md` + live preview (`npm start`). All testing PNGs discarded — use live HTML + Figma Kit. Do not design remaining 41 until authorized.
 
-## Resume prompt (for the next agent/session)
-"Continue Eveenty Email Kit from docs/agent/HANDOFF.md. Follow AGENTS.md, select the appropriate skill, inspect the current working tree, and resume only the authorized task."
+## Resume prompt
+"Continue Eveenty Email Kit from docs/agent/HANDOFF.md. Follow AGENTS.md. Wallet badges maintain 48px min height at all widths via official condensed Google on narrow viewports — awaiting owner review and CDN deploy authorization."

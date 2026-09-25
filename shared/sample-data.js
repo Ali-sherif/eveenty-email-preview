@@ -35,6 +35,9 @@ export const SAMPLE = {
     type: 'General Admission',
     id: 'TKT-18402',
     indexLabel: 'Ticket 1 / 2',
+    /** Preview stand-ins for production GoogleWalletPassLink / cid:ticket-N.pkpass */
+    googleWalletUrl: 'https://example.com/preview/google-wallet',
+    appleWalletUrl: 'https://example.com/preview/apple-wallet',
   },
   registration: {
     id: 'REG-77821',

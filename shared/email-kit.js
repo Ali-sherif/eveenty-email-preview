@@ -42,27 +42,92 @@ export function hiddenPreheader(text) {
 export function visiblePreheaderBar(text, dir = 'ltr') {
   return `
     <tr>
-      <td align="${dir === 'rtl' ? 'right' : 'left'}" style="background-color:${T.light100};padding:8px 24px 4px 24px;font-family:${T.fontStack};font-size:11px;line-height:1.4;color:${T.muted};">
+      <td align="${dir === 'rtl' ? 'right' : 'left'}" style="background-color:${T.light100};padding:8px 24px 4px 24px;font-family:${T.fontStack};font-size:11px;line-height:1.4;color:${T.dark500};">
         ${esc(text)}
       </td>
     </tr>`;
 }
 
+const STATUS_ALERT_THEMES = {
+  warning: {
+    bg: T.warningSurface,
+    border: T.warningBorder,
+    title: T.warningFg,
+    body: T.warningBody,
+    /** Text prefix communicates status when icons/images are blocked */
+    statusLabel: 'Warning',
+  },
+  error: {
+    bg: T.errorSurface,
+    border: T.errorBorder,
+    title: T.errorFg,
+    body: T.errorBody,
+    statusLabel: 'Error',
+  },
+  success: {
+    bg: T.successSurface,
+    border: T.successBorder,
+    title: T.successFg,
+    body: T.successBody,
+    statusLabel: 'Success',
+  },
+  info: {
+    bg: T.infoSurface,
+    border: T.infoBorder,
+    title: T.infoFg,
+    body: T.infoBody,
+    statusLabel: 'Info',
+  },
+};
+
 /**
- * Warning / dispute status alert (Notification family).
- * Colors aligned to Activation-approved neutrals + semantic warning chrome.
+ * Shared Email Status Alert — Warning / Error / Success / Info.
+ * Owner-approved: 16px pad, 16px radius, 8px title↔body gap; variant colors only.
+ * No dismiss control. Status communicated via visible title text (icon optional).
  */
-export function statusAlertWarning({ title, bodyHtml, dir = 'ltr' } = {}) {
+export function statusAlert({
+  variant = 'warning',
+  title,
+  bodyHtml = '',
+  dir = 'ltr',
+  showIcon = false,
+  titleFontFamily = T.fontHeading,
+  bodyFontFamily = T.fontBody,
+} = {}) {
+  const theme = STATUS_ALERT_THEMES[variant] || STATUS_ALERT_THEMES.warning;
   const align = dir === 'rtl' ? 'right' : 'left';
+  const pad = T.statusAlertPadding;
+  const gap = T.statusAlertGap;
+  const hasBody = bodyHtml != null && String(bodyHtml).trim() !== '';
+  const titleMargin = hasBody ? `0 0 ${gap}px 0` : '0';
+  const iconPad = dir === 'rtl' ? '4px 0 4px 8px' : '4px 8px 4px 0';
+  const iconCell = showIcon
+    ? `<td valign="top" width="28" style="padding:${iconPad};font-family:${bodyFontFamily};font-size:14px;line-height:1.2;color:${theme.title};" aria-hidden="true">&#9679;</td>`
+    : '';
+  const bodyBlock = hasBody
+    ? `<p style="margin:0;font-family:${bodyFontFamily};font-size:16px;font-weight:400;line-height:1.4;color:${theme.body};">${bodyHtml}</p>`
+    : '';
   return `
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#fffbeb;border:1px solid #fde68a;border-radius:8px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:${theme.bg};border:1px solid ${theme.border};border-radius:${T.statusAlertRadius}px;">
       <tr>
-        <td align="${align}" style="padding:20px;font-family:${T.fontStack};">
-          <h2 style="margin:0 0 12px 0;font-size:18px;font-weight:600;line-height:1.3;color:#856404;">${esc(title)}</h2>
-          <p style="margin:0;font-size:15px;font-weight:500;line-height:1.5;color:#856404;">${bodyHtml}</p>
+        <td align="${align}" style="padding:${pad}px;font-family:${bodyFontFamily};">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              ${iconCell}
+              <td align="${align}" style="font-family:${bodyFontFamily};">
+                <h2 style="margin:${titleMargin};font-family:${titleFontFamily};font-size:16px;font-weight:600;line-height:1.3;color:${theme.title};">${esc(title)}</h2>
+                ${bodyBlock}
+              </td>
+            </tr>
+          </table>
         </td>
       </tr>
     </table>`;
+}
+
+/** @deprecated Prefer statusAlert({ variant: 'warning', ... }) */
+export function statusAlertWarning(opts = {}) {
+  return statusAlert({ ...opts, variant: 'warning' });
 }
 
 /** Magenta-accent “what happens next” panel for Notification emails. */
@@ -150,7 +215,7 @@ export function brandedHeader({ locale = 'en', dir = 'ltr', logoWidth = 200 } = 
     <tr>
       <td align="center" style="background-color:${T.primary50};padding:32px 24px 16px 24px;">
         <img src="${src}" alt="${esc(alt)}" width="${w}" height="${h}" style="display:block;width:${w}px;max-width:${w}px;height:auto;border:0;outline:none;text-decoration:none;" />
-        <!--[if mso]><p style="font-family:Arial,sans-serif;font-size:12px;color:${T.muted};">Eveenty</p><![endif]-->
+        <!--[if mso]><p style="font-family:Arial,sans-serif;font-size:12px;color:${T.dark500};">Eveenty</p><![endif]-->
       </td>
     </tr>`;
 }
@@ -171,7 +236,7 @@ export function brandedFooter({
   const align = dir === 'rtl' ? 'right' : 'left';
   return `
     <tr>
-      <td align="${align}" class="stack-pad" style="background-color:${T.surface};padding:24px 30px;border-top:1px solid #e5e5e5;font-family:${fontFamily};">
+      <td align="${align}" class="stack-pad" style="background-color:${T.surface};padding:24px 30px;border-top:1px solid ${T.border};font-family:${fontFamily};">
         <p style="margin:0 0 10px 0;color:${T.dark500};font-size:13px;line-height:1.6;">
           ${esc(footerLead)} <a href="mailto:${esc(email)}" dir="ltr" style="color:${T.secondary};text-decoration:none;unicode-bidi:embed;">${esc(email)}</a>${esc(footerSuffix)}
         </p>
@@ -212,19 +277,194 @@ export function totalsBox({ subtotal, tax, processingFee, grandTotal, dir = 'ltr
 }
 
 /**
- * Yellow primary CTA (Account Activation / TRANSACTIONAL).
- * Target ~48–51px height via anchor padding (16+16) + 16px/1.2 line — do not
- * rely on td min-height (Outlook often ignores it). Full VML/bulletproof Outlook
- * button suite remains DEFERRED — no production engineering in Task 02.
- * Client rendering tests: NOT EXECUTED.
+ * Primary yellow CTA — owner-approved Original DS Large button:
+ * bg #E9D023 · text #4D4C49 · Roboto Medium 16/1.4 · pad 13×24 · radius 12 · ~48px single-line.
+ * Expands safely for long translated labels. Outlook VML fallback included.
+ * Client Level B (Gmail/Outlook/Apple Mail): NOT EXECUTED in this kit.
  */
-export function primaryCtaYellow({ href, label, fontFamily = T.fontStack }) {
+export function primaryCtaYellow({ href, label, fontFamily = T.fontBody }) {
+  const padY = T.ctaPaddingY;
+  const padX = T.ctaPaddingX;
+  const radius = T.ctaRadius;
+  const vmlArc = Math.round((radius / 48) * 10000) / 10000;
   return `
     <table role="presentation" cellpadding="0" cellspacing="0" border="0">
       <tr>
-        <td align="center" bgcolor="${T.primary}" style="background-color:${T.primary};border-radius:12px;">
-          <a class="cta-yellow" href="${esc(href)}" target="_blank" style="display:inline-block;padding:16px 40px;font-family:${fontFamily};font-size:16px;font-weight:700;color:${T.body};text-decoration:none;border-radius:12px;min-width:44px;line-height:1.2;">${esc(label)}</a>
+        <td align="center">
+          <!--[if mso]>
+          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="${esc(href)}" style="height:${T.ctaMinHeight}px;v-text-anchor:middle;width:auto;" arcsize="${vmlArc}" stroke="f" fillcolor="${T.primary}">
+            <w:anchorlock/>
+            <center style="color:${T.body};font-family:Arial,sans-serif;font-size:${T.ctaFontSize}px;font-weight:${T.ctaFontWeight};">${esc(label)}</center>
+          </v:roundrect>
+          <![endif]-->
+          <!--[if !mso]><!-->
+          <a class="cta-yellow" href="${esc(href)}" target="_blank" style="display:inline-block;padding:${padY}px ${padX}px;font-family:${fontFamily};font-size:${T.ctaFontSize}px;font-weight:${T.ctaFontWeight};color:${T.body};text-decoration:none;border-radius:${radius}px;background-color:${T.primary};line-height:${T.ctaLineHeight};mso-hide:all;text-align:center;vertical-align:middle;box-sizing:border-box;min-height:${T.ctaMinHeight}px;">${esc(label)}</a>
+          <!--<![endif]-->
         </td>
+      </tr>
+    </table>`;
+}
+
+/**
+ * Official multilingual Add to Wallet badges (owner OD-W1 option B, 2026-09-25).
+ * Local PNGs under assets/wallet/official/{google,apple}/{locale}.png — sourced from
+ * Apple Developer / Google Wallet brand kits (unmodified artwork; Apple SVGs rasterized
+ * to PNG for email). Persian Apple falls back to English official badge.
+ *
+ * Google “primary” = wallet-button; “condensed” = add-wallet-badge (official pack).
+ * Email uses primary on wide viewports and condensed ≤620px so 48px min height fits
+ * at 320px without shrinking (Google: use condensed when space is limited).
+ *
+ * Preview uses assetBase-relative paths. Production delivery requires CDN hosting —
+ * see qa-output/.../OFFICIAL_MULTILINGUAL_WALLET_BADGES.md (do not upload without auth).
+ *
+ * Conditional: omit when href empty (GoogleWalletPassLink / AppleWalletPassFile).
+ * Calendar remains separate text links — do not invent calendar badges here.
+ * Do not mirror badges in RTL.
+ */
+
+/** Intrinsic pixel sizes of prepared official PNGs (for email width/height attrs). */
+const WALLET_BADGE_INTRINSIC = {
+  google: {
+    // Primary: wallet-button
+    en: { w: 283, h: 50 },
+    ar: { w: 936, h: 150 },
+    fr: { w: 317, h: 50 },
+    es: { w: 298, h: 50 },
+    fa: { w: 308, h: 50 },
+  },
+  googleCondensed: {
+    // Official add-wallet-badge (narrower; use when primary cannot fit at 48px)
+    en: { w: 199, h: 55 },
+    ar: { w: 199, h: 55 },
+    fr: { w: 199, h: 55 },
+    es: { w: 199, h: 55 },
+    fa: { w: 213, h: 55 },
+  },
+  apple: {
+    en: { w: 316, h: 100 },
+    ar: { w: 318, h: 100 },
+    fr: { w: 321, h: 100 },
+    es: { w: 376, h: 100 },
+    fa: { w: 316, h: 100 }, // English artwork fallback
+  },
+};
+
+const WALLET_LOCALES = ['en', 'ar', 'fr', 'es', 'fa'];
+
+export function walletBadgeLocale(locale = 'en') {
+  return WALLET_LOCALES.includes(locale) ? locale : 'en';
+}
+
+/** Relative preview path (or CDN once deployed). Never emit Windows absolute paths. */
+export function walletBadgeUrl(provider, locale = 'en', { condensed = false } = {}) {
+  const loc = walletBadgeLocale(locale);
+  if (provider === 'google' && condensed) {
+    return `${assetBase}assets/wallet/official/google/condensed/${loc}.png`;
+  }
+  return `${assetBase}assets/wallet/official/${provider}/${loc}.png`;
+}
+
+/**
+ * Size badges by shared display height so Google/Apple look equal.
+ * Width follows each asset’s intrinsic aspect ratio (never stretch/crop).
+ * Default 48px matches Google Wallet minimum height (48 dp) and exceeds
+ * Apple’s onscreen minimum (40 px).
+ */
+function walletBadgeDisplaySize(providerKey, locale, displayHeight = 48) {
+  const loc = walletBadgeLocale(locale);
+  const intrinsic =
+    WALLET_BADGE_INTRINSIC[providerKey]?.[loc] ||
+    WALLET_BADGE_INTRINSIC[providerKey]?.en ||
+    WALLET_BADGE_INTRINSIC.google.en;
+  const width = Math.max(1, Math.round((displayHeight * intrinsic.w) / intrinsic.h));
+  return { width, height: displayHeight };
+}
+
+/**
+ * @param {object} opts
+ * @param {string} [opts.googleHref] — empty omits Google badge
+ * @param {string} [opts.appleHref] — empty omits Apple badge
+ * @param {string} [opts.googleLabel] — accessible alt / text fallback
+ * @param {string} [opts.appleLabel] — accessible alt / text fallback
+ * @param {string} [opts.locale] — en|ar|fr|es|fa
+ * @param {string} [opts.dir] — ltr|rtl (layout only; artwork not mirrored)
+ * @param {number} [opts.displayHeight] — target badge height in px (default 48)
+ */
+export function walletActionButtons({
+  googleHref = '',
+  appleHref = '',
+  googleLabel = 'Add to Google Wallet',
+  appleLabel = 'Add to Apple Wallet',
+  locale = 'en',
+  dir = 'ltr',
+  displayHeight = 48,
+} = {}) {
+  const showGoogle = !!googleHref;
+  const showApple = !!appleHref;
+  if (!showGoogle && !showApple) return '';
+
+  const loc = walletBadgeLocale(locale);
+  // ≥16px between badges on desktop (≥ Google 8 dp / Apple 0.1× clear space)
+  const gapFirst = dir === 'rtl' ? '0 0 0 16px' : '0 16px 0 0';
+
+  const imgTag = ({ href, src, label, width, height, extraClass = '', extraStyle = '' }) => {
+    const imgStyle = `display:block;width:${width}px;max-width:${width}px;height:${height}px;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;${extraStyle}`;
+    return `<a href="${esc(href)}" target="_blank" style="display:inline-block;line-height:0;text-decoration:none;border:0;">
+            <img class="wallet-badge-img${extraClass ? ` ${extraClass}` : ''}" src="${esc(src)}" alt="${esc(label)}" width="${width}" height="${height}" style="${imgStyle}" />
+          </a>`;
+  };
+
+  const googleCell = (padding) => {
+    const primary = walletBadgeDisplaySize('google', loc, displayHeight);
+    const condensed = walletBadgeDisplaySize('googleCondensed', loc, displayHeight);
+    const primarySrc = walletBadgeUrl('google', loc, { condensed: false });
+    const condensedSrc = walletBadgeUrl('google', loc, { condensed: true });
+    // Dual official assets: primary on wide; condensed ≤620px so 48px fits at 320 without shrink.
+    // Outlook ignores MQ → primary only (desktop pane is wide enough).
+    return `
+        <td class="wallet-btn" align="center" valign="middle" width="${primary.width}" style="padding:${padding};vertical-align:middle;width:${primary.width}px;">
+          ${imgTag({
+            href: googleHref,
+            src: primarySrc,
+            label: googleLabel,
+            width: primary.width,
+            height: primary.height,
+            extraClass: 'wallet-google-primary',
+          })}
+          ${imgTag({
+            href: googleHref,
+            src: condensedSrc,
+            label: googleLabel,
+            width: condensed.width,
+            height: condensed.height,
+            extraClass: 'wallet-google-condensed',
+            extraStyle: 'display:none;',
+          })}
+        </td>`;
+  };
+
+  const appleCell = (padding) => {
+    const { width, height } = walletBadgeDisplaySize('apple', loc, displayHeight);
+    const src = walletBadgeUrl('apple', loc);
+    return `
+        <td class="wallet-btn" align="center" valign="middle" width="${width}" style="padding:${padding};vertical-align:middle;width:${width}px;">
+          ${imgTag({ href: appleHref, src, label: appleLabel, width, height })}
+        </td>`;
+  };
+
+  const cells = [];
+  if (showGoogle) {
+    cells.push(googleCell(showApple ? gapFirst : '0'));
+  }
+  if (showApple) {
+    cells.push(appleCell('0'));
+  }
+  // dir controls cell order only — never mirror badge artwork (no scaleX / transform)
+  return `
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" class="wallet-row" align="center" dir="${dir === 'rtl' ? 'rtl' : 'ltr'}" style="margin:0 auto;">
+      <tr>
+        ${cells.join('')}
       </tr>
     </table>`;
 }
@@ -249,14 +489,14 @@ export function sectionTitle({ title, dir = 'ltr', fontFamily = T.fontStack, fon
 export function kvRow(label, value, dir = 'ltr') {
   return `
     <tr>
-      <td align="${dir === 'rtl' ? 'right' : 'left'}" style="padding:6px 0;font-family:${T.fontStack};font-size:14px;color:${T.muted};">${esc(label)}</td>
-      <td align="${dir === 'rtl' ? 'left' : 'right'}" style="padding:6px 0;font-family:${T.fontStack};font-size:14px;font-weight:700;color:${T.body};">${value}</td>
+      <td align="${dir === 'rtl' ? 'right' : 'left'}" style="padding:6px 0;font-family:${T.fontStack};font-size:14px;color:${T.dark500};">${esc(label)}</td>
+      <td align="${dir === 'rtl' ? 'left' : 'right'}" style="padding:6px 0;font-family:${T.fontStack};font-size:14px;font-weight:700;color:${T.heading};">${value}</td>
     </tr>`;
 }
 
 export function wrapEmailDocument({ lang, dir, title, bodyRows, preheader, fontFamily = T.fontStack }) {
   return `<!DOCTYPE html>
-<html lang="${esc(lang)}" dir="${esc(dir)}">
+<html lang="${esc(lang)}" dir="${esc(dir)}" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -265,6 +505,14 @@ export function wrapEmailDocument({ lang, dir, title, bodyRows, preheader, fontF
   <meta name="supported-color-schemes" content="light">
   <title>${esc(title)}</title>
   <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:AllowPNG/>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
   <style type="text/css">
     table, td { font-family: Arial, Helvetica, sans-serif !important; }
   </style>
@@ -278,9 +526,32 @@ export function wrapEmailDocument({ lang, dir, title, bodyRows, preheader, fontF
       .email-container { width: 100% !important; max-width: 100% !important; }
       .stack-col { display: block !important; width: 100% !important; max-width: 100% !important; }
       .stack-pad { padding-left: 16px !important; padding-right: 16px !important; }
-      .wallet-btn { display: block !important; width: 100% !important; max-width: 100% !important; margin: 0 0 8px 0 !important; text-align: center !important; padding-left: 0 !important; padding-right: 0 !important; }
+      /* Maximize wallet column: cancel nested stack-pad; keep 8px clear space (Google 8 dp). */
+      .wallet-section {
+        margin-left: -16px !important;
+        margin-right: -16px !important;
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+        box-sizing: border-box !important;
+      }
+      .wallet-btn { display: block !important; width: 100% !important; max-width: 100% !important; margin: 0 0 16px 0 !important; text-align: center !important; padding-left: 0 !important; padding-right: 0 !important; }
+      .wallet-btn:last-child { margin-bottom: 0 !important; }
+      .wallet-row, .wallet-row tbody, .wallet-row tr { display: block !important; width: 100% !important; }
+      /* Never fluid-shrink below 48px — swap to official condensed Google asset instead. */
+      .wallet-google-primary {
+        display: none !important;
+        max-height: 0 !important;
+        overflow: hidden !important;
+        width: 0 !important;
+        height: 0 !important;
+        mso-hide: all !important;
+      }
+      .wallet-google-condensed {
+        display: block !important;
+      }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !important; }
-      .outer-pad { padding-left: 8px !important; padding-right: 8px !important; }
+      /* Flush outer pad on small screens so wallet can use full viewport width. */
+      .outer-pad { padding-left: 0 !important; padding-right: 0 !important; }
     }
   </style>
 </head>
@@ -289,7 +560,7 @@ export function wrapEmailDocument({ lang, dir, title, bodyRows, preheader, fontF
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:${T.viewport};margin:0;padding:0;width:100%;max-width:100%;table-layout:fixed;">
     <tr>
       <td align="center" class="outer-pad" style="padding:40px 16px;width:100%;max-width:100%;">
-        <table role="presentation" class="email-container" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background-color:${T.surface};border-radius:8px;overflow:hidden;box-shadow:0 2px 4px rgba(0,0,0,0.1);table-layout:fixed;">
+        <table role="presentation" class="email-container" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background-color:${T.surface};border:1px solid ${T.border};border-radius:8px;overflow:hidden;table-layout:fixed;">
           ${bodyRows}
         </table>
       </td>

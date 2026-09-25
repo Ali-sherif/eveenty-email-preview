@@ -1,0 +1,5364 @@
+{
+  "summary": {
+    "generatedAt": "2026-09-25T17:21:24.830Z",
+    "scope": "festival_ticket_sale Wallet badges — 48px min at all widths (condensed Google ≤620px)",
+    "locales": [
+      "en",
+      "ar",
+      "fr",
+      "es",
+      "fa"
+    ],
+    "structuralFailCount": 0,
+    "overflowFailCount": 0,
+    "heightFailCount": 0,
+    "captures": 31,
+    "structFails": [],
+    "heightFails": [],
+    "overflowFails": [],
+    "clientQA": {
+      "gmail": "NOT RUN",
+      "outlook": "NOT RUN",
+      "appleMail": "NOT RUN"
+    }
+  },
+  "results": [
+    {
+      "locale": "en",
+      "variant": "buyerUser",
+      "blocked": false,
+      "view": "desktop-800",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--en-buyerUser--desktop-800.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/en.png",
+          "naturalW": 283,
+          "naturalH": 50,
+          "displayW": 272,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/en.png",
+          "naturalW": 199,
+          "naturalH": 55,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/en.png",
+          "naturalW": 316,
+          "naturalH": 100,
+          "displayW": 152,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=272"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=152"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=272 view=desktop-800"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=152 view=desktop-800"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=272/48 nat=283/50"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=152/48 nat=316/100"
+        },
+        {
+          "name": "google-uses-primary",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/en.png"
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=16 stacked=false"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "variant": "buyerUser",
+      "blocked": false,
+      "view": "tablet-768",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--en-buyerUser--tablet-768.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/en.png",
+          "naturalW": 283,
+          "naturalH": 50,
+          "displayW": 272,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/en.png",
+          "naturalW": 199,
+          "naturalH": 55,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/en.png",
+          "naturalW": 316,
+          "naturalH": 100,
+          "displayW": 152,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=272"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=152"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=272 view=tablet-768"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=152 view=tablet-768"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=272/48 nat=283/50"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=152/48 nat=316/100"
+        },
+        {
+          "name": "google-uses-primary",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/en.png"
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=16 stacked=false"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "variant": "buyerUser",
+      "blocked": false,
+      "view": "mobile-414",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--en-buyerUser--mobile-414.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/en.png",
+          "naturalW": 283,
+          "naturalH": 50,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/en.png",
+          "naturalW": 199,
+          "naturalH": 55,
+          "displayW": 174,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/en.png",
+          "naturalW": 316,
+          "naturalH": 100,
+          "displayW": 152,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=174"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=152"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=174 view=mobile-414"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=152 view=mobile-414"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=174/48 nat=199/55"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=152/48 nat=316/100"
+        },
+        {
+          "name": "google-uses-condensed",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/en.png"
+        },
+        {
+          "name": "google-primary-hidden",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=20 stacked=true"
+        },
+        {
+          "name": "narrow-stacked",
+          "ok": true,
+          "detail": "stacked=true"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "variant": "buyerUser",
+      "blocked": false,
+      "view": "mobile-375",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--en-buyerUser--mobile-375.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/en.png",
+          "naturalW": 283,
+          "naturalH": 50,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/en.png",
+          "naturalW": 199,
+          "naturalH": 55,
+          "displayW": 174,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/en.png",
+          "naturalW": 316,
+          "naturalH": 100,
+          "displayW": 152,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=174"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=152"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=174 view=mobile-375"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=152 view=mobile-375"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=174/48 nat=199/55"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=152/48 nat=316/100"
+        },
+        {
+          "name": "google-uses-condensed",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/en.png"
+        },
+        {
+          "name": "google-primary-hidden",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=20 stacked=true"
+        },
+        {
+          "name": "narrow-stacked",
+          "ok": true,
+          "detail": "stacked=true"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "variant": "buyerUser",
+      "blocked": false,
+      "view": "mobile-320",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--en-buyerUser--mobile-320.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/en.png",
+          "naturalW": 283,
+          "naturalH": 50,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/en.png",
+          "naturalW": 199,
+          "naturalH": 55,
+          "displayW": 174,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/en.png",
+          "naturalW": 316,
+          "naturalH": 100,
+          "displayW": 152,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=174"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=152"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=174 view=mobile-320"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=152 view=mobile-320"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=174/48 nat=199/55"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=152/48 nat=316/100"
+        },
+        {
+          "name": "google-uses-condensed",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/en.png"
+        },
+        {
+          "name": "google-primary-hidden",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=20 stacked=true"
+        },
+        {
+          "name": "narrow-stacked",
+          "ok": true,
+          "detail": "stacked=true"
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "variant": "buyerUser",
+      "tag": "rtl",
+      "blocked": false,
+      "view": "desktop-800",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--ar-buyerUser-rtl--desktop-800.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/ar.png",
+          "naturalW": 936,
+          "naturalH": 150,
+          "displayW": 300,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/ar.png",
+          "naturalW": 199,
+          "naturalH": 55,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/ar.png",
+          "naturalW": 318,
+          "naturalH": 100,
+          "displayW": 153,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "html-dir-rtl",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-scaleX-mirror",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=300"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=153"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=300 view=desktop-800"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=153 view=desktop-800"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=300/48 nat=936/150"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=153/48 nat=318/100"
+        },
+        {
+          "name": "google-uses-primary",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/ar.png"
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=16 stacked=false"
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "variant": "buyerUser",
+      "tag": "rtl",
+      "blocked": false,
+      "view": "tablet-768",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--ar-buyerUser-rtl--tablet-768.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/ar.png",
+          "naturalW": 936,
+          "naturalH": 150,
+          "displayW": 300,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/ar.png",
+          "naturalW": 199,
+          "naturalH": 55,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/ar.png",
+          "naturalW": 318,
+          "naturalH": 100,
+          "displayW": 153,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "html-dir-rtl",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-scaleX-mirror",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=300"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=153"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=300 view=tablet-768"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=153 view=tablet-768"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=300/48 nat=936/150"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=153/48 nat=318/100"
+        },
+        {
+          "name": "google-uses-primary",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/ar.png"
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=16 stacked=false"
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "variant": "buyerUser",
+      "tag": "rtl",
+      "blocked": false,
+      "view": "mobile-414",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--ar-buyerUser-rtl--mobile-414.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/ar.png",
+          "naturalW": 936,
+          "naturalH": 150,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/ar.png",
+          "naturalW": 199,
+          "naturalH": 55,
+          "displayW": 174,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/ar.png",
+          "naturalW": 318,
+          "naturalH": 100,
+          "displayW": 153,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "html-dir-rtl",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-scaleX-mirror",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=174"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=153"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=174 view=mobile-414"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=153 view=mobile-414"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=174/48 nat=199/55"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=153/48 nat=318/100"
+        },
+        {
+          "name": "google-uses-condensed",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/ar.png"
+        },
+        {
+          "name": "google-primary-hidden",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=19 stacked=true"
+        },
+        {
+          "name": "narrow-stacked",
+          "ok": true,
+          "detail": "stacked=true"
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "variant": "buyerUser",
+      "tag": "rtl",
+      "blocked": false,
+      "view": "mobile-375",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--ar-buyerUser-rtl--mobile-375.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/ar.png",
+          "naturalW": 936,
+          "naturalH": 150,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/ar.png",
+          "naturalW": 199,
+          "naturalH": 55,
+          "displayW": 174,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/ar.png",
+          "naturalW": 318,
+          "naturalH": 100,
+          "displayW": 153,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "html-dir-rtl",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-scaleX-mirror",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=174"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=153"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=174 view=mobile-375"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=153 view=mobile-375"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=174/48 nat=199/55"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=153/48 nat=318/100"
+        },
+        {
+          "name": "google-uses-condensed",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/ar.png"
+        },
+        {
+          "name": "google-primary-hidden",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=19 stacked=true"
+        },
+        {
+          "name": "narrow-stacked",
+          "ok": true,
+          "detail": "stacked=true"
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "variant": "buyerUser",
+      "tag": "rtl",
+      "blocked": false,
+      "view": "mobile-320",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--ar-buyerUser-rtl--mobile-320.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/ar.png",
+          "naturalW": 936,
+          "naturalH": 150,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/ar.png",
+          "naturalW": 199,
+          "naturalH": 55,
+          "displayW": 174,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/ar.png",
+          "naturalW": 318,
+          "naturalH": 100,
+          "displayW": 153,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "html-dir-rtl",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-scaleX-mirror",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=174"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=153"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=174 view=mobile-320"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=153 view=mobile-320"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=174/48 nat=199/55"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=153/48 nat=318/100"
+        },
+        {
+          "name": "google-uses-condensed",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/ar.png"
+        },
+        {
+          "name": "google-primary-hidden",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=19 stacked=true"
+        },
+        {
+          "name": "narrow-stacked",
+          "ok": true,
+          "detail": "stacked=true"
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "variant": "buyerUser",
+      "blocked": false,
+      "view": "desktop-800",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--fr-buyerUser--desktop-800.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/fr.png",
+          "naturalW": 317,
+          "naturalH": 50,
+          "displayW": 304,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fr.png",
+          "naturalW": 199,
+          "naturalH": 55,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/fr.png",
+          "naturalW": 321,
+          "naturalH": 100,
+          "displayW": 154,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=304"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=154"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=304 view=desktop-800"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=154 view=desktop-800"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=304/48 nat=317/50"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=154/48 nat=321/100"
+        },
+        {
+          "name": "google-uses-primary",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/fr.png"
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=16 stacked=false"
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "variant": "buyerUser",
+      "blocked": false,
+      "view": "tablet-768",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--fr-buyerUser--tablet-768.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/fr.png",
+          "naturalW": 317,
+          "naturalH": 50,
+          "displayW": 304,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fr.png",
+          "naturalW": 199,
+          "naturalH": 55,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/fr.png",
+          "naturalW": 321,
+          "naturalH": 100,
+          "displayW": 154,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=304"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=154"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=304 view=tablet-768"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=154 view=tablet-768"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=304/48 nat=317/50"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=154/48 nat=321/100"
+        },
+        {
+          "name": "google-uses-primary",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/fr.png"
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=16 stacked=false"
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "variant": "buyerUser",
+      "blocked": false,
+      "view": "mobile-414",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--fr-buyerUser--mobile-414.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/fr.png",
+          "naturalW": 317,
+          "naturalH": 50,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fr.png",
+          "naturalW": 199,
+          "naturalH": 55,
+          "displayW": 174,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/fr.png",
+          "naturalW": 321,
+          "naturalH": 100,
+          "displayW": 154,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=174"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=154"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=174 view=mobile-414"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=154 view=mobile-414"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=174/48 nat=199/55"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=154/48 nat=321/100"
+        },
+        {
+          "name": "google-uses-condensed",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fr.png"
+        },
+        {
+          "name": "google-primary-hidden",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=20 stacked=true"
+        },
+        {
+          "name": "narrow-stacked",
+          "ok": true,
+          "detail": "stacked=true"
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "variant": "buyerUser",
+      "blocked": false,
+      "view": "mobile-375",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--fr-buyerUser--mobile-375.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/fr.png",
+          "naturalW": 317,
+          "naturalH": 50,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fr.png",
+          "naturalW": 199,
+          "naturalH": 55,
+          "displayW": 174,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/fr.png",
+          "naturalW": 321,
+          "naturalH": 100,
+          "displayW": 154,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=174"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=154"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=174 view=mobile-375"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=154 view=mobile-375"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=174/48 nat=199/55"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=154/48 nat=321/100"
+        },
+        {
+          "name": "google-uses-condensed",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fr.png"
+        },
+        {
+          "name": "google-primary-hidden",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=20 stacked=true"
+        },
+        {
+          "name": "narrow-stacked",
+          "ok": true,
+          "detail": "stacked=true"
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "variant": "buyerUser",
+      "blocked": false,
+      "view": "mobile-320",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--fr-buyerUser--mobile-320.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/fr.png",
+          "naturalW": 317,
+          "naturalH": 50,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fr.png",
+          "naturalW": 199,
+          "naturalH": 55,
+          "displayW": 174,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/fr.png",
+          "naturalW": 321,
+          "naturalH": 100,
+          "displayW": 154,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=174"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=154"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=174 view=mobile-320"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=154 view=mobile-320"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=174/48 nat=199/55"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=154/48 nat=321/100"
+        },
+        {
+          "name": "google-uses-condensed",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fr.png"
+        },
+        {
+          "name": "google-primary-hidden",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=20 stacked=true"
+        },
+        {
+          "name": "narrow-stacked",
+          "ok": true,
+          "detail": "stacked=true"
+        }
+      ]
+    },
+    {
+      "locale": "es",
+      "variant": "buyerUser",
+      "blocked": false,
+      "view": "desktop-800",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--es-buyerUser--desktop-800.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/es.png",
+          "naturalW": 298,
+          "naturalH": 50,
+          "displayW": 286,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/es.png",
+          "naturalW": 199,
+          "naturalH": 55,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/es.png",
+          "naturalW": 376,
+          "naturalH": 100,
+          "displayW": 180,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=286"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=180"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=286 view=desktop-800"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=180 view=desktop-800"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=286/48 nat=298/50"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=180/48 nat=376/100"
+        },
+        {
+          "name": "google-uses-primary",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/es.png"
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=16 stacked=false"
+        }
+      ]
+    },
+    {
+      "locale": "es",
+      "variant": "buyerUser",
+      "blocked": false,
+      "view": "tablet-768",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--es-buyerUser--tablet-768.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/es.png",
+          "naturalW": 298,
+          "naturalH": 50,
+          "displayW": 286,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/es.png",
+          "naturalW": 199,
+          "naturalH": 55,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/es.png",
+          "naturalW": 376,
+          "naturalH": 100,
+          "displayW": 180,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=286"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=180"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=286 view=tablet-768"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=180 view=tablet-768"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=286/48 nat=298/50"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=180/48 nat=376/100"
+        },
+        {
+          "name": "google-uses-primary",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/es.png"
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=16 stacked=false"
+        }
+      ]
+    },
+    {
+      "locale": "es",
+      "variant": "buyerUser",
+      "blocked": false,
+      "view": "mobile-414",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--es-buyerUser--mobile-414.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/es.png",
+          "naturalW": 298,
+          "naturalH": 50,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/es.png",
+          "naturalW": 199,
+          "naturalH": 55,
+          "displayW": 174,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/es.png",
+          "naturalW": 376,
+          "naturalH": 100,
+          "displayW": 180,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=174"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=180"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=174 view=mobile-414"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=180 view=mobile-414"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=174/48 nat=199/55"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=180/48 nat=376/100"
+        },
+        {
+          "name": "google-uses-condensed",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/es.png"
+        },
+        {
+          "name": "google-primary-hidden",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=20 stacked=true"
+        },
+        {
+          "name": "narrow-stacked",
+          "ok": true,
+          "detail": "stacked=true"
+        }
+      ]
+    },
+    {
+      "locale": "es",
+      "variant": "buyerUser",
+      "blocked": false,
+      "view": "mobile-375",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--es-buyerUser--mobile-375.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/es.png",
+          "naturalW": 298,
+          "naturalH": 50,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/es.png",
+          "naturalW": 199,
+          "naturalH": 55,
+          "displayW": 174,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/es.png",
+          "naturalW": 376,
+          "naturalH": 100,
+          "displayW": 180,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=174"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=180"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=174 view=mobile-375"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=180 view=mobile-375"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=174/48 nat=199/55"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=180/48 nat=376/100"
+        },
+        {
+          "name": "google-uses-condensed",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/es.png"
+        },
+        {
+          "name": "google-primary-hidden",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=20 stacked=true"
+        },
+        {
+          "name": "narrow-stacked",
+          "ok": true,
+          "detail": "stacked=true"
+        }
+      ]
+    },
+    {
+      "locale": "es",
+      "variant": "buyerUser",
+      "blocked": false,
+      "view": "mobile-320",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--es-buyerUser--mobile-320.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/es.png",
+          "naturalW": 298,
+          "naturalH": 50,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/es.png",
+          "naturalW": 199,
+          "naturalH": 55,
+          "displayW": 174,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/es.png",
+          "naturalW": 376,
+          "naturalH": 100,
+          "displayW": 180,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=174"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=180"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=174 view=mobile-320"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=180 view=mobile-320"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=174/48 nat=199/55"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=180/48 nat=376/100"
+        },
+        {
+          "name": "google-uses-condensed",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/es.png"
+        },
+        {
+          "name": "google-primary-hidden",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=20 stacked=true"
+        },
+        {
+          "name": "narrow-stacked",
+          "ok": true,
+          "detail": "stacked=true"
+        }
+      ]
+    },
+    {
+      "locale": "fa",
+      "variant": "buyerUser",
+      "tag": "rtl",
+      "blocked": false,
+      "view": "desktop-800",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--fa-buyerUser-rtl--desktop-800.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/fa.png",
+          "naturalW": 308,
+          "naturalH": 50,
+          "displayW": 296,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fa.png",
+          "naturalW": 213,
+          "naturalH": 55,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/fa.png",
+          "naturalW": 316,
+          "naturalH": 100,
+          "displayW": 152,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "html-dir-rtl",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-scaleX-mirror",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=296"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=152"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=296 view=desktop-800"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=152 view=desktop-800"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=296/48 nat=308/50"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=152/48 nat=316/100"
+        },
+        {
+          "name": "google-uses-primary",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/fa.png"
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=16 stacked=false"
+        }
+      ]
+    },
+    {
+      "locale": "fa",
+      "variant": "buyerUser",
+      "tag": "rtl",
+      "blocked": false,
+      "view": "tablet-768",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--fa-buyerUser-rtl--tablet-768.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/fa.png",
+          "naturalW": 308,
+          "naturalH": 50,
+          "displayW": 296,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fa.png",
+          "naturalW": 213,
+          "naturalH": 55,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/fa.png",
+          "naturalW": 316,
+          "naturalH": 100,
+          "displayW": 152,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "html-dir-rtl",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-scaleX-mirror",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=296"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=152"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=296 view=tablet-768"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=152 view=tablet-768"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=296/48 nat=308/50"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=152/48 nat=316/100"
+        },
+        {
+          "name": "google-uses-primary",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/fa.png"
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=16 stacked=false"
+        }
+      ]
+    },
+    {
+      "locale": "fa",
+      "variant": "buyerUser",
+      "tag": "rtl",
+      "blocked": false,
+      "view": "mobile-414",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--fa-buyerUser-rtl--mobile-414.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/fa.png",
+          "naturalW": 308,
+          "naturalH": 50,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fa.png",
+          "naturalW": 213,
+          "naturalH": 55,
+          "displayW": 186,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/fa.png",
+          "naturalW": 316,
+          "naturalH": 100,
+          "displayW": 152,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "html-dir-rtl",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-scaleX-mirror",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=186"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=152"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=186 view=mobile-414"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=152 view=mobile-414"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=186/48 nat=213/55"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=152/48 nat=316/100"
+        },
+        {
+          "name": "google-uses-condensed",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fa.png"
+        },
+        {
+          "name": "google-primary-hidden",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=19 stacked=true"
+        },
+        {
+          "name": "narrow-stacked",
+          "ok": true,
+          "detail": "stacked=true"
+        }
+      ]
+    },
+    {
+      "locale": "fa",
+      "variant": "buyerUser",
+      "tag": "rtl",
+      "blocked": false,
+      "view": "mobile-375",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--fa-buyerUser-rtl--mobile-375.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/fa.png",
+          "naturalW": 308,
+          "naturalH": 50,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fa.png",
+          "naturalW": 213,
+          "naturalH": 55,
+          "displayW": 186,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/fa.png",
+          "naturalW": 316,
+          "naturalH": 100,
+          "displayW": 152,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "html-dir-rtl",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-scaleX-mirror",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=186"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=152"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=186 view=mobile-375"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=152 view=mobile-375"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=186/48 nat=213/55"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=152/48 nat=316/100"
+        },
+        {
+          "name": "google-uses-condensed",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fa.png"
+        },
+        {
+          "name": "google-primary-hidden",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=19 stacked=true"
+        },
+        {
+          "name": "narrow-stacked",
+          "ok": true,
+          "detail": "stacked=true"
+        }
+      ]
+    },
+    {
+      "locale": "fa",
+      "variant": "buyerUser",
+      "tag": "rtl",
+      "blocked": false,
+      "view": "mobile-320",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--fa-buyerUser-rtl--mobile-320.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/fa.png",
+          "naturalW": 308,
+          "naturalH": 50,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fa.png",
+          "naturalW": 213,
+          "naturalH": 55,
+          "displayW": 186,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/fa.png",
+          "naturalW": 316,
+          "naturalH": 100,
+          "displayW": 152,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "html-dir-rtl",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-scaleX-mirror",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=186"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=152"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=186 view=mobile-320"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=152 view=mobile-320"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=186/48 nat=213/55"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=152/48 nat=316/100"
+        },
+        {
+          "name": "google-uses-condensed",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fa.png"
+        },
+        {
+          "name": "google-primary-hidden",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=19 stacked=true"
+        },
+        {
+          "name": "narrow-stacked",
+          "ok": true,
+          "detail": "stacked=true"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "variant": "guestUser",
+      "tag": "guest",
+      "blocked": false,
+      "view": "desktop-800",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--en-guestUser-guest--desktop-800.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/en.png",
+          "naturalW": 283,
+          "naturalH": 50,
+          "displayW": 272,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/en.png",
+          "naturalW": 199,
+          "naturalH": 55,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/en.png",
+          "naturalW": 316,
+          "naturalH": 100,
+          "displayW": 152,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "official-google-primary-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-google-condensed-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "official-apple-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-cdn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-custom-text-btn",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "display-height-48",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-primary-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-condensed-width",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-width-attr",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-section-class",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "gap-16-or-stack",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-google",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "alt-apple",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "apple-href",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-windows-path",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "asset-files-exist",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "google-visible",
+          "ok": true,
+          "detail": "h=48 w=272"
+        },
+        {
+          "name": "apple-visible",
+          "ok": true,
+          "detail": "h=48 w=152"
+        },
+        {
+          "name": "google-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=272 view=desktop-800"
+        },
+        {
+          "name": "apple-height-min-48",
+          "ok": true,
+          "detail": "h=48 w=152 view=desktop-800"
+        },
+        {
+          "name": "heights-match",
+          "ok": true,
+          "detail": "g=48 a=48"
+        },
+        {
+          "name": "aspect-preserved-google",
+          "ok": true,
+          "detail": "disp=272/48 nat=283/50"
+        },
+        {
+          "name": "aspect-preserved-apple",
+          "ok": true,
+          "detail": "disp=152/48 nat=316/100"
+        },
+        {
+          "name": "google-uses-primary",
+          "ok": true,
+          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/en.png"
+        },
+        {
+          "name": "gap-ge-16",
+          "ok": true,
+          "detail": "gap=16 stacked=false"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "variant": "organizer",
+      "tag": "organizer-no-wallet",
+      "blocked": false,
+      "view": "desktop-800",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--en-organizer-organizer-no-wallet--desktop-800.png",
+      "overflow": "PASS",
+      "imgInfo": [],
+      "structural": [
+        {
+          "name": "organizer-no-wallet",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "variant": "buyerUser",
+      "tag": "blocked",
+      "blocked": true,
+      "view": "desktop-800",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--en-buyerUser-blocked--desktop-800.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "",
+          "naturalW": 0,
+          "naturalH": 0,
+          "displayW": 272,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "",
+          "naturalW": 0,
+          "naturalH": 0,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "",
+          "naturalW": 0,
+          "naturalH": 0,
+          "displayW": 152,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "blocked-alt-retained",
+          "ok": true,
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "variant": "buyerUser",
+      "tag": "blocked",
+      "blocked": true,
+      "view": "mobile-320",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--en-buyerUser-blocked--mobile-320.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "",
+          "naturalW": 0,
+          "naturalH": 0,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "",
+          "naturalW": 0,
+          "naturalH": 0,
+          "displayW": 174,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "",
+          "naturalW": 0,
+          "naturalH": 0,
+          "displayW": 152,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "blocked-alt-retained",
+          "ok": true,
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "variant": "buyerUser",
+      "tag": "blocked-rtl",
+      "blocked": true,
+      "view": "desktop-800",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--ar-buyerUser-blocked-rtl--desktop-800.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "",
+          "naturalW": 0,
+          "naturalH": 0,
+          "displayW": 300,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "",
+          "naturalW": 0,
+          "naturalH": 0,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "",
+          "naturalW": 0,
+          "naturalH": 0,
+          "displayW": 153,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "blocked-alt-retained",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "html-dir-rtl",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-scaleX-mirror",
+          "ok": true,
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "variant": "buyerUser",
+      "tag": "blocked-rtl",
+      "blocked": true,
+      "view": "mobile-320",
+      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--ar-buyerUser-blocked-rtl--mobile-320.png",
+      "overflow": "PASS",
+      "imgInfo": [
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-primary",
+          "src": "",
+          "naturalW": 0,
+          "naturalH": 0,
+          "displayW": 0,
+          "displayH": 0,
+          "visible": false,
+          "complete": true
+        },
+        {
+          "alt": "Add to Google Wallet",
+          "className": "wallet-badge-img wallet-google-condensed",
+          "src": "",
+          "naturalW": 0,
+          "naturalH": 0,
+          "displayW": 174,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        },
+        {
+          "alt": "Add to Apple Wallet",
+          "className": "wallet-badge-img",
+          "src": "",
+          "naturalW": 0,
+          "naturalH": 0,
+          "displayW": 153,
+          "displayH": 48,
+          "visible": true,
+          "complete": true
+        }
+      ],
+      "structural": [
+        {
+          "name": "calendar-text-links",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "blocked-alt-retained",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "html-dir-rtl",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-scaleX-mirror",
+          "ok": true,
+          "detail": ""
+        }
+      ]
+    }
+  ]
+}

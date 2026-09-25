@@ -1,0 +1,2635 @@
+{
+  "summary": {
+    "generatedAt": "2026-09-25T15:43:11.528Z",
+    "level": "A — Chromium Playwright only",
+    "clientQA": "NOT RUN (Gmail / Outlook / Apple Mail)",
+    "walletOfficialBadges": "BLOCKED — authenticated Apple/Google asset download unavailable",
+    "structuralPass": 155,
+    "structuralFail": 6,
+    "contrastResults": [
+      {
+        "name": "CTA label on primary",
+        "fg": "#4d4c49",
+        "bg": "#e9d023",
+        "need": 4.5,
+        "ratio": 5.52,
+        "verdict": "PASS"
+      },
+      {
+        "name": "Warning title on warning bg",
+        "fg": "#92400e",
+        "bg": "#fffbeb",
+        "need": 4.5,
+        "ratio": 6.84,
+        "verdict": "PASS"
+      },
+      {
+        "name": "Warning body on warning bg",
+        "fg": "#92400e",
+        "bg": "#fffbeb",
+        "need": 4.5,
+        "ratio": 6.84,
+        "verdict": "PASS"
+      },
+      {
+        "name": "DS warning body (rejected)",
+        "fg": "#ad6f45",
+        "bg": "#fffbeb",
+        "need": 4.5,
+        "expectFail": true,
+        "ratio": 3.94,
+        "verdict": "FAIL_AS_EXPECTED"
+      },
+      {
+        "name": "Error title on error bg",
+        "fg": "#991b1b",
+        "bg": "#fef2f2",
+        "need": 4.5,
+        "ratio": 7.6,
+        "verdict": "PASS"
+      },
+      {
+        "name": "Error body on error bg",
+        "fg": "#4d4c49",
+        "bg": "#fef2f2",
+        "need": 4.5,
+        "ratio": 7.85,
+        "verdict": "PASS"
+      },
+      {
+        "name": "DS error body (rejected)",
+        "fg": "#b75c5e",
+        "bg": "#fef2f2",
+        "need": 4.5,
+        "expectFail": true,
+        "ratio": 4.08,
+        "verdict": "FAIL_AS_EXPECTED"
+      },
+      {
+        "name": "Success text on success bg",
+        "fg": "#166534",
+        "bg": "#f0fdf4",
+        "need": 4.5,
+        "ratio": 6.81,
+        "verdict": "PASS"
+      },
+      {
+        "name": "DS success body (rejected)",
+        "fg": "#629a77",
+        "bg": "#f0fdf4",
+        "need": 4.5,
+        "expectFail": true,
+        "ratio": 3.13,
+        "verdict": "FAIL_AS_EXPECTED"
+      },
+      {
+        "name": "Heading on white",
+        "fg": "#2b2a28",
+        "bg": "#ffffff",
+        "need": 4.5,
+        "ratio": 14.34,
+        "verdict": "PASS"
+      },
+      {
+        "name": "Body/Dark-500 on white",
+        "fg": "#4d4c49",
+        "bg": "#ffffff",
+        "need": 4.5,
+        "ratio": 8.59,
+        "verdict": "PASS"
+      },
+      {
+        "name": "Dark-500 on light100",
+        "fg": "#4d4c49",
+        "bg": "#f9f9f9",
+        "need": 4.5,
+        "ratio": 8.16,
+        "verdict": "PASS"
+      },
+      {
+        "name": "Yellow text on warning (rejected)",
+        "fg": "#e9d023",
+        "bg": "#fffbeb",
+        "need": 4.5,
+        "expectFail": true,
+        "ratio": 1.5,
+        "verdict": "FAIL_AS_EXPECTED"
+      },
+      {
+        "name": "Warning border on warning bg (UI)",
+        "fg": "#e6d1b9",
+        "bg": "#fffbeb",
+        "need": 3,
+        "nonText": true,
+        "ratio": 1.43,
+        "verdict": "FAIL"
+      },
+      {
+        "name": "Error border on error bg (UI)",
+        "fg": "#e9c5c6",
+        "bg": "#fef2f2",
+        "need": 3,
+        "nonText": true,
+        "ratio": 1.45,
+        "verdict": "FAIL"
+      }
+    ],
+    "captures": 51,
+    "screenshotEvidence": "DISCARDED",
+    "screenshotEvidenceNote": "Generated PNGs under screenshots/before/ and screenshots/after/ were discarded on 2026-09-25. Machine structural/contrast results remain. Re-run capture harness to regenerate visual captures.",
+    "capturesOnDisk": 0
+  },
+  "contrastResults": [
+    {
+      "name": "CTA label on primary",
+      "fg": "#4d4c49",
+      "bg": "#e9d023",
+      "need": 4.5,
+      "ratio": 5.52,
+      "verdict": "PASS"
+    },
+    {
+      "name": "Warning title on warning bg",
+      "fg": "#92400e",
+      "bg": "#fffbeb",
+      "need": 4.5,
+      "ratio": 6.84,
+      "verdict": "PASS"
+    },
+    {
+      "name": "Warning body on warning bg",
+      "fg": "#92400e",
+      "bg": "#fffbeb",
+      "need": 4.5,
+      "ratio": 6.84,
+      "verdict": "PASS"
+    },
+    {
+      "name": "DS warning body (rejected)",
+      "fg": "#ad6f45",
+      "bg": "#fffbeb",
+      "need": 4.5,
+      "expectFail": true,
+      "ratio": 3.94,
+      "verdict": "FAIL_AS_EXPECTED"
+    },
+    {
+      "name": "Error title on error bg",
+      "fg": "#991b1b",
+      "bg": "#fef2f2",
+      "need": 4.5,
+      "ratio": 7.6,
+      "verdict": "PASS"
+    },
+    {
+      "name": "Error body on error bg",
+      "fg": "#4d4c49",
+      "bg": "#fef2f2",
+      "need": 4.5,
+      "ratio": 7.85,
+      "verdict": "PASS"
+    },
+    {
+      "name": "DS error body (rejected)",
+      "fg": "#b75c5e",
+      "bg": "#fef2f2",
+      "need": 4.5,
+      "expectFail": true,
+      "ratio": 4.08,
+      "verdict": "FAIL_AS_EXPECTED"
+    },
+    {
+      "name": "Success text on success bg",
+      "fg": "#166534",
+      "bg": "#f0fdf4",
+      "need": 4.5,
+      "ratio": 6.81,
+      "verdict": "PASS"
+    },
+    {
+      "name": "DS success body (rejected)",
+      "fg": "#629a77",
+      "bg": "#f0fdf4",
+      "need": 4.5,
+      "expectFail": true,
+      "ratio": 3.13,
+      "verdict": "FAIL_AS_EXPECTED"
+    },
+    {
+      "name": "Heading on white",
+      "fg": "#2b2a28",
+      "bg": "#ffffff",
+      "need": 4.5,
+      "ratio": 14.34,
+      "verdict": "PASS"
+    },
+    {
+      "name": "Body/Dark-500 on white",
+      "fg": "#4d4c49",
+      "bg": "#ffffff",
+      "need": 4.5,
+      "ratio": 8.59,
+      "verdict": "PASS"
+    },
+    {
+      "name": "Dark-500 on light100",
+      "fg": "#4d4c49",
+      "bg": "#f9f9f9",
+      "need": 4.5,
+      "ratio": 8.16,
+      "verdict": "PASS"
+    },
+    {
+      "name": "Yellow text on warning (rejected)",
+      "fg": "#e9d023",
+      "bg": "#fffbeb",
+      "need": 4.5,
+      "expectFail": true,
+      "ratio": 1.5,
+      "verdict": "FAIL_AS_EXPECTED"
+    },
+    {
+      "name": "Warning border on warning bg (UI)",
+      "fg": "#e6d1b9",
+      "bg": "#fffbeb",
+      "need": 3,
+      "nonText": true,
+      "ratio": 1.43,
+      "verdict": "FAIL"
+    },
+    {
+      "name": "Error border on error bg (UI)",
+      "fg": "#e9c5c6",
+      "bg": "#fef2f2",
+      "need": 3,
+      "nonText": true,
+      "ratio": 1.45,
+      "verdict": "FAIL"
+    }
+  ],
+  "results": [
+    {
+      "id": "activate_email",
+      "locale": "en",
+      "variant": "default",
+      "tag": "",
+      "view": "desktop-800",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/activate_email--en-default-desktop-800.png"
+    },
+    {
+      "id": "activate_email",
+      "locale": "en",
+      "variant": "default",
+      "tag": "",
+      "view": "tablet-768",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/activate_email--en-default-tablet-768.png"
+    },
+    {
+      "id": "activate_email",
+      "locale": "en",
+      "variant": "default",
+      "tag": "",
+      "view": "mobile-414",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/activate_email--en-default-mobile-414.png"
+    },
+    {
+      "id": "activate_email",
+      "locale": "en",
+      "variant": "default",
+      "tag": "",
+      "view": "mobile-375",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/activate_email--en-default-mobile-375.png"
+    },
+    {
+      "id": "activate_email",
+      "locale": "en",
+      "variant": "default",
+      "tag": "",
+      "view": "mobile-320",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/activate_email--en-default-mobile-320.png"
+    },
+    {
+      "id": "activate_email",
+      "locale": "ar",
+      "variant": "default",
+      "tag": "rtl",
+      "view": "desktop-800",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/activate_email--ar-default-rtl-desktop-800.png"
+    },
+    {
+      "id": "activate_email",
+      "locale": "ar",
+      "variant": "default",
+      "tag": "rtl",
+      "view": "mobile-375",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/activate_email--ar-default-rtl-mobile-375.png"
+    },
+    {
+      "id": "activate_email",
+      "locale": "fa",
+      "variant": "default",
+      "tag": "rtl",
+      "view": "desktop-800",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/activate_email--fa-default-rtl-desktop-800.png"
+    },
+    {
+      "id": "activate_email",
+      "locale": "fa",
+      "variant": "default",
+      "tag": "rtl",
+      "view": "mobile-320",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/activate_email--fa-default-rtl-mobile-320.png"
+    },
+    {
+      "id": "activate_email",
+      "locale": "en",
+      "variant": "default",
+      "tag": "long",
+      "view": "mobile-320",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/activate_email--en-default-long-mobile-320.png"
+    },
+    {
+      "id": "festival_donation",
+      "locale": "en",
+      "variant": "donatorUser",
+      "tag": "",
+      "view": "desktop-800",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_donation--en-donatorUser-desktop-800.png"
+    },
+    {
+      "id": "festival_donation",
+      "locale": "en",
+      "variant": "donatorUser",
+      "tag": "",
+      "view": "tablet-768",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_donation--en-donatorUser-tablet-768.png"
+    },
+    {
+      "id": "festival_donation",
+      "locale": "en",
+      "variant": "donatorUser",
+      "tag": "",
+      "view": "mobile-414",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_donation--en-donatorUser-mobile-414.png"
+    },
+    {
+      "id": "festival_donation",
+      "locale": "en",
+      "variant": "donatorUser",
+      "tag": "",
+      "view": "mobile-375",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_donation--en-donatorUser-mobile-375.png"
+    },
+    {
+      "id": "festival_donation",
+      "locale": "en",
+      "variant": "donatorUser",
+      "tag": "",
+      "view": "mobile-320",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_donation--en-donatorUser-mobile-320.png"
+    },
+    {
+      "id": "festival_donation",
+      "locale": "ar",
+      "variant": "donatorUser",
+      "tag": "rtl",
+      "view": "desktop-800",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_donation--ar-donatorUser-rtl-desktop-800.png"
+    },
+    {
+      "id": "festival_donation",
+      "locale": "ar",
+      "variant": "donatorUser",
+      "tag": "rtl",
+      "view": "mobile-375",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_donation--ar-donatorUser-rtl-mobile-375.png"
+    },
+    {
+      "id": "festival_ticket_sale",
+      "locale": "en",
+      "variant": "buyerUser",
+      "tag": "",
+      "view": "desktop-800",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-urls",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_ticket_sale--en-buyerUser-desktop-800.png"
+    },
+    {
+      "id": "festival_ticket_sale",
+      "locale": "en",
+      "variant": "buyerUser",
+      "tag": "",
+      "view": "tablet-768",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-urls",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_ticket_sale--en-buyerUser-tablet-768.png"
+    },
+    {
+      "id": "festival_ticket_sale",
+      "locale": "en",
+      "variant": "buyerUser",
+      "tag": "",
+      "view": "mobile-414",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-urls",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_ticket_sale--en-buyerUser-mobile-414.png"
+    },
+    {
+      "id": "festival_ticket_sale",
+      "locale": "en",
+      "variant": "buyerUser",
+      "tag": "",
+      "view": "mobile-375",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-urls",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_ticket_sale--en-buyerUser-mobile-375.png"
+    },
+    {
+      "id": "festival_ticket_sale",
+      "locale": "en",
+      "variant": "buyerUser",
+      "tag": "",
+      "view": "mobile-320",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-urls",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_ticket_sale--en-buyerUser-mobile-320.png"
+    },
+    {
+      "id": "festival_ticket_sale",
+      "locale": "ar",
+      "variant": "buyerUser",
+      "tag": "rtl",
+      "view": "desktop-800",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-urls",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_ticket_sale--ar-buyerUser-rtl-desktop-800.png"
+    },
+    {
+      "id": "festival_ticket_sale",
+      "locale": "ar",
+      "variant": "buyerUser",
+      "tag": "rtl",
+      "view": "mobile-375",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-urls",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_ticket_sale--ar-buyerUser-rtl-mobile-375.png"
+    },
+    {
+      "id": "festival_ticket_sale",
+      "locale": "en",
+      "variant": "buyerUser",
+      "tag": "blocked",
+      "view": "desktop-800",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "wallet-urls",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "images-stripped-or-alt",
+          "ok": true,
+          "detail": "blocked-image pass handled in capture"
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_ticket_sale--en-buyerUser-blocked-desktop-800.png"
+    },
+    {
+      "id": "festival_ticket_registration_approval",
+      "locale": "en",
+      "variant": "user_completeOrder",
+      "tag": "",
+      "view": "desktop-800",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": false,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "success-166534",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-629a77",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_ticket_registration_approval--en-user_completeOrder-desktop-800.png"
+    },
+    {
+      "id": "festival_ticket_registration_approval",
+      "locale": "en",
+      "variant": "user_completeOrder",
+      "tag": "",
+      "view": "tablet-768",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": false,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "success-166534",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-629a77",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_ticket_registration_approval--en-user_completeOrder-tablet-768.png"
+    },
+    {
+      "id": "festival_ticket_registration_approval",
+      "locale": "en",
+      "variant": "user_completeOrder",
+      "tag": "",
+      "view": "mobile-414",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": false,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "success-166534",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-629a77",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_ticket_registration_approval--en-user_completeOrder-mobile-414.png"
+    },
+    {
+      "id": "festival_ticket_registration_approval",
+      "locale": "en",
+      "variant": "user_completeOrder",
+      "tag": "",
+      "view": "mobile-375",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": false,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "success-166534",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-629a77",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_ticket_registration_approval--en-user_completeOrder-mobile-375.png"
+    },
+    {
+      "id": "festival_ticket_registration_approval",
+      "locale": "en",
+      "variant": "user_completeOrder",
+      "tag": "",
+      "view": "mobile-320",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": false,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "success-166534",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-629a77",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_ticket_registration_approval--en-user_completeOrder-mobile-320.png"
+    },
+    {
+      "id": "festival_ticket_registration_approval",
+      "locale": "ar",
+      "variant": "user_completeOrder",
+      "tag": "rtl",
+      "view": "desktop-800",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": false,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "success-166534",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-629a77",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_ticket_registration_approval--ar-user_completeOrder-rtl-desktop-800.png"
+    },
+    {
+      "id": "festival_ticket_registration_approval",
+      "locale": "ar",
+      "variant": "user_completeOrder",
+      "tag": "rtl",
+      "view": "mobile-375",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": false,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "success-166534",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-629a77",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_ticket_registration_approval--ar-user_completeOrder-rtl-mobile-375.png"
+    },
+    {
+      "id": "support",
+      "locale": "en",
+      "variant": "default",
+      "tag": "",
+      "view": "desktop-800",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "error-radius-16",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "error-body-dark500",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/support--en-default-desktop-800.png"
+    },
+    {
+      "id": "support",
+      "locale": "en",
+      "variant": "default",
+      "tag": "",
+      "view": "tablet-768",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "error-radius-16",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "error-body-dark500",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/support--en-default-tablet-768.png"
+    },
+    {
+      "id": "support",
+      "locale": "en",
+      "variant": "default",
+      "tag": "",
+      "view": "mobile-414",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "error-radius-16",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "error-body-dark500",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/support--en-default-mobile-414.png"
+    },
+    {
+      "id": "support",
+      "locale": "en",
+      "variant": "default",
+      "tag": "",
+      "view": "mobile-375",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "error-radius-16",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "error-body-dark500",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/support--en-default-mobile-375.png"
+    },
+    {
+      "id": "support",
+      "locale": "en",
+      "variant": "default",
+      "tag": "",
+      "view": "mobile-320",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "error-radius-16",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "error-body-dark500",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/support--en-default-mobile-320.png"
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "en",
+      "variant": "organizer",
+      "tag": "",
+      "view": "desktop-800",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": false,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": false,
+          "detail": ""
+        },
+        {
+          "name": "warning-border-ds",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "warning-fg",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-event-name",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-accent-bar",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/dispute_notification--en-organizer-desktop-800.png"
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "en",
+      "variant": "organizer",
+      "tag": "",
+      "view": "tablet-768",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": false,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": false,
+          "detail": ""
+        },
+        {
+          "name": "warning-border-ds",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "warning-fg",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-event-name",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-accent-bar",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/dispute_notification--en-organizer-tablet-768.png"
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "en",
+      "variant": "organizer",
+      "tag": "",
+      "view": "mobile-414",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": false,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": false,
+          "detail": ""
+        },
+        {
+          "name": "warning-border-ds",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "warning-fg",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-event-name",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-accent-bar",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/dispute_notification--en-organizer-mobile-414.png"
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "en",
+      "variant": "organizer",
+      "tag": "",
+      "view": "mobile-375",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": false,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": false,
+          "detail": ""
+        },
+        {
+          "name": "warning-border-ds",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "warning-fg",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-event-name",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-accent-bar",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/dispute_notification--en-organizer-mobile-375.png"
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "en",
+      "variant": "organizer",
+      "tag": "",
+      "view": "mobile-320",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": false,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": false,
+          "detail": ""
+        },
+        {
+          "name": "warning-border-ds",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "warning-fg",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-event-name",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-accent-bar",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/dispute_notification--en-organizer-mobile-320.png"
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "ar",
+      "variant": "organizer",
+      "tag": "rtl",
+      "view": "desktop-800",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": false,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": false,
+          "detail": ""
+        },
+        {
+          "name": "warning-border-ds",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "warning-fg",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-event-name",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-accent-bar",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/dispute_notification--ar-organizer-rtl-desktop-800.png"
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "ar",
+      "variant": "organizer",
+      "tag": "rtl",
+      "view": "mobile-375",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": false,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": false,
+          "detail": ""
+        },
+        {
+          "name": "warning-border-ds",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "warning-fg",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-event-name",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-accent-bar",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/dispute_notification--ar-organizer-rtl-mobile-375.png"
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "en",
+      "variant": "withPaymentLink",
+      "tag": "cta",
+      "view": "desktop-800",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "warning-border-ds",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "warning-fg",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-event-name",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-accent-bar",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/dispute_notification--en-withPaymentLink-cta-desktop-800.png"
+    },
+    {
+      "id": "dispute_notification",
+      "locale": "en",
+      "variant": "withPaymentLink",
+      "tag": "cta",
+      "view": "mobile-375",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "logo-160",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "header-primary50",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-pad-13-24",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-weight-500",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "cta-radius-12",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "warning-border-ds",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "warning-fg",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-event-name",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-yellow-accent-bar",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/dispute_notification--en-withPaymentLink-cta-mobile-375.png"
+    },
+    {
+      "id": "festival_marketing_email_target",
+      "locale": "en",
+      "variant": "default",
+      "tag": "",
+      "view": "desktop-800",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_marketing_email_target--en-default-desktop-800.png"
+    },
+    {
+      "id": "festival_marketing_email_target",
+      "locale": "en",
+      "variant": "default",
+      "tag": "",
+      "view": "tablet-768",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_marketing_email_target--en-default-tablet-768.png"
+    },
+    {
+      "id": "festival_marketing_email_target",
+      "locale": "en",
+      "variant": "default",
+      "tag": "",
+      "view": "mobile-414",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_marketing_email_target--en-default-mobile-414.png"
+    },
+    {
+      "id": "festival_marketing_email_target",
+      "locale": "en",
+      "variant": "default",
+      "tag": "",
+      "view": "mobile-375",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_marketing_email_target--en-default-mobile-375.png"
+    },
+    {
+      "id": "festival_marketing_email_target",
+      "locale": "en",
+      "variant": "default",
+      "tag": "",
+      "view": "mobile-320",
+      "screenshot": null,
+      "overflow": "PASS",
+      "checks": [
+        {
+          "name": "footer-divider-ebebeb",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "no-box-shadow-only",
+          "ok": true,
+          "detail": ""
+        }
+      ],
+      "screenshotDiscarded": true,
+      "screenshotFormerPath": "after/festival_marketing_email_target--en-default-mobile-320.png"
+    }
+  ]
+}
