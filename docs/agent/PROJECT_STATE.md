@@ -20,11 +20,13 @@ Catalog status for all seven: `DESIGNED`, `preview_selectable: true`, preview HT
 
 **Owner visual status:** conditional owner visual approval (components/system accepted for reuse; not a blanket “ship all seven unchecked”).
 
-**Final technical gate (required before any of the remaining 41):** **NOT PASSED** as of 2026-09-25. Must still:
-1. Verify Cards/Typography consistency across the seven references.
-2. Resolve or accurately report the Wallet badge sizing issue at 320px (do not treat earlier Chromium PASS alone as this gate).
+**Final technical gate (required before any of the remaining 41):** **PASS** as of 2026-09-26. Evidence: `qa-output/approved-component-corrections/FINAL_SEVEN_TECHNICAL_GATE.md`.
 
-Historical QA (browser packs, Figma/preview parity, production mapping) is **evidence only** — not a fresh gate pass. Discarded screenshot sets must **not** be regenerated as a rollout prerequisite.
+Verified this gate session:
+1. Cards/Typography consistency against approved tokens/adaptations — **PASS** (CSS shell synced on six standalones; no approved-token FAIL).
+2. Wallet badge sizing at 320px — **PASS** (fresh Chromium measures; official condensed Google ≤620px; heightFailCount 0).
+
+Historical QA remains **evidence only** for older work. Discarded screenshot sets must **not** be regenerated as a rollout prerequisite. Gate PASS does **not** authorize the remaining 41 — still needs explicit per-template or bounded-batch owner authorization. Level B (Gmail/Outlook/Apple Mail) **NOT RUN**.
 
 ## Remaining Phase 1 scope (41)
 - Deliverable: **HTML Preview only** — no Figma edits for remaining templates unless the owner separately authorizes a specific Figma change.
@@ -47,14 +49,17 @@ See `.agents/skills/email-rendering-compatibility/SKILL.md` and `shared/tokens.j
 - Production CDN upload of these assets — **not authorized**.
 
 ## Current active task
-Agent infrastructure aligned with final owner decisions (docs/skills/rules). **Next work:** run and record the seven-email final technical gate. Do **not** start the remaining 41 until that gate is recorded **PASS** here.
+Seven-email final technical gate **PASS** (2026-09-26). Waiting for explicit owner authorization of a single undesigned template or bounded batch before any of the remaining 41 (HTML Preview only).
 
 ## Known blockers
-- Seven-email final technical gate — **open** (Cards/Typography + Wallet 320px report/resolve).
+- Remaining 41 rollout — **blocked** until explicit per-template or bounded-batch owner authorization (technical gate is no longer the blocker).
 - Production CDN upload of `assets/wallet/official/**` — **not authorized**.
 - No `package.json` wiring for `email:*` scripts (intentional — use `node .agents/scripts/email-cli.mjs …`).
 - Level B real email-client QA — not executed.
 - Marking any template fully `OWNER VISUAL APPROVED` / production deploy — requires separate explicit owner authorization.
+
+## Closed owner decisions (selected)
+- **OD-2 — CLOSED — OWNER APPROVED (Option A, 2026-09-26):** keep Original DS alert borders Warning `#E6D1B9` / Error `#E9C5C6` as decorative; status via accessible text/headings/icons; do not strengthen or change border colors.
 
 ## Canonical audit artifact locations (verified readable)
 - `D:\emails\Eveenty-Email-Kit-Phase1\organization\` (FAMILY_TAXONOMY_AUDIT, TRACEABILITY CSV, etc.)

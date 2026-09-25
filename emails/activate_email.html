@@ -24,15 +24,55 @@
     body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
     table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
     img { -ms-interpolation-mode: bicubic; border: 0; outline: none; text-decoration: none; max-width: 100%; height: auto; }
+    /* Pin Wallet badge geometry — do not let global img height:auto / max-width shrink them. */
+    img.wallet-badge-img {
+      max-width: none !important;
+      height: 48px !important;
+      vertical-align: middle !important;
+    }
     .email-container { width: 100% !important; max-width: 600px !important; }
     @media only screen and (max-width: 620px) {
       .email-container { width: 100% !important; max-width: 100% !important; }
       .stack-col { display: block !important; width: 100% !important; max-width: 100% !important; }
       .stack-pad { padding-left: 16px !important; padding-right: 16px !important; }
-      .wallet-btn { display: block !important; width: 100% !important; max-width: 100% !important; margin: 0 0 8px 0 !important; text-align: center !important; padding-left: 0 !important; padding-right: 0 !important; }
+      /* Maximize wallet column: cancel nested stack-pad; keep 8px clear space (Google 8 dp). */
+      .wallet-section {
+        margin-left: -16px !important;
+        margin-right: -16px !important;
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+        box-sizing: border-box !important;
+        text-align: center !important;
+      }
+      .wallet-btn { display: block !important; width: 100% !important; max-width: 100% !important; margin: 0 0 16px 0 !important; text-align: center !important; padding-left: 0 !important; padding-right: 0 !important; font-size: 0 !important; line-height: 0 !important; }
+      .wallet-btn:last-child { margin-bottom: 0 !important; }
       .wallet-row, .wallet-row tbody, .wallet-row tr { display: block !important; width: 100% !important; }
+      /* Never fluid-shrink below 48px — swap to official condensed Google asset instead.
+         Hide/show the *link wrappers* so empty anchors cannot skew stack spacing. */
+      .wallet-google-primary-link {
+        display: none !important;
+        mso-hide: all !important;
+        max-height: 0 !important;
+        overflow: hidden !important;
+        width: 0 !important;
+        height: 0 !important;
+      }
+      .wallet-google-condensed-link {
+        display: inline-block !important;
+        max-height: none !important;
+        overflow: visible !important;
+        width: auto !important;
+        height: auto !important;
+      }
+      .wallet-google-primary {
+        display: none !important;
+      }
+      .wallet-google-condensed {
+        display: block !important;
+      }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !important; }
-      .outer-pad { padding-left: 8px !important; padding-right: 8px !important; }
+      /* Flush outer pad on small screens so wallet can use full viewport width. */
+      .outer-pad { padding-left: 0 !important; padding-right: 0 !important; }
     }
   </style>
 </head>

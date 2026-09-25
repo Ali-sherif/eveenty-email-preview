@@ -1,9 +1,9 @@
 # FINAL VISUAL REVIEW — Owner index
 
 **Date:** 2026-09-25  
-**Agent note (2026-09-25):** Regenerating discarded screenshot sets is **not** a rollout prerequisite. Next gate is the seven-email **final technical gate** (Cards/Typography consistency + Wallet 320px resolve-or-report) recorded in `docs/agent/PROJECT_STATE.md`. Prefer live preview (`npm start`). Remaining 41 = HTML Preview only after that gate PASSes and owner authorizes.
+**Agent note (2026-09-26):** Seven-email **final technical gate = PASS**. Evidence: `FINAL_SEVEN_TECHNICAL_GATE.md`. Regenerating discarded screenshot sets is still **not** a rollout prerequisite. Remaining 41 = HTML Preview only after **explicit** owner template/batch authorization (gate PASS alone is not that auth).
 
-**Stop:** Do not start the remaining 41 until the final technical gate is PASS and the owner authorizes a template/batch. No production implementation without separate auth.
+**Stop:** Do not start the remaining 41 until the owner authorizes a template/batch. No production implementation without separate auth.
 
 ## How to review
 
@@ -28,9 +28,9 @@ Visual PNG columns below are **DISCARDED**. Prefer live preview until a gate rev
 
 ## Unresolved / BLOCKED
 
-1. **Final technical gate** — Cards/Typography consistency + Wallet badge sizing at 320px (resolve or accurately report). Earlier Chromium PASS alone does **not** close this gate. Status: **NOT PASSED** (see `docs/agent/PROJECT_STATE.md`).
+1. **Final technical gate** — **PASS** 2026-09-26 (`FINAL_SEVEN_TECHNICAL_GATE.md`). Remaining 41 still need explicit owner template/batch auth.
 2. **OD-W1** — official badges implemented in Design Kit HTML; CDN deploy still needs separate auth.
-3. Status alert border contrast (~1.4:1) vs 3:1 non-text — DS hexes retained (OD-2 optional).
+3. **OD-2 — CLOSED — OWNER APPROVED (Option A, 2026-09-26):** keep DS Warning `#E6D1B9` / Error `#E9C5C6` as decorative; do not strengthen; status via accessible text/headings/icons.
 4. Level B client QA — **NOT RUN**.
 5. Full `OWNER VISUAL APPROVED` per template — conditional component approval only; not claimed as blanket ship.
 

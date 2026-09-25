@@ -1,0 +1,265 @@
+{
+  "generatedAt": "2026-09-25T21:39:20.898Z",
+  "tokensSnapshot": {
+    "heading": "#2b2a28",
+    "body": "#4d4c49",
+    "dark500": "#4d4c49",
+    "border": "#ebebeb",
+    "cta": {
+      "bg": "#e9d023",
+      "pad": "13x24",
+      "radius": 12,
+      "weight": 500
+    },
+    "alert": {
+      "radius": 16,
+      "pad": 16
+    },
+    "fonts": {
+      "heading": "'Plus Jakarta Sans', Arial, Helvetica, sans-serif",
+      "body": "'Roboto', Arial, Helvetica, Tahoma, sans-serif",
+      "stack": "Arial, Helvetica, 'Roboto', Tahoma, sans-serif"
+    }
+  },
+  "staticAudits": [
+    {
+      "id": "activate_email",
+      "fail": 0,
+      "warn": 0,
+      "findings": [],
+      "bytes": 7700,
+      "uniqueRadii": [
+        8,
+        12
+      ],
+      "hasPJS": true,
+      "hasArialFirst": false
+    },
+    {
+      "id": "dispute_notification",
+      "fail": 0,
+      "warn": 0,
+      "findings": [],
+      "bytes": 16029,
+      "uniqueRadii": [
+        8,
+        16
+      ],
+      "hasPJS": true,
+      "hasArialFirst": true
+    },
+    {
+      "id": "festival_donation",
+      "fail": 0,
+      "warn": 0,
+      "findings": [],
+      "bytes": 11127,
+      "uniqueRadii": [
+        8
+      ],
+      "hasPJS": true,
+      "hasArialFirst": true
+    },
+    {
+      "id": "festival_marketing_email_target",
+      "fail": 0,
+      "warn": 0,
+      "findings": [],
+      "bytes": 6253,
+      "uniqueRadii": [
+        8
+      ],
+      "hasPJS": false,
+      "hasArialFirst": true
+    },
+    {
+      "id": "festival_ticket_registration_approval",
+      "fail": 0,
+      "warn": 0,
+      "findings": [],
+      "bytes": 18834,
+      "uniqueRadii": [
+        8,
+        12,
+        16
+      ],
+      "hasPJS": true,
+      "hasArialFirst": false
+    },
+    {
+      "id": "festival_ticket_sale",
+      "fail": 0,
+      "warn": 0,
+      "findings": [],
+      "bytes": 13886,
+      "uniqueRadii": [
+        8,
+        12
+      ],
+      "hasPJS": true,
+      "hasArialFirst": true
+    },
+    {
+      "id": "support",
+      "fail": 0,
+      "warn": 0,
+      "findings": [],
+      "bytes": 7749,
+      "uniqueRadii": [
+        8,
+        16
+      ],
+      "hasPJS": true,
+      "hasArialFirst": false
+    }
+  ],
+  "liveAudits": [
+    {
+      "id": "activate_email",
+      "fail": 0,
+      "warn": 0,
+      "findings": [],
+      "uniqueRadii": [
+        8,
+        12
+      ]
+    },
+    {
+      "id": "dispute_notification",
+      "fail": 0,
+      "warn": 0,
+      "findings": [],
+      "uniqueRadii": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "festival_donation",
+      "fail": 0,
+      "warn": 0,
+      "findings": [],
+      "uniqueRadii": [
+        8
+      ]
+    },
+    {
+      "id": "festival_marketing_email_target",
+      "fail": 0,
+      "warn": 0,
+      "findings": [],
+      "uniqueRadii": [
+        8
+      ]
+    },
+    {
+      "id": "festival_ticket_registration_approval",
+      "fail": 0,
+      "warn": 0,
+      "findings": [],
+      "uniqueRadii": [
+        8,
+        12,
+        16
+      ]
+    },
+    {
+      "id": "festival_ticket_sale",
+      "fail": 0,
+      "warn": 0,
+      "findings": [],
+      "uniqueRadii": [
+        8,
+        12
+      ]
+    },
+    {
+      "id": "support",
+      "fail": 0,
+      "warn": 0,
+      "findings": [],
+      "uniqueRadii": [
+        8,
+        16
+      ]
+    }
+  ],
+  "cssDrift": [
+    {
+      "id": "activate_email",
+      "outerPad0": true,
+      "outerPad8": false,
+      "walletGap16": true,
+      "walletGap8": false,
+      "hasWalletSection": true,
+      "hasBadgePin": true
+    },
+    {
+      "id": "dispute_notification",
+      "outerPad0": true,
+      "outerPad8": false,
+      "walletGap16": true,
+      "walletGap8": false,
+      "hasWalletSection": true,
+      "hasBadgePin": true
+    },
+    {
+      "id": "festival_donation",
+      "outerPad0": true,
+      "outerPad8": false,
+      "walletGap16": true,
+      "walletGap8": false,
+      "hasWalletSection": true,
+      "hasBadgePin": true
+    },
+    {
+      "id": "festival_marketing_email_target",
+      "outerPad0": true,
+      "outerPad8": false,
+      "walletGap16": true,
+      "walletGap8": false,
+      "hasWalletSection": true,
+      "hasBadgePin": true
+    },
+    {
+      "id": "festival_ticket_registration_approval",
+      "outerPad0": true,
+      "outerPad8": false,
+      "walletGap16": true,
+      "walletGap8": false,
+      "hasWalletSection": true,
+      "hasBadgePin": true
+    },
+    {
+      "id": "festival_ticket_sale",
+      "outerPad0": true,
+      "outerPad8": false,
+      "walletGap16": true,
+      "walletGap8": false,
+      "hasWalletSection": true,
+      "hasBadgePin": true
+    },
+    {
+      "id": "support",
+      "outerPad0": true,
+      "outerPad8": false,
+      "walletGap16": true,
+      "walletGap8": false,
+      "hasWalletSection": true,
+      "hasBadgePin": true
+    }
+  ],
+  "regressionSummary": {
+    "checks": 60,
+    "overflowFailCount": 0,
+    "overflowFails": [],
+    "rtlChecked": 25,
+    "blockedImagePass": true
+  },
+  "allFindings": [],
+  "clientQA": {
+    "gmail": "NOT RUN",
+    "outlook": "NOT RUN",
+    "appleMail": "NOT RUN"
+  }
+}

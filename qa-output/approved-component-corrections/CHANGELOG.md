@@ -31,13 +31,18 @@
 ### Figma Email Kit
 - Prior frames updated in earlier session; **Wallet Links not re-synced** for OD-W1 B (Figma forbidden this session).
 
+## Closed owner decisions
+
+| ID | Topic |
+|----|-------|
+| OD-2 | **CLOSED — OWNER APPROVED (Option A, 2026-09-26):** keep DS Warning `#E6D1B9` / Error `#E9C5C6` as decorative; status via accessible text/headings/icons; do not strengthen or change borders |
+
 ## Remaining owner decisions
 
 | ID | Topic |
 |----|-------|
 | OD-W1 | **B implemented in Design Kit HTML** — awaiting visual approval + CDN deploy auth. A/C superseded for this preview unless owner reverts. |
 | OD-CDN | Authorize upload of `assets/wallet/official/**` to `cdn.eveenty.com/wallet/official/…` |
-| OD-2 | Whether status alert borders should be strengthened beyond DS `#e6d1b9` / `#e9c5c6` for 3:1 non-text |
 | OD-3 | Owner visual approval of corrected seven references |
 | OD-4 | Any card radius/padding redesign beyond approved status-alert 16px (not in this task) |
 

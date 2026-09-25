@@ -69,7 +69,7 @@ Seven designed IDs unchanged: `activate_email`, `dispute_notification`, `festiva
 ## Remaining conflicts / ambiguities (not invented)
 1. **Cards/Typography consistency checklist** — owner named the gate but did not define a scored checklist beyond that phrase; gate session must define measurable checks from existing approved components/tokens rather than inventing new DS rules.
 2. **Wallet 320px** — prior measured Chromium PASS with condensed Google exists in QA reports; owner still requires resolve-or-accurate-report as part of the *current* gate (do not auto-close from history).
-3. **OD-2** (stronger status alert borders) — still optional/owner call; not part of the named final technical gate.
+3. **OD-2** — **CLOSED — OWNER APPROVED (Option A, 2026-09-26):** keep DS Warning `#E6D1B9` / Error `#E9C5C6` borders as decorative; do not strengthen.
 4. **CDN upload of official Wallet assets** — production-blocked separately; not required to *start* HTML previews for the 41 after the gate, but production parity remains blocked until authorized.
 5. Older DECISION_LOG entries still narrate Wallet CDN → custom magenta → official badges evolution (append-only history). The **2026-09-25 final owner decisions** entry is the standing policy.
 

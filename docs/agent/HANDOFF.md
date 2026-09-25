@@ -1,36 +1,37 @@
 # HANDOFF — Eveenty Email Design Kit
 
 ## Current task
-Align existing agent skills/rules/docs with **final owner decisions** before remaining-email rollout. Infrastructure audit complete; seven-email **final technical gate** still open. Do **not** start the remaining 41.
+Seven-email **final technical gate** completed and recorded **PASS**. **OD-2 CLOSED — OWNER APPROVED (Option A).** Do **not** start the remaining 41 until the owner explicitly authorizes a template ID or bounded batch.
 
 ## Exact scope of what was done (latest)
-- Audited `AGENTS.md`, `CLAUDE.md`, `.cursor/rules/`, `.agents/skills/*`, `docs/agent/*`, `.agents/scripts/email-cli.mjs`, `catalog/email-catalog.json`.
-- Recorded final owner decisions in `PROJECT_STATE.md` + `DECISION_LOG.md`.
-- Minimally updated stale skill/runbook/AGENTS wording (HTML-only remaining scope, locales-from-backend, official Wallet badges, seven-email gate before 41, no historical-QA-as-fresh, no Figma default).
-- Wrote `docs/agent/AGENT_INFRASTRUCTURE_READINESS.md`.
-- Did **not** edit email HTML, shared rendering code, Figma, backend, Wallet artwork, or historical QA screenshots. Did **not** commit/push/deploy.
+- Owner closed **OD-2 Option A**: keep DS Warning `#E6D1B9` / Error `#E9C5C6` borders as decorative; no strengthen/change; status via accessible text/headings/icons.
+- Recorded decision in `DECISION_LOG.md`; synced this handoff, `PROJECT_STATE.md`, and related QA reports.
+- No HTML / Figma / backend / token changes (kit already matches Option A). No commit/push/deploy.
 
 ## Verification results
 | Check | Result |
 |---|---|
-| Inventory 59/11/48 · designed 7 · undesigned 41 | **PASS** (`email-cli validate-catalog`) |
-| Seven references preserved / preview present | **PASS** |
-| Remaining 41 still undesigned | **PASS** |
-| Skill discovery (`.agents/skills/` × 8) | **PASS** — no `.claude/skills` or `.cursor/skills` adapters; use `.agents/skills` directly |
-| Seven-email final technical gate | **NOT PASSED** (Cards/Typography + Wallet 320px still required) |
-| 41-email rollout authorization | **Blocked** until gate PASS + explicit owner batch/template auth |
+| Inventory 59/11/48 · designed 7 · undesigned 41 | **PASS** |
+| Seven-email final technical gate | **PASS** (2026-09-26) |
+| Wallet 320px (fresh) | **PASS** (`heightFailCount: 0`) |
+| Cards/Typography vs approved tokens | **PASS** |
+| Gmail / Outlook / Apple Mail | **NOT RUN** |
+| 41-email rollout authorization | **Blocked** — needs explicit owner batch/template auth |
 
 ## Known blockers / open owner items
-- **Final technical gate** on the seven references (Cards/Typography consistency; Wallet badge sizing at 320px — resolve or accurately report).
-- CDN deploy of `assets/wallet/official/**` (including `google/condensed/*`) — separate production auth.
-- Optional: backend locale CDN URL wiring — not authorized.
-- OD-2: Optional stronger status borders (owner call).
+- Explicit auth for remaining 41 (single ID or bounded batch) — HTML Preview only.
+- CDN deploy of `assets/wallet/official/**` (incl. condensed).
+- Optional: backend locale CDN URL wiring.
 - Level B client QA — not run.
+- Optional C: unify content-card 8 vs 12 radius / Arial-first kv stack (needs new design decision).
+
+## Closed this session
+- **OD-2 — CLOSED — OWNER APPROVED (Option A):** keep DS `#E6D1B9` / `#E9C5C6` borders; decorative only; do not strengthen.
 
 ## Next authorized action
-1. Execute and record the seven-email final technical gate only.
-2. After gate **PASS** is written into `PROJECT_STATE.md`, wait for explicit owner authorization before any of the 41 undesigned templates (single ID or bounded batch).
-3. Stop — do not implement new emails in this handoff.
+1. Wait for owner to name a template ID or bounded batch from the 41.
+2. After auth: use `email-context` + `generate-email` (or `email-batch`) — HTML Preview only; locales from that template’s backend support only.
+3. Stop — do not implement undesigned emails without that auth.
 
 ## Resume prompt
-"Continue Eveenty Email Kit from docs/agent/HANDOFF.md and AGENT_INFRASTRUCTURE_READINESS.md. Follow AGENTS.md. Next authorized work is the seven-email final technical gate (Cards/Typography + Wallet 320px). Do not start the remaining 41 until that gate is PASS and the owner authorizes a template or batch."
+"Continue Eveenty Email Kit from docs/agent/HANDOFF.md. Follow AGENTS.md. Seven-email final technical gate is PASS (see qa-output/approved-component-corrections/FINAL_SEVEN_TECHNICAL_GATE.md). Next work requires explicit owner authorization of one undesigned template or a bounded batch — HTML Preview only. Do not start the remaining 41 without that auth."

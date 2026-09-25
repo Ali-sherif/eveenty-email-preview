@@ -33,7 +33,9 @@
 | Warning border on warning BG | `#E6D1B9` | `#FFFBEB` | 1.43:1 | 3.0 | **FAIL** |
 | Error border on error BG | `#E9C5C6` | `#FEF2F2` | 1.45:1 | 3.0 | **FAIL** |
 
-**Note:** These borders match the **owner-approved / original DS** alert chrome. Status is also communicated via title/body text (PASS above) and semantic copy — borders are not the sole status indicator. Strengthening border contrast would be a **NEEDS OWNER DECISION** (would deviate from approved DS hexes).
+**Note:** These borders match the **owner-approved / original DS** alert chrome. Status is also communicated via title/body text (PASS above) and semantic copy — borders are not the sole status indicator.
+
+**OD-2 — CLOSED — OWNER APPROVED (Option A, 2026-09-26):** Keep Warning `#E6D1B9` / Error `#E9C5C6`. Treat borders as decorative. Do not strengthen or change border colors. Non-text 3:1 FAIL above is accepted under that policy (status must remain clear without relying on border contrast alone).
 
 ## Evidence
 Machine results: `capture-results.json` → `contrastResults`.
