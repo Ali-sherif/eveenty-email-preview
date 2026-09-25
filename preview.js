@@ -149,7 +149,25 @@ function updatePreviewAnnotation(def) {
   } else if (def.id === 'festival_marketing_email_target') {
     els.annotation.hidden = false;
     els.annotation.innerHTML =
-      `<strong>PREVIEW ANNOTATION</strong> — Author body + festival assets. Unsubscribe URL is SAMPLE (example.com). organizer_announcement is IN SCOPE / UNDESIGNED (not in this selector).`;
+      `<strong>PREVIEW ANNOTATION</strong> — Author body + festival assets. Unsubscribe URL is SAMPLE (example.com).`;
+  } else if (def.id === 'password_reset') {
+    els.annotation.hidden = false;
+    els.annotation.innerHTML = `<strong>PILOT · OWNER REVIEW PENDING</strong> — Five backend locales. Verification code and account data are synthetic.`;
+  } else if (def.id === 'refund_receipt_user') {
+    els.annotation.hidden = false;
+    els.annotation.innerHTML = `<strong>PILOT · OWNER REVIEW PENDING</strong> — Five backend locales. Variants cover refunded/canceled conditionals; all money and item data are synthetic.`;
+  } else if (def.id === 'festival_ticket_registration_reject') {
+    els.annotation.hidden = false;
+    els.annotation.innerHTML = `<strong>PILOT · OWNER REVIEW PENDING</strong> — User/organizer follow profile locale; admin renders EN in production and is forced to EN here.`;
+  } else if (def.id === 'festival_approval_status_changed') {
+    els.annotation.hidden = false;
+    els.annotation.innerHTML = `<strong>PILOT · OWNER REVIEW PENDING</strong> — Five backend locales; approved/rejected and optional review-note states included.`;
+  } else if (def.id === 'contact_submission') {
+    els.annotation.hidden = false;
+    els.annotation.innerHTML = `<strong>PILOT · OWNER REVIEW PENDING</strong> — EN-only internal operational email; contact fields are synthetic.`;
+  } else if (def.id === 'organizer_announcement') {
+    els.annotation.hidden = false;
+    els.annotation.innerHTML = `<strong>PILOT · OWNER REVIEW PENDING</strong> — Caller-supplied subject/body with no backend locale selection; sample author content is synthetic.`;
   } else {
     els.annotation.hidden = true;
     els.annotation.textContent = '';

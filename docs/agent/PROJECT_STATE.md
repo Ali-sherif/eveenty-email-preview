@@ -1,6 +1,6 @@
 # PROJECT_STATE — Eveenty Email Design Kit
 
-> Inventory verified 2026-09-25 against `catalog/email-catalog.json` and `catalog/EMAIL_TEMPLATE_TRACEABILITY.csv` via `node .agents/scripts/email-cli.mjs validate-catalog`.
+> Inventory verified 2026-09-26 against `catalog/email-catalog.json`, `catalog/EMAIL_TEMPLATE_TRACEABILITY.csv`, and the fresh pilot QA harness. The protected infrastructure CLI still encodes the pre-pilot 7/41 expectation and must not be used alone for post-pilot counts.
 
 ## Inventory (verified against live catalog)
 | Fact | Value | Verified this session? |
@@ -10,8 +10,10 @@
 | In Phase 1 scope | 48 | Yes — `scope === IN_SCOPE` |
 | Backend families | Auth/Simple 2 / Financial/Receipt 20 / Ticket/Pass 8 / Workflow/Status 15 / Internal/Operational 7 / Campaign/Announcement 7 | Yes — counted from catalog |
 | Design Kit families (in-scope only) | Transactional 2 / Commerce 26 / Notification 17 / Marketing 3 | Yes — counted from IN_SCOPE rows |
-| Designed references | 7 (list below) | Yes |
-| Undesigned in-scope | 41 | Yes |
+| Approved reference designs | 7 (list below) | Yes |
+| Pilot designs awaiting owner review | 6 | Yes |
+| Total previewable designs | 13 | Yes |
+| Undesigned in-scope | 35 | Yes |
 
 ## Seven completed reference designs
 `activate_email`, `festival_donation`, `festival_ticket_sale`, `festival_ticket_registration_approval`, `support`, `dispute_notification`, `festival_marketing_email_target`
@@ -28,7 +30,13 @@ Verified this gate session:
 
 Historical QA remains **evidence only** for older work. Discarded screenshot sets must **not** be regenerated as a rollout prerequisite. Gate PASS does **not** authorize the remaining 41 — still needs explicit per-template or bounded-batch owner authorization. Level B (Gmail/Outlook/Apple Mail) **NOT RUN**.
 
-## Remaining Phase 1 scope (41)
+## Six-template rollout pilot (owner review pending)
+
+`password_reset`, `refund_receipt_user`, `festival_ticket_registration_reject`, `festival_approval_status_changed`, `contact_submission`, `organizer_announcement`
+
+All six have HTML Preview designs and fresh Level A QA **PASS**. They are **not** owner visual approved and are not production-ready. Evidence: `qa-output/pilot-batch/PILOT_REVIEW_PACK.md`. The other 35 in-scope templates remain undesigned.
+
+## Original remaining Phase 1 scope (41; 6 pilot designs complete, 35 still undesigned)
 - Deliverable: **HTML Preview only** — no Figma edits for remaining templates unless the owner separately authorizes a specific Figma change.
 - Languages: use **only** locales actually supported by each original backend template (catalog/traceability `locale_*` + production template). Do **not** force en/ar/fr/es/fa onto every email.
 - Wallet badge locales (en/ar/fr/es/fa under `assets/wallet/official/`) apply to prepared Wallet artwork for ticket-sale style previews — **not** proof that every email supports five languages.
@@ -49,10 +57,11 @@ See `.agents/skills/email-rendering-compatibility/SKILL.md` and `shared/tokens.j
 - Production CDN upload of these assets — **not authorized**.
 
 ## Current active task
-Seven-email final technical gate **PASS** (2026-09-26). Waiting for explicit owner authorization of a single undesigned template or bounded batch before any of the remaining 41 (HTML Preview only).
+Six-template pilot implemented and QA complete; **STOPPED for owner review**. No next rollout batch is authorized.
 
 ## Known blockers
-- Remaining 41 rollout — **blocked** until explicit per-template or bounded-batch owner authorization (technical gate is no longer the blocker).
+- Remaining 35 rollout — **blocked** until explicit owner authorization of a named next batch.
+- `organizer_announcement` production migration — read-only review found likely header-injection and unsanitized-HTML boundary gaps; see `qa-output/pilot-batch/PILOT_SECURITY_REVIEW.md`. Preview itself escapes synthetic content.
 - Production CDN upload of `assets/wallet/official/**` — **not authorized**.
 - No `package.json` wiring for `email:*` scripts (intentional — use `node .agents/scripts/email-cli.mjs …`).
 - Level B real email-client QA — not executed.

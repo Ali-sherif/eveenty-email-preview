@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated": "2026-09-24",
+  "generated": "2026-09-26",
   "inventory": {
     "physical": 59,
     "excluded": 11,
     "in_scope": 48,
-    "designed": 7,
-    "undesigned": 41
+    "designed": 13,
+    "undesigned": 35
   },
   "families": {
     "TRANSACTIONAL": 2,
@@ -279,10 +279,10 @@
       "functional_subfolder": "Password-Reset",
       "catalog_path": "Phase-1/01-Transactional/Password-Reset/password_reset.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/password_reset.html",
+      "preview_selectable": true
     },
     {
       "id": "festival_donation",
@@ -475,10 +475,10 @@
       "functional_subfolder": "Refunds",
       "catalog_path": "Phase-1/02-Commerce/Refunds/refund_receipt_user.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/refund_receipt_user.html",
+      "preview_selectable": true
     },
     {
       "id": "refund_receipt_organizer",
@@ -601,10 +601,10 @@
       "functional_subfolder": "Registration",
       "catalog_path": "Phase-1/02-Commerce/Registration/festival_ticket_registration_reject.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/festival_ticket_registration_reject.html",
+      "preview_selectable": true
     },
     {
       "id": "festival_ticket_registration_deadline_exceeded",
@@ -685,10 +685,10 @@
       "functional_subfolder": "Approvals-Status",
       "catalog_path": "Phase-1/03-Notification/Approvals-Status/festival_approval_status_changed.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/festival_approval_status_changed.html",
+      "preview_selectable": true
     },
     {
       "id": "festival_update_request_approved",
@@ -923,10 +923,10 @@
       "functional_subfolder": "Support-Ops",
       "catalog_path": "Phase-1/03-Notification/Support-Ops/contact_submission.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/contact_submission.html",
+      "preview_selectable": true
     },
     {
       "id": "book_demo_admin",
@@ -1077,10 +1077,10 @@
       "functional_subfolder": "Organizer-Announcements",
       "catalog_path": "Phase-1/04-Marketing/Organizer-Announcements/organizer_announcement.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/organizer_announcement.html",
+      "preview_selectable": true
     }
   ]
 }

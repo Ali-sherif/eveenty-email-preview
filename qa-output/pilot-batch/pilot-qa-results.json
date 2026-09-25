@@ -1,0 +1,4593 @@
+{
+  "generatedAt": "2026-09-25T22:23:23.899Z",
+  "scope": "Six-template pilot; HTML Preview only",
+  "catalogChecks": {
+    "physical": 59,
+    "inScope": 48,
+    "designed": 13,
+    "undesigned": 35,
+    "pilotReady": true
+  },
+  "structuralSummary": {
+    "checks": 57,
+    "failCount": 0
+  },
+  "responsiveSummary": {
+    "checks": 46,
+    "failCount": 0,
+    "rtlChecks": 16
+  },
+  "contrastResults": [
+    {
+      "name": "heading/white",
+      "fg": "#2b2a28",
+      "bg": "#ffffff",
+      "ratio": 14.34,
+      "status": "PASS"
+    },
+    {
+      "name": "body/white",
+      "fg": "#4d4c49",
+      "bg": "#ffffff",
+      "ratio": 8.59,
+      "status": "PASS"
+    },
+    {
+      "name": "success/surface",
+      "fg": "#166534",
+      "bg": "#f0fdf4",
+      "ratio": 6.81,
+      "status": "PASS"
+    },
+    {
+      "name": "error/surface",
+      "fg": "#991b1b",
+      "bg": "#fef2f2",
+      "ratio": 7.6,
+      "status": "PASS"
+    },
+    {
+      "name": "cta/primary",
+      "fg": "#4d4c49",
+      "bg": "#e9d023",
+      "ratio": 5.52,
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "D:\\last\\eveenty-email-preview\\qa-output\\pilot-batch\\screenshots\\password_reset--desktop-800.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\pilot-batch\\screenshots\\password_reset--mobile-320.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\pilot-batch\\screenshots\\refund_receipt_user--desktop-800.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\pilot-batch\\screenshots\\refund_receipt_user--mobile-320.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\pilot-batch\\screenshots\\festival_ticket_registration_reject--desktop-800.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\pilot-batch\\screenshots\\festival_ticket_registration_reject--mobile-320.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\pilot-batch\\screenshots\\festival_approval_status_changed--desktop-800.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\pilot-batch\\screenshots\\festival_approval_status_changed--mobile-320.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\pilot-batch\\screenshots\\contact_submission--desktop-800.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\pilot-batch\\screenshots\\contact_submission--mobile-320.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\pilot-batch\\screenshots\\organizer_announcement--desktop-800.png",
+    "D:\\last\\eveenty-email-preview\\qa-output\\pilot-batch\\screenshots\\organizer_announcement--mobile-320.png"
+  ],
+  "staticAudits": [
+    {
+      "id": "password_reset",
+      "locale": "en",
+      "variant": "default",
+      "bytes": 7249,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "7249 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "password_reset",
+      "locale": "fr",
+      "variant": "default",
+      "bytes": 7397,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "7397 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "password_reset",
+      "locale": "es",
+      "variant": "default",
+      "bytes": 7377,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "7377 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "password_reset",
+      "locale": "ar",
+      "variant": "default",
+      "bytes": 7482,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "7482 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "password_reset",
+      "locale": "fa",
+      "variant": "default",
+      "bytes": 7423,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "7423 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "en",
+      "variant": "refundAndCanceled",
+      "bytes": 14658,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "14658 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "en",
+      "variant": "refundOnly",
+      "bytes": 13430,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "13430 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "en",
+      "variant": "canceledOnly",
+      "bytes": 9661,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "9661 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "fr",
+      "variant": "refundAndCanceled",
+      "bytes": 14755,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "14755 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "fr",
+      "variant": "refundOnly",
+      "bytes": 13511,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "13511 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "fr",
+      "variant": "canceledOnly",
+      "bytes": 9726,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "9726 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "es",
+      "variant": "refundAndCanceled",
+      "bytes": 14769,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "14769 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "es",
+      "variant": "refundOnly",
+      "bytes": 13545,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "13545 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "es",
+      "variant": "canceledOnly",
+      "bytes": 9714,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "9714 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "ar",
+      "variant": "refundAndCanceled",
+      "bytes": 14736,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "14736 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "ar",
+      "variant": "refundOnly",
+      "bytes": 13522,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "13522 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "ar",
+      "variant": "canceledOnly",
+      "bytes": 9738,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "9738 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "fa",
+      "variant": "refundAndCanceled",
+      "bytes": 14723,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "14723 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "fa",
+      "variant": "refundOnly",
+      "bytes": 13515,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "13515 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "fa",
+      "variant": "canceledOnly",
+      "bytes": 9703,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "9703 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "en",
+      "variant": "user",
+      "bytes": 12416,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "12416 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "error-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "en",
+      "variant": "organizer",
+      "bytes": 12311,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "12311 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "error-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "en",
+      "variant": "admin",
+      "bytes": 12299,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "12299 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "error-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "fr",
+      "variant": "user",
+      "bytes": 12486,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "12486 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "error-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "fr",
+      "variant": "organizer",
+      "bytes": 12372,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "12372 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "error-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "fr",
+      "variant": "admin",
+      "bytes": 12299,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "12299 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "error-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "es",
+      "variant": "user",
+      "bytes": 12535,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "12535 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "error-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "es",
+      "variant": "organizer",
+      "bytes": 12429,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "12429 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "error-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "es",
+      "variant": "admin",
+      "bytes": 12299,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "12299 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "error-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "ar",
+      "variant": "user",
+      "bytes": 12618,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "12618 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "error-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "ar",
+      "variant": "organizer",
+      "bytes": 12465,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "12465 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "error-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "ar",
+      "variant": "admin",
+      "bytes": 12299,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "12299 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "error-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "fa",
+      "variant": "user",
+      "bytes": 12568,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "12568 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "error-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "fa",
+      "variant": "organizer",
+      "bytes": 12399,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "12399 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "error-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "fa",
+      "variant": "admin",
+      "bytes": 12299,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "12299 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "error-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "en",
+      "variant": "approved",
+      "bytes": 7348,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "7348 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "success-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "en",
+      "variant": "approvedWithNote",
+      "bytes": 8266,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "8266 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "success-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "en",
+      "variant": "rejected",
+      "bytes": 7236,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "7236 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "en",
+      "variant": "rejectedWithNote",
+      "bytes": 8154,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "8154 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "fr",
+      "variant": "approved",
+      "bytes": 7433,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "7433 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "success-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "fr",
+      "variant": "approvedWithNote",
+      "bytes": 8365,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "8365 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "success-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "fr",
+      "variant": "rejected",
+      "bytes": 7271,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "7271 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "fr",
+      "variant": "rejectedWithNote",
+      "bytes": 8203,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "8203 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "es",
+      "variant": "approved",
+      "bytes": 7341,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "7341 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "success-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "es",
+      "variant": "approvedWithNote",
+      "bytes": 8274,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "8274 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "success-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "es",
+      "variant": "rejected",
+      "bytes": 7278,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "7278 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "es",
+      "variant": "rejectedWithNote",
+      "bytes": 8211,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "8211 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "ar",
+      "variant": "approved",
+      "bytes": 7509,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "7509 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "success-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "ar",
+      "variant": "approvedWithNote",
+      "bytes": 8430,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "8430 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "success-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "ar",
+      "variant": "rejected",
+      "bytes": 7371,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "7371 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "ar",
+      "variant": "rejectedWithNote",
+      "bytes": 8292,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "8292 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "fa",
+      "variant": "approved",
+      "bytes": 7556,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "7556 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "success-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "fa",
+      "variant": "approvedWithNote",
+      "bytes": 8502,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "8502 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "success-alert-aa",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "fa",
+      "variant": "rejected",
+      "bytes": 7383,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "7383 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "fa",
+      "variant": "rejectedWithNote",
+      "bytes": 8329,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "8329 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "contact_submission",
+      "locale": "en",
+      "variant": "default",
+      "bytes": 8813,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "8813 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "logo-160",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "organizer_announcement",
+      "locale": "en",
+      "variant": "default",
+      "bytes": 5690,
+      "findings": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "5690 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "container-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-heading",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-border",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-layout-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-rejected-copy-colors",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "lang-dir",
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "failCount": 0
+    }
+  ],
+  "responsive": [
+    {
+      "id": "password_reset",
+      "locale": "en",
+      "width": 800,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 800,
+      "clientWidth": 800,
+      "dir": "ltr"
+    },
+    {
+      "id": "password_reset",
+      "locale": "en",
+      "width": 414,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 414,
+      "clientWidth": 414,
+      "dir": "ltr"
+    },
+    {
+      "id": "password_reset",
+      "locale": "en",
+      "width": 375,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "dir": "ltr"
+    },
+    {
+      "id": "password_reset",
+      "locale": "en",
+      "width": 320,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "dir": "ltr"
+    },
+    {
+      "id": "password_reset",
+      "locale": "ar",
+      "width": 800,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 800,
+      "clientWidth": 800,
+      "dir": "rtl"
+    },
+    {
+      "id": "password_reset",
+      "locale": "ar",
+      "width": 414,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 414,
+      "clientWidth": 414,
+      "dir": "rtl"
+    },
+    {
+      "id": "password_reset",
+      "locale": "ar",
+      "width": 375,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "dir": "rtl"
+    },
+    {
+      "id": "password_reset",
+      "locale": "ar",
+      "width": 320,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "dir": "rtl"
+    },
+    {
+      "id": "password_reset",
+      "locale": "en-long",
+      "width": 320,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "dir": "ltr"
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "en",
+      "width": 800,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 800,
+      "clientWidth": 800,
+      "dir": "ltr"
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "en",
+      "width": 414,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 414,
+      "clientWidth": 414,
+      "dir": "ltr"
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "en",
+      "width": 375,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "dir": "ltr"
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "en",
+      "width": 320,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "dir": "ltr"
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "ar",
+      "width": 800,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 800,
+      "clientWidth": 800,
+      "dir": "rtl"
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "ar",
+      "width": 414,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 414,
+      "clientWidth": 414,
+      "dir": "rtl"
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "ar",
+      "width": 375,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "dir": "rtl"
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "ar",
+      "width": 320,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "dir": "rtl"
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "en-long",
+      "width": 320,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "dir": "ltr"
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "en",
+      "width": 800,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 800,
+      "clientWidth": 800,
+      "dir": "ltr"
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "en",
+      "width": 414,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 414,
+      "clientWidth": 414,
+      "dir": "ltr"
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "en",
+      "width": 375,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "dir": "ltr"
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "en",
+      "width": 320,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "dir": "ltr"
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "ar",
+      "width": 800,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 800,
+      "clientWidth": 800,
+      "dir": "rtl"
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "ar",
+      "width": 414,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 414,
+      "clientWidth": 414,
+      "dir": "rtl"
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "ar",
+      "width": 375,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "dir": "rtl"
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "ar",
+      "width": 320,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "dir": "rtl"
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "en-long",
+      "width": 320,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "dir": "ltr"
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "en",
+      "width": 800,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 800,
+      "clientWidth": 800,
+      "dir": "ltr"
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "en",
+      "width": 414,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 414,
+      "clientWidth": 414,
+      "dir": "ltr"
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "en",
+      "width": 375,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "dir": "ltr"
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "en",
+      "width": 320,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "dir": "ltr"
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "ar",
+      "width": 800,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 800,
+      "clientWidth": 800,
+      "dir": "rtl"
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "ar",
+      "width": 414,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 414,
+      "clientWidth": 414,
+      "dir": "rtl"
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "ar",
+      "width": 375,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "dir": "rtl"
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "ar",
+      "width": 320,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "dir": "rtl"
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "en-long",
+      "width": 320,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "dir": "ltr"
+    },
+    {
+      "id": "contact_submission",
+      "locale": "en",
+      "width": 800,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 800,
+      "clientWidth": 800,
+      "dir": "ltr"
+    },
+    {
+      "id": "contact_submission",
+      "locale": "en",
+      "width": 414,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 414,
+      "clientWidth": 414,
+      "dir": "ltr"
+    },
+    {
+      "id": "contact_submission",
+      "locale": "en",
+      "width": 375,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "dir": "ltr"
+    },
+    {
+      "id": "contact_submission",
+      "locale": "en",
+      "width": 320,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "dir": "ltr"
+    },
+    {
+      "id": "contact_submission",
+      "locale": "en-long",
+      "width": 320,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "dir": "ltr"
+    },
+    {
+      "id": "organizer_announcement",
+      "locale": "en",
+      "width": 800,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 800,
+      "clientWidth": 800,
+      "dir": "ltr"
+    },
+    {
+      "id": "organizer_announcement",
+      "locale": "en",
+      "width": 414,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 414,
+      "clientWidth": 414,
+      "dir": "ltr"
+    },
+    {
+      "id": "organizer_announcement",
+      "locale": "en",
+      "width": 375,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "dir": "ltr"
+    },
+    {
+      "id": "organizer_announcement",
+      "locale": "en",
+      "width": 320,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "dir": "ltr"
+    },
+    {
+      "id": "organizer_announcement",
+      "locale": "en-long",
+      "width": 320,
+      "status": "PASS",
+      "overflow": false,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "dir": "ltr"
+    }
+  ],
+  "levelB": {
+    "gmail": "NOT RUN",
+    "outlook": "NOT RUN",
+    "appleMail": "NOT RUN"
+  }
+}

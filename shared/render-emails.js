@@ -22,6 +22,7 @@ import {
 } from './email-kit.js';
 import { SAMPLE, LOCALES } from './sample-data.js';
 import { TOKENS as T } from './tokens.js';
+import { renderPilotEmail } from './pilot-renderers.js';
 
 export function renderEmail(emailId, options = {}) {
   setAssetBase(options.assetBase ?? './');
@@ -47,6 +48,13 @@ export function renderEmail(emailId, options = {}) {
       return renderDispute(L, dir, lang, variant, longContent);
     case 'festival_marketing_email_target':
       return renderMarketingTarget(L, dir, lang, variant, longContent);
+    case 'password_reset':
+    case 'refund_receipt_user':
+    case 'festival_ticket_registration_reject':
+    case 'festival_approval_status_changed':
+    case 'contact_submission':
+    case 'organizer_announcement':
+      return renderPilotEmail(emailId, { locale, variant, longContent });
     default:
       throw new Error(`Unknown email id: ${emailId}`);
   }

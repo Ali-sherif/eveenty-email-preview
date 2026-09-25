@@ -19,6 +19,12 @@ const ids = [
   'support',
   'dispute_notification',
   'festival_marketing_email_target',
+  'password_reset',
+  'refund_receipt_user',
+  'festival_ticket_registration_reject',
+  'festival_approval_status_changed',
+  'contact_submission',
+  'organizer_announcement',
 ];
 
 const defaults = {
@@ -29,6 +35,12 @@ const defaults = {
   support: { locale: 'en', variant: 'default' },
   dispute_notification: { locale: 'en', variant: 'organizer' },
   festival_marketing_email_target: { locale: 'en', variant: 'default' },
+  password_reset: { locale: 'en', variant: 'default' },
+  refund_receipt_user: { locale: 'en', variant: 'refundAndCanceled' },
+  festival_ticket_registration_reject: { locale: 'en', variant: 'user' },
+  festival_approval_status_changed: { locale: 'en', variant: 'approvedWithNote' },
+  contact_submission: { locale: 'en', variant: 'default' },
+  organizer_announcement: { locale: 'en', variant: 'default' },
 };
 
 for (const id of ids) {

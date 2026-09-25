@@ -140,3 +140,14 @@ Agent skills/rules/docs were updated only where stale or contradictory; no new s
 - Borders are **decorative**. Alert status must remain understandable via accessible text, headings, and icons without relying on border contrast alone.
 - **Do not** strengthen or change those border colors. No HTML / Figma / backend / token changes required (current kit already uses these hexes).
 - OD-2 status: **CLOSED - OWNER APPROVED**.
+
+---
+
+**[2026-09-26 - Remaining-email rollout pilot authorized and completed]**
+
+- Owner authorized planning all 41 originally undesigned templates and implementing only a diverse pilot of 4–6, HTML Preview only, then stopping for review.
+- Selected and implemented six: `password_reset`, `refund_receipt_user`, `festival_ticket_registration_reject`, `festival_approval_status_changed`, `contact_submission`, `organizer_announcement`.
+- Pilot deliberately covers all six backend families and all four Design Kit families while reusing existing approved components; no new component decision was introduced.
+- Fresh Level A QA: 57 locale/variant structural renders, 46 responsive checks (including 16 RTL and six long-content stress checks), 12 screenshots, and approved contrast pairs — **PASS**.
+- Catalog status is now 13 designed / 35 undesigned. Pilot designs remain owner-review pending; no owner visual approval, production migration, Figma work, backend change, commit, push, deploy or CDN upload occurred.
+- Read-only security review recorded two `organizer_announcement` production-boundary findings; no backend fix was authorized.
