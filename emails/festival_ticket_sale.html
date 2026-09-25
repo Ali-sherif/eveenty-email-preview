@@ -24,6 +24,12 @@
     body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
     table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
     img { -ms-interpolation-mode: bicubic; border: 0; outline: none; text-decoration: none; max-width: 100%; height: auto; }
+    /* Pin Wallet badge geometry — do not let global img height:auto / max-width shrink them. */
+    img.wallet-badge-img {
+      max-width: none !important;
+      height: 48px !important;
+      vertical-align: middle !important;
+    }
     .email-container { width: 100% !important; max-width: 600px !important; }
     @media only screen and (max-width: 620px) {
       .email-container { width: 100% !important; max-width: 100% !important; }
@@ -36,18 +42,30 @@
         padding-left: 8px !important;
         padding-right: 8px !important;
         box-sizing: border-box !important;
+        text-align: center !important;
       }
-      .wallet-btn { display: block !important; width: 100% !important; max-width: 100% !important; margin: 0 0 16px 0 !important; text-align: center !important; padding-left: 0 !important; padding-right: 0 !important; }
+      .wallet-btn { display: block !important; width: 100% !important; max-width: 100% !important; margin: 0 0 16px 0 !important; text-align: center !important; padding-left: 0 !important; padding-right: 0 !important; font-size: 0 !important; line-height: 0 !important; }
       .wallet-btn:last-child { margin-bottom: 0 !important; }
       .wallet-row, .wallet-row tbody, .wallet-row tr { display: block !important; width: 100% !important; }
-      /* Never fluid-shrink below 48px — swap to official condensed Google asset instead. */
-      .wallet-google-primary {
+      /* Never fluid-shrink below 48px — swap to official condensed Google asset instead.
+         Hide/show the *link wrappers* so empty anchors cannot skew stack spacing. */
+      .wallet-google-primary-link {
         display: none !important;
+        mso-hide: all !important;
         max-height: 0 !important;
         overflow: hidden !important;
         width: 0 !important;
         height: 0 !important;
-        mso-hide: all !important;
+      }
+      .wallet-google-condensed-link {
+        display: inline-block !important;
+        max-height: none !important;
+        overflow: visible !important;
+        width: auto !important;
+        height: auto !important;
+      }
+      .wallet-google-primary {
+        display: none !important;
       }
       .wallet-google-condensed {
         display: block !important;
@@ -106,22 +124,11 @@
           </tr>
         </table>
         <div class="wallet-section" style="margin-top:16px;">
-    <table role="presentation" cellpadding="0" cellspacing="0" border="0" class="wallet-row" align="center" dir="ltr" style="margin:0 auto;">
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" class="wallet-row" align="center" dir="ltr" style="margin:0 auto;border-collapse:collapse;">
       <tr>
         
-        <td class="wallet-btn" align="center" valign="middle" width="272" style="padding:0 16px 0 0;vertical-align:middle;width:272px;">
-          <a href="https://example.com/preview/google-wallet" target="_blank" style="display:inline-block;line-height:0;text-decoration:none;border:0;">
-            <img class="wallet-badge-img wallet-google-primary" src="../assets/wallet/official/google/en.png" alt="Add to Google Wallet" width="272" height="48" style="display:block;width:272px;max-width:272px;height:48px;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" />
-          </a>
-          <a href="https://example.com/preview/google-wallet" target="_blank" style="display:inline-block;line-height:0;text-decoration:none;border:0;">
-            <img class="wallet-badge-img wallet-google-condensed" src="../assets/wallet/official/google/condensed/en.png" alt="Add to Google Wallet" width="174" height="48" style="display:block;width:174px;max-width:174px;height:48px;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;display:none;" />
-          </a>
-        </td>
-        <td class="wallet-btn" align="center" valign="middle" width="152" style="padding:0;vertical-align:middle;width:152px;">
-          <a href="https://example.com/preview/apple-wallet" target="_blank" style="display:inline-block;line-height:0;text-decoration:none;border:0;">
-            <img class="wallet-badge-img" src="../assets/wallet/official/apple/en.png" alt="Add to Apple Wallet" width="152" height="48" style="display:block;width:152px;max-width:152px;height:48px;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" />
-          </a>
-        </td>
+        <td class="wallet-btn" align="center" valign="middle" width="272" style="padding:0 16px 0 0;vertical-align:middle;font-size:0;line-height:0;mso-line-height-rule:exactly;width:272px;"><a class="wallet-google-primary-link" href="https://example.com/preview/google-wallet" target="_blank" style="display:inline-block;line-height:0;font-size:0;text-decoration:none;border:0;vertical-align:middle;"><img class="wallet-badge-img wallet-google-primary" src="../assets/wallet/official/google/en.png" alt="Add to Google Wallet" width="272" height="48" style="display:block;width:272px;max-width:272px;height:48px;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;vertical-align:middle;" /></a><a class="wallet-google-condensed-link" href="https://example.com/preview/google-wallet" target="_blank" style="display:inline-block;line-height:0;font-size:0;text-decoration:none;border:0;vertical-align:middle;display:none;mso-hide:all;max-height:0;overflow:hidden;"><img class="wallet-badge-img wallet-google-condensed" src="../assets/wallet/official/google/condensed/en.png" alt="Add to Google Wallet" width="174" height="48" style="display:block;width:174px;max-width:174px;height:48px;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;vertical-align:middle;" /></a></td>
+        <td class="wallet-btn" align="center" valign="middle" width="152" style="padding:0;vertical-align:middle;font-size:0;line-height:0;mso-line-height-rule:exactly;width:152px;"><a href="https://example.com/preview/apple-wallet" target="_blank" style="display:inline-block;line-height:0;font-size:0;text-decoration:none;border:0;vertical-align:middle;"><img class="wallet-badge-img" src="../assets/wallet/official/apple/en.png" alt="Add to Apple Wallet" width="152" height="48" style="display:block;width:152px;max-width:152px;height:48px;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;vertical-align:middle;" /></a></td>
       </tr>
     </table></div>
         <p style="margin:16px 0 0 0;font-family:'Roboto', Arial, Helvetica, Tahoma, sans-serif;font-size:13px;color:#d80073;">

@@ -88,10 +88,36 @@ Append-only. Each entry: date, decision, who/what authorized it, source.
 
 ---
 
-**[2026-09-25 ó Wallet 320px: official condensed Google to keep 48px min]**
+**[2026-09-25 ù Wallet 320px: official condensed Google to keep 48px min]**
 
 - Primary `wallet-button` widths @48px (en 272 / ar 300 / fr 304 / es 286 / fa 296). At 320px even with outer pad 0 + stack-pad cancelled + 8dp clear, max usable ?302px ? **FR primary cannot fit compliantly**.
-- Official pack includes condensed `add-wallet-badge` (en/ar/fr/es ~174◊48, fa 186◊48). Google guidelines: use condensed when space is limited.
+- Official pack includes condensed `add-wallet-badge` (en/ar/fr/es ~174ù48, fa 186ù48). Google guidelines: use condensed when space is limited.
 - Implemented dual assets: primary ?768; condensed ?620 via CSS. Pinned 48px (no fluid shrink). Wallet-section padding maximize.
 - QA: **PASS**, `heightFailCount: 0` for all five locales at 320. Blocked-image cases re-run.
 - Assets under `assets/wallet/official/google/condensed/`. CDN upload still owner-gated (now +5 condensed files).
+
+---
+
+**[2026-09-25 ù Final official Wallet badge alignment]**
+
+- Owner requested final desktop/mobile alignment while keeping each providerùs original badge shape (Google pill / Apple rounded-rect).
+- Root cause of desktop misalignment: ~9px midY delta from dual Google link siblings + anonymous text strut. Fixed via `font-size:0` cells, hide unused *link wrappers*, valign middle.
+- Mobile stack/center gap measured **16px**; all locales **48ù** at 800/768/414/375/320; condensed Google on narrow.
+- Report updated with **measured** Chromium dimensions: `WALLET_BADGE_SIZING_FIX.md`. Minimal screenshots only. No Figma/backend/artwork/other-email changes. No commit.
+
+---
+
+**[2026-09-25 ó Final owner decisions before remaining-email rollout (agent infra alignment)]**
+
+Authorized as standing policy for the next phase (recorded from owner task brief; supersedes conflicting older skill/doc defaults where they disagreed):
+
+1. **Remaining 41 deliverable = HTML Preview only.** No Figma changes for undesigned templates unless the owner separately authorizes a specific Figma edit. Email Kit / Original DS Figma remain non-production; Original DS stays read-only.
+2. **Languages:** use only locales actually supported by each original backend template (catalog/traceability + production). Do not force five languages onto every email. The five prepared Wallet badge locales (en/ar/fr/es/fa) are Wallet artwork coverage for ticket-sale-style previews, not a global locale matrix.
+3. **Seven references:** conditional owner visual approval of the approved component system. **Final technical gate** (Cards/Typography consistency + resolve-or-accurately-report Wallet badge sizing at 320px) must **PASS** before implementing any of the remaining 41. Earlier Chromium tests alone do **not** close this gate.
+4. **Design reuse:** Primary CTA, header/localized logos, Warning/Error/Success alerts, accessible muted-text (meaningful muted = Dark-500 `#4D4C49`), dividers/shared components, approved typography adaptations ó via existing `shared/tokens.js` / `shared/email-kit.js`, not by re-embedding the full DS into every skill.
+5. **Wallet:** official Apple/Google badges from `assets/wallet/official/` only; preserve provider shapes; do not edit artwork; do not reintroduce custom CSS Wallet buttons or yellow Eveenty CDN badge images.
+6. **Inventory:** 59 / 11 excluded / 48 Phase 1 / 7 designed / 41 undesigned ó verified catalog is source of truth.
+7. **Backend:** read-only. **Production:** no CDN upload, commit, push, or deployment without separate explicit authorization.
+8. **QA:** do not treat historical QA as fresh; do not require regenerating discarded screenshot sets as a rollout prerequisite.
+
+Agent skills/rules/docs were updated only where stale or contradictory; no new skills created. See `docs/agent/AGENT_INFRASTRUCTURE_READINESS.md`.

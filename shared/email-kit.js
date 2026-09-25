@@ -408,11 +408,24 @@ export function walletActionButtons({
   // ≥16px between badges on desktop (≥ Google 8 dp / Apple 0.1× clear space)
   const gapFirst = dir === 'rtl' ? '0 0 0 16px' : '0 16px 0 0';
 
-  const imgTag = ({ href, src, label, width, height, extraClass = '', extraStyle = '' }) => {
-    const imgStyle = `display:block;width:${width}px;max-width:${width}px;height:${height}px;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;${extraStyle}`;
-    return `<a href="${esc(href)}" target="_blank" style="display:inline-block;line-height:0;text-decoration:none;border:0;">
-            <img class="wallet-badge-img${extraClass ? ` ${extraClass}` : ''}" src="${esc(src)}" alt="${esc(label)}" width="${width}" height="${height}" style="${imgStyle}" />
-          </a>`;
+  // font-size/line-height 0 + valign middle: kill anonymous text struts between
+  // inline-block links so Google/Apple share one vertical center line.
+  const cellBase =
+    'padding:__PAD__;vertical-align:middle;font-size:0;line-height:0;mso-line-height-rule:exactly;';
+
+  const badgeLink = ({
+    href,
+    src,
+    label,
+    width,
+    height,
+    imgClass = '',
+    linkClass = '',
+    linkStyle = '',
+  }) => {
+    const imgStyle = `display:block;width:${width}px;max-width:${width}px;height:${height}px;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;vertical-align:middle;`;
+    const linkClassAttr = linkClass ? ` class="${linkClass}"` : '';
+    return `<a${linkClassAttr} href="${esc(href)}" target="_blank" style="display:inline-block;line-height:0;font-size:0;text-decoration:none;border:0;vertical-align:middle;${linkStyle}"><img class="wallet-badge-img${imgClass ? ` ${imgClass}` : ''}" src="${esc(src)}" alt="${esc(label)}" width="${width}" height="${height}" style="${imgStyle}" /></a>`;
   };
 
   const googleCell = (padding) => {
@@ -421,36 +434,40 @@ export function walletActionButtons({
     const primarySrc = walletBadgeUrl('google', loc, { condensed: false });
     const condensedSrc = walletBadgeUrl('google', loc, { condensed: true });
     // Dual official assets: primary on wide; condensed ≤620px so 48px fits at 320 without shrink.
+    // Hide the unused *link* (not only the img) so empty anchors cannot skew valign.
     // Outlook ignores MQ → primary only (desktop pane is wide enough).
     return `
-        <td class="wallet-btn" align="center" valign="middle" width="${primary.width}" style="padding:${padding};vertical-align:middle;width:${primary.width}px;">
-          ${imgTag({
+        <td class="wallet-btn" align="center" valign="middle" width="${primary.width}" style="${cellBase.replace('__PAD__', padding)}width:${primary.width}px;">${badgeLink({
             href: googleHref,
             src: primarySrc,
             label: googleLabel,
             width: primary.width,
             height: primary.height,
-            extraClass: 'wallet-google-primary',
-          })}
-          ${imgTag({
+            imgClass: 'wallet-google-primary',
+            linkClass: 'wallet-google-primary-link',
+          })}${badgeLink({
             href: googleHref,
             src: condensedSrc,
             label: googleLabel,
             width: condensed.width,
             height: condensed.height,
-            extraClass: 'wallet-google-condensed',
-            extraStyle: 'display:none;',
-          })}
-        </td>`;
+            imgClass: 'wallet-google-condensed',
+            linkClass: 'wallet-google-condensed-link',
+            linkStyle: 'display:none;mso-hide:all;max-height:0;overflow:hidden;',
+          })}</td>`;
   };
 
   const appleCell = (padding) => {
     const { width, height } = walletBadgeDisplaySize('apple', loc, displayHeight);
     const src = walletBadgeUrl('apple', loc);
     return `
-        <td class="wallet-btn" align="center" valign="middle" width="${width}" style="padding:${padding};vertical-align:middle;width:${width}px;">
-          ${imgTag({ href: appleHref, src, label: appleLabel, width, height })}
-        </td>`;
+        <td class="wallet-btn" align="center" valign="middle" width="${width}" style="${cellBase.replace('__PAD__', padding)}width:${width}px;">${badgeLink({
+            href: appleHref,
+            src,
+            label: appleLabel,
+            width,
+            height,
+          })}</td>`;
   };
 
   const cells = [];
@@ -462,7 +479,7 @@ export function walletActionButtons({
   }
   // dir controls cell order only — never mirror badge artwork (no scaleX / transform)
   return `
-    <table role="presentation" cellpadding="0" cellspacing="0" border="0" class="wallet-row" align="center" dir="${dir === 'rtl' ? 'rtl' : 'ltr'}" style="margin:0 auto;">
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" class="wallet-row" align="center" dir="${dir === 'rtl' ? 'rtl' : 'ltr'}" style="margin:0 auto;border-collapse:collapse;">
       <tr>
         ${cells.join('')}
       </tr>
@@ -521,6 +538,12 @@ export function wrapEmailDocument({ lang, dir, title, bodyRows, preheader, fontF
     body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
     table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
     img { -ms-interpolation-mode: bicubic; border: 0; outline: none; text-decoration: none; max-width: 100%; height: auto; }
+    /* Pin Wallet badge geometry — do not let global img height:auto / max-width shrink them. */
+    img.wallet-badge-img {
+      max-width: none !important;
+      height: 48px !important;
+      vertical-align: middle !important;
+    }
     .email-container { width: 100% !important; max-width: 600px !important; }
     @media only screen and (max-width: 620px) {
       .email-container { width: 100% !important; max-width: 100% !important; }
@@ -533,18 +556,30 @@ export function wrapEmailDocument({ lang, dir, title, bodyRows, preheader, fontF
         padding-left: 8px !important;
         padding-right: 8px !important;
         box-sizing: border-box !important;
+        text-align: center !important;
       }
-      .wallet-btn { display: block !important; width: 100% !important; max-width: 100% !important; margin: 0 0 16px 0 !important; text-align: center !important; padding-left: 0 !important; padding-right: 0 !important; }
+      .wallet-btn { display: block !important; width: 100% !important; max-width: 100% !important; margin: 0 0 16px 0 !important; text-align: center !important; padding-left: 0 !important; padding-right: 0 !important; font-size: 0 !important; line-height: 0 !important; }
       .wallet-btn:last-child { margin-bottom: 0 !important; }
       .wallet-row, .wallet-row tbody, .wallet-row tr { display: block !important; width: 100% !important; }
-      /* Never fluid-shrink below 48px — swap to official condensed Google asset instead. */
-      .wallet-google-primary {
+      /* Never fluid-shrink below 48px — swap to official condensed Google asset instead.
+         Hide/show the *link wrappers* so empty anchors cannot skew stack spacing. */
+      .wallet-google-primary-link {
         display: none !important;
+        mso-hide: all !important;
         max-height: 0 !important;
         overflow: hidden !important;
         width: 0 !important;
         height: 0 !important;
-        mso-hide: all !important;
+      }
+      .wallet-google-condensed-link {
+        display: inline-block !important;
+        max-height: none !important;
+        overflow: visible !important;
+        width: auto !important;
+        height: auto !important;
+      }
+      .wallet-google-primary {
+        display: none !important;
       }
       .wallet-google-condensed {
         display: block !important;

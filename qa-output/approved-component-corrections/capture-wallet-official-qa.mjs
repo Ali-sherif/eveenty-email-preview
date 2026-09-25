@@ -5,8 +5,12 @@
  * Serves repo assets over localhost HTTP so Playwright can load official PNGs
  * (file:// img src fails under setContent).
  *
- * Hard rule: visible Google + Apple badges must be ≥48px tall at EVERY viewport
- * (incl. 320). Locales that shrink below 48 → FAIL (not PASS).
+ * Hard rules:
+ * - Visible Google + Apple badges ≥48px tall at EVERY viewport (incl. 320)
+ * - Desktop/tablet: shared vertical center line (|midY delta| ≤ 2)
+ * - Narrow: stacked + centered; Google uses official condensed asset
+ *
+ * Screenshots: minimal set proving desktop + mobile alignment (not full matrix).
  */
 import { chromium } from 'playwright';
 import { createServer } from 'node:http';
@@ -74,6 +78,20 @@ const EXPECTED = {
   fa: { primary: 296, condensed: 186, apple: 152 },
 };
 
+/** Minimal visual evidence — full matrix still measured; only these PNGs written. */
+const SCREENSHOT_KEYS = new Set([
+  'en-buyerUser-desktop-800',
+  'en-buyerUser-mobile-320',
+  'fr-buyerUser-desktop-800',
+  'fr-buyerUser-mobile-320',
+  'ar-buyerUser-rtl-desktop-800',
+  'ar-buyerUser-rtl-mobile-320',
+  'es-buyerUser-desktop-800',
+  'fa-buyerUser-rtl-mobile-320',
+  'en-buyerUser-blocked-desktop-800',
+  'en-organizer-organizer-no-wallet-desktop-800',
+]);
+
 const CASES = [
   ...LOCALES.map((locale) => ({
     locale,
@@ -124,6 +142,8 @@ try {
       passCase('wallet-section-class', /class="wallet-section"/.test(html));
       passCase('gap-16-or-stack', /padding:0 16px 0 0|padding:0 0 0 16px|margin: 0 0 16px 0/.test(html));
       passCase('valign-middle', /valign="middle"/.test(html));
+      passCase('font-size-0-cell', /font-size:0/.test(html));
+      passCase('condensed-link-hidden-default', /wallet-google-condensed-link/.test(html) && /display:none;mso-hide:all/.test(html));
       passCase('alt-google', /alt="Add to Google Wallet"/.test(html));
       passCase('alt-apple', /alt="Add to Apple Wallet"/.test(html));
       passCase('google-href', /preview\/google-wallet/.test(html));
@@ -160,6 +180,8 @@ try {
 
       const metrics = await page.evaluate(() => {
         const overflow = document.documentElement.scrollWidth > document.documentElement.clientWidth + 1;
+        const section = document.querySelector('.wallet-section');
+        const row = document.querySelector('.wallet-row');
         const imgs = [...document.querySelectorAll('img[alt*="Wallet"]')];
         const imgInfo = imgs.map((img) => {
           const r = img.getBoundingClientRect();
@@ -178,12 +200,23 @@ try {
             naturalH: img.naturalHeight,
             displayW: Math.round(r.width),
             displayH: Math.round(r.height),
+            top: Math.round(r.top),
+            left: Math.round(r.left),
+            midY: Math.round(r.top + r.height / 2),
             visible,
             complete: img.complete,
           };
         });
-        return { overflow, imgInfo };
+        let rowCentered = null;
+        if (section && row) {
+          const sr = section.getBoundingClientRect();
+          const rr = row.getBoundingClientRect();
+          rowCentered = Math.abs(sr.left + sr.width / 2 - (rr.left + rr.width / 2)) <= 2;
+        }
+        return { overflow, imgInfo, rowCentered };
       });
+
+      let measured = null;
 
       if (isCustomer && !c.blocked) {
         const visible = metrics.imgInfo.filter((i) => i.visible);
@@ -195,7 +228,6 @@ try {
         pass('apple-visible', !!a, a ? `h=${a.displayH} w=${a.displayW}` : 'missing');
 
         if (g && a) {
-          // Hard owner rule: ≥48px at every supported width (allow 1px rounding)
           pass('google-height-min-48', g.displayH >= 47, `h=${g.displayH} w=${g.displayW} view=${viewName}`);
           pass('apple-height-min-48', a.displayH >= 47, `h=${a.displayH} w=${a.displayW} view=${viewName}`);
           pass('heights-match', Math.abs(g.displayH - a.displayH) <= 2, `g=${g.displayH} a=${a.displayH}`);
@@ -212,13 +244,21 @@ try {
 
           if (isNarrow) {
             pass('google-uses-condensed', /\/condensed\//.test(g.src), g.src);
-            pass('google-primary-hidden', !metrics.imgInfo.some((i) => i.className.includes('wallet-google-primary') && i.visible));
+            pass(
+              'google-primary-hidden',
+              !metrics.imgInfo.some((i) => i.className.includes('wallet-google-primary') && i.visible),
+            );
           } else {
-            pass('google-uses-primary', /official\/google\/[^/]+\.png/.test(g.src) && !/\/condensed\//.test(g.src), g.src);
+            pass(
+              'google-uses-primary',
+              /official\/google\/[^/]+\.png/.test(g.src) && !/\/condensed\//.test(g.src),
+              g.src,
+            );
+            const midDelta = Math.abs(g.midY - a.midY);
+            pass('desktop-vertical-center', midDelta <= 2, `midDelta=${midDelta} gMid=${g.midY} aMid=${a.midY}`);
           }
         }
 
-        // Layout: gap / stack among visible badges
         const layout = await page.evaluate(() => {
           const imgs = [...document.querySelectorAll('img[alt*="Wallet"]')].filter((img) => {
             const r = img.getBoundingClientRect();
@@ -246,19 +286,44 @@ try {
             pass('narrow-stacked', layout.stacked, `stacked=${layout.stacked}`);
           }
         }
+        if (metrics.rowCentered !== null) {
+          pass('wallet-group-centered', metrics.rowCentered, `centered=${metrics.rowCentered}`);
+        }
+
+        measured = {
+          google: g
+            ? {
+                w: g.displayW,
+                h: g.displayH,
+                midY: g.midY,
+                src: g.src.includes('/condensed/') ? 'condensed' : 'primary',
+              }
+            : null,
+          apple: a ? { w: a.displayW, h: a.displayH, midY: a.midY } : null,
+          gap: layout?.gap ?? null,
+          stacked: layout?.stacked ?? null,
+          midDelta: g && a && !isNarrow ? Math.abs(g.midY - a.midY) : null,
+          rowCentered: metrics.rowCentered,
+        };
       }
 
       const tag = c.tag ? `-${c.tag}` : '';
-      const file = join(out, `ticket-sale--${c.locale}-${c.variant}${tag}--${viewName}.png`);
-      await page.screenshot({ path: file, fullPage: true });
+      const keyParts = [c.locale, c.variant, c.tag, viewName].filter(Boolean).join('-');
+      let screenshot = null;
+      if (SCREENSHOT_KEYS.has(keyParts)) {
+        const file = join(out, `ticket-sale--${c.locale}-${c.variant}${tag}--${viewName}.png`);
+        await page.screenshot({ path: file, fullPage: true });
+        screenshot = file.replace(/\\/g, '/');
+      }
       results.push({
         locale: c.locale,
         variant: c.variant,
         tag: c.tag,
         blocked: !!c.blocked,
         view: viewName,
-        screenshot: file.replace(/\\/g, '/'),
+        screenshot,
         overflow: metrics.overflow ? 'FAIL' : 'PASS',
+        measured,
         imgInfo: metrics.imgInfo,
         structural: [...caseStructural, ...viewStructural],
       });
@@ -274,17 +339,35 @@ const structFails = results.flatMap((r) =>
 );
 const overflowFails = results.filter((r) => r.overflow === 'FAIL');
 const heightFails = structFails.filter((s) => s.name.includes('height-min-48'));
+const alignFails = structFails.filter((s) => s.name === 'desktop-vertical-center');
+
+const measuredTable = results
+  .filter((r) => r.measured?.google && r.measured?.apple)
+  .map((r) => ({
+    locale: r.locale,
+    view: r.view,
+    google: `${r.measured.google.w}×${r.measured.google.h} (${r.measured.google.src})`,
+    apple: `${r.measured.apple.w}×${r.measured.apple.h}`,
+    gap: r.measured.gap,
+    stacked: r.measured.stacked,
+    midDelta: r.measured.midDelta,
+    centered: r.measured.rowCentered,
+  }));
 
 const summary = {
   generatedAt: new Date().toISOString(),
-  scope: 'festival_ticket_sale Wallet badges — 48px min at all widths (condensed Google ≤620px)',
+  scope: 'festival_ticket_sale Wallet badges — final official alignment (48px, shared midY, condensed ≤620)',
   locales: LOCALES,
   structuralFailCount: structFails.length,
   overflowFailCount: overflowFails.length,
   heightFailCount: heightFails.length,
-  captures: results.length,
+  alignFailCount: alignFails.length,
+  captures: results.filter((r) => r.screenshot).length,
+  measuredViews: measuredTable.length,
+  measuredTable,
   structFails,
   heightFails,
+  alignFails,
   overflowFails: overflowFails.map((r) => ({ locale: r.locale, variant: r.variant, view: r.view })),
   clientQA: { gmail: 'NOT RUN', outlook: 'NOT RUN', appleMail: 'NOT RUN' },
 };

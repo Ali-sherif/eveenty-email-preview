@@ -11,7 +11,7 @@ A task references one specific template (by name or ID) and you need its mapping
 
 ## Workflow
 1. Resolve `template_id` against the canonical 59-template catalog (`catalog/email-catalog.json` and/or the traceability CSV under `Eveenty-Email-Kit-Phase1/organization/`) — do not guess a match.
-2. Retrieve only this template's record: original name + exact path, backend family, Design Kit family, functional subfolder, scope status, design status, production call sites, variables, locale behavior, relevant partials, special features, existing reference design (if any), existing QA/mapping notes.
+2. Retrieve only this template's record: original name + exact path, backend family, Design Kit family, functional subfolder, scope status, design status, production call sites, variables, locale behavior, relevant partials, special features, existing reference design (if any), existing QA/mapping notes. Treat `locale_behavior` / production locales as the language scope for this template — do not infer five-language support from Wallet badge asset coverage.
 3. If the catalog entry is missing or looks stale, inspect the actual production file directly and report the discrepancy — do not fabricate a mapping.
 4. Load only the source files this template's record actually references — never the full backend or all 59 records.
 

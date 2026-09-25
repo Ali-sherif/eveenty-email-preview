@@ -1,6 +1,6 @@
-# Wallet badge sizing fix — festival_ticket_sale
+# Wallet badge sizing & alignment — festival_ticket_sale
 
-**Date:** 2026-09-25 (updated: mobile 320px final)  
+**Date:** 2026-09-25 (updated: final official alignment)  
 **Scope:** `festival_ticket_sale` + `walletActionButtons` only  
 **Artwork crop/stretch/redraw:** NOT done · **Figma / backend / other six emails:** NOT modified  
 
@@ -10,72 +10,96 @@
 
 ### Primary (`wallet-button`) — `assets/wallet/official/google/{locale}.png`
 
-| Locale | Intrinsic | Aspect | Width @ 48px height |
-|--------|-----------|--------|---------------------|
-| en | 283×50 | 5.66 | **272** |
-| ar | 936×150 | 6.24 | **300** |
-| fr | 317×50 | 6.34 | **304** |
-| es | 298×50 | 5.96 | **286** |
-| fa | 308×50 | 6.16 | **296** |
+| Locale | Intrinsic | Transparent pad | Width @ 48px height |
+|--------|-----------|-----------------|---------------------|
+| en | 283×50 | none (content fills canvas) | **272** |
+| ar | 936×150 | none | **300** |
+| fr | 317×50 | none | **304** |
+| es | 298×50 | none | **286** |
+| fa | 308×50 | none | **296** |
 
 ### Condensed (`add-wallet-badge`) — from official `add-to-wallet-png.zip`
 
-| Locale | Intrinsic | Aspect | Width @ 48px height |
-|--------|-----------|--------|---------------------|
-| en | 199×55 | 3.62 | **174** |
-| ar | 199×55 | 3.62 | **174** |
-| fr | 199×55 | 3.62 | **174** |
-| es | 199×55 | 3.62 | **174** |
-| fa | 213×55 | 3.87 | **186** |
+| Locale | Intrinsic | Transparent pad | Width @ 48px height |
+|--------|-----------|-----------------|---------------------|
+| en | 199×55 | none | **174** |
+| ar | 199×55 | none | **174** |
+| fr | 199×55 | none | **174** |
+| es | 199×55 | none | **174** |
+| fa | 213×55 | none | **186** |
 
-Google brand guidelines: primary on light backgrounds; **use condensed when there is not enough space for the primary**; min height **48 dp**; clear space **8 dp**.
+### Apple — `assets/wallet/official/apple/{locale}.png`
 
----
+| Locale | Intrinsic | Transparent pad (approx) | Width @ 48px height |
+|--------|-----------|--------------------------|---------------------|
+| en | 316×100 | ~0–3px edges | **152** |
+| ar | 318×100 | ~0–2px edges | **153** |
+| fr | 321×100 | ~0–3px edges | **154** |
+| es | 376×100 | ~0–3px edges | **180** |
+| fa | 316×100 (EN artwork fallback) | ~0–3px | **152** |
 
-## 2. Why 320px failed before
-
-At 320px, nested padding ate the column:
-
-| Chrome | px |
-|--------|-----|
-| outer-pad L+R | 8+8 |
-| stack-pad L+R | 16+16 |
-| container border | ~2 |
-| **Available** | **~270** |
-
-Primary FR needs **304px** at 48px height → `max-width:100%` + `height:auto` fluid-shrunk Google to ~43px. **Forbidden.**
-
-Even with padding maximized (outer 0, stack cancelled, 8dp clear): available ≈ **302px**. Primary FR (**304**) still cannot fit with 8dp clear space. → official condensed required for narrow viewports.
+Google brand guidelines: primary on light backgrounds; **use condensed when there is not enough space for the primary**; min height **48 dp**; clear space **8 dp**. Apple shapes remain rounded-rectangle; Google remains pill — never forced into matching shapes.
 
 ---
 
-## 3. Fix applied
+## 2. Prior failures (resolved)
 
-1. **Stack + center** badges ≤620px (existing `.wallet-btn` block rules).
-2. **`.wallet-section`** cancels nested `stack-pad` (−16px margins) and keeps **8px** horizontal clear space.
-3. **`.outer-pad`** horizontal → **0** on mobile (maximize width, no overflow).
-4. **Pinned 48px height** — removed fluid `height:auto` shrink on wallet badges.
-5. **Dual official Google assets:** primary (desktop/tablet ≥768) + condensed (≤620px via CSS). Apple unchanged (fits at 48px). Artwork unmodified copies from brand pack.
-6. Outlook ignores MQ → shows primary only (wide pane).
+### A. 320px height shrink (43–45px)
+At 320px, nested padding ate the column. Primary FR needs **304px** at 48px height; even maximized usable ≈ **302px**. `max-width:100%` + `height:auto` fluid-shrunk Google. **Forbidden.**
+
+**Fix:** official condensed Google ≤620px; pin height 48px; cancel nested stack-pad; outer pad → 0; retain 8px clear space.
+
+### B. Desktop vertical misalignment (~9px midY delta)
+Google cell held primary + condensed `<a>` siblings with whitespace. Anonymous text strut + baseline alignment pushed Google ~9px above Apple on the same row.
+
+**Fix:** `font-size:0;line-height:0` on wallet cells; hide unused provider *link wrapper* (not only the img); `vertical-align:middle` on links/imgs; no whitespace between sibling links.
 
 ---
 
-## 4. QA results (Level A Chromium) — this session
+## 3. Fix applied (final)
+
+1. **Shared display height 48px**; widths from intrinsic aspect — never equal-width force.
+2. **Desktop/tablet:** side-by-side, `valign=middle`, ≥16px gap, group centered in `.wallet-section`.
+3. **≤620px:** stack + center; Google switches to official condensed.
+4. **Dual Google assets:** primary (wide) + condensed (narrow) via CSS; Outlook ignores MQ → primary only.
+5. **No custom button chrome** around official artwork.
+
+---
+
+## 4. QA results (Level A Chromium) — measured rendered sizes
+
+Harness: `capture-wallet-official-qa.mjs`  
+Log: `wallet-official-qa-results.json`  
+Minimal screenshots: `screenshots/wallet-official/` (10 captures)
 
 | Check | Result |
 |-------|--------|
 | en/ar/fr/es/fa × 800/768/414/375/320 | **PASS** |
-| Visible badge height ≥48 at **every** width incl. 320 | **PASS** (`heightFailCount: 0`) |
-| Mobile uses condensed Google; desktop primary | **PASS** |
-| Stack + ≥16px gap on narrow | **PASS** |
+| Visible badge height ≥48 every width | **PASS** (`heightFailCount: 0`) |
+| Desktop midY delta ≤2 | **PASS** (`alignFailCount: 0`, all `midDelta: 0`) |
+| Gap ≥16 (measured **16** desktop & mobile) | **PASS** |
+| Mobile condensed Google; desktop primary | **PASS** |
+| Wallet group centered | **PASS** |
 | Overflow | **PASS** (0) |
-| Image-blocked alt (EN + AR, desktop + 320) | **PASS** |
+| Image-blocked alt / organizer omit / calendar | **PASS** |
 | Gmail / Outlook / Apple Mail | **NOT RUN** |
 
-Measured at 320 (visible): Google condensed **174×48** (fa **186×48**); Apple **152–180×48**. All matched height.
+### Measured rendered dimensions (Chromium)
 
-**Captures:** `screenshots/wallet-official/`  
-**Log:** `wallet-official-qa-results.json`
+| Locale | Viewport | Google (measured) | Apple (measured) | Gap | Stack | midΔ |
+|--------|----------|-------------------|------------------|-----|-------|------|
+| en | 800 / 768 | **272×48** primary | **152×48** | 16 | no | 0 |
+| en | 414 / 375 / 320 | **174×48** condensed | **152×48** | 16 | yes | — |
+| ar | 800 / 768 | **300×48** primary | **153×48** | 16 | no | 0 |
+| ar | 414 / 375 / 320 | **174×48** condensed | **153×48** | 16 | yes | — |
+| fr | 800 / 768 | **304×48** primary | **154×48** | 16 | no | 0 |
+| fr | 414 / 375 / 320 | **174×48** condensed | **154×48** | 16 | yes | — |
+| es | 800 / 768 | **286×48** primary | **180×48** | 16 | no | 0 |
+| es | 414 / 375 / 320 | **174×48** condensed | **180×48** | 16 | yes | — |
+| fa | 800 / 768 | **296×48** primary | **152×48** | 16 | no | 0 |
+| fa | 414 / 375 / 320 | **186×48** condensed | **152×48** | 16 | yes | — |
+
+**Unresolved size limitation (documented, mitigated):** Primary FR/AR/FA Google badges cannot fit at 48px + 8dp clear inside a 320px viewport. Official condensed variant is used on ≤620px — not a crop/stretch of primary.
 
 ---
 
@@ -83,12 +107,8 @@ Measured at 320 (visible): Google condensed **174×48** (fa **186×48**); Apple 
 
 | File | Change |
 |------|--------|
-| `shared/email-kit.js` | Dual Google primary/condensed; wallet-section MQ; no fluid shrink |
-| `shared/render-emails.js` | `wallet-section` wrapper (ticket sale only consumer) |
+| `shared/email-kit.js` | Alignment: font-size 0 cells; hide unused Google *link*; badge CSS pin; dual primary/condensed |
 | `emails/festival_ticket_sale.html` | Regenerated EN buyer |
-| `assets/wallet/official/google/condensed/*` | Official condensed PNGs (5 locales) |
-| `assets/wallet/official/source/google/*add-wallet-badge*` | Source copies |
-| `assets/wallet/official/README.md` | Condensed + sizing notes |
-| QA harness + this report | Hard ≥48 assertions |
+| QA harness + this report | midY / measured-dimension assertions; minimal screenshots |
 
-**Not touched:** badge artwork redraw · Figma · backend · other six emails · production CDN · calendar links
+**Not touched:** badge artwork · Figma · backend · other six emails · production CDN · calendar link behavior

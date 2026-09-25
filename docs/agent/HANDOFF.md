@@ -1,38 +1,36 @@
 # HANDOFF — Eveenty Email Design Kit
 
 ## Current task
-Owner-approved **official multilingual Wallet badges** (OD-W1 option B) for `festival_ticket_sale`, with **48px min height at all viewports including 320px** (condensed Google on narrow). Awaiting owner visual review + CDN deploy authorization.
+Align existing agent skills/rules/docs with **final owner decisions** before remaining-email rollout. Infrastructure audit complete; seven-email **final technical gate** still open. Do **not** start the remaining 41.
 
 ## Exact scope of what was done (latest)
-- **Mobile 320 fix:** Primary Google `wallet-button` cannot fit at 48px + 8dp clear inside 320px (FR needs 304px; max usable ~302). Switched ≤620px to official Google **condensed** `add-wallet-badge` (174–186×48). Desktop/tablet keep primary.
-- Maximized mobile wallet width: `.wallet-section` cancels nested stack-pad; outer horizontal pad → 0; retain 8px clear space. Removed fluid shrink below 48px.
-- Chromium QA: **PASS** — `heightFailCount: 0` across en/ar/fr/es/fa × 800/768/414/375/320 (+ blocked-image cases).
-- Did **not** edit Figma, backend, other six emails, or badge artwork (copies only). Did **not** commit/push/deploy.
+- Audited `AGENTS.md`, `CLAUDE.md`, `.cursor/rules/`, `.agents/skills/*`, `docs/agent/*`, `.agents/scripts/email-cli.mjs`, `catalog/email-catalog.json`.
+- Recorded final owner decisions in `PROJECT_STATE.md` + `DECISION_LOG.md`.
+- Minimally updated stale skill/runbook/AGENTS wording (HTML-only remaining scope, locales-from-backend, official Wallet badges, seven-email gate before 41, no historical-QA-as-fresh, no Figma default).
+- Wrote `docs/agent/AGENT_INFRASTRUCTURE_READINESS.md`.
+- Did **not** edit email HTML, shared rendering code, Figma, backend, Wallet artwork, or historical QA screenshots. Did **not** commit/push/deploy.
 
 ## Verification results
 | Check | Result |
 |---|---|
-| Inventory 59/11/48 · designed 7 · undesigned 41 | **PASS** (carried) |
-| Official badges EN/AR/FR/ES/FA | **PASS** |
-| ≥48px height at **all** widths incl. 320 | **PASS** |
-| Condensed Google ≤620px / primary ≥768 | **PASS** |
-| Google min 48 dp + clear space 8 dp | **PASS** |
-| Apple clear space / min 40px | **PASS** |
-| Buyer/guest show · organizer omit | **PASS** |
-| Image-blocked alt | **PASS** |
-| Testing PNG evidence on disk | **DISCARDED** (mail assets under `assets/` retained) |
-| Gmail/Outlook/Apple Mail | **NOT RUN** |
-| Production CDN upload | **NOT DONE** (needs owner auth; now includes `google/condensed/*`) |
-| Owner visual approval | **Pending** |
+| Inventory 59/11/48 · designed 7 · undesigned 41 | **PASS** (`email-cli validate-catalog`) |
+| Seven references preserved / preview present | **PASS** |
+| Remaining 41 still undesigned | **PASS** |
+| Skill discovery (`.agents/skills/` × 8) | **PASS** — no `.claude/skills` or `.cursor/skills` adapters; use `.agents/skills` directly |
+| Seven-email final technical gate | **NOT PASSED** (Cards/Typography + Wallet 320px still required) |
+| 41-email rollout authorization | **Blocked** until gate PASS + explicit owner batch/template auth |
 
 ## Known blockers / open owner items
-- **CDN deploy** of `assets/wallet/official/**` including `google/condensed/{en,ar,fr,es,fa}.png`.
-- Optional: authorize backend template locale CDN URLs.
-- OD-2: Optional stronger status borders
-- OD-3: Owner visual approval of corrected seven (prior CTA/alert work)
+- **Final technical gate** on the seven references (Cards/Typography consistency; Wallet badge sizing at 320px — resolve or accurately report).
+- CDN deploy of `assets/wallet/official/**` (including `google/condensed/*`) — separate production auth.
+- Optional: backend locale CDN URL wiring — not authorized.
+- OD-2: Optional stronger status borders (owner call).
+- Level B client QA — not run.
 
 ## Next authorized action
-Stop. Review `qa-output/approved-component-corrections/WALLET_BADGE_SIZING_FIX.md` + live preview (`npm start`). All testing PNGs discarded — use live HTML + Figma Kit. Do not design remaining 41 until authorized.
+1. Execute and record the seven-email final technical gate only.
+2. After gate **PASS** is written into `PROJECT_STATE.md`, wait for explicit owner authorization before any of the 41 undesigned templates (single ID or bounded batch).
+3. Stop — do not implement new emails in this handoff.
 
 ## Resume prompt
-"Continue Eveenty Email Kit from docs/agent/HANDOFF.md. Follow AGENTS.md. Wallet badges maintain 48px min height at all widths via official condensed Google on narrow viewports — awaiting owner review and CDN deploy authorization."
+"Continue Eveenty Email Kit from docs/agent/HANDOFF.md and AGENT_INFRASTRUCTURE_READINESS.md. Follow AGENTS.md. Next authorized work is the seven-email final technical gate (Cards/Typography + Wallet 320px). Do not start the remaining 41 until that gate is PASS and the owner authorizes a template or batch."

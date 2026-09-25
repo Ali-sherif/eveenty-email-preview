@@ -1,7 +1,7 @@
 {
   "summary": {
-    "generatedAt": "2026-09-25T17:21:24.830Z",
-    "scope": "festival_ticket_sale Wallet badges — 48px min at all widths (condensed Google ≤620px)",
+    "generatedAt": "2026-09-25T17:44:45.708Z",
+    "scope": "festival_ticket_sale Wallet badges — final official alignment (48px, shared midY, condensed ≤620)",
     "locales": [
       "en",
       "ar",
@@ -12,9 +12,274 @@
     "structuralFailCount": 0,
     "overflowFailCount": 0,
     "heightFailCount": 0,
-    "captures": 31,
+    "alignFailCount": 0,
+    "captures": 10,
+    "measuredViews": 26,
+    "measuredTable": [
+      {
+        "locale": "en",
+        "view": "desktop-800",
+        "google": "272×48 (primary)",
+        "apple": "152×48",
+        "gap": 16,
+        "stacked": false,
+        "midDelta": 0,
+        "centered": true
+      },
+      {
+        "locale": "en",
+        "view": "tablet-768",
+        "google": "272×48 (primary)",
+        "apple": "152×48",
+        "gap": 16,
+        "stacked": false,
+        "midDelta": 0,
+        "centered": true
+      },
+      {
+        "locale": "en",
+        "view": "mobile-414",
+        "google": "174×48 (condensed)",
+        "apple": "152×48",
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "centered": true
+      },
+      {
+        "locale": "en",
+        "view": "mobile-375",
+        "google": "174×48 (condensed)",
+        "apple": "152×48",
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "centered": true
+      },
+      {
+        "locale": "en",
+        "view": "mobile-320",
+        "google": "174×48 (condensed)",
+        "apple": "152×48",
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "centered": true
+      },
+      {
+        "locale": "ar",
+        "view": "desktop-800",
+        "google": "300×48 (primary)",
+        "apple": "153×48",
+        "gap": 16,
+        "stacked": false,
+        "midDelta": 0,
+        "centered": true
+      },
+      {
+        "locale": "ar",
+        "view": "tablet-768",
+        "google": "300×48 (primary)",
+        "apple": "153×48",
+        "gap": 16,
+        "stacked": false,
+        "midDelta": 0,
+        "centered": true
+      },
+      {
+        "locale": "ar",
+        "view": "mobile-414",
+        "google": "174×48 (condensed)",
+        "apple": "153×48",
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "centered": true
+      },
+      {
+        "locale": "ar",
+        "view": "mobile-375",
+        "google": "174×48 (condensed)",
+        "apple": "153×48",
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "centered": true
+      },
+      {
+        "locale": "ar",
+        "view": "mobile-320",
+        "google": "174×48 (condensed)",
+        "apple": "153×48",
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "centered": true
+      },
+      {
+        "locale": "fr",
+        "view": "desktop-800",
+        "google": "304×48 (primary)",
+        "apple": "154×48",
+        "gap": 16,
+        "stacked": false,
+        "midDelta": 0,
+        "centered": true
+      },
+      {
+        "locale": "fr",
+        "view": "tablet-768",
+        "google": "304×48 (primary)",
+        "apple": "154×48",
+        "gap": 16,
+        "stacked": false,
+        "midDelta": 0,
+        "centered": true
+      },
+      {
+        "locale": "fr",
+        "view": "mobile-414",
+        "google": "174×48 (condensed)",
+        "apple": "154×48",
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "centered": true
+      },
+      {
+        "locale": "fr",
+        "view": "mobile-375",
+        "google": "174×48 (condensed)",
+        "apple": "154×48",
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "centered": true
+      },
+      {
+        "locale": "fr",
+        "view": "mobile-320",
+        "google": "174×48 (condensed)",
+        "apple": "154×48",
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "centered": true
+      },
+      {
+        "locale": "es",
+        "view": "desktop-800",
+        "google": "286×48 (primary)",
+        "apple": "180×48",
+        "gap": 16,
+        "stacked": false,
+        "midDelta": 0,
+        "centered": true
+      },
+      {
+        "locale": "es",
+        "view": "tablet-768",
+        "google": "286×48 (primary)",
+        "apple": "180×48",
+        "gap": 16,
+        "stacked": false,
+        "midDelta": 0,
+        "centered": true
+      },
+      {
+        "locale": "es",
+        "view": "mobile-414",
+        "google": "174×48 (condensed)",
+        "apple": "180×48",
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "centered": true
+      },
+      {
+        "locale": "es",
+        "view": "mobile-375",
+        "google": "174×48 (condensed)",
+        "apple": "180×48",
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "centered": true
+      },
+      {
+        "locale": "es",
+        "view": "mobile-320",
+        "google": "174×48 (condensed)",
+        "apple": "180×48",
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "centered": true
+      },
+      {
+        "locale": "fa",
+        "view": "desktop-800",
+        "google": "296×48 (primary)",
+        "apple": "152×48",
+        "gap": 16,
+        "stacked": false,
+        "midDelta": 0,
+        "centered": true
+      },
+      {
+        "locale": "fa",
+        "view": "tablet-768",
+        "google": "296×48 (primary)",
+        "apple": "152×48",
+        "gap": 16,
+        "stacked": false,
+        "midDelta": 0,
+        "centered": true
+      },
+      {
+        "locale": "fa",
+        "view": "mobile-414",
+        "google": "186×48 (condensed)",
+        "apple": "152×48",
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "centered": true
+      },
+      {
+        "locale": "fa",
+        "view": "mobile-375",
+        "google": "186×48 (condensed)",
+        "apple": "152×48",
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "centered": true
+      },
+      {
+        "locale": "fa",
+        "view": "mobile-320",
+        "google": "186×48 (condensed)",
+        "apple": "152×48",
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "centered": true
+      },
+      {
+        "locale": "en",
+        "view": "desktop-800",
+        "google": "272×48 (primary)",
+        "apple": "152×48",
+        "gap": 16,
+        "stacked": false,
+        "midDelta": 0,
+        "centered": true
+      }
+    ],
     "structFails": [],
     "heightFails": [],
+    "alignFails": [],
     "overflowFails": [],
     "clientQA": {
       "gmail": "NOT RUN",
@@ -30,37 +295,63 @@
       "view": "desktop-800",
       "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--en-buyerUser--desktop-800.png",
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 272,
+          "h": 48,
+          "midY": 815,
+          "src": "primary"
+        },
+        "apple": {
+          "w": 152,
+          "h": 48,
+          "midY": 815
+        },
+        "gap": 16,
+        "stacked": false,
+        "midDelta": 0,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/en.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/en.png",
           "naturalW": 283,
           "naturalH": 50,
           "displayW": 272,
           "displayH": 48,
+          "top": 791,
+          "left": 180,
+          "midY": 815,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/en.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/en.png",
           "naturalW": 199,
           "naturalH": 55,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/en.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/en.png",
           "naturalW": 316,
           "naturalH": 100,
           "displayW": 152,
           "displayH": 48,
+          "top": 791,
+          "left": 468,
+          "midY": 815,
           "visible": true,
           "complete": true
         }
@@ -123,6 +414,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -199,12 +500,22 @@
         {
           "name": "google-uses-primary",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/en.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/en.png"
+        },
+        {
+          "name": "desktop-vertical-center",
+          "ok": true,
+          "detail": "midDelta=0 gMid=815 aMid=815"
         },
         {
           "name": "gap-ge-16",
           "ok": true,
           "detail": "gap=16 stacked=false"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -213,39 +524,65 @@
       "variant": "buyerUser",
       "blocked": false,
       "view": "tablet-768",
-      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--en-buyerUser--tablet-768.png",
+      "screenshot": null,
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 272,
+          "h": 48,
+          "midY": 815,
+          "src": "primary"
+        },
+        "apple": {
+          "w": 152,
+          "h": 48,
+          "midY": 815
+        },
+        "gap": 16,
+        "stacked": false,
+        "midDelta": 0,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/en.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/en.png",
           "naturalW": 283,
           "naturalH": 50,
           "displayW": 272,
           "displayH": 48,
+          "top": 791,
+          "left": 164,
+          "midY": 815,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/en.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/en.png",
           "naturalW": 199,
           "naturalH": 55,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/en.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/en.png",
           "naturalW": 316,
           "naturalH": 100,
           "displayW": 152,
           "displayH": 48,
+          "top": 791,
+          "left": 452,
+          "midY": 815,
           "visible": true,
           "complete": true
         }
@@ -308,6 +645,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -384,12 +731,22 @@
         {
           "name": "google-uses-primary",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/en.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/en.png"
+        },
+        {
+          "name": "desktop-vertical-center",
+          "ok": true,
+          "detail": "midDelta=0 gMid=815 aMid=815"
         },
         {
           "name": "gap-ge-16",
           "ok": true,
           "detail": "gap=16 stacked=false"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -398,39 +755,65 @@
       "variant": "buyerUser",
       "blocked": false,
       "view": "mobile-414",
-      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--en-buyerUser--mobile-414.png",
+      "screenshot": null,
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 174,
+          "h": 48,
+          "midY": 815,
+          "src": "condensed"
+        },
+        "apple": {
+          "w": 152,
+          "h": 48,
+          "midY": 879
+        },
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/en.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/en.png",
           "naturalW": 283,
           "naturalH": 50,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/en.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/en.png",
           "naturalW": 199,
           "naturalH": 55,
           "displayW": 174,
           "displayH": 48,
+          "top": 791,
+          "left": 120,
+          "midY": 815,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/en.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/en.png",
           "naturalW": 316,
           "naturalH": 100,
           "displayW": 152,
           "displayH": 48,
+          "top": 855,
+          "left": 131,
+          "midY": 879,
           "visible": true,
           "complete": true
         }
@@ -493,6 +876,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -569,7 +962,7 @@
         {
           "name": "google-uses-condensed",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/en.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/en.png"
         },
         {
           "name": "google-primary-hidden",
@@ -579,12 +972,17 @@
         {
           "name": "gap-ge-16",
           "ok": true,
-          "detail": "gap=20 stacked=true"
+          "detail": "gap=16 stacked=true"
         },
         {
           "name": "narrow-stacked",
           "ok": true,
           "detail": "stacked=true"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -593,39 +991,65 @@
       "variant": "buyerUser",
       "blocked": false,
       "view": "mobile-375",
-      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--en-buyerUser--mobile-375.png",
+      "screenshot": null,
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 174,
+          "h": 48,
+          "midY": 815,
+          "src": "condensed"
+        },
+        "apple": {
+          "w": 152,
+          "h": 48,
+          "midY": 879
+        },
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/en.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/en.png",
           "naturalW": 283,
           "naturalH": 50,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/en.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/en.png",
           "naturalW": 199,
           "naturalH": 55,
           "displayW": 174,
           "displayH": 48,
+          "top": 791,
+          "left": 101,
+          "midY": 815,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/en.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/en.png",
           "naturalW": 316,
           "naturalH": 100,
           "displayW": 152,
           "displayH": 48,
+          "top": 855,
+          "left": 112,
+          "midY": 879,
           "visible": true,
           "complete": true
         }
@@ -688,6 +1112,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -764,7 +1198,7 @@
         {
           "name": "google-uses-condensed",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/en.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/en.png"
         },
         {
           "name": "google-primary-hidden",
@@ -774,12 +1208,17 @@
         {
           "name": "gap-ge-16",
           "ok": true,
-          "detail": "gap=20 stacked=true"
+          "detail": "gap=16 stacked=true"
         },
         {
           "name": "narrow-stacked",
           "ok": true,
           "detail": "stacked=true"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -790,37 +1229,63 @@
       "view": "mobile-320",
       "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--en-buyerUser--mobile-320.png",
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 174,
+          "h": 48,
+          "midY": 860,
+          "src": "condensed"
+        },
+        "apple": {
+          "w": 152,
+          "h": 48,
+          "midY": 924
+        },
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/en.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/en.png",
           "naturalW": 283,
           "naturalH": 50,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/en.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/en.png",
           "naturalW": 199,
           "naturalH": 55,
           "displayW": 174,
           "displayH": 48,
+          "top": 836,
+          "left": 73,
+          "midY": 860,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/en.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/en.png",
           "naturalW": 316,
           "naturalH": 100,
           "displayW": 152,
           "displayH": 48,
+          "top": 900,
+          "left": 84,
+          "midY": 924,
           "visible": true,
           "complete": true
         }
@@ -883,6 +1348,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -959,7 +1434,7 @@
         {
           "name": "google-uses-condensed",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/en.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/en.png"
         },
         {
           "name": "google-primary-hidden",
@@ -969,12 +1444,17 @@
         {
           "name": "gap-ge-16",
           "ok": true,
-          "detail": "gap=20 stacked=true"
+          "detail": "gap=16 stacked=true"
         },
         {
           "name": "narrow-stacked",
           "ok": true,
           "detail": "stacked=true"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -986,37 +1466,63 @@
       "view": "desktop-800",
       "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--ar-buyerUser-rtl--desktop-800.png",
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 300,
+          "h": 48,
+          "midY": 774,
+          "src": "primary"
+        },
+        "apple": {
+          "w": 153,
+          "h": 48,
+          "midY": 774
+        },
+        "gap": 16,
+        "stacked": false,
+        "midDelta": 0,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/ar.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/ar.png",
           "naturalW": 936,
           "naturalH": 150,
           "displayW": 300,
           "displayH": 48,
+          "top": 750,
+          "left": 335,
+          "midY": 774,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/ar.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/ar.png",
           "naturalW": 199,
           "naturalH": 55,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/ar.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/ar.png",
           "naturalW": 318,
           "naturalH": 100,
           "displayW": 153,
           "displayH": 48,
+          "top": 750,
+          "left": 166,
+          "midY": 774,
           "visible": true,
           "complete": true
         }
@@ -1079,6 +1585,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -1165,12 +1681,22 @@
         {
           "name": "google-uses-primary",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/ar.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/ar.png"
+        },
+        {
+          "name": "desktop-vertical-center",
+          "ok": true,
+          "detail": "midDelta=0 gMid=774 aMid=774"
         },
         {
           "name": "gap-ge-16",
           "ok": true,
           "detail": "gap=16 stacked=false"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -1180,39 +1706,65 @@
       "tag": "rtl",
       "blocked": false,
       "view": "tablet-768",
-      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--ar-buyerUser-rtl--tablet-768.png",
+      "screenshot": null,
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 300,
+          "h": 48,
+          "midY": 774,
+          "src": "primary"
+        },
+        "apple": {
+          "w": 153,
+          "h": 48,
+          "midY": 774
+        },
+        "gap": 16,
+        "stacked": false,
+        "midDelta": 0,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/ar.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/ar.png",
           "naturalW": 936,
           "naturalH": 150,
           "displayW": 300,
           "displayH": 48,
+          "top": 750,
+          "left": 319,
+          "midY": 774,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/ar.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/ar.png",
           "naturalW": 199,
           "naturalH": 55,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/ar.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/ar.png",
           "naturalW": 318,
           "naturalH": 100,
           "displayW": 153,
           "displayH": 48,
+          "top": 750,
+          "left": 150,
+          "midY": 774,
           "visible": true,
           "complete": true
         }
@@ -1275,6 +1827,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -1361,12 +1923,22 @@
         {
           "name": "google-uses-primary",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/ar.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/ar.png"
+        },
+        {
+          "name": "desktop-vertical-center",
+          "ok": true,
+          "detail": "midDelta=0 gMid=774 aMid=774"
         },
         {
           "name": "gap-ge-16",
           "ok": true,
           "detail": "gap=16 stacked=false"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -1376,39 +1948,65 @@
       "tag": "rtl",
       "blocked": false,
       "view": "mobile-414",
-      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--ar-buyerUser-rtl--mobile-414.png",
+      "screenshot": null,
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 174,
+          "h": 48,
+          "midY": 822,
+          "src": "condensed"
+        },
+        "apple": {
+          "w": 153,
+          "h": 48,
+          "midY": 886
+        },
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/ar.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/ar.png",
           "naturalW": 936,
           "naturalH": 150,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/ar.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/ar.png",
           "naturalW": 199,
           "naturalH": 55,
           "displayW": 174,
           "displayH": 48,
+          "top": 798,
+          "left": 120,
+          "midY": 822,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/ar.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/ar.png",
           "naturalW": 318,
           "naturalH": 100,
           "displayW": 153,
           "displayH": 48,
+          "top": 862,
+          "left": 131,
+          "midY": 886,
           "visible": true,
           "complete": true
         }
@@ -1471,6 +2069,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -1557,7 +2165,7 @@
         {
           "name": "google-uses-condensed",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/ar.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/ar.png"
         },
         {
           "name": "google-primary-hidden",
@@ -1567,12 +2175,17 @@
         {
           "name": "gap-ge-16",
           "ok": true,
-          "detail": "gap=19 stacked=true"
+          "detail": "gap=16 stacked=true"
         },
         {
           "name": "narrow-stacked",
           "ok": true,
           "detail": "stacked=true"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -1582,39 +2195,65 @@
       "tag": "rtl",
       "blocked": false,
       "view": "mobile-375",
-      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--ar-buyerUser-rtl--mobile-375.png",
+      "screenshot": null,
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 174,
+          "h": 48,
+          "midY": 822,
+          "src": "condensed"
+        },
+        "apple": {
+          "w": 153,
+          "h": 48,
+          "midY": 886
+        },
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/ar.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/ar.png",
           "naturalW": 936,
           "naturalH": 150,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/ar.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/ar.png",
           "naturalW": 199,
           "naturalH": 55,
           "displayW": 174,
           "displayH": 48,
+          "top": 798,
+          "left": 101,
+          "midY": 822,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/ar.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/ar.png",
           "naturalW": 318,
           "naturalH": 100,
           "displayW": 153,
           "displayH": 48,
+          "top": 862,
+          "left": 111,
+          "midY": 886,
           "visible": true,
           "complete": true
         }
@@ -1677,6 +2316,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -1763,7 +2412,7 @@
         {
           "name": "google-uses-condensed",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/ar.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/ar.png"
         },
         {
           "name": "google-primary-hidden",
@@ -1773,12 +2422,17 @@
         {
           "name": "gap-ge-16",
           "ok": true,
-          "detail": "gap=19 stacked=true"
+          "detail": "gap=16 stacked=true"
         },
         {
           "name": "narrow-stacked",
           "ok": true,
           "detail": "stacked=true"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -1790,37 +2444,63 @@
       "view": "mobile-320",
       "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--ar-buyerUser-rtl--mobile-320.png",
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 174,
+          "h": 48,
+          "midY": 844,
+          "src": "condensed"
+        },
+        "apple": {
+          "w": 153,
+          "h": 48,
+          "midY": 908
+        },
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/ar.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/ar.png",
           "naturalW": 936,
           "naturalH": 150,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/ar.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/ar.png",
           "naturalW": 199,
           "naturalH": 55,
           "displayW": 174,
           "displayH": 48,
+          "top": 820,
+          "left": 73,
+          "midY": 844,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/ar.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/ar.png",
           "naturalW": 318,
           "naturalH": 100,
           "displayW": 153,
           "displayH": 48,
+          "top": 884,
+          "left": 84,
+          "midY": 908,
           "visible": true,
           "complete": true
         }
@@ -1883,6 +2563,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -1969,7 +2659,7 @@
         {
           "name": "google-uses-condensed",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/ar.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/ar.png"
         },
         {
           "name": "google-primary-hidden",
@@ -1979,12 +2669,17 @@
         {
           "name": "gap-ge-16",
           "ok": true,
-          "detail": "gap=19 stacked=true"
+          "detail": "gap=16 stacked=true"
         },
         {
           "name": "narrow-stacked",
           "ok": true,
           "detail": "stacked=true"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -1995,37 +2690,63 @@
       "view": "desktop-800",
       "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--fr-buyerUser--desktop-800.png",
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 304,
+          "h": 48,
+          "midY": 815,
+          "src": "primary"
+        },
+        "apple": {
+          "w": 154,
+          "h": 48,
+          "midY": 815
+        },
+        "gap": 16,
+        "stacked": false,
+        "midDelta": 0,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/fr.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/fr.png",
           "naturalW": 317,
           "naturalH": 50,
           "displayW": 304,
           "displayH": 48,
+          "top": 791,
+          "left": 163,
+          "midY": 815,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fr.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/fr.png",
           "naturalW": 199,
           "naturalH": 55,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/fr.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/fr.png",
           "naturalW": 321,
           "naturalH": 100,
           "displayW": 154,
           "displayH": 48,
+          "top": 791,
+          "left": 483,
+          "midY": 815,
           "visible": true,
           "complete": true
         }
@@ -2088,6 +2809,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -2164,12 +2895,22 @@
         {
           "name": "google-uses-primary",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/fr.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/fr.png"
+        },
+        {
+          "name": "desktop-vertical-center",
+          "ok": true,
+          "detail": "midDelta=0 gMid=815 aMid=815"
         },
         {
           "name": "gap-ge-16",
           "ok": true,
           "detail": "gap=16 stacked=false"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -2178,39 +2919,65 @@
       "variant": "buyerUser",
       "blocked": false,
       "view": "tablet-768",
-      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--fr-buyerUser--tablet-768.png",
+      "screenshot": null,
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 304,
+          "h": 48,
+          "midY": 815,
+          "src": "primary"
+        },
+        "apple": {
+          "w": 154,
+          "h": 48,
+          "midY": 815
+        },
+        "gap": 16,
+        "stacked": false,
+        "midDelta": 0,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/fr.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/fr.png",
           "naturalW": 317,
           "naturalH": 50,
           "displayW": 304,
           "displayH": 48,
+          "top": 791,
+          "left": 147,
+          "midY": 815,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fr.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/fr.png",
           "naturalW": 199,
           "naturalH": 55,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/fr.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/fr.png",
           "naturalW": 321,
           "naturalH": 100,
           "displayW": 154,
           "displayH": 48,
+          "top": 791,
+          "left": 467,
+          "midY": 815,
           "visible": true,
           "complete": true
         }
@@ -2273,6 +3040,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -2349,12 +3126,22 @@
         {
           "name": "google-uses-primary",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/fr.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/fr.png"
+        },
+        {
+          "name": "desktop-vertical-center",
+          "ok": true,
+          "detail": "midDelta=0 gMid=815 aMid=815"
         },
         {
           "name": "gap-ge-16",
           "ok": true,
           "detail": "gap=16 stacked=false"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -2363,39 +3150,65 @@
       "variant": "buyerUser",
       "blocked": false,
       "view": "mobile-414",
-      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--fr-buyerUser--mobile-414.png",
+      "screenshot": null,
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 174,
+          "h": 48,
+          "midY": 815,
+          "src": "condensed"
+        },
+        "apple": {
+          "w": 154,
+          "h": 48,
+          "midY": 879
+        },
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/fr.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/fr.png",
           "naturalW": 317,
           "naturalH": 50,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fr.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/fr.png",
           "naturalW": 199,
           "naturalH": 55,
           "displayW": 174,
           "displayH": 48,
+          "top": 791,
+          "left": 120,
+          "midY": 815,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/fr.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/fr.png",
           "naturalW": 321,
           "naturalH": 100,
           "displayW": 154,
           "displayH": 48,
+          "top": 855,
+          "left": 130,
+          "midY": 879,
           "visible": true,
           "complete": true
         }
@@ -2458,6 +3271,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -2534,7 +3357,7 @@
         {
           "name": "google-uses-condensed",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fr.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/fr.png"
         },
         {
           "name": "google-primary-hidden",
@@ -2544,12 +3367,17 @@
         {
           "name": "gap-ge-16",
           "ok": true,
-          "detail": "gap=20 stacked=true"
+          "detail": "gap=16 stacked=true"
         },
         {
           "name": "narrow-stacked",
           "ok": true,
           "detail": "stacked=true"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -2558,39 +3386,65 @@
       "variant": "buyerUser",
       "blocked": false,
       "view": "mobile-375",
-      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--fr-buyerUser--mobile-375.png",
+      "screenshot": null,
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 174,
+          "h": 48,
+          "midY": 815,
+          "src": "condensed"
+        },
+        "apple": {
+          "w": 154,
+          "h": 48,
+          "midY": 879
+        },
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/fr.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/fr.png",
           "naturalW": 317,
           "naturalH": 50,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fr.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/fr.png",
           "naturalW": 199,
           "naturalH": 55,
           "displayW": 174,
           "displayH": 48,
+          "top": 791,
+          "left": 101,
+          "midY": 815,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/fr.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/fr.png",
           "naturalW": 321,
           "naturalH": 100,
           "displayW": 154,
           "displayH": 48,
+          "top": 855,
+          "left": 111,
+          "midY": 879,
           "visible": true,
           "complete": true
         }
@@ -2653,6 +3507,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -2729,7 +3593,7 @@
         {
           "name": "google-uses-condensed",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fr.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/fr.png"
         },
         {
           "name": "google-primary-hidden",
@@ -2739,12 +3603,17 @@
         {
           "name": "gap-ge-16",
           "ok": true,
-          "detail": "gap=20 stacked=true"
+          "detail": "gap=16 stacked=true"
         },
         {
           "name": "narrow-stacked",
           "ok": true,
           "detail": "stacked=true"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -2755,37 +3624,63 @@
       "view": "mobile-320",
       "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--fr-buyerUser--mobile-320.png",
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 174,
+          "h": 48,
+          "midY": 860,
+          "src": "condensed"
+        },
+        "apple": {
+          "w": 154,
+          "h": 48,
+          "midY": 924
+        },
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/fr.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/fr.png",
           "naturalW": 317,
           "naturalH": 50,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fr.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/fr.png",
           "naturalW": 199,
           "naturalH": 55,
           "displayW": 174,
           "displayH": 48,
+          "top": 836,
+          "left": 73,
+          "midY": 860,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/fr.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/fr.png",
           "naturalW": 321,
           "naturalH": 100,
           "displayW": 154,
           "displayH": 48,
+          "top": 900,
+          "left": 83,
+          "midY": 924,
           "visible": true,
           "complete": true
         }
@@ -2848,6 +3743,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -2924,7 +3829,7 @@
         {
           "name": "google-uses-condensed",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fr.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/fr.png"
         },
         {
           "name": "google-primary-hidden",
@@ -2934,12 +3839,17 @@
         {
           "name": "gap-ge-16",
           "ok": true,
-          "detail": "gap=20 stacked=true"
+          "detail": "gap=16 stacked=true"
         },
         {
           "name": "narrow-stacked",
           "ok": true,
           "detail": "stacked=true"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -2950,37 +3860,63 @@
       "view": "desktop-800",
       "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--es-buyerUser--desktop-800.png",
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 286,
+          "h": 48,
+          "midY": 792,
+          "src": "primary"
+        },
+        "apple": {
+          "w": 180,
+          "h": 48,
+          "midY": 792
+        },
+        "gap": 16,
+        "stacked": false,
+        "midDelta": 0,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/es.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/es.png",
           "naturalW": 298,
           "naturalH": 50,
           "displayW": 286,
           "displayH": 48,
+          "top": 768,
+          "left": 159,
+          "midY": 792,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/es.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/es.png",
           "naturalW": 199,
           "naturalH": 55,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/es.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/es.png",
           "naturalW": 376,
           "naturalH": 100,
           "displayW": 180,
           "displayH": 48,
+          "top": 768,
+          "left": 461,
+          "midY": 792,
           "visible": true,
           "complete": true
         }
@@ -3043,6 +3979,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -3119,12 +4065,22 @@
         {
           "name": "google-uses-primary",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/es.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/es.png"
+        },
+        {
+          "name": "desktop-vertical-center",
+          "ok": true,
+          "detail": "midDelta=0 gMid=792 aMid=792"
         },
         {
           "name": "gap-ge-16",
           "ok": true,
           "detail": "gap=16 stacked=false"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -3133,39 +4089,65 @@
       "variant": "buyerUser",
       "blocked": false,
       "view": "tablet-768",
-      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--es-buyerUser--tablet-768.png",
+      "screenshot": null,
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 286,
+          "h": 48,
+          "midY": 792,
+          "src": "primary"
+        },
+        "apple": {
+          "w": 180,
+          "h": 48,
+          "midY": 792
+        },
+        "gap": 16,
+        "stacked": false,
+        "midDelta": 0,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/es.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/es.png",
           "naturalW": 298,
           "naturalH": 50,
           "displayW": 286,
           "displayH": 48,
+          "top": 768,
+          "left": 143,
+          "midY": 792,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/es.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/es.png",
           "naturalW": 199,
           "naturalH": 55,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/es.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/es.png",
           "naturalW": 376,
           "naturalH": 100,
           "displayW": 180,
           "displayH": 48,
+          "top": 768,
+          "left": 445,
+          "midY": 792,
           "visible": true,
           "complete": true
         }
@@ -3228,6 +4210,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -3304,12 +4296,22 @@
         {
           "name": "google-uses-primary",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/es.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/es.png"
+        },
+        {
+          "name": "desktop-vertical-center",
+          "ok": true,
+          "detail": "midDelta=0 gMid=792 aMid=792"
         },
         {
           "name": "gap-ge-16",
           "ok": true,
           "detail": "gap=16 stacked=false"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -3318,39 +4320,65 @@
       "variant": "buyerUser",
       "blocked": false,
       "view": "mobile-414",
-      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--es-buyerUser--mobile-414.png",
+      "screenshot": null,
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 174,
+          "h": 48,
+          "midY": 816,
+          "src": "condensed"
+        },
+        "apple": {
+          "w": 180,
+          "h": 48,
+          "midY": 880
+        },
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/es.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/es.png",
           "naturalW": 298,
           "naturalH": 50,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/es.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/es.png",
           "naturalW": 199,
           "naturalH": 55,
           "displayW": 174,
           "displayH": 48,
+          "top": 792,
+          "left": 120,
+          "midY": 816,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/es.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/es.png",
           "naturalW": 376,
           "naturalH": 100,
           "displayW": 180,
           "displayH": 48,
+          "top": 856,
+          "left": 117,
+          "midY": 880,
           "visible": true,
           "complete": true
         }
@@ -3413,6 +4441,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -3489,7 +4527,7 @@
         {
           "name": "google-uses-condensed",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/es.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/es.png"
         },
         {
           "name": "google-primary-hidden",
@@ -3499,12 +4537,17 @@
         {
           "name": "gap-ge-16",
           "ok": true,
-          "detail": "gap=20 stacked=true"
+          "detail": "gap=16 stacked=true"
         },
         {
           "name": "narrow-stacked",
           "ok": true,
           "detail": "stacked=true"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -3513,39 +4556,65 @@
       "variant": "buyerUser",
       "blocked": false,
       "view": "mobile-375",
-      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--es-buyerUser--mobile-375.png",
+      "screenshot": null,
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 174,
+          "h": 48,
+          "midY": 816,
+          "src": "condensed"
+        },
+        "apple": {
+          "w": 180,
+          "h": 48,
+          "midY": 880
+        },
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/es.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/es.png",
           "naturalW": 298,
           "naturalH": 50,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/es.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/es.png",
           "naturalW": 199,
           "naturalH": 55,
           "displayW": 174,
           "displayH": 48,
+          "top": 792,
+          "left": 101,
+          "midY": 816,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/es.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/es.png",
           "naturalW": 376,
           "naturalH": 100,
           "displayW": 180,
           "displayH": 48,
+          "top": 856,
+          "left": 98,
+          "midY": 880,
           "visible": true,
           "complete": true
         }
@@ -3608,6 +4677,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -3684,7 +4763,7 @@
         {
           "name": "google-uses-condensed",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/es.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/es.png"
         },
         {
           "name": "google-primary-hidden",
@@ -3694,12 +4773,17 @@
         {
           "name": "gap-ge-16",
           "ok": true,
-          "detail": "gap=20 stacked=true"
+          "detail": "gap=16 stacked=true"
         },
         {
           "name": "narrow-stacked",
           "ok": true,
           "detail": "stacked=true"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -3708,39 +4792,65 @@
       "variant": "buyerUser",
       "blocked": false,
       "view": "mobile-320",
-      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--es-buyerUser--mobile-320.png",
+      "screenshot": null,
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 174,
+          "h": 48,
+          "midY": 861,
+          "src": "condensed"
+        },
+        "apple": {
+          "w": 180,
+          "h": 48,
+          "midY": 925
+        },
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/es.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/es.png",
           "naturalW": 298,
           "naturalH": 50,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/es.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/es.png",
           "naturalW": 199,
           "naturalH": 55,
           "displayW": 174,
           "displayH": 48,
+          "top": 837,
+          "left": 73,
+          "midY": 861,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/es.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/es.png",
           "naturalW": 376,
           "naturalH": 100,
           "displayW": 180,
           "displayH": 48,
+          "top": 901,
+          "left": 70,
+          "midY": 925,
           "visible": true,
           "complete": true
         }
@@ -3803,6 +4913,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -3879,7 +4999,7 @@
         {
           "name": "google-uses-condensed",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/es.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/es.png"
         },
         {
           "name": "google-primary-hidden",
@@ -3889,12 +5009,17 @@
         {
           "name": "gap-ge-16",
           "ok": true,
-          "detail": "gap=20 stacked=true"
+          "detail": "gap=16 stacked=true"
         },
         {
           "name": "narrow-stacked",
           "ok": true,
           "detail": "stacked=true"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -3904,39 +5029,65 @@
       "tag": "rtl",
       "blocked": false,
       "view": "desktop-800",
-      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--fa-buyerUser-rtl--desktop-800.png",
+      "screenshot": null,
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 296,
+          "h": 48,
+          "midY": 774,
+          "src": "primary"
+        },
+        "apple": {
+          "w": 152,
+          "h": 48,
+          "midY": 774
+        },
+        "gap": 16,
+        "stacked": false,
+        "midDelta": 0,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/fa.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/fa.png",
           "naturalW": 308,
           "naturalH": 50,
           "displayW": 296,
           "displayH": 48,
+          "top": 750,
+          "left": 336,
+          "midY": 774,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fa.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/fa.png",
           "naturalW": 213,
           "naturalH": 55,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/fa.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/fa.png",
           "naturalW": 316,
           "naturalH": 100,
           "displayW": 152,
           "displayH": 48,
+          "top": 750,
+          "left": 168,
+          "midY": 774,
           "visible": true,
           "complete": true
         }
@@ -3999,6 +5150,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -4085,12 +5246,22 @@
         {
           "name": "google-uses-primary",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/fa.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/fa.png"
+        },
+        {
+          "name": "desktop-vertical-center",
+          "ok": true,
+          "detail": "midDelta=0 gMid=774 aMid=774"
         },
         {
           "name": "gap-ge-16",
           "ok": true,
           "detail": "gap=16 stacked=false"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -4100,39 +5271,65 @@
       "tag": "rtl",
       "blocked": false,
       "view": "tablet-768",
-      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--fa-buyerUser-rtl--tablet-768.png",
+      "screenshot": null,
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 296,
+          "h": 48,
+          "midY": 774,
+          "src": "primary"
+        },
+        "apple": {
+          "w": 152,
+          "h": 48,
+          "midY": 774
+        },
+        "gap": 16,
+        "stacked": false,
+        "midDelta": 0,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/fa.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/fa.png",
           "naturalW": 308,
           "naturalH": 50,
           "displayW": 296,
           "displayH": 48,
+          "top": 750,
+          "left": 320,
+          "midY": 774,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fa.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/fa.png",
           "naturalW": 213,
           "naturalH": 55,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/fa.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/fa.png",
           "naturalW": 316,
           "naturalH": 100,
           "displayW": 152,
           "displayH": 48,
+          "top": 750,
+          "left": 152,
+          "midY": 774,
           "visible": true,
           "complete": true
         }
@@ -4195,6 +5392,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -4281,12 +5488,22 @@
         {
           "name": "google-uses-primary",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/fa.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/fa.png"
+        },
+        {
+          "name": "desktop-vertical-center",
+          "ok": true,
+          "detail": "midDelta=0 gMid=774 aMid=774"
         },
         {
           "name": "gap-ge-16",
           "ok": true,
           "detail": "gap=16 stacked=false"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -4296,39 +5513,65 @@
       "tag": "rtl",
       "blocked": false,
       "view": "mobile-414",
-      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--fa-buyerUser-rtl--mobile-414.png",
+      "screenshot": null,
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 186,
+          "h": 48,
+          "midY": 822,
+          "src": "condensed"
+        },
+        "apple": {
+          "w": 152,
+          "h": 48,
+          "midY": 886
+        },
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/fa.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/fa.png",
           "naturalW": 308,
           "naturalH": 50,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fa.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/fa.png",
           "naturalW": 213,
           "naturalH": 55,
           "displayW": 186,
           "displayH": 48,
+          "top": 798,
+          "left": 114,
+          "midY": 822,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/fa.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/fa.png",
           "naturalW": 316,
           "naturalH": 100,
           "displayW": 152,
           "displayH": 48,
+          "top": 862,
+          "left": 131,
+          "midY": 886,
           "visible": true,
           "complete": true
         }
@@ -4391,6 +5634,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -4477,7 +5730,7 @@
         {
           "name": "google-uses-condensed",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fa.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/fa.png"
         },
         {
           "name": "google-primary-hidden",
@@ -4487,12 +5740,17 @@
         {
           "name": "gap-ge-16",
           "ok": true,
-          "detail": "gap=19 stacked=true"
+          "detail": "gap=16 stacked=true"
         },
         {
           "name": "narrow-stacked",
           "ok": true,
           "detail": "stacked=true"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -4502,39 +5760,65 @@
       "tag": "rtl",
       "blocked": false,
       "view": "mobile-375",
-      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--fa-buyerUser-rtl--mobile-375.png",
+      "screenshot": null,
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 186,
+          "h": 48,
+          "midY": 822,
+          "src": "condensed"
+        },
+        "apple": {
+          "w": 152,
+          "h": 48,
+          "midY": 886
+        },
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/fa.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/fa.png",
           "naturalW": 308,
           "naturalH": 50,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fa.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/fa.png",
           "naturalW": 213,
           "naturalH": 55,
           "displayW": 186,
           "displayH": 48,
+          "top": 798,
+          "left": 95,
+          "midY": 822,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/fa.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/fa.png",
           "naturalW": 316,
           "naturalH": 100,
           "displayW": 152,
           "displayH": 48,
+          "top": 862,
+          "left": 112,
+          "midY": 886,
           "visible": true,
           "complete": true
         }
@@ -4597,6 +5881,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -4683,7 +5977,7 @@
         {
           "name": "google-uses-condensed",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fa.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/fa.png"
         },
         {
           "name": "google-primary-hidden",
@@ -4693,12 +5987,17 @@
         {
           "name": "gap-ge-16",
           "ok": true,
-          "detail": "gap=19 stacked=true"
+          "detail": "gap=16 stacked=true"
         },
         {
           "name": "narrow-stacked",
           "ok": true,
           "detail": "stacked=true"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -4710,37 +6009,63 @@
       "view": "mobile-320",
       "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--fa-buyerUser-rtl--mobile-320.png",
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 186,
+          "h": 48,
+          "midY": 844,
+          "src": "condensed"
+        },
+        "apple": {
+          "w": 152,
+          "h": 48,
+          "midY": 908
+        },
+        "gap": 16,
+        "stacked": true,
+        "midDelta": null,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/fa.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/fa.png",
           "naturalW": 308,
           "naturalH": 50,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fa.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/fa.png",
           "naturalW": 213,
           "naturalH": 55,
           "displayW": 186,
           "displayH": 48,
+          "top": 820,
+          "left": 67,
+          "midY": 844,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/fa.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/fa.png",
           "naturalW": 316,
           "naturalH": 100,
           "displayW": 152,
           "displayH": 48,
+          "top": 884,
+          "left": 84,
+          "midY": 908,
           "visible": true,
           "complete": true
         }
@@ -4803,6 +6128,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -4889,7 +6224,7 @@
         {
           "name": "google-uses-condensed",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/fa.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/fa.png"
         },
         {
           "name": "google-primary-hidden",
@@ -4899,12 +6234,17 @@
         {
           "name": "gap-ge-16",
           "ok": true,
-          "detail": "gap=19 stacked=true"
+          "detail": "gap=16 stacked=true"
         },
         {
           "name": "narrow-stacked",
           "ok": true,
           "detail": "stacked=true"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -4914,39 +6254,65 @@
       "tag": "guest",
       "blocked": false,
       "view": "desktop-800",
-      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--en-guestUser-guest--desktop-800.png",
+      "screenshot": null,
       "overflow": "PASS",
+      "measured": {
+        "google": {
+          "w": 272,
+          "h": 48,
+          "midY": 791,
+          "src": "primary"
+        },
+        "apple": {
+          "w": 152,
+          "h": 48,
+          "midY": 791
+        },
+        "gap": 16,
+        "stacked": false,
+        "midDelta": 0,
+        "rowCentered": true
+      },
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-primary",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/en.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/en.png",
           "naturalW": 283,
           "naturalH": 50,
           "displayW": 272,
           "displayH": 48,
+          "top": 767,
+          "left": 180,
+          "midY": 791,
           "visible": true,
           "complete": true
         },
         {
           "alt": "Add to Google Wallet",
           "className": "wallet-badge-img wallet-google-condensed",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/google/condensed/en.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/google/condensed/en.png",
           "naturalW": 199,
           "naturalH": 55,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
         {
           "alt": "Add to Apple Wallet",
           "className": "wallet-badge-img",
-          "src": "http://127.0.0.1:53796/assets/wallet/official/apple/en.png",
+          "src": "http://127.0.0.1:54248/assets/wallet/official/apple/en.png",
           "naturalW": 316,
           "naturalH": 100,
           "displayW": 152,
           "displayH": 48,
+          "top": 767,
+          "left": 468,
+          "midY": 791,
           "visible": true,
           "complete": true
         }
@@ -5009,6 +6375,16 @@
         },
         {
           "name": "valign-middle",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "font-size-0-cell",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "condensed-link-hidden-default",
           "ok": true,
           "detail": ""
         },
@@ -5085,12 +6461,22 @@
         {
           "name": "google-uses-primary",
           "ok": true,
-          "detail": "http://127.0.0.1:53796/assets/wallet/official/google/en.png"
+          "detail": "http://127.0.0.1:54248/assets/wallet/official/google/en.png"
+        },
+        {
+          "name": "desktop-vertical-center",
+          "ok": true,
+          "detail": "midDelta=0 gMid=791 aMid=791"
         },
         {
           "name": "gap-ge-16",
           "ok": true,
           "detail": "gap=16 stacked=false"
+        },
+        {
+          "name": "wallet-group-centered",
+          "ok": true,
+          "detail": "centered=true"
         }
       ]
     },
@@ -5102,6 +6488,7 @@
       "view": "desktop-800",
       "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--en-organizer-organizer-no-wallet--desktop-800.png",
       "overflow": "PASS",
+      "measured": null,
       "imgInfo": [],
       "structural": [
         {
@@ -5124,6 +6511,7 @@
       "view": "desktop-800",
       "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--en-buyerUser-blocked--desktop-800.png",
       "overflow": "PASS",
+      "measured": null,
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
@@ -5133,6 +6521,9 @@
           "naturalH": 0,
           "displayW": 272,
           "displayH": 48,
+          "top": 791,
+          "left": 180,
+          "midY": 815,
           "visible": true,
           "complete": true
         },
@@ -5144,6 +6535,9 @@
           "naturalH": 0,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
@@ -5155,6 +6549,9 @@
           "naturalH": 0,
           "displayW": 152,
           "displayH": 48,
+          "top": 791,
+          "left": 468,
+          "midY": 815,
           "visible": true,
           "complete": true
         }
@@ -5178,8 +6575,9 @@
       "tag": "blocked",
       "blocked": true,
       "view": "mobile-320",
-      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--en-buyerUser-blocked--mobile-320.png",
+      "screenshot": null,
       "overflow": "PASS",
+      "measured": null,
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
@@ -5189,6 +6587,9 @@
           "naturalH": 0,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
@@ -5200,6 +6601,9 @@
           "naturalH": 0,
           "displayW": 174,
           "displayH": 48,
+          "top": 836,
+          "left": 73,
+          "midY": 860,
           "visible": true,
           "complete": true
         },
@@ -5211,6 +6615,9 @@
           "naturalH": 0,
           "displayW": 152,
           "displayH": 48,
+          "top": 900,
+          "left": 84,
+          "midY": 924,
           "visible": true,
           "complete": true
         }
@@ -5234,8 +6641,9 @@
       "tag": "blocked-rtl",
       "blocked": true,
       "view": "desktop-800",
-      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--ar-buyerUser-blocked-rtl--desktop-800.png",
+      "screenshot": null,
       "overflow": "PASS",
+      "measured": null,
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
@@ -5245,6 +6653,9 @@
           "naturalH": 0,
           "displayW": 300,
           "displayH": 48,
+          "top": 750,
+          "left": 335,
+          "midY": 774,
           "visible": true,
           "complete": true
         },
@@ -5256,6 +6667,9 @@
           "naturalH": 0,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
@@ -5267,6 +6681,9 @@
           "naturalH": 0,
           "displayW": 153,
           "displayH": 48,
+          "top": 750,
+          "left": 166,
+          "midY": 774,
           "visible": true,
           "complete": true
         }
@@ -5300,8 +6717,9 @@
       "tag": "blocked-rtl",
       "blocked": true,
       "view": "mobile-320",
-      "screenshot": "D:/last/eveenty-email-preview/qa-output/approved-component-corrections/screenshots/wallet-official/ticket-sale--ar-buyerUser-blocked-rtl--mobile-320.png",
+      "screenshot": null,
       "overflow": "PASS",
+      "measured": null,
       "imgInfo": [
         {
           "alt": "Add to Google Wallet",
@@ -5311,6 +6729,9 @@
           "naturalH": 0,
           "displayW": 0,
           "displayH": 0,
+          "top": 0,
+          "left": 0,
+          "midY": 0,
           "visible": false,
           "complete": true
         },
@@ -5322,6 +6743,9 @@
           "naturalH": 0,
           "displayW": 174,
           "displayH": 48,
+          "top": 820,
+          "left": 73,
+          "midY": 844,
           "visible": true,
           "complete": true
         },
@@ -5333,6 +6757,9 @@
           "naturalH": 0,
           "displayW": 153,
           "displayH": 48,
+          "top": 884,
+          "left": 84,
+          "midY": 908,
           "visible": true,
           "complete": true
         }

@@ -2,7 +2,7 @@
 
 **Date:** 2026-09-24  
 **Mode:** Verify only — no redesign, no production changes  
-**Status of seven:** DESIGNED · BROWSER QA PASS · FIGMA/PREVIEW PARITY PASS · **OWNER VISUAL APPROVAL PENDING**
+**Status of seven:** DESIGNED · mapping PASS (this file) · historical browser/Figma parity = evidence only · **conditional owner visual approval** · **final technical gate NOT PASSED** (see `docs/agent/PROJECT_STATE.md`)
 
 ---
 
