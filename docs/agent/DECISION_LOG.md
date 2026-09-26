@@ -191,3 +191,25 @@ Agent skills/rules/docs were updated only where stale or contradictory; no new s
 - Verified all 13 protected standalone HTML files remained byte-identical after regeneration.
 - Gmail, Outlook, and Apple Mail remain **NOT RUN**. `organizer_announcement` production security migration and marketing approval state-changing GET flows remain **BLOCKED** separately.
 - No backend, Figma, official Wallet artwork, owner logo, CDN, staging, commit, push, or deployment change occurred. The final 15 remain unauthorized. **STOPPED for owner review.**
+
+---
+
+**[2026-09-27 - Completed 20-template batch owner approved; 33-design protected baseline]**
+
+- The owner visually approved all 20 HTML Preview designs in the completed batch. Together with the previous 13, the protected baseline is now **33 designed and owner-approved / 15 undesigned** within the verified 59 physical / 11 excluded / 48 Phase 1 inventory.
+- Approval applies to HTML Preview design only. It does not mark any template production-ready and does not imply Gmail, Outlook or Apple Mail testing; all three remain **NOT RUN**.
+- `organizer_announcement` production subject/HTML trust boundaries remain blocked. `festival_marketing_approval` and `festival_marketing_approval_sms` production state-changing unauthenticated GET approval links remain blocked. Separate backend authorization and remediation are still required.
+- The 33 approved previews are protected from redesign or modification.
+
+---
+
+**[2026-09-27 - Exact eight-template batch selected, implemented and Level A PASS]**
+
+- Confirmed exactly 15 remaining `IN_SCOPE · UNDESIGNED` records before selection, then locked B1 Sales receipts (5) + B9 Organizer campaign receipts (2) + B10 Marketing target (1).
+- Exact IDs: `festival_add_on_sale`, `festival_activity_sale`, `festival_sponsor_sale`, `festival_sales`, `festival_vendor_sale`, `organizer_festival_marketing_email_receipt`, `organizer_festival_marketing_sms_receipt`, `festival_rescounts_marketing_email_target`.
+- Verified all eight against targeted catalog, traceability, production template, locale and sender evidence before implementation. No ninth template was substituted or added.
+- Implemented HTML Preview only using source-derived locales/conditions/personas, approved shared components, synthetic reconciled data, inert preview actions and explicit RTL/LTR handling.
+- Fresh Level A QA **PASS** with zero failures: 126 structural renders, 65 responsive checks across 800/768/414/375/320, 8 long-content checks, 8 blocked-image checks, 12 RTL visual checks, 8 traceability checks, 5 financial fixtures and 4 condition assertions.
+- Resulting state: **41 designed** = 33 owner-approved + 8 awaiting owner review; **7 undesigned**. The new eight are not owner-approved automatically. **STOPPED for owner review.**
+- Read-only security review confirmed `festival_rescounts_marketing_email_target` is parsed with Go `text/template` and inserts request/caller-derived body/media data into HTML/attributes. The preview escapes author content; production migration remains blocked pending separate trust-boundary review/remediation. Existing production blockers remain unchanged.
+- Gmail, Outlook and Apple Mail remain **NOT RUN**. No backend, Figma, Wallet artwork, owner logo, CDN, staging, commit, push or deployment change occurred.

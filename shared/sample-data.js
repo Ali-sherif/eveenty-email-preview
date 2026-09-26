@@ -1,5 +1,6 @@
 /** Safe sample payloads for Eveenty email preview — no production credentials. */
 import { BATCH20_EMAIL_IDS } from './batch20-definitions.js';
+import { BATCH8_EMAIL_IDS } from './batch8-definitions.js';
 
 export const SAMPLE = {
   user: {
@@ -607,7 +608,7 @@ export const LOCALES = {
   },
 };
 
-/** Thirteen owner-approved references plus the owner-authorized batch of 20. */
+/** Thirty-three owner-approved references plus the owner-authorized batch of eight. */
 export const EMAIL_IDS = [
   {
     id: 'activate_email',
@@ -753,4 +754,5 @@ export const EMAIL_IDS = [
     variants: ['default'],
   },
   ...BATCH20_EMAIL_IDS,
+  ...BATCH8_EMAIL_IDS,
 ];

@@ -307,6 +307,7 @@ function cmdQa(target, asJson) {
       path.join(REPO_ROOT, 'screenshots'),
       path.join(REPO_ROOT, 'qa-output', 'pilot-batch', 'screenshots'),
       path.join(REPO_ROOT, 'qa-output', 'batch-20', 'screenshots'),
+      path.join(REPO_ROOT, 'qa-output', 'batch-8', 'screenshots'),
     ];
     const screenshotHits = screenshotDirs.flatMap((directory) =>
       fs.existsSync(directory)
@@ -319,9 +320,9 @@ function cmdQa(target, asJson) {
       design_status: match.design_status,
       preview_exists: previewOk,
       screenshot_artifacts: screenshotHits,
-      level_a_browser_suite: fs.existsSync(path.join(REPO_ROOT, 'qa-output', 'batch-20', 'batch20-qa-results.json'))
-        ? 'See qa-output/batch-20/batch20-qa-results.json'
-        : 'NOT RUN for batch 20',
+      level_a_browser_suite: fs.existsSync(path.join(REPO_ROOT, 'qa-output', 'batch-8', 'batch8-qa-results.json'))
+        ? 'See qa-output/batch-8/batch8-qa-results.json'
+        : 'See the template-specific batch QA artifact',
       level_b_client_render: 'NOT RUN',
     });
   }
@@ -350,7 +351,7 @@ function cmdStatus(asJson) {
     `designed=${inv.designed} undesigned=${inv.undesigned}`,
     `next_undesigned_sample=${next.join(', ')}`,
     `organizer_announcement=${catalog.emails.find((e) => e.id === 'organizer_announcement')?.design_status}`,
-    'active_design_task=none (20-template batch completed; owner review required before any further design)',
+    'active_design_task=none (8-template batch completed; owner review required before final seven)',
   ];
   printHuman(lines, { ok: true, inventory: inv, next_undesigned_sample: next }, asJson);
 }

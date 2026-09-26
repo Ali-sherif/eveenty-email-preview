@@ -5,8 +5,8 @@
     "physical": 59,
     "excluded": 11,
     "in_scope": 48,
-    "designed": 33,
-    "undesigned": 15
+    "designed": 41,
+    "undesigned": 7
   },
   "families": {
     "TRANSACTIONAL": 2,
@@ -321,10 +321,10 @@
       "functional_subfolder": "Ticket-Sales",
       "catalog_path": "Phase-1/02-Commerce/Ticket-Sales/festival_add_on_sale.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/festival_add_on_sale.html",
+      "preview_selectable": true
     },
     {
       "id": "festival_activity_sale",
@@ -335,10 +335,10 @@
       "functional_subfolder": "Ticket-Sales",
       "catalog_path": "Phase-1/02-Commerce/Ticket-Sales/festival_activity_sale.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/festival_activity_sale.html",
+      "preview_selectable": true
     },
     {
       "id": "festival_sponsor_sale",
@@ -349,10 +349,10 @@
       "functional_subfolder": "Sponsor-Sales",
       "catalog_path": "Phase-1/02-Commerce/Sponsor-Sales/festival_sponsor_sale.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/festival_sponsor_sale.html",
+      "preview_selectable": true
     },
     {
       "id": "festival_sales",
@@ -363,10 +363,10 @@
       "functional_subfolder": "Booth-Vendor-Sales",
       "catalog_path": "Phase-1/02-Commerce/Booth-Vendor-Sales/festival_sales.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/festival_sales.html",
+      "preview_selectable": true
     },
     {
       "id": "festival_vendor_sale",
@@ -377,10 +377,10 @@
       "functional_subfolder": "Booth-Vendor-Sales",
       "catalog_path": "Phase-1/02-Commerce/Booth-Vendor-Sales/festival_vendor_sale.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/festival_vendor_sale.html",
+      "preview_selectable": true
     },
     {
       "id": "festival_sale_installment_paid",
@@ -965,10 +965,10 @@
       "functional_subfolder": "Organizer-Campaign-Receipts",
       "catalog_path": "Phase-1/03-Notification/Organizer-Campaign-Receipts/organizer_festival_marketing_email_receipt.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/organizer_festival_marketing_email_receipt.html",
+      "preview_selectable": true
     },
     {
       "id": "organizer_festival_marketing_sms_receipt",
@@ -979,10 +979,10 @@
       "functional_subfolder": "Organizer-Campaign-Receipts",
       "catalog_path": "Phase-1/03-Notification/Organizer-Campaign-Receipts/organizer_festival_marketing_sms_receipt.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/organizer_festival_marketing_sms_receipt.html",
+      "preview_selectable": true
     },
     {
       "id": "marketing",
@@ -1063,10 +1063,10 @@
       "functional_subfolder": "Campaigns",
       "catalog_path": "Phase-1/04-Marketing/Campaigns/festival_rescounts_marketing_email_target.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/festival_rescounts_marketing_email_target.html",
+      "preview_selectable": true
     },
     {
       "id": "organizer_announcement",

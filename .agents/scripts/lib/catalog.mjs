@@ -47,12 +47,24 @@ export const BATCH20_DESIGNED_IDS = [
   'sponsor_first_payment_refund',
 ];
 
+export const BATCH8_DESIGNED_IDS = [
+  'festival_add_on_sale',
+  'festival_activity_sale',
+  'festival_sponsor_sale',
+  'festival_sales',
+  'festival_vendor_sale',
+  'organizer_festival_marketing_email_receipt',
+  'organizer_festival_marketing_sms_receipt',
+  'festival_rescounts_marketing_email_target',
+];
+
 // Counts are derived from explicit owner-authorized sets so the validator cannot
 // silently accept an arbitrary catalog-wide status change.
 export const EXPECTED_DESIGNED_IDS = [
   ...DESIGNED_REFERENCE_IDS,
   ...PILOT_DESIGNED_IDS,
   ...BATCH20_DESIGNED_IDS,
+  ...BATCH8_DESIGNED_IDS,
 ];
 
 export const EXPECTED = {

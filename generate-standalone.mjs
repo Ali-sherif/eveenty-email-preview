@@ -7,6 +7,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { renderEmail } from './shared/render-emails.js';
 import { BATCH20_EMAIL_IDS } from './shared/batch20-definitions.js';
+import { BATCH8_EMAIL_IDS } from './shared/batch8-definitions.js';
 
 const root = dirname(fileURLToPath(import.meta.url));
 const outDir = join(root, 'emails');
@@ -27,6 +28,7 @@ const ids = [
   'contact_submission',
   'organizer_announcement',
   ...BATCH20_EMAIL_IDS.map(({ id }) => id),
+  ...BATCH8_EMAIL_IDS.map(({ id }) => id),
 ];
 
 const defaults = {
@@ -45,6 +47,12 @@ const defaults = {
   organizer_announcement: { locale: 'en', variant: 'default' },
   ...Object.fromEntries(
     BATCH20_EMAIL_IDS.map((definition) => [
+      definition.id,
+      { locale: definition.locales[0], variant: definition.variants[0] },
+    ]),
+  ),
+  ...Object.fromEntries(
+    BATCH8_EMAIL_IDS.map((definition) => [
       definition.id,
       { locale: definition.locales[0], variant: definition.variants[0] },
     ]),

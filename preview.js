@@ -1,5 +1,7 @@
 import { EMAIL_IDS, SAMPLE } from './shared/sample-data.js';
 import { renderEmail } from './shared/render-emails.js';
+import { BATCH20_EMAIL_IDS } from './shared/batch20-definitions.js';
+import { BATCH8_EMAIL_IDS } from './shared/batch8-definitions.js';
 
 const OWNER_APPROVED_IDS = new Set([
   'activate_email',
@@ -15,6 +17,7 @@ const OWNER_APPROVED_IDS = new Set([
   'festival_approval_status_changed',
   'contact_submission',
   'organizer_announcement',
+  ...BATCH20_EMAIL_IDS.map(({ id }) => id),
 ]);
 
 const els = {
@@ -134,7 +137,7 @@ async function loadCatalog() {
     renderCatalogList();
   } catch (err) {
     if (els.catalogList) {
-      els.catalogList.innerHTML = `<li class="catalog-error">Catalog unavailable (${err.message}). The 33 local previews still work.</li>`;
+      els.catalogList.innerHTML = `<li class="catalog-error">Catalog unavailable (${err.message}). The 41 local previews still work.</li>`;
     }
   }
 }
@@ -201,10 +204,13 @@ function updatePreviewAnnotation(def) {
     els.annotation.innerHTML = `<strong>OWNER VISUAL APPROVED · PROTECTED BASELINE</strong> — Caller-supplied subject/body with no backend locale selection; sample author content is synthetic. Production migration remains security-blocked.`;
   } else if (def.id === 'festival_marketing_approval' || def.id === 'festival_marketing_approval_sms') {
     els.annotation.hidden = false;
-    els.annotation.innerHTML = `<strong>BATCH 20 · AWAITING OWNER REVIEW</strong> — HTML Preview only. Author content is escaped and action URLs are inert example.com fixtures; production GET approval links require a separate security decision.`;
+    els.annotation.innerHTML = `<strong>OWNER VISUAL APPROVED · PROTECTED BASELINE</strong> — HTML Preview only. Author content is escaped and action URLs are inert example.com fixtures; production GET approval links remain security-blocked.`;
+  } else if (BATCH8_EMAIL_IDS.some(({ id }) => id === def.id)) {
+    els.annotation.hidden = false;
+    els.annotation.innerHTML = `<strong>BATCH 8 · AWAITING OWNER REVIEW</strong> — HTML Preview only. Content and URLs are synthetic fixtures; no production template, backend, Figma, CDN, or official asset was changed.`;
   } else if (!OWNER_APPROVED_IDS.has(def.id)) {
     els.annotation.hidden = false;
-    els.annotation.innerHTML = `<strong>BATCH 20 · AWAITING OWNER REVIEW</strong> — HTML Preview only. Content and URLs are synthetic fixtures; no production template, backend, Figma, CDN, or asset was changed.`;
+    els.annotation.innerHTML = `<strong>DESIGNED · AWAITING OWNER REVIEW</strong> — HTML Preview only. Content and URLs are synthetic fixtures.`;
   } else {
     els.annotation.hidden = true;
     els.annotation.textContent = '';
