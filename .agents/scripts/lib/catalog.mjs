@@ -15,12 +15,52 @@ export const DESIGNED_REFERENCE_IDS = [
   'festival_marketing_email_target',
 ];
 
+export const PILOT_DESIGNED_IDS = [
+  'password_reset',
+  'refund_receipt_user',
+  'festival_ticket_registration_reject',
+  'festival_approval_status_changed',
+  'contact_submission',
+  'organizer_announcement',
+];
+
+export const BATCH20_DESIGNED_IDS = [
+  'refund_receipt_organizer',
+  'refund_receipt_admin',
+  'festival_ticket_registration',
+  'festival_ticket_registration_deadline_exceeded',
+  'festival_ticket_registration_payment_deadline_exceeded',
+  'registration_approval_status_changed',
+  'festival_update_request_approved',
+  'festival_update_request_rejected',
+  'festival_vendor_sale_rejection',
+  'needs_response_dispute_reminder',
+  'festival_update_request_issued',
+  'festival_created',
+  'festival_marketing_approval',
+  'festival_marketing_approval_sms',
+  'festival_sale_installment_paid',
+  'second_payment_reminder',
+  'first_payment_refund',
+  'sponsor_installment_paid',
+  'sponsor_installment_second_payment_reminder',
+  'sponsor_first_payment_refund',
+];
+
+// Counts are derived from explicit owner-authorized sets so the validator cannot
+// silently accept an arbitrary catalog-wide status change.
+export const EXPECTED_DESIGNED_IDS = [
+  ...DESIGNED_REFERENCE_IDS,
+  ...PILOT_DESIGNED_IDS,
+  ...BATCH20_DESIGNED_IDS,
+];
+
 export const EXPECTED = {
   physical: 59,
   excluded: 11,
   in_scope: 48,
-  designed: 7,
-  undesigned: 41,
+  designed: EXPECTED_DESIGNED_IDS.length,
+  undesigned: 48 - EXPECTED_DESIGNED_IDS.length,
   backendFamilies: {
     'Auth/Simple': 2,
     'Financial/Receipt': 20,

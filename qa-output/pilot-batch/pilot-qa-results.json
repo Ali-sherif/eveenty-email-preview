@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T22:23:23.899Z",
+  "generatedAt": "2026-09-26T08:54:53.680Z",
   "scope": "Six-template pilot; HTML Preview only",
   "catalogChecks": {
     "physical": 59,
@@ -16,6 +16,11 @@
     "checks": 46,
     "failCount": 0,
     "rtlChecks": 16
+  },
+  "rtlVisualSummary": {
+    "checks": 16,
+    "failCount": 0,
+    "screenshots": 16
   },
   "contrastResults": [
     {
@@ -2637,12 +2642,12 @@
       "id": "festival_approval_status_changed",
       "locale": "en",
       "variant": "approvedWithNote",
-      "bytes": 8266,
+      "bytes": 8337,
       "findings": [
         {
           "name": "html-under-102kb",
           "status": "PASS",
-          "detail": "8266 bytes"
+          "detail": "8337 bytes"
         },
         {
           "name": "table-layout",
@@ -2780,12 +2785,12 @@
       "id": "festival_approval_status_changed",
       "locale": "en",
       "variant": "rejectedWithNote",
-      "bytes": 8154,
+      "bytes": 8225,
       "findings": [
         {
           "name": "html-under-102kb",
           "status": "PASS",
-          "detail": "8154 bytes"
+          "detail": "8225 bytes"
         },
         {
           "name": "table-layout",
@@ -2923,12 +2928,12 @@
       "id": "festival_approval_status_changed",
       "locale": "fr",
       "variant": "approvedWithNote",
-      "bytes": 8365,
+      "bytes": 8436,
       "findings": [
         {
           "name": "html-under-102kb",
           "status": "PASS",
-          "detail": "8365 bytes"
+          "detail": "8436 bytes"
         },
         {
           "name": "table-layout",
@@ -3066,12 +3071,12 @@
       "id": "festival_approval_status_changed",
       "locale": "fr",
       "variant": "rejectedWithNote",
-      "bytes": 8203,
+      "bytes": 8274,
       "findings": [
         {
           "name": "html-under-102kb",
           "status": "PASS",
-          "detail": "8203 bytes"
+          "detail": "8274 bytes"
         },
         {
           "name": "table-layout",
@@ -3209,12 +3214,12 @@
       "id": "festival_approval_status_changed",
       "locale": "es",
       "variant": "approvedWithNote",
-      "bytes": 8274,
+      "bytes": 8345,
       "findings": [
         {
           "name": "html-under-102kb",
           "status": "PASS",
-          "detail": "8274 bytes"
+          "detail": "8345 bytes"
         },
         {
           "name": "table-layout",
@@ -3352,12 +3357,12 @@
       "id": "festival_approval_status_changed",
       "locale": "es",
       "variant": "rejectedWithNote",
-      "bytes": 8211,
+      "bytes": 8282,
       "findings": [
         {
           "name": "html-under-102kb",
           "status": "PASS",
-          "detail": "8211 bytes"
+          "detail": "8282 bytes"
         },
         {
           "name": "table-layout",
@@ -3495,12 +3500,12 @@
       "id": "festival_approval_status_changed",
       "locale": "ar",
       "variant": "approvedWithNote",
-      "bytes": 8430,
+      "bytes": 8501,
       "findings": [
         {
           "name": "html-under-102kb",
           "status": "PASS",
-          "detail": "8430 bytes"
+          "detail": "8501 bytes"
         },
         {
           "name": "table-layout",
@@ -3638,12 +3643,12 @@
       "id": "festival_approval_status_changed",
       "locale": "ar",
       "variant": "rejectedWithNote",
-      "bytes": 8292,
+      "bytes": 8363,
       "findings": [
         {
           "name": "html-under-102kb",
           "status": "PASS",
-          "detail": "8292 bytes"
+          "detail": "8363 bytes"
         },
         {
           "name": "table-layout",
@@ -3781,12 +3786,12 @@
       "id": "festival_approval_status_changed",
       "locale": "fa",
       "variant": "approvedWithNote",
-      "bytes": 8502,
+      "bytes": 8573,
       "findings": [
         {
           "name": "html-under-102kb",
           "status": "PASS",
-          "detail": "8502 bytes"
+          "detail": "8573 bytes"
         },
         {
           "name": "table-layout",
@@ -3924,12 +3929,12 @@
       "id": "festival_approval_status_changed",
       "locale": "fa",
       "variant": "rejectedWithNote",
-      "bytes": 8329,
+      "bytes": 8400,
       "findings": [
         {
           "name": "html-under-102kb",
           "status": "PASS",
-          "detail": "8329 bytes"
+          "detail": "8400 bytes"
         },
         {
           "name": "table-layout",
@@ -4583,6 +4588,264 @@
       "scrollWidth": 320,
       "clientWidth": 320,
       "dir": "ltr"
+    }
+  ],
+  "rtlVisual": [
+    {
+      "id": "password_reset",
+      "locale": "ar",
+      "variant": "default",
+      "width": 800,
+      "status": "PASS",
+      "screenshot": "screenshots/rtl/password_reset--ar--desktop-800.png",
+      "dir": "rtl",
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "headingAlign": "-webkit-right",
+      "bodyAlign": "-webkit-right",
+      "headingFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "bodyFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "ltrIsolates": 3
+    },
+    {
+      "id": "password_reset",
+      "locale": "ar",
+      "variant": "default",
+      "width": 320,
+      "status": "PASS",
+      "screenshot": "screenshots/rtl/password_reset--ar--mobile-320.png",
+      "dir": "rtl",
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "headingAlign": "-webkit-right",
+      "bodyAlign": "-webkit-right",
+      "headingFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "bodyFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "ltrIsolates": 3
+    },
+    {
+      "id": "password_reset",
+      "locale": "fa",
+      "variant": "default",
+      "width": 800,
+      "status": "PASS",
+      "screenshot": "screenshots/rtl/password_reset--fa--desktop-800.png",
+      "dir": "rtl",
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "headingAlign": "-webkit-right",
+      "bodyAlign": "-webkit-right",
+      "headingFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "bodyFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "ltrIsolates": 3
+    },
+    {
+      "id": "password_reset",
+      "locale": "fa",
+      "variant": "default",
+      "width": 320,
+      "status": "PASS",
+      "screenshot": "screenshots/rtl/password_reset--fa--mobile-320.png",
+      "dir": "rtl",
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "headingAlign": "-webkit-right",
+      "bodyAlign": "-webkit-right",
+      "headingFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "bodyFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "ltrIsolates": 3
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "ar",
+      "variant": "refundAndCanceled",
+      "width": 800,
+      "status": "PASS",
+      "screenshot": "screenshots/rtl/refund_receipt_user--ar--desktop-800.png",
+      "dir": "rtl",
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "headingAlign": "-webkit-center",
+      "bodyAlign": "-webkit-right",
+      "headingFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "bodyFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "ltrIsolates": 20
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "ar",
+      "variant": "refundAndCanceled",
+      "width": 320,
+      "status": "PASS",
+      "screenshot": "screenshots/rtl/refund_receipt_user--ar--mobile-320.png",
+      "dir": "rtl",
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "headingAlign": "-webkit-center",
+      "bodyAlign": "-webkit-right",
+      "headingFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "bodyFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "ltrIsolates": 20
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "fa",
+      "variant": "refundAndCanceled",
+      "width": 800,
+      "status": "PASS",
+      "screenshot": "screenshots/rtl/refund_receipt_user--fa--desktop-800.png",
+      "dir": "rtl",
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "headingAlign": "-webkit-center",
+      "bodyAlign": "-webkit-right",
+      "headingFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "bodyFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "ltrIsolates": 20
+    },
+    {
+      "id": "refund_receipt_user",
+      "locale": "fa",
+      "variant": "refundAndCanceled",
+      "width": 320,
+      "status": "PASS",
+      "screenshot": "screenshots/rtl/refund_receipt_user--fa--mobile-320.png",
+      "dir": "rtl",
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "headingAlign": "-webkit-center",
+      "bodyAlign": "-webkit-right",
+      "headingFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "bodyFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "ltrIsolates": 20
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "ar",
+      "variant": "user",
+      "width": 800,
+      "status": "PASS",
+      "screenshot": "screenshots/rtl/festival_ticket_registration_reject--ar--desktop-800.png",
+      "dir": "rtl",
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "headingAlign": "-webkit-right",
+      "bodyAlign": "-webkit-right",
+      "headingFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "bodyFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "ltrIsolates": 13
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "ar",
+      "variant": "user",
+      "width": 320,
+      "status": "PASS",
+      "screenshot": "screenshots/rtl/festival_ticket_registration_reject--ar--mobile-320.png",
+      "dir": "rtl",
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "headingAlign": "-webkit-right",
+      "bodyAlign": "-webkit-right",
+      "headingFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "bodyFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "ltrIsolates": 13
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "fa",
+      "variant": "user",
+      "width": 800,
+      "status": "PASS",
+      "screenshot": "screenshots/rtl/festival_ticket_registration_reject--fa--desktop-800.png",
+      "dir": "rtl",
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "headingAlign": "-webkit-right",
+      "bodyAlign": "-webkit-right",
+      "headingFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "bodyFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "ltrIsolates": 13
+    },
+    {
+      "id": "festival_ticket_registration_reject",
+      "locale": "fa",
+      "variant": "user",
+      "width": 320,
+      "status": "PASS",
+      "screenshot": "screenshots/rtl/festival_ticket_registration_reject--fa--mobile-320.png",
+      "dir": "rtl",
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "headingAlign": "-webkit-right",
+      "bodyAlign": "-webkit-right",
+      "headingFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "bodyFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "ltrIsolates": 13
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "ar",
+      "variant": "approvedWithNote",
+      "width": 800,
+      "status": "PASS",
+      "screenshot": "screenshots/rtl/festival_approval_status_changed--ar--desktop-800.png",
+      "dir": "rtl",
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "headingAlign": "-webkit-right",
+      "bodyAlign": "-webkit-right",
+      "headingFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "bodyFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "ltrIsolates": 1
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "ar",
+      "variant": "approvedWithNote",
+      "width": 320,
+      "status": "PASS",
+      "screenshot": "screenshots/rtl/festival_approval_status_changed--ar--mobile-320.png",
+      "dir": "rtl",
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "headingAlign": "-webkit-right",
+      "bodyAlign": "-webkit-right",
+      "headingFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "bodyFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "ltrIsolates": 1
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "fa",
+      "variant": "approvedWithNote",
+      "width": 800,
+      "status": "PASS",
+      "screenshot": "screenshots/rtl/festival_approval_status_changed--fa--desktop-800.png",
+      "dir": "rtl",
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "headingAlign": "-webkit-right",
+      "bodyAlign": "-webkit-right",
+      "headingFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "bodyFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "ltrIsolates": 1
+    },
+    {
+      "id": "festival_approval_status_changed",
+      "locale": "fa",
+      "variant": "approvedWithNote",
+      "width": 320,
+      "status": "PASS",
+      "screenshot": "screenshots/rtl/festival_approval_status_changed--fa--mobile-320.png",
+      "dir": "rtl",
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "headingAlign": "-webkit-right",
+      "bodyAlign": "-webkit-right",
+      "headingFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "bodyFont": "Tahoma, Arial, Helvetica, sans-serif",
+      "ltrIsolates": 1
     }
   ],
   "levelB": {

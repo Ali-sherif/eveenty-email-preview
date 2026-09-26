@@ -3,7 +3,7 @@
  */
 export const PILOT_SAMPLE = {
   resetCode: '482 913',
-  reviewNote: 'Please clarify the venue accessibility plan and upload the updated permit.',
+  reviewNote: 'Your accessibility plan and updated permit were received and included in the completed review.',
   refund: {
     paymentMethod: 'Credit card',
     items: [

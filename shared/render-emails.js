@@ -1,5 +1,5 @@
 /**
- * Renders the seven Phase-1 Eveenty reference emails as standalone HTML strings.
+ * Renders the 33 Phase-1 Eveenty reference emails as standalone HTML strings.
  * Annotations from Figma are omitted — production-representative content only.
  */
 import {
@@ -23,6 +23,9 @@ import {
 import { SAMPLE, LOCALES } from './sample-data.js';
 import { TOKENS as T } from './tokens.js';
 import { renderPilotEmail } from './pilot-renderers.js';
+import { renderBatch20RefundRegistrationEmail } from './batch20-refund-registration-renderers.js';
+import { renderBatch20WorkflowEmail } from './batch20-workflow-renderers.js';
+import { renderBatch20InstallmentEmail } from './batch20-installment-renderers.js';
 
 export function renderEmail(emailId, options = {}) {
   setAssetBase(options.assetBase ?? './');
@@ -55,6 +58,29 @@ export function renderEmail(emailId, options = {}) {
     case 'contact_submission':
     case 'organizer_announcement':
       return renderPilotEmail(emailId, { locale, variant, longContent });
+    case 'refund_receipt_organizer':
+    case 'refund_receipt_admin':
+    case 'festival_ticket_registration':
+    case 'festival_ticket_registration_deadline_exceeded':
+    case 'festival_ticket_registration_payment_deadline_exceeded':
+    case 'registration_approval_status_changed':
+      return renderBatch20RefundRegistrationEmail(emailId, { locale, variant, longContent });
+    case 'festival_update_request_approved':
+    case 'festival_update_request_rejected':
+    case 'festival_vendor_sale_rejection':
+    case 'needs_response_dispute_reminder':
+    case 'festival_update_request_issued':
+    case 'festival_created':
+    case 'festival_marketing_approval':
+    case 'festival_marketing_approval_sms':
+      return renderBatch20WorkflowEmail(emailId, { locale, variant, longContent });
+    case 'festival_sale_installment_paid':
+    case 'second_payment_reminder':
+    case 'first_payment_refund':
+    case 'sponsor_installment_paid':
+    case 'sponsor_installment_second_payment_reminder':
+    case 'sponsor_first_payment_refund':
+      return renderBatch20InstallmentEmail(emailId, { locale, variant, longContent });
     default:
       throw new Error(`Unknown email id: ${emailId}`);
   }

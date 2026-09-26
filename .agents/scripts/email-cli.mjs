@@ -7,7 +7,7 @@
 import fs from 'fs';
 import path from 'path';
 import {
-  DESIGNED_REFERENCE_IDS,
+  EXPECTED_DESIGNED_IDS,
   EXPECTED,
   REPO_ROOT,
   buildContextPackage,
@@ -24,7 +24,7 @@ function usage(exitCode = 1) {
 
 Commands:
   context <template_id>              JSON/human context package for one template
-  validate-catalog                   Verify 59/11/48, families, 7/41, organizer_announcement
+  validate-catalog                   Verify inventory, mappings, preview paths, 33/15 state
   validate-template <template_id>    Validate one template mapping + preview artifacts
   qa [template_id | --all]           Report available Level-A evidence (no new test runner)
   status                             Compact inventory + next actionable items
@@ -114,16 +114,16 @@ function cmdValidateCatalog(asJson) {
     .filter((e) => e.design_status === 'DESIGNED')
     .map((e) => e.id)
     .sort();
-  const expectedDesigned = [...DESIGNED_REFERENCE_IDS].sort();
+  const expectedDesigned = [...EXPECTED_DESIGNED_IDS].sort();
   if (JSON.stringify(designedIds) !== JSON.stringify(expectedDesigned)) {
     fail('designed_ids', `got ${designedIds.join(',')}`);
   } else pass('designed_ids', designedIds.join(', '));
 
   const org = emails.find((e) => e.id === 'organizer_announcement');
   if (!org) fail('organizer_announcement', 'missing');
-  else if (org.scope !== 'IN_SCOPE' || org.design_status !== 'UNDESIGNED' || org.design_kit_family !== 'MARKETING') {
+  else if (org.scope !== 'IN_SCOPE' || org.design_status !== 'DESIGNED' || org.design_kit_family !== 'MARKETING') {
     fail('organizer_announcement', JSON.stringify(org));
-  } else pass('organizer_announcement', 'IN_SCOPE · UNDESIGNED · MARKETING');
+  } else pass('organizer_announcement', 'IN_SCOPE · DESIGNED · MARKETING');
 
   // inventory object parity
   const inv = catalog.inventory || {};
@@ -147,6 +147,64 @@ function cmdValidateCatalog(asJson) {
   const trace = loadTraceabilityIndex();
   if (trace.size !== EXPECTED.physical) fail('traceability_rows', `got ${trace.size}`);
   else pass('traceability_rows', String(trace.size));
+
+  const requiredFields = [
+    'id', 'filename', 'production_path', 'backend_family', 'design_kit_family',
+    'functional_subfolder', 'catalog_path', 'scope', 'design_status',
+  ];
+  const missingMetadata = emails.flatMap((email) =>
+    requiredFields
+      .filter((field) => typeof email[field] !== 'string' || !email[field].trim())
+      .map((field) => `${email.id || '(missing id)'}.${field}`),
+  );
+  if (missingMetadata.length) fail('required_metadata', missingMetadata.join(', '));
+  else pass('required_metadata', `${emails.length} records complete`);
+
+  const statusProblems = emails.flatMap((email) => {
+    const allowed = email.scope === 'EXCLUDED'
+      ? email.design_status === 'EXCLUDED_NO_DESIGN'
+      : email.scope === 'IN_SCOPE' && ['DESIGNED', 'UNDESIGNED'].includes(email.design_status);
+    return allowed ? [] : [`${email.id}:${email.scope}/${email.design_status}`];
+  });
+  if (statusProblems.length) fail('supported_status_transitions', statusProblems.join(', '));
+  else pass('supported_status_transitions', 'scope/design-status combinations valid');
+
+  const previewProblems = emails.flatMap((email) => {
+    const previewPath = email.preview ? path.join(REPO_ROOT, email.preview) : null;
+    if (email.design_status === 'DESIGNED') {
+      if (!email.preview || email.preview_selectable !== true) return [`${email.id}:missing preview mapping`];
+      if (!fs.existsSync(previewPath)) return [`${email.id}:missing ${email.preview}`];
+    } else if (email.preview || email.preview_selectable !== false) {
+      return [`${email.id}:unexpected preview mapping`];
+    }
+    return [];
+  });
+  if (previewProblems.length) fail('preview_paths', previewProblems.join(', '));
+  else pass('preview_paths', `${EXPECTED.designed} designed previews readable`);
+
+  const catalogIds = [...new Set(emails.map((email) => email.id))].sort();
+  const traceIds = [...trace.keys()].sort();
+  if (JSON.stringify(catalogIds) !== JSON.stringify(traceIds)) {
+    fail('catalog_traceability_ids', 'catalog and traceability template IDs differ');
+  } else pass('catalog_traceability_ids', `${catalogIds.length} exact IDs`);
+
+  const mappingProblems = emails.flatMap((email) => {
+    const row = trace.get(email.id);
+    if (!row) return [`${email.id}:missing traceability row`];
+    const problems = [];
+    if (row.phase1_scope_status !== email.scope) problems.push(`${email.id}:scope`);
+    if (row.current_design_status !== email.design_status) problems.push(`${email.id}:design_status`);
+    if (row.verified_design_kit_family !== email.design_kit_family) problems.push(`${email.id}:design_kit_family`);
+    return problems;
+  });
+  if (mappingProblems.length) fail('traceability_mapping_parity', mappingProblems.join(', '));
+  else pass('traceability_mapping_parity', `${emails.length} mappings match`);
+
+  const missingProduction = emails
+    .filter((email) => !fs.existsSync(path.join(REPO_ROOT, '..', 'rescounts-backend', email.production_path)))
+    .map((email) => email.id);
+  if (missingProduction.length) fail('production_templates', missingProduction.join(', '));
+  else pass('production_templates', `${emails.length} read-only sources readable`);
 
   const ok = checks.every((c) => c.ok);
   const lines = [
@@ -228,11 +286,12 @@ function cmdValidateTemplate(templateId, asJson) {
 }
 
 function cmdQa(target, asJson) {
-  // No Playwright suite exists in this repo; report artifact evidence only.
+  // Report deterministic preview and screenshot artifact evidence. The dedicated
+  // batch harness remains the source of fresh browser-QA results.
   const catalog = loadCatalog();
   let ids;
   if (!target || target === '--all') {
-    ids = DESIGNED_REFERENCE_IDS;
+    ids = EXPECTED_DESIGNED_IDS;
   } else {
     ids = [target];
   }
@@ -244,24 +303,32 @@ function cmdQa(target, asJson) {
       continue;
     }
     const previewOk = match.preview ? fs.existsSync(path.join(REPO_ROOT, match.preview)) : false;
-    const screenshotDir = path.join(REPO_ROOT, 'screenshots');
-    const screenshotHits = fs.existsSync(screenshotDir)
-      ? fs.readdirSync(screenshotDir).filter((f) => f.includes(id))
-      : [];
+    const screenshotDirs = [
+      path.join(REPO_ROOT, 'screenshots'),
+      path.join(REPO_ROOT, 'qa-output', 'pilot-batch', 'screenshots'),
+      path.join(REPO_ROOT, 'qa-output', 'batch-20', 'screenshots'),
+    ];
+    const screenshotHits = screenshotDirs.flatMap((directory) =>
+      fs.existsSync(directory)
+        ? fs.readdirSync(directory).filter((file) => file.includes(id))
+        : [],
+    );
     results.push({
       id,
       ok: match.design_status !== 'DESIGNED' || previewOk,
       design_status: match.design_status,
       preview_exists: previewOk,
       screenshot_artifacts: screenshotHits,
-      level_a_browser_suite: 'NOT PRESENT in repo (no *.spec/test files)',
+      level_a_browser_suite: fs.existsSync(path.join(REPO_ROOT, 'qa-output', 'batch-20', 'batch20-qa-results.json'))
+        ? 'See qa-output/batch-20/batch20-qa-results.json'
+        : 'NOT RUN for batch 20',
       level_b_client_render: 'NOT RUN',
     });
   }
   const ok = results.every((r) => r.ok);
   const lines = [
     ok ? 'PASS qa (artifact evidence only)' : 'FAIL qa',
-    '  NOTE: No automated browser QA suite found in eveenty-email-preview.',
+    '  NOTE: This command inventories artifacts; use the dedicated batch harness for fresh browser QA.',
     ...results.map(
       (r) =>
         `  ${r.ok ? 'PASS' : 'FAIL'} ${r.id}: preview=${r.preview_exists} screenshots=${(r.screenshot_artifacts || []).length}`,
@@ -283,7 +350,7 @@ function cmdStatus(asJson) {
     `designed=${inv.designed} undesigned=${inv.undesigned}`,
     `next_undesigned_sample=${next.join(', ')}`,
     `organizer_announcement=${catalog.emails.find((e) => e.id === 'organizer_announcement')?.design_status}`,
-    'active_design_task=none (infra install only)',
+    'active_design_task=none (20-template batch completed; owner review required before any further design)',
   ];
   printHuman(lines, { ok: true, inventory: inv, next_undesigned_sample: next }, asJson);
 }

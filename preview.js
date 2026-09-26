@@ -1,6 +1,22 @@
 import { EMAIL_IDS, SAMPLE } from './shared/sample-data.js';
 import { renderEmail } from './shared/render-emails.js';
 
+const OWNER_APPROVED_IDS = new Set([
+  'activate_email',
+  'festival_donation',
+  'festival_ticket_sale',
+  'festival_ticket_registration_approval',
+  'support',
+  'dispute_notification',
+  'festival_marketing_email_target',
+  'password_reset',
+  'refund_receipt_user',
+  'festival_ticket_registration_reject',
+  'festival_approval_status_changed',
+  'contact_submission',
+  'organizer_announcement',
+]);
+
 const els = {
   email: document.getElementById('emailSelect'),
   locale: document.getElementById('localeSelect'),
@@ -48,21 +64,36 @@ function fillSelect(select, options, selected) {
   if (selected) select.value = selected;
 }
 
+function localesForVariant(def, variant) {
+  return def.variantLocales?.[variant] || def.locales;
+}
+
 function syncDependentControls() {
   const def = currentDef();
-  fillSelect(els.locale, def.locales, def.locales[0]);
   fillSelect(els.variant, def.variants, def.variants[0]);
+  const locales = localesForVariant(def, els.variant.value);
+  fillSelect(els.locale, locales, locales[0]);
+}
+
+function syncVariantLocales() {
+  const def = currentDef();
+  const currentLocale = els.locale.value;
+  const locales = localesForVariant(def, els.variant.value);
+  fillSelect(els.locale, locales, locales.includes(currentLocale) ? currentLocale : locales[0]);
 }
 
 function updateMeta() {
   const def = currentDef();
+  const reviewStatus = OWNER_APPROVED_IDS.has(def.id)
+    ? 'OWNER VISUAL APPROVED — protected baseline'
+    : 'DESIGNED — awaiting owner review';
   els.meta.innerHTML = `
     <dt>Template</dt><dd>${def.id}</dd>
     <dt>Design Kit family</dt><dd>${def.master}</dd>
     <dt>Backend family</dt><dd>${def.backendFamily || '—'}</dd>
     <dt>Subfolder</dt><dd>${def.subfolder || '—'}</dd>
     <dt>Figma node</dt><dd>${def.figma}</dd>
-    <dt>Design status</dt><dd>${def.designStatus || 'DESIGNED'} — owner visual approval pending</dd>
+    <dt>Design status</dt><dd>${reviewStatus}</dd>
   `;
 }
 
@@ -103,7 +134,7 @@ async function loadCatalog() {
     renderCatalogList();
   } catch (err) {
     if (els.catalogList) {
-      els.catalogList.innerHTML = `<li class="catalog-error">Catalog unavailable (${err.message}). Seven previews still work.</li>`;
+      els.catalogList.innerHTML = `<li class="catalog-error">Catalog unavailable (${err.message}). The 33 local previews still work.</li>`;
     }
   }
 }
@@ -152,22 +183,28 @@ function updatePreviewAnnotation(def) {
       `<strong>PREVIEW ANNOTATION</strong> — Author body + festival assets. Unsubscribe URL is SAMPLE (example.com).`;
   } else if (def.id === 'password_reset') {
     els.annotation.hidden = false;
-    els.annotation.innerHTML = `<strong>PILOT · OWNER REVIEW PENDING</strong> — Five backend locales. Verification code and account data are synthetic.`;
+    els.annotation.innerHTML = `<strong>OWNER VISUAL APPROVED · PROTECTED BASELINE</strong> — Five backend locales. Verification code and account data are synthetic.`;
   } else if (def.id === 'refund_receipt_user') {
     els.annotation.hidden = false;
-    els.annotation.innerHTML = `<strong>PILOT · OWNER REVIEW PENDING</strong> — Five backend locales. Variants cover refunded/canceled conditionals; all money and item data are synthetic.`;
+    els.annotation.innerHTML = `<strong>OWNER VISUAL APPROVED · PROTECTED BASELINE</strong> — Five backend locales. Variants cover refunded/canceled conditionals; all money and item data are synthetic.`;
   } else if (def.id === 'festival_ticket_registration_reject') {
     els.annotation.hidden = false;
-    els.annotation.innerHTML = `<strong>PILOT · OWNER REVIEW PENDING</strong> — User/organizer follow profile locale; admin renders EN in production and is forced to EN here.`;
+    els.annotation.innerHTML = `<strong>OWNER VISUAL APPROVED · PROTECTED BASELINE</strong> — User/organizer follow profile locale; admin renders EN in production and is forced to EN here.`;
   } else if (def.id === 'festival_approval_status_changed') {
     els.annotation.hidden = false;
-    els.annotation.innerHTML = `<strong>PILOT · OWNER REVIEW PENDING</strong> — Five backend locales; approved/rejected and optional review-note states included.`;
+    els.annotation.innerHTML = `<strong>OWNER VISUAL APPROVED · PROTECTED BASELINE</strong> — Five backend locales; approved/rejected and optional review-note states included.`;
   } else if (def.id === 'contact_submission') {
     els.annotation.hidden = false;
-    els.annotation.innerHTML = `<strong>PILOT · OWNER REVIEW PENDING</strong> — EN-only internal operational email; contact fields are synthetic.`;
+    els.annotation.innerHTML = `<strong>OWNER VISUAL APPROVED · PROTECTED BASELINE</strong> — EN-only internal operational email; contact fields are synthetic.`;
   } else if (def.id === 'organizer_announcement') {
     els.annotation.hidden = false;
-    els.annotation.innerHTML = `<strong>PILOT · OWNER REVIEW PENDING</strong> — Caller-supplied subject/body with no backend locale selection; sample author content is synthetic.`;
+    els.annotation.innerHTML = `<strong>OWNER VISUAL APPROVED · PROTECTED BASELINE</strong> — Caller-supplied subject/body with no backend locale selection; sample author content is synthetic. Production migration remains security-blocked.`;
+  } else if (def.id === 'festival_marketing_approval' || def.id === 'festival_marketing_approval_sms') {
+    els.annotation.hidden = false;
+    els.annotation.innerHTML = `<strong>BATCH 20 · AWAITING OWNER REVIEW</strong> — HTML Preview only. Author content is escaped and action URLs are inert example.com fixtures; production GET approval links require a separate security decision.`;
+  } else if (!OWNER_APPROVED_IDS.has(def.id)) {
+    els.annotation.hidden = false;
+    els.annotation.innerHTML = `<strong>BATCH 20 · AWAITING OWNER REVIEW</strong> — HTML Preview only. Content and URLs are synthetic fixtures; no production template, backend, Figma, CDN, or asset was changed.`;
   } else {
     els.annotation.hidden = true;
     els.annotation.textContent = '';
@@ -222,7 +259,10 @@ els.email.addEventListener('change', () => {
   render();
 });
 els.locale.addEventListener('change', render);
-els.variant.addEventListener('change', render);
+els.variant.addEventListener('change', () => {
+  syncVariantLocales();
+  render();
+});
 els.long.addEventListener('change', render);
 els.blocked.addEventListener('change', render);
 els.viewport.addEventListener('change', setViewport);

@@ -5,8 +5,8 @@
     "physical": 59,
     "excluded": 11,
     "in_scope": 48,
-    "designed": 13,
-    "undesigned": 35
+    "designed": 33,
+    "undesigned": 15
   },
   "families": {
     "TRANSACTIONAL": 2,
@@ -391,10 +391,10 @@
       "functional_subfolder": "Installments",
       "catalog_path": "Phase-1/02-Commerce/Installments/festival_sale_installment_paid.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/festival_sale_installment_paid.html",
+      "preview_selectable": true
     },
     {
       "id": "second_payment_reminder",
@@ -405,10 +405,10 @@
       "functional_subfolder": "Installments",
       "catalog_path": "Phase-1/02-Commerce/Installments/second_payment_reminder.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/second_payment_reminder.html",
+      "preview_selectable": true
     },
     {
       "id": "first_payment_refund",
@@ -419,10 +419,10 @@
       "functional_subfolder": "Installments",
       "catalog_path": "Phase-1/02-Commerce/Installments/first_payment_refund.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/first_payment_refund.html",
+      "preview_selectable": true
     },
     {
       "id": "sponsor_installment_paid",
@@ -433,10 +433,10 @@
       "functional_subfolder": "Installments",
       "catalog_path": "Phase-1/02-Commerce/Installments/sponsor_installment_paid.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/sponsor_installment_paid.html",
+      "preview_selectable": true
     },
     {
       "id": "sponsor_installment_second_payment_reminder",
@@ -447,10 +447,10 @@
       "functional_subfolder": "Installments",
       "catalog_path": "Phase-1/02-Commerce/Installments/sponsor_installment_second_payment_reminder.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/sponsor_installment_second_payment_reminder.html",
+      "preview_selectable": true
     },
     {
       "id": "sponsor_first_payment_refund",
@@ -461,10 +461,10 @@
       "functional_subfolder": "Installments",
       "catalog_path": "Phase-1/02-Commerce/Installments/sponsor_first_payment_refund.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/sponsor_first_payment_refund.html",
+      "preview_selectable": true
     },
     {
       "id": "refund_receipt_user",
@@ -489,10 +489,10 @@
       "functional_subfolder": "Refunds",
       "catalog_path": "Phase-1/02-Commerce/Refunds/refund_receipt_organizer.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/refund_receipt_organizer.html",
+      "preview_selectable": true
     },
     {
       "id": "refund_receipt_admin",
@@ -503,10 +503,10 @@
       "functional_subfolder": "Refunds",
       "catalog_path": "Phase-1/02-Commerce/Refunds/refund_receipt_admin.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/refund_receipt_admin.html",
+      "preview_selectable": true
     },
     {
       "id": "marketing_package_sale",
@@ -573,10 +573,10 @@
       "functional_subfolder": "Registration",
       "catalog_path": "Phase-1/02-Commerce/Registration/festival_ticket_registration.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/festival_ticket_registration.html",
+      "preview_selectable": true
     },
     {
       "id": "festival_ticket_registration_approval",
@@ -615,10 +615,10 @@
       "functional_subfolder": "Registration",
       "catalog_path": "Phase-1/02-Commerce/Registration/festival_ticket_registration_deadline_exceeded.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/festival_ticket_registration_deadline_exceeded.html",
+      "preview_selectable": true
     },
     {
       "id": "festival_ticket_registration_payment_deadline_exceeded",
@@ -629,10 +629,10 @@
       "functional_subfolder": "Registration",
       "catalog_path": "Phase-1/02-Commerce/Registration/festival_ticket_registration_payment_deadline_exceeded.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/festival_ticket_registration_payment_deadline_exceeded.html",
+      "preview_selectable": true
     },
     {
       "id": "registration_approval_status_changed",
@@ -643,10 +643,10 @@
       "functional_subfolder": "Registration",
       "catalog_path": "Phase-1/02-Commerce/Registration/registration_approval_status_changed.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/registration_approval_status_changed.html",
+      "preview_selectable": true
     },
     {
       "id": "partner_coupons",
@@ -699,10 +699,10 @@
       "functional_subfolder": "Approvals-Status",
       "catalog_path": "Phase-1/03-Notification/Approvals-Status/festival_update_request_approved.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/festival_update_request_approved.html",
+      "preview_selectable": true
     },
     {
       "id": "festival_update_request_rejected",
@@ -713,10 +713,10 @@
       "functional_subfolder": "Approvals-Status",
       "catalog_path": "Phase-1/03-Notification/Approvals-Status/festival_update_request_rejected.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/festival_update_request_rejected.html",
+      "preview_selectable": true
     },
     {
       "id": "festival_vendor_sale_rejection",
@@ -727,10 +727,10 @@
       "functional_subfolder": "Approvals-Status",
       "catalog_path": "Phase-1/03-Notification/Approvals-Status/festival_vendor_sale_rejection.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/festival_vendor_sale_rejection.html",
+      "preview_selectable": true
     },
     {
       "id": "dispute_notification",
@@ -755,10 +755,10 @@
       "functional_subfolder": "Disputes",
       "catalog_path": "Phase-1/03-Notification/Disputes/needs_response_dispute_reminder.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/needs_response_dispute_reminder.html",
+      "preview_selectable": true
     },
     {
       "id": "festival_update_request_issued",
@@ -769,10 +769,10 @@
       "functional_subfolder": "Approvals-Status",
       "catalog_path": "Phase-1/03-Notification/Approvals-Status/festival_update_request_issued.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/festival_update_request_issued.html",
+      "preview_selectable": true
     },
     {
       "id": "festival_created",
@@ -783,10 +783,10 @@
       "functional_subfolder": "Approvals-Status",
       "catalog_path": "Phase-1/03-Notification/Approvals-Status/festival_created.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/festival_created.html",
+      "preview_selectable": true
     },
     {
       "id": "marketing_approval_1",
@@ -839,10 +839,10 @@
       "functional_subfolder": "Approvals-Status",
       "catalog_path": "Phase-1/03-Notification/Approvals-Status/festival_marketing_approval.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/festival_marketing_approval.html",
+      "preview_selectable": true
     },
     {
       "id": "festival_marketing_approval_sms",
@@ -853,10 +853,10 @@
       "functional_subfolder": "Approvals-Status",
       "catalog_path": "Phase-1/03-Notification/Approvals-Status/festival_marketing_approval_sms.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/festival_marketing_approval_sms.html",
+      "preview_selectable": true
     },
     {
       "id": "restaurant_approval",

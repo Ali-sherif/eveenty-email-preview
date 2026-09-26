@@ -1,6 +1,6 @@
 # PROJECT_STATE — Eveenty Email Design Kit
 
-> Inventory verified 2026-09-26 against `catalog/email-catalog.json`, `catalog/EMAIL_TEMPLATE_TRACEABILITY.csv`, and the fresh pilot QA harness. The protected infrastructure CLI still encodes the pre-pilot 7/41 expectation and must not be used alone for post-pilot counts.
+> Inventory verified 2026-09-27 against `catalog/email-catalog.json`, `catalog/EMAIL_TEMPLATE_TRACEABILITY.csv`, the updated catalog validator, and the fresh batch-20 QA harness.
 
 ## Inventory (verified against live catalog)
 | Fact | Value | Verified this session? |
@@ -10,10 +10,10 @@
 | In Phase 1 scope | 48 | Yes — `scope === IN_SCOPE` |
 | Backend families | Auth/Simple 2 / Financial/Receipt 20 / Ticket/Pass 8 / Workflow/Status 15 / Internal/Operational 7 / Campaign/Announcement 7 | Yes — counted from catalog |
 | Design Kit families (in-scope only) | Transactional 2 / Commerce 26 / Notification 17 / Marketing 3 | Yes — counted from IN_SCOPE rows |
-| Approved reference designs | 7 (list below) | Yes |
-| Pilot designs awaiting owner review | 6 | Yes |
-| Total previewable designs | 13 | Yes |
-| Undesigned in-scope | 35 | Yes |
+| Owner-approved HTML Preview designs | 13 (seven references + six pilot designs) | Yes |
+| Batch-20 designs awaiting owner review | 20 | Yes |
+| Total previewable designs | 33 | Yes |
+| Undesigned in-scope | 15 | Yes |
 
 ## Seven completed reference designs
 `activate_email`, `festival_donation`, `festival_ticket_sale`, `festival_ticket_registration_approval`, `support`, `dispute_notification`, `festival_marketing_email_target`
@@ -30,20 +30,29 @@ Verified this gate session:
 
 Historical QA remains **evidence only** for older work. Discarded screenshot sets must **not** be regenerated as a rollout prerequisite. Gate PASS does **not** authorize the remaining 41 — still needs explicit per-template or bounded-batch owner authorization. Level B (Gmail/Outlook/Apple Mail) **NOT RUN**.
 
-## Six-template rollout pilot (owner review pending)
+## Protected 13-template owner-approved baseline
 
 `password_reset`, `refund_receipt_user`, `festival_ticket_registration_reject`, `festival_approval_status_changed`, `contact_submission`, `organizer_announcement`
 
-All six have HTML Preview designs and fresh Level A QA **PASS**. They are **not** owner visual approved and are not production-ready. Evidence: `qa-output/pilot-batch/PILOT_REVIEW_PACK.md`. The other 35 in-scope templates remain undesigned.
+All six pilot designs are owner-approved for HTML Preview, joining the seven references above as the protected 13-template baseline. Their fresh Level A QA is **PASS**. Evidence: `qa-output/pilot-batch/PILOT_REVIEW_PACK.md`. Production readiness and Level B client testing remain separate gates.
 
-## Original remaining Phase 1 scope (41; 6 pilot designs complete, 35 still undesigned)
+## Owner-authorized 20-template batch (owner review pending)
+
+The exact B3 + B5 + B7 + B2 selection in `docs/agent/NEXT_20_BATCH_SELECTION.md` is implemented in HTML Preview. Fresh Level A QA is **PASS**: 325 structural renders, 175 responsive checks at 800/768/414/375/320, 20 long-content checks, 20 blocked-image checks, 24 RTL visual checks, 20 traceability checks, and 8 financial reconciliation fixtures, all with zero failures.
+
+Evidence: `qa-output/batch-20/BATCH_20_IMPLEMENTATION_REPORT.md`, `BATCH_20_QA_REPORT.md`, `BATCH_20_VISUAL_REVIEW.md`, and `batch20-qa-results.json`.
+
+The 20 are cataloged `DESIGNED` and previewable, but they are **not owner-approved**. The final 15 in-scope templates remain undesigned and are not authorized.
+
+## Original remaining Phase 1 scope (41; 26 designs complete, 15 still undesigned)
 - Deliverable: **HTML Preview only** — no Figma edits for remaining templates unless the owner separately authorizes a specific Figma change.
 - Languages: use **only** locales actually supported by each original backend template (catalog/traceability `locale_*` + production template). Do **not** force en/ar/fr/es/fa onto every email.
 - Wallet badge locales (en/ar/fr/es/fa under `assets/wallet/official/`) apply to prepared Wallet artwork for ticket-sale style previews — **not** proof that every email supports five languages.
 - Reuse the owner-approved email component system (Primary CTA, header/localized logos, Warning/Error/Success alerts, accessible muted-text policy, dividers/shared components, approved typography adaptations). Details: `shared/tokens.js`, `shared/email-kit.js`, and this file — do not duplicate the full Design System into skills.
 
 ## Notable single items
-- `organizer_announcement` — Phase 1 scope, Marketing / Campaign-Announcement, **IN_SCOPE · UNDESIGNED** (catalog + CSV row confirmed).
+- `organizer_announcement` — Phase 1 scope, Marketing / Campaign-Announcement, **IN_SCOPE · DESIGNED · owner-approved for HTML Preview**. Production security migration remains blocked separately.
+- `festival_marketing_approval` / `festival_marketing_approval_sms` — HTML Preview Level A **PASS** with escaped content and inert links; production state-changing approval links remain blocked pending a separately authorized secure flow.
 
 ## Approved design standards (email kit)
 See `.agents/skills/email-rendering-compatibility/SKILL.md` and `shared/tokens.js` (owner-approved corrections 2026-09-25).
@@ -57,11 +66,12 @@ See `.agents/skills/email-rendering-compatibility/SKILL.md` and `shared/tokens.j
 - Production CDN upload of these assets — **not authorized**.
 
 ## Current active task
-Six-template pilot implemented and QA complete; **STOPPED for owner review**. No next rollout batch is authorized.
+The exact 20-template batch is implemented and fresh Level A/RTL QA is complete; **STOPPED for owner review**. No final-15 implementation is authorized.
 
 ## Known blockers
-- Remaining 35 rollout — **blocked** until explicit owner authorization of a named next batch.
+- Final 15 rollout — **blocked** until explicit owner authorization of a named next batch.
 - `organizer_announcement` production migration — read-only review found likely header-injection and unsanitized-HTML boundary gaps; see `qa-output/pilot-batch/PILOT_SECURITY_REVIEW.md`. Preview itself escapes synthetic content.
+- Marketing email/SMS approval production flow — current state-changing unauthenticated GET links carry link-scanner/prefetch risk; preview links are inert, but production remediation requires separate authorization.
 - Production CDN upload of `assets/wallet/official/**` — **not authorized**.
 - No `package.json` wiring for `email:*` scripts (intentional — use `node .agents/scripts/email-cli.mjs …`).
 - Level B real email-client QA — not executed.

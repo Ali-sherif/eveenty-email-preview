@@ -20,6 +20,14 @@ const CASES = [
   { id:'organizer_announcement', locales:['en'], variants:['default'], defaultVariant:'default' },
 ];
 const widths = [800, 414, 375, 320];
+const RTL_VISUAL_CASES = [
+  { id:'password_reset', variant:'default' },
+  { id:'refund_receipt_user', variant:'refundAndCanceled' },
+  { id:'festival_ticket_registration_reject', variant:'user' },
+  { id:'festival_approval_status_changed', variant:'approvedWithNote' },
+];
+const rtlShotDir = join(shotDir, 'rtl');
+mkdirSync(rtlShotDir, { recursive: true });
 const MIME={'.png':'image/png','.svg':'image/svg+xml','.jpg':'image/jpeg','.jpeg':'image/jpeg'};
 function startServer() {
   const server=createServer((req,res)=>{ const rel=decodeURIComponent((req.url||'/').split('?')[0]).replace(/^\/+/, ''); const path=join(root,rel); if(!path.startsWith(root)||!existsSync(path)){res.writeHead(404);res.end();return;} res.writeHead(200,{'Content-Type':MIME[extname(path).toLowerCase()]||'application/octet-stream'}); res.end(readFileSync(path)); });
@@ -80,6 +88,7 @@ const browser=await chromium.launch();
 const page=await browser.newPage();
 const responsive=[];
 const screenshots=[];
+const rtlVisual=[];
 try {
   for (const c of CASES) {
     const locales=c.locales.includes('ar')?['en','ar']:['en'];
@@ -107,6 +116,36 @@ try {
     const stress=await page.evaluate(()=>({overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth+1,scrollWidth:document.documentElement.scrollWidth,clientWidth:document.documentElement.clientWidth,dir:document.documentElement.dir}));
     responsive.push({id:c.id,locale:'en-long',width:320,status:stress.overflow?'FAIL':'PASS',...stress});
   }
+  for (const c of RTL_VISUAL_CASES) for (const locale of ['ar','fa']) for (const width of [800,320]) {
+    const html=renderEmail(c.id,{locale,variant:c.variant,longContent:false,assetBase});
+    await page.setViewportSize({width,height:1000});
+    await page.setContent(html,{waitUntil:'load'});
+    await page.waitForTimeout(80);
+    const measure=await page.evaluate(() => {
+      const all=[...document.querySelectorAll('body *')];
+      const overflow=all.some((el) => {
+        const rect=el.getBoundingClientRect();
+        return rect.right > document.documentElement.clientWidth + 1 || rect.left < -1;
+      });
+      const heading=document.querySelector('h1,h2,h3');
+      const body=document.querySelector('p');
+      return {
+        dir:document.documentElement.dir,
+        documentOverflow:document.documentElement.scrollWidth>document.documentElement.clientWidth+1,
+        elementOverflow:overflow,
+        headingAlign:heading?getComputedStyle(heading).textAlign:null,
+        bodyAlign:body?getComputedStyle(body).textAlign:null,
+        headingFont:heading?getComputedStyle(heading).fontFamily:null,
+        bodyFont:body?getComputedStyle(body).fontFamily:null,
+        ltrIsolates:document.querySelectorAll('[dir="ltr"],bdi').length,
+      };
+    });
+    const filename=`${c.id}--${locale}--${width===800?'desktop-800':'mobile-320'}.png`;
+    const path=join(rtlShotDir,filename);
+    await page.screenshot({path,fullPage:true});
+    const status=measure.dir==='rtl'&&!measure.documentOverflow&&!measure.elementOverflow?'PASS':'FAIL';
+    rtlVisual.push({id:c.id,locale,variant:c.variant,width,status,screenshot:`screenshots/rtl/${filename}`,...measure});
+  }
 } finally { await browser.close(); server.close(); }
 
 const report={
@@ -115,13 +154,15 @@ const report={
   catalogChecks,
   structuralSummary:{checks:staticAudits.length,failCount:staticAudits.reduce((n,a)=>n+a.failCount,0)},
   responsiveSummary:{checks:responsive.length,failCount:responsive.filter(r=>r.status==='FAIL').length,rtlChecks:responsive.filter(r=>r.dir==='rtl').length},
+  rtlVisualSummary:{checks:rtlVisual.length,failCount:rtlVisual.filter(r=>r.status==='FAIL').length,screenshots:rtlVisual.length},
   contrastResults,
   screenshots,
   staticAudits,
   responsive,
+  rtlVisual,
   levelB:{gmail:'NOT RUN',outlook:'NOT RUN',appleMail:'NOT RUN'},
 };
 writeFileSync(join(outDir,'pilot-qa-results.json'),JSON.stringify(report,null,2));
-console.log(JSON.stringify({catalogChecks,structuralSummary:report.structuralSummary,responsiveSummary:report.responsiveSummary,contrastResults,screenshots:screenshots.length},null,2));
-const failed=!catalogChecks.pilotReady||catalogChecks.physical!==59||catalogChecks.inScope!==48||report.structuralSummary.failCount||report.responsiveSummary.failCount||contrastResults.some(r=>r.status==='FAIL');
+console.log(JSON.stringify({catalogChecks,structuralSummary:report.structuralSummary,responsiveSummary:report.responsiveSummary,rtlVisualSummary:report.rtlVisualSummary,contrastResults,screenshots:screenshots.length},null,2));
+const failed=!catalogChecks.pilotReady||catalogChecks.physical!==59||catalogChecks.inScope!==48||report.structuralSummary.failCount||report.responsiveSummary.failCount||report.rtlVisualSummary.failCount||contrastResults.some(r=>r.status==='FAIL');
 process.exit(failed?1:0);

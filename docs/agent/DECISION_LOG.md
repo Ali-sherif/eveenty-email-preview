@@ -151,3 +151,43 @@ Agent skills/rules/docs were updated only where stale or contradictory; no new s
 - Fresh Level A QA: 57 locale/variant structural renders, 46 responsive checks (including 16 RTL and six long-content stress checks), 12 screenshots, and approved contrast pairs — **PASS**.
 - Catalog status is now 13 designed / 35 undesigned. Pilot designs remain owner-review pending; no owner visual approval, production migration, Figma work, backend change, commit, push, deploy or CDN upload occurred.
 - Read-only security review recorded two `organizer_announcement` production-boundary findings; no backend fix was authorized.
+
+---
+
+**[2026-09-26 - Pilot review findings resolved]**
+
+- Verified from the read-only sender and production template that `festival_approval_status_changed` may render a non-empty `ReviewNote` independently of approved/rejected status.
+- The approved-with-note preview state was retained, but its misleading request-for-changes fixture was replaced with informational completed-review copy. Preview note bidi behavior was aligned with production using `dir="auto"` and plaintext isolation.
+- Updated the protected catalog validator from the stale 7/41 baseline to the named seven-reference plus six-pilot baseline (13/35), with strict preview, metadata, status, mapping and source checks.
+- Fresh Level A regression and focused Arabic/Persian visual review **PASS**. Gmail, Outlook and Apple Mail **NOT RUN**.
+- `organizer_announcement` remains **PASS** for HTML Preview QA and **BLOCKED** for production security migration; no backend remediation or exploitability test was authorized.
+
+---
+
+**[2026-09-26 - Six-template pilot owner approved; 13-design baseline]**
+
+- The owner visually approved the six pilot HTML Preview designs: `password_reset`, `refund_receipt_user`, `festival_ticket_registration_reject`, `festival_approval_status_changed`, `contact_submission`, and `organizer_announcement`.
+- Together with the seven previously approved references, the protected baseline is now **13 designed and owner-approved / 35 undesigned** within the verified 59 physical / 11 excluded / 48 Phase 1 inventory.
+- `organizer_announcement` approval applies to **HTML Preview only**. Its production security migration remains **BLOCKED** pending separately authorized backend remediation; it is not production-ready.
+- Gmail, Outlook, and Apple Mail testing remains **NOT RUN** for the approved baseline.
+
+---
+
+**[2026-09-26 - Exactly 20-template HTML Preview batch authorized and selected]**
+
+- The owner authorized selecting and implementing exactly 20 of the 35 remaining undesigned templates, followed by focused QA and a stop for owner review.
+- Selection is B3 Refund personas (2) + B5 Registration lifecycle (4) + B7 Workflow/status (8) + B2 Installments (6). Targeted catalog/traceability/backend checks confirmed **20 distinct `IN_SCOPE · UNDESIGNED` IDs** before implementation.
+- Exact IDs, locale scopes, conditions, dependencies, and complexity are recorded in `docs/agent/NEXT_20_BATCH_SELECTION.md`.
+- Scope remains HTML Preview only. The 20 may not be marked owner-approved automatically, and the final 15 remain unauthorized.
+
+---
+
+**[2026-09-27 - Exact 20-template batch implemented; Level A PASS; stopped for owner review]**
+
+- Implemented the authorized B3 Refund (2) + B5 Registration (4) + B7 Workflow/status (8) + B2 Installments (6) selection without substitution or expansion.
+- Updated catalog and traceability to the exact named **33 designed / 15 undesigned** state: the protected 13 remain owner-approved and the new 20 remain owner-review pending.
+- Fresh batch QA **PASS** with zero failures: 325 structural renders, 175 responsive checks across 800/768/414/375/320, 20 long-content checks, 20 blocked-image checks, 24 RTL visual checks, 20 traceability checks, 8 financial reconciliation fixtures, and all approved contrast pairs.
+- Closed focused implementation-review findings: financial reconciliation, approved-with-note coverage, independent dispute branches, RTL technical-value isolation, readable vendor item cards, raster image fixtures, exact locale metadata, and strict variant validation.
+- Verified all 13 protected standalone HTML files remained byte-identical after regeneration.
+- Gmail, Outlook, and Apple Mail remain **NOT RUN**. `organizer_announcement` production security migration and marketing approval state-changing GET flows remain **BLOCKED** separately.
+- No backend, Figma, official Wallet artwork, owner logo, CDN, staging, commit, push, or deployment change occurred. The final 15 remain unauthorized. **STOPPED for owner review.**
