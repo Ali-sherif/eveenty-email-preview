@@ -36,6 +36,15 @@ function copy(locale, pack, key, values = {}) {
   return esc(value.replace(/<br\s*\/?\s*>/gi, ' '));
 }
 
+/** Like copy(), but keeps production accent spans / <br> (dynamic values are still escaped). */
+function copyRich(locale, pack, key, values = {}) {
+  let value = source(locale, pack, key);
+  for (const [name, replacement] of Object.entries(values)) {
+    value = value.replaceAll(`{{.${name}}}`, esc(String(replacement)));
+  }
+  return value.replace(/<br\s*\/?\s*>/gi, '<br>');
+}
+
 function effectiveLocale(locale, variant) {
   return variant.startsWith('admin') || variant === 'adminDormant' || variant === 'admin' ? 'en' : locale;
 }
@@ -132,10 +141,10 @@ function renderActivity(locale, variant, longContent) {
   const dir = ['ar', 'fa'].includes(locale) ? 'rtl' : 'ltr';
   const { body, heading } = fonts(dir);
   const introKey = variant === 'user' ? 'FestivalActivitySaleUserIntroLine1' : 'FestivalActivitySaleStaffIntro';
-  const intro = copy(locale, 'activity', introKey, { FestivalName: SAMPLE.festival, BuyerName: SAMPLE.person });
+  const intro = copyRich(locale, 'activity', introKey, { FestivalName: SAMPLE.festival, BuyerName: SAMPLE.person });
   const tickets = [{ name: 'Jordan Morgan', age: '9', activity: longContent ? 'Junior makers laboratory and creative robotics workshop' : 'Junior makers laboratory', date: '2026-10-10 10:00', waiver: 'Activity waiver PDF' }, { name: 'Taylor Morgan', age: '11', activity: 'Youth dance workshop', date: '2026-10-10 13:30', waiver: 'Activity waiver PDF' }];
   const rows = `${brandedHeader({ locale, dir, logoWidth: 160 })}
-    <tr><td class="stack-pad" align="${dir === 'rtl' ? 'right' : 'left'}" style="padding:28px 30px 16px;background-color:${T.surface};font-family:${body};font-size:16px;line-height:1.6;color:${T.body};"><p style="margin:0 0 8px;">${copy(locale, 'activity', 'FestivalActivitySaleHello')} <bdi>${esc(variant === 'admin' ? 'Eveenty' : SAMPLE.person)}</bdi>${dir === 'rtl' ? '،' : ','}</p><p style="margin:0;">${intro}</p>${variant === 'user' ? `<p style="margin:8px 0 0;">${copy(locale, 'activity', 'FestivalActivitySaleUserIntroLine2')}</p>` : ''}</td></tr>
+    <tr><td class="stack-pad" align="${dir === 'rtl' ? 'right' : 'left'}" style="padding:28px 30px 16px;background-color:${T.surface};font-family:${body};font-size:16px;line-height:1.6;color:${T.body};"><p style="margin:0 0 8px;">${copy(locale, 'activity', 'FestivalActivitySaleHello')} <bdi>${esc(variant === 'admin' ? 'Eveenty' : SAMPLE.person)}</bdi>${dir === 'rtl' ? '،' : ','}</p><p style="margin:0;">${intro}</p>${variant === 'user' ? `<p style="margin:8px 0 0;">${copyRich(locale, 'activity', 'FestivalActivitySaleUserIntroLine2')}</p>` : ''}</td></tr>
     <tr><td class="stack-pad" style="padding:8px 30px 16px;background-color:${T.surface};">${itemCards({ title: source(locale, 'activity', 'FestivalActivityLabelActivityName'), items: tickets, labels: [[source(locale, 'activity', 'FestivalActivityLabelPlayerName'), 'name'], [source(locale, 'activity', 'FestivalActivityLabelPlayerAge'), 'age', true], [source(locale, 'activity', 'FestivalActivityLabelActivityDate'), 'date', true], [source(locale, 'activity', 'FestivalActivityLabelActivityWaiver'), 'waiver']], dir, headingFont: heading, qr: true })}<p style="margin:8px 0 0;font-family:${body};font-size:12px;color:${T.body};">${esc(source(locale, 'activity', 'FestivalActivityLabelActivityWaiver'))}: <a href="https://example.com/preview/activity-waiver.pdf" style="color:${T.secondary};text-decoration:none;">PDF waiver</a></p></td></tr>
     <tr><td class="stack-pad" style="padding:8px 30px 16px;background-color:${T.surface};">${calendarActions(locale, 'activity', 'FestivalTicketInfo', body)}</td></tr>
     <tr><td align="${dir === 'rtl' ? 'left' : 'right'}" class="stack-pad" style="padding:8px 30px 20px;background-color:${T.surface};">${moneySummary({ locale, pack: 'activity', prefix: 'FestivalTicketOrder', dir, total: 'CA$92.90' })}</td></tr>
