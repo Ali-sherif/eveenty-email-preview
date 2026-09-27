@@ -66,7 +66,7 @@ Evidence: `qa-output/final-7/FINAL_7_IMPLEMENTATION_REPORT.md`, `FINAL_7_QA_REPO
 - `organizer_announcement` — Phase 1 scope, Marketing / Campaign-Announcement, **IN_SCOPE · DESIGNED · OWNER VISUAL APPROVED for HTML Preview**. Design impact: **none currently identified**. See ownership classification under Known blockers (workstream C).
 - `festival_marketing_approval` and `festival_marketing_approval_sms` — both **IN_SCOPE · DESIGNED · OWNER VISUAL APPROVED for HTML Preview** (Level A **PASS**, escaped content, inert `example.com` links). One consolidated Backend/Security work item covers both Email and SMS marketing approval workflows; see Known blockers (workstream C). Not an Email Kit design task.
 - `festival_rescounts_marketing_email_target` — **IN_SCOPE · DESIGNED · OWNER VISUAL APPROVED for HTML Preview** (Level A **PASS**, escaped synthetic content, inert preview URLs). One Backend/Security work item for the pre-existing marketing-campaign content trust-boundary observation; see Known blockers (workstream C). Not an Email Kit design task.
-- Final-seven production templates — HTML Preview approved; read-only review recorded unverified trust-boundary observations around `text/template` HTML insertion, dynamic MIME headers and submitted demo URLs (see `FINAL_7_IMPLEMENTATION_REPORT.md`). These are review requirements, not confirmed exploitable vulnerabilities. Related technical cause (`text/template`) may overlap with `festival_rescounts_marketing_email_target` and `organizer_announcement`; keep as distinct work items.
+- Final seven (`marketing_package_sale`, `festival_payout`, `partner_coupons`, `partner_coupons_partner`, `bad_content_alert`, `book_demo_admin`, `extra_service_request`) — all **IN_SCOPE · DESIGNED · OWNER VISUAL APPROVED for HTML Preview**. One Backend/Security work item (**Final Seven — Backend/Security Review**) covers the documented `text/template` HTML, dynamic MIME-header and submitted demo-URL observations; see Known blockers (workstream C). Not an Email Kit design task.
 
 ## Workstream separation (do not collapse)
 
@@ -145,21 +145,42 @@ Phase 1 HTML Preview design is **complete**. All 48 in-scope templates have expl
 | Production migration / integration | The responsible team must review and resolve or formally disposition the observation before declaring the affected production integration security-cleared. Requires separate production authorization (workstream D). |
 | Evidence strength | Documented trust-boundary observation — **not** a confirmed exploitable vulnerability without supporting evidence; do not describe as fixed or dismiss as harmless |
 | Evidence (preserve) | `qa-output/batch-8/BATCH_8_IMPLEMENTATION_REPORT.md`, `BATCH_8_QA_REPORT.md`, `BATCH_8_VISUAL_REVIEW.md` |
-| Related (cross-reference only; keep distinct) | Shares a related technical cause (Go `text/template` / HTML trust boundaries) with `organizer_announcement` caller-supplied HTML and final-seven `text/template` / MIME-header observations — do **not** merge ownership or erase distinct template IDs |
+| Related (cross-reference only; keep distinct) | Shares a related technical cause (Go `text/template` / HTML trust boundaries) with `organizer_announcement` caller-supplied HTML and **Final Seven — Backend/Security Review** — do **not** merge ownership or erase distinct template IDs |
 | Possible remediation (investigation guidance only — not approved; do not implement here) | Trace the source of marketing campaign subject, HTML body, logo, image and destination URL values; verify whether validation, escaping or sanitization already occurs elsewhere in the production pipeline; define permitted HTML elements, attributes, image sources and URLs; validate destination URLs and image sources per established security requirements; apply context-appropriate escaping or HTML sanitization where required; review Go `text/template` use and whether adjustments are necessary; review separation of MIME headers from HTML body rendering; add focused security regression tests if a genuine protection gap is confirmed. Do **not** automatically replace `text/template` with `html/template` without considering the existing HTML and MIME architecture. Any actual backend remediation requires separate explicit authorization. |
 
-Other Backend/Security observations (keep separate; same workstream C; statuses unchanged):
+**Issue (consolidated):** Final Seven — Backend/Security Review. One Backend/Security work item covering the three technical subitems below. Preserve all seven template IDs for individual traceability. Do not treat as remaining Email Kit design work.
 
-- Final-seven production trust-boundary observations (`text/template` HTML insertion, dynamic MIME headers, submitted demo URLs) — review required before production migration; not labeled confirmed exploitable vulnerabilities. Cross-reference `festival_rescounts_marketing_email_target` / `organizer_announcement` for related `text/template` cause; keep distinct affected templates and ownership tracking.
+| Field | Classification |
+|---|---|
+| Category | Pre-existing production backend observations |
+| Affected template IDs | `marketing_package_sale`, `festival_payout`, `partner_coupons`, `partner_coupons_partner`, `bad_content_alert`, `book_demo_admin`, `extra_service_request` (keep individually traceable) |
+| Origin | Observations in the existing production implementation, identified during read-only review of the production backend while implementing the Final Seven HTML Previews — **not** introduced by the new HTML Preview designs |
+| Ownership | **Backend / Security** |
+| Email Kit responsibility | Documentation and handoff only — **not** an Email Kit design task; designer does not investigate or remediate |
+| Email Kit design status | **COMPLETE — owner visually approved** for all seven; do not reopen visual approval |
+| Design impact | None — HTML Preview designs remain approved |
+| Production security status | **Unresolved** — separately owned Backend/Security investigation required |
+| Production security clearance | **NOT ESTABLISHED** for the affected paths |
+| Production migration / integration | Requires separate owner authorization (workstream D) after Backend/Security disposition |
+| Evidence strength | Security review requirements — **not** confirmed exploitable vulnerabilities; do not describe as fixed or dismiss as harmless |
+| Evidence (preserve; do not delete from original reports) | `qa-output/final-7/FINAL_7_IMPLEMENTATION_REPORT.md` (section *Read-only production security observations*), `FINAL_7_QA_REPORT.md`, `FINAL_7_VISUAL_REVIEW.md` |
+| Related (cross-reference only; keep distinct) | Related `text/template` / HTML trust-boundary cause may overlap with `organizer_announcement` and `festival_rescounts_marketing_email_target` — keep distinct template IDs and ownership tracking |
+
+Technical subitems (investigation requirements for Backend/Security — **do not** investigate or remediate here):
+
+- [ ] **HTML / text/template** — Review handling of caller-derived content in production HTML email generation for the seven Final Seven templates. All seven legacy production templates are parsed with Go `text/template`, which does not contextually escape HTML. Several fields are user-, organizer-, partner- or request-derived and are inserted into HTML text; `book_demo_admin` also inserts submitted links into `href` attributes; `bad_content_alert` marshals request data to JSON then renders it through `text/template` (JSON encoding alone is not HTML-context escaping). Verify whether existing validation, escaping or sanitization is sufficient. Preview escapes synthetic values; production sanitization/validation was not comprehensively established in the Email Kit task.
+- [ ] **Dynamic MIME headers** — Review construction and encoding of dynamic email header values. Dynamic names/business/festival values appear in `From`, `To` or `Subject` fields across the Final Seven group. Verify the handling of untrusted input and control characters (including CR/LF/NUL rejection at model/API boundaries).
+- [ ] **Submitted demo URLs** — Review the source and validation of submitted meeting and calendar URLs in `book_demo_admin`. Verify allowed URL schemes, destinations and existing protections (scheme/host validation evidence). Other Final Seven URLs noted in the report for context only: payout redirect is server-built; partner map is built from numeric coordinates; coupon image URLs come from the image service — focused observation remains the submitted Meet/calendar URLs.
 
 ### Distinction (do not collapse)
 
 | | Deliverable | Status |
 |---|---|---|
-| **A** | Email Kit design deliverables (all 48 HTML Previews, including the three workstream-C templates above) | **COMPLETE** and owner-approved |
+| **A** | Email Kit design deliverables (all 48 HTML Previews, including every workstream-C template below) | **COMPLETE** and owner-approved |
 | **C** | `organizer_announcement` subject/header and caller-supplied HTML trust boundaries | Outside Email Kit design scope; **unresolved**; Backend/Security owns follow-up |
 | **C** | Marketing Approval GET approval-link behavior (`festival_marketing_approval` / `festival_marketing_approval_sms`) | Outside Email Kit design scope; **unresolved**; Backend/Security owns follow-up |
 | **C** | `festival_rescounts_marketing_email_target` marketing-campaign content trust boundary | Outside Email Kit design scope; **unresolved**; Backend/Security owns follow-up |
+| **C** | Final Seven — Backend/Security Review (`text/template` HTML, dynamic MIME headers, submitted demo URLs) | Outside Email Kit design scope; **unresolved**; Backend/Security owns follow-up |
 | **D** | Production integration of any of the above workflows | Requires separate owner authorization after security disposition |
 
 ### B — Email rendering and integration requirements
