@@ -9,15 +9,19 @@ owner visual approval.
 No further design implementation is authorized.
 
 Documentation update (2026-09-27): clarified
-ownership of the consolidated Marketing Approval
-security observation (`festival_marketing_approval`
-+ `festival_marketing_approval_sms`) — Backend/Security,
-outside Email Kit design scope; unresolved;
-documented and handed off only. Both HTML Previews
-remain owner visually approved.
+ownership of the consolidated
+`festival_rescounts_marketing_email_target`
+marketing-campaign content trust-boundary
+observation — Backend/Security, outside Email
+Kit design scope; unresolved; documented and
+handed off only. HTML Preview remains owner
+visually approved.
 
-Prior documentation update (same day): clarified
-`organizer_announcement` trust-boundary ownership
+Prior documentation updates (same day):
+clarified `organizer_announcement` and
+consolidated Marketing Approval
+(`festival_marketing_approval` +
+`festival_marketing_approval_sms`) ownership
 the same way.
 
 Production security review, actual email-client
@@ -100,10 +104,30 @@ One Backend/Security work item covering both Email and SMS marketing approval wo
 | Evidence | `qa-output/batch-20/BATCH_20_QA_REPORT.md`, `BATCH_20_IMPLEMENTATION_REPORT.md`, `BATCH_20_VISUAL_REVIEW.md` |
 | Possible remediation | Confirmation page + auth + protected POST (CSRF/token/expiry/one-time-use as appropriate); test prefetch/scanners — Backend/Security selects; **not** an approved implementation task |
 
+**`festival_rescounts_marketing_email_target` — consolidated marketing-campaign content trust-boundary observation**
+
+One Backend/Security work item. Exact template ID preserved. Do not treat as several independent outstanding tasks.
+
+| Field | Value |
+|---|---|
+| Affected ID | `festival_rescounts_marketing_email_target` |
+| Category | Pre-existing Backend / Security observations |
+| Observation | Production uses Go `text/template` to insert request/caller-derived marketing campaign HTML body, logo, image and URL values. `text/template` does not automatically perform context-aware HTML escaping. Depending on existing validation/sanitization, untrusted content could potentially introduce unsafe HTML, misleading links or unintended external resources |
+| Origin | Existing production backend behavior — **not** introduced by the HTML Preview design |
+| Ownership | **Backend / Security** |
+| Email Kit responsibility | Document and hand off only — **not** an Email Kit visual design task |
+| Design impact | None — do not reopen the approved email design |
+| HTML Preview | **COMPLETE** and owner visually approved; escaped synthetic content; inert preview URLs |
+| Production security status | **Unresolved** — separately authorized Backend/Security investigation required |
+| Production migration | Resolve or formally disposition before declaring production integration security-cleared; needs separate production authorization |
+| Evidence strength | Documented trust-boundary observation — **not** a confirmed exploitable vulnerability without supporting evidence |
+| Evidence | `qa-output/batch-8/BATCH_8_IMPLEMENTATION_REPORT.md`, `BATCH_8_QA_REPORT.md`, `BATCH_8_VISUAL_REVIEW.md` |
+| Related (cross-ref only) | Related `text/template` / HTML trust-boundary cause may overlap with `organizer_announcement` and final-seven observations — keep distinct template IDs and ownership |
+| Possible remediation | Trace subject/body/logo/image/URL sources; verify existing validation/escaping/sanitization; define permitted HTML/attributes/sources/URLs; validate URLs and image sources; apply context-appropriate escaping or sanitization; review `text/template` and MIME-header vs body separation; add regression tests if a gap is confirmed. Do **not** auto-swap to `html/template` without MIME/architecture review. Backend remediation needs separate explicit authorization — **not** an approved implementation task |
+
 Other Backend/Security observations (keep separate; statuses unchanged):
 
-- `festival_rescounts_marketing_email_target` — caller-derived HTML/body/media boundaries.
-- Final-seven batch — `text/template` HTML insertion, dynamic MIME headers, submitted demo URL observations (see `FINAL_7_IMPLEMENTATION_REPORT.md`).
+- Final-seven batch — `text/template` HTML insertion, dynamic MIME headers, submitted demo URL observations (see `FINAL_7_IMPLEMENTATION_REPORT.md`). Cross-reference related `text/template` cause above; keep distinct.
 
 ### B — Rendering / integration
 
@@ -124,4 +148,4 @@ None for design implementation. Wait for explicit owner authorization before any
 
 ## Resume prompt
 
-"Continue Eveenty Email Kit from `docs/agent/HANDOFF.md` and follow `AGENTS.md`. Phase 1 HTML Preview design is complete: 59/11/48/48 designed/48 owner visually approved/0 undesigned. Do not implement further designs. Workstream C Backend/Security handoffs (unresolved, outside design scope): (1) `organizer_announcement` trust boundaries; (2) consolidated Marketing Approval GET approval-link observation covering `festival_marketing_approval` and `festival_marketing_approval_sms`. Level B client testing, CDN hosting and production migration (workstreams B/D) require new explicit owner authorization."
+"Continue Eveenty Email Kit from `docs/agent/HANDOFF.md` and follow `AGENTS.md`. Phase 1 HTML Preview design is complete: 59/11/48/48 designed/48 owner visually approved/0 undesigned. Do not implement further designs. Workstream C Backend/Security handoffs (unresolved, outside design scope): (1) `organizer_announcement` trust boundaries; (2) consolidated Marketing Approval GET approval-link observation covering `festival_marketing_approval` and `festival_marketing_approval_sms`; (3) consolidated `festival_rescounts_marketing_email_target` marketing-campaign content trust-boundary observation. Level B client testing, CDN hosting and production migration (workstreams B/D) require new explicit owner authorization."
