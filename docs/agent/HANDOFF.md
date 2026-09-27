@@ -8,6 +8,12 @@ owner visual approval.
 
 No further design implementation is authorized.
 
+Documentation update (2026-09-27): clarified
+ownership of the `organizer_announcement`
+security observation — Backend/Security,
+outside Email Kit design scope; unresolved;
+documented and handed off only.
+
 Production security review, actual email-client
 testing, CDN hosting and production migration
 remain separate future work requiring
@@ -20,6 +26,17 @@ explicit owner authorization.
 - Owner visually approved: **48**.
 - Remaining `IN_SCOPE · UNDESIGNED`: **0**.
 - Real Gmail / Outlook / Apple Mail testing: **NOT RUN**.
+
+## Workstream separation
+
+| ID | Category | Email Kit owns? | Status |
+|---|---|---|---|
+| **A** | Completed Email Kit design deliverables | Yes | **DONE** — 48 HTML Preview designs, all owner visually approved |
+| **B** | Email rendering and integration requirements | No (needs auth) | **OPEN** — Level B client testing; CDN hosting |
+| **C** | Pre-existing Backend/Security observations | Document/hand off only | **OPEN** — unresolved; outside design scope |
+| **D** | Separately authorized production release work | No | **NOT AUTHORIZED** |
+
+Do not classify all production tasks as the Email Kit designer's responsibility.
 
 ## Final seven — owner visually approved (2026-09-27)
 
@@ -39,16 +56,38 @@ Evidence:
 
 Approval is for **HTML Preview designs only**.
 
-## Production/security boundaries (still open)
+## Open items by workstream
 
-Visual approval does **not** mean production readiness. Preserve these review requirements (do not label unverified observations as confirmed exploitable vulnerabilities):
+### C — Pre-existing Backend/Security (document only; unresolved)
 
-- `organizer_announcement` — subject/header and caller-supplied HTML trust boundaries.
+**`organizer_announcement` — subject/header and caller-supplied HTML trust boundaries**
+
+| Field | Value |
+|---|---|
+| Origin | Pre-existing production backend behavior, identified during Email Kit review |
+| Ownership | **Backend / Security** |
+| Email Kit responsibility | Document and hand off only |
+| Design impact | None currently identified |
+| HTML Preview | Completed and owner visually approved |
+| Production security status | **Unresolved** — separately authorized Backend/Security investigation required |
+| Production migration | Not security-cleared until Backend/Security resolves or formally accepts |
+| Evidence strength | Potential trust-boundary issue — **not** a confirmed exploitable vulnerability; not fixed; not dismissed as harmless |
+| Evidence | `qa-output/pilot-batch/PILOT_SECURITY_REVIEW.md` |
+
+Other Backend/Security observations (keep separate; statuses unchanged):
+
 - `festival_marketing_approval` / `festival_marketing_approval_sms` — state-changing GET approval links.
 - `festival_rescounts_marketing_email_target` — caller-derived HTML/body/media boundaries.
 - Final-seven batch — `text/template` HTML insertion, dynamic MIME headers, submitted demo URL observations (see `FINAL_7_IMPLEMENTATION_REPORT.md`).
 
-CDN upload and production integration remain separately unauthorized. No backend, production template/YAML, Figma, official Wallet artwork, owner logo, staging, commit, push or deployment change is authorized by this approval.
+### B — Rendering / integration
+
+- Actual Gmail, Outlook and Apple Mail testing — **NOT RUN**.
+- CDN hosting of Wallet/official assets — **not authorized**.
+
+### D — Production release
+
+CDN upload and production integration remain separately unauthorized. No backend, production template/YAML, Figma, official Wallet artwork, owner logo, staging, commit, push or deployment change is authorized by HTML Preview approval.
 
 ## Tooling status
 
@@ -56,8 +95,8 @@ CDN upload and production integration remain separately unauthorized. No backend
 
 ## Next authorized action
 
-None for design implementation. Wait for explicit owner authorization before any production security review, Level B client testing, CDN hosting, Figma work, backend change, commit, push or deployment.
+None for design implementation. Wait for explicit owner authorization before any Backend/Security investigation, Level B client testing, CDN hosting, Figma work, backend change, commit, push or deployment.
 
 ## Resume prompt
 
-"Continue Eveenty Email Kit from `docs/agent/HANDOFF.md` and follow `AGENTS.md`. Phase 1 HTML Preview design is complete: 59/11/48/48 designed/48 owner visually approved/0 undesigned. Do not implement further designs. Production security review, real email-client testing, CDN hosting and production migration require new explicit owner authorization."
+"Continue Eveenty Email Kit from `docs/agent/HANDOFF.md` and follow `AGENTS.md`. Phase 1 HTML Preview design is complete: 59/11/48/48 designed/48 owner visually approved/0 undesigned. Do not implement further designs. The `organizer_announcement` trust-boundary observation is owned by Backend/Security (workstream C), unresolved, outside Email Kit design scope — document/hand off only. Level B client testing, CDN hosting and production migration (workstreams B/D) require new explicit owner authorization."

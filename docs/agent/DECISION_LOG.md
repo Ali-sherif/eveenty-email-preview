@@ -252,3 +252,16 @@ Agent skills/rules/docs were updated only where stale or contradictory; no new s
 - Preserved production/security review requirements (not claimed as confirmed exploitable vulnerabilities): `organizer_announcement` subject/header and caller-supplied HTML trust boundaries; `festival_marketing_approval` / `festival_marketing_approval_sms` state-changing GET approval links; `festival_rescounts_marketing_email_target` caller-derived HTML/body/media boundaries; final-seven `text/template` HTML insertion, dynamic MIME header, and submitted demo URL trust-boundary observations.
 - Real Gmail, Outlook and Apple Mail testing remain **NOT RUN**. No further design implementation is authorized without new explicit owner authorization.
 
+---
+
+**[2026-09-27 - organizer_announcement security observation: ownership/scope clarified]**
+
+- Owner authorized a **documentation-only** update. No HTML, CSS, components, fixtures, preview output, catalog, backend, Figma, CDN, commit, push or remediation work was performed.
+- **Issue:** `organizer_announcement` — existing backend subject/header and caller-supplied HTML trust-boundary observations (evidence: `qa-output/pilot-batch/PILOT_SECURITY_REVIEW.md`).
+- **Origin:** Pre-existing production backend / email-generation pipeline behavior, discovered during Email Kit redesign review — **not** introduced by the new HTML Preview designs.
+- **Ownership:** **Backend / Security**. Outside the authorized scope of the Email Kit design project. Investigation or remediation requires a separately authorized Backend/Security task.
+- **Email Kit responsibility:** Document and hand off the observation only. Design impact: none currently identified. HTML Preview remains completed and owner visually approved.
+- **Production security status:** **Unresolved**. Evidence identifies a **potential** trust-boundary issue, not a confirmed exploitable vulnerability. Do not describe as fixed or dismiss as harmless. Do not claim the template is security-cleared for production migration until Backend/Security resolves or formally accepts the finding.
+- **Preserved separately (status unchanged):** marketing approval state-changing GET links; marketing target HTML/body/media boundaries; final-seven production trust-boundary observations; Level B Gmail/Outlook/Apple Mail testing; CDN hosting and production integration.
+- Phase 1 inventory unchanged: **59 / 11 / 48 / 48 designed / 48 owner visually approved / 0 undesigned**.
+

@@ -63,10 +63,21 @@ Evidence: `qa-output/final-7/FINAL_7_IMPLEMENTATION_REPORT.md`, `FINAL_7_QA_REPO
 - Reuse the owner-approved email component system (Primary CTA, header/localized logos, Warning/Error/Success alerts, accessible muted-text policy, dividers/shared components, approved typography adaptations). Details: `shared/tokens.js`, `shared/email-kit.js`, and this file — do not duplicate the full Design System into skills.
 
 ## Notable single items
-- `organizer_announcement` — Phase 1 scope, Marketing / Campaign-Announcement, **IN_SCOPE · DESIGNED · OWNER VISUAL APPROVED for HTML Preview**. Production security migration remains blocked separately (subject/header and caller-supplied HTML trust boundaries).
+- `organizer_announcement` — Phase 1 scope, Marketing / Campaign-Announcement, **IN_SCOPE · DESIGNED · OWNER VISUAL APPROVED for HTML Preview**. Design impact: **none currently identified**. See ownership classification under Known blockers (workstream C).
 - `festival_marketing_approval` / `festival_marketing_approval_sms` — owner-approved HTML Preview designs with Level A **PASS**, escaped content and inert links; production state-changing approval links remain blocked pending a separately authorized secure flow.
 - `festival_rescounts_marketing_email_target` — HTML Preview **OWNER VISUAL APPROVED**, Level A **PASS**. Its `text/template` production sink accepts body/media/URL values; production migration remains blocked pending a separately authorized trust-boundary review/remediation.
 - Final-seven production templates — HTML Preview approved; read-only review recorded unverified trust-boundary observations around `text/template` HTML insertion, dynamic MIME headers and submitted demo URLs (see `FINAL_7_IMPLEMENTATION_REPORT.md`). These are review requirements, not confirmed exploitable vulnerabilities.
+
+## Workstream separation (do not collapse)
+
+| ID | Category | Status |
+|---|---|---|
+| **A** | Completed Email Kit design deliverables | **DONE** — 48 HTML Preview designs, all owner visually approved |
+| **B** | Email rendering and integration requirements | **OPEN** — Level B Gmail/Outlook/Apple Mail testing; CDN hosting of Wallet/assets |
+| **C** | Pre-existing Backend/Security observations | **OPEN** — unresolved; outside Email Kit design scope; require separately authorized Backend/Security work |
+| **D** | Separately authorized production release work | **NOT AUTHORIZED** — production migration, deploy, YAML/backend changes |
+
+Email Kit designers own **A**. They document and hand off **C**; they do not remediate backend security. **B** and **D** require separate owner authorization and are not automatic Email Kit design responsibilities.
 
 ## Approved design standards (email kit)
 See `.agents/skills/email-rendering-compatibility/SKILL.md` and `shared/tokens.js` (owner-approved corrections 2026-09-25).
@@ -82,15 +93,39 @@ See `.agents/skills/email-rendering-compatibility/SKILL.md` and `shared/tokens.j
 ## Current active task
 Phase 1 HTML Preview design is **complete**. All 48 in-scope templates have explicit owner visual approval. No further design implementation is authorized. Await owner authorization for any production security review, Level B client testing, CDN hosting or production migration.
 
-## Known blockers (production-only; HTML Preview complete)
-- `organizer_announcement` production migration — read-only review found likely header-injection and unsanitized-HTML boundary gaps; see `qa-output/pilot-batch/PILOT_SECURITY_REVIEW.md`. Preview itself escapes synthetic content.
-- Marketing email/SMS approval production flow — current state-changing unauthenticated GET links carry link-scanner/prefetch risk; preview links are inert, but production remediation requires separate authorization.
-- `festival_rescounts_marketing_email_target` production migration — Go `text/template` inserts caller/request-derived body and media values into HTML/attributes; preview escapes them, but production trust-boundary review/remediation needs separate authorization.
+## Known blockers / open items (by workstream)
+
+### C — Pre-existing Backend/Security observations (unresolved; Email Kit documents only)
+
+**Issue:** `organizer_announcement` — existing backend subject/header and caller-supplied HTML trust-boundary observations.
+
+| Field | Classification |
+|---|---|
+| Origin | Pre-existing production backend behavior, identified during the Email Kit review (not introduced by the HTML Preview designs) |
+| Ownership | **Backend / Security** |
+| Email Kit responsibility | Document and hand off the observation only |
+| Email Kit design impact | None currently identified |
+| HTML Preview | Completed and owner visually approved |
+| Production security status | **Unresolved**; requires separately authorized Backend/Security investigation |
+| Production migration | Do **not** claim this template is security-cleared until the responsible team resolves or formally accepts the finding |
+| Evidence strength | Potential trust-boundary issue — **not** a confirmed exploitable vulnerability; do not describe as fixed or dismiss as harmless |
+| Evidence | `qa-output/pilot-batch/PILOT_SECURITY_REVIEW.md` (preview escapes synthetic content; no backend remediation performed) |
+
+Other Backend/Security observations (keep separate; same workstream C; statuses unchanged):
+
+- Marketing approval state-changing GET links (`festival_marketing_approval` / `festival_marketing_approval_sms`) — production remediation requires separate authorization; preview links are inert.
+- Marketing target HTML/body/media boundaries (`festival_rescounts_marketing_email_target`) — Go `text/template` inserts caller/request-derived values; preview escapes them; production trust-boundary review needs separate authorization.
 - Final-seven production trust-boundary observations (`text/template` HTML insertion, dynamic MIME headers, submitted demo URLs) — review required before production migration; not labeled confirmed exploitable vulnerabilities.
+
+### B — Email rendering and integration requirements
+
+- Level B real Gmail / Outlook / Apple Mail QA — **NOT RUN**.
 - Production CDN upload of `assets/wallet/official/**` — **not authorized**.
+
+### D — Separately authorized production release work
+
+- Any production deploy / CDN / backend / Figma / YAML / migration work — requires separate explicit owner authorization.
 - No `package.json` wiring for `email:*` scripts (intentional — use `node .agents/scripts/email-cli.mjs …`).
-- Level B real email-client QA — not executed.
-- Any production deploy / CDN / backend / Figma / migration work — requires separate explicit owner authorization.
 
 ## Closed owner decisions (selected)
 - **OD-2 — CLOSED — OWNER APPROVED (Option A, 2026-09-26):** keep Original DS alert borders Warning `#E6D1B9` / Error `#E9C5C6` as decorative; status via accessible text/headings/icons; do not strengthen or change border colors.
