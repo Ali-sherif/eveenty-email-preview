@@ -211,5 +211,34 @@ Agent skills/rules/docs were updated only where stale or contradictory; no new s
 - Implemented HTML Preview only using source-derived locales/conditions/personas, approved shared components, synthetic reconciled data, inert preview actions and explicit RTL/LTR handling.
 - Fresh Level A QA **PASS** with zero failures: 126 structural renders, 65 responsive checks across 800/768/414/375/320, 8 long-content checks, 8 blocked-image checks, 12 RTL visual checks, 8 traceability checks, 5 financial fixtures and 4 condition assertions.
 - Resulting state: **41 designed** = 33 owner-approved + 8 awaiting owner review; **7 undesigned**. The new eight are not owner-approved automatically. **STOPPED for owner review.**
+
+---
+
+**[2026-09-27 - Eight-template batch owner approved; final seven authorized]**
+
+- The owner visually approved the eight HTML Preview designs: `festival_add_on_sale`, `festival_activity_sale`, `festival_sponsor_sale`, `festival_sales`, `festival_vendor_sale`, `organizer_festival_marketing_email_receipt`, `organizer_festival_marketing_sms_receipt`, and `festival_rescounts_marketing_email_target`.
+- Together with the previous 33, they form the protected **41-template owner-approved HTML Preview baseline**. Approval does not authorize production deployment or close production security/Level B client-testing gates.
+- The owner authorized exactly the final seven for HTML Preview: `marketing_package_sale`, `festival_payout`, `partner_coupons`, `partner_coupons_partner`, `bad_content_alert`, `book_demo_admin`, and `extra_service_request`.
+
+---
+
+**[2026-09-27 - Final seven implemented; Phase 1 design inventory complete]**
+
+- Targeted catalog, traceability and read-only backend evidence matched the expected B4 + B6 + B8 list exactly. Before implementation, these were the only seven `IN_SCOPE · UNDESIGNED` records.
+- Implemented only those seven HTML Preview designs using actual per-template locales, personas, conditions and actions. Preview links are inert; no Wallet functionality or attachment was invented.
+- Fresh Level A QA **PASS** with zero failures: 16 structural renders, 35 responsive checks at 800/768/414/375/320, 7 long-content checks, 7 blocked-image checks, 4 RTL captures, 7 traceability checks, 4 financial fixtures and 4 conditional assertions.
+- Resulting inventory: **59 physical / 11 excluded / 48 in scope / 48 designed / 0 undesigned**. Approval state: **41 owner-approved + 7 awaiting owner review**.
+- Read-only review recorded production trust-boundary questions for dynamic HTML/header fields and submitted demo URLs; no exploitation is claimed and no backend change was authorized.
+- Gmail, Outlook and Apple Mail remain **NOT RUN**. No backend, production template/YAML, Figma, official Wallet artwork, owner-logo, CDN, staging, commit, push or deployment change occurred. **STOPPED for final owner visual review.**
 - Read-only security review confirmed `festival_rescounts_marketing_email_target` is parsed with Go `text/template` and inserts request/caller-derived body/media data into HTML/attributes. The preview escapes author content; production migration remains blocked pending separate trust-boundary review/remediation. Existing production blockers remain unchanged.
 - Gmail, Outlook and Apple Mail remain **NOT RUN**. No backend, Figma, Wallet artwork, owner logo, CDN, staging, commit, push or deployment change occurred.
+
+---
+
+**[2026-09-27 - Final seven focused footer verification]**
+
+- Owner-reported incomplete footer sentence `This message was sent to .` was diagnosed as a **render integration defect**: `final7-renderers.js` `shell()` called `brandedFooter({ dir })` without `email`, despite `SAMPLE.email` existing.
+- Protected 41 HTML standalones: **0** incomplete footers. Final seven: all seven incomplete before fix; **0** after.
+- Production read-only: only `marketing_package_sale` includes `footer_branded_both_dirs` (contact labels, localized via `BrandedFooter*` including **ar/fa**). That production footer is **not** the activate “sent to” sentence. Design Kit continues to use the approved activate-style `brandedFooter` component and now supplies synthetic `example.com` recipients.
+- Corrected preview rendering only; regenerated seven standalones; fresh Level A desktop/mobile/RTL QA **PASS**. No invented translations, no production/YAML/Figma/commit changes. Final seven remain awaiting owner review.
+

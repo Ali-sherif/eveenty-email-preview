@@ -58,6 +58,16 @@ export const BATCH8_DESIGNED_IDS = [
   'festival_rescounts_marketing_email_target',
 ];
 
+export const FINAL7_DESIGNED_IDS = [
+  'marketing_package_sale',
+  'festival_payout',
+  'partner_coupons',
+  'partner_coupons_partner',
+  'bad_content_alert',
+  'book_demo_admin',
+  'extra_service_request',
+];
+
 // Counts are derived from explicit owner-authorized sets so the validator cannot
 // silently accept an arbitrary catalog-wide status change.
 export const EXPECTED_DESIGNED_IDS = [
@@ -65,6 +75,7 @@ export const EXPECTED_DESIGNED_IDS = [
   ...PILOT_DESIGNED_IDS,
   ...BATCH20_DESIGNED_IDS,
   ...BATCH8_DESIGNED_IDS,
+  ...FINAL7_DESIGNED_IDS,
 ];
 
 export const EXPECTED = {

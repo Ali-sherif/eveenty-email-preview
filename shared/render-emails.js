@@ -1,5 +1,5 @@
 /**
- * Renders the 41 Phase-1 Eveenty reference emails as standalone HTML strings.
+ * Renders the 48 Phase-1 Eveenty reference emails as standalone HTML strings.
  * Annotations from Figma are omitted — production-representative content only.
  */
 import {
@@ -27,6 +27,7 @@ import { renderBatch20RefundRegistrationEmail } from './batch20-refund-registrat
 import { renderBatch20WorkflowEmail } from './batch20-workflow-renderers.js';
 import { renderBatch20InstallmentEmail } from './batch20-installment-renderers.js';
 import { renderBatch8Email } from './batch8-renderers.js';
+import { renderFinal7Email } from './final7-renderers.js';
 
 export function renderEmail(emailId, options = {}) {
   setAssetBase(options.assetBase ?? './');
@@ -91,6 +92,14 @@ export function renderEmail(emailId, options = {}) {
     case 'organizer_festival_marketing_sms_receipt':
     case 'festival_rescounts_marketing_email_target':
       return renderBatch8Email(emailId, { locale, variant, longContent });
+    case 'marketing_package_sale':
+    case 'festival_payout':
+    case 'partner_coupons':
+    case 'partner_coupons_partner':
+    case 'bad_content_alert':
+    case 'book_demo_admin':
+    case 'extra_service_request':
+      return renderFinal7Email(emailId, { locale, variant, longContent });
     default:
       throw new Error(`Unknown email id: ${emailId}`);
   }

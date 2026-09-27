@@ -1,0 +1,2218 @@
+{
+  "generatedAt": "2026-09-27T11:21:36.761Z",
+  "scope": "Exact owner-authorized final-seven HTML Preview batch",
+  "widths": [
+    800,
+    768,
+    414,
+    375,
+    320
+  ],
+  "catalogChecks": {
+    "physical": 59,
+    "excluded": 11,
+    "inScope": 48,
+    "designed": 48,
+    "undesigned": 0,
+    "exactBatch": true
+  },
+  "summaries": {
+    "structural": {
+      "renders": 16,
+      "failedRenders": 0,
+      "failedChecks": 0
+    },
+    "responsive": {
+      "checks": 35,
+      "failed": 0
+    },
+    "stress": {
+      "checks": 7,
+      "failed": 0
+    },
+    "blockedImages": {
+      "checks": 7,
+      "failed": 0
+    },
+    "rtlVisual": {
+      "checks": 4,
+      "failed": 0
+    },
+    "traceability": {
+      "checks": 7,
+      "failed": 0
+    },
+    "financialFixtures": {
+      "checks": 4,
+      "failed": 0
+    },
+    "conditions": {
+      "checks": 4,
+      "failed": 0
+    }
+  },
+  "contrast": [
+    {
+      "name": "heading",
+      "foreground": "#2b2a28",
+      "background": "#ffffff",
+      "ratio": 14.34,
+      "status": "PASS"
+    },
+    {
+      "name": "body",
+      "foreground": "#4d4c49",
+      "background": "#ffffff",
+      "ratio": 8.59,
+      "status": "PASS"
+    },
+    {
+      "name": "success",
+      "foreground": "#166534",
+      "background": "#f0fdf4",
+      "ratio": 6.81,
+      "status": "PASS"
+    },
+    {
+      "name": "warning",
+      "foreground": "#92400e",
+      "background": "#fffbeb",
+      "ratio": 6.84,
+      "status": "PASS"
+    },
+    {
+      "name": "cta",
+      "foreground": "#4d4c49",
+      "background": "#e9d023",
+      "ratio": 5.52,
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "screenshots/marketing_package_sale--desktop-800.png",
+    "screenshots/marketing_package_sale--mobile-320.png",
+    "screenshots/festival_payout--desktop-800.png",
+    "screenshots/festival_payout--mobile-320.png",
+    "screenshots/partner_coupons--desktop-800.png",
+    "screenshots/partner_coupons--mobile-320.png",
+    "screenshots/partner_coupons_partner--desktop-800.png",
+    "screenshots/partner_coupons_partner--mobile-320.png",
+    "screenshots/bad_content_alert--desktop-800.png",
+    "screenshots/bad_content_alert--mobile-320.png",
+    "screenshots/book_demo_admin--desktop-800.png",
+    "screenshots/book_demo_admin--mobile-320.png",
+    "screenshots/extra_service_request--desktop-800.png",
+    "screenshots/extra_service_request--mobile-320.png"
+  ],
+  "staticAudits": [
+    {
+      "id": "marketing_package_sale",
+      "locale": "en",
+      "variant": "organizer",
+      "bytes": 14137,
+      "checks": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "14137 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "max-width-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-header",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-divider",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-template-placeholders",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-or-svg-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "image-dimensions-and-alt",
+          "status": "PASS",
+          "detail": "1 images"
+        },
+        {
+          "name": "safe-preview-hrefs",
+          "status": "PASS",
+          "detail": "1 checked"
+        },
+        {
+          "name": "lang",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "footer-recipient-present",
+          "status": "PASS",
+          "detail": "alex.morgan@example.com"
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "marketing_package_sale",
+      "locale": "fr",
+      "variant": "organizer",
+      "bytes": 14224,
+      "checks": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "14224 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "max-width-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-header",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-divider",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-template-placeholders",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-or-svg-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "image-dimensions-and-alt",
+          "status": "PASS",
+          "detail": "1 images"
+        },
+        {
+          "name": "safe-preview-hrefs",
+          "status": "PASS",
+          "detail": "1 checked"
+        },
+        {
+          "name": "lang",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "footer-recipient-present",
+          "status": "PASS",
+          "detail": "alex.morgan@example.com"
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "marketing_package_sale",
+      "locale": "es",
+      "variant": "organizer",
+      "bytes": 14228,
+      "checks": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "14228 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "max-width-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-header",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-divider",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-template-placeholders",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-or-svg-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "image-dimensions-and-alt",
+          "status": "PASS",
+          "detail": "1 images"
+        },
+        {
+          "name": "safe-preview-hrefs",
+          "status": "PASS",
+          "detail": "1 checked"
+        },
+        {
+          "name": "lang",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "footer-recipient-present",
+          "status": "PASS",
+          "detail": "alex.morgan@example.com"
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "marketing_package_sale",
+      "locale": "ar",
+      "variant": "organizer",
+      "bytes": 14428,
+      "checks": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "14428 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "max-width-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-header",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-divider",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-template-placeholders",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-or-svg-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "image-dimensions-and-alt",
+          "status": "PASS",
+          "detail": "1 images"
+        },
+        {
+          "name": "safe-preview-hrefs",
+          "status": "PASS",
+          "detail": "1 checked"
+        },
+        {
+          "name": "lang",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "footer-recipient-present",
+          "status": "PASS",
+          "detail": "alex.morgan@example.com"
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "marketing_package_sale",
+      "locale": "fa",
+      "variant": "organizer",
+      "bytes": 14368,
+      "checks": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "14368 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "max-width-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-header",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-divider",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-template-placeholders",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-or-svg-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "image-dimensions-and-alt",
+          "status": "PASS",
+          "detail": "1 images"
+        },
+        {
+          "name": "safe-preview-hrefs",
+          "status": "PASS",
+          "detail": "1 checked"
+        },
+        {
+          "name": "lang",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "footer-recipient-present",
+          "status": "PASS",
+          "detail": "alex.morgan@example.com"
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "marketing_package_sale",
+      "locale": "en",
+      "variant": "admin",
+      "bytes": 14107,
+      "checks": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "14107 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "max-width-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-header",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-divider",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-template-placeholders",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-or-svg-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "image-dimensions-and-alt",
+          "status": "PASS",
+          "detail": "1 images"
+        },
+        {
+          "name": "safe-preview-hrefs",
+          "status": "PASS",
+          "detail": "1 checked"
+        },
+        {
+          "name": "lang",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "footer-recipient-present",
+          "status": "PASS",
+          "detail": "admin@example.com"
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_payout",
+      "locale": "en",
+      "variant": "organizer",
+      "bytes": 10382,
+      "checks": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "10382 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "max-width-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-header",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-divider",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-template-placeholders",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-or-svg-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "image-dimensions-and-alt",
+          "status": "PASS",
+          "detail": "1 images"
+        },
+        {
+          "name": "safe-preview-hrefs",
+          "status": "PASS",
+          "detail": "3 checked"
+        },
+        {
+          "name": "lang",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "footer-recipient-present",
+          "status": "PASS",
+          "detail": "alex.morgan@example.com"
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "festival_payout",
+      "locale": "en",
+      "variant": "admin",
+      "bytes": 10374,
+      "checks": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "10374 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "max-width-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-header",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-divider",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-template-placeholders",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-or-svg-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "image-dimensions-and-alt",
+          "status": "PASS",
+          "detail": "1 images"
+        },
+        {
+          "name": "safe-preview-hrefs",
+          "status": "PASS",
+          "detail": "3 checked"
+        },
+        {
+          "name": "lang",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "footer-recipient-present",
+          "status": "PASS",
+          "detail": "admin@example.com"
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "partner_coupons",
+      "locale": "en",
+      "variant": "withMap",
+      "bytes": 15856,
+      "checks": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "15856 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "max-width-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-header",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-divider",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-template-placeholders",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-or-svg-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "image-dimensions-and-alt",
+          "status": "PASS",
+          "detail": "3 images"
+        },
+        {
+          "name": "safe-preview-hrefs",
+          "status": "PASS",
+          "detail": "3 checked"
+        },
+        {
+          "name": "lang",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "footer-recipient-present",
+          "status": "PASS",
+          "detail": "alex.morgan@example.com"
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "partner_coupons",
+      "locale": "en",
+      "variant": "withoutMap",
+      "bytes": 14680,
+      "checks": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "14680 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "max-width-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-header",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-divider",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-template-placeholders",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-or-svg-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "image-dimensions-and-alt",
+          "status": "PASS",
+          "detail": "3 images"
+        },
+        {
+          "name": "safe-preview-hrefs",
+          "status": "PASS",
+          "detail": "1 checked"
+        },
+        {
+          "name": "lang",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "footer-recipient-present",
+          "status": "PASS",
+          "detail": "alex.morgan@example.com"
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "partner_coupons_partner",
+      "locale": "en",
+      "variant": "withMap",
+      "bytes": 15047,
+      "checks": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "15047 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "max-width-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-header",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-divider",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-template-placeholders",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-or-svg-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "image-dimensions-and-alt",
+          "status": "PASS",
+          "detail": "3 images"
+        },
+        {
+          "name": "safe-preview-hrefs",
+          "status": "PASS",
+          "detail": "3 checked"
+        },
+        {
+          "name": "lang",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "footer-recipient-present",
+          "status": "PASS",
+          "detail": "partner@example.com"
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "partner_coupons_partner",
+      "locale": "en",
+      "variant": "withoutMap",
+      "bytes": 13871,
+      "checks": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "13871 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "max-width-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-header",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-divider",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-template-placeholders",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-or-svg-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "image-dimensions-and-alt",
+          "status": "PASS",
+          "detail": "3 images"
+        },
+        {
+          "name": "safe-preview-hrefs",
+          "status": "PASS",
+          "detail": "1 checked"
+        },
+        {
+          "name": "lang",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "footer-recipient-present",
+          "status": "PASS",
+          "detail": "partner@example.com"
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "bad_content_alert",
+      "locale": "en",
+      "variant": "default",
+      "bytes": 10136,
+      "checks": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "10136 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "max-width-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-header",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-divider",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-template-placeholders",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-or-svg-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "image-dimensions-and-alt",
+          "status": "PASS",
+          "detail": "1 images"
+        },
+        {
+          "name": "safe-preview-hrefs",
+          "status": "PASS",
+          "detail": "1 checked"
+        },
+        {
+          "name": "lang",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "footer-recipient-present",
+          "status": "PASS",
+          "detail": "admin@example.com"
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "book_demo_admin",
+      "locale": "en",
+      "variant": "default",
+      "bytes": 11899,
+      "checks": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "11899 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "max-width-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-header",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-divider",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-template-placeholders",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-or-svg-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "image-dimensions-and-alt",
+          "status": "PASS",
+          "detail": "1 images"
+        },
+        {
+          "name": "safe-preview-hrefs",
+          "status": "PASS",
+          "detail": "4 checked"
+        },
+        {
+          "name": "lang",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "footer-recipient-present",
+          "status": "PASS",
+          "detail": "admin@example.com"
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "extra_service_request",
+      "locale": "en",
+      "variant": "withBusinessName",
+      "bytes": 9692,
+      "checks": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "9692 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "max-width-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-header",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-divider",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-template-placeholders",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-or-svg-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "image-dimensions-and-alt",
+          "status": "PASS",
+          "detail": "1 images"
+        },
+        {
+          "name": "safe-preview-hrefs",
+          "status": "PASS",
+          "detail": "1 checked"
+        },
+        {
+          "name": "lang",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "footer-recipient-present",
+          "status": "PASS",
+          "detail": "admin@example.com"
+        }
+      ],
+      "failCount": 0
+    },
+    {
+      "id": "extra_service_request",
+      "locale": "en",
+      "variant": "withoutBusinessName",
+      "bytes": 9280,
+      "checks": [
+        {
+          "name": "html-under-102kb",
+          "status": "PASS",
+          "detail": "9280 bytes"
+        },
+        {
+          "name": "table-layout",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "max-width-600",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-header",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-body",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "approved-divider",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-template-placeholders",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-forbidden-elements",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-unsafe-css",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "no-base64-or-svg-images",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "image-dimensions-and-alt",
+          "status": "PASS",
+          "detail": "1 images"
+        },
+        {
+          "name": "safe-preview-hrefs",
+          "status": "PASS",
+          "detail": "1 checked"
+        },
+        {
+          "name": "lang",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "dir",
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "name": "footer-recipient-present",
+          "status": "PASS",
+          "detail": "admin@example.com"
+        }
+      ],
+      "failCount": 0
+    }
+  ],
+  "responsive": [
+    {
+      "id": "marketing_package_sale",
+      "locale": "en",
+      "variant": "organizer",
+      "width": 800,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 800,
+      "clientWidth": 800,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "marketing_package_sale",
+      "locale": "en",
+      "variant": "organizer",
+      "width": 768,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "marketing_package_sale",
+      "locale": "en",
+      "variant": "organizer",
+      "width": 414,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 414,
+      "clientWidth": 414,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "marketing_package_sale",
+      "locale": "en",
+      "variant": "organizer",
+      "width": 375,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "marketing_package_sale",
+      "locale": "en",
+      "variant": "organizer",
+      "width": 320,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "festival_payout",
+      "locale": "en",
+      "variant": "organizer",
+      "width": 800,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 800,
+      "clientWidth": 800,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "festival_payout",
+      "locale": "en",
+      "variant": "organizer",
+      "width": 768,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "festival_payout",
+      "locale": "en",
+      "variant": "organizer",
+      "width": 414,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 414,
+      "clientWidth": 414,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "festival_payout",
+      "locale": "en",
+      "variant": "organizer",
+      "width": 375,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "festival_payout",
+      "locale": "en",
+      "variant": "organizer",
+      "width": 320,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "partner_coupons",
+      "locale": "en",
+      "variant": "withMap",
+      "width": 800,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 800,
+      "clientWidth": 800,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "partner_coupons",
+      "locale": "en",
+      "variant": "withMap",
+      "width": 768,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "partner_coupons",
+      "locale": "en",
+      "variant": "withMap",
+      "width": 414,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 414,
+      "clientWidth": 414,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "partner_coupons",
+      "locale": "en",
+      "variant": "withMap",
+      "width": 375,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "partner_coupons",
+      "locale": "en",
+      "variant": "withMap",
+      "width": 320,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "partner_coupons_partner",
+      "locale": "en",
+      "variant": "withMap",
+      "width": 800,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 800,
+      "clientWidth": 800,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "partner_coupons_partner",
+      "locale": "en",
+      "variant": "withMap",
+      "width": 768,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "partner_coupons_partner",
+      "locale": "en",
+      "variant": "withMap",
+      "width": 414,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 414,
+      "clientWidth": 414,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "partner_coupons_partner",
+      "locale": "en",
+      "variant": "withMap",
+      "width": 375,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "partner_coupons_partner",
+      "locale": "en",
+      "variant": "withMap",
+      "width": 320,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "bad_content_alert",
+      "locale": "en",
+      "variant": "default",
+      "width": 800,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 800,
+      "clientWidth": 800,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "bad_content_alert",
+      "locale": "en",
+      "variant": "default",
+      "width": 768,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "bad_content_alert",
+      "locale": "en",
+      "variant": "default",
+      "width": 414,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 414,
+      "clientWidth": 414,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "bad_content_alert",
+      "locale": "en",
+      "variant": "default",
+      "width": 375,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "bad_content_alert",
+      "locale": "en",
+      "variant": "default",
+      "width": 320,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "book_demo_admin",
+      "locale": "en",
+      "variant": "default",
+      "width": 800,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 800,
+      "clientWidth": 800,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "book_demo_admin",
+      "locale": "en",
+      "variant": "default",
+      "width": 768,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "book_demo_admin",
+      "locale": "en",
+      "variant": "default",
+      "width": 414,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 414,
+      "clientWidth": 414,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "book_demo_admin",
+      "locale": "en",
+      "variant": "default",
+      "width": 375,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "book_demo_admin",
+      "locale": "en",
+      "variant": "default",
+      "width": 320,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "extra_service_request",
+      "locale": "en",
+      "variant": "withBusinessName",
+      "width": 800,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 800,
+      "clientWidth": 800,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "extra_service_request",
+      "locale": "en",
+      "variant": "withBusinessName",
+      "width": 768,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "extra_service_request",
+      "locale": "en",
+      "variant": "withBusinessName",
+      "width": 414,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 414,
+      "clientWidth": 414,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "extra_service_request",
+      "locale": "en",
+      "variant": "withBusinessName",
+      "width": 375,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "extra_service_request",
+      "locale": "en",
+      "variant": "withBusinessName",
+      "width": 320,
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    }
+  ],
+  "stress": [
+    {
+      "id": "marketing_package_sale",
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "festival_payout",
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "partner_coupons",
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "partner_coupons_partner",
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "bad_content_alert",
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "book_demo_admin",
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "extra_service_request",
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    }
+  ],
+  "blockedImages": [
+    {
+      "id": "marketing_package_sale",
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "festival_payout",
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "partner_coupons",
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "partner_coupons_partner",
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "bad_content_alert",
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "book_demo_admin",
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "extra_service_request",
+      "status": "PASS",
+      "dir": "ltr",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    }
+  ],
+  "rtlVisual": [
+    {
+      "id": "marketing_package_sale",
+      "locale": "ar",
+      "width": 800,
+      "screenshot": "screenshots/rtl/marketing_package_sale--ar--desktop-800.png",
+      "status": "PASS",
+      "dir": "rtl",
+      "scrollWidth": 800,
+      "clientWidth": 800,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "marketing_package_sale",
+      "locale": "ar",
+      "width": 320,
+      "screenshot": "screenshots/rtl/marketing_package_sale--ar--mobile-320.png",
+      "status": "PASS",
+      "dir": "rtl",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "marketing_package_sale",
+      "locale": "fa",
+      "width": 800,
+      "screenshot": "screenshots/rtl/marketing_package_sale--fa--desktop-800.png",
+      "status": "PASS",
+      "dir": "rtl",
+      "scrollWidth": 800,
+      "clientWidth": 800,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    },
+    {
+      "id": "marketing_package_sale",
+      "locale": "fa",
+      "width": 320,
+      "screenshot": "screenshots/rtl/marketing_package_sale--fa--mobile-320.png",
+      "status": "PASS",
+      "dir": "rtl",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "documentOverflow": false,
+      "elementOverflow": false,
+      "overflowingElements": []
+    }
+  ],
+  "traceability": [
+    {
+      "id": "marketing_package_sale",
+      "status": "PASS",
+      "source": "D:\\last\\rescounts-backend\\email\\templates\\marketing_package_sale.template"
+    },
+    {
+      "id": "festival_payout",
+      "status": "PASS",
+      "source": "D:\\last\\rescounts-backend\\email\\templates\\festival_payout.template"
+    },
+    {
+      "id": "partner_coupons",
+      "status": "PASS",
+      "source": "D:\\last\\rescounts-backend\\email\\templates\\partner_coupons.template"
+    },
+    {
+      "id": "partner_coupons_partner",
+      "status": "PASS",
+      "source": "D:\\last\\rescounts-backend\\email\\templates\\partner_coupons_partner.template"
+    },
+    {
+      "id": "bad_content_alert",
+      "status": "PASS",
+      "source": "D:\\last\\rescounts-backend\\email\\templates\\bad_content_alert.template"
+    },
+    {
+      "id": "book_demo_admin",
+      "status": "PASS",
+      "source": "D:\\last\\rescounts-backend\\email\\templates\\book_demo_admin.template"
+    },
+    {
+      "id": "extra_service_request",
+      "status": "PASS",
+      "source": "D:\\last\\rescounts-backend\\email\\templates\\extra_service_request.template"
+    }
+  ],
+  "financialFixtures": [
+    {
+      "id": "marketing_package_sale",
+      "variant": "organizer",
+      "required": [
+        "CA$250.00",
+        "CA$32.50",
+        "CA$282.50"
+      ],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "id": "festival_payout",
+      "variant": "organizer",
+      "required": [
+        "CA$4,820.75"
+      ],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "id": "partner_coupons",
+      "variant": "withMap",
+      "required": [
+        "CA$40.00",
+        "CA$5.20",
+        "CA$2.00",
+        "CA$0.26",
+        "CA$47.46"
+      ],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "id": "partner_coupons_partner",
+      "variant": "withMap",
+      "required": [
+        "CA$40.00",
+        "CA$5.20",
+        "CA$45.20"
+      ],
+      "missing": [],
+      "status": "PASS"
+    }
+  ],
+  "conditionChecks": [
+    {
+      "id": "marketing_package_sale",
+      "detail": "admin forced EN",
+      "status": "PASS"
+    },
+    {
+      "id": "partner_coupons",
+      "detail": "optional map omitted",
+      "status": "PASS"
+    },
+    {
+      "id": "partner_coupons_partner",
+      "detail": "partner excludes processing fee",
+      "status": "PASS"
+    },
+    {
+      "id": "extra_service_request",
+      "detail": "optional business omitted",
+      "status": "PASS"
+    }
+  ],
+  "levelB": {
+    "gmail": "NOT RUN",
+    "outlook": "NOT RUN",
+    "appleMail": "NOT RUN"
+  }
+}

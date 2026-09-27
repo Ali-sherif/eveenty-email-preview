@@ -2,70 +2,80 @@
 
 ## Current task
 
-The owner approved all 20 designs from the prior batch. The exact newly authorized eight-template HTML Preview batch is implemented and fresh Level A QA is **PASS**. **STOPPED for owner visual review.** Do not mark these eight owner-approved or implement the final seven without new explicit owner authorization.
+The owner visually approved the prior eight-template HTML Preview batch, creating a protected 41-template baseline. The exact final seven were verified, implemented, and freshly validated. A focused footer defect (`This message was sent to .`) was diagnosed and corrected in preview rendering only. **STOPPED for final owner visual review.** Do not mark the final seven owner-approved or perform production-related work without new explicit authorization.
 
 ## Current inventory and approval state
 
 - Verified inventory: **59 physical / 11 excluded / 48 in scope**.
-- Protected owner-approved HTML Preview baseline: **33** (seven original references + six pilot designs + the approved 20-template batch).
-- New batch awaiting owner approval: **8**.
-- Total cataloged `DESIGNED` and previewable: **41**.
-- Remaining `IN_SCOPE · UNDESIGNED`: **7**.
+- Protected owner-approved HTML Preview baseline: **41**.
+- Final-seven designs awaiting owner review: **7**.
+- Total cataloged `DESIGNED` and previewable: **48**.
+- Remaining `IN_SCOPE · UNDESIGNED`: **0**.
 - Real Gmail / Outlook / Apple Mail testing: **NOT RUN**.
 
-## Implemented batch
+## Implemented final seven
 
-Selection and source evidence: `docs/agent/NEXT_8_BATCH_SELECTION.md`.
+Selection and source evidence: `docs/agent/FINAL_7_BATCH_SELECTION.md`.
 
-- B1 Sales receipts: `festival_add_on_sale`, `festival_activity_sale`, `festival_sponsor_sale`, `festival_sales`, `festival_vendor_sale`
-- B9 Organizer campaign receipts: `organizer_festival_marketing_email_receipt`, `organizer_festival_marketing_sms_receipt`
-- B10 Marketing target: `festival_rescounts_marketing_email_target`
+- Financial: `marketing_package_sale`, `festival_payout`
+- Partner coupons: `partner_coupons`, `partner_coupons_partner`
+- Internal operations: `bad_content_alert`, `book_demo_admin`, `extra_service_request`
 
-The implementation uses targeted production locale snapshots, exact per-persona locale routing, approved shared Commerce/Notification/Marketing patterns, synthetic reconcilable fixtures, escaped dynamic values and inert preview URLs. QR, waiver, contract, calendar and attachment representations appear only where source evidence supports them. No Wallet or Figma work was introduced.
+The implementation uses actual source-derived locales/personas/conditions, approved shared components, synthetic fixtures, escaped dynamic values and inert preview URLs. Only `marketing_package_sale` supports `en/fr/es/ar/fa` for its organizer persona; its admin persona and the other six templates are English-only. No Wallet behavior or unsupported attachment was added.
+
+## Focused footer verification (2026-09-27)
+
+Evidence: `qa-output/final-7/FINAL_7_FOOTER_VERIFICATION.md`.
+
+- Cause: render call omitted `email` to `brandedFooter` (fixture had `SAMPLE.email`; not a production intentional blank).
+- Fix: pass synthetic `example.com` recipients from `shared/final7-renderers.js`; regenerate seven standalones.
+- Protected 41: **no** incomplete “sent to” footers.
+- `marketing_package_sale` production footer is `footer_branded_both_dirs` with **ar/fa** `BrandedFooter*` labels — not activate “sent to”. Design Kit keeps activate-style footer lead (EN default); no invented translations.
+- Fresh regression after fix: Level A desktop/mobile/RTL **PASS**.
 
 ## Fresh QA
 
-Command: `node qa-output/batch-8/capture-batch8-qa.mjs`
+Command: `node qa-output/final-7/capture-final7-qa.mjs`
 
 | Check | Result |
 |---|---|
-| Catalog + exact eight mappings | **PASS** · 59 / 11 / 48 / 41 / 7 |
-| Structural renders | **PASS** · 126 · 0 failures |
-| Responsive | **PASS** · 65 checks at 800/768/414/375/320 · 0 overflow |
-| Long-content stress | **PASS** · 8 · 0 failures |
-| Blocked images | **PASS** · 8 · 0 failures |
-| RTL visual/layout | **PASS** · 12 Arabic/Persian desktop/mobile checks |
-| Traceability | **PASS** · 8 production mappings |
-| Financial fixtures | **PASS** · 5 reconciliations |
+| Catalog + exact final-seven mappings | **PASS** · 59 / 11 / 48 / 48 / 0 |
+| Structural renders | **PASS** · 16 · 0 failures (includes `footer-recipient-present`) |
+| Responsive | **PASS** · 35 checks at 800/768/414/375/320 · 0 overflow |
+| Long-content stress | **PASS** · 7 · 0 failures |
+| Blocked images | **PASS** · 7 · 0 failures |
+| RTL visual/layout | **PASS** · 4 Arabic/Persian desktop/mobile checks |
+| Traceability | **PASS** · 7 production mappings |
+| Financial fixtures | **PASS** · 4 reconciliations |
 | Conditional/persona assertions | **PASS** · 4 focused paths |
 | Contrast | **PASS** · all tested pairs at least 4.5:1 |
-| Default captures | **PASS** · 16 visually reviewed |
+| Default captures | **PASS** · 14 visually reviewed |
 | Gmail / Outlook / Apple Mail | **NOT RUN** |
 | Figma | **NOT RUN / out of scope** |
 
 Reports:
 
-- `qa-output/batch-8/BATCH_8_IMPLEMENTATION_REPORT.md`
-- `qa-output/batch-8/BATCH_8_QA_REPORT.md`
-- `qa-output/batch-8/BATCH_8_VISUAL_REVIEW.md`
-- `qa-output/batch-8/batch8-qa-results.json`
+- `qa-output/final-7/FINAL_7_IMPLEMENTATION_REPORT.md`
+- `qa-output/final-7/FINAL_7_QA_REPORT.md`
+- `qa-output/final-7/FINAL_7_VISUAL_REVIEW.md`
+- `qa-output/final-7/FINAL_7_FOOTER_VERIFICATION.md`
+- `qa-output/final-7/final7-qa-results.json`
 
 ## Production/security boundaries
 
-- `organizer_announcement`: owner-approved for HTML Preview only; production migration remains **BLOCKED** because of subject/header and caller-supplied HTML trust boundaries.
-- `festival_marketing_approval` / `_sms`: owner-approved HTML Preview designs with inert links; production state-changing unauthenticated GET approval links remain **BLOCKED** because of link-scanner/prefetch risk.
-- `festival_rescounts_marketing_email_target`: the new preview escapes author content and uses inert URLs. Read-only review confirmed a Go `text/template` sink for request/caller-derived body/media values; production migration is **BLOCKED pending a separately authorized trust-boundary review/remediation**.
-- No backend, production template, Figma, official Wallet artwork, owner logo, CDN, staging, commit, push or deployment change was made.
+- Existing blockers remain: `organizer_announcement` subject/HTML trust boundaries; marketing approval state-changing GET actions; `festival_rescounts_marketing_email_target` body/media trust boundary.
+- Final-seven read-only review recorded unverified production trust boundaries around `text/template` HTML insertion, dynamic MIME headers and submitted demo URLs. See `FINAL_7_IMPLEMENTATION_REPORT.md`; these are review requirements, not claims of confirmed exploitation.
+- No backend, production template/YAML, Figma, official Wallet artwork, owner logo, CDN, staging, commit, push or deployment change was made.
 - All repository changes remain unstaged.
 
 ## Tooling status
 
-`.agents/scripts/email-cli.mjs` validates the exact named 41-design baseline. `validate-catalog`, all eight batch `validate-template` checks, standalone generation, the batch harness and `git diff --check` passed after the final implementation changes.
+`.agents/scripts/email-cli.mjs` validates the exact named 48-design set. `validate-catalog`, all seven focused `validate-template` checks, standalone generation, the final-seven harness and `git diff --check` passed after the final implementation changes.
 
 ## Next authorized action
 
-Owner review only: inspect `qa-output/batch-8/BATCH_8_VISUAL_REVIEW.md` and the linked implementation/QA reports. Do not modify the protected 33, mark the new eight owner-approved automatically, or start the final seven without explicit owner direction.
+Owner visual review only: inspect `qa-output/final-7/FINAL_7_VISUAL_REVIEW.md`, `FINAL_7_FOOTER_VERIFICATION.md`, and the linked screenshots/reports. Do not modify the protected 41, mark the final seven owner-approved automatically, or begin production/Figma work.
 
 ## Resume prompt
 
-"Continue Eveenty Email Kit from `docs/agent/HANDOFF.md` and follow `AGENTS.md`. The previous 20 are owner-approved; the exact eight-template batch has fresh Level A QA PASS and is stopped for owner visual review. Inspect `qa-output/batch-8/BATCH_8_VISUAL_REVIEW.md`; do not implement the final seven or change production/Figma without new explicit authorization."
+"Continue Eveenty Email Kit from `docs/agent/HANDOFF.md` and follow `AGENTS.md`. The protected baseline is 41 owner-approved HTML previews; the final seven are implemented with fresh Level A QA PASS (including focused footer correction) and await final owner visual review. Inspect `qa-output/final-7/FINAL_7_FOOTER_VERIFICATION.md` and `FINAL_7_VISUAL_REVIEW.md`; do not mark them approved or change production/Figma without new explicit authorization."

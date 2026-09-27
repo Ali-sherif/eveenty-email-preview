@@ -24,7 +24,7 @@ function usage(exitCode = 1) {
 
 Commands:
   context <template_id>              JSON/human context package for one template
-  validate-catalog                   Verify inventory, mappings, preview paths, 33/15 state
+  validate-catalog                   Verify inventory, mappings, preview paths, exact 48/0 state
   validate-template <template_id>    Validate one template mapping + preview artifacts
   qa [template_id | --all]           Report available Level-A evidence (no new test runner)
   status                             Compact inventory + next actionable items

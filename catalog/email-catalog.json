@@ -5,8 +5,8 @@
     "physical": 59,
     "excluded": 11,
     "in_scope": 48,
-    "designed": 41,
-    "undesigned": 7
+    "designed": 48,
+    "undesigned": 0
   },
   "families": {
     "TRANSACTIONAL": 2,
@@ -517,10 +517,10 @@
       "functional_subfolder": "Marketing-Package",
       "catalog_path": "Phase-1/02-Commerce/Marketing-Package/marketing_package_sale.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/marketing_package_sale.html",
+      "preview_selectable": true
     },
     {
       "id": "receipt",
@@ -559,10 +559,10 @@
       "functional_subfolder": "Payouts",
       "catalog_path": "Phase-1/02-Commerce/Payouts/festival_payout.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/festival_payout.html",
+      "preview_selectable": true
     },
     {
       "id": "festival_ticket_registration",
@@ -657,10 +657,10 @@
       "functional_subfolder": "Partner-Coupons",
       "catalog_path": "Phase-1/02-Commerce/Partner-Coupons/partner_coupons.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/partner_coupons.html",
+      "preview_selectable": true
     },
     {
       "id": "partner_coupons_partner",
@@ -671,10 +671,10 @@
       "functional_subfolder": "Partner-Coupons",
       "catalog_path": "Phase-1/02-Commerce/Partner-Coupons/partner_coupons_partner.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/partner_coupons_partner.html",
+      "preview_selectable": true
     },
     {
       "id": "festival_approval_status_changed",
@@ -909,10 +909,10 @@
       "functional_subfolder": "Support-Ops",
       "catalog_path": "Phase-1/03-Notification/Support-Ops/bad_content_alert.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/bad_content_alert.html",
+      "preview_selectable": true
     },
     {
       "id": "contact_submission",
@@ -937,10 +937,10 @@
       "functional_subfolder": "Support-Ops",
       "catalog_path": "Phase-1/03-Notification/Support-Ops/book_demo_admin.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/book_demo_admin.html",
+      "preview_selectable": true
     },
     {
       "id": "extra_service_request",
@@ -951,10 +951,10 @@
       "functional_subfolder": "Support-Ops",
       "catalog_path": "Phase-1/03-Notification/Support-Ops/extra_service_request.template",
       "scope": "IN_SCOPE",
-      "design_status": "UNDESIGNED",
+      "design_status": "DESIGNED",
       "figma": null,
-      "preview": null,
-      "preview_selectable": false
+      "preview": "emails/extra_service_request.html",
+      "preview_selectable": true
     },
     {
       "id": "organizer_festival_marketing_email_receipt",
