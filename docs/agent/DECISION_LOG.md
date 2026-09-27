@@ -242,3 +242,13 @@ Agent skills/rules/docs were updated only where stale or contradictory; no new s
 - Production read-only: only `marketing_package_sale` includes `footer_branded_both_dirs` (contact labels, localized via `BrandedFooter*` including **ar/fa**). That production footer is **not** the activate “sent to” sentence. Design Kit continues to use the approved activate-style `brandedFooter` component and now supplies synthetic `example.com` recipients.
 - Corrected preview rendering only; regenerated seven standalones; fresh Level A desktop/mobile/RTL QA **PASS**. No invented translations, no production/YAML/Figma/commit changes. Final seven remain awaiting owner review.
 
+---
+
+**[2026-09-27 - Final seven owner visually approved; Phase 1 HTML Preview complete]**
+
+- After the verified footer correction and Level A QA **PASS**, the owner visually approved all seven final HTML Preview designs: `marketing_package_sale`, `festival_payout`, `partner_coupons`, `partner_coupons_partner`, `bad_content_alert`, `book_demo_admin`, and `extra_service_request`.
+- Final Phase 1 inventory: **59 physical / 11 excluded / 48 in scope / 48 designed / 48 owner visually approved / 0 remaining undesigned**.
+- Approval applies to **HTML Preview designs only**. It does not assert production readiness, close Level B client testing, authorize CDN upload, or authorize production migration.
+- Preserved production/security review requirements (not claimed as confirmed exploitable vulnerabilities): `organizer_announcement` subject/header and caller-supplied HTML trust boundaries; `festival_marketing_approval` / `festival_marketing_approval_sms` state-changing GET approval links; `festival_rescounts_marketing_email_target` caller-derived HTML/body/media boundaries; final-seven `text/template` HTML insertion, dynamic MIME header, and submitted demo URL trust-boundary observations.
+- Real Gmail, Outlook and Apple Mail testing remain **NOT RUN**. No further design implementation is authorized without new explicit owner authorization.
+

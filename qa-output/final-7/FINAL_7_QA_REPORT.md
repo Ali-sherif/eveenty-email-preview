@@ -25,3 +25,5 @@ Machine-readable evidence: `final7-qa-results.json`. Harness: `capture-final7-qa
 An initial run detected narrow-width overflow in the marketing-package six-column item table. The final implementation uses the existing responsive label/value card pattern; the complete suite was rerun and passed. Visual inspection also replaced non-resolving synthetic coupon URLs with the existing raster QR fixture before the final pass.
 
 No real-client compatibility claim is made from Chromium Level A testing.
+
+**[2026-09-27]** Owner visually approved all seven HTML Preview designs after this Level A evidence and the focused footer verification. Approval does not close Level B client testing or production security gates.

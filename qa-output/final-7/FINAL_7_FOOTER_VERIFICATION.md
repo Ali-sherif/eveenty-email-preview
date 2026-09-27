@@ -94,6 +94,8 @@ Updated screenshots:
 - `qa-output/final-7/screenshots/rtl/marketing_package_sale--{ar,fa}--{desktop-800,mobile-320}.png` (4)
 - Contact sheets refreshed via `build-contact-sheets.mjs`
 
-## 7. Stop
+## 7. Stop / approval follow-up
 
-Focused technical footer defect corrected. Final seven remain **AWAITING OWNER REVIEW**. No owner-approval status change, no production work.
+Focused technical footer defect corrected; Level A desktop/mobile/RTL regression **PASS**.
+
+**[2026-09-27 follow-up]** Owner visually approved all seven HTML Preview designs after this verified footer correction. Approval does not authorize production work, Level B client testing, CDN upload or backend changes.
