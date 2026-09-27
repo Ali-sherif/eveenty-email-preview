@@ -262,6 +262,23 @@ Agent skills/rules/docs were updated only where stale or contradictory; no new s
 - **Ownership:** **Backend / Security**. Outside the authorized scope of the Email Kit design project. Investigation or remediation requires a separately authorized Backend/Security task.
 - **Email Kit responsibility:** Document and hand off the observation only. Design impact: none currently identified. HTML Preview remains completed and owner visually approved.
 - **Production security status:** **Unresolved**. Evidence identifies a **potential** trust-boundary issue, not a confirmed exploitable vulnerability. Do not describe as fixed or dismiss as harmless. Do not claim the template is security-cleared for production migration until Backend/Security resolves or formally accepts the finding.
-- **Preserved separately (status unchanged):** marketing approval state-changing GET links; marketing target HTML/body/media boundaries; final-seven production trust-boundary observations; Level B Gmail/Outlook/Apple Mail testing; CDN hosting and production integration.
+- **Preserved separately (status unchanged at that time):** marketing approval state-changing GET links; marketing target HTML/body/media boundaries; final-seven production trust-boundary observations; Level B Gmail/Outlook/Apple Mail testing; CDN hosting and production integration. (Marketing approval ownership/scope clarified in the subsequent 2026-09-27 entry below; other preserved items remain unchanged.)
+- Phase 1 inventory unchanged: **59 / 11 / 48 / 48 designed / 48 owner visually approved / 0 undesigned**.
+
+---
+
+**[2026-09-27 - Marketing Approval security observation: ownership/scope clarified]**
+
+- Owner authorized a **documentation-only** update. No HTML, CSS, components, fixtures, preview output, catalog, backend, Figma, CDN, commit, push or remediation work was performed.
+- **Consolidated work item:** Marketing Approval approval-link behavior — one Backend/Security item covering both Email and SMS marketing approval workflows.
+- **Affected template IDs (preserve individually):** `festival_marketing_approval`, `festival_marketing_approval_sms`.
+- **Observation:** Production approve/reject links may trigger state-changing operations through unauthenticated GET requests. Email-security scanners and link-prefetching systems may open these URLs automatically, potentially changing a campaign's approval status without an intentional administrator action.
+- **Origin:** Pre-existing production backend behavior, identified while reviewing the existing production backend — **not** introduced by the new HTML Preview designs. Approved HTML Previews use inert `example.com` links and do not execute approval or rejection operations.
+- **Ownership:** **Backend / Security**. Category: Pre-existing Backend / Security observations. Outside Email Kit design scope. Investigation or remediation requires a separately authorized Backend/Security task.
+- **Email Kit responsibility:** Document and hand off only. Design status: **COMPLETE — owner visually approved** for both templates. Do not reopen visual approval or create additional design requirements solely because of these backend observations.
+- **Production security status:** **Unresolved**. Documented production security concern — **not** a claim that exploitation has been confirmed. Do not describe as fixed or dismiss as harmless. Security clearance must be determined by Backend/Security before enabling the relevant production approval workflows. Production integration requires separate owner authorization.
+- **Possible remediation (documented approach only — not an approved implementation task):** avoid state-changing GET; open a confirmation page from the email link; authenticate and authorize the administrator; execute via protected POST; consider CSRF, token validation, expiration and one-time-use semantics as appropriate; test link-scanning/prefetch before production release. Backend/Security must investigate the current implementation and select the appropriate solution.
+- **Evidence preserved:** `qa-output/batch-20/BATCH_20_QA_REPORT.md`, `BATCH_20_IMPLEMENTATION_REPORT.md`, `BATCH_20_VISUAL_REVIEW.md`.
+- **Preserved separately (status unchanged):** `organizer_announcement` subject/header and caller-supplied HTML observations; `festival_rescounts_marketing_email_target` HTML/body/media trust-boundary observations; final-seven text/template, MIME-header and submitted demo-URL observations; Level B Gmail/Outlook/Apple Mail testing; CDN hosting and production integration.
 - Phase 1 inventory unchanged: **59 / 11 / 48 / 48 designed / 48 owner visually approved / 0 undesigned**.
 

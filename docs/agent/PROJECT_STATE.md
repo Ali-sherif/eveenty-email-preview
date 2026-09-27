@@ -64,7 +64,7 @@ Evidence: `qa-output/final-7/FINAL_7_IMPLEMENTATION_REPORT.md`, `FINAL_7_QA_REPO
 
 ## Notable single items
 - `organizer_announcement` — Phase 1 scope, Marketing / Campaign-Announcement, **IN_SCOPE · DESIGNED · OWNER VISUAL APPROVED for HTML Preview**. Design impact: **none currently identified**. See ownership classification under Known blockers (workstream C).
-- `festival_marketing_approval` / `festival_marketing_approval_sms` — owner-approved HTML Preview designs with Level A **PASS**, escaped content and inert links; production state-changing approval links remain blocked pending a separately authorized secure flow.
+- `festival_marketing_approval` and `festival_marketing_approval_sms` — both **IN_SCOPE · DESIGNED · OWNER VISUAL APPROVED for HTML Preview** (Level A **PASS**, escaped content, inert `example.com` links). One consolidated Backend/Security work item covers both Email and SMS marketing approval workflows; see Known blockers (workstream C). Not an Email Kit design task.
 - `festival_rescounts_marketing_email_target` — HTML Preview **OWNER VISUAL APPROVED**, Level A **PASS**. Its `text/template` production sink accepts body/media/URL values; production migration remains blocked pending a separately authorized trust-boundary review/remediation.
 - Final-seven production templates — HTML Preview approved; read-only review recorded unverified trust-boundary observations around `text/template` HTML insertion, dynamic MIME headers and submitted demo URLs (see `FINAL_7_IMPLEMENTATION_REPORT.md`). These are review requirements, not confirmed exploitable vulnerabilities.
 
@@ -91,7 +91,7 @@ See `.agents/skills/email-rendering-compatibility/SKILL.md` and `shared/tokens.j
 - Production CDN upload of these assets — **not authorized**.
 
 ## Current active task
-Phase 1 HTML Preview design is **complete**. All 48 in-scope templates have explicit owner visual approval. No further design implementation is authorized. Await owner authorization for any production security review, Level B client testing, CDN hosting or production migration.
+Phase 1 HTML Preview design is **complete**. All 48 in-scope templates have explicit owner visual approval. No further design implementation is authorized. Await owner authorization for any Backend/Security investigation, Level B client testing, CDN hosting or production migration.
 
 ## Known blockers / open items (by workstream)
 
@@ -111,11 +111,36 @@ Phase 1 HTML Preview design is **complete**. All 48 in-scope templates have expl
 | Evidence strength | Potential trust-boundary issue — **not** a confirmed exploitable vulnerability; do not describe as fixed or dismiss as harmless |
 | Evidence | `qa-output/pilot-batch/PILOT_SECURITY_REVIEW.md` (preview escapes synthetic content; no backend remediation performed) |
 
+**Issue (consolidated):** Marketing Approval approval-link behavior — covers both `festival_marketing_approval` (Email) and `festival_marketing_approval_sms` (SMS). One Backend/Security work item; two preserved template IDs for traceability.
+
+| Field | Classification |
+|---|---|
+| Category | Pre-existing Backend / Security observations |
+| Affected template IDs | `festival_marketing_approval`, `festival_marketing_approval_sms` (keep individually traceable) |
+| Observation | Production approve/reject links may trigger state-changing operations through unauthenticated GET requests. Email-security scanners and link-prefetching systems may open these URLs automatically, potentially changing a campaign's approval status without an intentional administrator action. |
+| Origin | Pre-existing production backend behavior, identified while reviewing the existing production backend during Email Kit work — **not** introduced by the HTML Preview designs |
+| Ownership | **Backend / Security** |
+| Email Kit responsibility | Document and hand off the observations only. **Not** an outstanding Email Kit design task. |
+| Email Kit design impact | None — do not reopen visual approval or create additional design requirements solely because of these backend observations |
+| HTML Preview | Both designs **COMPLETE** and owner visually approved; inert `example.com` links; do not execute approval or rejection operations |
+| Production security status | **Unresolved** — pending separately authorized Backend/Security investigation |
+| Production migration / integration | Security clearance must be determined by the responsible team before enabling the relevant production approval workflows. Requires separate owner authorization (workstream D). |
+| Evidence strength | Documented production security concern — **not** a claim that exploitation has been confirmed; do not describe as fixed or dismiss as harmless |
+| Evidence (preserve) | `qa-output/batch-20/BATCH_20_QA_REPORT.md`, `BATCH_20_IMPLEMENTATION_REPORT.md`, `BATCH_20_VISUAL_REVIEW.md` |
+| Possible remediation (not approved; Backend/Security selects) | Avoid executing state-changing operations directly on GET; open a confirmation page from the email link; authenticate the administrator and verify authorization; execute the confirmed action via a protected POST; consider CSRF protection, token validation, expiration and one-time-use semantics as appropriate; test email-security link scanning and prefetch behavior before production release. The responsible team must investigate the current implementation and select the appropriate solution. Do **not** implement or assume any proposed remediation is already approved. |
+
 Other Backend/Security observations (keep separate; same workstream C; statuses unchanged):
 
-- Marketing approval state-changing GET links (`festival_marketing_approval` / `festival_marketing_approval_sms`) — production remediation requires separate authorization; preview links are inert.
 - Marketing target HTML/body/media boundaries (`festival_rescounts_marketing_email_target`) — Go `text/template` inserts caller/request-derived values; preview escapes them; production trust-boundary review needs separate authorization.
 - Final-seven production trust-boundary observations (`text/template` HTML insertion, dynamic MIME headers, submitted demo URLs) — review required before production migration; not labeled confirmed exploitable vulnerabilities.
+
+### Distinction (do not collapse)
+
+| | Deliverable | Status |
+|---|---|---|
+| **A** | Email Kit design deliverables (incl. both marketing-approval HTML Previews) | **COMPLETE** and owner-approved |
+| **C** | Existing backend approval-link behavior for `festival_marketing_approval` / `festival_marketing_approval_sms` | Outside Email Kit design scope; **unresolved**; Backend/Security owns follow-up |
+| **D** | Production integration of those approval workflows | Requires separate owner authorization after security clearance |
 
 ### B — Email rendering and integration requirements
 

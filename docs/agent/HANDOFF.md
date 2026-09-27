@@ -9,10 +9,16 @@ owner visual approval.
 No further design implementation is authorized.
 
 Documentation update (2026-09-27): clarified
-ownership of the `organizer_announcement`
-security observation — Backend/Security,
+ownership of the consolidated Marketing Approval
+security observation (`festival_marketing_approval`
++ `festival_marketing_approval_sms`) — Backend/Security,
 outside Email Kit design scope; unresolved;
-documented and handed off only.
+documented and handed off only. Both HTML Previews
+remain owner visually approved.
+
+Prior documentation update (same day): clarified
+`organizer_announcement` trust-boundary ownership
+the same way.
 
 Production security review, actual email-client
 testing, CDN hosting and production migration
@@ -74,9 +80,28 @@ Approval is for **HTML Preview designs only**.
 | Evidence strength | Potential trust-boundary issue — **not** a confirmed exploitable vulnerability; not fixed; not dismissed as harmless |
 | Evidence | `qa-output/pilot-batch/PILOT_SECURITY_REVIEW.md` |
 
+**Marketing Approval — consolidated approval-link observation**
+
+One Backend/Security work item covering both Email and SMS marketing approval workflows. Preserve both template IDs for individual traceability.
+
+| Field | Value |
+|---|---|
+| Affected IDs | `festival_marketing_approval`, `festival_marketing_approval_sms` |
+| Category | Pre-existing Backend / Security observations |
+| Observation | Production approve/reject links may trigger state-changing operations via unauthenticated GET; scanners/prefetch may change approval status without intentional admin action |
+| Origin | Pre-existing production backend — **not** introduced by HTML Preview designs |
+| Ownership | **Backend / Security** |
+| Email Kit responsibility | Document and hand off only — **not** an Email Kit design task |
+| Design impact | None — do not reopen visual approval |
+| HTML Preview | Both **COMPLETE** and owner visually approved; inert `example.com` links |
+| Production security status | **Unresolved** — pending separately authorized Backend/Security investigation |
+| Production migration | Security clearance by Backend/Security required before enabling production approval workflows; integration needs separate owner auth |
+| Evidence strength | Documented concern — **not** confirmed exploitation |
+| Evidence | `qa-output/batch-20/BATCH_20_QA_REPORT.md`, `BATCH_20_IMPLEMENTATION_REPORT.md`, `BATCH_20_VISUAL_REVIEW.md` |
+| Possible remediation | Confirmation page + auth + protected POST (CSRF/token/expiry/one-time-use as appropriate); test prefetch/scanners — Backend/Security selects; **not** an approved implementation task |
+
 Other Backend/Security observations (keep separate; statuses unchanged):
 
-- `festival_marketing_approval` / `festival_marketing_approval_sms` — state-changing GET approval links.
 - `festival_rescounts_marketing_email_target` — caller-derived HTML/body/media boundaries.
 - Final-seven batch — `text/template` HTML insertion, dynamic MIME headers, submitted demo URL observations (see `FINAL_7_IMPLEMENTATION_REPORT.md`).
 
@@ -99,4 +124,4 @@ None for design implementation. Wait for explicit owner authorization before any
 
 ## Resume prompt
 
-"Continue Eveenty Email Kit from `docs/agent/HANDOFF.md` and follow `AGENTS.md`. Phase 1 HTML Preview design is complete: 59/11/48/48 designed/48 owner visually approved/0 undesigned. Do not implement further designs. The `organizer_announcement` trust-boundary observation is owned by Backend/Security (workstream C), unresolved, outside Email Kit design scope — document/hand off only. Level B client testing, CDN hosting and production migration (workstreams B/D) require new explicit owner authorization."
+"Continue Eveenty Email Kit from `docs/agent/HANDOFF.md` and follow `AGENTS.md`. Phase 1 HTML Preview design is complete: 59/11/48/48 designed/48 owner visually approved/0 undesigned. Do not implement further designs. Workstream C Backend/Security handoffs (unresolved, outside design scope): (1) `organizer_announcement` trust boundaries; (2) consolidated Marketing Approval GET approval-link observation covering `festival_marketing_approval` and `festival_marketing_approval_sms`. Level B client testing, CDN hosting and production migration (workstreams B/D) require new explicit owner authorization."
