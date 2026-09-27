@@ -6,7 +6,17 @@ Phase 1 HTML Preview design is complete.
 All 48 in-scope templates have explicit
 owner visual approval.
 
-No further design implementation is authorized.
+**Authorized Wallet adjustment applied (2026-09-27):**
+Owner FINAL design decision — Google Wallet
+**Condensed ONLY** at all viewport widths for
+`festival_ticket_sale` (en/ar/fr/es/fa).
+Responsive Primary↔Condensed switch removed.
+Active CDN upload inventory updated to
+**exactly 14 unique files**. No CDN upload
+performed.
+
+No further design implementation is authorized
+without new explicit owner authorization.
 
 Documentation update (2026-09-27): clarified
 ownership of the consolidated
@@ -36,16 +46,17 @@ explicit owner authorization.
 
 - Verified inventory: **59 physical / 11 excluded / 48 in scope**.
 - Designed HTML Preview: **48**.
-- Owner visually approved: **48**.
+- Owner visually approved: **48** (includes authorized Condensed-only Wallet adjustment).
 - Remaining `IN_SCOPE · UNDESIGNED`: **0**.
 - Real Gmail / Outlook / Apple Mail testing: **NOT RUN**.
+- Active CDN upload inventory: **14 unique files** (logos 5 + Google Condensed 5 + Apple 4). Earlier 19-file inventory **SUPERSEDED**. **0 uploads performed**; CDN URLs pending.
 
 ## Workstream separation
 
 | ID | Category | Email Kit owns? | Status |
 |---|---|---|---|
-| **A** | Completed Email Kit design deliverables | Yes | **DONE** — 48 HTML Preview designs, all owner visually approved |
-| **B** | Email rendering and integration requirements | No (needs auth) | **OPEN** — Level B client testing; CDN hosting |
+| **A** | Completed Email Kit design deliverables | Yes | **DONE** — 48 HTML Preview designs, all owner visually approved (Wallet Condensed-only adjustment applied) |
+| **B** | Email rendering and integration requirements | No (needs auth) | **OPEN** — Level B client testing; CDN hosting (14-file manifest ready; upload not authorized) |
 | **C** | Pre-existing Backend/Security observations | Document/hand off only | **OPEN** — unresolved; outside design scope |
 | **D** | Separately authorized production release work | No | **NOT AUTHORIZED** |
 
@@ -156,11 +167,11 @@ Technical subitems (Backend/Security investigation requirements — **do not** i
 ### B — Rendering / integration
 
 - Actual Gmail, Outlook and Apple Mail testing — **NOT RUN**.
-- CDN hosting of Wallet/official assets — **not authorized**.
+- CDN hosting of Wallet/official assets — **inventory ready (14 files); upload not authorized**.
 
 ### D — Production release
 
-CDN upload and production integration remain separately unauthorized. No backend, production template/YAML, Figma, official Wallet artwork, owner logo, staging, commit, push or deployment change is authorized by HTML Preview approval.
+CDN upload and production integration remain separately unauthorized. No backend, production template/YAML, Figma, official Wallet artwork mutation, owner logo, staging, commit, push or deployment change is authorized by HTML Preview approval.
 
 ## Tooling status
 
@@ -168,8 +179,8 @@ CDN upload and production integration remain separately unauthorized. No backend
 
 ## Next authorized action
 
-None for design implementation. Wait for explicit owner authorization before any Backend/Security investigation, Level B client testing, CDN hosting, Figma work, backend change, commit, push or deployment.
+Wait for explicit owner authorization before CDN upload, Backend/Security investigation, Level B client testing, Figma work, backend change, commit, push or deployment.
 
 ## Resume prompt
 
-"Continue Eveenty Email Kit from `docs/agent/HANDOFF.md` and follow `AGENTS.md`. Phase 1 HTML Preview design is complete: 59/11/48/48 designed/48 owner visually approved/0 undesigned. Do not implement further designs. Workstream C Backend/Security handoffs (unresolved, outside design scope): (1) `organizer_announcement` trust boundaries; (2) consolidated Marketing Approval GET approval-link observation covering `festival_marketing_approval` and `festival_marketing_approval_sms`; (3) consolidated `festival_rescounts_marketing_email_target` marketing-campaign content trust-boundary observation; (4) consolidated Final Seven — Backend/Security Review (`text/template` HTML, dynamic MIME headers, submitted demo URLs) covering the seven final templates. Level B client testing, CDN hosting and production migration (workstreams B/D) require new explicit owner authorization."
+"Continue Eveenty Email Kit from `docs/agent/HANDOFF.md` and follow `AGENTS.md`. Phase 1 HTML Preview design is complete: 59/11/48/48 designed/48 owner visually approved/0 undesigned. Owner FINAL Wallet decision applied: Google Condensed ONLY on `festival_ticket_sale`; active CDN inventory = 14 unique files (no upload yet). Do not implement further designs. Workstream C Backend/Security handoffs (unresolved, outside design scope): (1) `organizer_announcement` trust boundaries; (2) consolidated Marketing Approval GET approval-link observation covering `festival_marketing_approval` and `festival_marketing_approval_sms`; (3) consolidated `festival_rescounts_marketing_email_target` marketing-campaign content trust-boundary observation; (4) consolidated Final Seven — Backend/Security Review (`text/template` HTML, dynamic MIME headers, submitted demo URLs) covering the seven final templates. Level B client testing, CDN hosting and production migration (workstreams B/D) require new explicit owner authorization."

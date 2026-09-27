@@ -84,14 +84,19 @@ See `.agents/skills/email-rendering-compatibility/SKILL.md` and `shared/tokens.j
 
 **Implemented email kit values:** primary CTA `#e9d023` / `#4d4c49` (DS Large pad 13×24, Medium 500); branded header `#fefdf4`; heading `#2b2a28`; body / **meaningful muted** `#4d4c49` (Dark-500); decorative Dark-50 `#898988` only for non-essential/non-text; border `#ebebeb`; success text `#166534` on `#f0fdf4`; warning `#92400e` on `#fffbeb` border `#e6d1b9`; error title `#991b1b` / body `#4d4c49` on `#fef2f2`; container max 600; logo 160px.
 
-## Wallet (final)
+## Wallet (final — owner Condensed-only decision 2026-09-27)
+
 - Use downloaded **official** Apple and Google Wallet badges under `assets/wallet/official/` — not custom CSS buttons and not yellow Eveenty CDN badge images.
 - Preserve each provider’s original badge shape; do not edit official artwork.
-- Prepared preview locales for badges: en, ar, fr, es, fa (see `assets/wallet/official/README.md`). Condensed Google used on narrow viewports.
-- Production CDN upload of these assets — **not authorized**.
+- Prepared preview locales for badges: en, ar, fr, es, fa (see `assets/wallet/official/README.md`).
+- **Approved Google variant: Condensed ONLY** at all viewport widths (desktop / tablet / mobile). Google Primary is retained locally as unused reference and is **not** used in the approved `festival_ticket_sale` design and **not** in the active CDN upload list.
+- Apple Wallet: locale badges for en/ar/fr/es; Persian reuses English Apple artwork. Display height **48px**; intrinsic aspect ratios preserved (do not force identical widths).
+- Active CDN upload inventory: **exactly 14 unique files** (5 logos + 5 Google Condensed + 4 Apple). Earlier 19-file inventory (which included Google Primary) is **SUPERSEDED**. See `docs/agent/CDN_UPLOAD_MANIFEST.csv` and `docs/agent/CDN_ASSET_AUDIT.md`.
+- **No assets uploaded yet.** Actual CDN URLs remain pending. Production CDN upload — **not authorized** until separate owner authorization.
+- All 48 Phase 1 HTML Preview designs remain owner-approved (including this authorized Wallet adjustment). Level B Gmail/Outlook/Apple Mail testing remains **NOT RUN**.
 
 ## Current active task
-Phase 1 HTML Preview design is **complete**. All 48 in-scope templates have explicit owner visual approval. No further design implementation is authorized. Await owner authorization for any Backend/Security investigation, Level B client testing, CDN hosting or production migration.
+Phase 1 HTML Preview design is **complete** (including owner-authorized Google Condensed-only Wallet adjustment on `festival_ticket_sale`). All 48 in-scope templates remain owner visually approved. Await owner authorization for CDN upload, Backend/Security investigation, Level B client testing, or production migration.
 
 ## Known blockers / open items (by workstream)
 

@@ -306,17 +306,19 @@ export function primaryCtaYellow({ href, label, fontFamily = T.fontBody }) {
 }
 
 /**
- * Official multilingual Add to Wallet badges (owner OD-W1 option B, 2026-09-25).
- * Local PNGs under assets/wallet/official/{google,apple}/{locale}.png — sourced from
- * Apple Developer / Google Wallet brand kits (unmodified artwork; Apple SVGs rasterized
- * to PNG for email). Persian Apple falls back to English official badge.
+ * Official multilingual Add to Wallet badges (owner OD-W1 option B, 2026-09-25;
+ * Condensed-only Google decision 2026-09-27).
+ * Local PNGs under assets/wallet/official/ — sourced from Apple Developer / Google
+ * Wallet brand kits (unmodified artwork; Apple SVGs rasterized to PNG for email).
+ * Persian Apple falls back to English official badge.
  *
- * Google “primary” = wallet-button; “condensed” = add-wallet-badge (official pack).
- * Email uses primary on wide viewports and condensed ≤620px so 48px min height fits
- * at 320px without shrinking (Google: use condensed when space is limited).
+ * Google: official **condensed** `add-wallet-badge` exclusively at ALL viewport
+ * widths (desktop / tablet / mobile). Do not emit Google primary (`wallet-button`)
+ * in the approved festival_ticket_sale design. Primary PNGs remain on disk as
+ * unused reference assets only.
  *
  * Preview uses assetBase-relative paths. Production delivery requires CDN hosting —
- * see qa-output/.../OFFICIAL_MULTILINGUAL_WALLET_BADGES.md (do not upload without auth).
+ * see docs/agent/CDN_UPLOAD_MANIFEST.csv (do not upload without auth).
  *
  * Conditional: omit when href empty (GoogleWalletPassLink / AppleWalletPassFile).
  * Calendar remains separate text links — do not invent calendar badges here.
@@ -325,8 +327,10 @@ export function primaryCtaYellow({ href, label, fontFamily = T.fontBody }) {
 
 /** Intrinsic pixel sizes of prepared official PNGs (for email width/height attrs). */
 const WALLET_BADGE_INTRINSIC = {
+  // Retained for reference / tooling only — not used by walletActionButtons after
+  // the 2026-09-27 Condensed-only owner decision.
   google: {
-    // Primary: wallet-button
+    // Primary: wallet-button (unused in approved design; keep on disk)
     en: { w: 283, h: 50 },
     ar: { w: 936, h: 150 },
     fr: { w: 317, h: 50 },
@@ -334,7 +338,7 @@ const WALLET_BADGE_INTRINSIC = {
     fa: { w: 308, h: 50 },
   },
   googleCondensed: {
-    // Official add-wallet-badge (narrower; use when primary cannot fit at 48px)
+    // Official add-wallet-badge — sole Google variant in approved design
     en: { w: 199, h: 55 },
     ar: { w: 199, h: 55 },
     fr: { w: 199, h: 55 },
@@ -356,11 +360,20 @@ export function walletBadgeLocale(locale = 'en') {
   return WALLET_LOCALES.includes(locale) ? locale : 'en';
 }
 
-/** Relative preview path (or CDN once deployed). Never emit Windows absolute paths. */
-export function walletBadgeUrl(provider, locale = 'en', { condensed = false } = {}) {
+/**
+ * Relative preview path (or CDN once deployed). Never emit Windows absolute paths.
+ * Google always resolves to official condensed assets (owner 2026-09-27).
+ * Apple `fa` uses the English artwork file (approved Persian fallback).
+ */
+export function walletBadgeUrl(provider, locale = 'en', { condensed = true } = {}) {
   const loc = walletBadgeLocale(locale);
-  if (provider === 'google' && condensed) {
+  if (provider === 'google') {
+    // Condensed-only: ignore `condensed` false — primary is not used in approved design.
+    void condensed;
     return `${assetBase}assets/wallet/official/google/condensed/${loc}.png`;
+  }
+  if (provider === 'apple' && loc === 'fa') {
+    return `${assetBase}assets/wallet/official/apple/en.png`;
   }
   return `${assetBase}assets/wallet/official/${provider}/${loc}.png`;
 }
@@ -429,23 +442,12 @@ export function walletActionButtons({
   };
 
   const googleCell = (padding) => {
-    const primary = walletBadgeDisplaySize('google', loc, displayHeight);
+    // Owner FINAL decision 2026-09-27: Google Condensed ONLY at all widths.
+    // No responsive Primary↔Condensed swap. Preserve 48px height + intrinsic aspect ratio.
     const condensed = walletBadgeDisplaySize('googleCondensed', loc, displayHeight);
-    const primarySrc = walletBadgeUrl('google', loc, { condensed: false });
     const condensedSrc = walletBadgeUrl('google', loc, { condensed: true });
-    // Dual official assets: primary on wide; condensed ≤620px so 48px fits at 320 without shrink.
-    // Hide the unused *link* (not only the img) so empty anchors cannot skew valign.
-    // Outlook ignores MQ → primary only (desktop pane is wide enough).
     return `
-        <td class="wallet-btn" align="center" valign="middle" width="${primary.width}" style="${cellBase.replace('__PAD__', padding)}width:${primary.width}px;">${badgeLink({
-            href: googleHref,
-            src: primarySrc,
-            label: googleLabel,
-            width: primary.width,
-            height: primary.height,
-            imgClass: 'wallet-google-primary',
-            linkClass: 'wallet-google-primary-link',
-          })}${badgeLink({
+        <td class="wallet-btn" align="center" valign="middle" width="${condensed.width}" style="${cellBase.replace('__PAD__', padding)}width:${condensed.width}px;">${badgeLink({
             href: googleHref,
             src: condensedSrc,
             label: googleLabel,
@@ -453,7 +455,6 @@ export function walletActionButtons({
             height: condensed.height,
             imgClass: 'wallet-google-condensed',
             linkClass: 'wallet-google-condensed-link',
-            linkStyle: 'display:none;mso-hide:all;max-height:0;overflow:hidden;',
           })}</td>`;
   };
 
@@ -561,29 +562,8 @@ export function wrapEmailDocument({ lang, dir, title, bodyRows, preheader, fontF
       .wallet-btn { display: block !important; width: 100% !important; max-width: 100% !important; margin: 0 0 16px 0 !important; text-align: center !important; padding-left: 0 !important; padding-right: 0 !important; font-size: 0 !important; line-height: 0 !important; }
       .wallet-btn:last-child { margin-bottom: 0 !important; }
       .wallet-row, .wallet-row tbody, .wallet-row tr { display: block !important; width: 100% !important; }
-      /* Never fluid-shrink below 48px — swap to official condensed Google asset instead.
-         Hide/show the *link wrappers* so empty anchors cannot skew stack spacing. */
-      .wallet-google-primary-link {
-        display: none !important;
-        mso-hide: all !important;
-        max-height: 0 !important;
-        overflow: hidden !important;
-        width: 0 !important;
-        height: 0 !important;
-      }
-      .wallet-google-condensed-link {
-        display: inline-block !important;
-        max-height: none !important;
-        overflow: visible !important;
-        width: auto !important;
-        height: auto !important;
-      }
-      .wallet-google-primary {
-        display: none !important;
-      }
-      .wallet-google-condensed {
-        display: block !important;
-      }
+      /* Google Condensed only (owner 2026-09-27) — no Primary↔Condensed media-query swap.
+         Badge height stays pinned at 48px via img.wallet-badge-img. */
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !important; }
       /* Flush outer pad on small screens so wallet can use full viewport width. */
       .outer-pad { padding-left: 0 !important; padding-right: 0 !important; }

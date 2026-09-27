@@ -317,3 +317,18 @@ Agent skills/rules/docs were updated only where stale or contradictory; no new s
 - **Preserved separately (status unchanged):** `organizer_announcement` subject/header and caller-supplied HTML observations; consolidated Marketing Approval GET approval-link observation (`festival_marketing_approval` / `festival_marketing_approval_sms`); consolidated `festival_rescounts_marketing_email_target` marketing-campaign content trust-boundary observation; Level B Gmail/Outlook/Apple Mail testing; CDN hosting and production integration.
 - Phase 1 inventory unchanged: **59 / 11 / 48 / 48 designed / 48 owner visually approved / 0 undesigned**. Do not reopen visual approval of the final seven or any earlier templates.
 
+---
+
+**[2026-09-27 — FINAL OWNER DESIGN DECISION: Google Wallet Condensed ONLY]**
+
+- Owner FINAL authorization: use official Google Wallet **Condensed** badges exclusively at **all** viewport widths (desktop / tablet / mobile) for `festival_ticket_sale`, all five locales (en/ar/fr/es/fa). Purpose: more balanced visual appearance alongside Apple Wallet.
+- **Do not** use Google Wallet Primary anywhere in the approved `festival_ticket_sale` design after this change. Primary PNGs retained on disk as unused reference assets — **not deleted**, **not** CDN-upload candidates.
+- Removed the responsive Primary↔Condensed media-query switch from Wallet rendering (`shared/email-kit.js` `walletActionButtons` + shared shell CSS). Regenerated **only** `emails/festival_ticket_sale.html`. Other 47 approved HTML Preview designs were **not** regenerated or redesigned.
+- Preserved: ticket-sale content, locale mappings, Apple Wallet links/artwork, Wallet action URLs, original badge proportions (48px height, intrinsic widths), email structure, other approved shared components. Persian Apple continues to use English Apple artwork (`apple/en.png`).
+- **CDN inventory SUPERSEDED:** earlier proposed **19-file** upload list (logos + Google Primary + Condensed + Apple) replaced by owner-approved **14 unique files** — 5 logos + 5 Google Condensed + 4 Apple (`en`/`ar`/`fr`/`es`; `fa` reuses `en`). Manifest: `docs/agent/CDN_UPLOAD_MANIFEST.csv`. Audit: `docs/agent/CDN_ASSET_AUDIT.md`.
+- **No CDN upload performed.** Actual CDN URLs remain pending. No placeholder CDN URLs introduced into production email output.
+- All **48** Phase 1 HTML Preview designs remain owner-approved, including this authorized Wallet adjustment.
+- Actual Gmail / Outlook / Apple Mail testing remains **NOT RUN**.
+- No Primary-only or Condensed-only re-experiment; no further visual comparison requested before implementation.
+- No backend, production template/YAML, Figma, official Wallet artwork mutation, staging, commit, push, or deployment.
+
