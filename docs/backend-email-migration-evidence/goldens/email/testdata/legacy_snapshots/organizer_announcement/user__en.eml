@@ -1,0 +1,14 @@
+From: "Eveenty" <noreply@snapshot.invalid>
+To: <buyer@snapshot.invalid>
+Subject: Festival Announcement
+Content-Type: text/html; charset="utf-8"
+
+<html>
+	<body>
+		<div>
+			<img style="padding-top: 0.25em;padding-bottom:0.5em; height: 5rem;" src="https://cdn.eveenty.com/eveenty-logo-1280.png">
+		</div>
+
+		<div>We have an important update about the event.</div>
+	</body>
+</html>

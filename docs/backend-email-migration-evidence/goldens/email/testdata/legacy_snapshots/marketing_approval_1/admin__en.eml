@@ -1,0 +1,124 @@
+From: "Eveenty" <noreply@snapshot.invalid>
+To: "Snapshot Admin" <restaurant-admin@snapshot.invalid>
+Subject: Marketing campaign Snap Kitchen
+Content-Type: text/html; charset="utf-8"
+
+Hi, Mr.Hany
+
+<br>
+Snap Kitchen Requesting to send 200  email with the cost of $100.00 CAD <br>
+Email Template will be Number template 1 <br>
+Please double check that the email has Rdeals code Before Approving <br>
+                            here is how the email will look like 
+<br>
+<br>
+<br>                            
+Subject : Snap Kitchen: New Menu Items!
+
+<br>
+<br>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template 1</title>
+    
+  </head>
+  <body style="padding-top: 2rem;width: 80%;margin: auto; gap: 2rem;">
+    <div class="image-content" style="border-bottom: 1px solid #00000017;display: table;width: 100%;padding-bottom: 1rem;margin-bottom: 2rem;">
+      <img class="logo-img" src="https://cdn.eveenty.com/eveenty-logo-1280.png" style="float: left;width: 15%;">
+      
+        <img class="pizza-img" src="https://cdn.snapshot.invalid/restaurant-thumb.jpg" style="float: right;width: 8%;">
+      
+        <img src="" style="visibility: hidden; width:0; height:0;">
+    </div>
+    <div class="email-container" style="background-color: #f5f5f5;height: auto;padding-top: 2rem;padding-bottom: 2rem;gap: 2rem;box-shadow: 0px 0px 2px #00000017;border-radius: 6px;opacity: 1;">
+      <div style="
+          width: 90%;
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 50px;
+        ">
+        <img src="" alt="special-offer" style="
+            width: 75%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          ">
+      </div>
+      <div class="email-content" style="width: 95%;">
+        <p class="email" style="padding: 0;margin: 0;font-family: sans-serif;color: #474746;font-size: 15px;line-height: 3;margin-left: 2.5rem;font-weight: 500;">Check out our delicious new menu items.</p>
+      </div>
+    </div>
+    <p class="thank-you" style="padding: 0;margin: 0;font-family: Inter sans-serif;text-align: center;color: #000000;font-size: 25px;font-weight: bold;">Thank You!</p>
+
+
+    
+    
+      <button class="send" style="float: unset;margin: 10px auto;display: block;width: auto;height: auto;background-color: #e9d023;border: none;color: #ffffff;border-radius: 8px;">
+        <a href="https://www.eveenty.com/pickup/restaurant-fixed-001" target="_blank" style="
+            color: inherit;
+            text-decoration: none;
+            padding: 46px 50px;
+            padding: 25px 50px;
+            display: inline-block;
+            font-size: 25px;
+          ">Order Now
+        </a>
+      </button>
+    
+
+    <div class="rescoutns-email" style="padding-top: 1.5rem;padding-bottom: 1.5rem;color: #727272;font-size: 15px;border-top: 1px solid #00000017;border-bottom: 1px solid #00000017;">
+      <p style="padding: 0;margin: 0;font-family: sans-serif;">
+        For questions regarding your order, please email info@eveenty.com
+        <br>or call 1 (855) 552-1522 (9AM - 9PM).
+      </p>
+    </div>
+    <div class="socai-media-container" style="display: table;padding-top: 3rem;width: 100%;">
+      <div class="socai-media" style="float: left;width: 45%;">
+        <a href="https://wa.link/9nqo8w" style="text-decoration: none" target="_blank">
+          <img src="https://cdn.eveenty.com/MaskGroup386.png" class="icon" style="width: 22px;padding-right: 9px;height: 22px;">
+        </a>
+
+        <a href="https://www.linkedin.com/company/eveenty/" style="text-decoration: none" target="_blank">
+          <img class="icon" src="https://cdn.eveenty.com/MaskGroup385.png" style="width: 22px;padding-right: 9px;height: 22px;">
+        </a>
+
+        <a href="https://www.facebook.com/61565784336714" style="text-decoration: none" target="_blank">
+          <img class="icon" src="https://cdn.eveenty.com/MaskGroup387.png" style="width: 22px;padding-right: 9px;height: 22px;">
+        </a>
+
+        <a href="https://x.com/eveenty" style="text-decoration: none" target="_blank">
+          <img class="icon" src="https://cdn.eveenty.com/MaskGroup384.png" style="width: 22px;padding-right: 9px;height: 22px;">
+        </a>
+
+        <a href="https://www.instagram.com/eveentyofficial/" style="text-decoration: none" target="_blank">
+          <img class="icon" src="https://cdn.eveenty.com/MaskGroup389.png" style="width: 22px;padding-right: 9px;height: 22px;">
+        </a>
+      </div>
+      <div class="terms-content" style="width: 45%;float: right;">
+        <p class="terms1" style="padding: 0;margin: 0;font-family: sans-serif;float: left;margin-right: 1rem;font-size: 13px;color: #004dff;text-decoration: underline;">
+          <a href="https://www.eveenty.com/termsofuse.php" target="_blank">Terms of Service
+        </a></p>
+        <p class="terms2" style="padding: 0;margin: 0;font-family: sans-serif;float: right;font-size: 13px;color: #004dff;text-decoration: underline;">
+          <a href="https://www.eveenty.com/privacypolicy" target="_blank">Privacy Policy
+        </a></p>
+        <p class="terms1" style="padding: 0;margin: 0;font-family: sans-serif;float: left;margin-right: 1rem;font-size: 13px;color: #004dff;text-decoration: underline;"><a href="" target="_blank">Unsubscribe</a></p>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+<div class="btn-container" style="display: table;width: 50%; margin: auto; padding-top: 2rem; margin-bottom: 3rem;">
+  <button style="float: left; height: 52px; width: 45%; background-color: #9d9ea0; border: none; color: #ffffff; border-radius: 8px;"> <a href="https://api.snapshot.invalid/api/v1/restaurants/marketing/rest-mkt-fixed-001/decline" style="text-decoration: none; color: #ffffff;">Reject</a></button>
+  <button style="float: right; height: 52px; width: 45%; background-color: #e9d023; border: none; color: #ffffff; border-radius: 8px;"><a href="https://api.snapshot.invalid/api/v1/restaurants/marketing/rest-mkt-fixed-001/email_approved" style="text-decoration: none; color: #ffffff;">Approve</a></button>
+</div>

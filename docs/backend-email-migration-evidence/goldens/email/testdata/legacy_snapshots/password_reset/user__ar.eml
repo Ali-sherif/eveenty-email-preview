@@ -1,0 +1,41 @@
+From: "Eveenty Security" <noreply@snapshot.invalid>
+To: "Alice Snapshot" <buyer-ar@snapshot.invalid>
+Subject: طلب إعادة تعيين كلمة مرور ايفينتي
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" type="text/css">
+  <title>إعادة تعيين كلمة مرور ايفينتي</title>
+</head>
+<body dir="rtl" style="background-color: rgb(255,255,220); margin: 0; padding: 0; font-family: 'Roboto', Arial, Helvetica, sans-serif; color: #222; direction: rtl;">
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: rgb(255,255,220); padding: 0; margin: 0; direction: rtl;">
+    <tr>
+      <td align="center">
+        <table width="480" cellpadding="0" cellspacing="0" border="0" style="background: #fffbe6; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); margin: 40px 0; direction: rtl;">
+          <tr>
+            <td align="center" style="padding: 32px 0 16px 0;">
+              <img src="https://cdn.eveenty.com/assets/logo_transparent_ar.png" alt="Eveenty Logo" width="120" style="display: block; margin: 0 auto;">
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0 32px 16px 32px;">
+              <h2 style="font-family: 'Roboto', Arial, sans-serif; color: #bfa100; font-size: 22px; font-weight: 700; margin: 0 0 16px 0;">طلب إعادة تعيين كلمة المرور</h2>
+              <p style="font-size: 16px; color: #333; margin: 0 0 16px 0;">مرحباً <b><bdi>Alice Snapshot</bdi></b>،</p>
+              <p style="font-size: 15px; color: #444; margin: 0 0 24px 0;">تلقينا طلباً لإعادة تعيين كلمة مرور حساب ايفينتي الخاص بك. للمتابعة، يرجى استخدام رمز التحقق أدناه في تطبيق ايفينتي:</p>
+              <div style="background: #fff7b2; border-radius: 6px; padding: 18px 0; margin: 0 0 24px 0; text-align: center;">
+                <span dir="ltr" style="font-size: 32px; font-weight: 700; color: #bfa100; letter-spacing: 1px; unicode-bidi: embed;">RESET-TOKEN-FIXED</span>
+              </div>
+              <p style="font-size: 14px; color: #666; margin: 0 0 16px 0;">إذا لم تطلب إعادة تعيين كلمة المرور، يُرجى تجاهل هذا البريد أو <a href="mailto:info@eveenty.com" style="color: #bfa100; text-decoration: underline;">التواصل مع فريق الدعم</a> على الفور.</p>
+              <p style="font-size: 13px; color: #999; margin: 32px 0 0 0;">تم إرسال هذه الرسالة إلى <a href="mailto:buyer-ar@snapshot.invalid" dir="ltr" style="color: #bfa100; text-decoration: none; unicode-bidi: embed;">buyer-ar@snapshot.invalid</a>.</p>
+              <p style="font-size: 12px; color: #bbb; margin: 8px 0 0 0; direction: ltr;">© Eveenty، 10 - 225 The East Mall Suite #1264 - تورونتو - أونتاريو - M9B 0A9</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

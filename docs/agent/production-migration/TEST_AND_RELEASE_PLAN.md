@@ -58,10 +58,11 @@ Cover: branded header/logos, RTL samples, `festival_ticket_sale` Wallet Condense
 | 2 | CDN verified on hosts in use (14 assets: HTTPS 200, image/png, SHA-256 vs manifest) | Infra + Backend | NOT RUN — URLs PENDING (Staging optional if env absent) |
 | 3 | Level B real-client pass | QA | NOT RUN |
 | 4 | Backend/Security disposition recorded for **all four** handoffs (11 ids) | Backend/Security | NOT RUN / unresolved |
-| 5 | Backend confirms rollback capability in place | Backend | Mechanism implemented (switch OFF); formal confirmation NOT RUN |
-| 6 | Owner authorizes activation (all 48 together) | Owner | **AUTHORIZED for mechanism/prep (2026-09-28)** — live cutover still blocked on CDN + gates 2–5 |
+| 5 | Backend confirms rollback capability in place | Backend | Mechanism = prior known-good production release redeploy (no runtime Kit toggle); formal confirmation NOT RUN |
+| 6 | Owner authorizes production deploy (all 48 together) | Owner | **AUTHORIZED for deploy-based cutover (2026-09-28)** — live cutover still blocked on CDN + gates 2–5 |
 
-Activation implementation prep: see `P4_ACTIVATION_PREP_REPORT.md` and `P4_CDN_CONFIGURATION_CHECKLIST.md`.
+Cutover implementation: see `P4_ACTIVATION_PREP_REPORT.md` and `P4_CDN_CONFIGURATION_CHECKLIST.md`.  
+**Superseded:** earlier gate text that treated `EMAIL_KIT_ENABLED=false` as rollback.
 
 ---
 

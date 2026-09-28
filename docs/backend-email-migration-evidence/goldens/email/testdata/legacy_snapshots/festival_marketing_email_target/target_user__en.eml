@@ -1,0 +1,40 @@
+From: "Eveenty" <noreply@snapshot.invalid>
+To: "Alice Snapshot" <buyer@snapshot.invalid>
+Subject: Come Join Snapshot Festival 2026!
+Content-Type: text/html; charset="utf-8"
+
+ <html>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <body style="font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;">
+      <header style="
+          text-align: center;
+          font-size: 35px;
+          color: white;">
+        <h2>
+          <img src="https://cdn.snapshot.invalid/logo-fixed-001.jpg" alt="festival_logo">
+        </h2>
+      </header>
+  
+      <article style="text-align: center;
+        background-color: #fff7f8;">
+          <p> We are excited to invite you to our annual snapshot festival. </p>
+          <img src="" alt="" width="75%"></img>
+          <br>
+          <br>
+      </article>
+
+      <nav style="padding:30px;"></nav>
+  
+    <footer style="background-color: #777;
+    padding: 5px;
+    text-align: center;
+    color: white;">
+      <p>Powered by Eveenty</p>
+      <p> Want to change how you receive these emails?<br>
+        You can update your preferences<br>
+        or <a href="https://api.snapshot.invalid/api/v1/users/user-fixed-001/subscription">unsubscribe </a>from this list.<br>
+      </p>
+    </footer>
+  </body>
+</html>
+    

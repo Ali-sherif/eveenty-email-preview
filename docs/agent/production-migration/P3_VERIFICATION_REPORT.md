@@ -6,6 +6,8 @@
 **Backend changes:** uncommitted (test-only + documented kit fixes).  
 **Switch:** `EMAIL_KIT_ENABLED` default OFF. Nothing active in any real environment.
 
+> **SUPERSEDED (2026-09-28):** `EMAIL_KIT_ENABLED` removed. Kit readiness = 48 parse + eligible CDN; cutover = deploy. See `DECISION_LOG.md` / `P4_ACTIVATION_PREP_REPORT.md`.
+
 ---
 
 ## Explicit non-claims (standing)

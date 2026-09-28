@@ -1,0 +1,37 @@
+From: "Eveenty" <noreply@snapshot.invalid>
+To: "Snapshot Admin" <restaurant-admin@snapshot.invalid>
+Subject: Marketing SMS campaign Snap Kitchen
+Content-Type: text/html; charset="utf-8"
+
+Hi, Mr Hany
+
+<br>
+Snap Kitchen Requesting to send 150  SMS with the cost of $75.00 CAD <br>
+you can approve or decline the marketing campaign from buttons at the end of the email<br>
+                            here is the SMS Message
+<br>
+<br>
+
+Snap Kitchen is open! Come dine with us.
+
+
+<div>
+  <a style="font-size: 25px;
+        font-family: Helvetica, Arial, sans-serif;
+        background-color:#e6ca1a;
+        color:white;
+        text-decoration: Bold;
+        border-radius: 3px;
+        padding: 12px 18px;
+        border: 1px solid ;
+        display: inline-block;" href="https://api.snapshot.invalid/api/v1/restaurants/marketing/sms/rest-sms-fixed-001/approve"> Approve</a>
+        <a style="font-size: 25px;
+        font-family: Helvetica, Arial, sans-serif;
+        background-color:#e6ca1a;
+        color:white;
+        text-decoration: Bold;
+        border-radius: 3px;
+        padding: 12px 18px;
+        border: 1px solid ;
+        display: inline-block;" href="https://api.snapshot.invalid/api/v1/restaurants/marketing/sms/rest-sms-fixed-001/decline"> Decline</a>
+</div>    

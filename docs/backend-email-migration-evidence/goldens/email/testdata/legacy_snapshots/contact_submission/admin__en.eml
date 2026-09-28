@@ -1,0 +1,166 @@
+From: "Eveenty" <noreply@snapshot.invalid>
+To: "Eveenty Snapshot" <eveenty-admin@snapshot.invalid>
+Subject: New Contact Form Submission
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Submission Email</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <style>
+      @media (max-width: 900px) {
+        p {
+          font-size: 14px !important;
+        }
+      }
+
+      @media (min-width: 320px) and (max-width: 600px) {
+        .headContainer {
+          width: 107px !important;
+        }
+
+        body {
+          padding: 0 15px !important;
+        }
+
+        .icon {
+          width: 15px !important;
+          height: 15px !important;
+        }
+
+        p {
+          font-size: 12px !important;
+        }
+
+        .footerLogo {
+          height: 15px !important;
+        }
+        
+        /*
+        .emailContainer {
+          padding: 20px !important;
+        }
+        */
+      }
+
+      @media (min-width: 180px) and (max-width: 320px) {
+        .headContainer {
+          width: 107px !important;
+        }
+
+        body {
+          padding: 0 10px !important;
+        }
+
+        .icon {
+          width: 15px !important;
+          margin-right: 5px !important;
+          height: 15px !important;
+        }
+
+        p {
+          font-size: 12px !important;
+        }
+
+        .footerLogo {
+          height: 15px !important;
+        }
+
+        /*
+        .emailContainer {
+          padding: 20px !important;
+        }
+        */
+      }
+    </style>
+  </head>
+
+  <body style="padding: 32px; font-family: Arial, sans-serif; background-color: #ffffff; width: auto;">
+    <div class="headContainer" style="width: 125px; height: 43px; padding: 0 32px; margin-bottom: 24px; margin-top: 32px;">
+      <img src="https://cdn.eveenty.com/eveenty-logo-1280.png" alt="Eveenty Logo" style="width: 100%; height: auto" />
+    </div>
+    <div class="emailContainer" style="margin: 0 auto; background-color: #ffffff; padding: 32px; border: none; border-radius: 4px 4px 0px 0px;">
+      <!-- Email content -->
+      <div style="margin-bottom: 16px; font-size: 16px; color: #333; line-height: 24px; font-family: 'Inter', sans-serif;">
+        <p style="margin: 0; padding: 0; font-size: 16px; color: #333; line-height: 24px; font-family: 'Inter', sans-serif;">
+          Hi Team,
+        </p>
+
+        <p style="font-size: 16px; color: #333; line-height: 24px">
+          You have received a new submission from the "Contact Us" form.<br />
+          Below are the details:
+        </p>
+
+        <p style="margin: 0; padding: 0; font-size: 16px; color: #333; line-height: 24px;">
+          <span>Name:</span> Carol Contact
+        </p>
+
+        <p style="margin: 0; padding: 0; font-size: 16px; color: #333; line-height: 24px;">
+          <span>Email:</span> contact@snapshot.invalid
+        </p>
+
+        <p style="margin: 0; padding: 0; font-size: 16px; color: #333; line-height: 24px;">
+          <span>Phone:</span> +14165000001
+        </p>
+
+        <p style="margin: 0; padding: 0; font-size: 16px; color: #333; line-height: 24px;">
+          <span>Business Name:</span> Snap Corp
+        </p>
+
+        <p style="margin: 0; padding: 0; font-size: 16px; color: #333; line-height: 24px;">
+          <span>Topic:</span> general
+        </p>
+
+        <p style="margin: 0; padding: 0; font-size: 16px; color: #333; line-height: 24px;">
+          <span>Message:</span><br />
+          <pre style="font-family: inherit;">Hello, this is a snapshot contact message.</pre>
+        </p>
+
+        <p style="margin: 0; padding: 0; font-size: 16px; color: #333; line-height: 24px;">
+          Please follow up with this customer at your earliest convenience.
+        </p>
+
+        <p style="margin: 0; padding: 0; font-size: 16px; color: #333; line-height: 24px; margin-top: 15px;">
+          Best regards,<br />
+          Eveenty
+        </p>
+      </div>
+
+      <!-- Footer with social media icons and bottom logo -->
+      <div style="margin-top: 16px; overflow: visible">
+        <!-- Social media icons -->
+        <div style="float: left">
+          <a href="https://www.instagram.com/eveentyofficial/" target="_blank" style="text-decoration: none">
+            <img class="icon" src="https://cdn.eveenty.com/icon_instagram.png" alt="Instagram" style="width: 30px; height: 30px; margin-right: 10px" />
+          </a>
+
+          <a href="https://wa.me/+16479366343" target="_blank" style="text-decoration: none">
+            <img class="icon" src="https://cdn.eveenty.com/icon_whatsapp.png" alt="WhatsApp" style="width: 30px; height: 30px; margin-right: 10px" />
+          </a>
+
+          <a href="https://x.com/eveenty" target="_blank" style="text-decoration: none">
+            <img class="icon" src="https://cdn.eveenty.com/icon_twitter.png" alt="Twitter" style="width: 30px; height: 30px; margin-right: 10px" />
+          </a>
+
+          <a href="https://www.linkedin.com/company/eveenty/" target="_blank" style="text-decoration: none">
+            <img class="icon" src="https://cdn.eveenty.com/icon_linkedin.png" alt="LinkedIn" style="width: 30px; height: 30px; margin-right: 10px" />
+          </a>
+        </div>
+
+        <!-- Logo at the bottom right -->
+        <div style="float: right; width: 80px; height: auto; position: relative;">
+          <img class="footerLogo" style="width: auto; height: 30px; float: right; display: inline-block; position: absolute; top: 0; right: 0;" src="https://cdn.eveenty.com/eveenty-logo-1280.png" alt="Eveenty Logo" />
+        </div>
+
+        <div style="clear: both;"></div>
+      </div>
+
+
+    </div>
+  </body>
+</html>

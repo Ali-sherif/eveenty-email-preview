@@ -1,0 +1,68 @@
+From: "Eveenty Refunds" <noreply@snapshot.invalid>
+To: "Snapshot Admin" <admin@snapshot.invalid>
+Subject: Snapshot Festival 2026 | Deposit Refund | Admin Email
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Deposit refund</title>
+</head>
+	<body style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: #292929; min-width: 600px;" dir="ltr">
+		
+<div style="width: 100%; height: 5em; padding-top: 1.8em;" dir="ltr">
+  <div style="width: 100%; height: 5em; background: linear-gradient(90deg, #E8CF21 50%, #E8CF21 50%); background-repeat: no-repeat; background-size: 100% 15%; background-position: center;">
+    <img style="padding: 0 50px; margin: 0 50px; background-color:rgb(250, 255, 222); height: 5em; width: auto; float: right;" src="https://cdn.eveenty.com/assets/logo_transparent_en.png" alt="">
+  </div>
+</div>
+
+
+		<div dir="ltr" style="text-align: left;">
+			<h5 style="font-size: 120%; font-weight: 600; padding: 1em 2em 0 2em; margin: 0;">
+				Dear <span dir="auto" style="unicode-bidi: isolate;">Snapshot Admin</span>,<br /><br />The second payment for Booth <span style="color: #d80073; unicode-bidi: isolate;" dir="auto">Snap Booth A1</span> at <span style="color: #d80073; unicode-bidi: isolate;" dir="auto">Snapshot Festival 2026</span>, which was due on <span dir="ltr">NORMALIZED_DATE</span>, did not go through, despite several attempts.<br /><br />The first payment has been refunded to <span style="color: #d80073; unicode-bidi: isolate;" dir="auto">Charlie Vendor</span>, minus the penalty amount. The booking is now cancelled, and the booth now is available to be sold once again.<br /><br />Please feel free to give us a call at <span dir="ltr">1 (855) 552-1522</span> for any further assistance.
+			</h5>
+		</div>
+
+		<br /> <br />
+
+		<div dir="ltr" style="text-align: left; padding: 0 2em;">
+		 <div class="wrapper">
+        <table style="border-spacing: 0;border-collapse: collapse;border-style: hidden;margin-top: 2rem;margin-bottom: 3rem;background-color: #00000028;width: 100%;height: auto;border-radius: 12px;">
+          <thead>
+            <tr>
+              <th class="th" style="font-size: 20px;padding: 12px;border: 1px solid #00000028;font-family: sans-serif;font-weight: 500;text-align: center;border-collapse: collapse;background-color: #f5f5f5;color: #e9d023;">ID</th>
+							<th class="th" style="font-size: 20px;padding: 12px;border: 1px solid #00000028;font-family: sans-serif;font-weight: 500;text-align: center;border-collapse: collapse;background-color: #f5f5f5;color: #e9d023;">Name</th>
+							<th class="th" style="font-size: 20px;padding: 12px;border: 1px solid #00000028;font-family: sans-serif;font-weight: 500;text-align: center;border-collapse: collapse;background-color: #f5f5f5;color: #e9d023;">Initial Payment Amount</th>
+							<th class="th" style="font-size: 20px;padding: 12px;border: 1px solid #00000028;font-family: sans-serif;font-weight: 500;text-align: center;border-collapse: collapse;background-color: #f5f5f5;color: #e9d023;">Penalty Amount</th>
+							<th class="th" style="font-size: 20px;padding: 12px;border: 1px solid #00000028;font-family: sans-serif;font-weight: 500;text-align: center;border-collapse: collapse;background-color: #f5f5f5;color: #e9d023;">Refunded Cost</th>
+							<th class="th" style="font-size: 20px;padding: 12px;border: 1px solid #00000028;font-family: sans-serif;font-weight: 500;text-align: center;border-collapse: collapse;background-color: #f5f5f5;color: #e9d023;">Refunded Tax</th>
+							<th class="th" style="font-size: 20px;padding: 12px;border: 1px solid #00000028;font-family: sans-serif;font-weight: 500;text-align: center;border-collapse: collapse;background-color: #f5f5f5;color: #e9d023;">Bank Fees</th>
+							<th class="th" style="font-size: 20px;padding: 12px;border: 1px solid #00000028;font-family: sans-serif;font-weight: 500;text-align: center;border-collapse: collapse;background-color: #f5f5f5;color: #e9d023;">Total Refunded</th>
+            </tr>
+          </thead>
+          <tbody>
+						<tr>
+							<td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: sans-serif;font-weight: 500;font-size: 18px;"><span dir="ltr">#sale-</span></td>
+							<td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: sans-serif;font-weight: 500;font-size: 18px;"><span dir="auto" style="unicode-bidi: isolate;">Snap Booth A1</span></td>
+							<td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: sans-serif;font-weight: 500;font-size: 18px;"><span dir="ltr">$250.00 CAD</span></td>
+							<td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: sans-serif;font-weight: 500;font-size: 18px;"><span dir="ltr">- $0.00 CAD</span></td>
+							<td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: sans-serif;font-weight: 500;font-size: 18px;"><span dir="ltr">$0.00 CAD</span></td>
+							<td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: sans-serif;font-weight: 500;font-size: 18px;"><span dir="ltr">$0.00 CAD</span></td>
+							<td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: sans-serif;font-weight: 500;font-size: 18px;"><span dir="ltr">- $0.00 CAD</span></td>
+							<td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: sans-serif;font-weight: 500;font-size: 18px;"><span dir="ltr">$0.00 CAD</span></td>
+						</tr>
+          </tbody>
+        </table>
+      </div>
+		</div>
+		
+		<br /> 
+		<br />
+
+		<div style="text-align: left; padding: 1em 2em 0 2em;" dir="ltr">
+			<img src="https://cdn.eveenty.com/assets/logo_transparent_en.png" style="height: auto; width: 380px;" alt="">
+		</div>
+	</body>
+</html>

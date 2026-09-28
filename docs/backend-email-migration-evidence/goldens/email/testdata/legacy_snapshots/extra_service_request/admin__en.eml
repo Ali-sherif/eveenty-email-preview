@@ -1,0 +1,59 @@
+From: "Eveenty" <noreply@snapshot.invalid>
+To: "Eveenty Snapshot" <eveenty-admin@snapshot.invalid>
+Subject: New Extra Service Request
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Extra Service Request</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      @media (max-width: 900px) { p { font-size: 14px !important; } }
+      @media (min-width: 320px) and (max-width: 600px) { p { font-size: 12px !important; } }
+      @media (min-width: 180px) and (max-width: 320px) { p { font-size: 12px !important; } }
+    </style>
+  </head>
+  <body style="padding: 32px; font-family: Arial, sans-serif; background-color: #ffffff; width: auto;">
+    <div class="headContainer" style="width: 125px; height: 43px; padding: 0 32px; margin-bottom: 24px; margin-top: 32px;">
+      <img src="https://cdn.eveenty.com/eveenty-logo-1280.png" alt="Eveenty Logo" style="width: 100%; height: auto" />
+    </div>
+    <div class="emailContainer" style="margin: 0 auto; background-color: #ffffff; padding: 32px; border: none; border-radius: 4px 4px 0px 0px;">
+      <div style="margin-bottom: 16px; font-size: 16px; color: #333; line-height: 24px; font-family: 'Inter', sans-serif;">
+        <p style="margin: 0; padding: 0; font-size: 16px; color: #333; line-height: 24px;">Hi Admin,</p>
+        <p style="font-size: 16px; color: #333; line-height: 24px">You have received a new extra service request from an organizer. Details below:</p>
+        <p><b>Organizer Name:</b> Bob Organizer</p>
+        <p><b>Organizer Email:</b> organizer@snapshot.invalid</p>
+        <p><b>Organizer Phone:</b> +14161000001</p>
+        <p><b>Business Name:</b> Snapshot Events Inc.</p>
+        <p><b>Request Email:</b> organizer@snapshot.invalid</p>
+        <p><b>Request Phone Number:</b> +14161000001</p>
+        <p><b>Requested Services:</b> extra_tables, stage_setup</p>
+        <p><b>Special Request:</b><br /><pre style="font-family: inherit;">Please set up 10 extra tables near the main stage.</pre></p>
+        <p style="margin: 0; padding: 0; font-size: 16px; color: #333; line-height: 24px; margin-top: 15px;">Best regards,<br />Eveenty System</p>
+      </div>
+      <div style="margin-top: 16px; overflow: visible">
+        <div style="float: left">
+          <a href="https://www.instagram.com/eveentyofficial/" target="_blank" style="text-decoration: none">
+            <img class="icon" src="https://cdn.eveenty.com/icon_instagram.png" alt="Instagram" style="width: 30px; height: 30px; margin-right: 10px" />
+          </a>
+          <a href="https://wa.me/+16479366343" target="_blank" style="text-decoration: none">
+            <img class="icon" src="https://cdn.eveenty.com/icon_whatsapp.png" alt="WhatsApp" style="width: 30px; height: 30px; margin-right: 10px" />
+          </a>
+          <a href="https://x.com/eveenty" target="_blank" style="text-decoration: none">
+            <img class="icon" src="https://cdn.eveenty.com/icon_twitter.png" alt="Twitter" style="width: 30px; height: 30px; margin-right: 10px" />
+          </a>
+          <a href="https://www.linkedin.com/company/eveenty/" target="_blank" style="text-decoration: none">
+            <img class="icon" src="https://cdn.eveenty.com/icon_linkedin.png" alt="LinkedIn" style="width: 30px; height: 30px; margin-right: 10px" />
+          </a>
+        </div>
+        <div style="float: right; width: 80px; height: auto; position: relative;">
+          <img class="footerLogo" style="width: auto; height: 30px; float: right; display: inline-block; position: absolute; top: 0; right: 0;" src="https://cdn.eveenty.com/eveenty-logo-1280.png" alt="Eveenty Logo" />
+        </div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </body>
+</html> 

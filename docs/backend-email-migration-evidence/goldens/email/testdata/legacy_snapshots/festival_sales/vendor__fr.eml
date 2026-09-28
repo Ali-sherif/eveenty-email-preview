@@ -1,0 +1,273 @@
+From: "Eveenty Receipts" <noreply@snapshot.invalid>
+To: "Charlie Vendor" <vendor-fr@snapshot.invalid>
+Subject: Snapshot Festival 2026 Vente de stand Demande approuvée
+Content-Type: multipart/mixed; boundary="boundary-string"
+MIME-Version: 1.0
+
+--boundary-string
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+      body { font-family: 'Roboto', Tahoma, Arial, sans-serif; }
+    </style>
+    <title>Facture</title>
+    <style>
+      @media (min-width: 786px) and (max-width: 922px) {
+        .invoice-ticket { width: 98%; }
+      }
+      @media (min-width: 486px) and (max-width: 786px) {
+        .invoice-ticket { width: 98%; }
+        img { width: 24%; }
+        .value { font-size: 11px; }
+        .name { font-size: 11px; }
+        .footer-name { font-size: 13px; }
+        .footer-value { font-size: 11px; }
+        .total-name, .total-value { font-size: 10px; }
+        .detials-name { color: #ffffff; font-size: 9px; font-weight: 500; }
+        .detials-value { justify-self: end; color: #ffffff; font-size: 10px; font-weight: 500; }
+        .footer { padding-top: 1rem; width: 97%; }
+        .circle { width: 13%; }
+        tr .th { font-size: 18px; padding: 4px; }
+        tr .td {
+          border: 1px solid #00000028; background: #ffffff; text-align: center;
+          border-collapse: collapse; font-family: sans-serif; font-weight: 500; font-size: 9px;
+        }
+      }
+      @media (min-width: 150px) and (max-width: 486px) {
+        .invoice-ticket { width: 98%; }
+        .value { font-size: 11px; }
+        .list-container { grid-template-columns: 1fr; }
+        .footer-content { grid-template-columns: 1fr; }
+        .detials-box { width: 75%; }
+        .second-list { justify-self: start; }
+        .footer-content2 { grid-template-columns: 1fr; }
+        .name { font-size: 12px; }
+        .footer-name { font-size: 11px; }
+        .footer-value { font-size: 11px; }
+        .total-name, .total-value { font-size: 10px; }
+        .detials-name { color: #ffffff; font-size: 9px; font-weight: 500; }
+        .detials-value { justify-self: end; color: #ffffff; font-size: 10px; font-weight: 500; }
+        .footer { padding-top: 1rem; width: 97%; }
+        .circle { width: 5%; }
+        tr .th { font-size: 9px; padding: 4px; }
+        tr .td { font-size: 9px; }
+      }
+    </style>
+  </head>
+
+  <body style="background-color: #ffffff;margin: auto;margin-top: 2rem;margin-bottom: 2rem;" dir="ltr">
+    <div class="invoice-ticket-content" style="width: 93%;margin: auto;">
+      <div style="width: 100%;margin: auto;margin-bottom: 1rem;">
+        
+<div style="margin: auto;margin-top: 2rem;margin-bottom: 2rem;">
+  <img src="https://cdn.eveenty.com/circle.png" style="width: 10%;position: absolute;top: 0%;right: 4%;">
+  <div style="width: 93%;margin: auto;">
+    <img src="https://cdn.eveenty.com/assets/logo_transparent_fr.png" style="width: 30%;">
+  </div>
+</div>
+
+      </div>
+
+      <p class="title" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;padding-bottom: 1rem;text-align: center;font-size: 25px;font-weight: bold;color: #474746;">Vente de stand Demande approuvée</p>
+      <p class="festival" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;text-align: center;font-size: 25px;font-weight: bold;color: #e9d023;"><span dir="auto" style="unicode-bidi: isolate;">Snapshot Festival 2026</span></p>
+
+      <p style="padding: 0; line-height: 2; margin: 0 auto; text-align: center; font-family: 'Roboto'; font-size: 15px; margin-bottom: 15px; color: #474746; max-width: fit-content;" dir="ltr">
+        <span style="font-weight: bold; color: #797979;">Ajouter à : </span>
+        <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260315T120000Z%2F20260317T120000Z&details=Snapshot+festival+description&location=Snapshot+Arena+-+100+Snap+Street%2C+Toronto+ON+M5H+2N2&text=Snapshot+Festival+2026" style="color: #d80073; text-decoration: none; margin-right: 10px;" target="_blank">&nbsp; Google Calendar</a><span>|</span>
+        <a href="https://api.snapshot.invalid/api/v1/festivals/festival-fixed-001/ics" style="color: #d80073; text-decoration: none; margin-right: 10px;" target="_blank">&nbsp; Apple Calendar</a> <span>|</span>
+        <a href="https://calendar.yahoo.com/?desc=Snapshot+festival+description&dur=0000&in_loc=Snapshot+Arena+-+100+Snap+Street%2C+Toronto+ON+M5H+2N2&st=20260315T080000&title=Snapshot+Festival+2026&type=20&v=60&view=d" style="color: #d80073; text-decoration: none;" target="_blank">&nbsp;Yahoo Calendar</a>
+      </p>
+
+      
+        <div dir="ltr" style="text-align: left;">
+          <p style="padding: 5px 10px;font-family: 'Roboto', sans-serif;font-size: 18px;color: #474746;">Félicitations Charlie Vendor, votre demande pour exposer à l’événement Snapshot Festival 2026 est approuvée. Voici votre facture finale</p>
+        </div>
+      
+
+      
+
+      
+
+      
+
+      <div class="list-container" style="display: table;padding-top: 2rem;padding-bottom: 2rem;width: 100%;" dir="ltr">
+        <ul class="list-one" style="margin: 0;padding: 0;list-style: none;float: left;width: 60%;">
+          <li class="list" style="margin-top: 1rem;display: table;width: 60%;">
+            <p class="name" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;color: #9d9ea0;font-size: 14px;padding-right: 7px;">Nom du client :</p>
+            <p class="value" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;text-align: left;color: #474746;font-size: 15px;font-weight: 700;"><span dir="auto" style="unicode-bidi: isolate;">Charlie Vendor</span></p>
+          </li>
+          <li class="list" style="margin-top: 1rem;display: table;width: 60%;">
+            <p class="name" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;color: #9d9ea0;font-size: 14px;padding-right: 7px;">Adresse du client :</p>
+            <p class="value" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;text-align: left;color: #474746;font-size: 15px;font-weight: 700;"><span dir="auto" style="unicode-bidi: isolate;">300 Vendor Lane, Toronto ON M4C 1A1</span></p>
+          </li>
+          <li class="list" style="margin-top: 1rem;display: table;width: 60%;">
+            <p class="name" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;color: #9d9ea0;font-size: 14px;padding-right: 7px;">Téléphone du client :</p>
+            <p class="value" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;text-align: left;color: #474746;font-size: 15px;font-weight: 700;" dir="ltr">+14162000001</p>
+          </li>
+          <li class="list" style="margin-top: 1rem;display: table;width: 100%;">
+            <p class="name" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;color: #9d9ea0;font-size: 14px;padding-right: 7px;">E-mail du client :</p>
+            <p class="value" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;text-align: left;color: #474746 !important; font-size: 14px;font-weight: 400;"><a href="mailto:vendor-fr@snapshot.invalid" dir="ltr" style="text-decoration: none; color: inherit; font-size: inherit;">vendor-fr@snapshot.invalid</a></p>
+          </li>
+          
+          <li class="list" style="margin-top: 1rem;display: table;width: 60%;">
+            <p class="name" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;color: #9d9ea0;font-size: 14px;padding-right: 7px;">Mode de paiement :</p>
+            <p class="value" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;text-align: left;color: #474746;font-size: 15px;font-weight: 700;"> Carte de crédit </p>
+          </li>
+          
+        </ul>
+        <ul class="second-list" style="margin: 0;padding: 0;list-style: none;float: right;width: 40%;">
+          <li class="list" style="margin-top: 1rem;display: table;width: 70%;">
+            <p class="name" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;color: #9d9ea0;font-size: 15px;padding-right: 7px;">N° de facture :</p>
+            <p class="value" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;text-align: left;color: #474746;font-size: 15px;font-weight: 700;" dir="ltr">#sale-</p>
+          </li>
+          <li class="list" style="margin-top: 1rem;display: table;width: 90%;">
+            <p class="name" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;color: #9d9ea0;font-size: 14px;padding-right: 7px;">Nom de l’entreprise :</p>
+            <p class="value" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;text-align: left;color: #474746;font-size: 15px;font-weight: 700;"><span dir="auto" style="unicode-bidi: isolate;">Snap Foods Co.</span></p>
+          </li>
+          <li class="list" style="margin-top: 1rem;display: table;width: 90%;">
+            <p class="name" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;color: #9d9ea0;font-size: 14px;padding-right: 7px;">Description de l’entreprise :</p>
+            <p class="value" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;text-align: left;color: #474746;font-size: 15px;font-weight: 700;"><span dir="auto" style="unicode-bidi: isolate;">Not Provided</span></p>
+          </li>
+          <li class="list" style="margin-top: 1rem;display: table;width: 90%;">
+            <p class="name" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;color: #9d9ea0;font-size: 14px;padding-right: 7px;">Date :</p>
+            <p class="value" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;text-align: left;color: #474746;font-size: 15px;font-weight: 700;" dir="ltr">NORMALIZED_DATE &nbsp; NORMALIZED_TIME</p>
+          </li>
+        </ul>
+      </div>
+
+      
+
+      
+      <div class="wrapper">
+        <table style="border-spacing: 0;border-collapse: collapse;border-style: hidden;margin-top: 2rem;margin-bottom: 3rem;background-color: #00000028;width: 100%;height: auto;border-radius: 12px;" dir="ltr">
+          <thead>
+            <tr>
+              <th class="th" style="font-size: 20px;padding: 12px;border: 1px solid #00000028;font-family: 'Roboto', sans-serif;font-weight: 500;text-align: center;border-collapse: collapse;background-color: #f5f5f5;color: #e9d023;">Id article</th>
+              <th class="th" style="font-size: 20px;padding: 12px;border: 1px solid #00000028;font-family: 'Roboto', sans-serif;font-weight: 500;text-align: center;border-collapse: collapse;background-color: #f5f5f5;color: #e9d023;">Nom</th>
+              <th class="th" style="font-size: 20px;padding: 12px;border: 1px solid #00000028;font-family: 'Roboto', sans-serif;font-weight: 500;text-align: center;border-collapse: collapse;background-color: #f5f5f5;color: #e9d023;">Type</th>
+              <th class="th" style="font-size: 20px;padding: 12px;border: 1px solid #00000028;font-family: 'Roboto', sans-serif;font-weight: 500;text-align: center;border-collapse: collapse;background-color: #f5f5f5;color: #e9d023;">Prix</th>
+              <th class="th" style="font-size: 20px;padding: 12px;border: 1px solid #00000028;font-family: 'Roboto', sans-serif;font-weight: 500;text-align: center;border-collapse: collapse;background-color: #f5f5f5;color: #e9d023;">Quantité</th>
+              <th class="th" style="font-size: 20px;padding: 12px;border: 1px solid #00000028;font-family: 'Roboto', sans-serif;font-weight: 500;text-align: center;border-collapse: collapse;background-color: #f5f5f5;color: #e9d023;">Montant</th>
+              <th class="th" style="font-size: 20px;padding: 12px;border: 1px solid #00000028;font-family: 'Roboto', sans-serif;font-weight: 500;text-align: center;border-collapse: collapse;background-color: #f5f5f5;color: #e9d023;">Code QR</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+              <tr>
+                <td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: 'Roboto', sans-serif;font-weight: 500;font-size: 18px;" dir="ltr">#sale-</td>
+                <td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: 'Roboto', sans-serif;font-weight: 500;font-size: 18px;"><span dir="auto" style="unicode-bidi: isolate;">Snap Booth A1</span></td>
+                <td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: 'Roboto', sans-serif;font-weight: 500;font-size: 18px;">stand</td>
+                <td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: 'Roboto', sans-serif;font-weight: 500;font-size: 18px;" dir="ltr">$500.00 CAD</td>
+                <td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: 'Roboto', sans-serif;font-weight: 500;font-size: 18px;" dir="ltr">1</td>
+                <td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: 'Roboto', sans-serif;font-weight: 500;font-size: 18px;" dir="ltr">$500.00 CAD</td>
+                <td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: 'Roboto', sans-serif;font-weight: 500;font-size: 18px;">
+                  <img src="https://cdn.snapshot.invalid/.jpg" style="width: 100px; height: 100px;">
+                </td>
+              </tr>
+            
+          </tbody>
+        </table>
+      </div>
+
+      <div class="detials-box" style="float: right;height: auto;background: #e9d023 0% 0% no-repeat padding-box;border-radius: 8px;opacity: 1; width: 350px; margin-bottom: 1rem;" dir="ltr">
+        <div class="details-box-content" style="margin: auto;width: 85%;padding-top: 2rem;  background-image: url('https://cdn.eveenty.com/paid-image-opacity-30.png'); background-size: contain; background-position: center center; background-repeat: no-repeat ">
+          <ul class="list-details-content" style="margin: 0;padding: 0;list-style: none;display: table;width: 100%;">
+            <li class="list-details" style="display: table;margin-bottom: 1rem;width: 100%;">
+              <p class="detials-name" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;color: #474746;font-size: 20px;font-weight: 500;">Sous-total :</p>
+              <p class="detials-value" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: right;color: #474746;font-size: 18px;font-weight: 500;" dir="ltr">$500.00 CAD</p>
+            </li>
+            
+            
+            <li class="list-details" style="display: table;margin-bottom: 1rem;width: 100%;">
+              <p class="detials-name" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;color: #474746;font-size: 20px;font-weight: 500;">Frais de traitement :</p>
+              <p class="detials-value" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: right;color: #474746;font-size: 18px;font-weight: 500;" dir="ltr">$0.00 CAD</p>
+            </li>
+            
+            <li class="list-details" style="display: table;margin-bottom: 1rem;width: 100%;">
+              <p class="detials-name" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;color: #474746;font-size: 20px;font-weight: 500;">Taxe :</p>
+              <p class="detials-value" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: right;color: #474746;font-size: 18px;font-weight: 500;" dir="ltr">$65.00 CAD</p>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="total" style="height: auto;width: 100%;padding-bottom: 1rem;background: #f3e165 0% 0% no-repeat padding-box;border-radius: 0px 0px 8px 8px;padding-top: 1rem;">
+          <div class="total-content" style="text-align: center;margin: auto;width: 90%;display: table;" dir="ltr">
+            <p class="total-name" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;font-size: 23px;font-weight: bold;color: #474746;">Total général :</p>
+            <p class="total-value" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: right;color: #474746;font-weight: bold;font-size: 20px;" dir="ltr">$565.00 CAD</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    
+
+    
+
+
+<div class="footer" style="margin-top: 0;width: 100%;text-align: center;" dir="ltr">
+  <div class="line" style="display: table;width: 100%;background-color: #f3e165;height: 1px !important; margin-bottom: 10px;"></div>
+
+  <div class="footer-content" style="padding-top: 0; margin: auto;width: 100%;display: table;">
+    <div class="footer-details" style="float: left;display: table;width: 40%;">
+      <p class="footer-name" style="padding: 0;margin: 0;align-items: center;font-family: sans-serif;float: left;color: #e9d023;font-size: 10px;">Tél : <span dir="ltr" style="color: #474746;font-size: 8px; unicode-bidi: embed;">1 (855) 552-1522</span></p>
+    </div>
+    <div class="footer-details" style="float: left;display: table;width: 60%;">
+      <p class="footer-name" style="padding: 0;margin: 0;align-items: center;font-family: sans-serif;float: right;color: #e9d023;font-size: 10px;">Adresse : <span dir="ltr" style="color: #474746;font-size: 8px; unicode-bidi: embed;">10 - 225 The East Mall Suite #1264 - Toronto - ON - M9B 0A9</span></p>
+    </div>
+  </div>
+  <div class="footer-content" style="padding-top: 0;margin: auto;width: 100%;display: table;">
+    <div class="footer-details" style="float: left;display: table;width: 40%;">
+      <p class="footer-name" style="padding: 0;margin: 0;align-items: center;font-family: sans-serif;float: left;color: #e9d023;font-size: 10px;">Courriel : <a href="mailto:info@eveenty.com" dir="ltr" style="text-decoration: none; color: inherit; unicode-bidi: embed;"><span style="color: #474746; font-size: 10px;">info@eveenty.com</span></a></p>
+    </div>
+    <div class="footer-details" style="float: left;display: table;width: 35%;">
+      <p class="footer-name" style="padding: 0;margin: 0;align-items: center;font-family: sans-serif;float: left;color: #e9d023;font-size: 10px;">Site web : <a href="https://www.eveenty.com" dir="ltr" style="text-decoration: none; color: inherit; unicode-bidi: embed;"><span style="color: #474746;font-size: 10px;">eveenty.com</span></a></p>
+    </div>
+    <div class="footer-details" style="float: left;display: table;width: 25%;">
+      <p class="footer-name" style="padding: 0;margin: 0;align-items: center;font-family: sans-serif;float: right;color: #e9d023;font-size: 10px;">N° TVH : <span dir="ltr" style="color: #474746;font-size: 10px; unicode-bidi: embed;">753763713</span></p>
+    </div>
+  </div>
+</div>
+
+
+  </body>
+</html>
+
+--boundary-string
+Content-Type: text/calendar; method=REQUEST; name="event.ics"
+Content-Disposition: attachment; filename="event.ics"
+Content-Transfer-Encoding: 7bit
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Rescounts Events & Tickets//Festival Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:festival-fixed-001@rescounts.com
+DTSTAMP:NORMALIZED
+DTSTART:20260315T120000Z
+DTEND:20260317T120000Z
+SUMMARY:Snapshot Festival 2026
+DESCRIPTION:Snapshot festival description
+LOCATION:Snapshot Arena - 100 Snap Street\, Toronto ON M5H 2N2
+ORGANIZER;CN="Snapshot Events Inc.":mailto:organizer@snapshot.invalid
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+
+--boundary-string--

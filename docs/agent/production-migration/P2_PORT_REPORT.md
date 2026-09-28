@@ -10,6 +10,8 @@
 ## Explicit non-claims (standing)
 
 - Nothing is active. `EMAIL_KIT_ENABLED` default OFF.
+
+> **SUPERSEDED (2026-09-28):** `EMAIL_KIT_ENABLED` removed. Release control is deploy; see `DECISION_LOG.md` / `P4_ACTIVATION_PREP_REPORT.md`.
 - CDN URLs PENDING for Production and Staging.
 - Security handoffs (11 ids / four items) unresolved — owned by Backend/Security. Not fixed or cleared.
 

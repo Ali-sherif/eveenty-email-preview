@@ -1,0 +1,102 @@
+From: "Eveenty" <noreply@snapshot.invalid>
+To: restaurant@snapshot.invalid
+Subject: Eveenty Invoice
+Content-Type: text/html; charset="utf-8"
+
+<html>
+	<body>
+		<div style="background-color: #E8CF21; width: 100%; height: 25px;"></div>
+
+		<div>
+			<div style="float: left;">
+				<h3 style="margin-top: 5px; margin-bottom: 5px;">Eveenty Inc.</h3>
+				<h6 style="margin-top: 5px; margin-bottom: 5px;">10 - 225 The East Mall Suite #1264 - Toronto - ON - M9B 0A9</h6>
+				<h6 style="margin-top: 5px; margin-bottom: 5px;">Suite 1000</h6>
+				<h6 style="margin-top: 5px; margin-bottom: 5px;">Toronto - ON</h6>
+				<h6 style="margin-top: 5px; margin-bottom: 5px;">M6B 6H7</h6>
+			</div>
+
+			<div style="float: right;">
+				<img src="./logo.png" style="height: 100px;">
+			</div>
+		</div>
+
+		<div style="clear: both;"></div>
+
+		<div>
+			<div style="float: left;">
+				<h3 style="margin-top: 30px; margin-bottom: 5px;">Billing to</h3>
+				<h6 style="margin-top: 5px; margin-bottom: 5px;">Snap Kitchen</h6>
+				<h6 style="margin-top: 5px; margin-bottom: 5px;">400 Main St, Toronto ON</h6>
+			</div>
+
+			<div style="float: right;">
+				<h5 style="margin-top: 30px; margin-bottom: 5px;">Invoice# 1001</h5>
+				<h5 style="margin-top: 5px; margin-bottom: 5px;">Invoice March 15, 2026</h5>
+			</div>
+		</div>
+
+		<div style="clear: both;"></div>
+
+		<div style="background-color: #6C757D; width: 100%; height: 7px; margin-top: 20px;"></div>
+
+		<div style="margin-top: 15px;">
+			<div style="float: left;">
+				Invoice Total
+			</div>
+
+			<div style="float: right;">
+				$ 0.00 CAD
+			</div>
+		</div>
+
+		<div style="clear: both; margin-bottom: 15px;"></div>
+
+		<div style="background-color: #6C757D; width: 100%; height: 7px;"></div>
+
+		<div>
+			<div style="float: left; width: 50vw;">
+				<h3>Description</h3>
+
+				
+					<div>Marketing Campaign - March 2026</div>
+				
+			</div>
+
+			<div style="float: left;">
+				<h3>Quantity</h3>
+
+				
+					<div>1</div>
+				
+			</div>
+
+			<div style="float: right;">
+				<h3>Amount</h3>
+
+				
+					<div>150.00</div>
+				
+			</div>
+		</div>
+
+		<div style="clear: both;"></div>
+
+		<div">
+			<div style="float: left;">Subtotal</div>
+
+			<div style="float: right;">0.00</div>
+		</div>
+
+		<div style="clear: both;"></div>
+
+		<div>HST 0 %</div>
+
+		<div>
+			<h3 style="margin-top: 10px; margin-bottom: 10px;">Terms & Conditions</h3>
+			<h6 style="margin-top: 10px; margin-bottom: 10px;">HST# 123456789RT0001</h6>
+			<h6 style="margin-top: 10px; margin-bottom: 10px;">Account# </h6>
+			<h6 style="margin-top: 10px; margin-bottom: 10px;"></h6>
+		</div>
+	</body>
+</html>

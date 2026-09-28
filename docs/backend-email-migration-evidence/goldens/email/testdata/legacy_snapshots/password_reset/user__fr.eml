@@ -1,0 +1,41 @@
+From: "Eveenty Security" <noreply@snapshot.invalid>
+To: "Alice Snapshot" <buyer-fr@snapshot.invalid>
+Subject: Demande de réinitialisation du mot de passe Eveenty
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" type="text/css">
+  <title>Réinitialisation du mot de passe Eveenty</title>
+</head>
+<body dir="ltr" style="background-color: rgb(255,255,220); margin: 0; padding: 0; font-family: 'Roboto', Arial, Helvetica, sans-serif; color: #222;">
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: rgb(255,255,220); padding: 0; margin: 0;">
+    <tr>
+      <td align="center">
+        <table width="480" cellpadding="0" cellspacing="0" border="0" style="background: #fffbe6; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); margin: 40px 0;">
+          <tr>
+            <td align="center" style="padding: 32px 0 16px 0;">
+              <img src="https://cdn.eveenty.com/assets/logo_transparent_fr.png" alt="Eveenty Logo" width="120" style="display: block; margin: 0 auto;">
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0 32px 16px 32px;">
+              <h2 style="font-family: 'Roboto', Arial, sans-serif; color: #bfa100; font-size: 22px; font-weight: 700; margin: 0 0 16px 0;">Demande de réinitialisation du mot de passe</h2>
+              <p style="font-size: 16px; color: #333; margin: 0 0 16px 0;">Bonjour <b><bdi>Alice Snapshot</bdi></b>,</p>
+              <p style="font-size: 15px; color: #444; margin: 0 0 24px 0;">Nous avons reçu une demande de réinitialisation du mot de passe pour votre compte Eveenty. Pour continuer, veuillez utiliser le code de vérification ci-dessous dans l'application Eveenty :</p>
+              <div style="background: #fff7b2; border-radius: 6px; padding: 18px 0; margin: 0 0 24px 0; text-align: center;">
+                <span dir="ltr" style="font-size: 32px; font-weight: 700; color: #bfa100; letter-spacing: 1px; unicode-bidi: embed;">RESET-TOKEN-FIXED</span>
+              </div>
+              <p style="font-size: 14px; color: #666; margin: 0 0 16px 0;">Si vous n'avez pas demandé cette réinitialisation, veuillez ignorer cet e-mail ou <a href="mailto:info@eveenty.com" style="color: #bfa100; text-decoration: underline;">contacter notre équipe d'assistance</a> immédiatement.</p>
+              <p style="font-size: 13px; color: #999; margin: 32px 0 0 0;">Ce message a été envoyé à <a href="mailto:buyer-fr@snapshot.invalid" dir="ltr" style="color: #bfa100; text-decoration: none; unicode-bidi: embed;">buyer-fr@snapshot.invalid</a>.</p>
+              <p style="font-size: 12px; color: #bbb; margin: 8px 0 0 0;">© Eveenty, 10 - 225 The East Mall Suite #1264 - Toronto - ON - M9B 0A9</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

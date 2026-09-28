@@ -1,0 +1,81 @@
+From: "Eveenty" <noreply@snapshot.invalid>
+To: "Snapshot Admin" <admin@snapshot.invalid>
+Subject: Festival Marketing campaign Snapshot Festival 2026
+Content-Type: text/html; charset="utf-8"
+
+<h1>
+Hi Hany, <br>
+Snapshot Festival 2026 Requesting to send <span style="color:red;" >500  emails.</span> <br>
+</h1>
+
+<h3> Bob Organizer paid the followings: <h3>
+<p style='font-size:"20px"; text-align:"left"'>
+cost of $250.00 CAD <br>
+the tax of $0.00 CAD <br>
+the bank fees of $0.00 CAD <br>
+so the total paid = $250.00 CAD <br>
+</p>
+
+<p>
+                            here is how the email will look like 
+</p>
+<br>
+<br>
+<br> 
+
+Subject : Come Join Snapshot Festival 2026! <br>
+FestivalEmail : info@snapshot.invalid <br> <br>
+
+ <html>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <body style="font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;">
+        <header style="
+        text-align: center;
+        font-size: 35px;
+        color: white;">
+      <h2>
+        <img src="https://cdn.snapshot.invalid/logo-fixed-001.jpg" alt="festival_logo">
+      </h2>
+        </header>
+    
+        <article style="text-align: center;
+        background-color: #fff7f8;">
+          <p > We are excited to invite you to our annual snapshot festival. </p>
+           <img src="" alt="" width="75%"></img>
+          <br>
+          <br>
+          <p alt="center" href="#"</p>
+        </article>
+        <nav style="padding:30px;"> 
+    
+        </nav>
+    
+    <footer style="background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;">
+      <p>Powered by Eveenty</p>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+    </footer>
+    <a style="font-size: 25px;
+          font-family: Helvetica, Arial, sans-serif;
+          background-color:#e6ca1a;
+          color:white;
+          text-decoration: Bold;
+          border-radius: 3px;
+          padding: 12px 18px;
+          border: 1px solid ;
+          display: inline-block;" href="https://api.snapshot.invalid/api/v1/festivals/marketing/email/request/mkt-email-req-fixed-001/approve"> Approve</a>
+          <a style="font-size: 25px;
+          font-family: Helvetica, Arial, sans-serif;
+          background-color:#e6ca1a;
+          color:white;
+          text-decoration: Bold;
+          border-radius: 3px;
+          padding: 12px 18px;
+          border: 1px solid ;
+          display: inline-block;" href="https://api.snapshot.invalid/api/v1/festivals/marketing/email/request/mkt-email-req-fixed-001/decline"> Decline</a>
+      </body>
+    </html>
+    

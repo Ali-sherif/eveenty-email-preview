@@ -1,0 +1,53 @@
+From: "Eveenty" <noreply@snapshot.invalid>
+To: "Supporter" <support@snapshot.invalid>
+Subject: Internal Server Error
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: #292929; min-width: 600px;">
+		<!-- header -->
+    
+<div style="width: 100%; height: 5em; padding-top: 1.8em;">
+  <div style="width: 100%; height: 5em; background: linear-gradient(90deg, #E8CF21 50%, #E8CF21 50%); background-repeat: no-repeat; background-size: 100% 15%; background-position: center;">
+    <img style="padding: 0 50px; margin: 0 50px; background-color:rgb(250, 255, 222); height: 5em; width: auto; float: right;" src="https://cdn.eveenty.com/eveenty-logo-1280.png">
+  </div>
+</div>
+
+
+		<h3 style="font-size: 140%; font-weight: 600; padding: 1em 2em 1em 2em;">
+			⛔ Internal Server Error Notification
+		</h3>
+		
+		<p style="
+			font-size: 16px;
+			font-weight: bold;
+			padding: 10px;
+			background-color: #ffe6e6;
+			border: 1px solid #ff4d4d;
+			color: #a30000;
+		">
+			Environment: test
+		</p>
+
+		<div style="text-align: left">
+			<h2>An error occurred on the server. The details are as follows:</h2>
+
+			<hr />
+
+			<p>This data might be helpful for fixing 🛠 error</p>
+			<pre style="font-size: 15px">Test error details for snapshot</pre>
+		</div>
+
+
+		<div style="text-align: left">
+			<img src="https://cdn.eveenty.com/eveenty-logo-1280.png" style="hight: auto; width: 380px;" />
+		</div>
+	</body>
+</html>

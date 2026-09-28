@@ -12,7 +12,7 @@
 3. **New approved Support design** (kit branded header) in production kit `support` — closes the prior “support header delta” question.
 4. **Separate Production and Staging CDN URLs.** One asset base URL per environment. Never cross-wire Staging→Production or Production→Staging.
 5. **Google Wallet Condensed badges only** (Apple as in manifest; `fa` Apple → `en`).
-6. **All 48 templates activate together.** Implementation may land in batches while dormant; production activation is a single all-or-nothing switch.
+6. **All 48 templates activate together.** Implementation may land in batches; production cutover is all-or-nothing via release deploy (no runtime Kit on/off flag — see §4).
 
 ### Legacy archival criteria (final)
 
@@ -39,13 +39,13 @@ Archive legacy only when **all** of the following are true:
 
 Exact Go types, field names, and wiring are **Backend team to define**. Paths above are the Phase 0 proposed contract for docs/matrix column `kit_production_file`.
 
-### Dormant-until-activation rule
+### Selection rule (post owner architecture change 2026-09-28)
 
-Ported kit templates may merge to the codebase in batches but must not be selected for live `Send*` traffic until the single all-48 activation switch. Until then, legacy templates remain the only live render path.
+Kit templates are selected for live `Send*` traffic on IN_SCOPE ids when **both** hold: (1) all 48 kit templates parse, and (2) `EMAIL_KIT_CDN_BASE_URL` is production-eligible (https, 14 assets, not test-only). Empty/invalid CDN fail-closes to legacy. The 11 EXCLUDED templates always use Legacy. There is **no** `EMAIL_KIT_ENABLED` runtime toggle.
 
-### Single activation
+### Single cutover
 
-When release gates pass and the owner authorizes activation, all 48 in-scope kit templates switch on together. No partial production cutover of a subset of the 48.
+When release gates pass, cutover is **DEV → verify → merge/deploy to Production**. All 48 in-scope kit templates go live together with that deploy. No partial production cutover of a subset of the 48. Rollback is redeploy of the previous known-good production release.
 
 ---
 
@@ -67,16 +67,16 @@ Exact per-id assignment: `MIGRATION_MATRIX.csv` column `port_batch`.
 
 ---
 
-## 4. Backend team to define (delegated — non-blocking for Phase 0)
+## 4. Release / rollback / archive (owner + Backend)
 
-These items are explicitly **not** owner decisions and do **not** block P0 completion or P1 planning start:
+**Owner architecture decision (2026-09-28 — FINAL):**
 
-1. **Activation control** — how the all-48 switch is implemented (config flag, build tag, dual client fields, etc.).
-2. **Rollback mechanism** — how to revert to legacy render paths quickly while retaining capability through archive approval.
-3. **Deploy sequencing** — staging vs production deploy order, binary/template packaging.
-4. **Archive mechanics** — move/rename/delete legacy templates and partials after owner archive approval.
+1. **Activation / release control** — `DEV → verify → merge/deploy to Production`. No runtime `EMAIL_KIT_ENABLED` flag. Kit readiness guard remains: 48 parse + eligible `EMAIL_KIT_CDN_BASE_URL`.
+2. **Rollback** — deploy the previous known-good production release (not a config toggle).
+3. **Deploy sequencing** — Backend owns staging vs production order and packaging where Staging exists.
+4. **Archive mechanics** — Backend-defined; execute only after P5 production verification + separate owner archive approval. Legacy templates stay in repo until then.
 
-Phase 0 records them as open Backend work. Do not invent mechanisms in Email Kit docs.
+Earlier Phase 0 text that delegated “activation control” as an open Backend proposal is **superseded** by this owner decision.
 
 ---
 

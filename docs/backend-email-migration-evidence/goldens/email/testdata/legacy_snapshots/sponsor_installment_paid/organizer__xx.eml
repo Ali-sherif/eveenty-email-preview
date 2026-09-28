@@ -1,0 +1,103 @@
+From: "Eveenty Sales" <noreply@snapshot.invalid>
+To: "Bob Organizer" <organizer-xx@snapshot.invalid>
+Subject: Snapshot Festival 2026 | CONFIRMATION MESSAGE FOR THE SPONSOR SECOND PAYMENT | Organizer Email
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Invoice</title>
+</head>
+	<body style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: #292929; min-width: 600px;" dir="ltr">
+		
+<div style="width: 100%; height: 5em; padding-top: 1.8em;" dir="ltr">
+  <div style="width: 100%; height: 5em; background: linear-gradient(90deg, #E8CF21 50%, #E8CF21 50%); background-repeat: no-repeat; background-size: 100% 15%; background-position: center;">
+    <img style="padding: 0 50px; margin: 0 50px; background-color:rgb(250, 255, 222); height: 5em; width: auto; float: right;" src="https://cdn.eveenty.com/assets/logo_transparent_en.png" alt="">
+  </div>
+</div>
+
+
+		<div dir="ltr" style="text-align: left;">
+			<h3 style="font-size: 140%; font-weight: 600; padding: 1em 2em 0 2em; margin: 0;">
+				The <span dir="auto" style="unicode-bidi: isolate;">Charlie Vendor</span> sponsor's second payment for <span dir="auto" style="unicode-bidi: isolate;">Snapshot Festival 2026</span>
+			</h3>
+		</div>
+
+		<div style="font-size: 140%; font-weight: 500; padding: 1em 2em 0 2em; text-align: left;" dir="ltr">
+			<span style="width:17em; display: inline-block;">Sponsor Name</span>
+			<span style="width:17em; display: inline-block;" dir="auto"><span style="unicode-bidi: isolate;">Charlie Vendor</span></span><br />
+
+			<span style="width:17em; display: inline-block;">Business Name</span>
+			<span style="width:17em; display: inline-block;" dir="auto"><span style="unicode-bidi: isolate;">Snap Foods Co.</span></span><br />
+
+			<span style="width:17em; display: inline-block;">Phone Number</span>
+			<span style="width:17em; display: inline-block;" dir="ltr">+14162000001</span>
+		</div>
+		<br />
+		<div style="font-size: 140%; font-weight: 500; padding: 1em 2em 0 2em; text-align: left;" dir="ltr">
+			<span style="width:5em; display: inline-block;">Date</span>
+			<span style="width:8em; display: inline-block;" dir="ltr">NORMALIZED_DATE</span><br />
+			<span style="width:5em; display: inline-block;">Time</span>
+			<span style="width:8em; display: inline-block;" dir="ltr">NORMALIZED_TIME</span>
+		</div>
+
+		<table style="width: 100%; border: 5px solid #E8CF21; border-spacing: 0; margin-top: 2em" dir="ltr">
+			<tr style="background-color: #000; color: #FFF;">
+				<td>No</td>
+				<td>Name</td>
+				<td>Type</td>
+				<td>Quantity</td>
+				<td>Cost</td>
+
+				
+
+				
+
+				<td>Tax</td>
+
+				
+
+				<td>Total</td>
+			</tr>
+
+			<tr dir="ltr">
+				<td style="font-weight:bold; text-align: left;" dir="auto"><span style="unicode-bidi: isolate;">1</span></td>
+				<td style="font-weight:bold; text-align: left;" dir="auto"><span style="unicode-bidi: isolate;">Gold Sponsor Package</span></td>
+				<td style="font-weight:bold; text-align: left;" dir="auto"><span style="unicode-bidi: isolate;">Sponsor Package</span></td>
+				<td style="font-weight:bold; text-align: left;" dir="auto"><span style="unicode-bidi: isolate;">1</span></td>
+				<td style="font-weight:bold; text-align: left;" dir="auto"><span style="unicode-bidi: isolate;">$1,000.00 CAD</span></td>
+
+				
+
+				
+
+				<td style="font-weight:bold; text-align: left;" dir="auto"><span style="unicode-bidi: isolate;">$130.00 CAD</span></td>
+
+				
+
+				<td style="font-weight:bold; text-align: left;" dir="auto"><span style="unicode-bidi: isolate;">$1,130.00 CAD</span></td>
+			</tr>
+		</table>
+
+		<div style="font-size: 130%; font-weight: 500; padding: 1em 2em 0 2em; text-align: left;" dir="ltr">
+			<span style="width:9em; display: inline-block; text-align: left;">Subtotal:</span>
+			<span style="width:7em; display: inline-block; text-align: left;" dir="ltr">$1,000.00 CAD</span><br />
+
+			
+
+			<span style="width:9em; display: inline-block; text-align: left;">Tax:</span>
+			<span style="width:7em; display: inline-block; text-align: left;" dir="ltr">$130.00 CAD</span><br />
+
+			
+
+			<span style="width:9em; display: inline-block; text-align: left; padding-left: 1em; padding-top: 0.5em; margin-top: 0.5em; background-color: #E8CF21; font-weight:bold">TOTAL:</span>
+			<span style="width:7em; display: inline-block; text-align: left; padding-top: 0.5em; margin-top: 0.5em; background-color: #E8CF21; font-weight:bold" dir="ltr">$1,130.00 CAD</span><br />
+		</div>
+
+		<div style="text-align: left; margin-top: 1em;" dir="ltr">
+			<img src="https://cdn.eveenty.com/assets/logo_transparent_en.png" style="height: auto; width: 380px;" alt="">
+		</div>
+	</body>
+</html>

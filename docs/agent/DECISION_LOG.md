@@ -366,3 +366,27 @@ Agent skills/rules/docs were updated only where stale or contradictory; no new s
 - Prohibited this session: deploy, customer email sends, archive legacy, commit, push.
 - Deliverables: `P4_ACTIVATION_PREP_REPORT.md`, `P4_CDN_CONFIGURATION_CHECKLIST.md`; backend eligibility guard rejects `.invalid` for live activation; `.env.example` kit keys documented OFF/empty.
 
+---
+
+**[2026-09-28 — Owner ARCHITECTURE CHANGE: remove EMAIL_KIT_ENABLED toggle]**
+
+- Owner decided release control is **DEV → verify → merge/deploy to Production**. No runtime Kit on/off feature flag.
+- **Remove `EMAIL_KIT_ENABLED`.** Keep `EMAIL_KIT_CDN_BASE_URL` as environment configuration. Keep fail-closed CDN validation. Do not hardcode CDN URLs.
+- Intended final behavior: all **48 IN_SCOPE** templates use Kit when CDN is production-eligible and all 48 kit templates parse; all **11 EXCLUDED** templates continue using Legacy.
+- **Rollback** = deploy the previous known-good production release (not `EMAIL_KIT_ENABLED=false`).
+- Do not redesign or re-port templates. Preserve completed P1/P2/P3/P4 work that remains applicable. Remove only toggle logic/tests that existed solely for the switch.
+- Legacy templates remain in the repository until P5 production verification + separate archive approval.
+- Supersedes earlier Backend proposal and P1–P4 docs that treated `EMAIL_KIT_ENABLED` as the activation/rollback control.
+
+---
+
+**[2026-09-28 — Post-P4 local completion + DEV-ready archival (owner overrides)]**
+
+- Owner authorized finishing all remaining **local** post-P4 work without waiting for Production deploy/verification.
+- Production is **out of scope** for this task; next environment is **DEV**.
+- Verified implementation uses **`config.CdnURL`** for Kit assets (no separate `EMAIL_KIT_CDN_BASE_URL` in current backend code). Kit activates when kit templates parse; EXCLUDED stay Legacy. Docs that still mention `EMAIL_KIT_CDN_BASE_URL` as a live config key are stale relative to `config/env.go`.
+- Legacy archival **allowed now** as a reversible move (not deletion): all 59 legacy templates + 12 partials + `welcome_email_ad.png` moved to `email/templates/archive/legacy/` with loader path update. Content preserved via git rename.
+- Absolute no-delete rule retained: candidates only in `email/templates/archive/DELETE_CANDIDATES.md` (`welcome_email_ad.png` only).
+- Local verification recorded in `rescounts-backend/email/POST_P4_LOCAL_VERIFICATION.md`. Verdict: **DEV READY** (local). Production CDN asset HTTP checks currently 403 — deferred environment/Infra item, not a local code blocker.
+- Four security handoffs remain **IMPLEMENTATION COMPLETE — SECURITY DISPOSITION STILL REQUIRED**.
+

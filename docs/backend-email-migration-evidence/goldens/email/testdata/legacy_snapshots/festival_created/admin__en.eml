@@ -1,0 +1,62 @@
+From: "Eveenty" <noreply@snapshot.invalid>
+To: "Snapshot Admin" <admin@snapshot.invalid>
+Subject: Snapshot Festival 2026 | New Festival Has Been Created | Admin Email
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+  </head>
+  <body style="text-align: left; font-family: Arial, Helvetica, sans-serif; color: #292929; min-width: 600px; background-color: #FAF9F6; margin: 0; padding: 0;">
+    
+    <!-- header -->
+    
+<div style="width: 100%; height: 5em; padding-top: 1.8em;">
+  <div style="width: 100%; height: 5em; background: linear-gradient(90deg, #E8CF21 50%, #E8CF21 50%); background-repeat: no-repeat; background-size: 100% 15%; background-position: center;">
+    <img style="padding: 0 50px; margin: 0 50px; background-color:rgb(250, 255, 222); height: 5em; width: auto; float: right;" src="https://cdn.eveenty.com/eveenty-logo-1280.png">
+  </div>
+</div>
+
+
+    <p style="font-size: 130%; font-weight: bold; padding: 1em 2em 0 2em;">Dear Snapshot Admin,</p>
+
+    <p style="font-size: 120%; font-weight: 500; padding: 1em 2em 0 2em;">
+      A new event titled <span style="color: #E8CF21; font-weight: bold;">Snapshot Festival 2026</span> has been created by
+      Organizer <span style="color: #E8CF21; font-weight: bold;">Bob Organizer</span> and is currently awaiting your review.
+      The status of the event is pending.
+      Please take a moment to review the event details in the admin dashboard and decide whether to approve or reject it.
+    </p>
+
+    <div style="margin: 1.5em 2em; padding: 1em 1.5em; border: 1px solid #ddd; border-radius: 10px; background-color: #fff;">
+      <h3 style="color: #E8CF21;">Organizer Details</h3>
+      <p style="font-size: 110%; margin: 0.3em 0;">
+        <strong>Organizer Name:</strong> Bob Organizer
+      </p>
+      <p style="font-size: 110%; margin: 0.3em 0;">
+        <strong>Organizer Email:</strong> 
+        <span style="font-size: 90%;">organizer@snapshot.invalid</span>
+      </p>
+      <p style="font-size: 110%; margin: 0.3em 0;">
+        <strong>Business Name:</strong> Snapshot Events Inc.
+      </p>
+      <p style="font-size: 110%; margin: 0.3em 0;">
+        <strong>Phone Number:</strong> +14161000001
+      </p>
+      <p style="font-size: 110%; margin: 0.3em 0;">
+        <strong>Address:</strong> 100 Snap Street, Toronto ON M5H 2N2
+      </p>
+      <p style="font-size: 110%; margin: 0.3em 0;">
+        <strong>Currency:</strong> CAD
+      </p>
+    </div>
+
+    <p style="font-size: 110%; padding: 1em 2em 2em 2em;">
+      You can view all details and take action in your admin panel.
+    </p>
+
+    <div style="text-align: center; padding: 1em;">
+      <img src="https://cdn.eveenty.com/eveenty-logo-1280.png" alt="Eveenty Logo" style="height: auto; width: 250px; opacity: 0.9;" />
+    </div>
+  </body>
+</html>

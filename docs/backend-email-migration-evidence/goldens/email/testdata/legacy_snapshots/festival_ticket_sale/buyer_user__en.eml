@@ -1,0 +1,410 @@
+From: "Eveenty" <noreply@snapshot.invalid>
+To: "Alice Snapshot" <buyer@snapshot.invalid>
+Subject: Snapshot Festival 2026 | Ticket Purchase | User Email
+Content-Type: multipart/mixed; boundary="boundary-string"
+MIME-Version: 1.0
+
+--boundary-string
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+      /* Import the font via Google Fonts */
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+      body {
+        font-family: 'Roboto', Tahoma, Arial, sans-serif;
+      }
+    </style>
+    <title>festival ticket sale</title>
+  </head>
+  <body bgcolor="#f8f8f8" style="background-color: #f8f8f8;font-family: 'Roboto', Tahoma, Arial, sans-serif;" dir="ltr">
+    <div class="valid-web" style="display: table;width: 50%;margin: auto;">
+      <div class="valid-web-container" style="margin: auto;">
+
+        <!-- header -->
+        <div style="width: 100%;margin: auto;margin-top: 2rem;margin-bottom: 1rem;">
+          
+<!-- dir=ltr isolates layout so BrandLogoURL stays visually left and OrganizerLogo right inside RTL emails -->
+<!-- Header container with centered width of 90% for edge-to-edge logo positioning -->
+<div dir="ltr" style="width: 90%;margin: auto;margin-top: 2rem;margin-bottom: 1rem;direction: ltr;unicode-bidi: isolate;">
+  
+  <!-- Check if organizer logo exists -->
+  
+  
+  <!-- Two-column layout: Eveenty logo on left, Organizer logo on right -->
+  <table role="presentation" dir="ltr" cellspacing="0" cellpadding="0" border="0" style="width: 100%;direction: ltr;">
+    <tr>
+      <!-- Left column: Eveenty logo aligned to left edge -->
+      <td style="text-align: left; vertical-align: middle;">
+        <img src="https://cdn.eveenty.com/assets/logo_transparent_en.png" alt="Eveenty Logo" style="max-width: 150px; height: auto;">
+      </td>
+      
+      <!-- Right column: Organizer logo aligned to right edge -->
+      <td style="text-align: right; vertical-align: middle;">
+        <!-- Circular organizer logo: border-radius: 50% with fixed width/height -->
+        <img src="https://cdn.snapshot.invalid/logo-fixed-001.jpg" alt="Organizer Logo" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
+      </td>
+    </tr>
+  </table>
+  
+  
+</div>
+
+        </div>
+
+        <!-- if we are sending to the buyer user -->
+        
+          <div style="width: 604px; margin: auto;" dir="ltr">
+            <div style="width: 90%; display: table; margin: auto;">
+              <p class="title" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';font-weight: 500;text-align: left;color: #474746;font-size: 19px;letter-spacing: 0px;opacity: 1;">Hello <span dir="auto" style="unicode-bidi: isolate;">Alice Snapshot</span>,</p>
+              <p class="title" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';font-weight: 500;text-align: left;color: #474746;font-size: 19px;letter-spacing: 0px;opacity: 1;">
+                We have received your registration for the event <span style="color: #d80073;"><span dir="auto" style="unicode-bidi: isolate;">Snapshot Festival 2026</span></span>.
+              </p>
+              <p class="title" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';font-weight: 500;height: auto;text-align: left;color: #474746;font-size: 19px;letter-spacing: 0px;opacity: 1;">
+                To claim your entry, please carry a copy of the below receipt with you to the event.
+              </p>
+            </div>
+          </div>
+
+        <!-- if we are sending to the guest user -->
+        
+
+        <!-- Room Booking Section -->
+        
+
+        <!-- Donation Section -->
+        
+
+        <!-- Add-ons Section -->
+        
+
+       
+        
+        
+          <div class="image-container" style="background-image: url(https://cdn.eveenty.com/background.png);height: auto;margin: auto;background-position: center;background-repeat: no-repeat;background-size: 100% 100%;width: 604px;padding-top: 2rem;gap: 1rem;padding-bottom: 2rem;margin-bottom: 1rem;margin-top: 1rem;position: relative;">
+            <p class="scan-title" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';text-align: center;color: #474746;font-weight: bold;font-size: 18px;">
+              Event Name: <span style="color: #d80073;">Snapshot Festival 2026</span>
+            </p>
+            <div class="qr-img-content" style="margin: auto;width: 250px;height: 250px;margin-top: 1rem;padding-bottom: 1rem;">
+              <img class="qr-img" src="https://cdn.snapshot.invalid/.jpg" style="margin: auto;width: 100%;">
+            </div>
+            <!-- Ticket code is always LTR (alphanumeric) -->
+            <p style="width: fit-content; margin: auto; padding: 0;line-height: 2;font-style: Regular;font-family: 'Roboto';" dir="ltr"></p>
+
+            <!-- Ticket Number Label -->
+            <div class="ticket-btn" style="width: 100%; text-align: center; margin: 1em 0;">
+              <span style="display: inline-block; width: 160px; height: 32px; background: #f8f8f8; border: 1px solid #f8f8f8; border-radius: 12px; line-height: 32px; font-weight: bold;">
+                Ticket 1 / 1
+              </span>
+            </div>
+            <!-- End Ticket Number Label -->
+
+            <!-- Wallet Buttons Container -->
+            <div style="text-align: center; margin: 20px 0;">
+              <div style="display: inline-block; margin: 0 auto;">
+                
+                
+                
+              </div>
+            </div>
+            <!-- End Wallet Buttons Container -->
+
+            <div class="title-container" style="padding-top: 5rem;display: table;width: 100%;">
+              <div class="title-and-discription" style="margin: auto;width: 90%;">
+                <div class="title-and-discription-container" style="width: 100%;">
+                  <p class="title2" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';font-size: 14px;color: #9d9ea0;text-align: left;">Name</p>
+                  <p class="name-discription" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';color: #474746;font-weight: bold;font-size: 24px;text-align: left;"><span dir="auto" style="unicode-bidi: isolate;">Alice Snapshot</span></p>
+                </div>
+              </div>
+
+              <!-- Show Ticket Price -->
+              
+              <div class="title-and-discription" style="margin: auto;width: 90%;">
+                <div class="title-and-discription-container" style="width: 100%;">
+                  <p class="title2" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';font-size: 14px;color: #9d9ea0;text-align: left;">Price</p>
+                  <!-- Price is always LTR (numeric with currency symbol) -->
+                  <p class="name-discription" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';color: #474746;font-weight: bold;font-size: 24px;text-align: left;" dir="ltr">$30.00 CAD</p>
+                </div>
+              </div>
+              
+
+              <div class="title-and-discription" style="margin: auto;width: 90%;">
+                <div class="title-and-discription-container" style="width: 100%;">
+                  <p class="title2" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';font-size: 14px;color: #9d9ea0;text-align: left;">Ticket Type</p>
+                  <p class="name-discription" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';color: #474746;font-weight: bold;font-size: 24px;text-align: left;"><span dir="auto" style="unicode-bidi: isolate;">General Admission</span></p>
+                </div>
+              </div>
+              <div class="title-and-discription" style="margin: auto;width: 90%;">
+                <div class="title-and-discription-container" style="width: 100%;">
+                  <p class="title2" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';font-size: 14px;color: #9d9ea0;text-align: left;">Ticket Quantity</p>
+                  <p class="discription" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';color: #474746;font-weight: bold;font-size: 16px;text-align: left;">1</p>
+                </div>
+              </div>
+              
+              
+              
+              <div class="title-and-discription" style="margin: auto;width: 90%;">
+                <div class="title-and-discription-container" style="width: 100%;">
+                  <p class="title2" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';font-size: 14px;color: #9d9ea0;text-align: left;">Event Start Date</p>
+                  <p class="discription" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';color: #474746;font-weight: bold;font-size: 16px;text-align: left;">
+                    <span dir="ltr" style="unicode-bidi: embed; display: inline-block;">Sun Mar 15, 2026 at NORMALIZED_TIME</span>
+                  </p>
+                </div>
+              </div>
+              
+              
+
+              
+                <div class="title-and-discription" style="margin: auto;width: 90%;">
+                  <div class="title-and-discription-container" style="width: 100%;">
+                    <p class="title2" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';font-size: 14px;color: #9d9ea0;text-align: left;">Venue</p>
+                    <p class="discription" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';color: #474746;font-weight: bold;font-size: 16px;text-align: left;">
+                      <span dir="auto" style="unicode-bidi: isolate;">Snapshot Arena</span>
+                    </p>
+                  </div>
+                </div>
+              
+              
+              <div class="title-and-discription" style="margin: auto;width: 90%;">
+                <div class="title-and-discription-container" style="width: 100%;">
+                  <p class="title2" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';font-size: 14px;color: #9d9ea0;text-align: left;">Location</p>
+                  <p class="discription" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';color: #474746;font-weight: bold;font-size: 16px;text-align: left;">
+                    <span dir="auto" style="unicode-bidi: isolate;">100 Snap Street, Toronto ON M5H 2N2</span>
+                  </p>
+                  
+                    <p class="add-calender" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';color: #d80073;text-align: left;"><a href="https://maps.google.com/?q=43.6532,-79.3832" dir="auto" style="color: inherit; text-decoration: none; unicode-bidi: embed;">View Map</a></p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+
+
+        
+          <div class="summary-section" style="background-color: #ffffff;height: 331px;background: #ffffff 0% 0% no-repeat padding-box;border-radius: 8px;opacity: 1;display: table;width: 604px;padding-top: 2rem;margin: auto;padding-bottom: 1rem;margin-bottom: 1rem;">
+            <div style="width: 90%; display: table; margin: auto;">
+              <p class="summary-title" style="padding: 0;line-height: 2;margin: 0;font-style: normal;font-family: 'Roboto';margin-bottom: 15px;color: #474746;font-size: 23px;font-weight: bold;text-align: left;">Order Summary</p>
+              <!-- Dates and numeric values are always LTR to preserve digit/symbol order -->
+              <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;text-align: left;">Booking Date: <span dir="ltr" style="unicode-bidi: embed;">NORMALIZED_DATE</span></p>
+              <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;text-align: left;">Number Of Tickets: <span dir="ltr" style="unicode-bidi: embed;">1</span></p>
+              
+              <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;text-align: left;">Cost: <span dir="ltr" style="unicode-bidi: embed;">$30.00 CAD</span></p>
+
+              
+
+              
+
+              
+
+              
+                <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;text-align: left;">Processing Fees: <span dir="ltr" style="unicode-bidi: embed;">$0.00 CAD</span></p>
+              
+
+              <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;text-align: left;">Tax: <span dir="ltr" style="unicode-bidi: embed;">$3.90 CAD</span></p>
+
+              
+
+              
+              
+              
+              
+              <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;text-align: left;">
+                Payment Status: <span style="color: #2dce98">COMPLETED</span>
+              </p>
+              
+              <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;text-align: left;">
+                 Ticket(s) Total:  <span dir="ltr" style="unicode-bidi: embed;">$33.90 CAD</span>
+              </p>
+
+              <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;text-align: left;">Transaction will show on your statement under <span style='color: #d80073;'>&quot;Eveenty&quot;</span></p>
+            </div>
+          </div>
+        
+
+        <!-- event & user info section -->
+        <div style="background-color: #ffffff; background: #ffffff 0% 0% no-repeat padding-box;border-radius: 8px;opacity: 1;display: table;width: 604px;padding-top: 2rem;margin: auto;padding-bottom: 1rem;margin-bottom: 1rem;" dir="ltr">
+          <div style="width: 90%; display: table; margin: auto;">
+
+            <!-- Organizer Logo Section -->
+            
+              <div style="text-align: center; margin-bottom: 10px;">
+                <img src="https://cdn.snapshot.invalid/logo-fixed-001.jpg" alt="Organizer Logo" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 10px;">
+              </div>
+            
+
+            
+              <p style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';font-size: 15px;margin-bottom: 15px; color: #474746;text-align: left;">
+                <span style="font-weight: bold; color: #797979;">Presented By:</span><span dir="auto" style="unicode-bidi: isolate; display: inline-block; margin-inline-start: 0.35em;">Snapshot Events Inc.</span>
+              </p>
+            
+
+            <p style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';font-size: 15px;margin-bottom: 15px; color: #474746;text-align: left;">
+              <span style="font-weight: bold; color: #797979;">Event Name:</span><span dir="auto" style="unicode-bidi: isolate; display: inline-block; margin-inline-start: 0.35em;">Snapshot Festival 2026</span>
+            </p>
+
+            <!-- Date range is always LTR (digits and separators) -->
+            <p style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';font-size: 15px;margin-bottom: 15px; color: #474746;text-align: left;">
+              <span style="font-weight: bold; color: #797979;">Event Date:</span><span dir="ltr" style="unicode-bidi: embed; display: inline-block; margin-inline-start: 0.35em;">Sun Mar 15, 2026 EDT </span>
+            </p>
+
+            <!-- Calendar links are always LTR (English product names) -->
+            <p style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';font-size: 15px;margin-bottom: 15px; color: #474746;text-align: left;">
+              <span style="font-weight: bold; color: #797979;">Add to:</span><span dir="ltr" style="unicode-bidi: isolate; display: inline-block; margin-inline-start: 0.35em;">
+                <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260315T120000Z%2F20260317T120000Z&details=Snapshot+festival+description&location=Snapshot+Arena+-+100+Snap+Street%2C+Toronto+ON+M5H+2N2&text=Snapshot+Festival+2026" style="color: #d80073; text-decoration: none;" target="_blank">Google Calendar</a><span style="color: #474746;"> | </span><a href="https://api.snapshot.invalid/api/v1/festivals/festival-fixed-001/ics" style="color: #d80073; text-decoration: none;" target="_blank">Apple Calendar</a><span style="color: #474746;"> | </span><a href="https://calendar.yahoo.com/?desc=Snapshot+festival+description&dur=0000&in_loc=Snapshot+Arena+-+100+Snap+Street%2C+Toronto+ON+M5H+2N2&st=20260315T080000&title=Snapshot+Festival+2026&type=20&v=60&view=d" style="color: #d80073; text-decoration: none;" target="_blank">Yahoo Calendar</a>
+              </span>
+            </p>
+
+            <!-- Time range is always LTR -->
+            <p style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';font-size: 15px;margin-bottom: 15px; color: #474746;text-align: left;">
+              <span style="font-weight: bold; color: #797979;">Event Time:</span><span dir="ltr" style="unicode-bidi: embed; display: inline-block; margin-inline-start: 0.35em;">NORMALIZED_TIME </span>
+            </p>
+
+            <!-- Email addresses are always LTR -->
+            <p style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';font-size: 15px;margin-bottom: 15px; color: #474746;text-align: left;">
+              <span style="font-weight: bold; color: #797979;">Buyer Email:</span><a href="mailto:buyer@snapshot.invalid" dir="ltr" style="display: inline-block; text-decoration: none; color: inherit; unicode-bidi: embed; margin-inline-start: 0.35em;">buyer@snapshot.invalid</a>
+            </p>
+
+            <!-- User name may be bidirectional -->
+            <p style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';font-size: 15px;margin-bottom: 15px; color: #474746;text-align: left;">
+              <span style="font-weight: bold; color: #797979;">Buyer Name:</span><span dir="auto" style="unicode-bidi: isolate; display: inline-block; margin-inline-start: 0.35em;">Alice Snapshot</span>
+            </p>
+
+            <!-- Phone numbers are always LTR -->
+            <p style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';font-size: 15px;margin-bottom: 15px; color: #474746;text-align: left;">
+              <span style="font-weight: bold; color: #797979;">Buyer Phone:</span><span dir="ltr" style="unicode-bidi: embed; display: inline-block; margin-inline-start: 0.35em;">+15550001001</span>
+            </p>
+
+          </div>
+        </div>
+
+        <!-- sponsor logos -->
+        
+
+        <!-- Two-column sponsor layout (SponsoredImagesLeft / SponsoredImagesRight are logical, not visual) -->
+        <div style="text-align: center; margin-top: 10px;">
+          <table style="width: 100%; max-width: 1200px; margin: 0 auto; border-spacing: 20px;">
+            <tr>
+              <!-- First column -->
+              <td style="vertical-align: top; width: 50%; text-align: center;">
+                
+              </td>
+
+              <!-- Second column -->
+              <td style="vertical-align: top; width: 50%; text-align: center;">
+                
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- tickets terms & conditions section -->
+        
+
+
+        <!-- contact container -->
+        
+
+<div style="height: auto;background: #ffffff 0% 0% no-repeat padding-box;border-radius: 8px;opacity: 1;display: table;width: 604px;margin: auto;padding-top: 1rem;margin-bottom: 1rem;" dir="ltr">
+  <div style="width: 90%; display: table; margin: auto;">
+    <p style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: &quot;Roboto&quot;;text-align: left;">For questions regarding your order, please</p>
+    <p style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: &quot;Roboto&quot;;text-align: left;">Email:<a href="mailto:info@eveenty.com" dir="ltr" style="display: inline-block; color: #d80073; text-decoration: none; unicode-bidi: embed; margin-inline-start: 0.35em;">info@eveenty.com</a></p>
+    <p style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: &quot;Roboto&quot;;text-align: left;">Call:<span dir="ltr" style="unicode-bidi: embed; display: inline-block; margin-inline-start: 0.35em;">1 (855) 552-1522</span> (10 a.m.–6 p.m. EST)</p>
+  </div>
+</div>
+
+
+        <div style="width: 604px; margin: auto; margin-top: 1rem;" dir="ltr">
+          <div style="width: 90%; display: table; margin: auto;">
+            <p class="police" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';color: #9d9ea0;text-align: left;font-size: 14px;">
+              This order is subject to Eveenty Terms of Service, Privacy Policy, and Cookie Policy.
+            </p>
+          </div>
+        </div>
+
+        <!-- footer -->
+        
+
+<div style="margin: auto;display: table;width: 604px;height: 164px;padding-top: 1rem;padding-bottom: 1rem;margin-top: 2rem;background: #ffffff 0% 0% no-repeat padding-box;border-radius: 8px;opacity: 1;" dir="ltr">
+  <div style="margin: auto;width: 80%;">
+    <div style="display: table;margin: auto;margin-bottom: 1rem;">
+      <p style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';color: #474746;font-size: 15px;padding-right: 12px;font-weight: 700;float: left;text-align: center;">Make Your Event on</p>
+      <a href="https://www.eveenty.com" target="_blank" style="text-decoration: none;">
+        <div style="width: 76px;height: 24px;float: left;"><img src="https://cdn.eveenty.com/assets/logo_transparent_en.png" style="margin: auto;width: 100%;"></div>
+      </a>
+    </div>
+    <p style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';justify-self: center;color: #474746;font-size: 14px;font-weight: bold;text-align: center;margin-bottom: 1rem;">Contact Us</p>
+    <div style="display: table;margin: auto;margin-bottom: 1rem;">
+      <a href="https://wa.link/9nqo8w" style="text-decoration: none" target="_blank">
+        <img src="https://cdn.eveenty.com/MaskGroup386.png" style="margin: auto;width: 16px;height: 16px;padding-right: 1rem;">
+      </a>
+
+      <a href="https://www.linkedin.com/company/eveenty/" style="text-decoration: none" target="_blank">
+        <img src="https://cdn.eveenty.com/MaskGroup385.png" style="margin: auto;width: 16px;height: 16px;padding-right: 1rem;">
+      </a>
+
+      <a href="https://www.facebook.com/61565784336714" style="text-decoration: none" target="_blank">
+        <img src="https://cdn.eveenty.com/MaskGroup387.png" style="margin: auto;width: 16px;height: 16px;padding-right: 1rem;">
+      </a>
+
+      <a href="https://x.com/eveenty" style="text-decoration: none" target="_blank">
+        <img src="https://cdn.eveenty.com/MaskGroup384.png" style="margin: auto;width: 16px;height: 16px;padding-right: 1rem;">
+      </a>
+
+      <a href="https://www.instagram.com/eveentyofficial/" style="text-decoration: none" target="_blank">
+        <img src="https://cdn.eveenty.com/MaskGroup389.png" style="margin: auto;width: 16px;height: 16px;padding-right: 1rem;">
+      </a>
+    </div>
+    <p style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';justify-self: center;color: #474746;font-size: 15px;text-align: center;" dir="ltr">
+      © Eveenty, 10 - 225 The East Mall Suite #1264 - Toronto - ON - M9B 0A9
+    </p>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </body>
+</html>
+
+
+    
+      
+    
+
+--boundary-string
+Content-Type: text/calendar; method=REQUEST; name="event.ics"
+Content-Disposition: attachment; filename="event.ics"
+Content-Transfer-Encoding: 7bit
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Rescounts Events & Tickets//Festival Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:festival-fixed-001@rescounts.com
+DTSTAMP:NORMALIZED
+DTSTART:20260315T120000Z
+DTEND:20260317T120000Z
+SUMMARY:Snapshot Festival 2026
+DESCRIPTION:Snapshot festival description
+LOCATION:Snapshot Arena - 100 Snap Street\, Toronto ON M5H 2N2
+ORGANIZER;CN="Snapshot Events Inc.":mailto:organizer@snapshot.invalid
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+
+--boundary-string--

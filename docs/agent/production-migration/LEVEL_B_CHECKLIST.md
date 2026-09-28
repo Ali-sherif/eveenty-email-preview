@@ -3,7 +3,7 @@
 **Date prepared:** 2026-09-28  
 **Prepared by:** P3 verification agent  
 **Executed by:** QA (human) — **agent must never mark rows passed**  
-**Environment:** Staging only · Staging kit CDN base · `EMAIL_KIT_ENABLED=true` (Backend-owned deploy)  
+**Environment:** Staging (if present) · Staging kit CDN base · kit selected automatically when CDN eligible + 48 templates parse (Backend-owned deploy; no `EMAIL_KIT_ENABLED`)  
 **Status of all evidence rows:** **NOT RUN**
 
 Do not convert historical HTML Preview Level A into a Level B pass.
@@ -15,7 +15,7 @@ Do not convert historical HTML Preview Level A into a Level B pass.
 | # | Prerequisite | Status |
 |---|---|---|
 | 1 | Staging kit CDN base URL set and Part B asset checks PASS | PENDING |
-| 2 | Staging deployed with kit switch ON + staging CDN base | Backend-owned — NOT RUN |
+| 2 | Staging deployed with eligible kit CDN base (kit readiness ON) | Backend-owned — NOT RUN |
 | 3 | Allowlisted QA inboxes only | PENDING (`QA_RECIPIENTS`) |
 | 4 | Test sends authorized (`SEND_AUTHORIZED=YES`) | NO (this P3 run) |
 

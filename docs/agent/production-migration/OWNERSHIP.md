@@ -4,8 +4,8 @@
 
 | Role | Owns | Does not own |
 |---|---|---|
-| **Owner** | Activation authorization (all 48 together); archive approval after production verification; design decisions already closed (logos, Support, Condensed Wallet, side-by-side, CDN separation) | Security remediation; inventing rollback/deploy mechanics |
-| **Backend team** | P1–P2 implementation; side-by-side kit parse set; dormant port batches; activation control; rollback; deploy sequencing; archive mechanics; integration snapshots/parity | Owner visual redesign; Infra CDN upload without Infra |
+| **Owner** | Production deploy authorization (all 48 together via release); archive approval after production verification; design decisions already closed (logos, Support, Condensed Wallet, side-by-side, CDN separation); architecture decision to remove runtime Kit toggle | Security remediation |
+| **Backend team** | P1–P4 implementation; side-by-side kit parse set; kit readiness guard (48 parse + eligible CDN); deploy sequencing; archive mechanics; integration snapshots/parity; rollback via prior release redeploy | Owner visual redesign; Infra CDN upload without Infra |
 | **Backend / Security** | Disposition of the **four** security handoffs (11 template IDs) as a **release gate** | Email Kit HTML Preview redesign |
 | **Infra** | Host 14 kit assets on **both** Production and Staging CDN bases; supply PENDING base URLs; resolve path/auth issues | Template Go porting |
 | **QA** | Level B real-client testing on Staging; assist production verification as agreed | Security disposition sign-off |
@@ -22,11 +22,14 @@
 
 Evidence pointers live in `docs/agent/HANDOFF.md` / `PROJECT_STATE.md` workstream C. Status: **unresolved**. Do not describe as fixed, harmless, or cleared.
 
-## Delegated mechanics (Backend team to define)
+## Delegated mechanics (Backend team)
 
-- Activation control  
-- Rollback mechanism  
-- Deploy sequencing  
-- Archive mechanics  
+**Owner architecture (2026-09-28):** release control is DEV → verify → merge/deploy; no `EMAIL_KIT_ENABLED`; rollback = prior known-good production release redeploy.
 
-Non-blocking for Phase 0 completion.
+Still Backend-owned:
+
+- Deploy sequencing (incl. Staging if/when present)  
+- Archive mechanics (after P5 + owner archive approval)  
+- Formal confirmation that prior-release rollback is operable in the deploy pipeline  
+
+Legacy templates remain in the repository until archive approval.

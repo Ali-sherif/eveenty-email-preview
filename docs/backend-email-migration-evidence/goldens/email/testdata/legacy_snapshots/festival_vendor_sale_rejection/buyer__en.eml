@@ -1,0 +1,336 @@
+From: "Eveenty Receipts" <noreply@snapshot.invalid>
+To: "Alice Snapshot" <buyer@snapshot.invalid>
+Subject: Order # cancelled | Snap Foods Co.
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="x-apple-disable-message-reformatting">
+    <title>Order cancelled</title>
+    <!--[if mso]>
+    <noscript>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+    </noscript>
+    <![endif]-->
+    <style type="text/css">
+      body, table, td, p, a {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+      table, td {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+      img {
+        -ms-interpolation-mode: bicubic;
+        border: 0;
+        outline: none;
+        text-decoration: none;
+        display: block;
+      }
+      @media only screen and (max-width: 620px) {
+        .email-container {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+        .stack-column,
+        .stack-column-center {
+          display: block !important;
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+        .stack-column + .stack-column {
+          padding-top: 16px !important;
+        }
+        
+        .stack-column-center {
+          text-align: center !important;
+        }
+        .mobile-padding {
+          padding-left: 16px !important;
+          padding-right: 16px !important;
+        }
+        .mobile-text-lg {
+          font-size: 18px !important;
+          line-height: 26px !important;
+        }
+        .mobile-text-md {
+          font-size: 14px !important;
+          line-height: 22px !important;
+        }
+        .mobile-text-sm {
+          font-size: 13px !important;
+          line-height: 20px !important;
+        }
+        .totals-box {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+        .items-table th,
+        .items-table td {
+          font-size: 11px !important;
+          line-height: 16px !important;
+          padding: 6px 4px !important;
+        }
+        .section-heading {
+          font-size: 16px !important;
+          line-height: 24px !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body bgcolor="#f8f8f8" style="margin: 0; padding: 0; width: 100% !important; background-color: #f8f8f8; font-family: Arial, Helvetica, sans-serif; color: #474746; direction: ltr; text-align: left;" dir="ltr">
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#f8f8f8" style="background-color: #f8f8f8; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+      <tr>
+        <td align="center" valign="top" style="padding: 24px 12px;">
+          <table role="presentation" class="email-container" width="600" cellspacing="0" cellpadding="0" border="0" align="center" style="width: 100%; max-width: 600px; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+            <tr>
+              <td class="mobile-padding" align="center" valign="top" style="padding: 0 0 16px 0;">
+                
+<div style="margin: auto;margin-top: 2rem;margin-bottom: 2rem;">
+  <img src="https://cdn.eveenty.com/circle.png" style="width: 10%;position: absolute;top: 0%;right: 4%;">
+  <div style="width: 93%;margin: auto;">
+    <img src="https://cdn.eveenty.com/assets/logo_transparent_en.png" style="width: 30%;">
+  </div>
+</div>
+
+              </td>
+            </tr>
+
+            <!-- Alert box -->
+            <tr>
+              <td class="mobile-padding" valign="top" style="padding: 0 0 20px 0;">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#fdf2f2" style="background-color: #fdf2f2; border: 1px solid #e74c3c; border-collapse: collapse; border-radius: 8px;">
+                  <tr>
+                    <td valign="top" style="padding: 16px 18px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; color: #742a2a; mso-line-height-rule: exactly;">
+                      We're sorry — Snap Foods Co. was unable to fulfill your order and has cancelled it.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td valign="top" style="padding: 0 18px 16px 18px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; color: #742a2a; mso-line-height-rule: exactly;">
+                      Any hold on your payment has been released automatically. Depending on your bank, it may take a few business days for the amount to appear on your statement.
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Title -->
+            <tr>
+              <td class="mobile-padding mobile-text-lg" align="center" valign="top" style="padding: 0 0 8px 0; font-family: Arial, Helvetica, sans-serif; font-size: 21px; line-height: 30px; font-weight: bold; color: #474746; mso-line-height-rule: exactly;">
+                Order # has been cancelled
+              </td>
+            </tr>
+            <tr>
+              <td class="mobile-padding mobile-text-md" align="center" valign="top" style="padding: 0 0 16px 0; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 23px; color: #6b6b6b; mso-line-height-rule: exactly;">
+                Below is a summary of the cancelled order for your records.
+              </td>
+            </tr>
+
+            <!-- Festival / booth / business -->
+            <tr>
+              <td class="mobile-padding mobile-text-lg" align="center" valign="top" style="padding: 0 0 20px 0; font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 26px; font-weight: bold; color: #d80073; mso-line-height-rule: exactly;" dir="ltr">
+                <span dir="auto" style="unicode-bidi: isolate;">Snapshot Festival 2026</span>
+                <span aria-hidden="true"> | </span>
+                <span dir="auto" style="unicode-bidi: isolate;">Snap Booth A1</span>
+                <span aria-hidden="true"> | </span>
+                <span dir="auto" style="unicode-bidi: isolate;">Snap Foods Co.</span>
+              </td>
+            </tr>
+
+            
+            <!-- Rejection reason -->
+            <tr>
+              <td class="mobile-padding" valign="top" style="padding: 0 0 20px 0;">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#fafafa" style="background-color: #fafafa; border: 1px solid #e0e0e0; border-collapse: collapse; border-radius: 8px;">
+                  
+                  <tr>
+                    <td valign="top" style="padding: 16px 18px 8px 18px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 23px; color: #474746; mso-line-height-rule: exactly;" dir="ltr">
+                      <strong>Reason:</strong>
+                      <span dir="auto" style="unicode-bidi: isolate;">Out of stock</span>
+                    </td>
+                  </tr>
+                  
+                  
+                  <tr>
+                    <td valign="top" style="padding: 8px 18px 16px 18px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 23px; color: #474746; mso-line-height-rule: exactly;" dir="ltr">
+                      <strong>Additional note from the vendor:</strong><br>
+                      <span dir="auto" style="unicode-bidi: isolate;">Item ran out of stock during the event</span>
+                    </td>
+                  </tr>
+                  
+                </table>
+              </td>
+            </tr>
+            
+
+            <!-- Order details heading -->
+            <tr>
+              <td class="mobile-padding section-heading" align="left" valign="top" style="padding: 0 0 12px 0; font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 26px; font-weight: bold; color: #474746; mso-line-height-rule: exactly; border-left: 4px solid #d80073; padding-left: 12px; text-align: left;">
+                Order Details
+              </td>
+            </tr>
+
+            <!-- Client / order info (two columns; column order follows reading direction) -->
+            <tr>
+              <td class="mobile-padding" valign="top" style="padding: 0 0 20px 0;">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" dir="ltr" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; direction: ltr;">
+                  <tr>
+                    <td class="stack-column" width="50%" valign="top" align="left" style="width: 50%; vertical-align: top; font-family: Arial, Helvetica, sans-serif; padding: 0 12px 0 0; text-align: left;">
+                      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" dir="ltr" style="border-collapse: collapse; direction: ltr; text-align: left;">
+                        <tr>
+                          <td align="left" style="padding: 8px 0 4px 0; font-size: 14px; line-height: 20px; color: #9d9ea0; mso-line-height-rule: exactly;">Client Name:</td>
+                        </tr>
+                        <tr>
+                          <td align="left" style="padding: 0 0 12px 0; font-size: 15px; line-height: 22px; font-weight: bold; color: #474746; mso-line-height-rule: exactly;"><bdi>Alice Snapshot</bdi></td>
+                        </tr>
+                        <tr>
+                          <td align="left" style="padding: 0 0 4px 0; font-size: 14px; line-height: 20px; color: #9d9ea0; mso-line-height-rule: exactly;">Client Phone:</td>
+                        </tr>
+                        <tr>
+                          <td align="left" style="padding: 0 0 12px 0; font-size: 15px; line-height: 22px; font-weight: bold; color: #474746; mso-line-height-rule: exactly;"><span dir="ltr" style="unicode-bidi: embed; display: inline-block; text-align: left;">+15550001001</span></td>
+                        </tr>
+                        <tr>
+                          <td align="left" style="padding: 0 0 4px 0; font-size: 14px; line-height: 20px; color: #9d9ea0; mso-line-height-rule: exactly;">Client Email:</td>
+                        </tr>
+                        <tr>
+                          <td align="left" style="padding: 0; font-size: 14px; line-height: 20px; color: #474746; mso-line-height-rule: exactly;">
+                            <a href="mailto:buyer@snapshot.invalid" dir="ltr" style="color: #474746; text-decoration: none; unicode-bidi: embed; direction: ltr; display: inline-block; text-align: left;">buyer@snapshot.invalid</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td class="stack-column" width="50%" valign="top" align="left" style="width: 50%; vertical-align: top; font-family: Arial, Helvetica, sans-serif; padding: 0 0 0 12px; text-align: left;">
+                      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" dir="ltr" style="border-collapse: collapse; direction: ltr; text-align: left;">
+                        <tr>
+                          <td align="left" style="padding: 8px 0 4px 0; font-size: 14px; line-height: 20px; color: #9d9ea0; mso-line-height-rule: exactly;">Order Number:</td>
+                        </tr>
+                        <tr>
+                          <td align="left" style="padding: 0 0 12px 0; font-size: 15px; line-height: 22px; font-weight: bold; color: #474746; mso-line-height-rule: exactly;"><span dir="ltr" style="unicode-bidi: embed; display: inline-block; text-align: left;">#</span></td>
+                        </tr>
+                        <tr>
+                          <td align="left" style="padding: 0 0 4px 0; font-size: 14px; line-height: 20px; color: #9d9ea0; mso-line-height-rule: exactly;">Submitted At:</td>
+                        </tr>
+                        <tr>
+                          <td align="left" style="padding: 0; font-size: 15px; line-height: 22px; font-weight: bold; color: #474746; mso-line-height-rule: exactly;"><span dir="ltr" style="unicode-bidi: embed; display: inline-block; text-align: left;">NORMALIZED_DATE&nbsp;NORMALIZED_TIME</span></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Items table -->
+            <tr>
+              <td class="mobile-padding" valign="top" style="padding: 0 0 20px 0;">
+                <table role="presentation" class="items-table" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#f5f5f5" style="width: 100%; border-collapse: collapse; background-color: #f5f5f5; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" dir="ltr">
+                  <tr>
+                    <th align="center" valign="middle" style="padding: 10px 6px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; font-weight: bold; color: #474746; background-color: #f5f5f5;">Item id</th>
+                    <th align="center" valign="middle" style="padding: 10px 6px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; font-weight: bold; color: #474746; background-color: #f5f5f5;">Name</th>
+                    <th align="center" valign="middle" style="padding: 10px 6px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; font-weight: bold; color: #474746; background-color: #f5f5f5;">Type</th>
+                    <th align="center" valign="middle" style="padding: 10px 6px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; font-weight: bold; color: #474746; background-color: #f5f5f5;">Price</th>
+                    <th align="center" valign="middle" style="padding: 10px 6px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; font-weight: bold; color: #474746; background-color: #f5f5f5;">Quantity</th>
+                    <th align="center" valign="middle" style="padding: 10px 6px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; font-weight: bold; color: #474746; background-color: #f5f5f5;">Amount</th>
+                  </tr>
+                  
+                  <tr>
+                    <td align="center" valign="middle" bgcolor="#ffffff" style="padding: 10px 6px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #474746; background-color: #ffffff;" dir="ltr">#prod</td>
+                    <td align="center" valign="middle" bgcolor="#ffffff" style="padding: 10px 6px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #474746; background-color: #ffffff;"><span dir="auto" style="unicode-bidi: isolate;">Snap Burger</span></td>
+                    <td align="center" valign="middle" bgcolor="#ffffff" style="padding: 10px 6px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #474746; background-color: #ffffff;"><span dir="auto" style="unicode-bidi: isolate;">product</span></td>
+                    <td align="center" valign="middle" bgcolor="#ffffff" style="padding: 10px 6px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #474746; background-color: #ffffff;" dir="ltr">$2.00 CAD</td>
+                    <td align="center" valign="middle" bgcolor="#ffffff" style="padding: 10px 6px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #474746; background-color: #ffffff;" dir="ltr">2</td>
+                    <td align="center" valign="middle" bgcolor="#ffffff" style="padding: 10px 6px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #474746; background-color: #ffffff;" dir="ltr">$4.00 CAD</td>
+                  </tr>
+                  
+                </table>
+              </td>
+            </tr>
+
+            <!-- Totals box -->
+            <tr>
+              <td class="mobile-padding" align="right" valign="top" style="padding: 0 0 24px 0;">
+                <table role="presentation" class="totals-box" width="350" cellspacing="0" cellpadding="0" border="0" align="right" bgcolor="#e9d023" style="width: 100%; max-width: 350px; border-collapse: collapse; background-color: #e9d023; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" dir="ltr">
+                  <tr>
+                    <td valign="top" style="padding: 20px 24px 12px 24px;">
+                      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse;">
+                        <tr>
+                          <td align="left" valign="top" style="padding: 0 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; color: #474746;">Subtotal:</td>
+                          <td align="right" valign="top" style="padding: 0 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; color: #474746; white-space: nowrap;" dir="ltr">$8.00 CAD</td>
+                        </tr>
+                        
+                        <tr>
+                          <td align="left" valign="top" style="padding: 0 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; color: #474746;">Processing fees:</td>
+                          <td align="right" valign="top" style="padding: 0 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; color: #474746; white-space: nowrap;" dir="ltr">$0.00 CAD</td>
+                        </tr>
+                        
+                        <tr>
+                          <td align="left" valign="top" style="padding: 0 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; color: #474746;">Tax:</td>
+                          <td align="right" valign="top" style="padding: 0 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; color: #474746; white-space: nowrap;" dir="ltr">$1.04 CAD</td>
+                        </tr>
+                        
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td bgcolor="#f3e165" style="padding: 14px 24px; background-color: #f3e165;">
+                      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse;">
+                        <tr>
+                          <td align="left" valign="middle" style="font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 24px; font-weight: bold; color: #474746;">Grand Total:</td>
+                          <td align="right" valign="middle" style="font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 24px; font-weight: bold; color: #474746; white-space: nowrap;" dir="ltr">$9.04 CAD</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+              <td class="mobile-padding" valign="top" style="padding: 0;">
+                
+
+
+<div class="footer" style="margin-top: 0;width: 100%;text-align: center;" dir="ltr">
+  <div class="line" style="display: table;width: 100%;background-color: #f3e165;height: 1px !important; margin-bottom: 10px;"></div>
+
+  <div class="footer-content" style="padding-top: 0; margin: auto;width: 100%;display: table;">
+    <div class="footer-details" style="float: left;display: table;width: 40%;">
+      <p class="footer-name" style="padding: 0;margin: 0;align-items: center;font-family: sans-serif;float: left;color: #e9d023;font-size: 10px;">T: <span dir="ltr" style="color: #474746;font-size: 8px; unicode-bidi: embed;">1 (855) 552-1522</span></p>
+    </div>
+    <div class="footer-details" style="float: left;display: table;width: 60%;">
+      <p class="footer-name" style="padding: 0;margin: 0;align-items: center;font-family: sans-serif;float: right;color: #e9d023;font-size: 10px;">Address: <span dir="ltr" style="color: #474746;font-size: 8px; unicode-bidi: embed;">10 - 225 The East Mall Suite #1264 - Toronto - ON - M9B 0A9</span></p>
+    </div>
+  </div>
+  <div class="footer-content" style="padding-top: 0;margin: auto;width: 100%;display: table;">
+    <div class="footer-details" style="float: left;display: table;width: 40%;">
+      <p class="footer-name" style="padding: 0;margin: 0;align-items: center;font-family: sans-serif;float: left;color: #e9d023;font-size: 10px;">Email: <a href="mailto:info@eveenty.com" dir="ltr" style="text-decoration: none; color: inherit; unicode-bidi: embed;"><span style="color: #474746; font-size: 10px;">info@eveenty.com</span></a></p>
+    </div>
+    <div class="footer-details" style="float: left;display: table;width: 35%;">
+      <p class="footer-name" style="padding: 0;margin: 0;align-items: center;font-family: sans-serif;float: left;color: #e9d023;font-size: 10px;">Website: <a href="https://www.eveenty.com" dir="ltr" style="text-decoration: none; color: inherit; unicode-bidi: embed;"><span style="color: #474746;font-size: 10px;">eveenty.com</span></a></p>
+    </div>
+    <div class="footer-details" style="float: left;display: table;width: 25%;">
+      <p class="footer-name" style="padding: 0;margin: 0;align-items: center;font-family: sans-serif;float: right;color: #e9d023;font-size: 10px;">HST#: <span dir="ltr" style="color: #474746;font-size: 10px; unicode-bidi: embed;">753763713</span></p>
+    </div>
+  </div>
+</div>
+
+
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

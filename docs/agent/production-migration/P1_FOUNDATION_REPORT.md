@@ -12,6 +12,8 @@
 P1 foundation items 1–4 are implemented in `D:\last\rescounts-backend`.  
 **No kit template is active. `EMAIL_KIT_ENABLED` defaults OFF. Kit CDN URLs remain PENDING for Production and Staging. Security handoffs remain unresolved and owned by Backend/Security.**
 
+> **SUPERSEDED (2026-09-28):** Owner architecture change removed `EMAIL_KIT_ENABLED`. Release control is DEV → verify → merge/deploy; rollback is prior release redeploy. See `DECISION_LOG.md`, `MIGRATION_APPROACH.md`, `P4_ACTIVATION_PREP_REPORT.md`. Historical P1 details below remain as session evidence.
+
 ---
 
 ## 1. Files changed (purpose)

@@ -1,0 +1,63 @@
+From: "Eveenty" <noreply@snapshot.invalid>
+To: "Snapshot Admin" <admin@snapshot.invalid>
+Subject: ⚠ Bad Content | Snapshot Festival 2026 
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: #292929; min-width: 600px;">
+    
+    <!-- header -->
+    
+<div style="width: 100%; height: 5em; padding-top: 1.8em;">
+  <div style="width: 100%; height: 5em; background: linear-gradient(90deg, #E8CF21 50%, #E8CF21 50%); background-repeat: no-repeat; background-size: 100% 15%; background-position: center;">
+    <img style="padding: 0 50px; margin: 0 50px; background-color:rgb(250, 255, 222); height: 5em; width: auto; float: right;" src="https://cdn.eveenty.com/eveenty-logo-1280.png">
+  </div>
+</div>
+
+
+    <h3 style="font-size: 140%; font-weight: 600; padding: 1em 2em 1em 2em;">
+      We have rejected the requested updates in festival (Snapshot Festival 2026) submitted by  (Alice Snapshot) because our moderation system found it might be a bad content.
+    </h3>
+
+
+    <div style="font-size: 140%; font-weight: 500; padding: 1em 2em 1em 2em; text-align: left;">
+      <span style="width:17em; display: inline-block;">Submitter Name:</span>
+      <span style="width:17em; display: inline-block;">Alice Snapshot</span><br />
+
+      <span style="width:17em; display: inline-block;">Submitter Email:</span>
+      <span style="width:17em; display: inline-block;">buyer@snapshot.invalid</span><br />
+
+      <span style="width:17em; display: inline-block;">Requested At:</span>
+      <span style="width:17em; display: inline-block;">NORMALIZED_LONG_DATE at NORMALIZED_TIME</span><br />
+
+      <span style="width:17em; display: inline-block;">Action:</span>
+      <span style="width:17em; display: inline-block;">REJECT</span><br />
+
+    </div>
+
+    <div style="text-align: left">
+      <h2>The response returned to the organizer</h2>
+      <p style="color: red; font-size: 16px; font-style: italic;">Content violates guidelines</p>
+
+      <hr />
+
+      <h2>The requested Data:</h2>
+      <p>This data may be helpful for developers</p>
+      <pre style="font-size: 15px">{
+  "reason": "spam"
+}</pre>
+    </div>
+    
+
+    <div style="text-align: left">
+      <img src="https://cdn.eveenty.com/eveenty-logo-1280.png" style="hight: auto; width: 380px;" />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,315 @@
+From: "Eveenty" <noreply@snapshot.invalid>
+To: "Alice Snapshot" <buyer-ar@snapshot.invalid>
+Subject: Snapshot Festival 2026 | تحديث حول تسجيل تذكرتك
+Content-Type: multipart/mixed; boundary="boundary-string"
+MIME-Version: 1.0
+
+--boundary-string
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+      body { font-family: 'Roboto', Tahoma, Arial, sans-serif; margin: 0; padding: 0; }
+      .card { border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); overflow: hidden; }
+      .accent { color: #d80073; }
+      @media only screen and (max-width: 600px) {
+        body { font-size: 17px !important; }
+        .mobile-text { font-size: 17px !important; }
+        .mobile-text-sm { font-size: 16px !important; }
+        .mobile-label { font-size: 15px !important; }
+        .mobile-value { font-size: 17px !important; }
+      }
+    </style>
+    <title>Ticket Registration Update</title>
+  </head>
+  <body bgcolor="#f8f8f8" style="background-color: #f8f8f8;font-family: 'Roboto', Tahoma, Arial, sans-serif;">
+    <div class="valid-web" style="display: table;width: 50%;margin: auto;">
+      <div class="valid-web-container" style="margin: auto;" dir="rtl">
+
+        <!-- header -->
+        <div style="width: 100%;margin: auto;margin-top: 2rem;margin-bottom: 1rem;">
+          
+<!-- dir=ltr isolates layout so BrandLogoURL stays visually left and OrganizerLogo right inside RTL emails -->
+<!-- Header container with centered width of 90% for edge-to-edge logo positioning -->
+<div dir="ltr" style="width: 90%;margin: auto;margin-top: 2rem;margin-bottom: 1rem;direction: ltr;unicode-bidi: isolate;">
+  
+  <!-- Check if organizer logo exists -->
+  
+  
+  <!-- Two-column layout: Eveenty logo on left, Organizer logo on right -->
+  <table role="presentation" dir="ltr" cellspacing="0" cellpadding="0" border="0" style="width: 100%;direction: ltr;">
+    <tr>
+      <!-- Left column: Eveenty logo aligned to left edge -->
+      <td style="text-align: left; vertical-align: middle;">
+        <img src="https://cdn.eveenty.com/assets/logo_transparent_ar.png" alt="Eveenty Logo" style="max-width: 150px; height: auto;">
+      </td>
+      
+      <!-- Right column: Organizer logo aligned to right edge -->
+      <td style="text-align: right; vertical-align: middle;">
+        <!-- Circular organizer logo: border-radius: 50% with fixed width/height -->
+        <img src="https://cdn.snapshot.invalid/logo-fixed-001.jpg" alt="Organizer Logo" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
+      </td>
+    </tr>
+  </table>
+  
+  
+</div>
+
+        </div>
+
+        <!-- Rejection Alert Box -->
+        <div style="width: 604px;margin: auto;margin-bottom: 1.5rem;background-color: #fdf2f2;border: 1px solid #e74c3c;border-radius: 12px;padding: 1.25rem;">
+          <p class="mobile-text-sm" style="padding: 0;line-height: 1.6;margin: 0;font-family: 'Roboto';color: #742a2a;font-size: 15px;">
+            تم رفض طلب تسجيل التذاكر هذا.
+          </p>
+        </div>
+
+        <!-- Greeting Message -->
+        <p class="title" style="padding: 0;line-height: 2;margin: auto;font-family: 'Roboto';width: 604px;font-weight: 500;color: #474746;font-size: 19px;letter-spacing: 0px;">
+          نأسف لإبلاغك بأن تسجيلك في فعالية Snapshot Festival 2026 لم يتم قبوله في هذا الوقت. إذا كانت لديك أسئلة، يرجى التواصل مع منظم الفعالية.
+        </p>
+        <p class="mobile-text-sm" style="padding: 0;line-height: 1.6;margin: 0.5rem auto 0;font-family: 'Roboto';width: 604px;color: #6b6b6b;font-size: 16px;">
+          فيما يلي ملخص هذا التسجيل.
+        </p>
+
+        <!-- Registration Info Container -->
+        <div style="width: 604px;margin: auto;margin-top: 2rem;margin-bottom: 1rem;">
+          <p class="section-title mobile-text" style="padding: 0;line-height: 1.4;margin: 0 0 1rem;font-family: 'Roboto';font-weight: 700;color: #474746;font-size: 20px;border-right: 4px solid #d80073;padding-right: 12px;">
+            📋 ملخص التسجيل
+          </p>
+          <div class="registration-info-container card" style="background-color: #ffffff;padding: 1.5rem;border-radius: 12px;box-shadow: 0 4px 12px rgba(0,0,0,0.06);">
+
+          <!-- Event Name -->
+          <p class="scan-title mobile-text" style="padding: 0;line-height: 2;margin: 0;font-family: 'Roboto';text-align: center;color: #474746;font-weight: 700;font-size: 21px;">
+            🎫 الفعالية: <span class="accent" style="color: #d80073;"><bdi>Snapshot Festival 2026</bdi></span>
+          </p>
+
+          <!-- Registration ID -->
+          <p class="mobile-text-sm" style="padding: 0;line-height: 2;margin: 0;font-family: 'Roboto';text-align: center;color: #9d9ea0;font-size: 15px;margin-top: 0.5rem;">
+            رقم التسجيل: <strong style="color: #474746;" dir="ltr">ticke</strong>
+          </p>
+
+          <div class="registration-details" style="padding-top: 2rem;display: table;width: 100%;">
+            <div class="details-content" style="margin: auto;width: 90%;">
+
+              <div class="detail-item" style="margin: auto;width: 90%;margin-bottom: 1.25rem;">
+                <p class="detail-label mobile-label" style="padding: 0;line-height: 1.4;margin: 0;font-family: 'Roboto';font-size: 14px;color: #9d9ea0;text-transform: uppercase;letter-spacing: 0.5px;">تاريخ ووقت التسجيل</p>
+                <p class="detail-value mobile-value" style="padding: 0;line-height: 1.6;margin: 0.25rem 0 0;font-family: 'Roboto';color: #474746;font-weight: 600;font-size: 17px;" dir="rtl">الأحد 15 مارس 2026 08:00 EDT</p>
+              </div>
+
+              <div class="detail-item" style="margin: auto;width: 90%;margin-bottom: 1.25rem;">
+                <p class="detail-label mobile-label" style="padding: 0;line-height: 1.4;margin: 0;font-family: 'Roboto';font-size: 14px;color: #9d9ea0;text-transform: uppercase;letter-spacing: 0.5px;">الحالة الحالية</p>
+                <p class="detail-value mobile-value" style="padding: 0;line-height: 1.6;margin: 0.25rem 0 0;font-family: 'Roboto';color: #d80073;font-weight: 600;font-size: 17px;">مرفوض</p>
+              </div>
+
+              
+
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <!-- Buyer Information -->
+        <div style="width: 604px;margin: auto;margin-top: 2rem;margin-bottom: 1rem;">
+          <p class="section-title mobile-text" style="padding: 0;line-height: 1.4;margin: 0 0 1rem;font-family: 'Roboto';font-weight: 700;color: #474746;font-size: 20px;border-right: 4px solid #d80073;padding-right: 12px;">
+            👤 معلومات المشتري
+          </p>
+          <div class="buyer-info card" style="background-color: #ffffff;padding: 1.5rem;border-radius: 12px;box-shadow: 0 4px 12px rgba(0,0,0,0.06);">
+            <p class="mobile-text-sm" style="padding: 0;line-height: 1.6;margin: 0;font-family: 'Roboto';color: #474746;font-size: 15px;">
+              <strong>الاسم:</strong> <bdi>Alice Snapshot</bdi>
+            </p>
+            <p class="mobile-text-sm" style="padding: 0;line-height: 1.6;margin: 0;margin-top: 0.5rem;font-family: 'Roboto';color: #474746;font-size: 15px;">
+              <strong>البريد الإلكتروني:</strong> <span dir="ltr" style="unicode-bidi: embed;">buyer-ar@snapshot.invalid</span>
+            </p>
+            
+            <p class="mobile-text-sm" style="padding: 0;line-height: 1.6;margin: 0;margin-top: 0.5rem;font-family: 'Roboto';color: #474746;font-size: 15px;">
+              <strong>رقم الهاتف:</strong> <span dir="ltr" style="unicode-bidi: embed;">+15550001001</span>
+            </p>
+            
+          </div>
+        </div>
+
+        <!-- Registered Tickets -->
+        <div style="width: 604px;margin: auto;margin-top: 2rem;margin-bottom: 1rem;">
+          <p class="section-title mobile-text" style="padding: 0;line-height: 1.4;margin: 0 0 0.5rem;font-family: 'Roboto';font-weight: 700;color: #474746;font-size: 20px;border-right: 4px solid #d80073;padding-right: 12px;">
+            🎟️ التذاكر المسجلة (1)
+          </p>
+          <p class="mobile-text-sm" style="padding: 0;line-height: 1.5;margin: 0 0 1rem;font-family: 'Roboto';color: #6b6b6b;font-size: 15px;">
+            تفاصيل كل تذكرة في هذا التسجيل مدرجة أدناه.
+          </p>
+
+          
+          <div class="ticket-item card" style="background-color: #ffffff;padding: 1.5rem;border-radius: 12px;box-shadow: 0 4px 12px rgba(0,0,0,0.06);margin-bottom: 1rem;border: 1px solid #f0f0f0;">
+
+            <!-- Ticket Header -->
+            <div style="border-bottom: 2px solid #d80073;padding-bottom: 1rem;margin-bottom: 1rem;">
+              <p class="mobile-value" style="padding: 0;line-height: 1.6;margin: 0;font-family: 'Roboto';color: #d80073;font-weight: 700;font-size: 17px;">
+                1 / 1
+              </p>
+              <p class="mobile-text-sm" style="padding: 0;line-height: 1.6;margin: 0.5rem 0 0;font-family: 'Roboto';color: #474746;font-size: 15px;">
+                <strong>نوع التذكرة:</strong> <bdi>General Admission</bdi>
+              </p>
+            </div>
+
+            <!-- Ticket Holder Information -->
+            <div style="margin-bottom: 1rem;">
+              <p class="mobile-text-sm" style="padding: 0;line-height: 1.6;margin: 0;font-family: 'Roboto';color: #474746;font-size: 15px;">
+                <strong>حامل التذكرة:</strong> <bdi>Alice Snapshot</bdi>
+              </p>
+              
+              <p class="mobile-text-sm" style="padding: 0;line-height: 1.6;margin: 0;margin-top: 0.5rem;font-family: 'Roboto';color: #474746;font-size: 15px;">
+                <strong>البريد الإلكتروني:</strong> <span dir="ltr" style="unicode-bidi: embed;">buyer@snapshot.invalid</span>
+              </p>
+              
+              
+              <p class="mobile-text-sm" style="padding: 0;line-height: 1.6;margin: 0;margin-top: 0.5rem;font-family: 'Roboto';color: #474746;font-size: 15px;">
+                <strong>رقم الهاتف:</strong> <span dir="ltr" style="unicode-bidi: embed;">+15550001001</span>
+              </p>
+              
+            </div>
+
+            <!-- Question Answers -->
+            
+
+          </div>
+          
+        </div>
+
+        <!-- Event Details -->
+        <div style="width: 604px;margin: auto;margin-top: 2rem;margin-bottom: 2rem;">
+          <p class="section-title mobile-text" style="padding: 0;line-height: 1.4;margin: 0 0 0.5rem;font-family: 'Roboto';font-weight: 700;color: #474746;font-size: 20px;border-right: 4px solid #d80073;padding-right: 12px;">
+            📍 تفاصيل الفعالية
+          </p>
+          <p class="mobile-text-sm" style="padding: 0;line-height: 1.5;margin: 0 0 1rem;font-family: 'Roboto';color: #6b6b6b;font-size: 15px;">
+            متى وأين تُقام الفعالية.
+          </p>
+          <div class="event-details card" style="background-color: #ffffff;padding: 1.5rem;border-radius: 12px;box-shadow: 0 4px 12px rgba(0,0,0,0.06);">
+
+            <p class="mobile-text" style="padding: 0;line-height: 1.6;margin: 0 0 1rem;font-family: 'Roboto';text-align: center;font-weight: 700;font-size: 20px;">
+              <span style="color: #d80073;"><bdi>Snapshot Festival 2026</bdi></span>
+            </p>
+
+            
+
+            
+            <p class="mobile-text-sm" style="padding: 0;line-height: 1.6;margin: 0;font-family: 'Roboto';color: #474746;font-size: 15px;">
+              <strong>تاريخ بدء الفعالية</strong><br><span style="color: #474746;" dir="rtl">الأحد 15 مارس 2026 08:00 EDT</span>
+            </p>
+            
+
+            
+
+            
+            <p class="mobile-text-sm" style="padding: 0;line-height: 1.6;margin: 1rem 0 0;font-family: 'Roboto';color: #474746;font-size: 15px;">
+              <strong>المكان</strong><br><span style="color: #474746;"><bdi>Snapshot Arena</bdi></span>
+            </p>
+            
+
+            
+            <p class="mobile-text-sm" style="padding: 0;line-height: 1.6;margin: 0.5rem 0 0;font-family: 'Roboto';color: #474746;font-size: 15px;">
+              <strong>الموقع</strong><br><span style="color: #474746;"><bdi>100 Snap Street, Toronto ON M5H 2N2</bdi></span>
+            </p>
+            
+
+            
+            <p class="mobile-text-sm" style="padding: 0;line-height: 1.6;margin: 0.75rem 0 0;font-family: 'Roboto';color: #474746;font-size: 15px;">
+              <a href="https://maps.google.com/?q=43.6532,-79.3832" style="color: #d80073;text-decoration: none;font-weight: 600;" dir="ltr">عرض الخريطة ←</a>
+            </p>
+            
+
+          </div>
+          
+          <p class="mobile-label" style="padding: 0;line-height: 1.5;margin: 0.75rem 0 0;font-family: 'Roboto';color: #9d9ea0;font-size: 14px;font-style: italic;text-align: center;">
+            جميع الأوقات المعروضة بتوقيت America/Toronto.
+          </p>
+          
+        </div>
+
+        <!-- Footer -->
+        
+
+
+<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: 0; padding: 0; border-collapse: collapse;">
+  <tr>
+    <td align="center" dir="rtl" style="padding: 2rem 0 2rem 0;">
+
+      
+      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="604" style="width: 100%; max-width: 604px; min-height: 164px; background: #ffffff; border-radius: 8px; border-collapse: collapse;" dir="rtl">
+        <tr>
+          <td align="center" style="padding: 1rem 10% 1rem 10%;">
+
+            
+            
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="margin: 0 auto 1rem auto; border-collapse: collapse;" dir="rtl">
+              <tr>
+                <td style="padding: 0 0 0 12px; font-family: 'Roboto', Tahoma, Arial, sans-serif; color: #474746; font-size: 15px; font-weight: 700; line-height: 2; vertical-align: middle; text-align: center;">أقم فعاليتك على</td>
+                <td width="76" style="width: 76px; padding: 0; vertical-align: middle;">
+                  <a href="https://www.eveenty.com" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                    <img src="https://cdn.eveenty.com/assets/logo_transparent_ar.png" alt="" width="76" height="24" style="display: block; width: 76px; height: 24px; border: 0; outline: none; text-decoration: none;">
+                  </a>
+                </td>
+              </tr>
+            </table>
+            
+
+            
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: 0 0 1rem 0; border-collapse: collapse;">
+              <tr>
+                <td align="center" style="padding: 0; font-family: 'Roboto', Tahoma, Arial, sans-serif; color: #474746; font-size: 14px; font-weight: bold; line-height: 2;">تواصل معنا</td>
+              </tr>
+            </table>
+
+            
+            
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="margin: 0 auto 1rem auto; border-collapse: collapse;" dir="rtl">
+              <tr>
+                <td style="padding: 0 0 0 1rem; vertical-align: middle;"><a href="https://wa.link/9nqo8w" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><img src="https://cdn.eveenty.com/MaskGroup386.png" alt="" width="16" height="16" style="display: block; width: 16px; height: 16px; border: 0;"></a></td>
+                <td style="padding: 0 0 0 1rem; vertical-align: middle;"><a href="https://www.linkedin.com/company/eveenty/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><img src="https://cdn.eveenty.com/MaskGroup385.png" alt="" width="16" height="16" style="display: block; width: 16px; height: 16px; border: 0;"></a></td>
+                <td style="padding: 0 0 0 1rem; vertical-align: middle;"><a href="https://www.facebook.com/61565784336714" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><img src="https://cdn.eveenty.com/MaskGroup387.png" alt="" width="16" height="16" style="display: block; width: 16px; height: 16px; border: 0;"></a></td>
+                <td style="padding: 0 0 0 1rem; vertical-align: middle;"><a href="https://x.com/eveenty" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><img src="https://cdn.eveenty.com/MaskGroup384.png" alt="" width="16" height="16" style="display: block; width: 16px; height: 16px; border: 0;"></a></td>
+                <td style="padding: 0; vertical-align: middle;"><a href="https://www.instagram.com/eveentyofficial/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><img src="https://cdn.eveenty.com/MaskGroup389.png" alt="" width="16" height="16" style="display: block; width: 16px; height: 16px; border: 0;"></a></td>
+              </tr>
+            </table>
+            
+
+            
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: 0; border-collapse: collapse;">
+              <tr>
+                <td align="center" dir="ltr" style="padding: 0; font-family: 'Roboto', Tahoma, Arial, sans-serif; color: #474746; font-size: 15px; line-height: 2;">© Eveenty، 10 - 225 The East Mall Suite #1264 - تورونتو - أونتاريو - M9B 0A9</td>
+              </tr>
+            </table>
+
+          </td>
+        </tr>
+      </table>
+
+      
+      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="604" style="width: 100%; max-width: 604px; margin-top: 1rem; border-collapse: collapse;">
+        <tr>
+          <td align="center" style="padding: 0; font-family: 'Roboto', Tahoma, Arial, sans-serif; color: #9d9ea0; font-size: 14px; line-height: 1.6;" class="mobile-label">هذا إشعار تلقائي من Eveenty.</td>
+        </tr>
+        <tr>
+          <td align="center" style="padding: 0.5rem 0 0 0; font-family: 'Roboto', Tahoma, Arial, sans-serif; color: #9d9ea0; font-size: 14px; line-height: 1.6;" class="mobile-label">هل تحتاج إلى مساعدة؟ تواصل معنا على <a href="mailto:info@eveenty.com" dir="ltr" style="color: #d80073; text-decoration: none; unicode-bidi: embed;">info@eveenty.com</a></td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+</table>
+
+        
+
+      </div>
+    </div>
+  </body>
+</html>
+
+--boundary-string--

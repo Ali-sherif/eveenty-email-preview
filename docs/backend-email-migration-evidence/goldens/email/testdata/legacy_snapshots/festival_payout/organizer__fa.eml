@@ -1,0 +1,53 @@
+From: "Eveenty" <noreply@snapshot.invalid>
+To: "Bob Organizer" <organizer-fa@snapshot.invalid>
+Subject: Snapshot Festival 2026 | Payout | Organizer Email
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>       
+      /* Import the font via Google Fonts */
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+       /* Using @font-face */
+      @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        src: url('https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf') format('truetype');
+      }
+
+      body {
+        font-family: 'Roboto', Arial, sans-serif;
+      }
+    </style>
+    <title>festival payout</title>
+  </head>
+
+  <body style="margin: 0; padding: 0; background-color: #f2f2f2; font-family: 'Roboto', Arial, sans-serif">
+    <div style="max-width: 680px; margin: 0 auto; background-color: #ffffff; padding: 20px;">
+      <img 
+        src="https://cdn.eveenty.com/eveenty-logo-1280.png" 
+        alt="Eveenty Logo" 
+        style="max-width: 200px; height: auto; margin-bottom: 30px; display: block;"
+      />
+      
+      <h2 style="color: #333333; font-size: 18px; margin: 20px 0; text-align: left;">Payout for period between <strong>NORMALIZED_DATE</strong/> and <strong>NORMALIZED_DATE</strong>.</h2>
+      
+      <p style="color: #333333; font-size: 16px; text-align: left; margin: 20px 0;">
+        Dear Bob Organizer,
+      </p>
+
+      <p style="color: #333333; font-size: 16px; line-height: 1.8; text-align: left; margin: 20px 0;">
+        A payout for the amount of <span style="font-weight: bold;">$2,500.00 CAD</span style="font-weight: bold;"> for the period of <span style="font-weight: bold;">Sun. Mar 08, 2026 at NORMALIZED_TIME</span> 
+        to <span style="font-weight: bold;">Sun. Mar 15, 2026 at NORMALIZED_TIME</span> for the festival <span style="font-weight: bold;">Snapshot Festival 2026</span> has been processed. 
+        For more details, <a href="https://organizer.eveenty.com/transfer-users/festival-fixed-001?from=NORMALIZED_DATET12:00:00Z&to=NORMALIZED_DATET12:00:00Z" style="color: #d80073; text-decoration: none;">click here</a>.
+      </p>
+    </div>
+  </body>
+</html>
