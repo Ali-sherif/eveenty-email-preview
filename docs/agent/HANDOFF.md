@@ -2,185 +2,93 @@
 
 ## Current task
 
-Phase 1 HTML Preview design is complete.
-All 48 in-scope templates have explicit
-owner visual approval.
+**Phase 4 — Activation PREPARATION COMPLETE — LIVE CUTOVER BLOCKED ON CDN URLS + EXTERNAL GATES.**
 
-**Authorized Wallet adjustment applied (2026-09-27):**
-Owner FINAL design decision — Google Wallet
-**Condensed ONLY** at all viewport widths for
-`festival_ticket_sale` (en/ar/fr/es/fa).
-Responsive Primary↔Condensed switch removed.
-Active CDN upload inventory updated to
-**exactly 14 unique files**. No CDN upload
-performed.
+Owner authorized all-48 activation mechanism + P4 prep (no Staging required for current workflow; CDN URLs forthcoming).  
+Reports: `P1_FOUNDATION_REPORT.md`, `P2_PORT_REPORT.md`, `P3_VERIFICATION_REPORT.md`, **`P4_ACTIVATION_PREP_REPORT.md`**, **`P4_CDN_CONFIGURATION_CHECKLIST.md`**, `LEVEL_B_CHECKLIST.md`.
 
-No further design implementation is authorized
-without new explicit owner authorization.
+**Switch default OFF. No kit mail is live. Insert real CDN bases per checklist when Infra supplies them — do not edit templates.**  
+Security handoffs unresolved (Backend/Security). Level B NOT RUN. No real emails sent.
 
-Documentation update (2026-09-27): clarified
-ownership of the consolidated
-**Final Seven — Backend/Security Review**
-observations (`text/template` HTML, dynamic
-MIME headers, submitted demo URLs) —
-Backend/Security, outside Email Kit design
-scope; unresolved; documented and handed off
-only. All seven HTML Previews remain owner
-visually approved.
+Phase 1 HTML Preview design remains complete: **48/48 owner visually approved**.  
+Owner FINAL Wallet decision stands: Google **Condensed ONLY** on `festival_ticket_sale`; CDN inventory **14** unique files; **0 uploads**.
 
-Prior documentation updates (same day):
-clarified `organizer_announcement`,
-consolidated Marketing Approval
-(`festival_marketing_approval` +
-`festival_marketing_approval_sms`), and
-consolidated
-`festival_rescounts_marketing_email_target`
-ownership the same way.
+## Phase status
 
-Production security review, actual email-client
-testing, CDN hosting and production migration
-remain separate future work requiring
-explicit owner authorization.
+| Phase | Status |
+|---|---|
+| Phase 0 — Production migration prep (docs) | COMPLETE |
+| Phase 1 — Backend foundation | **IMPLEMENTED — AWAITING BACKEND REVIEW** |
+| Phase 2 — Port templates (dormant) | **PORTED — DORMANT UNTIL LIVE CUTOVER** |
+| Phase 3 — Verification | **LOCAL DONE — Staging optional / blocked on CDN if used** |
+| Phase 4 — Activation prep | **IMPLEMENTATION COMPLETE — NOT LIVE** |
+| CDN upload / deploy / enable switch | **Blocked on Infra URLs + external gates** |
+
+## Deliverable paths
+
+### Phase 0 (unchanged)
+- `docs/agent/production-migration/PRODUCTION_MIGRATION_READINESS.md`
+- `docs/agent/production-migration/MIGRATION_MATRIX.csv`
+- `docs/agent/production-migration/VARIABLE_CONTRACTS/` (48)
+- `docs/agent/production-migration/MIGRATION_APPROACH.md`
+- `docs/agent/production-migration/CDN_INTEGRATION_PLAN.md`
+- `docs/agent/production-migration/TEST_AND_RELEASE_PLAN.md`
+- `docs/agent/production-migration/OWNERSHIP.md`
+
+### Phase 1–3 (unchanged intent)
+- `P1_FOUNDATION_REPORT.md`, `P2_PORT_REPORT.md`, `P3_VERIFICATION_REPORT.md`, `LEVEL_B_CHECKLIST.md`
+- Backend (uncommitted): seam + 48 kit templates + activation guard + snapshots/parity/P3 audits
+
+### Phase 4 (new)
+- `docs/agent/production-migration/P4_ACTIVATION_PREP_REPORT.md`
+- `docs/agent/production-migration/P4_CDN_CONFIGURATION_CHECKLIST.md` — **exact places to paste CDN URLs**
+- Backend (uncommitted additive): reject test-only CDN for live activation; `.env.example` kit keys; eligibility tests
+
+## Remaining open items
+
+1. **Infra** — supply Production (and Staging if/when it exists) kit CDN bases; upload 14 manifest assets; verify HTTPS/png/SHA-256.
+2. **Owner/operator** — paste bases into env only (`EMAIL_KIT_CDN_BASE_URL`); leave `EMAIL_KIT_ENABLED=false` until gates allow.
+3. **Backend** — review P1–P4; formal rollback confirmation; deploy when authorized; do not enable switch early.
+4. **QA** — Level B when an environment + CDN exist (`LEVEL_B_CHECKLIST.md`); agent must not mark rows passed.
+5. **Backend/Security** — dispositions for four handoffs (11 ids); release gate 4.
+6. Matrix backfill: `locales_supported` still UNKNOWN in CSV (runtime locales exercised in P3 tests).
+
+## Next authorized action
+
+**Infra supplies real kit CDN base(s) → upload/verify 14 assets → set `EMAIL_KIT_CDN_BASE_URL` (switch still OFF) → external gates 2–5 → then `EMAIL_KIT_ENABLED=true` for all-48 cutover.**
+
+Until then: no enabling `EMAIL_KIT_ENABLED` in real envs, no CDN upload by agent, no commit/push/deploy without explicit authorization, no customer sends.
 
 ## Current inventory and approval state
 
 - Verified inventory: **59 physical / 11 excluded / 48 in scope**.
 - Designed HTML Preview: **48**.
-- Owner visually approved: **48** (includes authorized Condensed-only Wallet adjustment).
-- Remaining `IN_SCOPE · UNDESIGNED`: **0**.
-- Real Gmail / Outlook / Apple Mail testing: **NOT RUN**.
-- Active CDN upload inventory: **14 unique files** (logos 5 + Google Condensed 5 + Apple 4). Earlier 19-file inventory **SUPERSEDED**. **0 uploads performed**; CDN URLs pending.
+- Owner visually approved (design kit): **48**.
+- Kit templates ported: **48/48**.
+- Activation mechanism: **complete** (all-or-nothing; fail-closed; test placeholder rejected for live activation).
+- Legacy snapshot goldens: **283**. Kit goldens / kit_preview: **273**.
+- Real Gmail / Outlook / Apple Mail testing: **NOT RUN** (Level B).
+- Active CDN upload inventory: **14 unique files**. **0 uploads**; CDN URLs pending.
+- Live kit: **OFF**.
 
 ## Workstream separation
 
 | ID | Category | Email Kit owns? | Status |
 |---|---|---|---|
-| **A** | Completed Email Kit design deliverables | Yes | **DONE** — 48 HTML Preview designs, all owner visually approved (Wallet Condensed-only adjustment applied) |
-| **B** | Email rendering and integration requirements | No (needs auth) | **OPEN** — Level B client testing; CDN hosting (14-file manifest ready; upload not authorized) |
-| **C** | Pre-existing Backend/Security observations | Document/hand off only | **OPEN** — unresolved; outside design scope |
-| **D** | Separately authorized production release work | No | **NOT AUTHORIZED** |
+| **A** | Completed Email Kit design deliverables | Yes | **DONE** — 48 HTML Preview designs, all owner visually approved |
+| **B** | Email rendering and integration requirements | No (needs auth) | **OPEN** — Level B NOT RUN; CDN hosting (14-file manifest; upload not authorized) |
+| **C** | Pre-existing Backend/Security observations | Document/hand off only | **OPEN** — unresolved; outside design scope; release gate for activation |
+| **D** | Production release / migration | P0–P4 prep done; live cutover pending | **P4 PREP DONE — CUTOVER BLOCKED ON CDN + GATES** |
 
-Do not classify all production tasks as the Email Kit designer's responsibility.
+## Workstream C — four handoffs (unchanged; unresolved)
 
-## Final seven — owner visually approved (2026-09-27)
+1. `organizer_announcement` — subject/header and caller-supplied HTML trust boundaries.
+2. Marketing Approval — `festival_marketing_approval`, `festival_marketing_approval_sms` (GET approval-link observation).
+3. `festival_rescounts_marketing_email_target` — marketing-campaign content trust boundary.
+4. Final Seven — Backend/Security Review — seven IDs (`text/template` HTML, dynamic MIME headers, submitted demo URLs).
 
-After verified Level A QA and focused footer correction, the owner approved:
-
-- Financial: `marketing_package_sale`, `festival_payout`
-- Partner coupons: `partner_coupons`, `partner_coupons_partner`
-- Internal operations: `bad_content_alert`, `book_demo_admin`, `extra_service_request`
-
-Evidence:
-
-- `qa-output/final-7/FINAL_7_IMPLEMENTATION_REPORT.md`
-- `qa-output/final-7/FINAL_7_QA_REPORT.md`
-- `qa-output/final-7/FINAL_7_VISUAL_REVIEW.md`
-- `qa-output/final-7/FINAL_7_FOOTER_VERIFICATION.md`
-- `qa-output/final-7/final7-qa-results.json`
-
-Approval is for **HTML Preview designs only**.
-
-## Open items by workstream
-
-### C — Pre-existing Backend/Security (document only; unresolved)
-
-**`organizer_announcement` — subject/header and caller-supplied HTML trust boundaries**
-
-| Field | Value |
-|---|---|
-| Origin | Pre-existing production backend behavior, identified during Email Kit review |
-| Ownership | **Backend / Security** |
-| Email Kit responsibility | Document and hand off only |
-| Design impact | None currently identified |
-| HTML Preview | Completed and owner visually approved |
-| Production security status | **Unresolved** — separately authorized Backend/Security investigation required |
-| Production migration | Not security-cleared until Backend/Security resolves or formally accepts |
-| Evidence strength | Potential trust-boundary issue — **not** a confirmed exploitable vulnerability; not fixed; not dismissed as harmless |
-| Evidence | `qa-output/pilot-batch/PILOT_SECURITY_REVIEW.md` |
-
-**Marketing Approval — consolidated approval-link observation**
-
-One Backend/Security work item covering both Email and SMS marketing approval workflows. Preserve both template IDs for individual traceability.
-
-| Field | Value |
-|---|---|
-| Affected IDs | `festival_marketing_approval`, `festival_marketing_approval_sms` |
-| Category | Pre-existing Backend / Security observations |
-| Observation | Production approve/reject links may trigger state-changing operations via unauthenticated GET; scanners/prefetch may change approval status without intentional admin action |
-| Origin | Pre-existing production backend — **not** introduced by HTML Preview designs |
-| Ownership | **Backend / Security** |
-| Email Kit responsibility | Document and hand off only — **not** an Email Kit design task |
-| Design impact | None — do not reopen visual approval |
-| HTML Preview | Both **COMPLETE** and owner visually approved; inert `example.com` links |
-| Production security status | **Unresolved** — pending separately authorized Backend/Security investigation |
-| Production migration | Security clearance by Backend/Security required before enabling production approval workflows; integration needs separate owner auth |
-| Evidence strength | Documented concern — **not** confirmed exploitation |
-| Evidence | `qa-output/batch-20/BATCH_20_QA_REPORT.md`, `BATCH_20_IMPLEMENTATION_REPORT.md`, `BATCH_20_VISUAL_REVIEW.md` |
-| Possible remediation | Confirmation page + auth + protected POST (CSRF/token/expiry/one-time-use as appropriate); test prefetch/scanners — Backend/Security selects; **not** an approved implementation task |
-
-**`festival_rescounts_marketing_email_target` — consolidated marketing-campaign content trust-boundary observation**
-
-One Backend/Security work item. Exact template ID preserved. Do not treat as several independent outstanding tasks.
-
-| Field | Value |
-|---|---|
-| Affected ID | `festival_rescounts_marketing_email_target` |
-| Category | Pre-existing Backend / Security observations |
-| Observation | Production uses Go `text/template` to insert request/caller-derived marketing campaign HTML body, logo, image and URL values. `text/template` does not automatically perform context-aware HTML escaping. Depending on existing validation/sanitization, untrusted content could potentially introduce unsafe HTML, misleading links or unintended external resources |
-| Origin | Existing production backend behavior — **not** introduced by the HTML Preview design |
-| Ownership | **Backend / Security** |
-| Email Kit responsibility | Document and hand off only — **not** an Email Kit visual design task |
-| Design impact | None — do not reopen the approved email design |
-| HTML Preview | **COMPLETE** and owner visually approved; escaped synthetic content; inert preview URLs |
-| Production security status | **Unresolved** — separately authorized Backend/Security investigation required |
-| Production migration | Resolve or formally disposition before declaring production integration security-cleared; needs separate production authorization |
-| Evidence strength | Documented trust-boundary observation — **not** a confirmed exploitable vulnerability without supporting evidence |
-| Evidence | `qa-output/batch-8/BATCH_8_IMPLEMENTATION_REPORT.md`, `BATCH_8_QA_REPORT.md`, `BATCH_8_VISUAL_REVIEW.md` |
-| Related (cross-ref only) | Related `text/template` / HTML trust-boundary cause may overlap with `organizer_announcement` and Final Seven — Backend/Security Review — keep distinct template IDs and ownership |
-| Possible remediation | Trace subject/body/logo/image/URL sources; verify existing validation/escaping/sanitization; define permitted HTML/attributes/sources/URLs; validate URLs and image sources; apply context-appropriate escaping or sanitization; review `text/template` and MIME-header vs body separation; add regression tests if a gap is confirmed. Do **not** auto-swap to `html/template` without MIME/architecture review. Backend remediation needs separate explicit authorization — **not** an approved implementation task |
-
-**Final Seven — Backend/Security Review (consolidated)**
-
-One Backend/Security work item covering the three technical subitems below. Preserve all seven template IDs. Outside Email Kit visual design scope.
-
-| Field | Value |
-|---|---|
-| Affected IDs | `marketing_package_sale`, `festival_payout`, `partner_coupons`, `partner_coupons_partner`, `bad_content_alert`, `book_demo_admin`, `extra_service_request` |
-| Category | Pre-existing production backend observations |
-| Origin | Observations in the existing production implementation, identified during read-only production-backend review — **not** introduced by the HTML Preview designs |
-| Ownership | **Backend / Security** |
-| Email Kit responsibility | Documentation and handoff only — designer does **not** investigate or remediate |
-| Design impact | None — do not reopen visual approval |
-| HTML Preview / design status | **COMPLETE — owner visually approved** for all seven |
-| Production security status | **Unresolved** — separately owned |
-| Production security clearance | **NOT ESTABLISHED** for the affected paths |
-| Evidence strength | Security review requirements — **not** confirmed exploitable vulnerabilities |
-| Evidence | `qa-output/final-7/FINAL_7_IMPLEMENTATION_REPORT.md` (*Read-only production security observations*), `FINAL_7_QA_REPORT.md`, `FINAL_7_VISUAL_REVIEW.md` |
-| Related (cross-ref only) | Related `text/template` cause may overlap with `organizer_announcement` and `festival_rescounts_marketing_email_target` — keep distinct |
-
-Technical subitems (Backend/Security investigation requirements — **do not** investigate or remediate here):
-
-- [ ] **HTML / text/template** — Review handling of caller-derived content in production HTML email generation. All seven templates use Go `text/template` (no contextual HTML escaping). User-/organizer-/partner-/request-derived fields insert into HTML text; `book_demo_admin` also inserts submitted links into `href`; `bad_content_alert` marshals request data to JSON then renders via `text/template` (JSON encoding alone is not HTML-context escaping). Verify whether existing validation, escaping or sanitization is sufficient.
-- [ ] **Dynamic MIME headers** — Review construction and encoding of dynamic email header values. Dynamic names/business/festival values appear in `From`, `To` or `Subject` across the group. Verify handling of untrusted input and control characters (including CR/LF/NUL at model/API boundaries).
-- [ ] **Submitted demo URLs** — Review source and validation of submitted meeting and calendar URLs in `book_demo_admin`. Verify allowed URL schemes, destinations and existing protections.
-
-### B — Rendering / integration
-
-- Actual Gmail, Outlook and Apple Mail testing — **NOT RUN**.
-- CDN hosting of Wallet/official assets — **inventory ready (14 files); upload not authorized**.
-
-### D — Production release
-
-CDN upload and production integration remain separately unauthorized. No backend, production template/YAML, Figma, official Wallet artwork mutation, owner logo, staging, commit, push or deployment change is authorized by HTML Preview approval.
-
-## Tooling status
-
-`.agents/scripts/email-cli.mjs validate-catalog` enforces the exact named 48-design / 0-undesigned set. Catalog has no separate owner-approval field; approval lives in `PROJECT_STATE.md` / `DECISION_LOG.md` / this handoff.
-
-## Next authorized action
-
-Wait for explicit owner authorization before CDN upload, Backend/Security investigation, Level B client testing, Figma work, backend change, commit, push or deployment.
+Do not call these confirmed, fixed, harmless, or cleared.
 
 ## Resume prompt
 
-"Continue Eveenty Email Kit from `docs/agent/HANDOFF.md` and follow `AGENTS.md`. Phase 1 HTML Preview design is complete: 59/11/48/48 designed/48 owner visually approved/0 undesigned. Owner FINAL Wallet decision applied: Google Condensed ONLY on `festival_ticket_sale`; active CDN inventory = 14 unique files (no upload yet). Do not implement further designs. Workstream C Backend/Security handoffs (unresolved, outside design scope): (1) `organizer_announcement` trust boundaries; (2) consolidated Marketing Approval GET approval-link observation covering `festival_marketing_approval` and `festival_marketing_approval_sms`; (3) consolidated `festival_rescounts_marketing_email_target` marketing-campaign content trust-boundary observation; (4) consolidated Final Seven — Backend/Security Review (`text/template` HTML, dynamic MIME headers, submitted demo URLs) covering the seven final templates. Level B client testing, CDN hosting and production migration (workstreams B/D) require new explicit owner authorization."
+"Continue Eveenty Email Kit from `docs/agent/HANDOFF.md`. P4 activation prep DONE (`P4_ACTIVATION_PREP_REPORT.md`, `P4_CDN_CONFIGURATION_CHECKLIST.md`). Next: Infra CDN URLs + upload/verify 14 assets → set EMAIL_KIT_CDN_BASE_URL (switch OFF) → Backend/QA/Security gates → then EMAIL_KIT_ENABLED=true. Do not enable switch early, upload CDN, mark Level B passed, send customer mail, or commit/push without explicit authorization."

@@ -332,3 +332,37 @@ Agent skills/rules/docs were updated only where stale or contradictory; no new s
 - No Primary-only or Condensed-only re-experiment; no further visual comparison requested before implementation.
 - No backend, production template/YAML, Figma, official Wallet artwork mutation, staging, commit, push, or deployment.
 
+
+---
+
+**[2026-09-27 - Phase 0 production migration PREPARATION (docs only) - owner decisions FINAL]**
+
+- Owner authorized Phase 0 documentation-only preparation for production migration. No backend writes, no CDN upload, no activation, no commits.
+- **Six owner decisions recorded as FINAL** (see `docs/agent/production-migration/MIGRATION_APPROACH.md`):
+  1. Side-by-side kit templates alongside legacy; no in-place edits; then archive legacy.
+  2. New approved Eveenty kit logos.
+  3. New approved Support design (branded header) in production kit path.
+  4. Separate Production and Staging CDN base URLs (never cross-wired); both concrete URLs remain PENDING.
+  5. Google Wallet Condensed badges only.
+  6. All 48 templates activate together (batch implementation allowed while dormant).
+- **Legacy archival criteria (FINAL):** successful production verification + retained rollback capability + separate owner archive approval. **No fixed waiting period.**
+- **Delegated to Backend team (non-blocking):** activation control, rollback mechanism, deploy sequencing, archive mechanics — recorded as "Backend team to define".
+- **Security handoffs:** four Backend/Security items (11 template IDs) remain a **release gate**; remediation not assigned to the owner; not confirmed/fixed/harmless/cleared.
+- **Discrepancies recorded (files win):**
+  1. SAFE plan / traceability claim of no MIME attachments is **stale** — VERIFIED `.pkpass` + `.ics` on sales templates; five registration templates are multipart/mixed with HTML-only (no file parts).
+  2. SAFE plan claim that `text/template` auto-escapes HTML is **incorrect** — VERIFIED `text/template` import at `email/smtp_render_template.go:7`.
+  3. SAFE plan in-place replacement preference is **superseded** by owner side-by-side decision.
+- Phase 0 deliverables under `docs/agent/production-migration/`. Verdict: **READY FOR P1 PLANNING / NOT READY FOR ACTIVATION**. All migration tests **NOT RUN**.
+
+---
+
+**[2026-09-28 — Owner AUTHORIZES P4 activation preparation (all 48 together)]**
+
+- Owner authorized completing remaining P4 activation **implementation** now: all-or-nothing for all 48; preserve 11 excluded; keep approved designs / localized logos / Support design / Google Wallet Condensed; prepare CDN config for later URL insertion without template edits; keep fail-closed; test-only `https://kit-cdn.invalid` for local render only — never in customer-facing production output.
+- Owner has **no Staging** environment for the current workflow — do not delay implementation waiting for Staging; do not require Staging to finish prep.
+- Final CDN URLs forthcoming — do not invent hosts; do not delay code prep waiting for them.
+- Owner will not conduct real sending tests until final CDN URLs are available.
+- **Live cutover** still requires Infra CDN + external Backend/Security/QA gates; those remain owned by those teams and are **not** marked passed by this authorization.
+- Prohibited this session: deploy, customer email sends, archive legacy, commit, push.
+- Deliverables: `P4_ACTIVATION_PREP_REPORT.md`, `P4_CDN_CONFIGURATION_CHECKLIST.md`; backend eligibility guard rejects `.invalid` for live activation; `.env.example` kit keys documented OFF/empty.
+
