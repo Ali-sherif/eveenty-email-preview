@@ -21,7 +21,7 @@ Content-Type: text/html; charset="utf-8"
 
 		<div dir="ltr" style="text-align: left;">
 			<h5 style="font-size: 120%; font-weight: 600; padding: 1em 2em 0 2em; margin: 0;">
-				Bonjour <span dir="auto" style="unicode-bidi: isolate;">Bob Organizer</span>,<br /><br />Le deuxième paiement pour <span dir="auto" style="unicode-bidi: isolate;">Forfait sponsor</span> (<span dir="auto" style="unicode-bidi: isolate;">Gold Sponsor Package</span>) du festival <span dir="auto" style="unicode-bidi: isolate;">Snapshot Festival 2026</span>, dû le <span dir="ltr">NORMALIZED_DATE</span>, n'a pas abouti, malgré plusieurs tentatives.<br /><br />Le premier paiement de <span dir="ltr">$2,000.00 CAD</span> a été remboursé à <span dir="auto" style="unicode-bidi: isolate;">Charlie Vendor</span> et la réservation est annulée.<br /><br />Contactez-nous au <span dir="ltr">1 (855) 552-1522</span> pour toute assistance.
+				Bonjour <span dir="auto" style="unicode-bidi: isolate;">Bob Organizer</span>,<br /><br />Le deuxième paiement pour <span dir="auto" style="unicode-bidi: isolate;">Forfait sponsor</span> (<span dir="auto" style="unicode-bidi: isolate;">Gold Sponsor Package</span>) du festival <span dir="auto" style="unicode-bidi: isolate;">Snapshot Festival 2026</span>, dû le <span dir="ltr">NORMALIZED_DATE</span>, n'a pas abouti, malgré plusieurs tentatives.<br /><br />Le premier paiement de <span dir="ltr">CA$2,000.00</span> a été remboursé à <span dir="auto" style="unicode-bidi: isolate;">Charlie Vendor</span> et la réservation est annulée.<br /><br />Contactez-nous au <span dir="ltr">1 (855) 552-1522</span> pour toute assistance.
 			</h5>
 		</div>
 
@@ -45,11 +45,11 @@ Content-Type: text/html; charset="utf-8"
 						<tr>
 							<td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: sans-serif;font-weight: 500;font-size: 18px;"><span dir="ltr">#spons</span></td>
 							<td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: sans-serif;font-weight: 500;font-size: 18px;"><span dir="auto" style="unicode-bidi: isolate;">Gold Sponsor Package</span></td>
-							<td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: sans-serif;font-weight: 500;font-size: 18px;"><span dir="ltr">$0.00 CAD</span></td>
-							<td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: sans-serif;font-weight: 500;font-size: 18px;"><span dir="ltr">$0.00 CAD</span></td>
-							<td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: sans-serif;font-weight: 500;font-size: 18px;"><span dir="ltr">$0.00 CAD</span></td>
-							<td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: sans-serif;font-weight: 500;font-size: 18px;"><span dir="ltr">- $0.00 CAD</span></td>
-							<td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: sans-serif;font-weight: 500;font-size: 18px;"><span dir="ltr">$0.00 CAD</span></td>
+							<td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: sans-serif;font-weight: 500;font-size: 18px;"><span dir="ltr">CA$0.00</span></td>
+							<td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: sans-serif;font-weight: 500;font-size: 18px;"><span dir="ltr">CA$0.00</span></td>
+							<td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: sans-serif;font-weight: 500;font-size: 18px;"><span dir="ltr">CA$0.00</span></td>
+							<td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: sans-serif;font-weight: 500;font-size: 18px;"><span dir="ltr">- CA$0.00</span></td>
+							<td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: sans-serif;font-weight: 500;font-size: 18px;"><span dir="ltr">CA$0.00</span></td>
 						</tr>
           </tbody>
         </table>

@@ -59,17 +59,17 @@ NORMALIZED_DATE
 1
 
 =D9=87=D8=B2=DB=8C=D9=86=D9=87:
-$15.00 CAD
+CA$15.00
 
 =D9=85=D8=A7=D9=84=DB=8C=D8=A7=D8=AA:
-$1.95 CAD
+CA$1.95
 
 =D9=88=D8=B6=D8=B9=DB=8C=D8=AA =D9=BE=D8=B1=D8=AF=D8=A7=D8=AE=D8=AA:
 =D8=AA=DA=A9=D9=85=DB=8C=D9=84 =D8=B4=D8=AF
 
 =D8=AC=D9=85=D8=B9 =DA=A9=D9=84 =D8=A8=D9=84=DB=8C=D8=AA=E2=80=8C=D9=87=D8=
 =A7:
-$16.95 CAD
+CA$16.95
 
 =D8=A7=DB=8C=D9=86 =D8=B3=D9=81=D8=A7=D8=B1=D8=B4 =D9=85=D8=B4=D9=85=D9=88=
 =D9=84 =D8=B4=D8=B1=D8=A7=DB=8C=D8=B7 =D8=AE=D8=AF=D9=85=D8=A7=D8=AA=D8=8C =
@@ -165,8 +165,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -329,7 +329,7 @@ family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:13px;color:=
 #2b2a28;">=D9=87=D8=B2=DB=8C=D9=86=D9=87:</td>
                         <td align=3D"left" dir=3D"ltr" style=3D"padding:0 0=
  10px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:=
-13px;color:#2b2a28;">$15.00 CAD</td>
+13px;color:#2b2a28;">CA$15.00</td>
                       </tr>
                      =20
                      =20
@@ -339,7 +339,7 @@ family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:13px;color:=
 #2b2a28;">=D9=85=D8=A7=D9=84=DB=8C=D8=A7=D8=AA:</td>
                         <td align=3D"left" dir=3D"ltr" style=3D"padding:0 0=
  10px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:=
-13px;color:#2b2a28;">$1.95 CAD</td>
+13px;color:#2b2a28;">CA$1.95</td>
                       </tr>
                      =20
                       <tr>
@@ -366,7 +366,7 @@ vetica, 'Roboto', Tahoma, sans-serif;font-size:16px;font-weight:700;color:#=
 =D9=87=D8=A7:</td>
                         <td align=3D"left" dir=3D"ltr" style=3D"font-family=
 :Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:16px;font-weight:=
-700;color:#2b2a28;">$16.95 CAD</td>
+700;color:#2b2a28;">CA$16.95</td>
                       </tr>
                     </table>
                   </td>

@@ -214,7 +214,7 @@ const MULTI_FESTIVALS = Object.freeze([
         HasSales: true,
         TotalItems: 17,
         TotalTransactions: 10,
-        TotalSubtotal: '$1,400.00 CAD',
+        TotalSubtotal: 'CA$1,400.00',
         SaleTypes: Object.freeze([
           Object.freeze({
             SaleType: 'Tickets',
@@ -224,7 +224,7 @@ const MULTI_FESTIVALS = Object.freeze([
             TotalItems: 100,
             TotalSoldItems: 40,
             SoldPercentage: '40%',
-            Subtotal: '$450.00 CAD',
+            Subtotal: 'CA$450.00',
             Currency: 'CAD',
           }),
           Object.freeze({
@@ -235,7 +235,7 @@ const MULTI_FESTIVALS = Object.freeze([
             TotalItems: 20,
             TotalSoldItems: 8,
             SoldPercentage: '40%',
-            Subtotal: '$800.00 CAD',
+            Subtotal: 'CA$800.00',
             Currency: 'CAD',
           }),
           Object.freeze({
@@ -246,7 +246,7 @@ const MULTI_FESTIVALS = Object.freeze([
             TotalItems: 0,
             TotalSoldItems: 3,
             SoldPercentage: '—',
-            Subtotal: '$150.00 CAD',
+            Subtotal: 'CA$150.00',
             Currency: 'CAD',
           }),
         ]),
@@ -274,7 +274,7 @@ const SINGLE_FESTIVAL_SALE_TYPES = Object.freeze([
     TotalItems: 100,
     TotalSoldItems: 40,
     SoldPercentage: '40%',
-    Subtotal: '$450.00 CAD',
+    Subtotal: 'CA$450.00',
     Currency: 'CAD',
   }),
   Object.freeze({
@@ -285,7 +285,7 @@ const SINGLE_FESTIVAL_SALE_TYPES = Object.freeze([
     TotalItems: 50,
     TotalSoldItems: 10,
     SoldPercentage: '20%',
-    Subtotal: '$220.00 CAD',
+    Subtotal: 'CA$220.00',
     Currency: 'CAD',
   }),
 ]);
@@ -362,7 +362,7 @@ function renderFestivalEndOfDayReport(variant, longContent) {
   if (variant === 'singleFestival') {
     // Dead-path Kit branch (.SaleTypes without .Festivals) — preserved for contract coverage.
     intro = `Here is the sales summary for <strong>${esc('Snapshot Festival 2026')}</strong> for <strong>${esc(REPORT_DATE)}</strong>.`;
-    const totals = { TotalItems: 16, TotalTransactions: 7, TotalSubtotal: '$670.00 CAD' };
+    const totals = { TotalItems: 16, TotalTransactions: 7, TotalSubtotal: 'CA$670.00' };
     festivalRows = `<tr>
             <td class="stack-pad" style="padding:16px 30px 8px 30px;background-color:#ffffff;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;">
               ${SINGLE_FESTIVAL_SALE_TYPES.map(singlePathSaleCard).join('\n')}

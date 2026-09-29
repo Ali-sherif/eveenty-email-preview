@@ -25,7 +25,7 @@ Eveenty
 =86=D8=B4=D8=AF =D9=88 =D8=B1=D8=AF =D8=B4=D8=AF.
 
 =D8=B4=D9=85=D8=A7=D8=B1=D9=87=D9=94 =DB=8C=D8=A7=D8=AF=D8=A2=D9=88=D8=B1=
-=DB=8C: (168)
+=DB=8C: (NORMALIZED_REMINDER_INDEX)
 
 =DB=8C=D8=A7=D8=AF=D8=A2=D9=88=D8=B1 =D9=BE=D8=B1=D8=AF=D8=A7=D8=AE=D8=AA =
 =D8=AF=D9=88=D9=85 =D8=BA=D8=B1=D9=81=D9=87=D9=94 Snap Booth A1 =D8=AF=D8=
@@ -44,8 +44,8 @@ Eveenty
 =B1 =D9=84=D8=BA=D9=88 =D9=85=DB=8C=E2=80=8C=D8=B4=D9=88=D8=AF =D9=88 =D8=
 =AC=D8=B1=DB=8C=D9=85=D9=87=E2=80=8C=D8=A7=DB=8C =D9=85=D8=B9=D8=A7=D8=AF=
 =D9=84 =D8=A7=D8=B2 =D9=BE=D8=B1=D8=AF=D8=A7=D8=AE=D8=AA =D8=A7=D9=88=D9=84=
- ($250.00 CAD) =D8=A7=D8=B2 =D9=81=D8=B1=D9=88=D8=B4=D9=86=D8=AF=D9=87 =DA=
-=A9=D8=B3=D8=B1 =D9=85=DB=8C=E2=80=8C=D8=B4=D9=88=D8=AF.
+ (CA$250.00) =D8=A7=D8=B2 =D9=81=D8=B1=D9=88=D8=B4=D9=86=D8=AF=D9=87 =DA=A9=
+=D8=B3=D8=B1 =D9=85=DB=8C=E2=80=8C=D8=B4=D9=88=D8=AF.
 
 This message was sent to organizer-fa@snapshot.invalid.
 
@@ -135,8 +135,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -195,7 +195,7 @@ p:anywhere;">
 code-bidi: isolate;" dir=3D"auto">Charlie Vendor</span> =D8=A7=D9=86=D8=AC=
 =D8=A7=D9=85 =D9=86=D8=B4=D8=AF =D9=88 =D8=B1=D8=AF =D8=B4=D8=AF.<br /><br =
 />=D8=B4=D9=85=D8=A7=D8=B1=D9=87=D9=94 =DB=8C=D8=A7=D8=AF=D8=A2=D9=88=D8=B1=
-=DB=8C: <span dir=3D"ltr">(168)</span><br /><br />=DB=8C=D8=A7=D8=AF=D8=A2=
+=DB=8C: <span dir=3D"ltr">(NORMALIZED_REMINDER_INDEX)</span><br /><br />=DB=8C=D8=A7=D8=AF=D8=A2=
 =D9=88=D8=B1 =D9=BE=D8=B1=D8=AF=D8=A7=D8=AE=D8=AA =D8=AF=D9=88=D9=85 =D8=BA=
 =D8=B1=D9=81=D9=87=D9=94 <span style=3D"color: #d80073; unicode-bidi: isola=
 te;" dir=3D"auto">Snap Booth A1</span> =D8=AF=D8=B1 =D8=AC=D8=B4=D9=86=D9=
@@ -213,8 +213,8 @@ olate;" dir=3D"auto">Snapshot Festival 2026</span> =D8=A8=D8=A7 =D8=B3=D8=
 =E2=80=8C=D8=B4=D9=88=D8=AF =D9=88 =D8=AC=D8=B1=DB=8C=D9=85=D9=87=E2=80=8C=
 =D8=A7=DB=8C =D9=85=D8=B9=D8=A7=D8=AF=D9=84 <span dir=3D"ltr"></span> =D8=
 =A7=D8=B2 =D9=BE=D8=B1=D8=AF=D8=A7=D8=AE=D8=AA =D8=A7=D9=88=D9=84 (<span di=
-r=3D"ltr">$250.00 CAD</span>) =D8=A7=D8=B2 =D9=81=D8=B1=D9=88=D8=B4=D9=86=
-=D8=AF=D9=87 =DA=A9=D8=B3=D8=B1 =D9=85=DB=8C=E2=80=8C=D8=B4=D9=88=D8=AF.
+r=3D"ltr">CA$250.00</span>) =D8=A7=D8=B2 =D9=81=D8=B1=D9=88=D8=B4=D9=86=D8=
+=AF=D9=87 =DA=A9=D8=B3=D8=B1 =D9=85=DB=8C=E2=80=8C=D8=B4=D9=88=D8=AF.
             </td>
           </tr>
          =20

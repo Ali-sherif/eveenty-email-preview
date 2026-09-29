@@ -51,22 +51,22 @@ Quantit=C3=A9
 1
 
 Co=C3=BBt
-$1,000.00 CAD
+CA$1,000.00
 
 Taxes
-$130.00 CAD
+CA$130.00
 
 Total
-$1,130.00 CAD
+CA$1,130.00
 
 Sous-total :
-$1,000.00 CAD
+CA$1,000.00
 
 Taxes :
-$130.00 CAD
+CA$130.00
 
 TOTAL :
-$1,130.00 CAD
+CA$1,130.00
 
 This message was sent to organizer-fr@snapshot.invalid.
 
@@ -155,8 +155,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -305,7 +305,7 @@ Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49=
 ;">Co=C3=BBt</td>
                   <td align=3D"right" dir=3D"ltr" style=3D"padding:6px 14px=
 ;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;=
-font-weight:700;color:#2b2a28;">$1,000.00 CAD</td>
+font-weight:700;color:#2b2a28;">CA$1,000.00</td>
                 </tr>
                =20
                =20
@@ -315,7 +315,7 @@ Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49=
 ;">Taxes</td>
                   <td align=3D"right" dir=3D"ltr" style=3D"padding:6px 14px=
 ;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;=
-font-weight:700;color:#2b2a28;">$130.00 CAD</td>
+font-weight:700;color:#2b2a28;">CA$130.00</td>
                 </tr>
                =20
                 <tr>
@@ -324,7 +324,7 @@ Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49=
 ;">Total</td>
                   <td align=3D"right" dir=3D"ltr" style=3D"padding:6px 14px=
 ;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;=
-font-weight:700;color:#2b2a28;">$1,130.00 CAD</td>
+font-weight:700;color:#2b2a28;">CA$1,130.00</td>
                 </tr>
               </table>
             </td>
@@ -347,7 +347,7 @@ amily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-we=
 ight:500;line-height:1.4;color:#2b2a28;">Sous-total :</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"padding:0 =
 0 12px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size=
-:14px;font-weight:500;line-height:1.4;color:#2b2a28;">$1,000.00 CAD</td>
+:14px;font-weight:500;line-height:1.4;color:#2b2a28;">CA$1,000.00</td>
                       </tr>
                      =20
                       <tr>
@@ -356,7 +356,7 @@ amily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-we=
 ight:500;line-height:1.4;color:#2b2a28;">Taxes :</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"padding:0 =
 0 12px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size=
-:14px;font-weight:500;line-height:1.4;color:#2b2a28;">$130.00 CAD</td>
+:14px;font-weight:500;line-height:1.4;color:#2b2a28;">CA$130.00</td>
                       </tr>
                      =20
                       <tr>
@@ -365,7 +365,7 @@ amily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:16px;font-we=
 ight:700;line-height:1.4;color:#2b2a28;">TOTAL :</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"padding:0 =
 0 12px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size=
-:16px;font-weight:700;line-height:1.4;color:#2b2a28;">$1,130.00 CAD</td>
+:16px;font-weight:700;line-height:1.4;color:#2b2a28;">CA$1,130.00</td>
                       </tr>
                     </table>
                   </td>

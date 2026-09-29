@@ -27,7 +27,7 @@ Charlie Vendor =DA=AF=D8=B1=D8=A7=D9=85=DB=8C=D8=8C
  =D8=AE=D9=88=D8=AF =D8=AF=D8=B1 Snapshot Festival 2026 =D8=B3=D9=BE=D8=A7=
 =D8=B3=DA=AF=D8=B2=D8=A7=D8=B1=DB=8C=D9=85
 =D8=AA=D8=A3=DB=8C=DB=8C=D8=AF =D9=85=DB=8C=E2=80=8C=DA=A9=D9=86=DB=8C=D9=
-=85 =D9=85=D8=A8=D9=84=D8=BA $250.00 CAD =D8=B1=D8=A7 =D8=AF=D8=B1=DB=8C=D8=
+=85 =D9=85=D8=A8=D9=84=D8=BA CA$250.00 =D8=B1=D8=A7 =D8=AF=D8=B1=DB=8C=D8=
 =A7=D9=81=D8=AA =DA=A9=D8=B1=D8=AF=D9=87=E2=80=8C=D8=A7=DB=8C=D9=85
 =D9=81=D8=A7=DA=A9=D8=AA=D9=88=D8=B1 =D8=B4=D9=85=D8=A7 =D8=AF=D8=B1 =D8=A7=
 =D8=AF=D8=A7=D9=85=D9=87 =D8=A7=D8=B3=D8=AA
@@ -48,28 +48,28 @@ Snap Booth A1
 1
 
 =D9=87=D8=B2=DB=8C=D9=86=D9=87
-$250.00 CAD
+CA$250.00
 
 =DA=A9=D8=A7=D8=B1=D9=85=D8=B2=D8=AF =D9=BE=D8=B1=D8=AF=D8=A7=D8=B2=D8=B4
-$7.50 CAD
+CA$7.50
 
 =D9=85=D8=A7=D9=84=DB=8C=D8=A7=D8=AA
-$33.48 CAD
+CA$33.48
 
 =D8=AC=D9=85=D8=B9
-$290.98 CAD
+CA$290.98
 
 =D8=AC=D9=85=D8=B9 =D8=AC=D8=B2=D8=A1:
-$250.00 CAD
+CA$250.00
 
 =DA=A9=D8=A7=D8=B1=D9=85=D8=B2=D8=AF =D9=BE=D8=B1=D8=AF=D8=A7=D8=B2=D8=B4:
-$7.50 CAD
+CA$7.50
 
 =D9=85=D8=A7=D9=84=DB=8C=D8=A7=D8=AA:
-$33.48 CAD
+CA$33.48
 
 =D8=AC=D9=85=D8=B9 =DA=A9=D9=84:
-$290.98 CAD
+CA$290.98
 
 This message was sent to vendor-fa@snapshot.invalid.
 
@@ -159,8 +159,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -214,10 +214,10 @@ ndor</span> =DA=AF=D8=B1=D8=A7=D9=85=DB=8C=D8=8C<br /><br />=D8=A7=D8=B2 =
 icode-bidi: isolate;">Snapshot Festival 2026</span> =D8=B3=D9=BE=D8=A7=D8=
 =B3=DA=AF=D8=B2=D8=A7=D8=B1=DB=8C=D9=85 <br />=D8=AA=D8=A3=DB=8C=DB=8C=D8=
 =AF =D9=85=DB=8C=E2=80=8C=DA=A9=D9=86=DB=8C=D9=85 =D9=85=D8=A8=D9=84=D8=BA =
-<span dir=3D"ltr">$250.00 CAD</span> =D8=B1=D8=A7 =D8=AF=D8=B1=DB=8C=D8=A7=
-=D9=81=D8=AA =DA=A9=D8=B1=D8=AF=D9=87=E2=80=8C=D8=A7=DB=8C=D9=85<br />=D9=
-=81=D8=A7=DA=A9=D8=AA=D9=88=D8=B1 =D8=B4=D9=85=D8=A7 =D8=AF=D8=B1 =D8=A7=D8=
-=AF=D8=A7=D9=85=D9=87 =D8=A7=D8=B3=D8=AA</p>
+<span dir=3D"ltr">CA$250.00</span> =D8=B1=D8=A7 =D8=AF=D8=B1=DB=8C=D8=A7=D9=
+=81=D8=AA =DA=A9=D8=B1=D8=AF=D9=87=E2=80=8C=D8=A7=DB=8C=D9=85<br />=D9=81=
+=D8=A7=DA=A9=D8=AA=D9=88=D8=B1 =D8=B4=D9=85=D8=A7 =D8=AF=D8=B1 =D8=A7=D8=AF=
+=D8=A7=D9=85=D9=87 =D8=A7=D8=B3=D8=AA</p>
                   </td>
                 </tr>
               </table>
@@ -272,7 +272,7 @@ ont-weight:700;color:#2b2a28;">1</td>
 9;">=D9=87=D8=B2=DB=8C=D9=86=D9=87</td>
                   <td align=3D"left" dir=3D"ltr" style=3D"padding:6px 14px;=
 font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;f=
-ont-weight:700;color:#2b2a28;">$250.00 CAD</td>
+ont-weight:700;color:#2b2a28;">CA$250.00</td>
                 </tr>
                =20
                =20
@@ -283,7 +283,7 @@ ont-weight:700;color:#2b2a28;">$250.00 CAD</td>
 =B4</td>
                   <td align=3D"left" dir=3D"ltr" style=3D"padding:6px 14px;=
 font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;f=
-ont-weight:700;color:#2b2a28;">$7.50 CAD</td>
+ont-weight:700;color:#2b2a28;">CA$7.50</td>
                 </tr>
                =20
                 <tr>
@@ -292,7 +292,7 @@ ont-weight:700;color:#2b2a28;">$7.50 CAD</td>
 9;">=D9=85=D8=A7=D9=84=DB=8C=D8=A7=D8=AA</td>
                   <td align=3D"left" dir=3D"ltr" style=3D"padding:6px 14px;=
 font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;f=
-ont-weight:700;color:#2b2a28;">$33.48 CAD</td>
+ont-weight:700;color:#2b2a28;">CA$33.48</td>
                 </tr>
                =20
                 <tr>
@@ -301,7 +301,7 @@ ont-weight:700;color:#2b2a28;">$33.48 CAD</td>
 9;">=D8=AC=D9=85=D8=B9</td>
                   <td align=3D"left" dir=3D"ltr" style=3D"padding:6px 14px;=
 font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;f=
-ont-weight:700;color:#2b2a28;">$290.98 CAD</td>
+ont-weight:700;color:#2b2a28;">CA$290.98</td>
                 </tr>
               </table>
             </td>
@@ -325,7 +325,7 @@ eight:500;line-height:1.4;color:#2b2a28;">=D8=AC=D9=85=D8=B9 =D8=AC=D8=B2=
 =D8=A1:</td>
                         <td align=3D"left" dir=3D"ltr" style=3D"padding:0 0=
  12px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:=
-14px;font-weight:500;line-height:1.4;color:#2b2a28;">$250.00 CAD</td>
+14px;font-weight:500;line-height:1.4;color:#2b2a28;">CA$250.00</td>
                       </tr>
                      =20
                       <tr>
@@ -335,7 +335,7 @@ eight:500;line-height:1.4;color:#2b2a28;">=DA=A9=D8=A7=D8=B1=D9=85=D8=B2=D8=
 =AF =D9=BE=D8=B1=D8=AF=D8=A7=D8=B2=D8=B4:</td>
                         <td align=3D"left" dir=3D"ltr" style=3D"padding:0 0=
  12px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:=
-14px;font-weight:500;line-height:1.4;color:#2b2a28;">$7.50 CAD</td>
+14px;font-weight:500;line-height:1.4;color:#2b2a28;">CA$7.50</td>
                       </tr>
                      =20
                       <tr>
@@ -345,7 +345,7 @@ eight:500;line-height:1.4;color:#2b2a28;">=D9=85=D8=A7=D9=84=DB=8C=D8=A7=D8=
 =AA:</td>
                         <td align=3D"left" dir=3D"ltr" style=3D"padding:0 0=
  12px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:=
-14px;font-weight:500;line-height:1.4;color:#2b2a28;">$33.48 CAD</td>
+14px;font-weight:500;line-height:1.4;color:#2b2a28;">CA$33.48</td>
                       </tr>
                      =20
                       <tr>
@@ -355,7 +355,7 @@ eight:700;line-height:1.4;color:#2b2a28;">=D8=AC=D9=85=D8=B9 =DA=A9=D9=84:<=
 /td>
                         <td align=3D"left" dir=3D"ltr" style=3D"padding:0 0=
  12px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:=
-16px;font-weight:700;line-height:1.4;color:#2b2a28;">$290.98 CAD</td>
+16px;font-weight:700;line-height:1.4;color:#2b2a28;">CA$290.98</td>
                       </tr>
                     </table>
                   </td>

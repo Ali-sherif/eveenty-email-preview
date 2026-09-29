@@ -62,23 +62,23 @@ NORMALIZED_DATE =C2=B7 NORMALIZED_TIME
 1
 
 =D8=A7=D9=84=D8=AA=D9=83=D9=84=D9=81=D8=A9
-$30.00 CAD
+CA$30.00
 
 =D8=B1=D8=B3=D9=88=D9=85 =D8=A7=D9=84=D9=85=D8=B9=D8=A7=D9=84=D8=AC=D8=A9
-$0.00 CAD
+CA$0.00
 
 =D8=A7=D9=84=D8=B6=D8=B1=D9=8A=D8=A8=D8=A9
-$3.90 CAD
+CA$3.90
 
 =D8=A7=D9=84=D8=A5=D8=AC=D9=85=D8=A7=D9=84=D9=8A
-$33.90 CAD
+CA$33.90
 
 =D8=A7=D9=84=D9=85=D8=A8=D9=84=D8=BA
-$33.90 CAD
+CA$33.90
 
 =D8=A5=D8=AC=D9=85=D8=A7=D9=84=D9=8A =D8=A7=D9=84=D9=85=D8=B3=D8=AA=D8=B1=
 =D8=AF
-$33.90 CAD
+CA$33.90
 
 This message was sent to buyer-ar@snapshot.invalid.
 
@@ -170,8 +170,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -351,7 +351,7 @@ ont-weight:700;color:#2b2a28;">1</td>
 9;">=D8=A7=D9=84=D8=AA=D9=83=D9=84=D9=81=D8=A9</td>
                   <td align=3D"left" dir=3D"ltr" style=3D"padding:6px 14px;=
 font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;f=
-ont-weight:700;color:#2b2a28;">$30.00 CAD</td>
+ont-weight:700;color:#2b2a28;">CA$30.00</td>
                 </tr>
                =20
                 <tr>
@@ -361,7 +361,7 @@ ont-weight:700;color:#2b2a28;">$30.00 CAD</td>
 =A9</td>
                   <td align=3D"left" dir=3D"ltr" style=3D"padding:6px 14px;=
 font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;f=
-ont-weight:700;color:#2b2a28;">$0.00 CAD</td>
+ont-weight:700;color:#2b2a28;">CA$0.00</td>
                 </tr>
                =20
                 <tr>
@@ -370,7 +370,7 @@ ont-weight:700;color:#2b2a28;">$0.00 CAD</td>
 9;">=D8=A7=D9=84=D8=B6=D8=B1=D9=8A=D8=A8=D8=A9</td>
                   <td align=3D"left" dir=3D"ltr" style=3D"padding:6px 14px;=
 font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;f=
-ont-weight:700;color:#2b2a28;">$3.90 CAD</td>
+ont-weight:700;color:#2b2a28;">CA$3.90</td>
                 </tr>
                =20
                =20
@@ -380,7 +380,7 @@ ont-weight:700;color:#2b2a28;">$3.90 CAD</td>
 9;">=D8=A7=D9=84=D8=A5=D8=AC=D9=85=D8=A7=D9=84=D9=8A</td>
                   <td align=3D"left" dir=3D"ltr" style=3D"padding:6px 14px;=
 font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;f=
-ont-weight:700;color:#2b2a28;">$33.90 CAD</td>
+ont-weight:700;color:#2b2a28;">CA$33.90</td>
                 </tr>
                =20
               </table>
@@ -404,7 +404,7 @@ family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-w=
 eight:500;color:#2b2a28;">=D8=A7=D9=84=D9=85=D8=A8=D9=84=D8=BA</td>
                         <td align=3D"left" dir=3D"ltr" style=3D"padding:0 0=
  12px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:=
-14px;font-weight:500;color:#2b2a28;">$33.90 CAD</td>
+14px;font-weight:500;color:#2b2a28;">CA$33.90</td>
                       </tr>
                      =20
                      =20
@@ -425,7 +425,7 @@ vetica, 'Roboto', Tahoma, sans-serif;font-size:16px;font-weight:700;color:#=
 =AA=D8=B1=D8=AF</td>
                         <td align=3D"left" dir=3D"ltr" style=3D"font-family=
 :Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:16px;font-weight:=
-700;color:#2b2a28;">$33.90 CAD</td>
+700;color:#2b2a28;">CA$33.90</td>
                       </tr>
                     </table>
                   </td>

@@ -22,7 +22,7 @@ Estimado/a Charlie Vendor,
 
 esperamos que se encuentre bien.
 
-N=C3=BAmero de recordatorio: (168)
+N=C3=BAmero de recordatorio: (NORMALIZED_REMINDER_INDEX)
 
 Este recordatorio se refiere a la segunda cuota de su stand Snap Booth A1 e=
 n el festival Snapshot Festival 2026. Lamentablemente no pudimos procesar s=
@@ -33,7 +33,7 @@ antes del para evitar la cancelaci=C3=B3n de su reserva de stand.
 
 Importante: si no recibimos el pago antes de la fecha indicada, su reserva =
 se cancelar=C3=A1 autom=C3=A1ticamente y se aplicar=C3=A1 una penalizaci=C3=
-=B3n de sobre el importe del primer pago ($250.00 CAD), seg=C3=BAn los t=C3=
+=B3n de sobre el importe del primer pago (CA$250.00), seg=C3=BAn los t=C3=
 =A9rminos y condiciones que acept=C3=B3 al realizar el pago inicial.
 
 Para actualizar su m=C3=A9todo de pago, siga este enlace y a=C3=B1ada una n=
@@ -135,8 +135,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -191,7 +191,7 @@ oma, sans-serif;font-size:16px;line-height:1.65;color:#4d4c49;overflow-wrap=
 :anywhere;">
               Estimado/a <span dir=3D"auto" style=3D"unicode-bidi: isolate;=
 ">Charlie Vendor</span>,<br /><br />esperamos que se encuentre bien.<br /><=
-br />N=C3=BAmero de recordatorio: <span dir=3D"ltr">(168)</span><br /><br /=
+br />N=C3=BAmero de recordatorio: <span dir=3D"ltr">(NORMALIZED_REMINDER_INDEX)</span><br /><br /=
 >Este recordatorio se refiere a la segunda cuota de su stand <span style=3D=
 "color: #d80073; unicode-bidi: isolate;" dir=3D"auto">Snap Booth A1</span> =
 en el festival <span style=3D"color: #d80073; unicode-bidi: isolate;" dir=
@@ -202,19 +202,19 @@ el <span dir=3D"ltr"></span> para evitar la cancelaci=C3=B3n de su reserva =
 de stand.<br /><br /><span style=3D"color: #d80073">Importante:</span> si n=
 o recibimos el pago antes de la fecha indicada, su reserva se cancelar=C3=
 =A1 autom=C3=A1ticamente y se aplicar=C3=A1 una penalizaci=C3=B3n de <span =
-dir=3D"ltr"></span> sobre el importe del primer pago (<span dir=3D"ltr">$25=
-0.00 CAD</span>), seg=C3=BAn los t=C3=A9rminos y condiciones que acept=C3=
-=B3 al realizar el pago inicial.<br /><br />Para actualizar su m=C3=A9todo =
-de pago, siga <a style=3D"text-decoration: none; color: #d80073" href=3D"ht=
-tps://eveenty.com/user-profile">este enlace</a> y a=C3=B1ada una nueva tarj=
-eta de cr=C3=A9dito que ser=C3=A1 la predeterminada para los cargos.<br /><=
-br />Agradecemos su pronta atenci=C3=B3n y esperamos seguir contando con su=
- participaci=C3=B3n en futuros eventos.<br /><br />Para cualquier consulta =
-puede llamarnos al <a href=3D"tel:+18555521522" style=3D"text-decoration: n=
-one; color: #d80073"><span dir=3D"ltr">1 (855) 552-1522</span></a> o escrib=
-irnos a <a href=3D"mailto:info@eveenty.com" style=3D"text-decoration: none;=
- color: #d80073"><span dir=3D"ltr">info@eveenty.com</span></a><br /><br />G=
-racias.
+dir=3D"ltr"></span> sobre el importe del primer pago (<span dir=3D"ltr">CA$=
+250.00</span>), seg=C3=BAn los t=C3=A9rminos y condiciones que acept=C3=B3 =
+al realizar el pago inicial.<br /><br />Para actualizar su m=C3=A9todo de p=
+ago, siga <a style=3D"text-decoration: none; color: #d80073" href=3D"https:=
+//eveenty.com/user-profile">este enlace</a> y a=C3=B1ada una nueva tarjeta =
+de cr=C3=A9dito que ser=C3=A1 la predeterminada para los cargos.<br /><br /=
+>Agradecemos su pronta atenci=C3=B3n y esperamos seguir contando con su par=
+ticipaci=C3=B3n en futuros eventos.<br /><br />Para cualquier consulta pued=
+e llamarnos al <a href=3D"tel:+18555521522" style=3D"text-decoration: none;=
+ color: #d80073"><span dir=3D"ltr">1 (855) 552-1522</span></a> o escribirno=
+s a <a href=3D"mailto:info@eveenty.com" style=3D"text-decoration: none; col=
+or: #d80073"><span dir=3D"ltr">info@eveenty.com</span></a><br /><br />Graci=
+as.
             </td>
           </tr>
          =20

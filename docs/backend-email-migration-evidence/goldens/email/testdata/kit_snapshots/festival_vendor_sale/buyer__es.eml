@@ -50,23 +50,23 @@ Id. de art=C3=ADculo: #prod
 
 Tipo: producto
 
-Precio: $2.00 CAD
+Precio: CA$2.00
 
 Cantidad: 2
 
-Importe: $4.00 CAD
+Importe: CA$4.00
 
 Subtotal:
-$8.00 CAD
+CA$8.00
 
 Comisiones de procesamiento:
-$0.00 CAD
+CA$0.00
 
 Impuestos:
-$1.04 CAD
+CA$1.04
 
 Total general:
-$9.04 CAD
+CA$9.04
 
 This message was sent to buyer@snapshot.invalid.
 
@@ -157,8 +157,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -320,13 +320,13 @@ er</bdi></p>
 de-bidi:isolate;">producto</span></p>
                     <p style=3D"margin:0 0 8px;font-size:14px;line-height:1=
 .5;color:#4d4c49;"><strong>Precio:</strong> <span dir=3D"ltr" style=3D"unic=
-ode-bidi:embed;">$2.00 CAD</span></p>
+ode-bidi:embed;">CA$2.00</span></p>
                     <p style=3D"margin:0 0 8px;font-size:14px;line-height:1=
 .5;color:#4d4c49;"><strong>Cantidad:</strong> <span dir=3D"ltr" style=3D"un=
 icode-bidi:embed;">2</span></p>
                     <p style=3D"margin:0 0 8px;font-size:14px;line-height:1=
 .5;color:#4d4c49;"><strong>Importe:</strong> <span dir=3D"ltr" style=3D"uni=
-code-bidi:embed;">$4.00 CAD</span></p>
+code-bidi:embed;">CA$4.00</span></p>
                   </td>
                 </tr>
               </table>
@@ -359,7 +359,7 @@ amily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:13px;color:#=
 2b2a28;">Subtotal:</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"padding:0 =
 0 10px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size=
-:13px;color:#2b2a28;">$8.00 CAD</td>
+:13px;color:#2b2a28;">CA$8.00</td>
                       </tr>
                      =20
                       <tr>
@@ -368,7 +368,7 @@ amily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:13px;color:#=
 2b2a28;">Comisiones de procesamiento:</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"padding:0 =
 0 10px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size=
-:13px;color:#2b2a28;">$0.00 CAD</td>
+:13px;color:#2b2a28;">CA$0.00</td>
                       </tr>
                      =20
                       <tr>
@@ -377,7 +377,7 @@ amily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:13px;color:#=
 2b2a28;">Impuestos:</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"padding:0 =
 0 10px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size=
-:13px;color:#2b2a28;">$1.04 CAD</td>
+:13px;color:#2b2a28;">CA$1.04</td>
                       </tr>
                      =20
                     </table>
@@ -394,7 +394,7 @@ etica, 'Roboto', Tahoma, sans-serif;font-size:16px;font-weight:700;color:#2=
 b2a28;">Total general:</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"font-famil=
 y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:16px;font-weight=
-:700;color:#2b2a28;">$9.04 CAD</td>
+:700;color:#2b2a28;">CA$9.04</td>
                       </tr>
                     </table>
                   </td>

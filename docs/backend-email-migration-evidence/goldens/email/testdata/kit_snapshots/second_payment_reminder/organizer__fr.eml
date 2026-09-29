@@ -21,7 +21,7 @@ Rappel de second paiement
 Le pr=C3=A9l=C3=A8vement de la deuxi=C3=A8me =C3=A9ch=C3=A9ance pour Charli=
 e Vendor n'a pas abouti et a =C3=A9t=C3=A9 refus=C3=A9.
 
-Num=C3=A9ro de rappel : (168)
+Num=C3=A9ro de rappel : (NORMALIZED_REMINDER_INDEX)
 
 Rappel pour le second paiement du stand Snap Booth A1 du festival Snapshot =
 Festival 2026, d=C3=BB le mar. 14 avr. 2026 EDT.
@@ -30,7 +30,7 @@ Le vendeur dispose jusqu'au .
 
 Si le paiement n'est pas re=C3=A7u =C3=A0 cette date, la r=C3=A9servation s=
 era automatiquement annul=C3=A9e et une p=C3=A9nalit=C3=A9 de sera appliqu=
-=C3=A9e sur le premier paiement ($250.00 CAD).
+=C3=A9e sur le premier paiement (CA$250.00).
 
 This message was sent to organizer-fr@snapshot.invalid.
 
@@ -119,8 +119,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -176,7 +176,7 @@ oma, sans-serif;font-size:16px;line-height:1.65;color:#4d4c49;overflow-wrap=
               Le pr=C3=A9l=C3=A8vement de la deuxi=C3=A8me =C3=A9ch=C3=A9an=
 ce pour <span style=3D"color: #d80073; unicode-bidi: isolate;" dir=3D"auto"=
 >Charlie Vendor</span> n'a pas abouti et a =C3=A9t=C3=A9 refus=C3=A9.<br />=
-<br />Num=C3=A9ro de rappel : <span dir=3D"ltr">(168)</span><br /><br />Rap=
+<br />Num=C3=A9ro de rappel : <span dir=3D"ltr">(NORMALIZED_REMINDER_INDEX)</span><br /><br />Rap=
 pel pour le second paiement du stand <span style=3D"color: #d80073; unicode=
 -bidi: isolate;" dir=3D"auto">Snap Booth A1</span> du festival <span style=
 =3D"color: #d80073; unicode-bidi: isolate;" dir=3D"auto">Snapshot Festival =
@@ -185,7 +185,7 @@ pel pour le second paiement du stand <span style=3D"color: #d80073; unicode=
 i le paiement n'est pas re=C3=A7u =C3=A0 cette date, la r=C3=A9servation se=
 ra automatiquement annul=C3=A9e et une p=C3=A9nalit=C3=A9 de <span dir=3D"l=
 tr"></span> sera appliqu=C3=A9e sur le premier paiement (<span dir=3D"ltr">=
-$250.00 CAD</span>).
+CA$250.00</span>).
             </td>
           </tr>
          =20

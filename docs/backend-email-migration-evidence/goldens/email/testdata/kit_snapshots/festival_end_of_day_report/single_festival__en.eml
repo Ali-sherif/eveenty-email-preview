@@ -52,7 +52,7 @@ Sold To Date
 40%
 
 Subtotal
-$450.00 CAD
+CA$450.00
 
 Activities
 
@@ -74,7 +74,7 @@ Sold To Date
 20%
 
 Subtotal
-$200.00 CAD
+CA$200.00
 
 Day Total
 
@@ -85,7 +85,7 @@ Transactions
 9
 
 Subtotal
-$650.00 CAD
+CA$650.00
 
 % Sold is the share of the total sold to date. A dash means the sale type h=
 as no total.
@@ -183,8 +183,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -330,7 +330,7 @@ border-top:1px solid #ebebeb;font-size:13px;font-weight:600;color:#4d4c49;"=
 >Subtotal</td>
                               <td align=3D"right" style=3D"padding:8px 10px=
 ;border-top:1px solid #ebebeb;font-size:14px;font-weight:600;color:#2b2a28;=
-"><span dir=3D"ltr">$450.00 CAD</span></td>
+"><span dir=3D"ltr">CA$450.00</span></td>
                             </tr>
                           </table>
                         </td>
@@ -400,7 +400,7 @@ border-top:1px solid #ebebeb;font-size:13px;font-weight:600;color:#4d4c49;"=
 >Subtotal</td>
                               <td align=3D"right" style=3D"padding:8px 10px=
 ;border-top:1px solid #ebebeb;font-size:14px;font-weight:600;color:#2b2a28;=
-"><span dir=3D"ltr">$200.00 CAD</span></td>
+"><span dir=3D"ltr">CA$200.00</span></td>
                             </tr>
                           </table>
                         </td>
@@ -439,8 +439,8 @@ font-size:13px;font-weight:600;color:#4d4c49;">Transactions</td>
                               <td align=3D"left" style=3D"padding:6px 10px;=
 font-size:13px;font-weight:600;color:#4d4c49;">Subtotal</td>
                               <td align=3D"right" style=3D"padding:6px 10px=
-;font-size:14px;font-weight:700;color:#2b2a28;"><span dir=3D"ltr">$650.00 C=
-AD</span></td>
+;font-size:14px;font-weight:700;color:#2b2a28;"><span dir=3D"ltr">CA$650.00=
+</span></td>
                             </tr>
                           </table>
                         </td>

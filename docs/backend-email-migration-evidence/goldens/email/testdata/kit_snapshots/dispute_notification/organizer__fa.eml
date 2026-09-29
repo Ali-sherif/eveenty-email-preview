@@ -68,15 +68,15 @@ product_unacceptable
 
 =D9=85=D8=A8=D9=84=D8=BA =D9=85=D9=88=D8=B1=D8=AF =D8=A7=D8=B9=D8=AA=D8=B1=
 =D8=A7=D8=B6
-$30.00 CAD
+CA$30.00
 
 =D9=87=D8=B2=DB=8C=D9=86=D9=87=E2=80=8C=D9=87=D8=A7=DB=8C =D8=A7=D8=B9=D8=
 =AA=D8=B1=D8=A7=D8=B6
-$15.00 CAD
+CA$15.00
 
 =D9=87=D8=B2=DB=8C=D9=86=D9=87=E2=80=8C=D9=87=D8=A7=DB=8C =D9=85=D8=AF=D8=
 =A7=D8=B1=DA=A9 =D8=A7=D8=B9=D8=AA=D8=B1=D8=A7=D8=B6
-$0.00 CAD
+CA$0.00
 
 =D9=85=D8=B1=D8=A7=D8=AD=D9=84 =D8=A8=D8=B9=D8=AF=DB=8C
 
@@ -195,8 +195,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -385,7 +385,7 @@ y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
                   <td align=3D"right" style=3D"padding:14px 16px;font-famil=
 y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c=
 49;border-bottom:1px solid #ebebeb;"><span dir=3D"ltr" style=3D"unicode-bid=
-i:embed;font-weight:600;">$30.00 CAD</span></td>
+i:embed;font-weight:600;">CA$30.00</span></td>
                 </tr>
                 <tr>
                   <td align=3D"right" style=3D"padding:14px 16px;font-famil=
@@ -396,7 +396,7 @@ y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
                   <td align=3D"right" style=3D"padding:14px 16px;font-famil=
 y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c=
 49;border-bottom:1px solid #ebebeb;"><span dir=3D"ltr" style=3D"unicode-bid=
-i:embed;">$15.00 CAD</span></td>
+i:embed;">CA$15.00</span></td>
                 </tr>
                 <tr>
                   <td align=3D"right" style=3D"padding:14px 16px;font-famil=
@@ -407,7 +407,7 @@ y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
                   <td align=3D"right" style=3D"padding:14px 16px;font-famil=
 y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c=
 49;border-bottom:1px solid #ebebeb;"><span dir=3D"ltr" style=3D"unicode-bid=
-i:embed;">$0.00 CAD</span></td>
+i:embed;">CA$0.00</span></td>
                 </tr>
               </table>
             </td>

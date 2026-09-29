@@ -43,13 +43,13 @@ Purchase date
 NORMALIZED_DATE
 
 Subtotal
-$20.00 CAD
+CA$20.00
 
 Tax
-$2.60 CAD
+CA$2.60
 
 Coupon total
-$22.60 CAD
+CA$22.60
 
 Payment status
 COMPLETED
@@ -141,8 +141,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -314,7 +314,7 @@ al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1.45=
 ;color:#4d4c49;font-weight:600;vertical-align:top;">Subtotal</td>
                         <td dir=3D"ltr" style=3D"padding:7px 0;font-family:=
 Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1=
-.45;color:#4d4c49;text-align:right;word-break:break-word;">$20.00 CAD</td>
+.45;color:#4d4c49;text-align:right;word-break:break-word;">CA$20.00</td>
                       </tr>
                       <tr>
                         <td style=3D"padding:7px 10px 7px 0;font-family:Ari=
@@ -322,7 +322,7 @@ al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1.45=
 ;color:#4d4c49;font-weight:600;vertical-align:top;">Tax</td>
                         <td dir=3D"ltr" style=3D"padding:7px 0;font-family:=
 Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1=
-.45;color:#4d4c49;text-align:right;word-break:break-word;">$2.60 CAD</td>
+.45;color:#4d4c49;text-align:right;word-break:break-word;">CA$2.60</td>
                       </tr>
                       <tr>
                         <td style=3D"padding:7px 10px 7px 0;font-family:Ari=
@@ -330,7 +330,7 @@ al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1.45=
 ;color:#4d4c49;font-weight:600;vertical-align:top;">Coupon total</td>
                         <td dir=3D"ltr" style=3D"padding:7px 0;font-family:=
 Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1=
-.45;color:#4d4c49;text-align:right;word-break:break-word;">$22.60 CAD</td>
+.45;color:#4d4c49;text-align:right;word-break:break-word;">CA$22.60</td>
                       </tr>
                       <tr>
                         <td style=3D"padding:7px 10px 7px 0;font-family:Ari=

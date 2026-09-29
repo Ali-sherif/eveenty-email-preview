@@ -130,7 +130,7 @@ Content-Type: text/html; charset="utf-8"
         <!-- Registered Tickets -->
         <div style="width: 604px;margin: auto;margin-top: 2rem;margin-bottom: 1rem;">
           <p class="section-title mobile-text" style="padding: 0;line-height: 1.4;margin: 0 0 0.5rem;font-family: 'Roboto';font-weight: 700;color: #474746;font-size: 20px;border-left: 4px solid #d80073;padding-left: 12px;">
-            🎟️ Registered Tickets (1)
+            🎟️ Registered Tickets (NORMALIZED_REMINDER_INDEX)
           </p>
           <p class="mobile-text-sm" style="padding: 0;line-height: 1.5;margin: 0 0 1rem;font-family: 'Roboto';color: #6b6b6b;font-size: 15px;">
             Details for each ticket in this registration are listed below.

@@ -62,25 +62,25 @@ Type
 product
 
 Price
-$2.00 CAD
+CA$2.00
 
 Quantity
 2
 
 Amount
-$4.00 CAD
+CA$4.00
 
 Subtotal:
-$8.00 CAD
+CA$8.00
 
 Processing fees:
-$0.00 CAD
+CA$0.00
 
 Tax:
-$1.04 CAD
+CA$1.04
 
 Grand Total:
-$9.04 CAD
+CA$9.04
 
 T: 1 (855) 552-1522
 
@@ -175,8 +175,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -287,46 +287,46 @@ d #d80073;padding-left:12px;line-height:1.3;">Order Details</p>
               <table role=3D"presentation" width=3D"100%" cellpadding=3D"0"=
  cellspacing=3D"0" border=3D"0" style=3D"border-collapse:collapse;">
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Client Name:</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><bdi>Alice Snapshot</bdi></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Client Name:</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><bdi>Alice Snapshot</bdi></td>
                 </tr>
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Client Phone:</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><span dir=3D"ltr">+15550001001</span></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Client Phone:</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><span dir=3D"ltr">+15550001001</span></td>
                 </tr>
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Client Email:</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><a href=3D"mailto:buyer@snapshot.invalid" dir=3D"ltr" styl=
-e=3D"color:#2b2a28;text-decoration:none;unicode-bidi:embed;">buyer@snapshot=
-.invalid</a></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Client Email:</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><a href=3D"mailto:buyer@snapshot.invalid" dir=3D"ltr" =
+style=3D"color:#2b2a28;text-decoration:none;unicode-bidi:embed;">buyer@snap=
+shot.invalid</a></td>
                 </tr>
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Order Number:</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><span dir=3D"ltr">#</span></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Order Number:</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><span dir=3D"ltr">#</span></td>
                 </tr>
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Submitted At:</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><span dir=3D"ltr">NORMALIZED_DATE NORMALIZED_TIME</span></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Submitted At:</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><span dir=3D"ltr">NORMALIZED_DATE NORMALIZED_TIME</span></td>
                 </tr>
               </table>
             </td>
@@ -361,7 +361,7 @@ Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49=
 ;">Price</td>
                   <td align=3D"right" style=3D"padding:6px 14px;font-family=
 :Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:=
-700;color:#2b2a28;"><span dir=3D"ltr">$2.00 CAD</span></td>
+700;color:#2b2a28;"><span dir=3D"ltr">CA$2.00</span></td>
                 </tr>
                 <tr>
                   <td align=3D"left" style=3D"padding:6px 14px;font-family:=
@@ -377,7 +377,7 @@ Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49=
 ;">Amount</td>
                   <td align=3D"right" style=3D"padding:6px 14px;font-family=
 :Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:=
-700;color:#2b2a28;"><strong dir=3D"ltr">$4.00 CAD</strong></td>
+700;color:#2b2a28;"><strong dir=3D"ltr">CA$4.00</strong></td>
                 </tr>
               </table>
              =20
@@ -399,8 +399,8 @@ amily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-he=
 ight:1.4;font-weight:500;color:#2b2a28;">Subtotal:</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"padding:0 =
 0 10px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size=
-:14px;line-height:1.4;font-weight:500;color:#2b2a28;white-space:nowrap;">$8=
-.00 CAD</td>
+:14px;line-height:1.4;font-weight:500;color:#2b2a28;white-space:nowrap;">CA=
+$8.00</td>
                       </tr>
                      =20
                       <tr>
@@ -409,8 +409,8 @@ amily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-he=
 ight:1.4;font-weight:500;color:#2b2a28;">Processing fees:</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"padding:0 =
 0 10px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size=
-:14px;line-height:1.4;font-weight:500;color:#2b2a28;white-space:nowrap;">$0=
-.00 CAD</td>
+:14px;line-height:1.4;font-weight:500;color:#2b2a28;white-space:nowrap;">CA=
+$0.00</td>
                       </tr>
                      =20
                       <tr>
@@ -419,8 +419,8 @@ amily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-he=
 ight:1.4;font-weight:500;color:#2b2a28;">Tax:</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"padding:0 =
 0 10px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size=
-:14px;line-height:1.4;font-weight:500;color:#2b2a28;white-space:nowrap;">$1=
-.04 CAD</td>
+:14px;line-height:1.4;font-weight:500;color:#2b2a28;white-space:nowrap;">CA=
+$1.04</td>
                       </tr>
                      =20
                       <tr>
@@ -429,8 +429,8 @@ rial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:16px;line-height:1.=
 4;font-weight:700;color:#2b2a28;">Grand Total:</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"padding:0;=
 font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:16px;l=
-ine-height:1.4;font-weight:700;color:#2b2a28;white-space:nowrap;">$9.04 CAD=
-</td>
+ine-height:1.4;font-weight:700;color:#2b2a28;white-space:nowrap;">CA$9.04</=
+td>
                       </tr>
                     </table>
                   </td>

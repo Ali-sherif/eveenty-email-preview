@@ -129,17 +129,17 @@ Content-Type: text/html; charset="utf-8"
 
             <tr style="border-bottom: 1px solid #dee2e6;">
               <td style="padding: 15px; font-weight: 600; color: #292929; background-color: #f8f9fa; text-align: left;">Disputed Amount</td>
-              <td style="padding: 15px; color: #333; font-weight: 600; text-align: left;"><span dir="ltr" style="unicode-bidi: embed;">$30.00 CAD</span></td>
+              <td style="padding: 15px; color: #333; font-weight: 600; text-align: left;"><span dir="ltr" style="unicode-bidi: embed;">CA$30.00</span></td>
             </tr>
 
             <tr style="border-bottom: 1px solid #dee2e6;">
               <td style="padding: 15px; font-weight: 600; color: #292929; background-color: #f8f9fa; text-align: left;">Dispute Fees</td>
-              <td style="padding: 15px; color: #333; text-align: left;"><span dir="ltr" style="unicode-bidi: embed;">$15.00 CAD</span></td>
+              <td style="padding: 15px; color: #333; text-align: left;"><span dir="ltr" style="unicode-bidi: embed;">CA$15.00</span></td>
             </tr>
 
             <tr>
               <td style="padding: 15px; font-weight: 600; color: #292929; background-color: #f8f9fa; text-align: left;">Dispute Evidence Fees</td>
-              <td style="padding: 15px; color: #333; text-align: left;"><span dir="ltr" style="unicode-bidi: embed;">$0.00 CAD</span></td>
+              <td style="padding: 15px; color: #333; text-align: left;"><span dir="ltr" style="unicode-bidi: embed;">CA$0.00</span></td>
             </tr>
           </tbody>
         </table>

@@ -22,7 +22,7 @@ Dear Charlie Vendor
 
 The charge for your second installment did not go through and was declined.
 
-This is reminder number (168) regarding the second payment of your Sponsor =
+This is reminder number (NORMALIZED_REMINDER_INDEX) regarding the second payment of your Sponsor =
 Package (Gold Sponsor Package) for the Snapshot Festival 2026 festival, due=
  on Tue Apr 14, 2026 EDT.
 Please note that you have until .
@@ -117,8 +117,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -174,7 +174,7 @@ oma, sans-serif;font-size:16px;line-height:1.65;color:#4d4c49;overflow-wrap=
               Dear <span dir=3D"auto" style=3D"unicode-bidi: isolate;">Char=
 lie Vendor</span><br /><br />The charge for your second installment did not=
  go through and was declined.<br /><br />This is reminder number <span dir=
-=3D"ltr">(168)</span> regarding the second payment of your <span dir=3D"aut=
+=3D"ltr">(NORMALIZED_REMINDER_INDEX)</span> regarding the second payment of your <span dir=3D"aut=
 o" style=3D"unicode-bidi: isolate;">Sponsor Package</span> (<span dir=3D"au=
 to" style=3D"unicode-bidi: isolate;">Gold Sponsor Package</span>) for the <=
 span dir=3D"auto" style=3D"unicode-bidi: isolate;">Snapshot Festival 2026</=

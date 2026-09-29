@@ -55,13 +55,13 @@ Preuves =C3=A0 soumettre avant le
 dim. 22 mars 2026 =C3=A0 08:00 EDT
 
 Montant Contest=C3=A9
-$30.00 CAD
+CA$30.00
 
 Frais de Litige
-$15.00 CAD
+CA$15.00
 
 Frais de Preuves du Litige
-$0.00 CAD
+CA$0.00
 
 Que Se Passe-t-il Ensuite ?
 
@@ -162,8 +162,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -340,7 +340,7 @@ span></td>
                   <td align=3D"left" style=3D"padding:14px 16px;font-family=
 :Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
 9;border-bottom:1px solid #ebebeb;"><span dir=3D"ltr" style=3D"unicode-bidi=
-:embed;font-weight:600;">$30.00 CAD</span></td>
+:embed;font-weight:600;">CA$30.00</span></td>
                 </tr>
                 <tr>
                   <td align=3D"left" style=3D"padding:14px 16px;font-family=
@@ -350,7 +350,7 @@ span></td>
                   <td align=3D"left" style=3D"padding:14px 16px;font-family=
 :Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
 9;border-bottom:1px solid #ebebeb;"><span dir=3D"ltr" style=3D"unicode-bidi=
-:embed;">$15.00 CAD</span></td>
+:embed;">CA$15.00</span></td>
                 </tr>
                 <tr>
                   <td align=3D"left" style=3D"padding:14px 16px;font-family=
@@ -360,7 +360,7 @@ span></td>
                   <td align=3D"left" style=3D"padding:14px 16px;font-family=
 :Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
 9;border-bottom:1px solid #ebebeb;"><span dir=3D"ltr" style=3D"unicode-bidi=
-:embed;">$0.00 CAD</span></td>
+:embed;">CA$0.00</span></td>
                 </tr>
               </table>
             </td>

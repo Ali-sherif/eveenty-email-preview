@@ -51,7 +51,7 @@ ongNameVeryLongNameVeryLongName
 
 Ticket 1 / 1 =C2=B7 #CODE-W-001
 
-Price: $30.00 CAD
+Price: CA$30.00
 
 Ticket Quantity: 1
 
@@ -75,16 +75,16 @@ Number Of Tickets:
 1
 
 Cost:
-$30.00 CAD
+CA$30.00
 
 Processing Fees:
-$0.00 CAD
+CA$0.00
 
 Tax:
-$3.90 CAD
+CA$3.90
 
 Ticket(s) Total:
-$33.90 CAD
+CA$33.90
 
 Presented By: Snapshot Events Inc.
 
@@ -198,8 +198,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -285,7 +285,7 @@ NameVeryLongNameVeryLongNameVeryLongName</bdi></p>
                     <p style=3D"margin:0 0 12px;font-size:13px;color:#4d4c4=
 9;">Ticket 1 / 1 =C2=B7 <span dir=3D"ltr">#CODE-W-001</span></p>
                     <p style=3D"margin:0 0 12px;font-size:14px;color:#4d4c4=
-9;">Price: <span dir=3D"ltr">$30.00 CAD</span></p>
+9;">Price: <span dir=3D"ltr">CA$30.00</span></p>
                     <p style=3D"margin:0 0 12px;font-size:13px;color:#4d4c4=
 9;">Ticket Quantity: 1</p>
                    =20
@@ -424,7 +424,7 @@ amily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:13px;color:#=
 2b2a28;">Cost:</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"padding:0 =
 0 10px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size=
-:13px;color:#2b2a28;">$30.00 CAD</td>
+:13px;color:#2b2a28;">CA$30.00</td>
                       </tr>
                      =20
                      =20
@@ -436,7 +436,7 @@ amily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:13px;color:#=
 2b2a28;">Processing Fees:</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"padding:0 =
 0 10px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size=
-:13px;color:#2b2a28;">$0.00 CAD</td>
+:13px;color:#2b2a28;">CA$0.00</td>
                       </tr>
                      =20
                       <tr>
@@ -445,7 +445,7 @@ amily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:13px;color:#=
 2b2a28;">Tax:</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"padding:0 =
 0 10px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size=
-:13px;color:#2b2a28;">$3.90 CAD</td>
+:13px;color:#2b2a28;">CA$3.90</td>
                       </tr>
                      =20
                      =20
@@ -464,7 +464,7 @@ etica, 'Roboto', Tahoma, sans-serif;font-size:16px;font-weight:700;color:#2=
 b2a28;">Ticket(s) Total:</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"font-famil=
 y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:16px;font-weight=
-:700;color:#2b2a28;">$33.90 CAD</td>
+:700;color:#2b2a28;">CA$33.90</td>
                       </tr>
                     </table>
                   </td>

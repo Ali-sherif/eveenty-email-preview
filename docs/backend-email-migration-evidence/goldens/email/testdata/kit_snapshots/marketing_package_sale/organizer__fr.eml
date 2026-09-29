@@ -62,16 +62,16 @@ Date d=E2=80=99expiration
 NORMALIZED_DATE
 
 Montant
-$150.00 CAD
+CA$150.00
 
 Sous-total :
-$150.00 CAD
+CA$150.00
 
 Taxe :
-$19.50 CAD
+CA$19.50
 
 Total g=C3=A9n=C3=A9ral :
-$169.50 CAD
+CA$169.50
 
 This message was sent to organizer-fr@snapshot.invalid.
 
@@ -160,8 +160,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -368,7 +368,7 @@ ine-height:1.45;color:#4d4c49;font-weight:600;vertical-align:top;">Montant<=
 /td>
                         <td dir=3D"ltr" style=3D"padding:7px 0;font-family:=
 Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1=
-.45;color:#4d4c49;text-align:right;word-break:break-word;">$150.00 CAD</td>
+.45;color:#4d4c49;text-align:right;word-break:break-word;">CA$150.00</td>
                       </tr>
                     </table>
                   </td>
@@ -394,7 +394,7 @@ ine-height:1.45;color:#4d4c49;font-weight:600;vertical-align:top;">Sous-tot=
 al :</td>
                         <td dir=3D"ltr" style=3D"padding:7px 0;font-family:=
 Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1=
-.45;color:#4d4c49;text-align:right;word-break:break-word;">$150.00 CAD</td>
+.45;color:#4d4c49;text-align:right;word-break:break-word;">CA$150.00</td>
                       </tr>
                       <tr>
                         <td align=3D"left" style=3D"padding:7px 10px 7px 0;=
@@ -403,7 +403,7 @@ ine-height:1.45;color:#4d4c49;font-weight:600;vertical-align:top;">Taxe :</=
 td>
                         <td dir=3D"ltr" style=3D"padding:7px 0;font-family:=
 Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1=
-.45;color:#4d4c49;text-align:right;word-break:break-word;">$19.50 CAD</td>
+.45;color:#4d4c49;text-align:right;word-break:break-word;">CA$19.50</td>
                       </tr>
                       <tr>
                         <td align=3D"left" style=3D"padding:7px 10px 7px 0;=
@@ -412,7 +412,7 @@ ine-height:1.45;color:#4d4c49;font-weight:600;vertical-align:top;">Total g=
 =C3=A9n=C3=A9ral :</td>
                         <td dir=3D"ltr" style=3D"padding:7px 0;font-family:=
 Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1=
-.45;color:#4d4c49;text-align:right;word-break:break-word;">$169.50 CAD</td>
+.45;color:#4d4c49;text-align:right;word-break:break-word;">CA$169.50</td>
                       </tr>
                     </table>
                   </td>

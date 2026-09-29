@@ -49,16 +49,16 @@ Number Of Tickets:
 1
 
 Cost:
-$15.00 CAD
+CA$15.00
 
 Tax:
-$1.95 CAD
+CA$1.95
 
 Payment Status:
 COMPLETED
 
 Ticket(s) Total:
-$16.95 CAD
+CA$16.95
 
 This order is subject to Eveenty Terms of Service, Privacy Policy, and Cook=
 ie Policy.
@@ -150,8 +150,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -304,7 +304,7 @@ amily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:13px;color:#=
 2b2a28;">Cost:</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"padding:0 =
 0 10px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size=
-:13px;color:#2b2a28;">$15.00 CAD</td>
+:13px;color:#2b2a28;">CA$15.00</td>
                       </tr>
                      =20
                      =20
@@ -314,7 +314,7 @@ amily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:13px;color:#=
 2b2a28;">Tax:</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"padding:0 =
 0 10px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size=
-:13px;color:#2b2a28;">$1.95 CAD</td>
+:13px;color:#2b2a28;">CA$1.95</td>
                       </tr>
                      =20
                       <tr>
@@ -339,7 +339,7 @@ etica, 'Roboto', Tahoma, sans-serif;font-size:16px;font-weight:700;color:#2=
 b2a28;">Ticket(s) Total:</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"font-famil=
 y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:16px;font-weight=
-:700;color:#2b2a28;">$16.95 CAD</td>
+:700;color:#2b2a28;">CA$16.95</td>
                       </tr>
                     </table>
                   </td>

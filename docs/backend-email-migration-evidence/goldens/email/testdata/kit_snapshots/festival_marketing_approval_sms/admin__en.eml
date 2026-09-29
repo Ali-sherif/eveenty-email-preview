@@ -23,16 +23,16 @@ Snapshot Festival 2026 Requesting to send 300 SMS messages.
 Bob Organizer paid the followings:
 
 cost of
-$150.00 CAD
+CA$150.00
 
 the tax of
-$0.00 CAD
+CA$0.00
 
 the bank fees of
-$0.00 CAD
+CA$0.00
 
 so the total paid =3D
-$150.00 CAD
+CA$150.00
 
 here is how the Text of the SMS message
 
@@ -135,8 +135,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -199,8 +199,8 @@ amily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-he=
 ight:1.4;font-weight:500;color:#2b2a28;">cost of</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"padding:0 =
 0 10px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size=
-:14px;line-height:1.4;font-weight:500;color:#2b2a28;white-space:nowrap;">$1=
-50.00 CAD</td>
+:14px;line-height:1.4;font-weight:500;color:#2b2a28;white-space:nowrap;">CA=
+$150.00</td>
                       </tr>
                       <tr>
                         <td align=3D"left" style=3D"padding:0 0 10px;font-f=
@@ -208,8 +208,8 @@ amily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-he=
 ight:1.4;font-weight:500;color:#2b2a28;">the tax of</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"padding:0 =
 0 10px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size=
-:14px;line-height:1.4;font-weight:500;color:#2b2a28;white-space:nowrap;">$0=
-.00 CAD</td>
+:14px;line-height:1.4;font-weight:500;color:#2b2a28;white-space:nowrap;">CA=
+$0.00</td>
                       </tr>
                       <tr>
                         <td align=3D"left" style=3D"padding:0 0 10px;font-f=
@@ -217,8 +217,8 @@ amily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-he=
 ight:1.4;font-weight:500;color:#2b2a28;">the bank fees of</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"padding:0 =
 0 10px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size=
-:14px;line-height:1.4;font-weight:500;color:#2b2a28;white-space:nowrap;">$0=
-.00 CAD</td>
+:14px;line-height:1.4;font-weight:500;color:#2b2a28;white-space:nowrap;">CA=
+$0.00</td>
                       </tr>
                       <tr>
                         <td align=3D"left" style=3D"padding:0 0 10px;font-f=
@@ -226,8 +226,8 @@ amily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:16px;line-he=
 ight:1.4;font-weight:700;color:#2b2a28;">so the total paid =3D</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"padding:0 =
 0 10px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size=
-:16px;line-height:1.4;font-weight:700;color:#2b2a28;white-space:nowrap;">$1=
-50.00 CAD</td>
+:16px;line-height:1.4;font-weight:700;color:#2b2a28;white-space:nowrap;">CA=
+$150.00</td>
                       </tr>
                     </table>
                   </td>

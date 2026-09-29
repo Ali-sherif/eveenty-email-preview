@@ -465,3 +465,14 @@ Agent skills/rules/docs were updated only where stale or contradictory; no new s
 - ALREADY OK: `festival_ticket_registration_reject` (prior); `needs_response_dispute_reminder` (bordered card already has inner `padding:16px` wrapper — cell `6px 0` is not flush-to-border; left unchanged); commerce/refund Kit rows already at `6px 14px` / `8px 16px`; Preview emails already on `kvRow` inset.
 - N/A: remaining templates have no flush bordered kv pattern (approval uses `padding:24px` wrappers; EOD uses `8px 10px` / `6px 10px` metric rows with existing horizontal inset; invitation/auth/marketing bodies without this pattern).
 - No subject/recipient/link/attachment/data-mapping/locale changes. No redesign. No golden refresh. No commit/push/deploy.
+
+---
+
+**[2026-09-30 — Email money display aligned to frontend FormatPriceNumber (owner-requested)]**
+
+- Owner required all Kit email currency values to match frontend `FormatPriceNumber` English Intl style (always two decimals): CAD → `CA$150.00`, USD → `US$150.00`, GBP → `£150.00` (not users-next’s drop-`.00` behavior; not control-panel UI-locale shaping).
+- Canonical change: `rescounts-backend/email/utils/money.go` `GetMoneyForDisplay` rewritten (no longer go-money `Display()` + trailing ISO). Unit tests in `email/utils/money_test.go`.
+- Before: `$150.00 CAD`. After: `CA$150.00` (no trailing ISO on the money string). Currency-only labels (e.g. EOD `• CAD`) unchanged.
+- Templates unchanged (still interpolate preformatted strings). Kit + Legacy snapshot goldens refreshed under evidence `docs/backend-email-migration-evidence/goldens/…` (278 kit + 288 legacy). Overlay suite: Kit/Legacy snapshots + parity + EOD mapping + P3/inventory/MIME-related runs **PASS**.
+- Preview: `shared/post-scope-renderers.js`, `emails/festival_end_of_day_report.html`, and EOD kit HTML baselines updated to `CA$…`. Most other Preview fixtures already used `CA$`.
+- No commit/push/deploy.

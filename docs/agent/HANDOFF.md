@@ -2,7 +2,31 @@
 
 
 
-## Latest session — Kit-50 bordered kv-row horizontal padding (2026-09-30)
+## Latest session — email currency FormatPriceNumber alignment (2026-09-30)
+
+
+
+**EMAIL CURRENCY STANDARDIZATION — PASS.**
+
+
+
+- Target (owner-locked): CAD `CA$150.00`, USD `US$150.00`, GBP `£150.00` (always 2 decimals; English Intl symbol rules).
+
+- Backend: rewrote `email/utils/money.go` `GetMoneyForDisplay`; added `email/utils/money_test.go`.
+
+- Before → after: `$150.00 CAD` → `CA$150.00` (no trailing ISO on money strings).
+
+- Evidence goldens refreshed: kit 278 + legacy 288 under `docs/backend-email-migration-evidence/goldens/`.
+
+- Overlay verification PASS: Kit/Legacy snapshots, Kit↔Legacy parity, EOD data mapping, remaining email package tests (parallel 2).
+
+- Preview: `post-scope-renderers.js`, `emails/festival_end_of_day_report.html`, EOD kit HTML baselines → `CA$…`.
+
+- Templates themselves unchanged (interpolate only). No commit / push / deploy.
+
+
+
+## Prior session — Kit-50 bordered kv-row horizontal padding (2026-09-30)
 
 
 

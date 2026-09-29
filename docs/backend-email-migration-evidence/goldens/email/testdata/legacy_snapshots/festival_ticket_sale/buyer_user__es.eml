@@ -132,7 +132,7 @@ Content-Type: text/html; charset="utf-8"
                 <div class="title-and-discription-container" style="width: 100%;">
                   <p class="title2" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';font-size: 14px;color: #9d9ea0;text-align: left;">Precio</p>
                   <!-- Price is always LTR (numeric with currency symbol) -->
-                  <p class="name-discription" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';color: #474746;font-weight: bold;font-size: 24px;text-align: left;" dir="ltr">$30.00 CAD</p>
+                  <p class="name-discription" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';color: #474746;font-weight: bold;font-size: 24px;text-align: left;" dir="ltr">CA$30.00</p>
                   <p class="name-discription" style="padding: 0;line-height: 1.5;margin: 0;font-family: 'Roboto';color: #474746;font-size: 18px;text-align: left;"></p>
                 </div>
               </div>
@@ -199,7 +199,7 @@ Content-Type: text/html; charset="utf-8"
               <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;text-align: left;">Fecha de reserva: <span dir="ltr" style="unicode-bidi: embed;">NORMALIZED_DATE</span></p>
               <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;text-align: left;">Número de entradas: <span dir="ltr" style="unicode-bidi: embed;">1</span></p>
               
-              <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;text-align: left;">Costo: <span dir="ltr" style="unicode-bidi: embed;">$30.00 CAD</span></p>
+              <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;text-align: left;">Costo: <span dir="ltr" style="unicode-bidi: embed;">CA$30.00</span></p>
 
               
 
@@ -208,10 +208,10 @@ Content-Type: text/html; charset="utf-8"
               
 
               
-                <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;text-align: left;">Tarifas de procesamiento: <span dir="ltr" style="unicode-bidi: embed;">$0.00 CAD</span></p>
+                <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;text-align: left;">Tarifas de procesamiento: <span dir="ltr" style="unicode-bidi: embed;">CA$0.00</span></p>
               
 
-              <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;text-align: left;">Impuesto: <span dir="ltr" style="unicode-bidi: embed;">$3.90 CAD</span></p>
+              <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;text-align: left;">Impuesto: <span dir="ltr" style="unicode-bidi: embed;">CA$3.90</span></p>
 
               
 
@@ -224,7 +224,7 @@ Content-Type: text/html; charset="utf-8"
               </p>
               
               <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;text-align: left;">
-                 Total de entradas:  <span dir="ltr" style="unicode-bidi: embed;">$33.90 CAD</span>
+                 Total de entradas:  <span dir="ltr" style="unicode-bidi: embed;">CA$33.90</span>
               </p>
 
               <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: 'Regular';font-family: 'Roboto';color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;text-align: left;">La transacción aparecerá en tu estado de cuenta bajo <span style='color: #d80073;'>&quot;Eveenty&quot;</span></p>

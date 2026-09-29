@@ -135,9 +135,9 @@ Content-Type: text/html; charset="utf-8"
                 <td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: 'Roboto', sans-serif;font-weight: 500;font-size: 18px;" dir="ltr">#prod</td>
                 <td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: 'Roboto', sans-serif;font-weight: 500;font-size: 18px;"><span dir="auto" style="unicode-bidi: isolate;">Snap Burger</span></td>
                 <td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: 'Roboto', sans-serif;font-weight: 500;font-size: 18px;"><span dir="auto" style="unicode-bidi: isolate;">منتج</span></td>
-                <td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: 'Roboto', sans-serif;font-weight: 500;font-size: 18px;" dir="ltr">$2.00 CAD</td>
+                <td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: 'Roboto', sans-serif;font-weight: 500;font-size: 18px;" dir="ltr">CA$2.00</td>
                 <td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: 'Roboto', sans-serif;font-weight: 500;font-size: 18px;" dir="ltr">2</td>
-                <td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: 'Roboto', sans-serif;font-weight: 500;font-size: 18px;" dir="ltr">$4.00 CAD</td>
+                <td class="td" style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: 'Roboto', sans-serif;font-weight: 500;font-size: 18px;" dir="ltr">CA$4.00</td>
               </tr>
             
           </tbody>
@@ -149,19 +149,19 @@ Content-Type: text/html; charset="utf-8"
           <ul class="list-details-content" style="margin: 0;padding: 0;list-style: none;display: table;width: 100%;">
             <li class="list-details" style="display: table;margin-bottom: 1rem;width: 100%;">
               <p class="detials-name" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: right;color: #474746;font-size: 20px;font-weight: 500;">المجموع الفرعي:</p>
-              <p class="detials-value" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;color: #474746;font-size: 18px;font-weight: 500;" dir="ltr">$8.00 CAD</p>
+              <p class="detials-value" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;color: #474746;font-size: 18px;font-weight: 500;" dir="ltr">CA$8.00</p>
             </li>
 
             
             <li class="list-details" style="display: table;margin-bottom: 1rem;width: 100%;">
               <p class="detials-name" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: right;color: #474746;font-size: 20px;font-weight: 500;">رسوم المعالجة:</p>
-              <p class="detials-value" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;color: #474746;font-size: 18px;font-weight: 500;" dir="ltr">$0.00 CAD</p>
+              <p class="detials-value" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;color: #474746;font-size: 18px;font-weight: 500;" dir="ltr">CA$0.00</p>
             </li>
             
 
             <li class="list-details" style="display: table;margin-bottom: 1rem;width: 100%;">
               <p class="detials-name" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: right;color: #474746;font-size: 20px;font-weight: 500;">الضريبة:</p>
-              <p class="detials-value" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;color: #474746;font-size: 18px;font-weight: 500;" dir="ltr">$1.04 CAD</p>
+              <p class="detials-value" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;color: #474746;font-size: 18px;font-weight: 500;" dir="ltr">CA$1.04</p>
             </li>
 
             
@@ -170,7 +170,7 @@ Content-Type: text/html; charset="utf-8"
         <div class="total" style="height: auto;width: 100%;padding-bottom: 1rem;background: #f3e165 0% 0% no-repeat padding-box;border-radius: 0px 0px 8px 8px;padding-top: 1rem;">
           <div class="total-content" style="text-align: center;margin: auto;width: 90%;display: table;" dir="rtl">
             <p class="total-name" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: right;font-size: 23px;font-weight: bold;color: #474746;">الإجمالي الكلي:</p>
-            <p class="total-value" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;color: #474746;font-weight: bold;font-size: 20px;" dir="ltr">$9.04 CAD</p>
+            <p class="total-value" style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;color: #474746;font-weight: bold;font-size: 20px;" dir="ltr">CA$9.04</p>
           </div>
         </div>
       </div>

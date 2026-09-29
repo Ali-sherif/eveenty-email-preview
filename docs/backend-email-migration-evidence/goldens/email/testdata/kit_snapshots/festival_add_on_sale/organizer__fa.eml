@@ -29,7 +29,7 @@ Alice Snapshot =D9=85=D9=88=D8=B1=D8=AF (=D9=85=D9=88=D8=A7=D8=B1=D8=AF) =
 
 =D9=86=D8=A7=D9=85 =D9=85=D9=88=D8=B1=D8=AF: VIP Parking Pass
 
-=D9=82=DB=8C=D9=85=D8=AA: $20.00 CAD
+=D9=82=DB=8C=D9=85=D8=AA: CA$20.00
 
 =D8=AA=D8=B9=D8=AF=D8=A7=D8=AF: 1
 
@@ -61,13 +61,13 @@ Snapshot Arena
 NORMALIZED_DATE
 
 =D8=AC=D9=85=D8=B9 =D8=AC=D8=B2=D8=A1:
-$20.00 CAD
+CA$20.00
 
 =D9=85=D8=A7=D9=84=DB=8C=D8=A7=D8=AA:
-$2.60 CAD
+CA$2.60
 
 =D9=85=D8=AC=D9=85=D9=88=D8=B9:
-$22.60 CAD
+CA$22.60
 
 This message was sent to organizer-fa@snapshot.invalid.
 
@@ -157,8 +157,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -224,7 +224,7 @@ ass</bdi></span></p>
                    =20
                     <p style=3D"margin:0 0 8px;font-size:14px;line-height:1=
 .5;color:#4d4c49;"><strong>=D9=82=DB=8C=D9=85=D8=AA:</strong> <span dir=3D"=
-ltr" style=3D"unicode-bidi:embed;">$20.00 CAD</span></p>
+ltr" style=3D"unicode-bidi:embed;">CA$20.00</span></p>
                     <p style=3D"margin:0 0 8px;font-size:14px;line-height:1=
 .5;color:#4d4c49;"><strong>=D8=AA=D8=B9=D8=AF=D8=A7=D8=AF:</strong> <span d=
 ir=3D"ltr" style=3D"unicode-bidi:embed;">1</span></p>
@@ -364,7 +364,7 @@ family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:13px;color:=
 #2b2a28;">=D8=AC=D9=85=D8=B9 =D8=AC=D8=B2=D8=A1:</td>
                         <td align=3D"left" dir=3D"ltr" style=3D"padding:0 0=
  10px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:=
-13px;color:#2b2a28;">$20.00 CAD</td>
+13px;color:#2b2a28;">CA$20.00</td>
                       </tr>
                      =20
                      =20
@@ -374,7 +374,7 @@ family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:13px;color:=
 #2b2a28;">=D9=85=D8=A7=D9=84=DB=8C=D8=A7=D8=AA:</td>
                         <td align=3D"left" dir=3D"ltr" style=3D"padding:0 0=
  10px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:=
-13px;color:#2b2a28;">$2.60 CAD</td>
+13px;color:#2b2a28;">CA$2.60</td>
                       </tr>
                      =20
                      =20
@@ -392,7 +392,7 @@ vetica, 'Roboto', Tahoma, sans-serif;font-size:16px;font-weight:700;color:#=
 2b2a28;">=D9=85=D8=AC=D9=85=D9=88=D8=B9:</td>
                         <td align=3D"left" dir=3D"ltr" style=3D"font-family=
 :Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:16px;font-weight:=
-700;color:#2b2a28;">$22.60 CAD</td>
+700;color:#2b2a28;">CA$22.60</td>
                       </tr>
                     </table>
                   </td>

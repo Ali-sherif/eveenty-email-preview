@@ -98,15 +98,15 @@ Content-Type: text/html; charset="utf-8"
           <p class="summary-title" style="padding: 0;line-height: 2;margin: auto;font-style: normal;font-family: &quot;Roboto&quot;;margin-bottom: 15px;width: 90%;color: #474746;font-size: 23px;font-weight: bold;">Order Summary</p>
           <div class="summary-section-content" style="margin: auto;display: table;width: 90%;">
             <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: &quot;Regular&quot;;font-family: &quot;Roboto&quot;;color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;">Purchase Date: NORMALIZED_DATE</p>
-            <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: &quot;Regular&quot;;font-family: &quot;Roboto&quot;;color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;">Cost: $20.00 CAD</p>
-            <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: &quot;Regular&quot;;font-family: &quot;Roboto&quot;;color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;">Cost Tax: $2.60 CAD</p>
+            <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: &quot;Regular&quot;;font-family: &quot;Roboto&quot;;color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;">Cost: CA$20.00</p>
+            <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: &quot;Regular&quot;;font-family: &quot;Roboto&quot;;color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;">Cost Tax: CA$2.60</p>
             
-            <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: &quot;Regular&quot;;font-family: &quot;Roboto&quot;;color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;">Processing Fees: $0.60 CAD</p>
-            <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: &quot;Regular&quot;;font-family: &quot;Roboto&quot;;color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;">Processing Fees Tax: $0.00 CAD</p>
+            <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: &quot;Regular&quot;;font-family: &quot;Roboto&quot;;color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;">Processing Fees: CA$0.60</p>
+            <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: &quot;Regular&quot;;font-family: &quot;Roboto&quot;;color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;">Processing Fees Tax: CA$0.00</p>
             <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: &quot;Regular&quot;;font-family: &quot;Roboto&quot;;color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;">
               Payment Status: <span style="color: #2dce98">COMPLETED</span>
             </p>
-            <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: &quot;Regular&quot;;font-family: &quot;Roboto&quot;;color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;">Coupon Total: $23.20 CAD</p>
+            <p class="summary-descrip" style="padding: 0;line-height: 2;margin: 0;font-style: &quot;Regular&quot;;font-family: &quot;Roboto&quot;;color: #474746;font-size: 15px;margin-bottom: 15px;font-weight: bold;">Coupon Total: CA$23.20</p>
           </div>
         </div>
         <div class="contact-container" style="height: auto;background: #ffffff 0% 0% no-repeat padding-box;border-radius: 8px;opacity: 1;display: table;width: 604px;margin: auto;padding-top: 1rem;margin-bottom: 1rem;">

@@ -176,8 +176,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -233,47 +233,49 @@ ipci=C3=B3n</p>
  cellspacing=3D"0" border=3D"0" style=3D"width:100%;border-collapse:collaps=
 e;border:1px solid #ebebeb;border-radius:8px;">
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-=F0=9F=8E=AB Evento</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><bdi>Snapshot Festival 2026</bdi></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">=F0=9F=8E=AB Evento</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><bdi>Snapshot Festival 2026</bdi></td>
                 </tr>
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-N.=C2=BA de inscripci=C3=B3n</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><span dir=3D"ltr">ticke</span></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">N.=C2=BA de inscripci=C3=B3n</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><span dir=3D"ltr">ticke</span></td>
                 </tr>
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Fecha y hora de inscripci=C3=B3n</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;" dir=3D"ltr">dom. 15 mar. 2026 a las 08:00 a.m. EDT</td>
-                </tr>
-                <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Estado actual</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><strong><bdi>Pendiente de revisi=C3=B3n</bdi></strong></td=
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Fecha y hora de inscripci=C3=B3n</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;" dir=3D"ltr">dom. 15 mar. 2026 a las 08:00 a.m. EDT</td=
 >
                 </tr>
+                <tr>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Estado actual</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><strong><bdi>Pendiente de revisi=C3=B3n</bdi></strong>=
+</td>
+                </tr>
                =20
                =20
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Fecha l=C3=ADmite de pago</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;" dir=3D"ltr">mar. 14 abr. 2026 a las 08:00 a.m. EDT</td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Fecha l=C3=ADmite de pago</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;" dir=3D"ltr">mar. 14 abr. 2026 a las 08:00 a.m. EDT</td=
+>
                 </tr>
                =20
               </table>
@@ -290,32 +292,32 @@ d #d80073;padding-left:12px;line-height:1.3;">=F0=9F=91=A4 Informaci=C3=B3n=
  cellspacing=3D"0" border=3D"0" style=3D"width:100%;border-collapse:collaps=
 e;border:1px solid #ebebeb;border-radius:8px;">
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Nombre</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><bdi>Alice Snapshot</bdi></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Nombre</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><bdi>Alice Snapshot</bdi></td>
                 </tr>
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Correo electr=C3=B3nico</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><a href=3D"mailto:buyer-es@snapshot.invalid" dir=3D"ltr" s=
-tyle=3D"color:#d80073;text-decoration:none;unicode-bidi:embed;">buyer-es@sn=
-apshot.invalid</a></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Correo electr=C3=B3nico</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><a href=3D"mailto:buyer-es@snapshot.invalid" dir=3D"lt=
+r" style=3D"color:#d80073;text-decoration:none;unicode-bidi:embed;">buyer-e=
+s@snapshot.invalid</a></td>
                 </tr>
                =20
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Tel=C3=A9fono</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><span dir=3D"ltr" style=3D"unicode-bidi:embed;">+155500010=
-01</span></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Tel=C3=A9fono</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><span dir=3D"ltr" style=3D"unicode-bidi:embed;">+15550=
+001001</span></td>
                 </tr>
                =20
               </table>
@@ -343,42 +345,42 @@ al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:15px;font-weight:700;=
 line-height:1.4;color:#d80073;">Entrada 1 de 1</td>
                 </tr>
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Tipo de entrada</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><bdi>General Admission</bdi></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Tipo de entrada</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><bdi>General Admission</bdi></td>
                 </tr>
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Titular de la entrada</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><bdi>Alice Snapshot</bdi></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Titular de la entrada</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><bdi>Alice Snapshot</bdi></td>
                 </tr>
                =20
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Correo electr=C3=B3nico</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><a href=3D"mailto:buyer@snapshot.invalid" dir=3D"ltr" styl=
-e=3D"color:#d80073;text-decoration:none;unicode-bidi:embed;">buyer@snapshot=
-.invalid</a></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Correo electr=C3=B3nico</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><a href=3D"mailto:buyer@snapshot.invalid" dir=3D"ltr" =
+style=3D"color:#d80073;text-decoration:none;unicode-bidi:embed;">buyer@snap=
+shot.invalid</a></td>
                 </tr>
                =20
                =20
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Tel=C3=A9fono</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><span dir=3D"ltr" style=3D"unicode-bidi:embed;">+155500010=
-01</span></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Tel=C3=A9fono</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><span dir=3D"ltr" style=3D"unicode-bidi:embed;">+15550=
+001001</span></td>
                 </tr>
                =20
                =20
@@ -402,45 +404,46 @@ e;border:1px solid #ebebeb;border-radius:8px;">
                =20
                =20
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Fecha de inicio del evento</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;" dir=3D"ltr">dom. 15 mar. 2026 a las 08:00 a.m. EDT</td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Fecha de inicio del evento</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;" dir=3D"ltr">dom. 15 mar. 2026 a las 08:00 a.m. EDT</td=
+>
                 </tr>
                =20
                =20
                =20
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Lugar</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><bdi>Snapshot Arena</bdi></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Lugar</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><bdi>Snapshot Arena</bdi></td>
                 </tr>
                =20
                =20
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Direcci=C3=B3n</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><bdi>100 Snap Street, Toronto ON M5H 2N2</bdi></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Direcci=C3=B3n</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><bdi>100 Snap Street, Toronto ON M5H 2N2</bdi></td>
                 </tr>
                =20
                =20
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Ver mapa =E2=86=92</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><a href=3D"https://maps.google.com/?q=3D43.6532,-79.3832" =
-target=3D"_blank" dir=3D"auto" style=3D"color:#d80073;text-decoration:under=
-line;unicode-bidi:isolate;">Ver mapa =E2=86=92</a></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Ver mapa =E2=86=92</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><a href=3D"https://maps.google.com/?q=3D43.6532,-79.38=
+32" target=3D"_blank" dir=3D"auto" style=3D"color:#d80073;text-decoration:u=
+nderline;unicode-bidi:isolate;">Ver mapa =E2=86=92</a></td>
                 </tr>
                =20
               </table>

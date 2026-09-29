@@ -21,7 +21,7 @@ Content-Type: text/html; charset="utf-8"
 
 		<div dir="rtl" style="text-align: right;">
 			<h5 style="font-size: 120%; font-weight: 600; padding: 1em 2em 0 2em; margin: 0;">
-				پرداخت قسط دوم برای <span style="color: #d80073; unicode-bidi: isolate;" dir="auto">Charlie Vendor</span> انجام نشد و رد شد.<br /><br />شمارهٔ یادآوری: <span dir="ltr">(168)</span><br /><br />یادآور پرداخت دوم غرفهٔ <span style="color: #d80073; unicode-bidi: isolate;" dir="auto">Snap Booth A1</span> در جشنوارهٔ <span style="color: #d80073; unicode-bidi: isolate;" dir="auto">Snapshot Festival 2026</span> با سررسید <span dir="ltr">سه‌شنبه 14 آوریل 2026 EDT</span> است.<br /><br />توجه: مهلت فروشنده تا <span dir="ltr"></span> است.<br /><br />در صورت عدم دریافت پرداخت تا این تاریخ، رزرو به‌طور خودکار لغو می‌شود و جریمه‌ای معادل <span dir="ltr"></span> از پرداخت اول (<span dir="ltr">$250.00 CAD</span>) از فروشنده کسر می‌شود.
+				پرداخت قسط دوم برای <span style="color: #d80073; unicode-bidi: isolate;" dir="auto">Charlie Vendor</span> انجام نشد و رد شد.<br /><br />شمارهٔ یادآوری: <span dir="ltr">(NORMALIZED_REMINDER_INDEX)</span><br /><br />یادآور پرداخت دوم غرفهٔ <span style="color: #d80073; unicode-bidi: isolate;" dir="auto">Snap Booth A1</span> در جشنوارهٔ <span style="color: #d80073; unicode-bidi: isolate;" dir="auto">Snapshot Festival 2026</span> با سررسید <span dir="ltr">سه‌شنبه 14 آوریل 2026 EDT</span> است.<br /><br />توجه: مهلت فروشنده تا <span dir="ltr"></span> است.<br /><br />در صورت عدم دریافت پرداخت تا این تاریخ، رزرو به‌طور خودکار لغو می‌شود و جریمه‌ای معادل <span dir="ltr"></span> از پرداخت اول (<span dir="ltr">CA$250.00</span>) از فروشنده کسر می‌شود.
 			</h5>
 		</div>
 

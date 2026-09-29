@@ -61,20 +61,20 @@ Item id: #sale-
 
 Type: booth
 
-Price: $500.00 CAD
+Price: CA$500.00
 
 Quantity: 1
 
-Amount: $500.00 CAD
+Amount: CA$500.00
 
 Subtotal:
-$500.00 CAD
+CA$500.00
 
 Tax:
-$65.00 CAD
+CA$65.00
 
 Grand Total:
-$565.00 CAD
+CA$565.00
 
 Add to: Google Calendar =C2=B7 Apple Calendar =C2=B7 Yahoo Calendar
 
@@ -165,8 +165,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -362,14 +362,14 @@ h A1</bdi></p>
                     <p style=3D"margin:0 0 8px;font-size:14px;line-height:1=
 .5;color:#4d4c49;"><strong>Type:</strong> booth</p>
                     <p style=3D"margin:0 0 8px;font-size:14px;line-height:1=
-.5;color:#4d4c49;"><strong>Price:</strong> <span dir=3D"ltr">$500.00 CAD</s=
-pan></p>
+.5;color:#4d4c49;"><strong>Price:</strong> <span dir=3D"ltr">CA$500.00</spa=
+n></p>
                     <p style=3D"margin:0 0 8px;font-size:14px;line-height:1=
 .5;color:#4d4c49;"><strong>Quantity:</strong> <span dir=3D"ltr">1</span></p=
 >
                     <p style=3D"margin:0 0 8px;font-size:14px;line-height:1=
-.5;color:#4d4c49;"><strong>Amount:</strong> <span dir=3D"ltr">$500.00 CAD</=
-span></p>
+.5;color:#4d4c49;"><strong>Amount:</strong> <span dir=3D"ltr">CA$500.00</sp=
+an></p>
                    =20
                     <table role=3D"presentation" cellpadding=3D"0" cellspac=
 ing=3D"0" border=3D"0" style=3D"border-collapse:collapse;margin:14px auto 0=
@@ -406,7 +406,7 @@ amily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:13px;color:#=
 2b2a28;">Subtotal:</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"padding:0 =
 0 10px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size=
-:13px;color:#2b2a28;">$500.00 CAD</td>
+:13px;color:#2b2a28;">CA$500.00</td>
                       </tr>
                      =20
                      =20
@@ -416,7 +416,7 @@ amily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:13px;color:#=
 2b2a28;">Tax:</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"padding:0 =
 0 10px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size=
-:13px;color:#2b2a28;">$65.00 CAD</td>
+:13px;color:#2b2a28;">CA$65.00</td>
                       </tr>
                      =20
                     </table>
@@ -433,7 +433,7 @@ etica, 'Roboto', Tahoma, sans-serif;font-size:16px;font-weight:700;color:#2=
 b2a28;">Grand Total:</td>
                         <td align=3D"right" dir=3D"ltr" style=3D"font-famil=
 y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:16px;font-weight=
-:700;color:#2b2a28;">$565.00 CAD</td>
+:700;color:#2b2a28;">CA$565.00</td>
                       </tr>
                     </table>
                   </td>

@@ -30,9 +30,9 @@ val 2026 =D8=A8=D8=A7 =D8=B3=D8=B1=D8=B1=D8=B3=DB=8C=D8=AF NORMALIZED_DATE =D8=
 =AC=D9=88=D8=AF =DA=86=D9=86=D8=AF=DB=8C=D9=86 =D8=AA=D9=84=D8=A7=D8=B4.
 
 =D9=BE=D8=B1=D8=AF=D8=A7=D8=AE=D8=AA =D8=A7=D9=88=D9=84 =D8=A8=D9=87 =D9=85=
-=D8=A8=D9=84=D8=BA $2,000.00 CAD =D8=A8=D9=87 Charlie Vendor =D8=A8=D8=A7=
-=D8=B2=DA=AF=D8=B1=D8=AF=D8=A7=D9=86=D8=AF=D9=87 =D8=B4=D8=AF =D9=88 =D8=B1=
-=D8=B2=D8=B1=D9=88 =D9=84=D8=BA=D9=88 =D8=B4=D8=AF.
+=D8=A8=D9=84=D8=BA CA$2,000.00 =D8=A8=D9=87 Charlie Vendor =D8=A8=D8=A7=D8=
+=B2=DA=AF=D8=B1=D8=AF=D8=A7=D9=86=D8=AF=D9=87 =D8=B4=D8=AF =D9=88 =D8=B1=D8=
+=B2=D8=B1=D9=88 =D9=84=D8=BA=D9=88 =D8=B4=D8=AF.
 
 =D8=A8=D8=B1=D8=A7=DB=8C =D9=BE=D8=B4=D8=AA=DB=8C=D8=A8=D8=A7=D9=86=DB=8C =
 =D8=A8=D8=A7 =D8=B4=D9=85=D8=A7=D8=B1=D9=87 1 (855) 552-1522 =D8=AA=D9=85=
@@ -48,21 +48,21 @@ val 2026 =D8=A8=D8=A7 =D8=B3=D8=B1=D8=B1=D8=B3=DB=8C=D8=AF NORMALIZED_DATE =D8=
 Gold Sponsor Package
 
 =D9=85=D8=A8=D9=84=D8=BA =D8=AC=D8=B1=DB=8C=D9=85=D9=87
-$0.00 CAD
+CA$0.00
 
 =D9=87=D8=B2=DB=8C=D9=86=D9=87 =D8=A8=D8=A7=D8=B2=D9=BE=D8=B1=D8=AF=D8=A7=
 =D8=AE=D8=AA=E2=80=8C=D8=B4=D8=AF=D9=87
-$0.00 CAD
+CA$0.00
 
 =D9=85=D8=A7=D9=84=DB=8C=D8=A7=D8=AA =D8=A8=D8=A7=D8=B2=D9=BE=D8=B1=D8=AF=
 =D8=A7=D8=AE=D8=AA=E2=80=8C=D8=B4=D8=AF=D9=87
-$0.00 CAD
+CA$0.00
 
 =DA=A9=D8=A7=D8=B1=D9=85=D8=B2=D8=AF =D8=A8=D8=A7=D9=86=DA=A9=DB=8C
-- $0.00 CAD
+- CA$0.00
 
 =D8=AC=D9=85=D8=B9 =D8=A8=D8=A7=D8=B2=D9=BE=D8=B1=D8=AF=D8=A7=D8=AE=D8=AA
-$0.00 CAD
+CA$0.00
 
 This message was sent to organizer-fa@snapshot.invalid.
 
@@ -152,8 +152,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -219,13 +219,13 @@ r=3D"ltr">NORMALIZED_DATE</span> =D8=A7=D9=86=D8=AC=D8=A7=D9=85 =D9=86=D8=B4=D8=
 =AF=D8=8C =D8=A8=D8=A7 =D9=88=D8=AC=D9=88=D8=AF =DA=86=D9=86=D8=AF=DB=8C=D9=
 =86 =D8=AA=D9=84=D8=A7=D8=B4.<br /><br />=D9=BE=D8=B1=D8=AF=D8=A7=D8=AE=D8=
 =AA =D8=A7=D9=88=D9=84 =D8=A8=D9=87 =D9=85=D8=A8=D9=84=D8=BA <span dir=3D"l=
-tr">$2,000.00 CAD</span> =D8=A8=D9=87 <span dir=3D"auto" style=3D"unicode-b=
-idi: isolate;">Charlie Vendor</span> =D8=A8=D8=A7=D8=B2=DA=AF=D8=B1=D8=AF=
-=D8=A7=D9=86=D8=AF=D9=87 =D8=B4=D8=AF =D9=88 =D8=B1=D8=B2=D8=B1=D9=88 =D9=
-=84=D8=BA=D9=88 =D8=B4=D8=AF.<br /><br />=D8=A8=D8=B1=D8=A7=DB=8C =D9=BE=D8=
-=B4=D8=AA=DB=8C=D8=A8=D8=A7=D9=86=DB=8C =D8=A8=D8=A7 =D8=B4=D9=85=D8=A7=D8=
-=B1=D9=87 <span dir=3D"ltr">1 (855) 552-1522</span> =D8=AA=D9=85=D8=A7=D8=
-=B3 =D8=A8=DA=AF=DB=8C=D8=B1=DB=8C=D8=AF.
+tr">CA$2,000.00</span> =D8=A8=D9=87 <span dir=3D"auto" style=3D"unicode-bid=
+i: isolate;">Charlie Vendor</span> =D8=A8=D8=A7=D8=B2=DA=AF=D8=B1=D8=AF=D8=
+=A7=D9=86=D8=AF=D9=87 =D8=B4=D8=AF =D9=88 =D8=B1=D8=B2=D8=B1=D9=88 =D9=84=
+=D8=BA=D9=88 =D8=B4=D8=AF.<br /><br />=D8=A8=D8=B1=D8=A7=DB=8C =D9=BE=D8=B4=
+=D8=AA=DB=8C=D8=A8=D8=A7=D9=86=DB=8C =D8=A8=D8=A7 =D8=B4=D9=85=D8=A7=D8=B1=
+=D9=87 <span dir=3D"ltr">1 (855) 552-1522</span> =D8=AA=D9=85=D8=A7=D8=B3 =
+=D8=A8=DA=AF=DB=8C=D8=B1=DB=8C=D8=AF.
             </td>
           </tr>
           <tr>
@@ -260,7 +260,7 @@ Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:7=
 9;">=D9=85=D8=A8=D9=84=D8=BA =D8=AC=D8=B1=DB=8C=D9=85=D9=87</td>
                   <td align=3D"left" dir=3D"ltr" style=3D"padding:6px 14px;=
 font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;f=
-ont-weight:700;color:#2b2a28;">$0.00 CAD</td>
+ont-weight:700;color:#2b2a28;">CA$0.00</td>
                 </tr>
                 <tr>
                   <td align=3D"right" style=3D"padding:6px 14px;font-family=
@@ -269,7 +269,7 @@ ont-weight:700;color:#2b2a28;">$0.00 CAD</td>
 =A7=D8=AE=D8=AA=E2=80=8C=D8=B4=D8=AF=D9=87</td>
                   <td align=3D"left" dir=3D"ltr" style=3D"padding:6px 14px;=
 font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;f=
-ont-weight:700;color:#2b2a28;">$0.00 CAD</td>
+ont-weight:700;color:#2b2a28;">CA$0.00</td>
                 </tr>
                 <tr>
                   <td align=3D"right" style=3D"padding:6px 14px;font-family=
@@ -278,7 +278,7 @@ ont-weight:700;color:#2b2a28;">$0.00 CAD</td>
 =AF=D8=A7=D8=AE=D8=AA=E2=80=8C=D8=B4=D8=AF=D9=87</td>
                   <td align=3D"left" dir=3D"ltr" style=3D"padding:6px 14px;=
 font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;f=
-ont-weight:700;color:#2b2a28;">$0.00 CAD</td>
+ont-weight:700;color:#2b2a28;">CA$0.00</td>
                 </tr>
                 <tr>
                   <td align=3D"right" style=3D"padding:6px 14px;font-family=
@@ -287,7 +287,7 @@ ont-weight:700;color:#2b2a28;">$0.00 CAD</td>
 >
                   <td align=3D"left" dir=3D"ltr" style=3D"padding:6px 14px;=
 font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;f=
-ont-weight:700;color:#2b2a28;">- $0.00 CAD</td>
+ont-weight:700;color:#2b2a28;">- CA$0.00</td>
                 </tr>
                 <tr>
                   <td align=3D"right" style=3D"padding:6px 14px;font-family=
@@ -296,7 +296,7 @@ ont-weight:700;color:#2b2a28;">- $0.00 CAD</td>
 =AA</td>
                   <td align=3D"left" dir=3D"ltr" style=3D"padding:6px 14px;=
 font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;f=
-ont-weight:700;color:#2b2a28;">$0.00 CAD</td>
+ont-weight:700;color:#2b2a28;">CA$0.00</td>
                 </tr>
               </table>
             </td>

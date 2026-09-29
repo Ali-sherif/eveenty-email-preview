@@ -22,7 +22,7 @@ Bonjour Charlie Vendor,
 
 nous esp=C3=A9rons que vous allez bien.
 
-Num=C3=A9ro de rappel : (168)
+Num=C3=A9ro de rappel : (NORMALIZED_REMINDER_INDEX)
 
 Ce rappel concerne la deuxi=C3=A8me =C3=A9ch=C3=A9ance pour votre stand Sna=
 p Booth A1 au festival Snapshot Festival 2026. Malheureusement, nous n'avon=
@@ -34,9 +34,9 @@ vation de stand.
 
 Important : si le paiement n'est pas re=C3=A7u =C3=A0 la date indiqu=C3=A9e=
 , votre r=C3=A9servation sera automatiquement annul=C3=A9e et une p=C3=A9na=
-lit=C3=A9 de sera pr=C3=A9lev=C3=A9e sur votre premier paiement ($250.00 CA=
-D), conform=C3=A9ment aux conditions g=C3=A9n=C3=A9rales accept=C3=A9es lor=
-s du premier paiement.
+lit=C3=A9 de sera pr=C3=A9lev=C3=A9e sur votre premier paiement (CA$250.00)=
+, conform=C3=A9ment aux conditions g=C3=A9n=C3=A9rales accept=C3=A9es lors =
+du premier paiement.
 
 Pour mettre =C3=A0 jour votre moyen de paiement, suivez ce lien et ajoutez =
 une nouvelle carte bancaire qui deviendra votre carte par d=C3=A9faut pour =
@@ -137,8 +137,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -193,7 +193,7 @@ oma, sans-serif;font-size:16px;line-height:1.65;color:#4d4c49;overflow-wrap=
 :anywhere;">
               Bonjour <span dir=3D"auto" style=3D"unicode-bidi: isolate;">C=
 harlie Vendor</span>,<br /><br />nous esp=C3=A9rons que vous allez bien.<br=
- /><br />Num=C3=A9ro de rappel : <span dir=3D"ltr">(168)</span><br /><br />=
+ /><br />Num=C3=A9ro de rappel : <span dir=3D"ltr">(NORMALIZED_REMINDER_INDEX)</span><br /><br />=
 Ce rappel concerne la deuxi=C3=A8me =C3=A9ch=C3=A9ance pour votre stand <sp=
 an style=3D"color: #d80073; unicode-bidi: isolate;" dir=3D"auto">Snap Booth=
  A1</span> au festival <span style=3D"color: #d80073; unicode-bidi: isolate=
@@ -206,12 +206,12 @@ span> pour =C3=A9viter l'annulation de votre r=C3=A9servation de stand.<br =
 est pas re=C3=A7u =C3=A0 la date indiqu=C3=A9e, votre r=C3=A9servation sera=
  automatiquement annul=C3=A9e et une p=C3=A9nalit=C3=A9 de <span dir=3D"ltr=
 "></span> sera pr=C3=A9lev=C3=A9e sur votre premier paiement (<span dir=3D"=
-ltr">$250.00 CAD</span>), conform=C3=A9ment aux conditions g=C3=A9n=C3=A9ra=
-les accept=C3=A9es lors du premier paiement.<br /><br />Pour mettre =C3=A0 =
-jour votre moyen de paiement, suivez <a style=3D"text-decoration: none; col=
-or: #d80073" href=3D"https://eveenty.com/user-profile">ce lien</a> et ajout=
-ez une nouvelle carte bancaire qui deviendra votre carte par d=C3=A9faut po=
-ur les pr=C3=A9l=C3=A8vements.<br /><br />Nous vous remercions pour votre r=
+ltr">CA$250.00</span>), conform=C3=A9ment aux conditions g=C3=A9n=C3=A9rale=
+s accept=C3=A9es lors du premier paiement.<br /><br />Pour mettre =C3=A0 jo=
+ur votre moyen de paiement, suivez <a style=3D"text-decoration: none; color=
+: #d80073" href=3D"https://eveenty.com/user-profile">ce lien</a> et ajoutez=
+ une nouvelle carte bancaire qui deviendra votre carte par d=C3=A9faut pour=
+ les pr=C3=A9l=C3=A8vements.<br /><br />Nous vous remercions pour votre r=
 =C3=A9activit=C3=A9 et esp=C3=A9rons vous retrouver lors de nos prochains =
 =C3=A9v=C3=A9nements.<br /><br />Pour toute question, appelez-nous au <a hr=
 ef=3D"tel:+18555521522" style=3D"text-decoration: none; color: #d80073"><sp=

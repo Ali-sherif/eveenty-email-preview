@@ -21,7 +21,7 @@ Rappel du deuxi=C3=A8me paiement
 Le pr=C3=A9l=C3=A8vement du deuxi=C3=A8me versement du sponsor Charlie Vend=
 or n'a pas abouti et a =C3=A9t=C3=A9 refus=C3=A9.
 
-Num=C3=A9ro de rappel : (168)
+Num=C3=A9ro de rappel : (NORMALIZED_REMINDER_INDEX)
 
 Ce rappel concerne le deuxi=C3=A8me paiement du Forfait sponsor (Gold Spons=
 or Package) pour le festival Snapshot Festival 2026, d=C3=BB le mar. 14 avr=
@@ -119,8 +119,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -176,7 +176,7 @@ oma, sans-serif;font-size:16px;line-height:1.65;color:#4d4c49;overflow-wrap=
               Le pr=C3=A9l=C3=A8vement du deuxi=C3=A8me versement du sponso=
 r <span dir=3D"auto" style=3D"unicode-bidi: isolate;">Charlie Vendor</span>=
  n'a pas abouti et a =C3=A9t=C3=A9 refus=C3=A9.<br /><br />Num=C3=A9ro de r=
-appel : <span dir=3D"ltr">(168)</span><br /><br />Ce rappel concerne le deu=
+appel : <span dir=3D"ltr">(NORMALIZED_REMINDER_INDEX)</span><br /><br />Ce rappel concerne le deu=
 xi=C3=A8me paiement du <span dir=3D"auto" style=3D"unicode-bidi: isolate;">=
 Forfait sponsor</span> (<span dir=3D"auto" style=3D"unicode-bidi: isolate;"=
 >Gold Sponsor Package</span>) pour le festival <span dir=3D"auto" style=3D"=

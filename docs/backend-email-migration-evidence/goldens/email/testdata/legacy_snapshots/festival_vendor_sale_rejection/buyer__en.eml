@@ -247,9 +247,9 @@ Content-Type: text/html; charset="utf-8"
                     <td align="center" valign="middle" bgcolor="#ffffff" style="padding: 10px 6px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #474746; background-color: #ffffff;" dir="ltr">#prod</td>
                     <td align="center" valign="middle" bgcolor="#ffffff" style="padding: 10px 6px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #474746; background-color: #ffffff;"><span dir="auto" style="unicode-bidi: isolate;">Snap Burger</span></td>
                     <td align="center" valign="middle" bgcolor="#ffffff" style="padding: 10px 6px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #474746; background-color: #ffffff;"><span dir="auto" style="unicode-bidi: isolate;">product</span></td>
-                    <td align="center" valign="middle" bgcolor="#ffffff" style="padding: 10px 6px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #474746; background-color: #ffffff;" dir="ltr">$2.00 CAD</td>
+                    <td align="center" valign="middle" bgcolor="#ffffff" style="padding: 10px 6px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #474746; background-color: #ffffff;" dir="ltr">CA$2.00</td>
                     <td align="center" valign="middle" bgcolor="#ffffff" style="padding: 10px 6px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #474746; background-color: #ffffff;" dir="ltr">2</td>
-                    <td align="center" valign="middle" bgcolor="#ffffff" style="padding: 10px 6px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #474746; background-color: #ffffff;" dir="ltr">$4.00 CAD</td>
+                    <td align="center" valign="middle" bgcolor="#ffffff" style="padding: 10px 6px; border: 1px solid #dddddd; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #474746; background-color: #ffffff;" dir="ltr">CA$4.00</td>
                   </tr>
                   
                 </table>
@@ -265,17 +265,17 @@ Content-Type: text/html; charset="utf-8"
                       <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse;">
                         <tr>
                           <td align="left" valign="top" style="padding: 0 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; color: #474746;">Subtotal:</td>
-                          <td align="right" valign="top" style="padding: 0 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; color: #474746; white-space: nowrap;" dir="ltr">$8.00 CAD</td>
+                          <td align="right" valign="top" style="padding: 0 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; color: #474746; white-space: nowrap;" dir="ltr">CA$8.00</td>
                         </tr>
                         
                         <tr>
                           <td align="left" valign="top" style="padding: 0 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; color: #474746;">Processing fees:</td>
-                          <td align="right" valign="top" style="padding: 0 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; color: #474746; white-space: nowrap;" dir="ltr">$0.00 CAD</td>
+                          <td align="right" valign="top" style="padding: 0 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; color: #474746; white-space: nowrap;" dir="ltr">CA$0.00</td>
                         </tr>
                         
                         <tr>
                           <td align="left" valign="top" style="padding: 0 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; color: #474746;">Tax:</td>
-                          <td align="right" valign="top" style="padding: 0 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; color: #474746; white-space: nowrap;" dir="ltr">$1.04 CAD</td>
+                          <td align="right" valign="top" style="padding: 0 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; color: #474746; white-space: nowrap;" dir="ltr">CA$1.04</td>
                         </tr>
                         
                       </table>
@@ -286,7 +286,7 @@ Content-Type: text/html; charset="utf-8"
                       <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse;">
                         <tr>
                           <td align="left" valign="middle" style="font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 24px; font-weight: bold; color: #474746;">Grand Total:</td>
-                          <td align="right" valign="middle" style="font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 24px; font-weight: bold; color: #474746; white-space: nowrap;" dir="ltr">$9.04 CAD</td>
+                          <td align="right" valign="middle" style="font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 24px; font-weight: bold; color: #474746; white-space: nowrap;" dir="ltr">CA$9.04</td>
                         </tr>
                       </table>
                     </td>

@@ -46,17 +46,17 @@ NORMALIZED_DATE=C2=A0=C2=A008:00 EDT
 
 =D8=A7=D9=84=D9=85=D8=AC=D9=85=D9=88=D8=B9 =D8=A7=D9=84=D9=81=D8=B1=D8=B9=
 =D9=8A:
-$50.00 CAD
+CA$50.00
 
 =D8=B1=D8=B3=D9=88=D9=85 =D8=A7=D9=84=D9=85=D8=B9=D8=A7=D9=84=D8=AC=D8=A9:
-$0.00 CAD
+CA$0.00
 
 =D8=A7=D9=84=D8=B6=D8=B1=D9=8A=D8=A8=D8=A9:
-$6.50 CAD
+CA$6.50
 
 =D8=A7=D9=84=D8=A5=D8=AC=D9=85=D8=A7=D9=84=D9=8A =D8=A7=D9=84=D9=83=D9=84=
 =D9=8A:
-$56.50 CAD
+CA$56.50
 
 =D8=AA=D9=85 =D8=A5=D8=B1=D8=B3=D8=A7=D9=84 =D9=87=D8=B0=D9=87 =D8=A7=D9=84=
 =D8=B1=D8=B3=D8=A7=D9=84=D8=A9 =D8=A5=D9=84=D9=89 buyer-ar@snapshot.invalid=
@@ -151,8 +151,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -207,57 +207,59 @@ round-color:#ffffff;">
               <table role=3D"presentation" width=3D"100%" cellpadding=3D"0"=
  cellspacing=3D"0" border=3D"0">
                 <tr>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;"=
->=D8=A7=D8=B3=D9=85 =D8=A7=D9=84=D8=B9=D9=85=D9=8A=D9=84:</td>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;=
-color:#2b2a28;"><bdi>Alice Snapshot</bdi></td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c=
+49;">=D8=A7=D8=B3=D9=85 =D8=A7=D9=84=D8=B9=D9=85=D9=8A=D9=84:</td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:=
+700;color:#2b2a28;"><bdi>Alice Snapshot</bdi></td>
                 </tr>
                 <tr>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;"=
->=D8=B9=D9=86=D9=88=D8=A7=D9=86 =D8=A7=D9=84=D8=B9=D9=85=D9=8A=D9=84:</td>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;=
-color:#2b2a28;"><bdi>Not Provided</bdi></td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c=
+49;">=D8=B9=D9=86=D9=88=D8=A7=D9=86 =D8=A7=D9=84=D8=B9=D9=85=D9=8A=D9=84:</=
+td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:=
+700;color:#2b2a28;"><bdi>Not Provided</bdi></td>
                 </tr>
                 <tr>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;"=
->=D9=87=D8=A7=D8=AA=D9=81 =D8=A7=D9=84=D8=B9=D9=85=D9=8A=D9=84:</td>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;=
-color:#2b2a28;"><span dir=3D"ltr" style=3D"unicode-bidi:embed;">+1555000100=
-1</span></td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c=
+49;">=D9=87=D8=A7=D8=AA=D9=81 =D8=A7=D9=84=D8=B9=D9=85=D9=8A=D9=84:</td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:=
+700;color:#2b2a28;"><span dir=3D"ltr" style=3D"unicode-bidi:embed;">+155500=
+01001</span></td>
                 </tr>
                 <tr>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;"=
->=D8=A7=D9=84=D8=A8=D8=B1=D9=8A=D8=AF =D8=A7=D9=84=D8=A5=D9=84=D9=83=D8=AA=
-=D8=B1=D9=88=D9=86=D9=8A =D9=84=D9=84=D8=B9=D9=85=D9=8A=D9=84:</td>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;=
-color:#2b2a28;"><a href=3D"mailto:buyer-ar@snapshot.invalid" dir=3D"ltr" st=
-yle=3D"color:#4d4c49;text-decoration:none;unicode-bidi:embed;font-weight:70=
-0;">buyer-ar@snapshot.invalid</a></td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c=
+49;">=D8=A7=D9=84=D8=A8=D8=B1=D9=8A=D8=AF =D8=A7=D9=84=D8=A5=D9=84=D9=83=D8=
+=AA=D8=B1=D9=88=D9=86=D9=8A =D9=84=D9=84=D8=B9=D9=85=D9=8A=D9=84:</td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:=
+700;color:#2b2a28;"><a href=3D"mailto:buyer-ar@snapshot.invalid" dir=3D"ltr=
+" style=3D"color:#4d4c49;text-decoration:none;unicode-bidi:embed;font-weigh=
+t:700;">buyer-ar@snapshot.invalid</a></td>
                 </tr>
                 <tr>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;"=
->=D8=B1=D9=82=D9=85 =D8=A7=D9=84=D9=81=D8=A7=D8=AA=D9=88=D8=B1=D8=A9:</td>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;=
-color:#2b2a28;">#donat</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c=
+49;">=D8=B1=D9=82=D9=85 =D8=A7=D9=84=D9=81=D8=A7=D8=AA=D9=88=D8=B1=D8=A9:</=
+td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:=
+700;color:#2b2a28;">#donat</td>
                 </tr>
                 <tr>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;"=
->=D8=A7=D9=84=D8=AA=D8=A7=D8=B1=D9=8A=D8=AE:</td>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;=
-color:#2b2a28;"><span dir=3D"ltr" style=3D"unicode-bidi:embed;">NORMALIZED_DATE&=
-nbsp;&nbsp;08:00 EDT</span></td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c=
+49;">=D8=A7=D9=84=D8=AA=D8=A7=D8=B1=D9=8A=D8=AE:</td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:=
+700;color:#2b2a28;"><span dir=3D"ltr" style=3D"unicode-bidi:embed;">2026-03=
+-15&nbsp;&nbsp;08:00 EDT</span></td>
                 </tr>
               </table>
             </td>
@@ -279,7 +281,7 @@ t-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font=
 =A7=D9=84=D9=81=D8=B1=D8=B9=D9=8A:</td>
                         <td align=3D"left" style=3D"padding:0 0 12px 0;font=
 -family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-=
-weight:500;color:#2b2a28;" dir=3D"ltr">$50.00 CAD</td>
+weight:500;color:#2b2a28;" dir=3D"ltr">CA$50.00</td>
                       </tr>
                      =20
                       <tr>
@@ -289,7 +291,7 @@ t-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font=
 =B9=D8=A7=D9=84=D8=AC=D8=A9:</td>
                         <td align=3D"left" style=3D"padding:0 0 12px 0;font=
 -family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-=
-weight:500;color:#2b2a28;" dir=3D"ltr">$0.00 CAD</td>
+weight:500;color:#2b2a28;" dir=3D"ltr">CA$0.00</td>
                       </tr>
                      =20
                       <tr>
@@ -299,7 +301,7 @@ t-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font=
 >
                         <td align=3D"left" style=3D"padding:0 0 12px 0;font=
 -family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-=
-weight:500;color:#2b2a28;" dir=3D"ltr">$6.50 CAD</td>
+weight:500;color:#2b2a28;" dir=3D"ltr">CA$6.50</td>
                       </tr>
                      =20
                     </table>
@@ -317,7 +319,7 @@ vetica, 'Roboto', Tahoma, sans-serif;font-size:16px;font-weight:700;color:#=
 =83=D9=84=D9=8A:</td>
                         <td align=3D"left" style=3D"font-family:Arial, Helv=
 etica, 'Roboto', Tahoma, sans-serif;font-size:16px;font-weight:700;color:#2=
-b2a28;" dir=3D"ltr">$56.50 CAD</td>
+b2a28;" dir=3D"ltr">CA$56.50</td>
                       </tr>
                     </table>
                   </td>

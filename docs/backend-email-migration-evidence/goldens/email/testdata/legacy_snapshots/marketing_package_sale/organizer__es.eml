@@ -96,7 +96,7 @@ Content-Type: text/html; charset="utf-8"
                 <td style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: 'Roboto', sans-serif;font-weight: 500;font-size: 18px;"><span dir="auto" style="unicode-bidi: isolate;"></span></td>
                 <td style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: 'Roboto', sans-serif;font-weight: 500;font-size: 18px;"><span dir="auto" style="unicode-bidi: isolate;">-106751 días</span></td>
                 <td style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: 'Roboto', sans-serif;font-weight: 500;font-size: 18px;" dir="ltr">NORMALIZED_DATE</td>
-                <td style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: 'Roboto', sans-serif;font-weight: 500;font-size: 18px;" dir="ltr">$150.00 CAD</td>
+                <td style="border: 1px solid #00000028;padding: 10px;background: #ffffff;text-align: center;border-collapse: collapse;font-family: 'Roboto', sans-serif;font-weight: 500;font-size: 18px;" dir="ltr">CA$150.00</td>
               </tr>
             
           </tbody>
@@ -108,19 +108,19 @@ Content-Type: text/html; charset="utf-8"
           <ul style="margin: 0;padding: 0;list-style: none;display: table;width: 100%;">
             <li style="display: table;margin-bottom: 1rem;width: 100%;">
               <p style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;color: #474746;font-size: 20px;font-weight: 500;">Subtotal:</p>
-              <p style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: right;color: #474746;font-size: 18px;font-weight: 500;" dir="ltr">$150.00 CAD</p>
+              <p style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: right;color: #474746;font-size: 18px;font-weight: 500;" dir="ltr">CA$150.00</p>
             </li>
 
             <li style="display: table;margin-bottom: 1rem;width: 100%;">
               <p style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;color: #474746;font-size: 20px;font-weight: 500;">Impuesto:</p>
-              <p style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: right;color: #474746;font-size: 18px;font-weight: 500;" dir="ltr">$19.50 CAD</p>
+              <p style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: right;color: #474746;font-size: 18px;font-weight: 500;" dir="ltr">CA$19.50</p>
             </li>
           </ul>
         </div>
         <div style="height: auto;width: 100%;padding-bottom: 1rem;background: #f3e165 0% 0% no-repeat padding-box;border-radius: 0px 0px 8px 8px;padding-top: 1rem;">
           <div style="text-align: center;margin: auto;width: 90%;display: table;" dir="ltr">
             <p style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: left;font-size: 23px;font-weight: bold;color: #474746;">Total general:</p>
-            <p style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: right;color: #474746;font-weight: bold;font-size: 20px;" dir="ltr">$169.50 CAD</p>
+            <p style="padding: 0;margin: 0;align-items: center;font-family: 'Roboto', sans-serif;float: right;color: #474746;font-weight: bold;font-size: 20px;" dir="ltr">CA$169.50</p>
           </div>
         </div>
       </div>

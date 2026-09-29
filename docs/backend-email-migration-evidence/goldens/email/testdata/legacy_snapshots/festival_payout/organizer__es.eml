@@ -44,7 +44,7 @@ Content-Type: text/html; charset="utf-8"
       </p>
 
       <p style="color: #333333; font-size: 16px; line-height: 1.8; text-align: left; margin: 20px 0;">
-        A payout for the amount of <span style="font-weight: bold;">$2,500.00 CAD</span style="font-weight: bold;"> for the period of <span style="font-weight: bold;">Sun. Mar 08, 2026 at NORMALIZED_TIME</span> 
+        A payout for the amount of <span style="font-weight: bold;">CA$2,500.00</span style="font-weight: bold;"> for the period of <span style="font-weight: bold;">Sun. Mar 08, 2026 at NORMALIZED_TIME</span> 
         to <span style="font-weight: bold;">Sun. Mar 15, 2026 at NORMALIZED_TIME</span> for the festival <span style="font-weight: bold;">Snapshot Festival 2026</span> has been processed. 
         For more details, <a href="https://organizer.eveenty.com/transfer-users/festival-fixed-001?from=NORMALIZED_DATET12:00:00Z&to=NORMALIZED_DATET12:00:00Z" style="color: #d80073; text-decoration: none;">click here</a>.
       </p>

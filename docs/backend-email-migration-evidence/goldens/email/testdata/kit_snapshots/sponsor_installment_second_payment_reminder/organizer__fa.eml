@@ -25,7 +25,7 @@ Eveenty
 =86=D8=B4=D8=AF =D9=88 =D8=B1=D8=AF =D8=B4=D8=AF.
 
 =D8=B4=D9=85=D8=A7=D8=B1=D9=87=D9=94 =DB=8C=D8=A7=D8=AF=D8=A2=D9=88=D8=B1=
-=DB=8C: (168)
+=DB=8C: (NORMALIZED_REMINDER_INDEX)
 
 =D8=A7=DB=8C=D9=86 =DB=8C=D8=A7=D8=AF=D8=A2=D9=88=D8=B1 =D9=85=D8=B1=D8=A8=
 =D9=88=D8=B7 =D8=A8=D9=87 =D9=BE=D8=B1=D8=AF=D8=A7=D8=AE=D8=AA =D8=AF=D9=88=
@@ -135,8 +135,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -195,7 +195,7 @@ p:anywhere;">
 e-bidi: isolate;">Charlie Vendor</span> =D8=A7=D9=86=D8=AC=D8=A7=D9=85 =D9=
 =86=D8=B4=D8=AF =D9=88 =D8=B1=D8=AF =D8=B4=D8=AF.<br /><br />=D8=B4=D9=85=
 =D8=A7=D8=B1=D9=87=D9=94 =DB=8C=D8=A7=D8=AF=D8=A2=D9=88=D8=B1=DB=8C: <span =
-dir=3D"ltr">(168)</span><br /><br />=D8=A7=DB=8C=D9=86 =DB=8C=D8=A7=D8=AF=
+dir=3D"ltr">(NORMALIZED_REMINDER_INDEX)</span><br /><br />=D8=A7=DB=8C=D9=86 =DB=8C=D8=A7=D8=AF=
 =D8=A2=D9=88=D8=B1 =D9=85=D8=B1=D8=A8=D9=88=D8=B7 =D8=A8=D9=87 =D9=BE=D8=B1=
 =D8=AF=D8=A7=D8=AE=D8=AA =D8=AF=D9=88=D9=85 <span dir=3D"auto" style=3D"uni=
 code-bidi: isolate;">=D8=A8=D8=B3=D8=AA=D9=87 =D8=AD=D8=A7=D9=85=DB=8C</spa=

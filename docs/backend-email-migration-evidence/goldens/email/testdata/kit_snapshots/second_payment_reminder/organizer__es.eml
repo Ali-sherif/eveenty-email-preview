@@ -21,7 +21,7 @@ Recordatorio del segundo pago
 El cobro del segundo plazo de Charlie Vendor no se complet=C3=B3 y fue rech=
 azado.
 
-N=C3=BAmero de recordatorio: (168)
+N=C3=BAmero de recordatorio: (NORMALIZED_REMINDER_INDEX)
 
 Recordatorio del segundo pago del stand Snap Booth A1 del festival Snapshot=
  Festival 2026, con vencimiento el mar. 14 abr. 2026 EDT.
@@ -30,7 +30,7 @@ Tenga en cuenta que el vendedor dispone hasta el .
 
 Si no recibimos el pago en esa fecha, la reserva se cancelar=C3=A1 autom=C3=
 =A1ticamente y al vendedor se le aplicar=C3=A1 una penalizaci=C3=B3n de sob=
-re el pago inicial ($250.00 CAD).
+re el pago inicial (CA$250.00).
 
 This message was sent to organizer-es@snapshot.invalid.
 
@@ -119,8 +119,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -176,7 +176,7 @@ oma, sans-serif;font-size:16px;line-height:1.65;color:#4d4c49;overflow-wrap=
               El cobro del segundo plazo de <span style=3D"color: #d80073; =
 unicode-bidi: isolate;" dir=3D"auto">Charlie Vendor</span> no se complet=C3=
 =B3 y fue rechazado.<br /><br />N=C3=BAmero de recordatorio: <span dir=3D"l=
-tr">(168)</span><br /><br />Recordatorio del segundo pago del stand <span s=
+tr">(NORMALIZED_REMINDER_INDEX)</span><br /><br />Recordatorio del segundo pago del stand <span s=
 tyle=3D"color: #d80073; unicode-bidi: isolate;" dir=3D"auto">Snap Booth A1<=
 /span> del festival <span style=3D"color: #d80073; unicode-bidi: isolate;" =
 dir=3D"auto">Snapshot Festival 2026</span>, con vencimiento el <span dir=3D=
@@ -184,7 +184,7 @@ dir=3D"auto">Snapshot Festival 2026</span>, con vencimiento el <span dir=3D=
 dor dispone hasta el <span dir=3D"ltr"></span>.<br /><br />Si no recibimos =
 el pago en esa fecha, la reserva se cancelar=C3=A1 autom=C3=A1ticamente y a=
 l vendedor se le aplicar=C3=A1 una penalizaci=C3=B3n de <span dir=3D"ltr"><=
-/span> sobre el pago inicial (<span dir=3D"ltr">$250.00 CAD</span>).
+/span> sobre el pago inicial (<span dir=3D"ltr">CA$250.00</span>).
             </td>
           </tr>
          =20

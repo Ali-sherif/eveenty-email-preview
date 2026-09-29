@@ -21,14 +21,14 @@ Second payment reminder
 The Charlie Vendor charge for the second installment did not go through and=
  was declined.
 
-This is reminder number (168) for the second payment of booth Snap Booth A1=
+This is reminder number (NORMALIZED_REMINDER_INDEX) for the second payment of booth Snap Booth A1=
  for the Snapshot Festival 2026 festival, due on Tue Apr 14, 2026 EDT.
 
 Please note that the vendor has until .
 
 If payment is not received by this date, the booking will be automatically =
 cancelled and the vendor will be charged a penalty of from the initial paym=
-ent ($250.00 CAD).
+ent (CA$250.00).
 
 This message was sent to organizer@snapshot.invalid.
 
@@ -117,8 +117,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -174,15 +174,15 @@ oma, sans-serif;font-size:16px;line-height:1.65;color:#4d4c49;overflow-wrap=
               The <span style=3D"color: #d80073; unicode-bidi: isolate;" di=
 r=3D"auto">Charlie Vendor</span> charge for the second installment did not =
 go through and was declined.<br /><br />This is reminder number <span dir=
-=3D"ltr">(168)</span> for the second payment of booth <span style=3D"color:=
+=3D"ltr">(NORMALIZED_REMINDER_INDEX)</span> for the second payment of booth <span style=3D"color:=
  #d80073; unicode-bidi: isolate;" dir=3D"auto">Snap Booth A1</span> for the=
  <span style=3D"color: #d80073; unicode-bidi: isolate;" dir=3D"auto">Snapsh=
 ot Festival 2026</span> festival, due on <span dir=3D"ltr">Tue Apr 14, 2026=
  EDT</span>.<br /><br />Please note that the vendor has until <span dir=3D"=
 ltr"></span>.<br /><br />If payment is not received by this date, the booki=
 ng will be automatically cancelled and the vendor will be charged a penalty=
- of <span dir=3D"ltr"></span> from the initial payment (<span dir=3D"ltr">$=
-250.00 CAD</span>).
+ of <span dir=3D"ltr"></span> from the initial payment (<span dir=3D"ltr">C=
+A$250.00</span>).
             </td>
           </tr>
          =20

@@ -27,19 +27,19 @@ Number of SMS
 300
 
 Cost/SMS
-$0.00 CAD
+CA$0.00
 
 Total Cost
-$150.00 CAD
+CA$150.00
 
 Total Tax
-$0.00 CAD
+CA$0.00
 
 Bank Fees
-$0.00 CAD
+CA$0.00
 
 TOTAL
-$150.00 CAD
+CA$150.00
 
 Make sure to stay connected with us in social media to ensure you are up to=
  date with our discounts, specials, contests, events & promotions
@@ -136,8 +136,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -222,7 +222,7 @@ sans-serif;font-size:13px;font-weight:600;color:#4d4c49;">Cost/SMS</td>
                         <td align=3D"left" style=3D"padding:10px 12px;borde=
 r-bottom:1px solid #ebebeb;font-family:Arial, Helvetica, 'Roboto', Tahoma, =
 sans-serif;font-size:14px;font-weight:500;color:#2b2a28;"><span dir=3D"ltr"=
->$0.00 CAD</span></td>
+>CA$0.00</span></td>
                       </tr>
                       <tr>
                         <td align=3D"left" style=3D"padding:10px 12px;borde=
@@ -231,7 +231,7 @@ sans-serif;font-size:13px;font-weight:600;color:#4d4c49;">Total Cost</td>
                         <td align=3D"left" style=3D"padding:10px 12px;borde=
 r-bottom:1px solid #ebebeb;font-family:Arial, Helvetica, 'Roboto', Tahoma, =
 sans-serif;font-size:14px;font-weight:500;color:#2b2a28;"><span dir=3D"ltr"=
->$150.00 CAD</span></td>
+>CA$150.00</span></td>
                       </tr>
                       <tr>
                         <td align=3D"left" style=3D"padding:10px 12px;borde=
@@ -240,7 +240,7 @@ sans-serif;font-size:13px;font-weight:600;color:#4d4c49;">Total Tax</td>
                         <td align=3D"left" style=3D"padding:10px 12px;borde=
 r-bottom:1px solid #ebebeb;font-family:Arial, Helvetica, 'Roboto', Tahoma, =
 sans-serif;font-size:14px;font-weight:500;color:#2b2a28;"><span dir=3D"ltr"=
->$0.00 CAD</span></td>
+>CA$0.00</span></td>
                       </tr>
                       <tr>
                         <td align=3D"left" style=3D"padding:10px 12px;borde=
@@ -249,7 +249,7 @@ sans-serif;font-size:13px;font-weight:600;color:#4d4c49;">Bank Fees</td>
                         <td align=3D"left" style=3D"padding:10px 12px;borde=
 r-bottom:1px solid #ebebeb;font-family:Arial, Helvetica, 'Roboto', Tahoma, =
 sans-serif;font-size:14px;font-weight:500;color:#2b2a28;"><span dir=3D"ltr"=
->$0.00 CAD</span></td>
+>CA$0.00</span></td>
                       </tr>
                       <tr>
                         <td align=3D"left" style=3D"padding:10px 12px;borde=
@@ -258,7 +258,7 @@ sans-serif;font-size:13px;font-weight:600;color:#4d4c49;">TOTAL</td>
                         <td align=3D"left" style=3D"padding:10px 12px;borde=
 r-bottom:1px solid #ebebeb;font-family:Arial, Helvetica, 'Roboto', Tahoma, =
 sans-serif;font-size:14px;font-weight:500;color:#2b2a28;"><span dir=3D"ltr"=
->$150.00 CAD</span></td>
+>CA$150.00</span></td>
                       </tr>
                     </table>
                   </td>

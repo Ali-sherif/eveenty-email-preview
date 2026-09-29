@@ -190,19 +190,19 @@ Content-Type: text/html; charset="utf-8"
           <ul class="list-details-content" style="margin: 0;padding: 0;list-style: none;display: table;width: 100%;">
             <li class="list-details" style="display: table;margin-bottom: 1rem;width: 100%;">
               <p class="detials-name" style="padding: 0;margin: 0;align-items: center;font-family: sans-serif;float: right;color: #474746;font-size: 20px;font-weight: 500;">المجموع الفرعي:</p>
-              <p class="detials-value" style="padding: 0;margin: 0;align-items: center;font-family: sans-serif;float: left;color: #474746;font-size: 18px;font-weight: 500;">$50.00 CAD</p>
+              <p class="detials-value" style="padding: 0;margin: 0;align-items: center;font-family: sans-serif;float: left;color: #474746;font-size: 18px;font-weight: 500;">CA$50.00</p>
             </li>
 
             
               <li class="list-details" style="display: table;margin-bottom: 1rem;width: 100%;">
                 <p class="detials-name" style="padding: 0;margin: 0;align-items: center;font-family: sans-serif;float: right;color: #474746;font-size: 20px;font-weight: 500;">رسوم المعالجة:</p>
-                <p class="detials-value" style="padding: 0;margin: 0;align-items: center;font-family: sans-serif;float: left;color: #474746;font-size: 18px;font-weight: 500;">$0.00 CAD</p>
+                <p class="detials-value" style="padding: 0;margin: 0;align-items: center;font-family: sans-serif;float: left;color: #474746;font-size: 18px;font-weight: 500;">CA$0.00</p>
               </li>
             
 
             <li class="list-details" style="display: table;margin-bottom: 1rem;width: 100%;">
               <p class="detials-name" style="padding: 0;margin: 0;align-items: center;font-family: sans-serif;float: right;color: #474746;font-size: 20px;font-weight: 500;">الضريبة:</p>
-              <p class="detials-value" style="padding: 0;margin: 0;align-items: center;font-family: sans-serif;float: left;color: #474746;font-size: 18px;font-weight: 500;">$6.50 CAD</p>
+              <p class="detials-value" style="padding: 0;margin: 0;align-items: center;font-family: sans-serif;float: left;color: #474746;font-size: 18px;font-weight: 500;">CA$6.50</p>
             </li>
 
             
@@ -212,7 +212,7 @@ Content-Type: text/html; charset="utf-8"
         <div class="total" style="height: auto;width: 100%;padding-bottom: 1rem;background: #f3e165 0% 0% no-repeat padding-box;border-radius: 0px 0px 8px 8px;padding-top: 1rem;">
           <div class="total-content" style="text-align: center;margin: auto;width: 90%;display: table;">
             <p class="total-name" style="padding: 0;margin: 0;align-items: center;font-family: sans-serif;float: right;font-size: 23px;font-weight: bold;color: #474746;">الإجمالي الكلي:</p>
-            <p class="total-value" style="padding: 0;margin: 0;align-items: center;font-family: sans-serif;float: left;color: #474746;font-weight: bold;font-size: 20px;">$56.50 CAD</p>
+            <p class="total-value" style="padding: 0;margin: 0;align-items: center;font-family: sans-serif;float: left;color: #474746;font-weight: bold;font-size: 20px;">CA$56.50</p>
           </div>
         </div>
       </div>

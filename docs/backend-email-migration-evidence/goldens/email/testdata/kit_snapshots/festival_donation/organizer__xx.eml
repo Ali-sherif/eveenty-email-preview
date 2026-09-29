@@ -37,13 +37,13 @@ Date:
 NORMALIZED_DATE=C2=A0=C2=A0NORMALIZED_TIME
 
 Subtotal:
-$50.00 CAD
+CA$50.00
 
 Tax:
-$6.50 CAD
+CA$6.50
 
 Grand Total:
-$56.50 CAD
+CA$56.50
 
 This message was sent to organizer-xx@snapshot.invalid.
 
@@ -134,8 +134,8 @@ rtant; width: 100% !important; }
       .wallet-google-condensed { display: block !important; }
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !imp=
 ortant; }
-      .outer-pad { padding-left: 16px !important; padding-right: 16px !important;=
- }
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !impo=
+rtant; }
     }
   </style>
 
@@ -183,56 +183,56 @@ round-color:#ffffff;">
               <table role=3D"presentation" width=3D"100%" cellpadding=3D"0"=
  cellspacing=3D"0" border=3D"0">
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Client Name:</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><bdi>Alice Snapshot</bdi></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Client Name:</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><bdi>Alice Snapshot</bdi></td>
                 </tr>
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Client Address:</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><bdi>Not Provided</bdi></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Client Address:</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><bdi>Not Provided</bdi></td>
                 </tr>
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Client Phone:</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><span dir=3D"ltr" style=3D"unicode-bidi:embed;">+155500010=
-01</span></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Client Phone:</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><span dir=3D"ltr" style=3D"unicode-bidi:embed;">+15550=
+001001</span></td>
                 </tr>
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Client Email:</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><a href=3D"mailto:buyer@snapshot.invalid" dir=3D"ltr" styl=
-e=3D"color:#4d4c49;text-decoration:none;unicode-bidi:embed;font-weight:700;=
-">buyer@snapshot.invalid</a></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Client Email:</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><a href=3D"mailto:buyer@snapshot.invalid" dir=3D"ltr" =
+style=3D"color:#4d4c49;text-decoration:none;unicode-bidi:embed;font-weight:=
+700;">buyer@snapshot.invalid</a></td>
                 </tr>
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Invoice ID:</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;">#donat</td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Invoice ID:</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;">#donat</td>
                 </tr>
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Date:</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><span dir=3D"ltr" style=3D"unicode-bidi:embed;">NORMALIZED_DATE=
-&nbsp;&nbsp;NORMALIZED_TIME</span></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Date:</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><span dir=3D"ltr" style=3D"unicode-bidi:embed;">2026-0=
+3-15&nbsp;&nbsp;NORMALIZED_TIME</span></td>
                 </tr>
               </table>
             </td>
@@ -253,7 +253,7 @@ ing=3D"0" border=3D"0" width=3D"100%">
 weight:500;color:#2b2a28;">Subtotal:</td>
                         <td align=3D"right" style=3D"padding:0 0 12px 0;fon=
 t-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font=
--weight:500;color:#2b2a28;" dir=3D"ltr">$50.00 CAD</td>
+-weight:500;color:#2b2a28;" dir=3D"ltr">CA$50.00</td>
                       </tr>
                      =20
                       <tr>
@@ -262,7 +262,7 @@ t-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font=
 weight:500;color:#2b2a28;">Tax:</td>
                         <td align=3D"right" style=3D"padding:0 0 12px 0;fon=
 t-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font=
--weight:500;color:#2b2a28;" dir=3D"ltr">$6.50 CAD</td>
+-weight:500;color:#2b2a28;" dir=3D"ltr">CA$6.50</td>
                       </tr>
                      =20
                     </table>
@@ -279,7 +279,7 @@ etica, 'Roboto', Tahoma, sans-serif;font-size:16px;font-weight:700;color:#2=
 b2a28;">Grand Total:</td>
                         <td align=3D"right" style=3D"font-family:Arial, Hel=
 vetica, 'Roboto', Tahoma, sans-serif;font-size:16px;font-weight:700;color:#=
-2b2a28;" dir=3D"ltr">$56.50 CAD</td>
+2b2a28;" dir=3D"ltr">CA$56.50</td>
                       </tr>
                     </table>
                   </td>
