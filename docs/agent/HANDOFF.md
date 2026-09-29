@@ -2,7 +2,33 @@
 
 
 
-## Latest session — festival_end_of_day_report currency cleanup (2026-09-30)
+## Latest session — Kit-50 mobile outer horizontal padding (2026-09-30)
+
+
+
+**MOBILE OUTER PAD GUTTER — PASS (shared shell).**
+
+
+
+- Root cause: shared `@media (max-width: 620px)` set `.outer-pad { padding-left/right: 0 }` (historical Wallet full-bleed). Card flushed to viewport edges on all Kit/Preview emails.
+
+- Fix: restore **16px** side gutter on mobile. Inline shell already had `padding:40px 16px`; media query no longer zeros it.
+
+- Preview: `shared/email-kit.js` + regenerated all **50** `emails/*.html` via `node generate-standalone.mjs`.
+
+- Kit production: `email/templates/kit/partials/kit_head_styles.template` (shared by all 50 Kit templates).
+
+- Evidence goldens: 278 `kit_snapshots/**/*.eml` + 12 migration baseline HTMLs patched for the CSS line only.
+
+- Wallet: Condensed Google max display ~186×48; at 320px with 16px gutters card ≈288px — still fits (owner Condensed-only).
+
+- Affected: **all 50** current Kit/Preview templates (shared shell — not per-template body markup).
+
+- No subject/recipient/link/data-mapping changes. No commit / push / deploy.
+
+
+
+## Prior session — festival_end_of_day_report currency cleanup (2026-09-30)
 
 
 

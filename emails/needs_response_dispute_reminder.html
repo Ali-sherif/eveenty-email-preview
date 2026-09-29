@@ -47,32 +47,12 @@
       .wallet-btn { display: block !important; width: 100% !important; max-width: 100% !important; margin: 0 0 16px 0 !important; text-align: center !important; padding-left: 0 !important; padding-right: 0 !important; font-size: 0 !important; line-height: 0 !important; }
       .wallet-btn:last-child { margin-bottom: 0 !important; }
       .wallet-row, .wallet-row tbody, .wallet-row tr { display: block !important; width: 100% !important; }
-      /* Never fluid-shrink below 48px — swap to official condensed Google asset instead.
-         Hide/show the *link wrappers* so empty anchors cannot skew stack spacing. */
-      .wallet-google-primary-link {
-        display: none !important;
-        mso-hide: all !important;
-        max-height: 0 !important;
-        overflow: hidden !important;
-        width: 0 !important;
-        height: 0 !important;
-      }
-      .wallet-google-condensed-link {
-        display: inline-block !important;
-        max-height: none !important;
-        overflow: visible !important;
-        width: auto !important;
-        height: auto !important;
-      }
-      .wallet-google-primary {
-        display: none !important;
-      }
-      .wallet-google-condensed {
-        display: block !important;
-      }
+      /* Google Condensed only (owner 2026-09-27) — no Primary↔Condensed media-query swap.
+         Badge height stays pinned at 48px via img.wallet-badge-img. */
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !important; }
-      /* Flush outer pad on small screens so wallet can use full viewport width. */
-      .outer-pad { padding-left: 0 !important; padding-right: 0 !important; }
+      /* Keep 16px viewport gutter on mobile so the card does not flush to edges/scrollbar.
+         Wallet Condensed badges still fit inside the inset card (owner Condensed-only 2026-09-27). */
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !important; }
     }
   </style>
 </head>
@@ -126,13 +106,13 @@
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
             
     <tr>
-      <td align="left" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Evidence Due By</td>
-      <td align="right" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><span dir="ltr">Oct 5, 2026 · 5:00 PM America/Toronto</span></td>
+      <td align="left" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Evidence Due By</td>
+      <td align="right" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><span dir="ltr">Oct 5, 2026 · 5:00 PM America/Toronto</span></td>
     </tr>
             
     <tr>
-      <td align="left" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Time Remaining</td>
-      <td align="right" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><strong>2 days remaining</strong></td>
+      <td align="left" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Time Remaining</td>
+      <td align="right" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><strong>2 days remaining</strong></td>
     </tr>
           </table>
           <p style="margin:12px 0 0;font-family:'Roboto', Arial, Helvetica, Tahoma, sans-serif;font-size:14px;line-height:1.55;font-weight:600;color:#92400e;">Please take action as soon as possible to avoid losing this dispute by default.</p>

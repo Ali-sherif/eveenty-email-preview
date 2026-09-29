@@ -50,8 +50,9 @@
       /* Google Condensed only (owner 2026-09-27) — no Primary↔Condensed media-query swap.
          Badge height stays pinned at 48px via img.wallet-badge-img. */
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !important; }
-      /* Flush outer pad on small screens so wallet can use full viewport width. */
-      .outer-pad { padding-left: 0 !important; padding-right: 0 !important; }
+      /* Keep 16px viewport gutter on mobile so the card does not flush to edges/scrollbar.
+         Wallet Condensed badges still fit inside the inset card (owner Condensed-only 2026-09-27). */
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !important; }
     }
   </style>
 </head>

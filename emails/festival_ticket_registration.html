@@ -47,32 +47,12 @@
       .wallet-btn { display: block !important; width: 100% !important; max-width: 100% !important; margin: 0 0 16px 0 !important; text-align: center !important; padding-left: 0 !important; padding-right: 0 !important; font-size: 0 !important; line-height: 0 !important; }
       .wallet-btn:last-child { margin-bottom: 0 !important; }
       .wallet-row, .wallet-row tbody, .wallet-row tr { display: block !important; width: 100% !important; }
-      /* Never fluid-shrink below 48px — swap to official condensed Google asset instead.
-         Hide/show the *link wrappers* so empty anchors cannot skew stack spacing. */
-      .wallet-google-primary-link {
-        display: none !important;
-        mso-hide: all !important;
-        max-height: 0 !important;
-        overflow: hidden !important;
-        width: 0 !important;
-        height: 0 !important;
-      }
-      .wallet-google-condensed-link {
-        display: inline-block !important;
-        max-height: none !important;
-        overflow: visible !important;
-        width: auto !important;
-        height: auto !important;
-      }
-      .wallet-google-primary {
-        display: none !important;
-      }
-      .wallet-google-condensed {
-        display: block !important;
-      }
+      /* Google Condensed only (owner 2026-09-27) — no Primary↔Condensed media-query swap.
+         Badge height stays pinned at 48px via img.wallet-badge-img. */
       .cta-yellow { padding-left: 24px !important; padding-right: 24px !important; }
-      /* Flush outer pad on small screens so wallet can use full viewport width. */
-      .outer-pad { padding-left: 0 !important; padding-right: 0 !important; }
+      /* Keep 16px viewport gutter on mobile so the card does not flush to edges/scrollbar.
+         Wallet Condensed badges still fit inside the inset card (owner Condensed-only 2026-09-27). */
+      .outer-pad { padding-left: 16px !important; padding-right: 16px !important; }
     }
   </style>
 </head>
@@ -100,23 +80,23 @@
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;border-collapse:collapse;border:1px solid #ebebeb;border-radius:8px;">
     
     <tr>
-      <td align="left" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">🎫 Event</td>
-      <td align="right" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><bdi>Summer Music Festival 2026</bdi></td>
+      <td align="left" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">🎫 Event</td>
+      <td align="right" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><bdi>Summer Music Festival 2026</bdi></td>
     </tr>
     
     <tr>
-      <td align="left" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Registration ID</td>
-      <td align="right" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><span dir="ltr">REG-77821</span></td>
+      <td align="left" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Registration ID</td>
+      <td align="right" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><span dir="ltr">REG-77821</span></td>
     </tr>
     
     <tr>
-      <td align="left" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Registration Date &amp; Time</td>
-      <td align="right" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><span dir="auto">Sep 18, 2026 · 3:45 PM</span></td>
+      <td align="left" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Registration Date &amp; Time</td>
+      <td align="right" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><span dir="auto">Sep 18, 2026 · 3:45 PM</span></td>
     </tr>
     
     <tr>
-      <td align="left" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Current Status</td>
-      <td align="right" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><strong><bdi>Pending review</bdi></strong></td>
+      <td align="left" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Current Status</td>
+      <td align="right" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><strong><bdi>Pending review</bdi></strong></td>
     </tr>
     
     </table>
@@ -126,13 +106,13 @@
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;border-collapse:collapse;border:1px solid #ebebeb;border-radius:8px;">
         
     <tr>
-      <td align="left" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Name</td>
-      <td align="right" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><bdi>Alex User</bdi></td>
+      <td align="left" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Name</td>
+      <td align="right" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><bdi>Alex User</bdi></td>
     </tr>
         
     <tr>
-      <td align="left" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Email</td>
-      <td align="right" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><a href="mailto:alex.user@example.com" dir="ltr" style="color:#d80073;text-decoration:none;unicode-bidi:embed;">alex.user@example.com</a></td>
+      <td align="left" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Email</td>
+      <td align="right" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><a href="mailto:alex.user@example.com" dir="ltr" style="color:#d80073;text-decoration:none;unicode-bidi:embed;">alex.user@example.com</a></td>
     </tr>
         
       </table>
@@ -144,18 +124,18 @@
       <tr><td colspan="2" align="left" style="padding:13px 16px;background-color:#fefdf4;border-bottom:2px solid #d80073;font-family:'Roboto', Arial, Helvetica, Tahoma, sans-serif;font-size:15px;font-weight:700;line-height:1.4;color:#d80073;">Ticket 1 of 1</td></tr>
       
     <tr>
-      <td align="left" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Ticket Type</td>
-      <td align="right" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><bdi>General Admission</bdi></td>
+      <td align="left" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Ticket Type</td>
+      <td align="right" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><bdi>General Admission</bdi></td>
     </tr>
       
     <tr>
-      <td align="left" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Ticket Holder</td>
-      <td align="right" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><bdi>Alex User</bdi></td>
+      <td align="left" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Ticket Holder</td>
+      <td align="right" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><bdi>Alex User</bdi></td>
     </tr>
       
     <tr>
-      <td align="left" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Email</td>
-      <td align="right" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><a href="mailto:alex.user@example.com" dir="ltr" style="color:#d80073;text-decoration:none;unicode-bidi:embed;">alex.user@example.com</a></td>
+      <td align="left" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Email</td>
+      <td align="right" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><a href="mailto:alex.user@example.com" dir="ltr" style="color:#d80073;text-decoration:none;unicode-bidi:embed;">alex.user@example.com</a></td>
     </tr>
       
       
@@ -167,25 +147,25 @@
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;border-collapse:collapse;border:1px solid #ebebeb;border-radius:8px;">
     
     <tr>
-      <td align="left" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Event Start Date</td>
-      <td align="right" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><span dir="auto">Sat, Oct 10, 2026 · 7:00 PM</span></td>
+      <td align="left" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Event Start Date</td>
+      <td align="right" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><span dir="auto">Sat, Oct 10, 2026 · 7:00 PM</span></td>
     </tr>
     
     
     
     <tr>
-      <td align="left" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Venue</td>
-      <td align="right" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><bdi>Harbourfront Centre</bdi></td>
+      <td align="left" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Venue</td>
+      <td align="right" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><bdi>Harbourfront Centre</bdi></td>
     </tr>
     
     <tr>
-      <td align="left" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Location</td>
-      <td align="right" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><bdi>235 Queens Quay W, Toronto, ON</bdi></td>
+      <td align="left" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">Location</td>
+      <td align="right" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><bdi>235 Queens Quay W, Toronto, ON</bdi></td>
     </tr>
     
     <tr>
-      <td align="left" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">View Map →</td>
-      <td align="right" style="padding:6px 0;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><a href="https://maps.example.com/preview-harbourfront" target="_blank" dir="auto" style="color:#d80073;text-decoration:underline;unicode-bidi:isolate;">View Map →</a></td>
+      <td align="left" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">View Map →</td>
+      <td align="right" style="padding:10px 16px;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700;color:#2b2a28;"><a href="https://maps.example.com/preview-harbourfront" target="_blank" dir="auto" style="color:#d80073;text-decoration:underline;unicode-bidi:isolate;">View Map →</a></td>
     </tr></table>
       
     </td></tr>

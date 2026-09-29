@@ -441,3 +441,13 @@ Agent skills/rules/docs were updated only where stale or contradictory; no new s
 - Preview: `emails/festival_ticket_registration_reject.html` row cells `padding:6px 0` → `padding:10px 16px`. Shared `kvRow` in `shared/email-kit.js` updated to the same padding so regenerating reject keeps the inset.
 - Kit: `kit_registration_details_reject` in `email/templates/kit/partials/kit_registration_details.template` updated to match. Other registration layouts (`kit_registration_details` table style) still use `padding:6px 0` until separately requested.
 - No subject/recipient/link/data-mapping changes. No commit/push/deploy.
+
+---
+
+**[2026-09-30 — Kit-50 mobile outer horizontal padding (owner-requested)]**
+
+- Owner reported mobile cards/content flush to screen edges / scrollbar with zero breathing room across the current 50 Kit/Preview emails.
+- Verified root cause in shared shell CSS (not per-template bodies): `@media only screen and (max-width: 620px) { .outer-pad { padding-left: 0 !important; padding-right: 0 !important; } }` — intentional for older Wallet Primary full-bleed; superseded by Condensed-only Wallet policy.
+- Fix: `.outer-pad` mobile sides → **16px** (matches desktop inline `padding:40px 16px`). Updated `shared/email-kit.js`, regenerated 50 `emails/*.html`, and `rescounts-backend` `kit_head_styles.template`. Patched 278 kit snapshot goldens + 12 baseline HTMLs for the CSS line.
+- Wallet Condensed badges (max ~186px @48px) still fit inside a 320px viewport with 16px gutters. Level B Gmail/Outlook/Apple Mail **NOT RUN**.
+- No commit/push/deploy.
