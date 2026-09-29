@@ -56,7 +56,7 @@ func TestKitLegacyParity(t *testing.T) {
 
 			// CTA / wallet / calendar / unsubscribe links from the decoded HTML.
 			// cid: links are not required: passes are MIME attachments.
-			assertLegacyLinksPresent(t, name, string(extractHTMLBody(legacyNorm)), string(extractHTMLBody(kitNorm)))
+			assertLegacyLinksPresent(t, tc.templateID, tc.persona, tc.locale, name, string(extractHTMLBody(legacyNorm)), string(extractHTMLBody(kitNorm)))
 		})
 	}
 }
@@ -184,15 +184,79 @@ func attachmentParts(t *testing.T, msg *mail.Message) []mimePart {
 	return atts
 }
 
-func assertLegacyLinksPresent(t *testing.T, name, legacyBody, kitBody string) {
+// approvedLegacyRemovals lists only owner-approved visual omissions. Every entry
+// is exact by template, persona, locale, and legacy URL; it is not a domain or
+// template-wide bypass. Evidence: VISUAL_FIX_FINAL_SEVEN.md and
+// VISUAL_FIX_FIVE_REGISTRATION.md (2026-09-29).
+var approvedLegacyRemovals = []approvedLegacyRemoval{
+	{templateID: "partner_coupons", persona: "user", locale: "en", url: "https://play.google.com/store/apps/details?id=com.rescounts.app&hl=en&gl=US"},
+	{templateID: "partner_coupons", persona: "user", locale: "en", url: "https://apps.apple.com/ca/app/rescounts-restaurant-discounts/id1437921394"},
+	{templateID: "partner_coupons_partner", persona: "partner", locale: "en", url: "https://play.google.com/store/apps/details?id=com.rescounts.app&hl=en&gl=US"},
+	{templateID: "partner_coupons_partner", persona: "partner", locale: "en", url: "https://apps.apple.com/ca/app/rescounts-restaurant-discounts/id1437921394"},
+	{templateID: "book_demo_admin", persona: "admin", locale: "en", url: "https://wa.me/+16479366343"},
+	{templateID: "extra_service_request", persona: "admin", locale: "en", url: "https://wa.me/+16479366343"},
+	{templateID: "festival_ticket_registration_reject", persona: "user", locale: "en", url: "https://maps.google.com/?q=43.6532,-79.3832"},
+	{templateID: "festival_ticket_registration_reject", persona: "admin", locale: "en", url: "https://maps.google.com/?q=43.6532,-79.3832"},
+	{templateID: "festival_ticket_registration_reject", persona: "organizer", locale: "en", url: "https://maps.google.com/?q=43.6532,-79.3832"},
+	{templateID: "festival_ticket_registration_reject", persona: "user", locale: "ar", url: "https://maps.google.com/?q=43.6532,-79.3832"},
+	{templateID: "festival_ticket_registration_reject", persona: "user", locale: "fr", url: "https://maps.google.com/?q=43.6532,-79.3832"},
+	{templateID: "festival_ticket_registration_reject", persona: "user", locale: "es", url: "https://maps.google.com/?q=43.6532,-79.3832"},
+	{templateID: "festival_ticket_registration_reject", persona: "user", locale: "fa", url: "https://maps.google.com/?q=43.6532,-79.3832"},
+	{templateID: "festival_ticket_registration_reject", persona: "user", locale: "xx", url: "https://maps.google.com/?q=43.6532,-79.3832"},
+}
+
+type approvedLegacyRemoval struct {
+	templateID string
+	persona    string
+	locale     string
+	url        string
+}
+
+func assertLegacyLinksPresent(t *testing.T, templateID, persona, locale, name, legacyBody, kitBody string) {
 	t.Helper()
+	missing := missingLegacyLinks(templateID, persona, locale, legacyBody, kitBody)
+	require.Empty(t, missing, "kit body missing legacy links for %s", name)
+}
+
+func missingLegacyLinks(templateID, persona, locale, legacyBody, kitBody string) []string {
 	var missing []string
 	for _, link := range extractInterestingLinks(legacyBody) {
-		if !strings.Contains(kitBody, link) {
+		if !strings.Contains(kitBody, link) && !isApprovedLegacyRemoval(templateID, persona, locale, link) {
 			missing = append(missing, link)
 		}
 	}
-	require.Empty(t, missing, "kit body missing legacy links for %s", name)
+	return missing
+}
+
+func isApprovedLegacyRemoval(templateID, persona, locale, link string) bool {
+	for _, removal := range approvedLegacyRemovals {
+		if removal.templateID == templateID && removal.persona == persona && removal.locale == locale && removal.url == link {
+			return true
+		}
+	}
+	return false
+}
+
+func TestApprovedLegacyRemovalAllowlist(t *testing.T) {
+	const storeURL = "https://play.google.com/store/apps/details?id=com.rescounts.app&hl=en&gl=US"
+	const mapURL = "https://maps.google.com/?q=43.6532,-79.3832"
+	legacyStore := `<a href="` + storeURL + `">store</a>`
+	legacyMap := `<a href="` + mapURL + `">map</a>`
+
+	t.Run("explicit approved removal is allowed", func(t *testing.T) {
+		require.Empty(t, missingLegacyLinks("partner_coupons", "user", "en", legacyStore, ""))
+	})
+	t.Run("unapproved missing link remains a failure", func(t *testing.T) {
+		const requiredURL = "https://required.example/action"
+		require.Equal(t, []string{requiredURL}, missingLegacyLinks("partner_coupons", "user", "en", `<a href="`+requiredURL+`">action</a>`, ""))
+	})
+	t.Run("exception does not cross templates", func(t *testing.T) {
+		require.Equal(t, []string{storeURL}, missingLegacyLinks("book_demo_admin", "admin", "en", legacyStore, ""))
+	})
+	t.Run("exception is locale scoped", func(t *testing.T) {
+		require.Empty(t, missingLegacyLinks("festival_ticket_registration_reject", "user", "ar", legacyMap, ""))
+		require.Equal(t, []string{mapURL}, missingLegacyLinks("festival_ticket_registration_reject", "user", "de", legacyMap, ""))
+	})
 }
 
 // extractInterestingLinks pulls href/src values that are CTAs, wallet, cid,

@@ -18,34 +18,28 @@ Eveenty
 
 Content moderation alert
 
-We have rejected the requested updates in festival (Snapshot Festival 2026)=
- submitted by (Alice Snapshot) because our moderation system found it might=
- be a bad content.
-
 Potentially inappropriate content detected
 
 Automated moderation blocked an attempted content change. Review the reques=
 t details below.
 
-Submitter Name
+Requested at
+NORMALIZED_LONG_DATE at NORMALIZED_TIME
+
+Festival
+Snapshot Festival 2026
+
+User
 Alice Snapshot
 
-Submitter Email
+User email
 buyer@snapshot.invalid
-
-Requested At
-NORMALIZED_LONG_DATE at NORMALIZED_TIME
 
 Action
 REJECT
 
-The response returned to the organizer
-
+Response
 Content violates guidelines
-
-The requested Data:
-
-This data may be helpful for developers
 
 {
 "reason": "spam"
@@ -174,13 +168,9 @@ x;color:#4d4c49;">Eveenty</p><![endif]-->
             <td class=3D"stack-pad" style=3D"padding:24px 30px 12px;backgro=
 und-color:#ffffff;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-seri=
 f;">
-              <p style=3D"margin:0 0 12px 0;font-size:18px;font-weight:700;=
-color:#2b2a28;border-left:4px solid #d80073;padding-left:12px;line-height:1=
-.3;">Content moderation alert</p>
-              <p style=3D"margin:0;font-size:16px;line-height:1.65;color:#4=
-d4c49;">We have rejected the requested updates in festival (<bdi>Snapshot F=
-estival 2026</bdi>) submitted by (<bdi>Alice Snapshot</bdi>) because our mo=
-deration system found it might be a bad content.</p>
+              <p style=3D"margin:0;font-size:18px;font-weight:700;color:#2b=
+2a28;border-left:4px solid #d80073;padding-left:12px;line-height:1.3;">Cont=
+ent moderation alert</p>
             </td>
           </tr>
           <tr>
@@ -207,70 +197,81 @@ ent change. Review the request details below.</p>
             <td class=3D"stack-pad" style=3D"padding:0 30px 16px;background=
 -color:#ffffff;">
               <table role=3D"presentation" width=3D"100%" cellpadding=3D"0"=
- cellspacing=3D"0" border=3D"0" style=3D"border-collapse:collapse;backgroun=
-d-color:#f9f9f9;border:1px solid #ebebeb;border-radius:8px;">
+ cellspacing=3D"0" border=3D"0" style=3D"width:100%;border-collapse:collaps=
+e;background-color:#ffffff;border:1px solid #ebebeb;border-radius:16px;">
                 <tr>
-                  <td align=3D"left" style=3D"padding:8px 16px;font-family:=
-Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49=
-;">Submitter Name</td>
-                  <td align=3D"right" style=3D"padding:8px 16px;font-family=
-:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:=
-700;color:#2b2a28;"><bdi>Alice Snapshot</bdi></td>
-                </tr>
-                <tr>
-                  <td align=3D"left" style=3D"padding:8px 16px;font-family:=
-Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49=
-;">Submitter Email</td>
-                  <td align=3D"right" style=3D"padding:8px 16px;font-family=
-:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:=
-700;color:#2b2a28;"><a href=3D"mailto:buyer@snapshot.invalid" dir=3D"ltr" s=
-tyle=3D"color:#2b2a28;text-decoration:none;">buyer@snapshot.invalid</a></td=
->
-                </tr>
-                <tr>
-                  <td align=3D"left" style=3D"padding:8px 16px;font-family:=
-Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49=
-;">Requested At</td>
-                  <td align=3D"right" style=3D"padding:8px 16px;font-family=
-:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:=
-700;color:#2b2a28;">NORMALIZED_LONG_DATE at NORMALIZED_TIME</td>
-                </tr>
-                <tr>
-                  <td align=3D"left" style=3D"padding:8px 16px;font-family:=
-Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49=
-;">Action</td>
-                  <td align=3D"right" style=3D"padding:8px 16px;font-family=
-:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:=
-700;color:#2b2a28;">REJECT</td>
+                  <td style=3D"padding:20px;">
+                    <table role=3D"presentation" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-collapse:collapse;">
+                      <tr>
+                        <td style=3D"padding:7px 10px 7px 0;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1.45=
+;color:#4d4c49;font-weight:600;vertical-align:top;">Requested at</td>
+                        <td dir=3D"auto" style=3D"padding:7px 0;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:=
+1.45;color:#4d4c49;text-align:right;word-break:break-word;">Tuesday. Septem=
+ber 29, 2026 at NORMALIZED_TIME</td>
+                      </tr>
+                      <tr>
+                        <td style=3D"padding:7px 10px 7px 0;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1.45=
+;color:#4d4c49;font-weight:600;vertical-align:top;">Festival</td>
+                        <td dir=3D"auto" style=3D"padding:7px 0;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:=
+1.45;color:#4d4c49;text-align:right;word-break:break-word;"><bdi>Snapshot F=
+estival 2026</bdi></td>
+                      </tr>
+                      <tr>
+                        <td style=3D"padding:7px 10px 7px 0;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1.45=
+;color:#4d4c49;font-weight:600;vertical-align:top;">User</td>
+                        <td dir=3D"auto" style=3D"padding:7px 0;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:=
+1.45;color:#4d4c49;text-align:right;word-break:break-word;"><bdi>Alice Snap=
+shot</bdi></td>
+                      </tr>
+                      <tr>
+                        <td style=3D"padding:7px 10px 7px 0;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1.45=
+;color:#4d4c49;font-weight:600;vertical-align:top;">User email</td>
+                        <td dir=3D"ltr" style=3D"padding:7px 0;font-family:=
+Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1=
+.45;color:#4d4c49;text-align:right;word-break:break-word;"><a href=3D"mailt=
+o:buyer@snapshot.invalid" dir=3D"ltr" style=3D"color:#4d4c49;text-decoratio=
+n:none;">buyer@snapshot.invalid</a></td>
+                      </tr>
+                      <tr>
+                        <td style=3D"padding:7px 10px 7px 0;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1.45=
+;color:#4d4c49;font-weight:600;vertical-align:top;">Action</td>
+                        <td dir=3D"auto" style=3D"padding:7px 0;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:=
+1.45;color:#4d4c49;text-align:right;word-break:break-word;">REJECT</td>
+                      </tr>
+                      <tr>
+                        <td style=3D"padding:7px 10px 7px 0;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1.45=
+;color:#4d4c49;font-weight:600;vertical-align:top;">Response</td>
+                        <td dir=3D"auto" style=3D"padding:7px 0;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:=
+1.45;color:#4d4c49;text-align:right;word-break:break-word;">Content violate=
+s guidelines</td>
+                      </tr>
+                    </table>
+                  </td>
                 </tr>
               </table>
             </td>
           </tr>
           <tr>
-            <td class=3D"stack-pad" style=3D"padding:0 30px 12px;background=
--color:#ffffff;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;"=
->
-              <p style=3D"margin:0 0 8px;font-size:18px;font-weight:600;col=
-or:#2b2a28;">The response returned to the organizer</p>
-              <p style=3D"margin:0;color:#991b1b;font-size:16px;font-style:=
-italic;">Content violates guidelines</p>
-            </td>
-          </tr>
-          <tr>
-            <td class=3D"stack-pad" style=3D"padding:0 30px 24px;background=
+            <td class=3D"stack-pad" style=3D"padding:0 30px 16px;background=
 -color:#ffffff;">
-              <p style=3D"margin:0 0 8px;font-family:Arial, Helvetica, sans=
--serif;font-size:18px;font-weight:600;color:#2b2a28;">The requested Data:</=
-p>
-              <p style=3D"margin:0 0 12px;font-family:Arial, Helvetica, 'Ro=
-boto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">This data may be h=
-elpful for developers</p>
               <table role=3D"presentation" width=3D"100%" cellpadding=3D"0"=
- cellspacing=3D"0" border=3D"0" style=3D"background-color:#f9f9f9;border:1p=
-x solid #ebebeb;border-radius:8px;">
+ cellspacing=3D"0" border=3D"0" style=3D"width:100%;border-collapse:collaps=
+e;background-color:#f8f8f8;border:1px solid #ebebeb;border-radius:16px;">
                 <tr>
-                  <td style=3D"padding:16px;font-family:Consolas, 'Courier =
-New', Courier, monospace;font-size:13px;line-height:1.45;color:#4d4c49;whit=
+                  <td style=3D"padding:20px;font-family:Consolas, 'Courier =
+New', Courier, monospace;font-size:13px;line-height:1.55;color:#4d4c49;whit=
 e-space:pre-wrap;word-break:break-word;">{
   "reason": "spam"
 }</td>

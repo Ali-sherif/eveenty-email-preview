@@ -17,12 +17,12 @@ d=C3=A9pass=C3=A9
 
 Eveenty
 
-Le d=C3=A9lai de paiement de cette inscription est d=C3=A9pass=C3=A9 sans q=
-u'un paiement ait =C3=A9t=C3=A9 effectu=C3=A9.
+Annul=C3=A9
 
-Le d=C3=A9lai de paiement pour votre inscription =C3=A0 l'=C3=A9v=C3=A9neme=
-nt Snapshot Festival 2026 est d=C3=A9pass=C3=A9. Votre inscription a =C3=A9=
-t=C3=A9 annul=C3=A9e.
+Le d=C3=A9lai de paiement de cette inscription est d=C3=A9pass=C3=A9 sans q=
+u'un paiement ait =C3=A9t=C3=A9 effectu=C3=A9. Le d=C3=A9lai de paiement po=
+ur votre inscription =C3=A0 l'=C3=A9v=C3=A9nement Snapshot Festival 2026 es=
+t d=C3=A9pass=C3=A9. Votre inscription a =C3=A9t=C3=A9 annul=C3=A9e.
 
 Voici le r=C3=A9sum=C3=A9 de cette inscription.
 
@@ -54,26 +54,28 @@ buyer-fr@snapshot.invalid
 T=C3=A9l=C3=A9phone
 +15550001001
 
-=F0=9F=8E=9F=EF=B8=8F Billets inscrits (1)
+=F0=9F=8E=9F=EF=B8=8F Billets inscrits (NORMALIZED_REMINDER_INDEX)
 
 Les d=C3=A9tails de chaque billet de cette inscription sont list=C3=A9s ci-=
 dessous.
 
-1 / 1
+Billet 1 sur 1
 
-Type de billet: General Admission
+Type de billet
+General Admission
 
-Titulaire du billet: Alice Snapshot
+Titulaire du billet
+Alice Snapshot
 
-E-mail: buyer@snapshot.invalid
+E-mail
+buyer@snapshot.invalid
 
-T=C3=A9l=C3=A9phone: +15550001001
+T=C3=A9l=C3=A9phone
++15550001001
 
 =F0=9F=93=8D D=C3=A9tails de l'=C3=A9v=C3=A9nement
 
 Quand et o=C3=B9 se d=C3=A9roule l'=C3=A9v=C3=A9nement.
-
-Snapshot Festival 2026
 
 Date de d=C3=A9but de l'=C3=A9v=C3=A9nement
 dim. 15 mars 2026 =C3=A0 08:00 EDT
@@ -90,22 +92,11 @@ Voir la carte =E2=86=92
 Tous les horaires sont affich=C3=A9s selon le fuseau horaire America/Toront=
 o.
 
-Organisez votre =C3=A9v=C3=A9nement sur
-
-Contactez-nous
-
-Eveenty =C2=B7
-WhatsApp =C2=B7
-LinkedIn =C2=B7
-Facebook =C2=B7
-X =C2=B7
-Instagram
-
 Ceci est une notification automatique d'Eveenty.
 
 Besoin d'aide ? Contactez-nous =C3=A0 info@eveenty.com
 
-=C2=A9 Eveenty, 10 - 225 The East Mall Suite #1264 - Toronto - ON - M9B 0A9
+=C2=A9 Eveenty. Tous droits r=C3=A9serv=C3=A9s.
 --BOUNDARY_1
 Content-Transfer-Encoding: quoted-printable
 Content-Type: text/html; charset=UTF-8
@@ -223,16 +214,6 @@ x;color:#4d4c49;">Eveenty</p><![endif]-->
       </td>
     </tr>
 
-         =20
-          <tr>
-            <td align=3D"center" style=3D"padding:0 30px 8px;background-col=
-or:#ffffff;">
-              <img src=3D"https://cdn.snapshot.invalid/logo-fixed-001.jpg" =
-alt=3D"" width=3D"80" height=3D"80" style=3D"display:block;width:80px;heigh=
-t:80px;border-radius:50%;border:0;outline:none;text-decoration:none;" />
-            </td>
-          </tr>
-         =20
           <tr>
             <td class=3D"stack-pad" style=3D"padding:22px 30px 4px;backgrou=
 nd-color:#ffffff;">
@@ -242,14 +223,15 @@ x solid #e6d1b9;border-radius:16px;">
                 <tr>
                   <td align=3D"left" style=3D"padding:16px;font-family:Aria=
 l, Helvetica, 'Roboto', Tahoma, sans-serif;">
+                    <h2 style=3D"margin:0 0 8px 0;font-family:Arial, Helvet=
+ica, sans-serif;font-size:16px;font-weight:600;line-height:1.3;color:#92400=
+e;">Annul=C3=A9</h2>
                     <p style=3D"margin:0;font-size:16px;line-height:1.4;col=
 or:#92400e;">Le d=C3=A9lai de paiement de cette inscription est d=C3=A9pass=
-=C3=A9 sans qu&#39;un paiement ait =C3=A9t=C3=A9 effectu=C3=A9.</p>
-                   =20
-                    <p style=3D"margin:8px 0 0;font-size:16px;line-height:1=
-.4;color:#92400e;">Le d=C3=A9lai de paiement pour votre inscription =C3=A0 =
-l&#39;=C3=A9v=C3=A9nement Snapshot Festival 2026 est d=C3=A9pass=C3=A9. Vot=
-re inscription a =C3=A9t=C3=A9 annul=C3=A9e.</p>
+=C3=A9 sans qu&#39;un paiement ait =C3=A9t=C3=A9 effectu=C3=A9. Le d=C3=A9l=
+ai de paiement pour votre inscription =C3=A0 l&#39;=C3=A9v=C3=A9nement Snap=
+shot Festival 2026 est d=C3=A9pass=C3=A9. Votre inscription a =C3=A9t=C3=A9=
+ annul=C3=A9e.</p>
                    =20
                   </td>
                 </tr>
@@ -265,226 +247,225 @@ sum=C3=A9 de cette inscription.</td>
           </tr>
          =20
           <tr>
-            <td class=3D"stack-pad" style=3D"padding:8px 30px 16px;backgrou=
-nd-color:#ffffff;">
+            <td class=3D"stack-pad" style=3D"padding:14px 30px 20px;backgro=
+und-color:#ffffff;">
               <p style=3D"margin:0 0 12px 0;font-family:Arial, Helvetica, s=
 ans-serif;font-size:18px;font-weight:600;color:#2b2a28;border-left:4px soli=
 d #d80073;padding-left:12px;line-height:1.3;">=F0=9F=93=8B R=C3=A9sum=C3=A9=
  de l&#39;inscription</p>
               <table role=3D"presentation" width=3D"100%" cellpadding=3D"0"=
- cellspacing=3D"0" border=3D"0" style=3D"border:1px solid #ebebeb;border-ra=
-dius:8px;">
+ cellspacing=3D"0" border=3D"0" style=3D"width:100%;border-collapse:collaps=
+e;border:1px solid #ebebeb;border-radius:8px;">
                 <tr>
-                  <td style=3D"padding:16px;">
-                    <table role=3D"presentation" width=3D"100%" cellpadding=
-=3D"0" cellspacing=3D"0" border=3D"0">
-                      <tr>
-                        <td align=3D"left" style=3D"padding:6px 0;font-fami=
-ly:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4=
-c49;">=F0=9F=8E=AB =C3=89v=C3=A9nement</td>
-                        <td align=3D"right" style=3D"padding:6px 0;font-fam=
-ily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weig=
-ht:700;color:#2b2a28;"><bdi>Snapshot Festival 2026</bdi></td>
-                      </tr>
-                      <tr>
-                        <td align=3D"left" style=3D"padding:6px 0;font-fami=
-ly:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4=
-c49;">N=C2=B0 d&#39;inscription</td>
-                        <td align=3D"right" style=3D"padding:6px 0;font-fam=
-ily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weig=
-ht:700;color:#2b2a28;"><span dir=3D"ltr">ticke</span></td>
-                      </tr>
-                      <tr>
-                        <td align=3D"left" style=3D"padding:6px 0;font-fami=
-ly:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4=
-c49;">Date et heure d&#39;inscription</td>
-                        <td align=3D"right" style=3D"padding:6px 0;font-fam=
-ily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weig=
-ht:700;color:#d80073;" dir=3D"ltr">dim. 15 mars 2026 =C3=A0 08:00 EDT</td>
-                      </tr>
-                      <tr>
-                        <td align=3D"left" style=3D"padding:6px 0;font-fami=
-ly:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4=
-c49;">Statut actuel</td>
-                        <td align=3D"right" style=3D"padding:6px 0;font-fam=
-ily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weig=
-ht:700;color:#d80073;">Annul=C3=A9</td>
-                      </tr>
-                     =20
-                     =20
-                      <tr>
-                        <td align=3D"left" style=3D"padding:6px 0;font-fami=
-ly:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4=
-c49;">Date limite de paiement</td>
-                        <td align=3D"right" style=3D"padding:6px 0;font-fam=
-ily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weig=
-ht:700;color:#2b2a28;" dir=3D"ltr">mar. 14 avr. 2026 =C3=A0 08:00 EDT</td>
-                      </tr>
-                     =20
-                    </table>
-                  </td>
+                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
+=F0=9F=8E=AB =C3=89v=C3=A9nement</td>
+                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
+ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
+;color:#2b2a28;"><bdi>Snapshot Festival 2026</bdi></td>
                 </tr>
+                <tr>
+                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
+N=C2=B0 d&#39;inscription</td>
+                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
+ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
+;color:#2b2a28;"><span dir=3D"ltr">ticke</span></td>
+                </tr>
+                <tr>
+                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
+Date et heure d&#39;inscription</td>
+                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
+ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
+;color:#2b2a28;" dir=3D"ltr">dim. 15 mars 2026 =C3=A0 08:00 EDT</td>
+                </tr>
+                <tr>
+                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
+Statut actuel</td>
+                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
+ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
+;color:#2b2a28;"><strong><bdi>Annul=C3=A9</bdi></strong></td>
+                </tr>
+               =20
+               =20
+                <tr>
+                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
+Date limite de paiement</td>
+                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
+ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
+;color:#2b2a28;" dir=3D"ltr">mar. 14 avr. 2026 =C3=A0 08:00 EDT</td>
+                </tr>
+               =20
               </table>
             </td>
           </tr>
           <tr>
-            <td class=3D"stack-pad" style=3D"padding:0 30px 16px;background=
+            <td class=3D"stack-pad" style=3D"padding:0 30px 20px;background=
 -color:#ffffff;">
               <p style=3D"margin:0 0 12px 0;font-family:Arial, Helvetica, s=
 ans-serif;font-size:18px;font-weight:600;color:#2b2a28;border-left:4px soli=
 d #d80073;padding-left:12px;line-height:1.3;">=F0=9F=91=A4 Informations de =
 l&#39;acheteur</p>
               <table role=3D"presentation" width=3D"100%" cellpadding=3D"0"=
- cellspacing=3D"0" border=3D"0" style=3D"border:1px solid #ebebeb;border-ra=
-dius:8px;">
+ cellspacing=3D"0" border=3D"0" style=3D"width:100%;border-collapse:collaps=
+e;border:1px solid #ebebeb;border-radius:8px;">
                 <tr>
-                  <td style=3D"padding:16px;">
-                    <table role=3D"presentation" width=3D"100%" cellpadding=
-=3D"0" cellspacing=3D"0" border=3D"0">
-                      <tr>
-                        <td align=3D"left" style=3D"padding:6px 0;font-fami=
-ly:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4=
-c49;">Nom</td>
-                        <td align=3D"right" style=3D"padding:6px 0;font-fam=
-ily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weig=
-ht:700;color:#2b2a28;"><bdi>Alice Snapshot</bdi></td>
-                      </tr>
-                      <tr>
-                        <td align=3D"left" style=3D"padding:6px 0;font-fami=
-ly:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4=
-c49;">E-mail</td>
-                        <td align=3D"right" style=3D"padding:6px 0;font-fam=
-ily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weig=
-ht:700;color:#2b2a28;"><a href=3D"mailto:buyer-fr@snapshot.invalid" dir=3D"=
-ltr" style=3D"color:#d80073;text-decoration:none;unicode-bidi:embed;">buyer=
--fr@snapshot.invalid</a></td>
-                      </tr>
-                     =20
-                      <tr>
-                        <td align=3D"left" style=3D"padding:6px 0;font-fami=
-ly:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4=
-c49;">T=C3=A9l=C3=A9phone</td>
-                        <td align=3D"right" style=3D"padding:6px 0;font-fam=
-ily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weig=
-ht:700;color:#2b2a28;"><span dir=3D"ltr" style=3D"unicode-bidi:embed;">+155=
-50001001</span></td>
-                      </tr>
-                     =20
-                    </table>
-                  </td>
+                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
+Nom</td>
+                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
+ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
+;color:#2b2a28;"><bdi>Alice Snapshot</bdi></td>
                 </tr>
+                <tr>
+                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
+E-mail</td>
+                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
+ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
+;color:#2b2a28;"><a href=3D"mailto:buyer-fr@snapshot.invalid" dir=3D"ltr" s=
+tyle=3D"color:#d80073;text-decoration:none;unicode-bidi:embed;">buyer-fr@sn=
+apshot.invalid</a></td>
+                </tr>
+               =20
+                <tr>
+                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
+T=C3=A9l=C3=A9phone</td>
+                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
+ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
+;color:#2b2a28;"><span dir=3D"ltr" style=3D"unicode-bidi:embed;">+155500010=
+01</span></td>
+                </tr>
+               =20
               </table>
             </td>
           </tr>
           <tr>
-            <td class=3D"stack-pad" style=3D"padding:0 30px 16px;background=
+            <td class=3D"stack-pad" style=3D"padding:0 30px 20px;background=
 -color:#ffffff;">
-              <p style=3D"margin:0 0 8px 0;font-family:Arial, Helvetica, sa=
-ns-serif;font-size:18px;font-weight:600;color:#2b2a28;border-left:4px solid=
- #d80073;padding-left:12px;line-height:1.3;">=F0=9F=8E=9F=EF=B8=8F Billets =
-inscrits (1)</p>
+              <p style=3D"margin:0 0 12px 0;font-family:Arial, Helvetica, s=
+ans-serif;font-size:18px;font-weight:600;color:#2b2a28;border-left:4px soli=
+d #d80073;padding-left:12px;line-height:1.3;">=F0=9F=8E=9F=EF=B8=8F Billets=
+ inscrits (NORMALIZED_REMINDER_INDEX)</p>
               <p style=3D"margin:0 0 12px;font-family:Arial, Helvetica, 'Ro=
 boto', Tahoma, sans-serif;font-size:14px;line-height:1.55;color:#4d4c49;">L=
 es d=C3=A9tails de chaque billet de cette inscription sont list=C3=A9s ci-d=
 essous.</p>
              =20
               <table role=3D"presentation" width=3D"100%" cellpadding=3D"0"=
- cellspacing=3D"0" border=3D"0" style=3D"margin:0 0 12px;border:1px solid #=
-ebebeb;border-radius:8px;">
+ cellspacing=3D"0" border=3D"0" style=3D"width:100%;border-collapse:collaps=
+e;border:1px solid #ebebeb;border-radius:8px;margin:0 0 12px;">
                 <tr>
-                  <td style=3D"padding:16px;font-family:Arial, Helvetica, '=
-Roboto', Tahoma, sans-serif;">
-                    <p style=3D"margin:0 0 8px;font-size:15px;font-weight:7=
-00;color:#d80073;">1 / 1</p>
-                    <p style=3D"margin:0 0 8px;font-size:14px;color:#4d4c49=
-;"><strong>Type de billet:</strong> <bdi>General Admission</bdi></p>
-                    <p style=3D"margin:0 0 8px;font-size:14px;color:#4d4c49=
-;"><strong>Titulaire du billet:</strong> <bdi>Alice Snapshot</bdi></p>
-                   =20
-                    <p style=3D"margin:0 0 8px;font-size:14px;color:#4d4c49=
-;"><strong>E-mail:</strong> <a href=3D"mailto:buyer@snapshot.invalid" dir=
-=3D"ltr" style=3D"color:#d80073;text-decoration:none;unicode-bidi:embed;">b=
-uyer@snapshot.invalid</a></p>
-                   =20
-                   =20
-                    <p style=3D"margin:0 0 8px;font-size:14px;color:#4d4c49=
-;"><strong>T=C3=A9l=C3=A9phone:</strong> <span dir=3D"ltr" style=3D"unicode=
--bidi:embed;">+15550001001</span></p>
-                   =20
-                   =20
-                  </td>
+                  <td colspan=3D"2" align=3D"left" style=3D"padding:13px 16=
+px;background-color:#fefdf4;border-bottom:2px solid #d80073;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:15px;font-weight:700;=
+line-height:1.4;color:#d80073;">Billet 1 sur 1</td>
                 </tr>
+                <tr>
+                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
+Type de billet</td>
+                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
+ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
+;color:#2b2a28;"><bdi>General Admission</bdi></td>
+                </tr>
+                <tr>
+                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
+Titulaire du billet</td>
+                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
+ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
+;color:#2b2a28;"><bdi>Alice Snapshot</bdi></td>
+                </tr>
+               =20
+                <tr>
+                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
+E-mail</td>
+                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
+ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
+;color:#2b2a28;"><a href=3D"mailto:buyer@snapshot.invalid" dir=3D"ltr" styl=
+e=3D"color:#d80073;text-decoration:none;unicode-bidi:embed;">buyer@snapshot=
+.invalid</a></td>
+                </tr>
+               =20
+               =20
+                <tr>
+                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
+T=C3=A9l=C3=A9phone</td>
+                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
+ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
+;color:#2b2a28;"><span dir=3D"ltr" style=3D"unicode-bidi:embed;">+155500010=
+01</span></td>
+                </tr>
+               =20
+               =20
               </table>
              =20
             </td>
           </tr>
           <tr>
-            <td class=3D"stack-pad" style=3D"padding:0 30px 16px;background=
+            <td class=3D"stack-pad" style=3D"padding:0 30px 24px;background=
 -color:#ffffff;">
-              <p style=3D"margin:0 0 8px 0;font-family:Arial, Helvetica, sa=
-ns-serif;font-size:18px;font-weight:600;color:#2b2a28;border-left:4px solid=
- #d80073;padding-left:12px;line-height:1.3;">=F0=9F=93=8D D=C3=A9tails de l=
-&#39;=C3=A9v=C3=A9nement</p>
+              <p style=3D"margin:0 0 12px 0;font-family:Arial, Helvetica, s=
+ans-serif;font-size:18px;font-weight:600;color:#2b2a28;border-left:4px soli=
+d #d80073;padding-left:12px;line-height:1.3;">=F0=9F=93=8D D=C3=A9tails de =
+l&#39;=C3=A9v=C3=A9nement</p>
               <p style=3D"margin:0 0 12px;font-family:Arial, Helvetica, 'Ro=
 boto', Tahoma, sans-serif;font-size:14px;line-height:1.55;color:#4d4c49;">Q=
 uand et o=C3=B9 se d=C3=A9roule l&#39;=C3=A9v=C3=A9nement.</p>
               <table role=3D"presentation" width=3D"100%" cellpadding=3D"0"=
- cellspacing=3D"0" border=3D"0" style=3D"border:1px solid #ebebeb;border-ra=
-dius:8px;">
+ cellspacing=3D"0" border=3D"0" style=3D"width:100%;border-collapse:collaps=
+e;border:1px solid #ebebeb;border-radius:8px;">
+               =20
+               =20
                 <tr>
-                  <td style=3D"padding:16px;">
-                    <p style=3D"margin:0 0 12px;font-family:Arial, Helvetic=
-a, sans-serif;font-size:18px;font-weight:700;color:#d80073;text-align:cente=
-r;"><bdi>Snapshot Festival 2026</bdi></p>
-                    <table role=3D"presentation" width=3D"100%" cellpadding=
-=3D"0" cellspacing=3D"0" border=3D"0">
-                     =20
-                     =20
-                      <tr>
-                        <td align=3D"left" style=3D"padding:6px 0;font-fami=
-ly:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4=
-c49;">Date de d=C3=A9but de l&#39;=C3=A9v=C3=A9nement</td>
-                        <td align=3D"right" style=3D"padding:6px 0;font-fam=
-ily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weig=
-ht:700;color:#2b2a28;" dir=3D"ltr">dim. 15 mars 2026 =C3=A0 08:00 EDT</td>
-                      </tr>
-                     =20
-                     =20
-                     =20
-                      <tr>
-                        <td align=3D"left" style=3D"padding:6px 0;font-fami=
-ly:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4=
-c49;">Lieu</td>
-                        <td align=3D"right" style=3D"padding:6px 0;font-fam=
-ily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weig=
-ht:700;color:#2b2a28;"><bdi>Snapshot Arena</bdi></td>
-                      </tr>
-                     =20
-                     =20
-                      <tr>
-                        <td align=3D"left" style=3D"padding:6px 0;font-fami=
-ly:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4=
-c49;">Adresse</td>
-                        <td align=3D"right" style=3D"padding:6px 0;font-fam=
-ily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weig=
-ht:700;color:#2b2a28;"><bdi>100 Snap Street, Toronto ON M5H 2N2</bdi></td>
-                      </tr>
-                     =20
-                     =20
-                      <tr>
-                        <td align=3D"left" style=3D"padding:6px 0;font-fami=
-ly:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4=
-c49;">Voir la carte =E2=86=92</td>
-                        <td align=3D"right" style=3D"padding:6px 0;font-fam=
-ily:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weig=
-ht:700;"><a href=3D"https://maps.google.com/?q=3D43.6532,-79.3832" style=3D=
-"color:#d80073;text-decoration:none;font-weight:700;" dir=3D"ltr">Voir la c=
-arte =E2=86=92</a></td>
-                      </tr>
-                     =20
-                    </table>
-                  </td>
+                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
+Date de d=C3=A9but de l&#39;=C3=A9v=C3=A9nement</td>
+                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
+ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
+;color:#2b2a28;" dir=3D"ltr">dim. 15 mars 2026 =C3=A0 08:00 EDT</td>
                 </tr>
+               =20
+               =20
+               =20
+                <tr>
+                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
+Lieu</td>
+                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
+ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
+;color:#2b2a28;"><bdi>Snapshot Arena</bdi></td>
+                </tr>
+               =20
+               =20
+                <tr>
+                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
+Adresse</td>
+                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
+ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
+;color:#2b2a28;"><bdi>100 Snap Street, Toronto ON M5H 2N2</bdi></td>
+                </tr>
+               =20
+               =20
+                <tr>
+                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
+al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
+Voir la carte =E2=86=92</td>
+                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
+ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
+;color:#2b2a28;"><a href=3D"https://maps.google.com/?q=3D43.6532,-79.3832" =
+target=3D"_blank" dir=3D"auto" style=3D"color:#d80073;text-decoration:under=
+line;unicode-bidi:isolate;">Voir la carte =E2=86=92</a></td>
+                </tr>
+               =20
               </table>
              =20
               <p style=3D"margin:12px 0 0;font-family:Arial, Helvetica, 'Ro=
@@ -497,48 +478,28 @@ ire America/Toronto.</p>
 
          =20
           <tr>
-            <td align=3D"center" class=3D"stack-pad" style=3D"padding:8px 3=
-0px 0;background-color:#ffffff;font-family:Arial, Helvetica, 'Roboto', Taho=
-ma, sans-serif;font-size:13px;line-height:1.6;color:#4d4c49;">
-              <p style=3D"margin:0 0 8px;font-weight:700;">Organisez votre =
-=C3=A9v=C3=A9nement sur</p>
-              <p style=3D"margin:0 0 8px;font-weight:700;">Contactez-nous</=
-p>
-              <p style=3D"margin:0 0 8px;">
-                <a href=3D"https://www.eveenty.com" style=3D"color:#d80073;=
-text-decoration:none;">Eveenty</a> =C2=B7
-                <a href=3D"https://wa.link/9nqo8w" style=3D"color:#d80073;t=
-ext-decoration:none;">WhatsApp</a> =C2=B7
-                <a href=3D"https://www.linkedin.com/company/eveenty/" style=
-=3D"color:#d80073;text-decoration:none;">LinkedIn</a> =C2=B7
-                <a href=3D"https://www.facebook.com/61565784336714" style=
-=3D"color:#d80073;text-decoration:none;">Facebook</a> =C2=B7
-                <a href=3D"https://x.com/eveenty" style=3D"color:#d80073;te=
-xt-decoration:none;">X</a> =C2=B7
-                <a href=3D"https://www.instagram.com/eveentyofficial/" styl=
-e=3D"color:#d80073;text-decoration:none;">Instagram</a>
-              </p>
-              <p style=3D"margin:0 0 8px;">Ceci est une notification automa=
-tique d&#39;Eveenty.</p>
+            <td align=3D"left" class=3D"stack-pad" style=3D"padding:22px 30=
+px;background-color:#ffffff;border-top:1px solid #ebebeb;font-family:Arial,=
+ Helvetica, 'Roboto', Tahoma, sans-serif;">
+              <table role=3D"presentation" width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0" style=3D"width:100%;border-collapse:collaps=
+e;">
+                <tr><td align=3D"center" style=3D"padding:0 0 8px;font-fami=
+ly:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:13px;line-heigh=
+t:1.6;color:#4d4c49;">Ceci est une notification automatique d&#39;Eveenty.<=
+/td></tr>
+                <tr><td align=3D"center" style=3D"padding:0 0 8px;font-fami=
+ly:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:13px;line-heigh=
+t:1.6;color:#4d4c49;">Besoin d&#39;aide ? Contactez-nous =C3=A0 <a href=3D"=
+mailto:info@eveenty.com" dir=3D"ltr" style=3D"color:#d80073;text-decoration=
+:underline;unicode-bidi:embed;">info@eveenty.com</a></td></tr>
+                <tr><td align=3D"center" dir=3D"ltr" style=3D"padding:0;fon=
+t-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:12px;line=
+-height:1.6;color:#4d4c49;">=C2=A9 Eveenty. Tous droits r=C3=A9serv=C3=A9s.=
+</td></tr>
+              </table>
             </td>
           </tr>
-         =20
-    <tr>
-      <td align=3D"left" class=3D"stack-pad" style=3D"background-color:#fff=
-fff;padding:24px 30px;border-top:1px solid #ebebeb;font-family:Arial, Helve=
-tica, 'Roboto', Tahoma, sans-serif;">
-        <p style=3D"margin:0 0 10px 0;color:#4d4c49;font-size:13px;line-hei=
-ght:1.6;">
-          Besoin d'aide ? Contactez-nous =C3=A0 <a href=3D"mailto:info@evee=
-nty.com" dir=3D"ltr" style=3D"color:#d80073;text-decoration:none;unicode-bi=
-di:embed;">info@eveenty.com</a>
-        </p>
-        <p style=3D"margin:0;color:#4d4c49;font-size:12px;line-height:1.6;"=
->=C2=A9 Eveenty, 10 - 225 The East Mall Suite #1264 - Toronto - ON - M9B 0A=
-9</p>
-      </td>
-    </tr>
-
 
         </table>
       </td>

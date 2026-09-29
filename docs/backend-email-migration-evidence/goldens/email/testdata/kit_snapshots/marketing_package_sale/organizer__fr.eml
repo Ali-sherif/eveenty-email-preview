@@ -34,7 +34,7 @@ E-mail du client :
 organizer-fr@snapshot.invalid
 
 N=C2=B0 de facture :
-#mkt-s
+mkt-s
 
 Nom de l=E2=80=99entreprise :
 Snapshot Events Inc.
@@ -43,19 +43,26 @@ Description de l=E2=80=99entreprise :
 Not Provided
 
 Date :
-NORMALIZED_DATE=C2=A0=C2=A0NORMALIZED_TIME
+NORMALIZED_DATE =C2=B7 NORMALIZED_TIME
 
+Nom
+
+N=C2=B0 d=E2=80=99article
+#mkt-i
+
+Nom
 Social Blast Package
 
-N=C2=B0 d=E2=80=99article: #mkt-i
+Quota
 
-Quota:
+Valable pour
+-106751 jours
 
-Valable pour: -106751 jours
+Date d=E2=80=99expiration
+NORMALIZED_DATE
 
-Date d=E2=80=99expiration: NORMALIZED_DATE
-
-Montant: $150.00 CAD
+Montant
+$150.00 CAD
 
 Sous-total :
 $150.00 CAD
@@ -69,8 +76,6 @@ $169.50 CAD
 This message was sent to organizer-fr@snapshot.invalid.
 
 =C2=A9 Eveenty. All rights reserved.
-
-Site web : eveenty.com
 --BOUNDARY_1
 Content-Transfer-Encoding: quoted-printable
 Content-Type: text/html; charset=UTF-8
@@ -188,170 +193,226 @@ x;color:#4d4c49;">Eveenty</p><![endif]-->
     </tr>
 
           <tr>
-            <td align=3D"center" class=3D"stack-pad" style=3D"padding:28px =
-30px 12px;background-color:#ffffff;">
-              <h1 style=3D"margin:0;font-family:Arial, Helvetica, sans-seri=
-f;font-size:22px;font-weight:600;line-height:1.35;color:#2b2a28;text-align:=
-center;">Achat de forfait marketing</h1>
-            </td>
-          </tr>
-          <tr>
-            <td class=3D"stack-pad" style=3D"padding:8px 30px 16px;backgrou=
-nd-color:#ffffff;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif=
-;font-size:16px;line-height:1.65;color:#4d4c49;">
-              <p style=3D"margin:0;">Merci Bob Organizer pour l=E2=80=99ach=
-at d=E2=80=99un ou plusieurs forfaits marketing. Voici votre facture.</p>
+            <td class=3D"stack-pad" style=3D"padding:24px 30px 12px;backgro=
+und-color:#ffffff;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-seri=
+f;">
+              <p style=3D"margin:0 0 12px;font-size:18px;font-weight:700;co=
+lor:#2b2a28;border-left:4px solid #d80073;padding-left:12px;line-height:1.3=
+;">Achat de forfait marketing</p>
+              <p style=3D"margin:0;font-size:16px;line-height:1.65;color:#4=
+d4c49;">Merci Bob Organizer pour l=E2=80=99achat d=E2=80=99un ou plusieurs =
+forfaits marketing. Voici votre facture.</p>
             </td>
           </tr>
           <tr>
             <td class=3D"stack-pad" style=3D"padding:0 30px 16px;background=
 -color:#ffffff;">
               <table role=3D"presentation" width=3D"100%" cellpadding=3D"0"=
- cellspacing=3D"0" border=3D"0">
-                <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Nom du client :</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><bdi>Bob Organizer</bdi></td>
-                </tr>
-                <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Adresse du client :</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><bdi>Not Provided</bdi></td>
-                </tr>
-                <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-T=C3=A9l=C3=A9phone du client :</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><span dir=3D"ltr">+14161000001</span></td>
-                </tr>
-                <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-E-mail du client :</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><a href=3D"mailto:organizer-fr@snapshot.invalid" dir=3D"lt=
-r" style=3D"color:#2b2a28;text-decoration:none;unicode-bidi:embed;font-weig=
-ht:700;">organizer-fr@snapshot.invalid</a></td>
-                </tr>
-                <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-N=C2=B0 de facture :</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><span dir=3D"ltr">#mkt-s</span></td>
-                </tr>
-                <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Nom de l=E2=80=99entreprise :</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><bdi>Snapshot Events Inc.</bdi></td>
-                </tr>
-                <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Description de l=E2=80=99entreprise :</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><bdi>Not Provided</bdi></td>
-                </tr>
-                <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Date :</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><span dir=3D"ltr">NORMALIZED_DATE&nbsp;&nbsp;NORMALIZED_TIME</span=
-></td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-         =20
-          <tr>
-            <td class=3D"stack-pad" style=3D"padding:0 30px 12px;background=
--color:#ffffff;">
-              <table role=3D"presentation" width=3D"100%" cellpadding=3D"0"=
  cellspacing=3D"0" border=3D"0" style=3D"width:100%;border-collapse:collaps=
-e;border:1px solid #ebebeb;border-radius:12px;background-color:#ffffff;">
+e;background-color:#ffffff;border:1px solid #ebebeb;border-radius:16px;">
                 <tr>
-                  <td style=3D"padding:16px 18px;font-family:Arial, Helveti=
-ca, 'Roboto', Tahoma, sans-serif;">
-                    <p style=3D"margin:0 0 10px;font-family:Arial, Helvetic=
-a, sans-serif;font-size:17px;font-weight:600;color:#2b2a28;"><bdi>Social Bl=
-ast Package</bdi></p>
-                    <p style=3D"margin:0 0 6px;font-size:14px;line-height:1=
-.5;color:#4d4c49;"><strong>N=C2=B0 d=E2=80=99article:</strong> <span dir=3D=
-"ltr">#mkt-i</span></p>
-                    <p style=3D"margin:0 0 6px;font-size:14px;line-height:1=
-.5;color:#4d4c49;"><strong>Quota:</strong> <bdi></bdi></p>
-                    <p style=3D"margin:0 0 6px;font-size:14px;line-height:1=
-.5;color:#4d4c49;"><strong>Valable pour:</strong> <bdi>-106751 jours</bdi><=
-/p>
-                    <p style=3D"margin:0 0 6px;font-size:14px;line-height:1=
-.5;color:#4d4c49;"><strong>Date d=E2=80=99expiration:</strong> <span dir=3D=
-"ltr">NORMALIZED_DATE</span></p>
-                    <p style=3D"margin:0;font-size:14px;line-height:1.5;col=
-or:#4d4c49;"><strong>Montant:</strong> <span dir=3D"ltr">$150.00 CAD</span>=
-</p>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-         =20
-          <tr>
-            <td align=3D"right" class=3D"stack-pad" style=3D"padding:8px 30=
-px 24px;background-color:#ffffff;">
-              <table role=3D"presentation" cellpadding=3D"0" cellspacing=3D=
-"0" border=3D"0" width=3D"280" style=3D"width:280px;max-width:100%;backgrou=
-nd-color:#e9d023;border-radius:8px;">
-                <tr>
-                  <td style=3D"padding:20px 20px 8px 20px;">
-                    <table role=3D"presentation" cellpadding=3D"0" cellspac=
-ing=3D"0" border=3D"0" width=3D"100%">
+                  <td style=3D"padding:20px;">
+                    <table role=3D"presentation" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-collapse:collapse;">
                       <tr>
-                        <td align=3D"left" style=3D"padding:0 0 12px 0;font=
--family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-=
-weight:500;color:#2b2a28;">Sous-total :</td>
-                        <td align=3D"right" style=3D"padding:0 0 12px 0;fon=
-t-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font=
--weight:500;color:#2b2a28;" dir=3D"ltr">$150.00 CAD</td>
+                        <td align=3D"left" style=3D"padding:7px 10px 7px 0;=
+font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;l=
+ine-height:1.45;color:#4d4c49;font-weight:600;vertical-align:top;">Nom du c=
+lient :</td>
+                        <td dir=3D"auto" style=3D"padding:7px 0;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:=
+1.45;color:#4d4c49;text-align:right;word-break:break-word;"><bdi>Bob Organi=
+zer</bdi></td>
                       </tr>
                       <tr>
-                        <td align=3D"left" style=3D"padding:0 0 12px 0;font=
--family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-=
-weight:500;color:#2b2a28;">Taxe :</td>
-                        <td align=3D"right" style=3D"padding:0 0 12px 0;fon=
-t-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font=
--weight:500;color:#2b2a28;" dir=3D"ltr">$19.50 CAD</td>
+                        <td align=3D"left" style=3D"padding:7px 10px 7px 0;=
+font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;l=
+ine-height:1.45;color:#4d4c49;font-weight:600;vertical-align:top;">Adresse =
+du client :</td>
+                        <td dir=3D"auto" style=3D"padding:7px 0;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:=
+1.45;color:#4d4c49;text-align:right;word-break:break-word;"><bdi>Not Provid=
+ed</bdi></td>
+                      </tr>
+                      <tr>
+                        <td align=3D"left" style=3D"padding:7px 10px 7px 0;=
+font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;l=
+ine-height:1.45;color:#4d4c49;font-weight:600;vertical-align:top;">T=C3=A9l=
+=C3=A9phone du client :</td>
+                        <td dir=3D"ltr" style=3D"padding:7px 0;font-family:=
+Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1=
+.45;color:#4d4c49;text-align:right;word-break:break-word;">+14161000001</td=
+>
+                      </tr>
+                      <tr>
+                        <td align=3D"left" style=3D"padding:7px 10px 7px 0;=
+font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;l=
+ine-height:1.45;color:#4d4c49;font-weight:600;vertical-align:top;">E-mail d=
+u client :</td>
+                        <td dir=3D"ltr" style=3D"padding:7px 0;font-family:=
+Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1=
+.45;color:#4d4c49;text-align:right;word-break:break-word;"><a href=3D"mailt=
+o:organizer-fr@snapshot.invalid" dir=3D"ltr" style=3D"color:#4d4c49;text-de=
+coration:none;unicode-bidi:embed;">organizer-fr@snapshot.invalid</a></td>
+                      </tr>
+                      <tr>
+                        <td align=3D"left" style=3D"padding:7px 10px 7px 0;=
+font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;l=
+ine-height:1.45;color:#4d4c49;font-weight:600;vertical-align:top;">N=C2=B0 =
+de facture :</td>
+                        <td dir=3D"ltr" style=3D"padding:7px 0;font-family:=
+Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1=
+.45;color:#4d4c49;text-align:right;word-break:break-word;">mkt-s</td>
+                      </tr>
+                      <tr>
+                        <td align=3D"left" style=3D"padding:7px 10px 7px 0;=
+font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;l=
+ine-height:1.45;color:#4d4c49;font-weight:600;vertical-align:top;">Nom de l=
+=E2=80=99entreprise :</td>
+                        <td dir=3D"auto" style=3D"padding:7px 0;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:=
+1.45;color:#4d4c49;text-align:right;word-break:break-word;"><bdi>Snapshot E=
+vents Inc.</bdi></td>
+                      </tr>
+                      <tr>
+                        <td align=3D"left" style=3D"padding:7px 10px 7px 0;=
+font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;l=
+ine-height:1.45;color:#4d4c49;font-weight:600;vertical-align:top;">Descript=
+ion de l=E2=80=99entreprise :</td>
+                        <td dir=3D"auto" style=3D"padding:7px 0;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:=
+1.45;color:#4d4c49;text-align:right;word-break:break-word;"><bdi>Not Provid=
+ed</bdi></td>
+                      </tr>
+                      <tr>
+                        <td align=3D"left" style=3D"padding:7px 10px 7px 0;=
+font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;l=
+ine-height:1.45;color:#4d4c49;font-weight:600;vertical-align:top;">Date :</=
+td>
+                        <td dir=3D"ltr" style=3D"padding:7px 0;font-family:=
+Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1=
+.45;color:#4d4c49;text-align:right;word-break:break-word;">NORMALIZED_DATE =C2=
+=B7 NORMALIZED_TIME</td>
                       </tr>
                     </table>
                   </td>
                 </tr>
+              </table>
+            </td>
+          </tr>
+         =20
+          <tr>
+            <td class=3D"stack-pad" style=3D"padding:0 30px 16px;background=
+-color:#ffffff;">
+              <table role=3D"presentation" width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0" style=3D"width:100%;border-collapse:collaps=
+e;background-color:#ffffff;border:1px solid #ebebeb;border-radius:16px;">
                 <tr>
-                  <td style=3D"background-color:#fefdf4;padding:16px 20px;b=
-order-radius:0 0 8px 8px;">
-                    <table role=3D"presentation" cellpadding=3D"0" cellspac=
-ing=3D"0" border=3D"0" width=3D"100%">
+                  <td style=3D"padding:20px;">
+                    <p style=3D"margin:0 0 12px;font-family:Arial, Helvetic=
+a, 'Roboto', Tahoma, sans-serif;font-size:18px;font-weight:700;color:#2b2a2=
+8;border-left:4px solid #d80073;padding-left:12px;line-height:1.3;">Nom</p>
+                    <table role=3D"presentation" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-collapse:collapse;">
                       <tr>
-                        <td align=3D"left" style=3D"font-family:Arial, Helv=
-etica, 'Roboto', Tahoma, sans-serif;font-size:16px;font-weight:700;color:#2=
-b2a28;">Total g=C3=A9n=C3=A9ral :</td>
-                        <td align=3D"right" style=3D"font-family:Arial, Hel=
-vetica, 'Roboto', Tahoma, sans-serif;font-size:16px;font-weight:700;color:#=
-2b2a28;" dir=3D"ltr">$169.50 CAD</td>
+                        <td align=3D"left" style=3D"padding:7px 10px 7px 0;=
+font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;l=
+ine-height:1.45;color:#4d4c49;font-weight:600;vertical-align:top;">N=C2=B0 =
+d=E2=80=99article</td>
+                        <td dir=3D"ltr" style=3D"padding:7px 0;font-family:=
+Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1=
+.45;color:#4d4c49;text-align:right;word-break:break-word;">#mkt-i</td>
+                      </tr>
+                      <tr>
+                        <td align=3D"left" style=3D"padding:7px 10px 7px 0;=
+font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;l=
+ine-height:1.45;color:#4d4c49;font-weight:600;vertical-align:top;">Nom</td>
+                        <td dir=3D"auto" style=3D"padding:7px 0;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:=
+1.45;color:#4d4c49;text-align:right;word-break:break-word;"><bdi>Social Bla=
+st Package</bdi></td>
+                      </tr>
+                      <tr>
+                        <td align=3D"left" style=3D"padding:7px 10px 7px 0;=
+font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;l=
+ine-height:1.45;color:#4d4c49;font-weight:600;vertical-align:top;">Quota</t=
+d>
+                        <td dir=3D"auto" style=3D"padding:7px 0;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:=
+1.45;color:#4d4c49;text-align:right;word-break:break-word;"><bdi></bdi></td=
+>
+                      </tr>
+                      <tr>
+                        <td align=3D"left" style=3D"padding:7px 10px 7px 0;=
+font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;l=
+ine-height:1.45;color:#4d4c49;font-weight:600;vertical-align:top;">Valable =
+pour</td>
+                        <td dir=3D"auto" style=3D"padding:7px 0;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:=
+1.45;color:#4d4c49;text-align:right;word-break:break-word;"><bdi>-106751 jo=
+urs</bdi></td>
+                      </tr>
+                      <tr>
+                        <td align=3D"left" style=3D"padding:7px 10px 7px 0;=
+font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;l=
+ine-height:1.45;color:#4d4c49;font-weight:600;vertical-align:top;">Date d=
+=E2=80=99expiration</td>
+                        <td dir=3D"ltr" style=3D"padding:7px 0;font-family:=
+Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1=
+.45;color:#4d4c49;text-align:right;word-break:break-word;">NORMALIZED_DATE</td>
+                      </tr>
+                      <tr>
+                        <td align=3D"left" style=3D"padding:7px 10px 7px 0;=
+font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;l=
+ine-height:1.45;color:#4d4c49;font-weight:600;vertical-align:top;">Montant<=
+/td>
+                        <td dir=3D"ltr" style=3D"padding:7px 0;font-family:=
+Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1=
+.45;color:#4d4c49;text-align:right;word-break:break-word;">$150.00 CAD</td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+         =20
+          <tr>
+            <td class=3D"stack-pad" style=3D"padding:0 30px 16px;background=
+-color:#ffffff;">
+              <table role=3D"presentation" width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0" style=3D"width:100%;border-collapse:collaps=
+e;background-color:#ffffff;border:1px solid #ebebeb;border-radius:16px;">
+                <tr>
+                  <td style=3D"padding:20px;">
+                    <table role=3D"presentation" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-collapse:collapse;">
+                      <tr>
+                        <td align=3D"left" style=3D"padding:7px 10px 7px 0;=
+font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;l=
+ine-height:1.45;color:#4d4c49;font-weight:600;vertical-align:top;">Sous-tot=
+al :</td>
+                        <td dir=3D"ltr" style=3D"padding:7px 0;font-family:=
+Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1=
+.45;color:#4d4c49;text-align:right;word-break:break-word;">$150.00 CAD</td>
+                      </tr>
+                      <tr>
+                        <td align=3D"left" style=3D"padding:7px 10px 7px 0;=
+font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;l=
+ine-height:1.45;color:#4d4c49;font-weight:600;vertical-align:top;">Taxe :</=
+td>
+                        <td dir=3D"ltr" style=3D"padding:7px 0;font-family:=
+Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1=
+.45;color:#4d4c49;text-align:right;word-break:break-word;">$19.50 CAD</td>
+                      </tr>
+                      <tr>
+                        <td align=3D"left" style=3D"padding:7px 10px 7px 0;=
+font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;l=
+ine-height:1.45;color:#4d4c49;font-weight:600;vertical-align:top;">Total g=
+=C3=A9n=C3=A9ral :</td>
+                        <td dir=3D"ltr" style=3D"padding:7px 0;font-family:=
+Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;line-height:1=
+.45;color:#4d4c49;text-align:right;word-break:break-word;">$169.50 CAD</td>
                       </tr>
                     </table>
                   </td>
@@ -377,15 +438,6 @@ di:embed;">organizer-fr@snapshot.invalid</a>.
     </tr>
 
          =20
-          <tr>
-            <td align=3D"left" class=3D"stack-pad" style=3D"background-colo=
-r:#ffffff;padding:0 30px 24px;font-family:Arial, Helvetica, 'Roboto', Tahom=
-a, sans-serif;font-size:12px;line-height:1.6;color:#4d4c49;">
-              Site web : <a href=3D"https://www.eveenty.com" dir=3D"ltr" st=
-yle=3D"color:#d80073;text-decoration:none;unicode-bidi:embed;">eveenty.com<=
-/a>
-            </td>
-          </tr>
         </table>
       </td>
     </tr>

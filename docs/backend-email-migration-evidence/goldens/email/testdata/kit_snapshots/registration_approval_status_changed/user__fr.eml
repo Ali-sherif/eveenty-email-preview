@@ -16,6 +16,8 @@ Mise =C3=A0 jour de l'inscription
 
 Eveenty
 
+Inscription user approuv=C3=A9e
+
 Bonjour Alice Snapshot,
 
 F=C3=A9licitations Alice Snapshot, votre inscription en tant que user pour =
@@ -142,18 +144,37 @@ x;color:#4d4c49;">Eveenty</p><![endif]-->
     </tr>
 
           <tr>
-            <td align=3D"left" class=3D"stack-pad" style=3D"padding:24px 30=
-px 20px;background-color:#ffffff;font-family:Arial, Helvetica, 'Roboto', Ta=
+            <td class=3D"stack-pad" style=3D"padding:24px 30px 10px;backgro=
+und-color:#ffffff;">
+             =20
+              <table role=3D"presentation" width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0" style=3D"background-color:#f0fdf4;border:1p=
+x solid #c5dfcf;border-radius:16px;">
+                <tr>
+                  <td align=3D"left" style=3D"padding:16px;font-family:Aria=
+l, Helvetica, 'Roboto', Tahoma, sans-serif;">
+                    <h2 style=3D"margin:0;font-family:Arial, Helvetica, san=
+s-serif;font-size:16px;font-weight:600;line-height:1.3;color:#166534;">Insc=
+ription user approuv=C3=A9e</h2>
+                  </td>
+                </tr>
+              </table>
+             =20
+            </td>
+          </tr>
+          <tr>
+            <td align=3D"left" class=3D"stack-pad" style=3D"padding:12px 30=
+px 22px;background-color:#ffffff;font-family:Arial, Helvetica, 'Roboto', Ta=
 homa, sans-serif;">
-              <p style=3D"margin:0 0 14px;font-size:18px;font-weight:600;co=
-lor:#2b2a28;">Bonjour <span dir=3D"auto" style=3D"unicode-bidi: isolate;">A=
-lice Snapshot</span>,</p>
-              <p style=3D"margin:0;font-size:16px;line-height:1.65;color:#4=
-d4c49;">F=C3=A9licitations <span dir=3D"auto" style=3D"unicode-bidi: isolat=
-e;">Alice Snapshot</span>, votre inscription en tant que <span dir=3D"auto"=
- style=3D"unicode-bidi: isolate;">user</span> pour l'=C3=A9v=C3=A9nement <s=
-pan dir=3D"auto" style=3D"unicode-bidi: isolate;">Snapshot Festival 2026</s=
-pan> a =C3=A9t=C3=A9 approuv=C3=A9e.</p>
+              <p style=3D"margin:0 0 14px;font-size:18px;font-weight:600;li=
+ne-height:1.5;color:#2b2a28;">Bonjour <span dir=3D"auto" style=3D"unicode-b=
+idi: isolate;">Alice Snapshot</span>,</p>
+              <p style=3D"margin:0;font-size:16px;line-height:1.7;color:#4d=
+4c49;">F=C3=A9licitations <span dir=3D"auto" style=3D"unicode-bidi: isolate=
+;">Alice Snapshot</span>, votre inscription en tant que <span dir=3D"auto" =
+style=3D"unicode-bidi: isolate;">user</span> pour l'=C3=A9v=C3=A9nement <sp=
+an dir=3D"auto" style=3D"unicode-bidi: isolate;">Snapshot Festival 2026</sp=
+an> a =C3=A9t=C3=A9 approuv=C3=A9e.</p>
             </td>
           </tr>
          =20
