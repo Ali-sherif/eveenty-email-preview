@@ -59,13 +59,61 @@ func normalizeVolatile(rfc822 []byte) []byte {
 	out = reLongDatePrefix.ReplaceAll(out, []byte("NORMALIZED_LONG_DATE"))
 	out = reISODate.ReplaceAll(out, []byte("NORMALIZED_DATE"))
 	out = reICalDTStamp.ReplaceAll(out, []byte("DTSTAMP:NORMALIZED"))
+	out = normalizeInstallmentReminderIndex(out)
 	out = normalizeMIMEBoundaries(out)
 	out = normalizeBase64Calendars(out)
 	return out
 }
 
-// reBoundaryLine matches a normalized kit boundary delimiter line.
-var reBoundaryLine = regexp.MustCompile(`(?m)^--BOUNDARY_\d+--?[ \t]*\r?$`)
+// normalizeInstallmentReminderIndex rewrites wall-clock days-since-due reminder
+// counters from SecondPaymentReminderNumberDisplay ("(N)"). Skips phone forms
+// like "1 (855) 552-1522" (digit-space before '(' and space-digit after ')').
+func normalizeInstallmentReminderIndex(in []byte) []byte {
+	s := string(in)
+	var b strings.Builder
+	for {
+		i := strings.IndexByte(s, '(')
+		if i < 0 {
+			b.WriteString(s)
+			return []byte(b.String())
+		}
+		j := strings.IndexByte(s[i:], ')')
+		if j < 0 {
+			b.WriteString(s)
+			return []byte(b.String())
+		}
+		j = i + j
+		inner := s[i+1 : j]
+		if isAllASCIIDigits(inner) {
+			phoneLeft := i >= 2 && s[i-1] == ' ' && s[i-2] >= '0' && s[i-2] <= '9'
+			phoneRight := j+2 < len(s) && s[j+1] == ' ' && s[j+2] >= '0' && s[j+2] <= '9'
+			if !phoneLeft && !phoneRight {
+				b.WriteString(s[:i])
+				b.WriteString("(NORMALIZED_REMINDER_INDEX)")
+				s = s[j+1:]
+				continue
+			}
+		}
+		b.WriteString(s[:j+1])
+		s = s[j+1:]
+	}
+}
+
+func isAllASCIIDigits(s string) bool {
+	if s == "" {
+		return false
+	}
+	for i := 0; i < len(s); i++ {
+		if s[i] < '0' || s[i] > '9' {
+			return false
+		}
+	}
+	return true
+}
+
+// rePartBoundaryLine matches the next MIME part delimiter after a calendar body.
+// Includes legacy fixed boundary-string and kit BOUNDARY_N after normalizeMIMEBoundaries.
+var rePartBoundaryLine = regexp.MustCompile(`(?m)^--(?:BOUNDARY_\d+|boundary-string)--?[ \t]*\r?$`)
 
 // normalizeBase64Calendars rewrites DTSTAMP inside base64 text/calendar parts.
 // The stamp is wall-clock UTC, so the base64 body changes on every run until decoded.
@@ -91,7 +139,7 @@ func normalizeBase64Calendars(in []byte) []byte {
 		}
 		bodyStart := i + blankRel + sepLen
 		b.WriteString(s[:bodyStart])
-		loc := reBoundaryLine.FindStringIndex(s[bodyStart:])
+		loc := rePartBoundaryLine.FindStringIndex(s[bodyStart:])
 		if loc == nil {
 			b.WriteString(s[bodyStart:])
 			return []byte(b.String())

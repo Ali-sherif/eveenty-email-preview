@@ -1,0 +1,265 @@
+{
+  "cases": [
+    {
+      "locale": "en",
+      "width": 600,
+      "lang": "en",
+      "dir": "ltr",
+      "viewport": 600,
+      "scrollWidth": 600,
+      "images": [
+        {
+          "src": "https://cdn.snapshot.invalid/condensed/en.png",
+          "width": 174,
+          "height": 48,
+          "naturalWidth": 199,
+          "naturalHeight": 55,
+          "aspectError": 0.0018844221105527303
+        },
+        {
+          "src": "https://cdn.snapshot.invalid/apple/en.png",
+          "width": 152,
+          "height": 48,
+          "naturalWidth": 316,
+          "naturalHeight": 100,
+          "aspectError": 0.002109704641350074
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "lang": "en",
+      "dir": "ltr",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "images": [
+        {
+          "src": "https://cdn.snapshot.invalid/condensed/en.png",
+          "width": 174,
+          "height": 48,
+          "naturalWidth": 199,
+          "naturalHeight": 55,
+          "aspectError": 0.0018844221105527303
+        },
+        {
+          "src": "https://cdn.snapshot.invalid/apple/en.png",
+          "width": 152,
+          "height": 48,
+          "naturalWidth": 316,
+          "naturalHeight": 100,
+          "aspectError": 0.002109704641350074
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 600,
+      "lang": "ar",
+      "dir": "rtl",
+      "viewport": 600,
+      "scrollWidth": 600,
+      "images": [
+        {
+          "src": "https://cdn.snapshot.invalid/condensed/ar.png",
+          "width": 174,
+          "height": 48,
+          "naturalWidth": 199,
+          "naturalHeight": 55,
+          "aspectError": 0.0018844221105527303
+        },
+        {
+          "src": "https://cdn.snapshot.invalid/apple/ar.png",
+          "width": 153,
+          "height": 48,
+          "naturalWidth": 318,
+          "naturalHeight": 100,
+          "aspectError": 0.002358490566037652
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "lang": "ar",
+      "dir": "rtl",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "images": [
+        {
+          "src": "https://cdn.snapshot.invalid/condensed/ar.png",
+          "width": 174,
+          "height": 48,
+          "naturalWidth": 199,
+          "naturalHeight": 55,
+          "aspectError": 0.0018844221105527303
+        },
+        {
+          "src": "https://cdn.snapshot.invalid/apple/ar.png",
+          "width": 153,
+          "height": 48,
+          "naturalWidth": 318,
+          "naturalHeight": 100,
+          "aspectError": 0.002358490566037652
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "width": 600,
+      "lang": "fr",
+      "dir": "ltr",
+      "viewport": 600,
+      "scrollWidth": 600,
+      "images": [
+        {
+          "src": "https://cdn.snapshot.invalid/condensed/fr.png",
+          "width": 174,
+          "height": 48,
+          "naturalWidth": 199,
+          "naturalHeight": 55,
+          "aspectError": 0.0018844221105527303
+        },
+        {
+          "src": "https://cdn.snapshot.invalid/apple/fr.png",
+          "width": 154,
+          "height": 48,
+          "naturalWidth": 321,
+          "naturalHeight": 100,
+          "aspectError": 0.0005192107995846129
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "width": 320,
+      "lang": "fr",
+      "dir": "ltr",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "images": [
+        {
+          "src": "https://cdn.snapshot.invalid/condensed/fr.png",
+          "width": 174,
+          "height": 48,
+          "naturalWidth": 199,
+          "naturalHeight": 55,
+          "aspectError": 0.0018844221105527303
+        },
+        {
+          "src": "https://cdn.snapshot.invalid/apple/fr.png",
+          "width": 154,
+          "height": 48,
+          "naturalWidth": 321,
+          "naturalHeight": 100,
+          "aspectError": 0.0005192107995846129
+        }
+      ]
+    },
+    {
+      "locale": "es",
+      "width": 600,
+      "lang": "es",
+      "dir": "ltr",
+      "viewport": 600,
+      "scrollWidth": 600,
+      "images": [
+        {
+          "src": "https://cdn.snapshot.invalid/condensed/es.png",
+          "width": 174,
+          "height": 48,
+          "naturalWidth": 199,
+          "naturalHeight": 55,
+          "aspectError": 0.0018844221105527303
+        },
+        {
+          "src": "https://cdn.snapshot.invalid/apple/es.png",
+          "width": 180,
+          "height": 48,
+          "naturalWidth": 376,
+          "naturalHeight": 100,
+          "aspectError": 0.0026595744680850686
+        }
+      ]
+    },
+    {
+      "locale": "es",
+      "width": 320,
+      "lang": "es",
+      "dir": "ltr",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "images": [
+        {
+          "src": "https://cdn.snapshot.invalid/condensed/es.png",
+          "width": 174,
+          "height": 48,
+          "naturalWidth": 199,
+          "naturalHeight": 55,
+          "aspectError": 0.0018844221105527303
+        },
+        {
+          "src": "https://cdn.snapshot.invalid/apple/es.png",
+          "width": 180,
+          "height": 48,
+          "naturalWidth": 376,
+          "naturalHeight": 100,
+          "aspectError": 0.0026595744680850686
+        }
+      ]
+    },
+    {
+      "locale": "fa",
+      "width": 600,
+      "lang": "fa",
+      "dir": "rtl",
+      "viewport": 600,
+      "scrollWidth": 600,
+      "images": [
+        {
+          "src": "https://cdn.snapshot.invalid/condensed/fa.png",
+          "width": 186,
+          "height": 48,
+          "naturalWidth": 213,
+          "naturalHeight": 55,
+          "aspectError": 0.0005868544600939885
+        },
+        {
+          "src": "https://cdn.snapshot.invalid/apple/en.png",
+          "width": 152,
+          "height": 48,
+          "naturalWidth": 316,
+          "naturalHeight": 100,
+          "aspectError": 0.002109704641350074
+        }
+      ]
+    },
+    {
+      "locale": "fa",
+      "width": 320,
+      "lang": "fa",
+      "dir": "rtl",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "images": [
+        {
+          "src": "https://cdn.snapshot.invalid/condensed/fa.png",
+          "width": 186,
+          "height": 48,
+          "naturalWidth": 213,
+          "naturalHeight": 55,
+          "aspectError": 0.0005868544600939885
+        },
+        {
+          "src": "https://cdn.snapshot.invalid/apple/en.png",
+          "width": 152,
+          "height": 48,
+          "naturalWidth": 316,
+          "naturalHeight": 100,
+          "aspectError": 0.002109704641350074
+        }
+      ]
+    }
+  ],
+  "failures": []
+}

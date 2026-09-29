@@ -318,6 +318,8 @@ px;border:0;" />
              =20
              =20
              =20
+             =20
+             =20
               <div class=3D"wallet-section" style=3D"margin:16px 0;">
                =20
 
@@ -345,11 +347,15 @@ on-mode:bicubic;vertical-align:middle;" />
 =3D"152" style=3D"padding:0;vertical-align:middle;font-size:0;line-height:0=
 ;mso-line-height-rule:exactly;width:152px;">
          =20
-          <img class=3D"wallet-badge-img" src=3D"https://cdn.snapshot.inval=
-id/apple/en.png" alt=3D"Add to Apple Wallet" width=3D"152" height=3D"48" st=
-yle=3D"display:block;width:152px;max-width:152px;height:48px;border:0;outli=
-ne:none;text-decoration:none;-ms-interpolation-mode:bicubic;vertical-align:=
-middle;" />
+          <a href=3D"cid:ticket-1@snapshot.invalid" target=3D"_blank" style=
+=3D"display:inline-block;line-height:0;font-size:0;text-decoration:none;bor=
+der:0;vertical-align:middle;">
+            <img class=3D"wallet-badge-img" src=3D"https://cdn.snapshot.inv=
+alid/apple/en.png" alt=3D"Add to Apple Wallet" width=3D"152" height=3D"48" =
+style=3D"display:block;width:152px;max-width:152px;height:48px;border:0;out=
+line:none;text-decoration:none;-ms-interpolation-mode:bicubic;vertical-alig=
+n:middle;" />
+          </a>
          =20
         </td>
        =20
@@ -555,19 +561,19 @@ Content-Id: <event@snapshot.invalid>
 Content-Transfer-Encoding: base64
 Content-Type: text/calendar; method=PUBLISH; charset=UTF-8; name="event.ics"
 
-QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOi0vL1Jlc2NvdW50cyBFdmVudHMg
-JiBUaWNrZXRzLy9GZXN0aXZhbCBDYWxlbmRhci8vRU4NCkNBTFNDQUxFOkdSRUdPUklBTg0KTUVU
-SE9EOlBVQkxJU0gNCkJFR0lOOlZFVkVOVA0KVUlEOmZlc3RpdmFsLWZpeGVkLTAwMUByZXNjb3Vu
-dHMuY29tDQpEVFNUQU1QOk5PUk1BTElaRUQNCkRUU1RBUlQ6MjAyNjAzMTVUMTIwMDAwWg0KRFRF
-TkQ6MjAyNjAzMTdUMTIwMDAwWg0KU1VNTUFSWTpGZXN0aXZhbFRpdGxlIEZlc3RpdmFsVGl0bGUg
-RmVzdGl2YWxUaXRsZSBGZXN0aXZhbFRpdGxlIEZlc3RpdmFsVGl0DQogbGUgRmVzdGl2YWxUaXRs
-ZSBGZXN0aXZhbFRpdGxlIEZlc3RpdmFsVGl0bGUgRmVzdGl2YWxUaXRsZSBGZXN0aXZhbFRpdGxl
-IEYNCiBlc3RpdmFsVGl0bGUgRmVzdGl2YWxUaXRsZSBGZXN0aXZhbFRpdGxlIEZlc3RpdmFsVGl0
-bGUgRmVzdGl2YWxUaXRsZSANCkRFU0NSSVBUSU9OOlNuYXBzaG90IGZlc3RpdmFsIGRlc2NyaXB0
-aW9uDQpMT0NBVElPTjpTbmFwc2hvdCBBcmVuYSAtIDEwMCBTbmFwIFN0cmVldFwsIFRvcm9udG8g
-T04gTTVIIDJOMg0KT1JHQU5JWkVSO0NOPSJTbmFwc2hvdCBFdmVudHMgSW5jLiI6bWFpbHRvOm9y
-Z2FuaXplckBzbmFwc2hvdC5pbnZhbGlkDQpCRUdJTjpWQUxBUk0NClRSSUdHRVI6LVBUMUgNCkFD
-VElPTjpESVNQTEFZDQpERVNDUklQVElPTjpSZW1pbmRlcg0KRU5EOlZBTEFSTQ0KRU5EOlZFVkVO
-VA0KRU5EOlZDQUxFTkRBUg0K
+QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOi0vL0V2ZWVudHkgRXZlbnRzICYg
+VGlja2V0cy8vRmVzdGl2YWwgQ2FsZW5kYXIvL0VODQpDQUxTQ0FMRTpHUkVHT1JJQU4NCk1FVEhP
+RDpQVUJMSVNIDQpCRUdJTjpWRVZFTlQNClVJRDpmZXN0aXZhbC1maXhlZC0wMDFAZXZlZW50eS5j
+b20NCkRUU1RBTVA6Tk9STUFMSVpFRA0KRFRTVEFSVDoyMDI2MDMxNVQxMjAwMDBaDQpEVEVORDoy
+MDI2MDMxN1QxMjAwMDBaDQpTVU1NQVJZOkZlc3RpdmFsVGl0bGUgRmVzdGl2YWxUaXRsZSBGZXN0
+aXZhbFRpdGxlIEZlc3RpdmFsVGl0bGUgRmVzdGl2YWxUaXQNCiBsZSBGZXN0aXZhbFRpdGxlIEZl
+c3RpdmFsVGl0bGUgRmVzdGl2YWxUaXRsZSBGZXN0aXZhbFRpdGxlIEZlc3RpdmFsVGl0bGUgRg0K
+IGVzdGl2YWxUaXRsZSBGZXN0aXZhbFRpdGxlIEZlc3RpdmFsVGl0bGUgRmVzdGl2YWxUaXRsZSBG
+ZXN0aXZhbFRpdGxlIA0KREVTQ1JJUFRJT046U25hcHNob3QgZmVzdGl2YWwgZGVzY3JpcHRpb24N
+CkxPQ0FUSU9OOlNuYXBzaG90IEFyZW5hIC0gMTAwIFNuYXAgU3RyZWV0XCwgVG9yb250byBPTiBN
+NUggMk4yDQpPUkdBTklaRVI7Q049IlNuYXBzaG90IEV2ZW50cyBJbmMuIjptYWlsdG86b3JnYW5p
+emVyQHNuYXBzaG90LmludmFsaWQNCkJFR0lOOlZBTEFSTQ0KVFJJR0dFUjotUFQxSA0KQUNUSU9O
+OkRJU1BMQVkNCkRFU0NSSVBUSU9OOlJlbWluZGVyDQpFTkQ6VkFMQVJNDQpFTkQ6VkVWRU5UDQpF
+TkQ6VkNBTEVOREFSDQo=
 
 --BOUNDARY_1--

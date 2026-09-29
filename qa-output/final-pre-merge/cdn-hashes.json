@@ -1,0 +1,100 @@
+[
+  {
+    "assetId": "logo_en",
+    "key": "/logos/eveenty-logo-en.png",
+    "sha256": "42379ab959c195154f8051bd71fe96e370590448e0cfeeaa67e7b249dcf30de9",
+    "matchesManifest": false,
+    "status": 200
+  },
+  {
+    "assetId": "logo_fr",
+    "key": "/logos/eveenty-logo-fr.png",
+    "sha256": "89598cfbeb3bfab728cbcd51dcabfdeaa55d0b46e2acbd72d3cc939a898c4ae7",
+    "matchesManifest": false,
+    "status": 200
+  },
+  {
+    "assetId": "logo_es",
+    "key": "/logos/eveenty-logo-es.png",
+    "sha256": "d491b045b897c3e23be6bb080954a4d661a4a64026775d52e089ddbb162aac56",
+    "matchesManifest": false,
+    "status": 200
+  },
+  {
+    "assetId": "logo_ar",
+    "key": "/logos/eveenty-logo-ar.png",
+    "sha256": "20edbf5da81e4e6ee68fa2aa12eafcdbf07e6f1b8135b3609ea7bc45f9fe89e6",
+    "matchesManifest": false,
+    "status": 200
+  },
+  {
+    "assetId": "logo_fa",
+    "key": "/logos/eveenty-logo-fa.png",
+    "sha256": "14c594dd207b4ec9049023bf4064f428352bfb55e45827f887d8146283ec19a4",
+    "matchesManifest": false,
+    "status": 200
+  },
+  {
+    "assetId": "wallet_google-condensed_en",
+    "key": "/condensed/en.png",
+    "sha256": "fd8cb2b91c04f14aa23e8a96b515e2e0abc839fbf88b1212e42708905792284f",
+    "matchesManifest": true,
+    "status": 200
+  },
+  {
+    "assetId": "wallet_google-condensed_ar",
+    "key": "/condensed/ar.png",
+    "sha256": "159b3863b0989aca44013f6968abf6fb55e63b3025110833a1812209728d8bb4",
+    "matchesManifest": true,
+    "status": 200
+  },
+  {
+    "assetId": "wallet_google-condensed_fr",
+    "key": "/condensed/fr.png",
+    "sha256": "e1d367a8ee6e55d1853d1e840737866c4649e5ee21f729e00758bd9aaa63d08a",
+    "matchesManifest": true,
+    "status": 200
+  },
+  {
+    "assetId": "wallet_google-condensed_es",
+    "key": "/condensed/es.png",
+    "sha256": "a551e02dde2d27197fac3516a8f59433af012e8d8a8538ddc646f76b804e0d96",
+    "matchesManifest": true,
+    "status": 200
+  },
+  {
+    "assetId": "wallet_google-condensed_fa",
+    "key": "/condensed/fa.png",
+    "sha256": "1d93edbaa0b77e61c854fb16e2d7c60b4904653ef2bbb840a7591bf90e381831",
+    "matchesManifest": true,
+    "status": 200
+  },
+  {
+    "assetId": "wallet_apple_en",
+    "key": "/apple/en.png",
+    "sha256": "12a0dbedcd20639a856bec213ee1767e92e6bd85f0b180bb3f83ce2127a9c9b4",
+    "matchesManifest": true,
+    "status": 200
+  },
+  {
+    "assetId": "wallet_apple_ar",
+    "key": "/apple/ar.png",
+    "sha256": "6f90fe69d8538d7e06e0e3e8c45748e771db4dbf7b7e7d1055ca3dc1857562c0",
+    "matchesManifest": true,
+    "status": 200
+  },
+  {
+    "assetId": "wallet_apple_fr",
+    "key": "/apple/fr.png",
+    "sha256": "cdc0fe9798d9561fb1a6d0a9f78ec10d147a07efce5d2c544a291f3bc81bfae5",
+    "matchesManifest": true,
+    "status": 200
+  },
+  {
+    "assetId": "wallet_apple_es",
+    "key": "/apple/es.png",
+    "sha256": "fd2a3bc85cd0a0f2a221d259c8394fdc018cebcf81ecea75eaa9f98deee07eb7",
+    "matchesManifest": true,
+    "status": 200
+  }
+]

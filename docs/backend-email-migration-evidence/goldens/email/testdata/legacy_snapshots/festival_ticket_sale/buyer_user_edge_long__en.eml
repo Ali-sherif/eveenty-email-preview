@@ -141,6 +141,7 @@ Content-Type: text/html; charset="utf-8"
                   <p class="title2" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';font-size: 14px;color: #9d9ea0;text-align: left;">Price</p>
                   <!-- Price is always LTR (numeric with currency symbol) -->
                   <p class="name-discription" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';color: #474746;font-weight: bold;font-size: 24px;text-align: left;" dir="ltr">$30.00 CAD</p>
+                  <p class="name-discription" style="padding: 0;line-height: 1.5;margin: 0;font-family: 'Roboto';color: #474746;font-size: 18px;text-align: left;"></p>
                 </div>
               </div>
               
@@ -396,33 +397,25 @@ RklYRUQtUEtQQVNTLUNPTlRFTlQtRk9SLVAzLVNOQVBTSE9U
       
     
 
---boundary-string
-Content-Type: text/calendar; method=REQUEST; name="event.ics"
-Content-Disposition: attachment; filename="event.ics"
-Content-Transfer-Encoding: 7bit
 
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//Rescounts Events & Tickets//Festival Calendar//EN
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-BEGIN:VEVENT
-UID:festival-fixed-001@rescounts.com
-DTSTAMP:NORMALIZED
-DTSTART:20260315T120000Z
-DTEND:20260317T120000Z
-SUMMARY:FestivalTitle FestivalTitle FestivalTitle FestivalTitle FestivalTit
- le FestivalTitle FestivalTitle FestivalTitle FestivalTitle FestivalTitle F
- estivalTitle FestivalTitle FestivalTitle FestivalTitle FestivalTitle 
-DESCRIPTION:Snapshot festival description
-LOCATION:Snapshot Arena - 100 Snap Street\, Toronto ON M5H 2N2
-ORGANIZER;CN="Snapshot Events Inc.":mailto:organizer@snapshot.invalid
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-END:VEVENT
-END:VCALENDAR
+--boundary-string
+Content-Type: text/calendar; charset="utf-8"; method=PUBLISH; name="event.ics"
+Content-Disposition: attachment; filename="event.ics"
+Content-Transfer-Encoding: base64
+
+QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOi0vL0V2ZWVudHkgRXZlbnRzICYg
+VGlja2V0cy8vRmVzdGl2YWwgQ2FsZW5kYXIvL0VODQpDQUxTQ0FMRTpHUkVHT1JJQU4NCk1FVEhP
+RDpQVUJMSVNIDQpCRUdJTjpWRVZFTlQNClVJRDpmZXN0aXZhbC1maXhlZC0wMDFAZXZlZW50eS5j
+b20NCkRUU1RBTVA6Tk9STUFMSVpFRA0KRFRTVEFSVDoyMDI2MDMxNVQxMjAwMDBaDQpEVEVORDoy
+MDI2MDMxN1QxMjAwMDBaDQpTVU1NQVJZOkZlc3RpdmFsVGl0bGUgRmVzdGl2YWxUaXRsZSBGZXN0
+aXZhbFRpdGxlIEZlc3RpdmFsVGl0bGUgRmVzdGl2YWxUaXQNCiBsZSBGZXN0aXZhbFRpdGxlIEZl
+c3RpdmFsVGl0bGUgRmVzdGl2YWxUaXRsZSBGZXN0aXZhbFRpdGxlIEZlc3RpdmFsVGl0bGUgRg0K
+IGVzdGl2YWxUaXRsZSBGZXN0aXZhbFRpdGxlIEZlc3RpdmFsVGl0bGUgRmVzdGl2YWxUaXRsZSBG
+ZXN0aXZhbFRpdGxlIA0KREVTQ1JJUFRJT046U25hcHNob3QgZmVzdGl2YWwgZGVzY3JpcHRpb24N
+CkxPQ0FUSU9OOlNuYXBzaG90IEFyZW5hIC0gMTAwIFNuYXAgU3RyZWV0XCwgVG9yb250byBPTiBN
+NUggMk4yDQpPUkdBTklaRVI7Q049IlNuYXBzaG90IEV2ZW50cyBJbmMuIjptYWlsdG86b3JnYW5p
+emVyQHNuYXBzaG90LmludmFsaWQNCkJFR0lOOlZBTEFSTQ0KVFJJR0dFUjotUFQxSA0KQUNUSU9O
+OkRJU1BMQVkNCkRFU0NSSVBUSU9OOlJlbWluZGVyDQpFTkQ6VkFMQVJNDQpFTkQ6VkVWRU5UDQpF
+TkQ6VkNBTEVOREFSDQo=
 
 --boundary-string--

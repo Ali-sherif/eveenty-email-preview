@@ -132,6 +132,7 @@ Content-Type: text/html; charset="utf-8"
                   <p class="title2" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';font-size: 14px;color: #9d9ea0;text-align: right;">قیمت</p>
                   <!-- Price is always LTR (numeric with currency symbol) -->
                   <p class="name-discription" style="padding: 0;line-height: 2;margin: 0;font-style: Regular;font-family: 'Roboto';color: #474746;font-weight: bold;font-size: 24px;text-align: right;" dir="ltr">$30.00 CAD</p>
+                  <p class="name-discription" style="padding: 0;line-height: 1.5;margin: 0;font-family: 'Roboto';color: #474746;font-size: 18px;text-align: right;"></p>
                 </div>
               </div>
               
@@ -377,31 +378,5 @@ Content-Type: text/html; charset="utf-8"
       
     
 
---boundary-string
-Content-Type: text/calendar; method=REQUEST; name="event.ics"
-Content-Disposition: attachment; filename="event.ics"
-Content-Transfer-Encoding: 7bit
-
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//Rescounts Events & Tickets//Festival Calendar//EN
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-BEGIN:VEVENT
-UID:festival-fixed-001@rescounts.com
-DTSTAMP:NORMALIZED
-DTSTART:20260315T120000Z
-DTEND:20260317T120000Z
-SUMMARY:Snapshot Festival 2026
-DESCRIPTION:Snapshot festival description
-LOCATION:Snapshot Arena - 100 Snap Street\, Toronto ON M5H 2N2
-ORGANIZER;CN="Snapshot Events Inc.":mailto:organizer@snapshot.invalid
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder
-END:VALARM
-END:VEVENT
-END:VCALENDAR
 
 --boundary-string--

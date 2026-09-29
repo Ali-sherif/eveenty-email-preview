@@ -1,5 +1,18 @@
 # HANDOFF — Eveenty Email Design Kit
 
+## Latest session — preserved suite reconciliation (2026-09-29)
+
+**PRESERVED MIGRATION SUITE — PASS.** See `production-migration/PRESERVED_SUITE_RECONCILIATION_REPORT.md`.
+
+- Initial preserved failures: 167 leaf (130 historical + day-drift reminders + ICS UID). After justified normalize/ICS expectation fixes and selective golden refresh against current HEAD: **0 leaf failures**.
+- Organizer ticket sale: HEAD has no `FestivalICSData` — stale ICS expectations removed from goldens/parity only. ICS UID expectation updated to `@eveenty.com` to match `model/festival.go`. No production behavior changes for tests.
+- `go build ./...`, `go vet ./email/... ./config/...`, checkout `go test ./email/...`, full overlay preserved suite, and model ICS filter: PASS. No commit/push/deploy.
+- Final pre-merge visual/CDN/security items from `FINAL_PRE_MERGE_REVIEW.md` are unchanged and still block an unqualified merge-ready claim outside this suite gate.
+
+## Prior session — final pre-merge review (2026-09-28)
+
+**NOT READY — MIGRATION DEFECTS FOUND** (visual/CDN/security/port-omission gates). Functional fresh HEAD comparisons had already PASS; preserved suite was the open local test gate and is now reconciled (see above). Details remain in `production-migration/FINAL_PRE_MERGE_REVIEW.md`.
+
 ## Current task
 
 **Post-P4 local work COMPLETE in `rescounts-backend`. Next environment: DEV deploy (not Production).**

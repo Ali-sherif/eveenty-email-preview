@@ -1,0 +1,201 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "physical_count",
+      "ok": true,
+      "detail": "59"
+    },
+    {
+      "name": "unique_ids",
+      "ok": true,
+      "detail": "59"
+    },
+    {
+      "name": "scope_split",
+      "ok": true,
+      "detail": "IN_SCOPE 48 / EXCLUDED 11"
+    },
+    {
+      "name": "designed",
+      "ok": true,
+      "detail": "48"
+    },
+    {
+      "name": "undesigned_in_scope",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "backend_Auth/Simple",
+      "ok": true,
+      "detail": "2"
+    },
+    {
+      "name": "backend_Financial/Receipt",
+      "ok": true,
+      "detail": "20"
+    },
+    {
+      "name": "backend_Ticket/Pass",
+      "ok": true,
+      "detail": "8"
+    },
+    {
+      "name": "backend_Workflow/Status",
+      "ok": true,
+      "detail": "15"
+    },
+    {
+      "name": "backend_Internal/Operational",
+      "ok": true,
+      "detail": "7"
+    },
+    {
+      "name": "backend_Campaign/Announcement",
+      "ok": true,
+      "detail": "7"
+    },
+    {
+      "name": "design_kit_TRANSACTIONAL",
+      "ok": true,
+      "detail": "2"
+    },
+    {
+      "name": "design_kit_COMMERCE",
+      "ok": true,
+      "detail": "26"
+    },
+    {
+      "name": "design_kit_NOTIFICATION",
+      "ok": true,
+      "detail": "17"
+    },
+    {
+      "name": "design_kit_MARKETING",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "name": "designed_ids",
+      "ok": true,
+      "detail": "activate_email, bad_content_alert, book_demo_admin, contact_submission, dispute_notification, extra_service_request, festival_activity_sale, festival_add_on_sale, festival_approval_status_changed, festival_created, festival_donation, festival_marketing_approval, festival_marketing_approval_sms, festival_marketing_email_target, festival_payout, festival_rescounts_marketing_email_target, festival_sale_installment_paid, festival_sales, festival_sponsor_sale, festival_ticket_registration, festival_ticket_registration_approval, festival_ticket_registration_deadline_exceeded, festival_ticket_registration_payment_deadline_exceeded, festival_ticket_registration_reject, festival_ticket_sale, festival_update_request_approved, festival_update_request_issued, festival_update_request_rejected, festival_vendor_sale, festival_vendor_sale_rejection, first_payment_refund, marketing_package_sale, needs_response_dispute_reminder, organizer_announcement, organizer_festival_marketing_email_receipt, organizer_festival_marketing_sms_receipt, partner_coupons, partner_coupons_partner, password_reset, refund_receipt_admin, refund_receipt_organizer, refund_receipt_user, registration_approval_status_changed, second_payment_reminder, sponsor_first_payment_refund, sponsor_installment_paid, sponsor_installment_second_payment_reminder, support"
+    },
+    {
+      "name": "organizer_announcement",
+      "ok": true,
+      "detail": "IN_SCOPE · DESIGNED · MARKETING"
+    },
+    {
+      "name": "inventory_block",
+      "ok": true,
+      "detail": "{\"physical\":59,\"excluded\":11,\"in_scope\":48,\"designed\":48,\"undesigned\":0}"
+    },
+    {
+      "name": "traceability_rows",
+      "ok": true,
+      "detail": "59"
+    },
+    {
+      "name": "required_metadata",
+      "ok": true,
+      "detail": "59 records complete"
+    },
+    {
+      "name": "supported_status_transitions",
+      "ok": true,
+      "detail": "scope/design-status combinations valid"
+    },
+    {
+      "name": "preview_paths",
+      "ok": true,
+      "detail": "48 designed previews readable"
+    },
+    {
+      "name": "catalog_traceability_ids",
+      "ok": true,
+      "detail": "59 exact IDs"
+    },
+    {
+      "name": "traceability_mapping_parity",
+      "ok": true,
+      "detail": "59 mappings match"
+    },
+    {
+      "name": "production_templates",
+      "ok": true,
+      "detail": "59 read-only sources readable"
+    }
+  ],
+  "inventory": {
+    "physical": 59,
+    "excluded": 11,
+    "in_scope": 48,
+    "designed": 48,
+    "undesigned": 0
+  },
+  "backend": {
+    "Auth/Simple": 2,
+    "Financial/Receipt": 20,
+    "Ticket/Pass": 8,
+    "Workflow/Status": 15,
+    "Internal/Operational": 7,
+    "Campaign/Announcement": 7
+  },
+  "design_kit_in_scope": {
+    "TRANSACTIONAL": 2,
+    "COMMERCE": 26,
+    "NOTIFICATION": 17,
+    "MARKETING": 3
+  },
+  "designedIds": [
+    "activate_email",
+    "bad_content_alert",
+    "book_demo_admin",
+    "contact_submission",
+    "dispute_notification",
+    "extra_service_request",
+    "festival_activity_sale",
+    "festival_add_on_sale",
+    "festival_approval_status_changed",
+    "festival_created",
+    "festival_donation",
+    "festival_marketing_approval",
+    "festival_marketing_approval_sms",
+    "festival_marketing_email_target",
+    "festival_payout",
+    "festival_rescounts_marketing_email_target",
+    "festival_sale_installment_paid",
+    "festival_sales",
+    "festival_sponsor_sale",
+    "festival_ticket_registration",
+    "festival_ticket_registration_approval",
+    "festival_ticket_registration_deadline_exceeded",
+    "festival_ticket_registration_payment_deadline_exceeded",
+    "festival_ticket_registration_reject",
+    "festival_ticket_sale",
+    "festival_update_request_approved",
+    "festival_update_request_issued",
+    "festival_update_request_rejected",
+    "festival_vendor_sale",
+    "festival_vendor_sale_rejection",
+    "first_payment_refund",
+    "marketing_package_sale",
+    "needs_response_dispute_reminder",
+    "organizer_announcement",
+    "organizer_festival_marketing_email_receipt",
+    "organizer_festival_marketing_sms_receipt",
+    "partner_coupons",
+    "partner_coupons_partner",
+    "password_reset",
+    "refund_receipt_admin",
+    "refund_receipt_organizer",
+    "refund_receipt_user",
+    "registration_approval_status_changed",
+    "second_payment_reminder",
+    "sponsor_first_payment_refund",
+    "sponsor_installment_paid",
+    "sponsor_installment_second_payment_reminder",
+    "support"
+  ]
+}

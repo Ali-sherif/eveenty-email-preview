@@ -259,7 +259,7 @@
     {
       "id": "activate_email",
       "filename": "activate_email.template",
-      "production_path": "email/templates/activate_email.template",
+      "production_path": "email/templates/archive/legacy/activate_email.template",
       "backend_family": "Auth/Simple",
       "design_kit_family": "TRANSACTIONAL",
       "functional_subfolder": "Account-Activation",
@@ -273,7 +273,7 @@
     {
       "id": "password_reset",
       "filename": "password_reset.template",
-      "production_path": "email/templates/password_reset.template",
+      "production_path": "email/templates/archive/legacy/password_reset.template",
       "backend_family": "Auth/Simple",
       "design_kit_family": "TRANSACTIONAL",
       "functional_subfolder": "Password-Reset",
@@ -287,7 +287,7 @@
     {
       "id": "festival_donation",
       "filename": "festival_donation.template",
-      "production_path": "email/templates/festival_donation.template",
+      "production_path": "email/templates/archive/legacy/festival_donation.template",
       "backend_family": "Financial/Receipt",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Donations",
@@ -301,7 +301,7 @@
     {
       "id": "festival_ticket_sale",
       "filename": "festival_ticket_sale.template",
-      "production_path": "email/templates/festival_ticket_sale.template",
+      "production_path": "email/templates/archive/legacy/festival_ticket_sale.template",
       "backend_family": "Financial/Receipt",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Ticket-Sales",
@@ -315,7 +315,7 @@
     {
       "id": "festival_add_on_sale",
       "filename": "festival_add_on_sale.template",
-      "production_path": "email/templates/festival_add_on_sale.template",
+      "production_path": "email/templates/archive/legacy/festival_add_on_sale.template",
       "backend_family": "Financial/Receipt",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Ticket-Sales",
@@ -329,7 +329,7 @@
     {
       "id": "festival_activity_sale",
       "filename": "festival_activity_sale.template",
-      "production_path": "email/templates/festival_activity_sale.template",
+      "production_path": "email/templates/archive/legacy/festival_activity_sale.template",
       "backend_family": "Financial/Receipt",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Ticket-Sales",
@@ -343,7 +343,7 @@
     {
       "id": "festival_sponsor_sale",
       "filename": "festival_sponsor_sale.template",
-      "production_path": "email/templates/festival_sponsor_sale.template",
+      "production_path": "email/templates/archive/legacy/festival_sponsor_sale.template",
       "backend_family": "Financial/Receipt",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Sponsor-Sales",
@@ -357,7 +357,7 @@
     {
       "id": "festival_sales",
       "filename": "festival_sales.template",
-      "production_path": "email/templates/festival_sales.template",
+      "production_path": "email/templates/archive/legacy/festival_sales.template",
       "backend_family": "Financial/Receipt",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Booth-Vendor-Sales",
@@ -371,7 +371,7 @@
     {
       "id": "festival_vendor_sale",
       "filename": "festival_vendor_sale.template",
-      "production_path": "email/templates/festival_vendor_sale.template",
+      "production_path": "email/templates/archive/legacy/festival_vendor_sale.template",
       "backend_family": "Financial/Receipt",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Booth-Vendor-Sales",
@@ -385,7 +385,7 @@
     {
       "id": "festival_sale_installment_paid",
       "filename": "festival_sale_installment_paid.template",
-      "production_path": "email/templates/festival_sale_installment_paid.template",
+      "production_path": "email/templates/archive/legacy/festival_sale_installment_paid.template",
       "backend_family": "Financial/Receipt",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Installments",
@@ -399,7 +399,7 @@
     {
       "id": "second_payment_reminder",
       "filename": "second_payment_reminder.template",
-      "production_path": "email/templates/second_payment_reminder.template",
+      "production_path": "email/templates/archive/legacy/second_payment_reminder.template",
       "backend_family": "Financial/Receipt",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Installments",
@@ -413,7 +413,7 @@
     {
       "id": "first_payment_refund",
       "filename": "first_payment_refund.template",
-      "production_path": "email/templates/first_payment_refund.template",
+      "production_path": "email/templates/archive/legacy/first_payment_refund.template",
       "backend_family": "Financial/Receipt",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Installments",
@@ -427,7 +427,7 @@
     {
       "id": "sponsor_installment_paid",
       "filename": "sponsor_installment_paid.template",
-      "production_path": "email/templates/sponsor_installment_paid.template",
+      "production_path": "email/templates/archive/legacy/sponsor_installment_paid.template",
       "backend_family": "Financial/Receipt",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Installments",
@@ -441,7 +441,7 @@
     {
       "id": "sponsor_installment_second_payment_reminder",
       "filename": "sponsor_installment_second_payment_reminder.template",
-      "production_path": "email/templates/sponsor_installment_second_payment_reminder.template",
+      "production_path": "email/templates/archive/legacy/sponsor_installment_second_payment_reminder.template",
       "backend_family": "Financial/Receipt",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Installments",
@@ -455,7 +455,7 @@
     {
       "id": "sponsor_first_payment_refund",
       "filename": "sponsor_first_payment_refund.template",
-      "production_path": "email/templates/sponsor_first_payment_refund.template",
+      "production_path": "email/templates/archive/legacy/sponsor_first_payment_refund.template",
       "backend_family": "Financial/Receipt",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Installments",
@@ -469,7 +469,7 @@
     {
       "id": "refund_receipt_user",
       "filename": "refund_receipt_user.template",
-      "production_path": "email/templates/refund_receipt_user.template",
+      "production_path": "email/templates/archive/legacy/refund_receipt_user.template",
       "backend_family": "Financial/Receipt",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Refunds",
@@ -483,7 +483,7 @@
     {
       "id": "refund_receipt_organizer",
       "filename": "refund_receipt_organizer.template",
-      "production_path": "email/templates/refund_receipt_organizer.template",
+      "production_path": "email/templates/archive/legacy/refund_receipt_organizer.template",
       "backend_family": "Financial/Receipt",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Refunds",
@@ -497,7 +497,7 @@
     {
       "id": "refund_receipt_admin",
       "filename": "refund_receipt_admin.template",
-      "production_path": "email/templates/refund_receipt_admin.template",
+      "production_path": "email/templates/archive/legacy/refund_receipt_admin.template",
       "backend_family": "Financial/Receipt",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Refunds",
@@ -511,7 +511,7 @@
     {
       "id": "marketing_package_sale",
       "filename": "marketing_package_sale.template",
-      "production_path": "email/templates/marketing_package_sale.template",
+      "production_path": "email/templates/archive/legacy/marketing_package_sale.template",
       "backend_family": "Financial/Receipt",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Marketing-Package",
@@ -525,7 +525,7 @@
     {
       "id": "receipt",
       "filename": "receipt.template",
-      "production_path": "email/templates/receipt.template",
+      "production_path": "email/templates/archive/legacy/receipt.template",
       "backend_family": "Financial/Receipt",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Restaurant-Legacy",
@@ -539,7 +539,7 @@
     {
       "id": "invoice",
       "filename": "invoice.template",
-      "production_path": "email/templates/invoice.template",
+      "production_path": "email/templates/archive/legacy/invoice.template",
       "backend_family": "Financial/Receipt",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Restaurant-Legacy",
@@ -553,7 +553,7 @@
     {
       "id": "festival_payout",
       "filename": "festival_payout.template",
-      "production_path": "email/templates/festival_payout.template",
+      "production_path": "email/templates/archive/legacy/festival_payout.template",
       "backend_family": "Financial/Receipt",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Payouts",
@@ -567,7 +567,7 @@
     {
       "id": "festival_ticket_registration",
       "filename": "festival_ticket_registration.template",
-      "production_path": "email/templates/festival_ticket_registration.template",
+      "production_path": "email/templates/archive/legacy/festival_ticket_registration.template",
       "backend_family": "Ticket/Pass",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Registration",
@@ -581,7 +581,7 @@
     {
       "id": "festival_ticket_registration_approval",
       "filename": "festival_ticket_registration_approval.template",
-      "production_path": "email/templates/festival_ticket_registration_approval.template",
+      "production_path": "email/templates/archive/legacy/festival_ticket_registration_approval.template",
       "backend_family": "Ticket/Pass",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Registration",
@@ -595,7 +595,7 @@
     {
       "id": "festival_ticket_registration_reject",
       "filename": "festival_ticket_registration_reject.template",
-      "production_path": "email/templates/festival_ticket_registration_reject.template",
+      "production_path": "email/templates/archive/legacy/festival_ticket_registration_reject.template",
       "backend_family": "Ticket/Pass",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Registration",
@@ -609,7 +609,7 @@
     {
       "id": "festival_ticket_registration_deadline_exceeded",
       "filename": "festival_ticket_registration_deadline_exceeded.template",
-      "production_path": "email/templates/festival_ticket_registration_deadline_exceeded.template",
+      "production_path": "email/templates/archive/legacy/festival_ticket_registration_deadline_exceeded.template",
       "backend_family": "Ticket/Pass",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Registration",
@@ -623,7 +623,7 @@
     {
       "id": "festival_ticket_registration_payment_deadline_exceeded",
       "filename": "festival_ticket_registration_payment_deadline_exceeded.template",
-      "production_path": "email/templates/festival_ticket_registration_payment_deadline_exceeded.template",
+      "production_path": "email/templates/archive/legacy/festival_ticket_registration_payment_deadline_exceeded.template",
       "backend_family": "Ticket/Pass",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Registration",
@@ -637,7 +637,7 @@
     {
       "id": "registration_approval_status_changed",
       "filename": "registration_approval_status_changed.template",
-      "production_path": "email/templates/registration_approval_status_changed.template",
+      "production_path": "email/templates/archive/legacy/registration_approval_status_changed.template",
       "backend_family": "Ticket/Pass",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Registration",
@@ -651,7 +651,7 @@
     {
       "id": "partner_coupons",
       "filename": "partner_coupons.template",
-      "production_path": "email/templates/partner_coupons.template",
+      "production_path": "email/templates/archive/legacy/partner_coupons.template",
       "backend_family": "Ticket/Pass",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Partner-Coupons",
@@ -665,7 +665,7 @@
     {
       "id": "partner_coupons_partner",
       "filename": "partner_coupons_partner.template",
-      "production_path": "email/templates/partner_coupons_partner.template",
+      "production_path": "email/templates/archive/legacy/partner_coupons_partner.template",
       "backend_family": "Ticket/Pass",
       "design_kit_family": "COMMERCE",
       "functional_subfolder": "Partner-Coupons",
@@ -679,7 +679,7 @@
     {
       "id": "festival_approval_status_changed",
       "filename": "festival_approval_status_changed.template",
-      "production_path": "email/templates/festival_approval_status_changed.template",
+      "production_path": "email/templates/archive/legacy/festival_approval_status_changed.template",
       "backend_family": "Workflow/Status",
       "design_kit_family": "NOTIFICATION",
       "functional_subfolder": "Approvals-Status",
@@ -693,7 +693,7 @@
     {
       "id": "festival_update_request_approved",
       "filename": "festival_update_request_approved.template",
-      "production_path": "email/templates/festival_update_request_approved.template",
+      "production_path": "email/templates/archive/legacy/festival_update_request_approved.template",
       "backend_family": "Workflow/Status",
       "design_kit_family": "NOTIFICATION",
       "functional_subfolder": "Approvals-Status",
@@ -707,7 +707,7 @@
     {
       "id": "festival_update_request_rejected",
       "filename": "festival_update_request_rejected.template",
-      "production_path": "email/templates/festival_update_request_rejected.template",
+      "production_path": "email/templates/archive/legacy/festival_update_request_rejected.template",
       "backend_family": "Workflow/Status",
       "design_kit_family": "NOTIFICATION",
       "functional_subfolder": "Approvals-Status",
@@ -721,7 +721,7 @@
     {
       "id": "festival_vendor_sale_rejection",
       "filename": "festival_vendor_sale_rejection.template",
-      "production_path": "email/templates/festival_vendor_sale_rejection.template",
+      "production_path": "email/templates/archive/legacy/festival_vendor_sale_rejection.template",
       "backend_family": "Workflow/Status",
       "design_kit_family": "NOTIFICATION",
       "functional_subfolder": "Approvals-Status",
@@ -735,7 +735,7 @@
     {
       "id": "dispute_notification",
       "filename": "dispute_notification.template",
-      "production_path": "email/templates/dispute_notification.template",
+      "production_path": "email/templates/archive/legacy/dispute_notification.template",
       "backend_family": "Workflow/Status",
       "design_kit_family": "NOTIFICATION",
       "functional_subfolder": "Disputes",
@@ -749,7 +749,7 @@
     {
       "id": "needs_response_dispute_reminder",
       "filename": "needs_response_dispute_reminder.template",
-      "production_path": "email/templates/needs_response_dispute_reminder.template",
+      "production_path": "email/templates/archive/legacy/needs_response_dispute_reminder.template",
       "backend_family": "Workflow/Status",
       "design_kit_family": "NOTIFICATION",
       "functional_subfolder": "Disputes",
@@ -763,7 +763,7 @@
     {
       "id": "festival_update_request_issued",
       "filename": "festival_update_request_issued.template",
-      "production_path": "email/templates/festival_update_request_issued.template",
+      "production_path": "email/templates/archive/legacy/festival_update_request_issued.template",
       "backend_family": "Workflow/Status",
       "design_kit_family": "NOTIFICATION",
       "functional_subfolder": "Approvals-Status",
@@ -777,7 +777,7 @@
     {
       "id": "festival_created",
       "filename": "festival_created.template",
-      "production_path": "email/templates/festival_created.template",
+      "production_path": "email/templates/archive/legacy/festival_created.template",
       "backend_family": "Workflow/Status",
       "design_kit_family": "NOTIFICATION",
       "functional_subfolder": "Approvals-Status",
@@ -791,7 +791,7 @@
     {
       "id": "marketing_approval_1",
       "filename": "marketing_approval_1.template",
-      "production_path": "email/templates/marketing_approval_1.template",
+      "production_path": "email/templates/archive/legacy/marketing_approval_1.template",
       "backend_family": "Workflow/Status",
       "design_kit_family": "NOTIFICATION",
       "functional_subfolder": "Restaurant-Legacy",
@@ -805,7 +805,7 @@
     {
       "id": "marketing_sms_approval",
       "filename": "marketing_sms_approval.template",
-      "production_path": "email/templates/marketing_sms_approval.template",
+      "production_path": "email/templates/archive/legacy/marketing_sms_approval.template",
       "backend_family": "Workflow/Status",
       "design_kit_family": "NOTIFICATION",
       "functional_subfolder": "Restaurant-Legacy",
@@ -819,7 +819,7 @@
     {
       "id": "marketing_notification_approval",
       "filename": "marketing_notification_approval.template",
-      "production_path": "email/templates/marketing_notification_approval.template",
+      "production_path": "email/templates/archive/legacy/marketing_notification_approval.template",
       "backend_family": "Workflow/Status",
       "design_kit_family": "NOTIFICATION",
       "functional_subfolder": "Restaurant-Legacy",
@@ -833,7 +833,7 @@
     {
       "id": "festival_marketing_approval",
       "filename": "festival_marketing_approval.template",
-      "production_path": "email/templates/festival_marketing_approval.template",
+      "production_path": "email/templates/archive/legacy/festival_marketing_approval.template",
       "backend_family": "Workflow/Status",
       "design_kit_family": "NOTIFICATION",
       "functional_subfolder": "Approvals-Status",
@@ -847,7 +847,7 @@
     {
       "id": "festival_marketing_approval_sms",
       "filename": "festival_marketing_approval_sms.template",
-      "production_path": "email/templates/festival_marketing_approval_sms.template",
+      "production_path": "email/templates/archive/legacy/festival_marketing_approval_sms.template",
       "backend_family": "Workflow/Status",
       "design_kit_family": "NOTIFICATION",
       "functional_subfolder": "Approvals-Status",
@@ -861,7 +861,7 @@
     {
       "id": "restaurant_approval",
       "filename": "restaurant_approval.template",
-      "production_path": "email/templates/restaurant_approval.template",
+      "production_path": "email/templates/archive/legacy/restaurant_approval.template",
       "backend_family": "Workflow/Status",
       "design_kit_family": "NOTIFICATION",
       "functional_subfolder": "Restaurant-Legacy",
@@ -875,7 +875,7 @@
     {
       "id": "restaurant_decline",
       "filename": "restaurant_decline.template",
-      "production_path": "email/templates/restaurant_decline.template",
+      "production_path": "email/templates/archive/legacy/restaurant_decline.template",
       "backend_family": "Workflow/Status",
       "design_kit_family": "NOTIFICATION",
       "functional_subfolder": "Restaurant-Legacy",
@@ -889,7 +889,7 @@
     {
       "id": "support",
       "filename": "support.template",
-      "production_path": "email/templates/support.template",
+      "production_path": "email/templates/archive/legacy/support.template",
       "backend_family": "Internal/Operational",
       "design_kit_family": "NOTIFICATION",
       "functional_subfolder": "Support-Ops",
@@ -903,7 +903,7 @@
     {
       "id": "bad_content_alert",
       "filename": "bad_content_alert.template",
-      "production_path": "email/templates/bad_content_alert.template",
+      "production_path": "email/templates/archive/legacy/bad_content_alert.template",
       "backend_family": "Internal/Operational",
       "design_kit_family": "NOTIFICATION",
       "functional_subfolder": "Support-Ops",
@@ -917,7 +917,7 @@
     {
       "id": "contact_submission",
       "filename": "contact_submission.template",
-      "production_path": "email/templates/contact_submission.template",
+      "production_path": "email/templates/archive/legacy/contact_submission.template",
       "backend_family": "Internal/Operational",
       "design_kit_family": "NOTIFICATION",
       "functional_subfolder": "Support-Ops",
@@ -931,7 +931,7 @@
     {
       "id": "book_demo_admin",
       "filename": "book_demo_admin.template",
-      "production_path": "email/templates/book_demo_admin.template",
+      "production_path": "email/templates/archive/legacy/book_demo_admin.template",
       "backend_family": "Internal/Operational",
       "design_kit_family": "NOTIFICATION",
       "functional_subfolder": "Support-Ops",
@@ -945,7 +945,7 @@
     {
       "id": "extra_service_request",
       "filename": "extra_service_request.template",
-      "production_path": "email/templates/extra_service_request.template",
+      "production_path": "email/templates/archive/legacy/extra_service_request.template",
       "backend_family": "Internal/Operational",
       "design_kit_family": "NOTIFICATION",
       "functional_subfolder": "Support-Ops",
@@ -959,7 +959,7 @@
     {
       "id": "organizer_festival_marketing_email_receipt",
       "filename": "organizer_festival_marketing_email_receipt.template",
-      "production_path": "email/templates/organizer_festival_marketing_email_receipt.template",
+      "production_path": "email/templates/archive/legacy/organizer_festival_marketing_email_receipt.template",
       "backend_family": "Internal/Operational",
       "design_kit_family": "NOTIFICATION",
       "functional_subfolder": "Organizer-Campaign-Receipts",
@@ -973,7 +973,7 @@
     {
       "id": "organizer_festival_marketing_sms_receipt",
       "filename": "organizer_festival_marketing_sms_receipt.template",
-      "production_path": "email/templates/organizer_festival_marketing_sms_receipt.template",
+      "production_path": "email/templates/archive/legacy/organizer_festival_marketing_sms_receipt.template",
       "backend_family": "Internal/Operational",
       "design_kit_family": "NOTIFICATION",
       "functional_subfolder": "Organizer-Campaign-Receipts",
@@ -987,7 +987,7 @@
     {
       "id": "marketing",
       "filename": "marketing.template",
-      "production_path": "email/templates/marketing.template",
+      "production_path": "email/templates/archive/legacy/marketing.template",
       "backend_family": "Campaign/Announcement",
       "design_kit_family": "MARKETING",
       "functional_subfolder": "Restaurant-Legacy-Campaigns",
@@ -1001,7 +1001,7 @@
     {
       "id": "marketing2",
       "filename": "marketing2.template",
-      "production_path": "email/templates/marketing2.template",
+      "production_path": "email/templates/archive/legacy/marketing2.template",
       "backend_family": "Campaign/Announcement",
       "design_kit_family": "MARKETING",
       "functional_subfolder": "Restaurant-Legacy-Campaigns",
@@ -1015,7 +1015,7 @@
     {
       "id": "marketing3",
       "filename": "marketing3.template",
-      "production_path": "email/templates/marketing3.template",
+      "production_path": "email/templates/archive/legacy/marketing3.template",
       "backend_family": "Campaign/Announcement",
       "design_kit_family": "MARKETING",
       "functional_subfolder": "Restaurant-Legacy-Campaigns",
@@ -1029,7 +1029,7 @@
     {
       "id": "marketing4",
       "filename": "marketing4.template",
-      "production_path": "email/templates/marketing4.template",
+      "production_path": "email/templates/archive/legacy/marketing4.template",
       "backend_family": "Campaign/Announcement",
       "design_kit_family": "MARKETING",
       "functional_subfolder": "Restaurant-Legacy-Campaigns",
@@ -1043,7 +1043,7 @@
     {
       "id": "festival_marketing_email_target",
       "filename": "festival_marketing_email_target.template",
-      "production_path": "email/templates/festival_marketing_email_target.template",
+      "production_path": "email/templates/archive/legacy/festival_marketing_email_target.template",
       "backend_family": "Campaign/Announcement",
       "design_kit_family": "MARKETING",
       "functional_subfolder": "Campaigns",
@@ -1057,7 +1057,7 @@
     {
       "id": "festival_rescounts_marketing_email_target",
       "filename": "festival_rescounts_marketing_email_target.template",
-      "production_path": "email/templates/festival_rescounts_marketing_email_target.template",
+      "production_path": "email/templates/archive/legacy/festival_rescounts_marketing_email_target.template",
       "backend_family": "Campaign/Announcement",
       "design_kit_family": "MARKETING",
       "functional_subfolder": "Campaigns",
@@ -1071,7 +1071,7 @@
     {
       "id": "organizer_announcement",
       "filename": "organizer_announcement.template",
-      "production_path": "email/templates/organizer_announcement.template",
+      "production_path": "email/templates/archive/legacy/organizer_announcement.template",
       "backend_family": "Campaign/Announcement",
       "design_kit_family": "MARKETING",
       "functional_subfolder": "Organizer-Announcements",

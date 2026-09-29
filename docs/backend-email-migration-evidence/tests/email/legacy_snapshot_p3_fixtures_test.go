@@ -120,7 +120,7 @@ func fixedFestivalTicketSaleZeroAmount() *model.FestivalTicketSale {
 	sale.Tickets[0].Cost = 0
 	sale.Tickets[0].CostTax = 0
 	if sale.Tickets[0].FestivalTicketType != nil {
-		sale.Tickets[0].FestivalTicketType.Price = 0
+		// Price field was removed upstream; ticket Cost/CostTax above control this fixture.
 	}
 	return sale
 }

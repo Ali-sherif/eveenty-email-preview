@@ -104,7 +104,7 @@ func newCapturingSMTP(t *testing.T) (*smtpClient, *bytes.Buffer) {
 	// ── 3. Build a capturing smtpClient ──────────────────────────────────────
 	var buf bytes.Buffer
 
-	client := newTestSMTPClient(nil, nil)
+	client := newSMTPClient(nil, nil)
 
 	// Legacy goldens intentionally capture the pre-kit path. Production clients
 	// leave kitActive as loaded by loadKitTemplates (always on when kit parses).

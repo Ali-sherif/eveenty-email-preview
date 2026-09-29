@@ -1,0 +1,1302 @@
+[
+  {
+    "test": "TestKitLegacyParity",
+    "id": "festival_ticket_sale",
+    "case": "organizer__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/alternative",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 0
+  },
+  {
+    "test": "TestKitLegacyParity",
+    "id": "festival_ticket_sale",
+    "case": "organizer__fr",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/alternative",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 0
+  },
+  {
+    "test": "TestKitLegacyParity",
+    "id": "festival_ticket_sale",
+    "case": "organizer__es",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/alternative",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 0
+  },
+  {
+    "test": "TestKitLegacyParity",
+    "id": "festival_ticket_sale",
+    "case": "organizer__fa",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/alternative",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 0
+  },
+  {
+    "test": "TestKitLegacyParity",
+    "id": "festival_ticket_sale",
+    "case": "organizer__xx",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/alternative",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 0
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_sales",
+    "case": "admin__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_sales",
+    "case": "vendor__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_sales",
+    "case": "organizer__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user__ar",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "guest_user__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "admin__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "organizer__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/alternative",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 0
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "admin__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "user__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "organizer__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "admin__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "user__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "organizer__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_sponsor_sale",
+    "case": "admin__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_sponsor_sale",
+    "case": "sponsor__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_sponsor_sale",
+    "case": "organizer__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user_wallet1__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 2,
+    "newAttachmentCount": 2
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user_wallet3__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 4,
+    "newAttachmentCount": 4
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user_wallet1__fa",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 2,
+    "newAttachmentCount": 2
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user__fr",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user__es",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user__fa",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user__xx",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "user__ar",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "user__ar",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "user__fr",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "user__fr",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "user__es",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "user__es",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "user__fa",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "user__fa",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "user__xx",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "user__xx",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "organizer__fr",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/alternative",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 0
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "organizer__fr",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "organizer__fr",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_sales",
+    "case": "organizer__fr",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_sponsor_sale",
+    "case": "organizer__fr",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "organizer__es",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/alternative",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 0
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "organizer__es",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "organizer__es",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_sales",
+    "case": "organizer__es",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_sponsor_sale",
+    "case": "organizer__es",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "organizer__fa",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/alternative",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 0
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "organizer__fa",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "organizer__fa",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_sales",
+    "case": "organizer__fa",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_sponsor_sale",
+    "case": "organizer__fa",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "organizer__xx",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/alternative",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 0
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "organizer__xx",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "organizer__xx",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_sales",
+    "case": "organizer__xx",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_sponsor_sale",
+    "case": "organizer__xx",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_sales",
+    "case": "vendor__fr",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_sales",
+    "case": "vendor__es",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_sales",
+    "case": "vendor__fa",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_sales",
+    "case": "vendor__xx",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user_edge_long__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 2,
+    "newAttachmentCount": 2
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user_edge_10tickets__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 11,
+    "newAttachmentCount": 11
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user_edge_noimages__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestKitOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user_edge_zero__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_sales",
+    "case": "admin__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_sales",
+    "case": "vendor__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_sales",
+    "case": "organizer__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user__ar",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "guest_user__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "admin__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "organizer__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 0
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "admin__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "user__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "organizer__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "admin__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "user__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "organizer__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_sponsor_sale",
+    "case": "admin__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_sponsor_sale",
+    "case": "sponsor__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_sponsor_sale",
+    "case": "organizer__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "bad_content_alert",
+    "case": "admin__en",
+    "htmlEqualIgnoringClock": true,
+    "oldTopType": "text/html",
+    "newTopType": "text/html",
+    "oldAttachmentCount": 0,
+    "newAttachmentCount": 0
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user_wallet1__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 2,
+    "newAttachmentCount": 2
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user_wallet3__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 4,
+    "newAttachmentCount": 4
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user_wallet1__fa",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 2,
+    "newAttachmentCount": 2
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user__fr",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user__es",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user__fa",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user__xx",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "user__ar",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "user__ar",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "user__fr",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "user__fr",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "user__es",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "user__es",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "user__fa",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "user__fa",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "user__xx",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "user__xx",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "organizer__fr",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 0
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "organizer__fr",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "organizer__fr",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_sales",
+    "case": "organizer__fr",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_sponsor_sale",
+    "case": "organizer__fr",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "organizer__es",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 0
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "organizer__es",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "organizer__es",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_sales",
+    "case": "organizer__es",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_sponsor_sale",
+    "case": "organizer__es",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "organizer__fa",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 0
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "organizer__fa",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "organizer__fa",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_sales",
+    "case": "organizer__fa",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_sponsor_sale",
+    "case": "organizer__fa",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "organizer__xx",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 0
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_add_on_sale",
+    "case": "organizer__xx",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_activity_sale",
+    "case": "organizer__xx",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_sales",
+    "case": "organizer__xx",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_sponsor_sale",
+    "case": "organizer__xx",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_sales",
+    "case": "vendor__fr",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_sales",
+    "case": "vendor__es",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_sales",
+    "case": "vendor__fa",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_sales",
+    "case": "vendor__xx",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user_edge_long__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 2,
+    "newAttachmentCount": 2
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user_edge_10tickets__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 11,
+    "newAttachmentCount": 11
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user_edge_noimages__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  },
+  {
+    "test": "TestLegacyOutputSnapshots",
+    "id": "festival_ticket_sale",
+    "case": "buyer_user_edge_zero__en",
+    "htmlEqualIgnoringClock": false,
+    "oldTopType": "multipart/mixed",
+    "newTopType": "multipart/mixed",
+    "oldAttachmentCount": 1,
+    "newAttachmentCount": 1
+  }
+]

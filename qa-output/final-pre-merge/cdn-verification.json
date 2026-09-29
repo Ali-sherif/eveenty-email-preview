@@ -1,0 +1,142 @@
+[
+  {
+    "url": "https://cdn-dv.eveenty.com/logos/eveenty-logo-en.png",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://cdn-dv.eveenty.com/logos/eveenty-logo-fr.png",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://cdn-dv.eveenty.com/logos/eveenty-logo-es.png",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://cdn-dv.eveenty.com/logos/eveenty-logo-ar.png",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://cdn-dv.eveenty.com/logos/eveenty-logo-fa.png",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://cdn-dv.eveenty.com/condensed/en.png",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://cdn-dv.eveenty.com/condensed/ar.png",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://cdn-dv.eveenty.com/condensed/fr.png",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://cdn-dv.eveenty.com/condensed/es.png",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://cdn-dv.eveenty.com/condensed/fa.png",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://cdn-dv.eveenty.com/apple/en.png",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://cdn-dv.eveenty.com/apple/ar.png",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://cdn-dv.eveenty.com/apple/fr.png",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://cdn-dv.eveenty.com/apple/es.png",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://cdn.eveenty.com/logos/eveenty-logo-en.png",
+    "status": 403,
+    "error": "Response status code does not indicate success: 403 (Forbidden)."
+  },
+  {
+    "url": "https://cdn.eveenty.com/logos/eveenty-logo-fr.png",
+    "status": 403,
+    "error": "Response status code does not indicate success: 403 (Forbidden)."
+  },
+  {
+    "url": "https://cdn.eveenty.com/logos/eveenty-logo-es.png",
+    "status": 403,
+    "error": "Response status code does not indicate success: 403 (Forbidden)."
+  },
+  {
+    "url": "https://cdn.eveenty.com/logos/eveenty-logo-ar.png",
+    "status": 403,
+    "error": "Response status code does not indicate success: 403 (Forbidden)."
+  },
+  {
+    "url": "https://cdn.eveenty.com/logos/eveenty-logo-fa.png",
+    "status": 403,
+    "error": "Response status code does not indicate success: 403 (Forbidden)."
+  },
+  {
+    "url": "https://cdn.eveenty.com/condensed/en.png",
+    "status": 403,
+    "error": "Response status code does not indicate success: 403 (Forbidden)."
+  },
+  {
+    "url": "https://cdn.eveenty.com/condensed/ar.png",
+    "status": 403,
+    "error": "Response status code does not indicate success: 403 (Forbidden)."
+  },
+  {
+    "url": "https://cdn.eveenty.com/condensed/fr.png",
+    "status": 403,
+    "error": "Response status code does not indicate success: 403 (Forbidden)."
+  },
+  {
+    "url": "https://cdn.eveenty.com/condensed/es.png",
+    "status": 403,
+    "error": "Response status code does not indicate success: 403 (Forbidden)."
+  },
+  {
+    "url": "https://cdn.eveenty.com/condensed/fa.png",
+    "status": 403,
+    "error": "Response status code does not indicate success: 403 (Forbidden)."
+  },
+  {
+    "url": "https://cdn.eveenty.com/apple/en.png",
+    "status": 403,
+    "error": "Response status code does not indicate success: 403 (Forbidden)."
+  },
+  {
+    "url": "https://cdn.eveenty.com/apple/ar.png",
+    "status": 403,
+    "error": "Response status code does not indicate success: 403 (Forbidden)."
+  },
+  {
+    "url": "https://cdn.eveenty.com/apple/fr.png",
+    "status": 403,
+    "error": "Response status code does not indicate success: 403 (Forbidden)."
+  },
+  {
+    "url": "https://cdn.eveenty.com/apple/es.png",
+    "status": 403,
+    "error": "Response status code does not indicate success: 403 (Forbidden)."
+  }
+]

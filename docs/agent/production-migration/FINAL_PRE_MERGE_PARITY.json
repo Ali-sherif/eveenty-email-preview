@@ -1,0 +1,4615 @@
+{
+  "cases": [
+    {
+      "case": "activate_email__user__ar",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7515,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "activate_email__user__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7335,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "activate_email__user__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7340,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "activate_email__user__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7525,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "activate_email__user__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7363,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "activate_email__user__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7341,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "bad_content_alert__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10146,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "book_demo_admin__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 13624,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "contact_submission__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 9708,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "dispute_notification__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15524,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "dispute_notification__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15523,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "dispute_notification__organizer__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15731,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "dispute_notification__organizer__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 16175,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "dispute_notification__organizer__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15725,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "dispute_notification__organizer__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15523,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "extra_service_request__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 11130,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_activity_sale__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 13926,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_activity_sale__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 13492,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_activity_sale__organizer__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 13633,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_activity_sale__organizer__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 13787,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_activity_sale__organizer__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 13662,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_activity_sale__organizer__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 13498,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_activity_sale__user__ar",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 14405,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_activity_sale__user__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 14043,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_activity_sale__user__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 14194,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_activity_sale__user__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 14414,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_activity_sale__user__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 14219,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_activity_sale__user__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 14049,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_add_on_sale__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 14953,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_add_on_sale__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 14520,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_add_on_sale__organizer__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 14607,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_add_on_sale__organizer__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 14848,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_add_on_sale__organizer__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 14627,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_add_on_sale__organizer__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 14526,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_add_on_sale__user__ar",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 15444,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_add_on_sale__user__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 15042,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_add_on_sale__user__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 15148,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_add_on_sale__user__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 15422,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_add_on_sale__user__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 15176,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_add_on_sale__user__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 15048,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_approval_status_changed__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 5403,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_approval_status_changed__organizer__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 5425,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_approval_status_changed__organizer__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 5593,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_approval_status_changed__organizer__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 5421,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_approval_status_changed__organizer__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 5403,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_created__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 9923,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_donation__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 11586,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_donation__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 11118,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_donation__organizer__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 11166,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_donation__organizer__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 11247,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_donation__organizer__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 11166,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_donation__organizer__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 11124,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_donation__user__ar",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 12131,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_donation__user__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 11859,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_donation__user__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 11914,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_donation__user__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 12044,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_donation__user__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 11932,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_donation__user__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 11871,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_marketing_approval__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 13919,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_marketing_approval_sms__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 12796,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_marketing_email_target__target_user__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 5772,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_payout__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10398,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_payout__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10405,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_payout__organizer__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10411,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_payout__organizer__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10411,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_payout__organizer__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10411,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_payout__organizer__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10411,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_rescounts_marketing_email_target__target_user__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7760,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_sale_installment_paid__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15086,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_sale_installment_paid__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 14163,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_sale_installment_paid__organizer__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 14198,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_sale_installment_paid__organizer__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 14345,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_sale_installment_paid__organizer__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 14194,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_sale_installment_paid__organizer__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 14169,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_sale_installment_paid__vendor__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 12860,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_sale_installment_paid__vendor__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 12919,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_sale_installment_paid__vendor__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 13099,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_sale_installment_paid__vendor__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 12909,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_sale_installment_paid__vendor__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 12866,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_sales__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 18104,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_sales__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 17671,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_sales__organizer__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 17782,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_sales__organizer__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 17975,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_sales__organizer__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 17787,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_sales__organizer__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 17677,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_sales__vendor__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 18099,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_sales__vendor__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 18214,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_sales__vendor__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 18419,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_sales__vendor__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 18219,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_sales__vendor__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 18111,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_sponsor_sale__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 17537,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_sponsor_sale__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 17104,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_sponsor_sale__organizer__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 17239,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_sponsor_sale__organizer__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 17427,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_sponsor_sale__organizer__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 17235,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_sponsor_sale__organizer__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 17110,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_sponsor_sale__sponsor__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 17531,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_ticket_registration__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18626,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration__buyer_user__ar",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18610,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration__buyer_user__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18119,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration__buyer_user__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18305,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration__buyer_user__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18626,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration__buyer_user__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18332,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration__buyer_user__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18125,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration__buyer_user_edge_noimages__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 17755,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18643,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration__organizer__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18852,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration__organizer__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 19202,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration__organizer__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18874,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration__organizer__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18643,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_approval__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18987,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_approval__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 19015,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_approval__user__ar",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 22492,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_approval__user__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 21896,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_approval__user__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 22091,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_approval__user__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 22579,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_approval__user__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 22106,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_approval__user__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 21902,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_deadline_exceeded__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 19121,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_deadline_exceeded__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 19119,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_deadline_exceeded__user__ar",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18943,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_deadline_exceeded__user__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18404,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_deadline_exceeded__user__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18603,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_deadline_exceeded__user__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18971,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_deadline_exceeded__user__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18669,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_deadline_exceeded__user__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18410,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_payment_deadline_exceeded__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 19743,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_payment_deadline_exceeded__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 19741,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_payment_deadline_exceeded__user__ar",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 19300,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_payment_deadline_exceeded__user__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18820,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_payment_deadline_exceeded__user__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 19000,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_payment_deadline_exceeded__user__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 19319,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_payment_deadline_exceeded__user__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 19035,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_payment_deadline_exceeded__user__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18826,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_reject__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18753,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_reject__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18766,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_reject__user__ar",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18896,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_reject__user__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18383,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_reject__user__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18569,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_reject__user__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18909,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_reject__user__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18598,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_registration_reject__user__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18389,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_sale__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 14415,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_ticket_sale__buyer_user__ar",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 15080,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_ticket_sale__buyer_user__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 14657,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_ticket_sale__buyer_user__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 14802,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_ticket_sale__buyer_user__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 15044,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_ticket_sale__buyer_user__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 14900,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_ticket_sale__buyer_user__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 14669,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_ticket_sale__buyer_user_edge_10tickets__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "application/vnd.apple.pkpass",
+          "application/vnd.apple.pkpass",
+          "application/vnd.apple.pkpass",
+          "application/vnd.apple.pkpass",
+          "application/vnd.apple.pkpass",
+          "application/vnd.apple.pkpass",
+          "application/vnd.apple.pkpass",
+          "application/vnd.apple.pkpass",
+          "application/vnd.apple.pkpass",
+          "application/vnd.apple.pkpass",
+          "text/calendar"
+        ],
+        "cids": [
+          "ticket-1@snapshot.invalid",
+          "ticket-2@snapshot.invalid",
+          "ticket-3@snapshot.invalid",
+          "ticket-4@snapshot.invalid",
+          "ticket-5@snapshot.invalid",
+          "ticket-6@snapshot.invalid",
+          "ticket-7@snapshot.invalid",
+          "ticket-8@snapshot.invalid",
+          "ticket-9@snapshot.invalid",
+          "ticket-10@snapshot.invalid"
+        ],
+        "htmlBytes": 54193,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_ticket_sale__buyer_user_edge_long__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "application/vnd.apple.pkpass",
+          "text/calendar"
+        ],
+        "cids": [
+          "ticket-1@snapshot.invalid"
+        ],
+        "htmlBytes": 18868,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_ticket_sale__buyer_user_edge_noimages__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 14435,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_ticket_sale__buyer_user_edge_zero__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 14654,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_ticket_sale__buyer_user_wallet1__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "application/vnd.apple.pkpass",
+          "text/calendar"
+        ],
+        "cids": [
+          "ticket-1@snapshot.invalid"
+        ],
+        "htmlBytes": 16528,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_ticket_sale__buyer_user_wallet1__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "application/vnd.apple.pkpass",
+          "text/calendar"
+        ],
+        "cids": [
+          "ticket-1@snapshot.invalid"
+        ],
+        "htmlBytes": 16915,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_ticket_sale__buyer_user_wallet3__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "application/vnd.apple.pkpass",
+          "application/vnd.apple.pkpass",
+          "application/vnd.apple.pkpass",
+          "text/calendar"
+        ],
+        "cids": [
+          "ticket-1@snapshot.invalid",
+          "ticket-2@snapshot.invalid",
+          "ticket-3@snapshot.invalid"
+        ],
+        "htmlBytes": 24896,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_ticket_sale__guest_user__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [
+          "text/calendar"
+        ],
+        "cids": [],
+        "htmlBytes": 14665,
+        "legacyHasICS": true,
+        "kitHasICS": true
+      }
+    },
+    {
+      "case": "festival_ticket_sale__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 13982,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_sale__organizer__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 14129,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_sale__organizer__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 14334,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_sale__organizer__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 14228,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_ticket_sale__organizer__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 13988,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_update_request_approved__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 6387,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_update_request_approved__organizer__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 6375,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_update_request_approved__organizer__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 6618,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_update_request_approved__organizer__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 6494,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_update_request_approved__organizer__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 6387,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_update_request_issued__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 6618,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_update_request_rejected__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7497,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_update_request_rejected__organizer__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7498,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_update_request_rejected__organizer__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7900,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_update_request_rejected__organizer__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7597,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_update_request_rejected__organizer__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7497,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_vendor_sale__buyer__ar",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 16163,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_vendor_sale__buyer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15827,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_vendor_sale__buyer__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15898,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_vendor_sale__buyer__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 16010,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_vendor_sale__buyer__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15888,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_vendor_sale__buyer__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15827,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_vendor_sale__received__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15947,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_vendor_sale__vendor__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15388,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_vendor_sale__vendor__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15453,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_vendor_sale__vendor__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15567,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_vendor_sale__vendor__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15450,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_vendor_sale__vendor__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15394,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "festival_vendor_sale_rejection__buyer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 16548,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "first_payment_refund__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10655,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "first_payment_refund__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10662,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "first_payment_refund__organizer__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10696,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "first_payment_refund__organizer__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10925,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "first_payment_refund__organizer__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10711,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "first_payment_refund__organizer__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10668,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "first_payment_refund__vendor__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10719,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "first_payment_refund__vendor__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10748,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "first_payment_refund__vendor__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 11062,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "first_payment_refund__vendor__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10789,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "first_payment_refund__vendor__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10725,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "invoice__restaurant__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": null
+    },
+    {
+      "case": "marketing__user__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": null
+    },
+    {
+      "case": "marketing_approval_1__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": null
+    },
+    {
+      "case": "marketing_notification_approval__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": null
+    },
+    {
+      "case": "marketing_notification_approval__admin_rescounts__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": null
+    },
+    {
+      "case": "marketing_package_sale__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 13652,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "marketing_package_sale__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 13678,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "marketing_package_sale__organizer__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 13775,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "marketing_package_sale__organizer__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 13930,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "marketing_package_sale__organizer__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 13783,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "marketing_package_sale__organizer__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 13690,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "marketing_sms_approval__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": null
+    },
+    {
+      "case": "marketing_sms_approval__admin_rescounts__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": null
+    },
+    {
+      "case": "needs_response_dispute_reminder__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18473,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "needs_response_dispute_reminder__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18472,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "needs_response_dispute_reminder__organizer__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18688,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "needs_response_dispute_reminder__organizer__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 19331,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "needs_response_dispute_reminder__organizer__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18657,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "needs_response_dispute_reminder__organizer__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 18472,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "organizer_announcement__user__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 5138,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "organizer_festival_marketing_email_receipt__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10377,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "organizer_festival_marketing_sms_receipt__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10376,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "partner_coupons__user__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 14680,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "partner_coupons_partner__partner__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 13734,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "password_reset__user__ar",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7263,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "password_reset__user__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 6967,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "password_reset__user__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7079,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "password_reset__user__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7207,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "password_reset__user__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7111,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "password_reset__user__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 6973,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "receipt__user__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": null
+    },
+    {
+      "case": "refund_receipt_admin__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15568,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "refund_receipt_organizer__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15576,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "refund_receipt_organizer__organizer__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15683,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "refund_receipt_organizer__organizer__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15867,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "refund_receipt_organizer__organizer__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15655,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "refund_receipt_organizer__organizer__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15582,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "refund_receipt_user__user__ar",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15880,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "refund_receipt_user__user__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15584,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "refund_receipt_user__user__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15684,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "refund_receipt_user__user__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15868,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "refund_receipt_user__user__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15664,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "refund_receipt_user__user__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15596,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "refund_receipt_user__user_edge_20items__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 69535,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "registration_approval_status_changed__user__ar",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 5984,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "registration_approval_status_changed__user__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 5852,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "registration_approval_status_changed__user__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 5873,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "registration_approval_status_changed__user__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 5959,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "registration_approval_status_changed__user__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 5899,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "registration_approval_status_changed__user__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 5858,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "registration_approval_status_changed__user_edge_emptynote__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 5852,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "restaurant_approval__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": null
+    },
+    {
+      "case": "restaurant_decline__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": null
+    },
+    {
+      "case": "second_payment_reminder__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 6895,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "second_payment_reminder__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 6903,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "second_payment_reminder__organizer__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 6948,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "second_payment_reminder__organizer__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7118,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "second_payment_reminder__organizer__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 6922,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "second_payment_reminder__organizer__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 6909,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "second_payment_reminder__vendor__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7869,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "second_payment_reminder__vendor__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7871,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "second_payment_reminder__vendor__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 8240,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "second_payment_reminder__vendor__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7915,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "second_payment_reminder__vendor__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7875,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "sponsor_first_payment_refund__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10235,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "sponsor_first_payment_refund__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10242,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "sponsor_first_payment_refund__organizer__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10294,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "sponsor_first_payment_refund__organizer__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10487,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "sponsor_first_payment_refund__organizer__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10300,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "sponsor_first_payment_refund__organizer__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10248,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "sponsor_first_payment_refund__sponsor__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 10304,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "sponsor_installment_paid__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15048,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "sponsor_installment_paid__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 14123,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "sponsor_installment_paid__organizer__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 14166,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "sponsor_installment_paid__organizer__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 14275,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "sponsor_installment_paid__organizer__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 14145,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "sponsor_installment_paid__organizer__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 14129,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "sponsor_installment_paid__sponsor__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 15134,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "sponsor_installment_second_payment_reminder__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 6878,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "sponsor_installment_second_payment_reminder__organizer__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 6886,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "sponsor_installment_second_payment_reminder__organizer__es",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 6975,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "sponsor_installment_second_payment_reminder__organizer__fa",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7141,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "sponsor_installment_second_payment_reminder__organizer__fr",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 6960,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "sponsor_installment_second_payment_reminder__organizer__xx",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 6892,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "sponsor_installment_second_payment_reminder__sponsor__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 6897,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    },
+    {
+      "case": "support__admin__en",
+      "legacyVsHEAD": {
+        "headers": true,
+        "html": true,
+        "attachments": true
+      },
+      "kitVsCurrentLegacy": {
+        "differences": [],
+        "attachmentTypes": [],
+        "cids": [],
+        "htmlBytes": 7028,
+        "legacyHasICS": false,
+        "kitHasICS": false
+      }
+    }
+  ],
+  "legacyFailures": [],
+  "kitFailures": []
+}

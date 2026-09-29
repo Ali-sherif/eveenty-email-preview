@@ -390,3 +390,15 @@ Agent skills/rules/docs were updated only where stale or contradictory; no new s
 - Local verification recorded in `rescounts-backend/email/POST_P4_LOCAL_VERIFICATION.md`. Verdict: **DEV READY** (local). Production CDN asset HTTP checks currently 403 — deferred environment/Infra item, not a local code blocker.
 - Four security handoffs remain **IMPLEMENTATION COMPLETE — SECURITY DISPOSITION STILL REQUIRED**.
 
+
+---
+
+**[2026-09-28 — Final pre-merge review: verified discrepancies and bounded fixes]**
+
+- Owner request: complete Legacy vs Kit review, run all checks, fix only genuine migration defects, produce `production-migration/FINAL_PRE_MERGE_REVIEW.md`, then stop. No deploy/commit/push/archive/security remediation.
+- Current files supersede old reports: backend HEAD has 61 Legacy bodies (59 catalog bodies archived plus two newer root templates), not an unqualified 59; relocated migration tests no longer run through backend `go test ./email/...`; preserved harness references removed constructor and ticket-type Price field; historical ICS test expects obsolete Rescounts UID. Catalog membership remains 59, with 48 scoped and 11 excluded; the two extra existing IDs were not reclassified.
+- Current code had partial activation (`parsedCount > 0`), undefined smtp calls, root-template loading failure, raw calendar content assigned to base64 Legacy MIME, an inert Apple badge, fixed EN badge widths for all locales, and lost TicketPriceName. These bounded migration defects were fixed and verified. Catalog production paths were updated to actual archive locations only; no approval or scope change.
+- Fresh current-source parity: 283 Legacy-vs-HEAD captures and 273 Kit envelope/decoded-attachment comparisons PASS. Current build/vet/package tests and catalog validator PASS. Historical migration suite still FAILS (130 leaf cases) and preserved ICS model test FAILS. Do not replace these with historical PASS claims; no goldens overwritten.
+- Render review found concrete missing approved status/receipt sections and remaining port differences. Classification NEEDS REVIEW; approved reference HTML was not edited or reapproved.
+- DEV CDN: 14/14 200 image/png; nine Wallet hashes match, five logo hashes differ. Artwork/pixel equivalence unknown, not a claim of wrong branding; Infra/Backend must establish it. Production objects: 14/14 403. No upload.
+- Report verdict NOT READY — MIGRATION DEFECTS FOUND. Local test-evidence/design-port blockers are separate from external CDN/DEV/Level B/Security gates. Four security handoffs remain Backend/Security-owned and not cleared. Session stopped with report and handoff; fixes unstaged, inherited staged migration preserved.

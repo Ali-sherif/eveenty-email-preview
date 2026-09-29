@@ -177,7 +177,7 @@ func fixedFestivalTicketSale() *model.FestivalTicketSale {
 		TicketTypeID: "ticket-type-fixed-001",
 		FestivalID:   "festival-fixed-001",
 		Name:         "General Admission",
-		Price:        3000,
+// Upstream FestivalTicketType.Price removed; purchase Cost fixture retained.
 	}
 
 	return &model.FestivalTicketSale{
@@ -235,7 +235,7 @@ func fixedFestivalTicket() *model.FestivalTicket {
 			TicketTypeID: "ticket-type-fixed-001",
 			FestivalID:   "festival-fixed-001",
 			Name:         "General Admission",
-			Price:        3000,
+// Upstream FestivalTicketType.Price removed; purchase Cost fixture retained.
 		},
 	}
 }

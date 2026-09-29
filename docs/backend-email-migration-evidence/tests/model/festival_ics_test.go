@@ -33,7 +33,8 @@ func TestGenerateICSRFC5545(t *testing.T) {
 	if !strings.Contains(ics, "METHOD:PUBLISH\r\n") {
 		t.Fatalf("missing METHOD:PUBLISH:\n%s", ics)
 	}
-	if !strings.Contains(ics, "UID:fest-1@rescounts.com\r\n") {
+	// Current HEAD emits @eveenty.com (model/festival.go GenerateICS).
+	if !strings.Contains(ics, "UID:fest-1@eveenty.com\r\n") {
 		t.Fatalf("missing UID:\n%s", ics)
 	}
 
