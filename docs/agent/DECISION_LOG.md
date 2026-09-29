@@ -422,3 +422,13 @@ Agent skills/rules/docs were updated only where stale or contradictory; no new s
 - Approved Preview HTML under `emails/` was **not** redesigned or reapproved. Fixture name/date/ID differences are not defects.
 - Re-render compare: all five **PASS** for requested sections. Report: `production-migration/VISUAL_FIX_FIVE_REGISTRATION.md`. FINAL_PRE_MERGE_REVIEW §8 item 5 recorded as fixed; remaining visual NEEDS REVIEW is final-seven (§8 item 4).
 - Preview docs updated; kit snapshot goldens for these five IDs **not** refreshed this session. No commit/push/deploy.
+
+---
+
+**[2026-09-29 — Final-seven Kit visual parity fixes (owner-authorized)]**
+
+- Owner authorized implementing approved-design visual fixes for exactly seven Kit templates: `marketing_package_sale`, `festival_payout`, `partner_coupons`, `partner_coupons_partner`, `bad_content_alert`, `book_demo_admin`, `extra_service_request`.
+- Backend Kit bodies updated to match approved Preview structure/styling (titles, compact coupon cards, payout Recipient + CTA wording, bordered label/value cards, remove Rescounts coupon chrome / legacy admin intros / social chrome / marketing website footer line). Subjects, recipients, links, attachments, and data mapping unchanged. Conditional map / calendar / business-name / coupon-image gates preserved.
+- Approved Preview HTML under `emails/` was **not** redesigned or reapproved. Fixture differences ignored.
+- Re-render compare: all seven **PASS** for requested sections. Report: `production-migration/VISUAL_FIX_FINAL_SEVEN.md`. FINAL_PRE_MERGE_REVIEW §8 item 4 recorded as fixed; no remaining visual NEEDS REVIEW port-omission items from that section.
+- Preview docs updated; kit snapshot goldens for these seven IDs **not** refreshed this session. No commit/push/deploy.
