@@ -1,6 +1,16 @@
 # HANDOFF — Eveenty Email Design Kit
 
-## Latest session — organizer_team_invitation Kit #49 (2026-09-29)
+## Latest session — organizer_team_invitation design-system review (2026-09-29)
+
+**ORGANIZER TEAM INVITATION DESIGN SYSTEM REVIEW — PASS.** See `production-migration/ORGANIZER_TEAM_INVITATION_DESIGN_SYSTEM_REVIEW.md`.
+
+- Reviewed Kit #49 against current Kit partials + reconciled peers (`activate_email`, `book_demo_admin`, final-seven ports).
+- Category A fixes only in `email/templates/kit/organizer_team_invitation.template`: removed non-Kit `#8a8a8a`; body/subheading → `#4d4c49` 16px; secondary link → Kit `#4d4c49` 15px underline; spacing aligned.
+- No sender/model/URL/subject/locale/MIME changes; Legacy goldens unchanged; only OTI Kit goldens refreshed.
+- Focused snapshots/parity/static/link + full preserved suite PASS (~304s).
+- No commit / push / deploy.
+
+## Prior session — organizer_team_invitation Kit #49 (2026-09-29)
 
 **ORGANIZER TEAM INVITATION — KIT #49 PASS.** See `production-migration/ORGANIZER_TEAM_INVITATION_KIT49_REPORT.md`.
 
@@ -52,6 +62,7 @@ Owner architecture stands: no `EMAIL_KIT_ENABLED`; release control is deploy. Ki
 | Phase 4 — Activation prep | LOCAL IMPLEMENTATION COMPLETE |
 | Post-P4 local (archive + re-verify) | **COMPLETE — DEV READY** |
 | Kit #49 `organizer_team_invitation` | **PASS (2026-09-29)** |
+| Kit #49 design-system review | **PASS (2026-09-29)** |
 | DEV deployment | **NEXT** (operator) |
 | Production deploy / verification | **OUT OF SCOPE for current task** — deferred |
 
@@ -62,11 +73,11 @@ Owner architecture stands: no `EMAIL_KIT_ENABLED`; release control is deploy. Ki
 3. **QA** — Level B when authorized (`LEVEL_B_CHECKLIST.md`); agent must not mark rows passed.
 4. **Backend/Security** — dispositions for four handoffs (11 ids); still required before Production release gate.
 5. **User** — approve or reject `DELETE_CANDIDATES.md` entry for `welcome_email_ad.png` before any deletion/push.
-6. **Optional** — formal visual-owner approval for Kit #49 (no historic Preview exists).
+6. **Optional** — formal visual-owner approval for Kit #49 (no historic Preview exists; design-system review PASS).
 
 ## Next authorized action
 
-**Review backend post-P4 + visual-fix + Kit #49 changes → DEV deploy → DEV smoke verification.**
+**Review backend post-P4 + visual-fix + Kit #49 (+ design-system typography fix) → DEV deploy → DEV smoke verification.**
 
 Do not push/merge/deploy Production without explicit authorization.  
 Do not delete archive candidates without user approval.
