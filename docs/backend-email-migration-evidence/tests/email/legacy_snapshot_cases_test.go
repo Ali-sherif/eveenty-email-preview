@@ -69,7 +69,7 @@ var allSnapshotCases = []snapshotCase{
 		persona:    "user",
 		locale:     "en",
 		invoke: func(ctx context.Context, c *smtpClient) error {
-			return c.SendActivateEmail(ctx, fixedUser())
+			return c.SendActivateEmail(ctx, fixedUser(), "snapshot-activate-token")
 		},
 	},
 	{
@@ -77,7 +77,7 @@ var allSnapshotCases = []snapshotCase{
 		persona:    "user",
 		locale:     "ar",
 		invoke: func(ctx context.Context, c *smtpClient) error {
-			return c.SendActivateEmail(ctx, fixedUserAR())
+			return c.SendActivateEmail(ctx, fixedUserAR(), "snapshot-activate-token")
 		},
 	},
 

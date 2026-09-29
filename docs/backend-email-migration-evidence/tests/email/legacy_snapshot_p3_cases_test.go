@@ -79,7 +79,7 @@ func p3LocaleCases() []snapshotCase {
 				persona:    "user",
 				locale:     loc.locale,
 				invoke: func(ctx context.Context, c *smtpClient) error {
-					return c.SendActivateEmail(ctx, loc.user())
+					return c.SendActivateEmail(ctx, loc.user(), "snapshot-activate-token")
 				},
 			},
 			snapshotCase{

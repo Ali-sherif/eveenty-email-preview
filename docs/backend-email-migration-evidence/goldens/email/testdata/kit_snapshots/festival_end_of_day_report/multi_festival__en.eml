@@ -42,6 +42,9 @@ Total
 Sold To Date
 40
 
+Available
+60
+
 % Sold
 40%
 
@@ -62,6 +65,9 @@ Total
 Sold To Date
 8
 
+Available
+12
+
 % Sold
 40%
 
@@ -81,6 +87,9 @@ Total
 
 Sold To Date
 3
+
+Available
+0
 
 % Sold
 =E2=80=94
@@ -329,6 +338,14 @@ border-top:1px solid #ebebeb;font-size:13px;font-weight:600;color:#4d4c49;"=
                             <tr>
                               <td align=3D"left" style=3D"padding:8px 10px;=
 border-top:1px solid #ebebeb;font-size:13px;font-weight:600;color:#4d4c49;"=
+>Available</td>
+                              <td align=3D"right" style=3D"padding:8px 10px=
+;border-top:1px solid #ebebeb;font-size:14px;font-weight:500;color:#2b2a28;=
+"><span dir=3D"ltr">60</span></td>
+                            </tr>
+                            <tr>
+                              <td align=3D"left" style=3D"padding:8px 10px;=
+border-top:1px solid #ebebeb;font-size:13px;font-weight:600;color:#4d4c49;"=
 >% Sold</td>
                               <td align=3D"right" style=3D"padding:8px 10px=
 ;border-top:1px solid #ebebeb;font-size:14px;font-weight:500;color:#2b2a28;=
@@ -395,6 +412,14 @@ border-top:1px solid #ebebeb;font-size:13px;font-weight:600;color:#4d4c49;"=
                             <tr>
                               <td align=3D"left" style=3D"padding:8px 10px;=
 border-top:1px solid #ebebeb;font-size:13px;font-weight:600;color:#4d4c49;"=
+>Available</td>
+                              <td align=3D"right" style=3D"padding:8px 10px=
+;border-top:1px solid #ebebeb;font-size:14px;font-weight:500;color:#2b2a28;=
+"><span dir=3D"ltr">12</span></td>
+                            </tr>
+                            <tr>
+                              <td align=3D"left" style=3D"padding:8px 10px;=
+border-top:1px solid #ebebeb;font-size:13px;font-weight:600;color:#4d4c49;"=
 >% Sold</td>
                               <td align=3D"right" style=3D"padding:8px 10px=
 ;border-top:1px solid #ebebeb;font-size:14px;font-weight:500;color:#2b2a28;=
@@ -457,6 +482,14 @@ border-top:1px solid #ebebeb;font-size:13px;font-weight:600;color:#4d4c49;"=
                               <td align=3D"right" style=3D"padding:8px 10px=
 ;border-top:1px solid #ebebeb;font-size:14px;font-weight:500;color:#2b2a28;=
 "><span dir=3D"ltr">3</span></td>
+                            </tr>
+                            <tr>
+                              <td align=3D"left" style=3D"padding:8px 10px;=
+border-top:1px solid #ebebeb;font-size:13px;font-weight:600;color:#4d4c49;"=
+>Available</td>
+                              <td align=3D"right" style=3D"padding:8px 10px=
+;border-top:1px solid #ebebeb;font-size:14px;font-weight:500;color:#2b2a28;=
+"><span dir=3D"ltr">0</span></td>
                             </tr>
                             <tr>
                               <td align=3D"left" style=3D"padding:8px 10px;=

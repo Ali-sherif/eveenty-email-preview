@@ -39,7 +39,7 @@ Content-Type: text/html; charset="utf-8"
                 <table role="presentation" cellpadding="0" cellspacing="0" border="0">
                   <tr>
                     <td align="center" style="background-color: #d80073; border-radius: 6px;">
-                      <a href="https://api.snapshot.invalid/api/v1/users/user-fixed-001/email/activate" target="_blank" style="display: inline-block; padding: 16px 40px; color: #ffffff; text-decoration: none; font-size: 16px; font-weight: 600; border-radius: 6px;">
+                      <a href="https://api.snapshot.invalid/api/v1/users/user-fixed-001/email/activate?token=snapshot-activate-token" target="_blank" style="display: inline-block; padding: 16px 40px; color: #ffffff; text-decoration: none; font-size: 16px; font-weight: 600; border-radius: 6px;">
                         فعال‌سازی حساب من
                       </a>
                     </td>

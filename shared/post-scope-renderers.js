@@ -63,6 +63,7 @@ function saleTypeCard(saleType) {
                             ${metricRow('Transactions', `<span dir="ltr">${esc(String(saleType.TransactionsCount))}</span>`)}
                             ${metricRow('Total', `<span dir="ltr">${esc(String(saleType.TotalItems))}</span>`)}
                             ${metricRow('Sold To Date', `<span dir="ltr">${esc(String(saleType.TotalSoldItems))}</span>`)}
+                            ${metricRow('Available', `<span dir="ltr">${esc(String(saleType.AvailableItems))}</span>`)}
                             ${metricRow('% Sold', `<span dir="ltr">${esc(saleType.SoldPercentage)}</span>`)}
                             <tr>
                               <td align="left" style="padding:8px 10px;border-top:1px solid #ebebeb;font-size:13px;font-weight:600;color:#4d4c49;">Subtotal</td>
@@ -218,6 +219,7 @@ const MULTI_FESTIVALS = Object.freeze([
             TransactionsCount: 5,
             TotalItems: 100,
             TotalSoldItems: 40,
+            AvailableItems: 60,
             SoldPercentage: '40%',
             Subtotal: 'CA$450.00',
             Currency: 'CAD',
@@ -229,6 +231,7 @@ const MULTI_FESTIVALS = Object.freeze([
             TransactionsCount: 2,
             TotalItems: 20,
             TotalSoldItems: 8,
+            AvailableItems: 12,
             SoldPercentage: '40%',
             Subtotal: 'CA$800.00',
             Currency: 'CAD',
@@ -240,6 +243,7 @@ const MULTI_FESTIVALS = Object.freeze([
             TransactionsCount: 3,
             TotalItems: 0,
             TotalSoldItems: 3,
+            AvailableItems: 0,
             SoldPercentage: '—',
             Subtotal: 'CA$150.00',
             Currency: 'CAD',
@@ -268,6 +272,7 @@ const SINGLE_FESTIVAL_SALE_TYPES = Object.freeze([
     TransactionsCount: 5,
     TotalItems: 100,
     TotalSoldItems: 40,
+    AvailableItems: 60,
     SoldPercentage: '40%',
     Subtotal: 'CA$450.00',
     Currency: 'CAD',
@@ -279,6 +284,7 @@ const SINGLE_FESTIVAL_SALE_TYPES = Object.freeze([
     TransactionsCount: 2,
     TotalItems: 50,
     TotalSoldItems: 10,
+    AvailableItems: 40,
     SoldPercentage: '20%',
     Subtotal: 'CA$220.00',
     Currency: 'CAD',

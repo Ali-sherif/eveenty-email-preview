@@ -66,7 +66,7 @@ func TestFestivalEOD_LegacyTableToKitCardDataMapping(t *testing.T) {
 
 			// Multi-festival path column labels (Legacy table headers → Kit card labels).
 			if eodSectionsHaveSales(sections) {
-				for _, label := range []string{"Items", "Transactions", "Total", "Sold To Date", "% Sold", "Subtotal", "Day Total"} {
+				for _, label := range []string{"Items", "Transactions", "Total", "Sold To Date", "Available", "% Sold", "Subtotal", "Day Total"} {
 					require.Contains(t, legacyHTML, label)
 					require.Contains(t, kitHTML, label)
 				}
@@ -80,6 +80,8 @@ func TestFestivalEOD_LegacyTableToKitCardDataMapping(t *testing.T) {
 			// Kit must keep card layout — not restore Legacy wide table.
 			require.NotContains(t, kitHTML, "min-width: 680px")
 			require.NotContains(t, kitHTML, "min-width:680px")
+			require.NotContains(t, kitHTML, "min-width: 760px")
+			require.NotContains(t, kitHTML, "min-width:760px")
 			require.NotContains(t, kitHTML, "eod-table")
 		})
 	}
@@ -164,6 +166,7 @@ func eodBusinessFacts(organizer *model.FestivalOrganizer, report *model.Organize
 						strconv.FormatInt(st.TransactionsCount, 10),
 						strconv.FormatInt(st.TotalItems, 10),
 						strconv.FormatInt(st.TotalSoldItems, 10),
+						strconv.FormatInt(st.AvailableItems, 10),
 						st.SoldPercentage,
 						st.Subtotal,
 						st.Currency,

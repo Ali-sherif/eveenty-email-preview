@@ -172,9 +172,9 @@ x 30px 30px;background-color:#ffffff;">
           <!--[if mso]>
           <v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D=
 "urn:schemas-microsoft-com:office:word" href=3D"https://api.snapshot.invali=
-d/api/v1/users/user-fixed-001/email/activate" style=3D"height:48px;v-text-a=
-nchor:middle;width:auto;" arcsize=3D"0.25" stroke=3D"f" fillcolor=3D"#e9d02=
-3">
+d/api/v1/users/user-fixed-001/email/activate?token=3Dsnapshot-activate-toke=
+n" style=3D"height:48px;v-text-anchor:middle;width:auto;" arcsize=3D"0.25" =
+stroke=3D"f" fillcolor=3D"#e9d023">
             <w:anchorlock/>
             <center style=3D"color:#4d4c49;font-family:Arial,sans-serif;fon=
 t-size:16px;font-weight:500;">Activate My Account</center>
@@ -182,12 +182,12 @@ t-size:16px;font-weight:500;">Activate My Account</center>
           <![endif]-->
           <!--[if !mso]><!-->
           <a class=3D"cta-yellow" href=3D"https://api.snapshot.invalid/api/=
-v1/users/user-fixed-001/email/activate" target=3D"_blank" style=3D"display:=
-inline-block;padding:13px 24px;font-family:'Roboto', Arial, Helvetica, Taho=
-ma, sans-serif;font-size:16px;font-weight:500;color:#4d4c49;text-decoration=
-:none;border-radius:12px;background-color:#e9d023;line-height:1.4;mso-hide:=
-all;text-align:center;vertical-align:middle;box-sizing:border-box;min-heigh=
-t:48px;">Activate My Account</a>
+v1/users/user-fixed-001/email/activate?token=3Dsnapshot-activate-token" tar=
+get=3D"_blank" style=3D"display:inline-block;padding:13px 24px;font-family:=
+'Roboto', Arial, Helvetica, Tahoma, sans-serif;font-size:16px;font-weight:5=
+00;color:#4d4c49;text-decoration:none;border-radius:12px;background-color:#=
+e9d023;line-height:1.4;mso-hide:all;text-align:center;vertical-align:middle=
+;box-sizing:border-box;min-height:48px;">Activate My Account</a>
           <!--<![endif]-->
         </td>
       </tr>

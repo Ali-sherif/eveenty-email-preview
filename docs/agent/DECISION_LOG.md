@@ -487,3 +487,14 @@ Agent skills/rules/docs were updated only where stale or contradictory; no new s
 - Evidence: Kit EOD goldens + HTML baselines refreshed; `festival_eod_data_mapping_test.go` facts no longer require presentation-only duplicates.
 - Overlay `go test ./email/... -count=1 -timeout 600s` **PASS**. Verdict: **FESTIVAL END OF DAY REPORT PRESENTATION CLEANUP — PASS**.
 - No commit/push/deploy.
+
+---
+
+**[2026-09-30 — develop → Email Kit merge conflict resolution for festival_end_of_day_report]**
+
+- Owner task: merge latest `develop` into `feature/eveenty-new-email-kit` without losing develop `AvailableItems` / Legacy table widen **or** Kit #50 migration.
+- Merge commit created via `git merge origin/develop`. Ort rename detection placed develop Legacy edits onto `email/templates/archive/legacy/festival_end_of_day_report.template`. Root template stays removed.
+- Kit #50: added Available metric row (`AvailableItems`) in card layout only — no `eod-table` / 760px wide table restored.
+- Go: kept develop `AvailableItems` model+mapping and `SendActivateEmail` token URL; kept Kit `templateFor`/`deliverRendered`.
+- Evidence overlay suite (EOD mapping/snapshots/parity, activate token, full `./email/...` timeout 600s) **PASS** (327.197s). Verdict: **DEVELOP → EMAIL KIT MERGE CONFLICT RESOLUTION — PASS**.
+- Resolution Kit template edit left uncommitted per instruction (no push/deploy).

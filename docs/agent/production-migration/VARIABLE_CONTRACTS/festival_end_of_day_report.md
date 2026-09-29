@@ -36,7 +36,7 @@ Nested festival section fields (built by `buildEndOfDayReportFestivalSections`):
 FestivalID, FestivalName, Currency, CurrencyLabel, TimeZone, From, To, ReportDate
 Days[]: Date, RawDate, SaleTypes[], TotalItems, TotalTransactions, TotalSubtotal, Currency, HasSales
 SaleTypes[]: SaleType, SaleTypeKey, ItemsCount, TransactionsCount, SoldPercentage, Subtotal,
-             TotalItems, TotalSoldItems, Currency (+ raw numeric helpers unused in template)
+             TotalItems, TotalSoldItems, AvailableItems, Currency (+ raw numeric helpers unused in template)
 ```
 
 ## 3. Envelope
@@ -64,7 +64,7 @@ SaleTypes[]: SaleType, SaleTypeKey, ItemsCount, TransactionsCount, SoldPercentag
 | Day Date / RawDate | formatted day + `YYYY-MM-DD` (params still built; **Kit/Preview display human-readable Date only**) |
 | Sale type label / key | mapped label (`Tickets`, …) + raw key (`tickets`, …) (**Kit/Preview display label only**) |
 | Festival From–To | report filter day keys (params still built; **Kit/Preview omit** — always the single report day for cron/resend) |
-| Items / Transactions / Total / Sold To Date / % Sold / Subtotal | per sale type row |
+| Items / Transactions / Total / Sold To Date / Available / % Sold / Subtotal | per sale type row |
 | Day Total Items / Transactions / Subtotal | summed in section builder |
 | No-sales day / festival messages | `HasSales` conditionals |
 | Help mailto | hardcoded `info@eveenty.com` |

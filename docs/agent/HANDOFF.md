@@ -2,7 +2,33 @@
 
 
 
-## Latest session — festival_end_of_day_report presentation cleanup (2026-09-30)
+## Latest session — develop → Email Kit merge conflict resolution (2026-09-30)
+
+
+
+**DEVELOP → EMAIL KIT MERGE CONFLICT RESOLUTION — PASS.**
+
+
+
+- Merged `origin/develop` into `feature/eveenty-new-email-kit` (ort auto-applied Legacy rename).
+
+- Root `email/templates/festival_end_of_day_report.template` remains removed.
+
+- Archived Legacy `email/templates/archive/legacy/festival_end_of_day_report.template` has develop `AvailableItems` + `min-width: 760px`.
+
+- Kit #50 card layout exposes `AvailableItems` (label **Available**); no Legacy wide table restored.
+
+- Go preserve: `AvailableItems` model/mapping + Kit `templateFor`/`deliverRendered` + develop `SendActivateEmail(..., token)` (`?token=`).
+
+- Evidence: EOD fixtures/mapping assert Available; activate snapshot callers pass `snapshot-activate-token`; EOD + activate goldens refreshed; preview/post-scope + kit HTML baselines updated.
+
+- Checks: `go build ./...` PASS; `go vet ./email/... ./config/...` PASS; checkout `go test ./email/... -count=1` PASS; focused EOD mapping/snapshots/parity + activate PASS; overlay full suite `go test ./email/... -count=1 -timeout 600s` **PASS** (327.197s).
+
+- No commit of resolution edits / push / deploy (merge commit from step 1 only).
+
+
+
+## Prior session — festival_end_of_day_report presentation cleanup (2026-09-30)
 
 
 

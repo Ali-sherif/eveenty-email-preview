@@ -13,14 +13,14 @@ Content-Type: text/html; charset="utf-8"
       html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
       .eod-container { box-sizing: border-box; }
       .eod-table-wrapper { display: block; width: 100%; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
-      .eod-table { border-collapse: collapse; width: 100%; min-width: 680px; table-layout: auto; }
+      .eod-table { border-collapse: collapse; width: 100%; min-width: 760px; table-layout: auto; }
       .eod-table th, .eod-table td { white-space: nowrap; }
       .eod-table th:first-child, .eod-table td:first-child { white-space: normal; min-width: 140px; }
       .eod-header-logo { max-width: 100%; height: auto; }
       .eod-festival-body { max-width: 100%; box-sizing: border-box; }
       @media only screen and (max-width: 600px) {
         .eod-container { padding: 20px 12px !important; }
-        .eod-table { min-width: 680px !important; table-layout: auto !important; }
+        .eod-table { min-width: 760px !important; table-layout: auto !important; }
         .eod-table th, .eod-table td { white-space: nowrap !important; }
         .eod-table th:first-child, .eod-table td:first-child { white-space: normal !important; }
         .eod-header-logo { padding: 0 !important; margin: 0 auto !important; float: none !important; display: block; height: 3.5em !important; max-width: 80% !important; }

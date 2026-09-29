@@ -11,8 +11,9 @@ Evidence: `D:\last\eveenty-email-preview\docs\backend-email-migration-evidence`
 **FESTIVAL END OF DAY REPORT DATA MAPPING — PASS**  
 **FESTIVAL END OF DAY REPORT CURRENCY CLEANUP — PASS**  
 **FESTIVAL END OF DAY REPORT PRESENTATION CLEANUP — PASS**
+**DEVELOP → EMAIL KIT MERGE CONFLICT RESOLUTION — PASS**
 
-All Legacy report metrics and conditions are preserved 1:1 in the Kit card layout; only presentation changed. The duplicated Legacy currency presentation was intentionally removed from Kit #50. Currency data and all report metrics remain unchanged. A later Kit-only presentation cleanup removed redundant same-day ISO dates, festival From/To metadata, and internal sale-type keys from organizer-facing Kit/Preview copy.
+All Legacy report metrics and conditions are preserved 1:1 in the Kit card layout; only presentation changed. The duplicated Legacy currency presentation was intentionally removed from Kit #50. Currency data and all report metrics remain unchanged. A later Kit-only presentation cleanup removed redundant same-day ISO dates, festival From/To metadata, and internal sale-type keys from organizer-facing Kit/Preview copy. Develop `AvailableItems` is present in archived Legacy and Kit #50 cards.
 
 ## Scope clarification
 
@@ -344,7 +345,7 @@ Each email therefore represents **one** report day. Festival section `From`/`To`
 
 ### Preserved metrics & conditions
 
-Items, Transactions, Total, Sold To Date, % Sold, Subtotal, Day Total, empty-day / empty-festival copy, help callout, intro `ReportDate`, timezone, currency label, money values — all still present. `TestFestivalEOD_LegacyTableToKitCardDataMapping` updated to stop requiring presentation-only duplicates (`From`/`To`, `RawDate`, `SaleTypeKey`) while still asserting labels, counts, money, and condition phrases.
+Items, Transactions, Total, Sold To Date, Available, % Sold, Subtotal, Day Total, empty-day / empty-festival copy, help callout, intro `ReportDate`, timezone, currency label, money values — all still present. `TestFestivalEOD_LegacyTableToKitCardDataMapping` updated to stop requiring presentation-only duplicates (`From`/`To`, `RawDate`, `SaleTypeKey`) while still asserting labels, counts, money, and condition phrases.
 
 ### Not changed
 
@@ -375,6 +376,40 @@ Items, Transactions, Total, Sold To Date, % Sold, Subtotal, Day Total, empty-day
 **DESIGN SYSTEM REVIEW — PASS**  
 **FESTIVAL END OF DAY REPORT DATA MAPPING — PASS**  
 **FESTIVAL END OF DAY REPORT CURRENCY CLEANUP — PASS**  
-**FESTIVAL END OF DAY REPORT PRESENTATION CLEANUP — PASS**
+**FESTIVAL END OF DAY REPORT PRESENTATION CLEANUP — PASS**  
+**DEVELOP → EMAIL KIT MERGE CONFLICT RESOLUTION — PASS**
 
-The duplicated Legacy currency presentation was intentionally removed from Kit #50. Redundant same-day ISO dates, festival From/To metadata, and internal sale-type keys were intentionally removed from Kit/Preview display. Currency data and all report metrics remain unchanged.
+The duplicated Legacy currency presentation was intentionally removed from Kit #50. Redundant same-day ISO dates, festival From/To metadata, and internal sale-type keys were intentionally removed from Kit/Preview display. Currency data and all report metrics remain unchanged. Develop `AvailableItems` is preserved in archived Legacy and exposed in Kit #50 cards without restoring the wide Legacy table.
+
+## 21. Develop merge conflict resolution (AvailableItems)
+
+Date: 2026-09-30.
+
+### Merge
+
+`origin/develop` merged into `feature/eveenty-new-email-kit`. Git ort rename detection applied develop’s Legacy template edits onto `email/templates/archive/legacy/festival_end_of_day_report.template`. Root template stays absent.
+
+### Preserved from develop
+
+| Surface | Change |
+|---|---|
+| `model.SaleTypeEndOfDayReport.AvailableItems` + `availableItemsOf` | Business calculation |
+| `endOfDayReportSaleTypeRow.AvailableItems` + section builder mapping | Email data path |
+| Legacy archive table | **Available** column + `min-width: 760px` |
+| `SendActivateEmail(ctx, user, token)` + `?token=` URL | Auth activation flow |
+| Phone/email verification + migration renumbers | Unrelated develop features kept |
+
+### Preserved from Kit branch
+
+| Surface | Change |
+|---|---|
+| Kit #50 template + `templateFor` / `deliverRendered` | Kit rendering/delivery |
+| Kit card layout (no `eod-table` / no 760px min-width table) | Design system |
+| Kit `Available` metric row after Sold To Date | Same develop data, Kit presentation |
+
+### Evidence / tests
+
+- Fixtures set `AvailableItems`; mapping test requires label **Available** + values; rejects Kit `min-width: 760px`.
+- Activate snapshot callers pass `snapshot-activate-token`.
+- EOD + activate Kit/Legacy goldens refreshed; preview + kit HTML baselines updated.
+- Overlay full suite **PASS** — 327.197s.

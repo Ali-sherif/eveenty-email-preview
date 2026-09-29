@@ -992,9 +992,9 @@ func fixedEODReportMulti() ([]*model.Festival, *model.OrganizerEndOfDayReport) {
 					{
 						Date: "2026-03-14",
 						SaleTypes: []model.SaleTypeEndOfDayReport{
-							{SaleType: model.SaleTypeTickets, ItemsCount: 12, TransactionsCount: 5, Subtotal: 45000, TotalItems: 100, TotalSoldItems: 40, SoldPercentage: 0.4},
-							{SaleType: model.SaleTypeBooths, ItemsCount: 2, TransactionsCount: 2, Subtotal: 80000, TotalItems: 20, TotalSoldItems: 8, SoldPercentage: 0.4},
-							{SaleType: model.SaleTypeDonations, ItemsCount: 3, TransactionsCount: 3, Subtotal: 15000, TotalItems: 0, TotalSoldItems: 3, SoldPercentage: 0},
+							{SaleType: model.SaleTypeTickets, ItemsCount: 12, TransactionsCount: 5, Subtotal: 45000, TotalItems: 100, TotalSoldItems: 40, AvailableItems: 60, SoldPercentage: 0.4},
+							{SaleType: model.SaleTypeBooths, ItemsCount: 2, TransactionsCount: 2, Subtotal: 80000, TotalItems: 20, TotalSoldItems: 8, AvailableItems: 12, SoldPercentage: 0.4},
+							{SaleType: model.SaleTypeDonations, ItemsCount: 3, TransactionsCount: 3, Subtotal: 15000, TotalItems: 0, TotalSoldItems: 3, AvailableItems: 0, SoldPercentage: 0},
 						},
 					},
 				},
@@ -1033,8 +1033,8 @@ func fixedEODReportSingle() ([]*model.Festival, *model.OrganizerEndOfDayReport) 
 					{
 						Date: "2026-03-14",
 						SaleTypes: []model.SaleTypeEndOfDayReport{
-							{SaleType: model.SaleTypeTickets, ItemsCount: 12, TransactionsCount: 5, Subtotal: 45000, TotalItems: 100, TotalSoldItems: 40, SoldPercentage: 0.4},
-							{SaleType: model.SaleTypeActivities, ItemsCount: 4, TransactionsCount: 4, Subtotal: 20000, TotalItems: 50, TotalSoldItems: 10, SoldPercentage: 0.2},
+							{SaleType: model.SaleTypeTickets, ItemsCount: 12, TransactionsCount: 5, Subtotal: 45000, TotalItems: 100, TotalSoldItems: 40, AvailableItems: 60, SoldPercentage: 0.4},
+							{SaleType: model.SaleTypeActivities, ItemsCount: 4, TransactionsCount: 4, Subtotal: 20000, TotalItems: 50, TotalSoldItems: 10, AvailableItems: 40, SoldPercentage: 0.2},
 						},
 					},
 				},
