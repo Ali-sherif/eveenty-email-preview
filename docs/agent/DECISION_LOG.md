@@ -432,3 +432,12 @@ Agent skills/rules/docs were updated only where stale or contradictory; no new s
 - Approved Preview HTML under `emails/` was **not** redesigned or reapproved. Fixture differences ignored.
 - Re-render compare: all seven **PASS** for requested sections. Report: `production-migration/VISUAL_FIX_FINAL_SEVEN.md`. FINAL_PRE_MERGE_REVIEW §8 item 4 recorded as fixed; no remaining visual NEEDS REVIEW port-omission items from that section.
 - Preview docs updated; kit snapshot goldens for these seven IDs **not** refreshed this session. No commit/push/deploy.
+
+---
+
+**[2026-09-30 — Reject registration bordered-card horizontal padding (owner-requested)]**
+
+- Owner requested left/right inset for label/value rows inside bordered cards on `festival_ticket_registration_reject` (Registration Summary, Buyer Information; Tickets/Event Details already had inner padding).
+- Preview: `emails/festival_ticket_registration_reject.html` row cells `padding:6px 0` → `padding:10px 16px`. Shared `kvRow` in `shared/email-kit.js` updated to the same padding so regenerating reject keeps the inset.
+- Kit: `kit_registration_details_reject` in `email/templates/kit/partials/kit_registration_details.template` updated to match. Other registration layouts (`kit_registration_details` table style) still use `padding:6px 0` until separately requested.
+- No subject/recipient/link/data-mapping changes. No commit/push/deploy.

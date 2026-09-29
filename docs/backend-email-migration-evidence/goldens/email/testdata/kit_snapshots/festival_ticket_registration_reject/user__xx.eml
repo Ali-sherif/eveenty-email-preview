@@ -227,37 +227,37 @@ mary</p>
  cellspacing=3D"0" border=3D"0" style=3D"border:1px solid #ebebeb;border-ra=
 dius:8px;">
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Registration ID</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><span dir=3D"ltr">ticke</span></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Registration ID</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><span dir=3D"ltr">ticke</span></td>
                 </tr>
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Registration Date &amp; Time</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;" dir=3D"ltr">Sun Mar 15, 2026 at NORMALIZED_TIME</td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Registration Date &amp; Time</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;" dir=3D"ltr">Sun Mar 15, 2026 at NORMALIZED_TIME</td>
                 </tr>
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Current Status</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><strong>Rejected</strong></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Current Status</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><strong>Rejected</strong></td>
                 </tr>
                =20
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Review Deadline</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;" dir=3D"ltr">Tue Apr 14, 2026 at NORMALIZED_TIME</td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Review Deadline</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;" dir=3D"ltr">Tue Apr 14, 2026 at NORMALIZED_TIME</td>
                 </tr>
                =20
               </table>
@@ -274,29 +274,30 @@ n</p>
  cellspacing=3D"0" border=3D"0" style=3D"border:1px solid #ebebeb;border-ra=
 dius:8px;">
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Name</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><bdi>Alice Snapshot</bdi></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Name</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><bdi>Alice Snapshot</bdi></td>
                 </tr>
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Email</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><span dir=3D"ltr">buyer-xx@snapshot.invalid</span></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Email</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><span dir=3D"ltr">buyer-xx@snapshot.invalid</span></td=
+>
                 </tr>
                =20
                 <tr>
-                  <td align=3D"left" style=3D"padding:6px 0;font-family:Ari=
-al, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c49;">=
-Phone</td>
-                  <td align=3D"right" style=3D"padding:6px 0;font-family:Ar=
-ial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight:700=
-;color:#2b2a28;"><span dir=3D"ltr">+15550001001</span></td>
+                  <td align=3D"left" style=3D"padding:10px 16px;font-family=
+:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;color:#4d4c4=
+9;">Phone</td>
+                  <td align=3D"right" style=3D"padding:10px 16px;font-famil=
+y:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;font-size:14px;font-weight=
+:700;color:#2b2a28;"><span dir=3D"ltr">+15550001001</span></td>
                 </tr>
                =20
               </table>

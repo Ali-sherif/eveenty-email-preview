@@ -8,9 +8,10 @@ Evidence: `D:\last\eveenty-email-preview\docs\backend-email-migration-evidence`
 
 **FESTIVAL END OF DAY REPORT — KIT #50 PASS**  
 **DESIGN SYSTEM REVIEW — PASS**  
-**FESTIVAL END OF DAY REPORT DATA MAPPING — PASS**
+**FESTIVAL END OF DAY REPORT DATA MAPPING — PASS**  
+**FESTIVAL END OF DAY REPORT CURRENCY CLEANUP — PASS**
 
-All Legacy report metrics and conditions are preserved 1:1 in the Kit card layout; only presentation changed.
+All Legacy report metrics and conditions are preserved 1:1 in the Kit card layout; only presentation changed. The duplicated Legacy currency presentation was intentionally removed from Kit #50. Currency data and all report metrics remain unchanged.
 
 ## Scope clarification
 
@@ -136,7 +137,7 @@ Legacy wide table was **not** restored.
 | Intro report date | `params.ReportDate` | `.Festivals` | same | same | PASS |
 | Festival name | `$festival.FestivalName` | per festival | same | same | PASS |
 | TimeZone | `$festival.TimeZone` | per festival | same | same | PASS |
-| CurrencyLabel (Currency) | `$festival.CurrencyLabel` / `.Currency` | per festival | same | same | PASS |
+| Currency | `$festival.CurrencyLabel` | per festival | single display (`America/Toronto • CAD`); parentheses form removed in intentional cleanup | same value | PASS |
 | From – To | `$festival.From` / `.To` | per festival | same | same | PASS |
 | Day Date | `$day.Date` | per day | same | same | PASS |
 | RawDate | `$day.RawDate` | `$day.HasSales` | same | same | PASS |
@@ -147,8 +148,8 @@ Legacy wide table was **not** restored.
 | Total | `$saleType.TotalItems` | per sale type | Total | same | PASS |
 | Sold To Date | `$saleType.TotalSoldItems` | per sale type | Sold To Date | same | PASS |
 | % Sold | `$saleType.SoldPercentage` | per sale type | % Sold | same | PASS |
-| Subtotal | `$saleType.Subtotal` | per sale type | Subtotal | same | PASS |
-| Currency under Subtotal | `$saleType.Currency` | per sale type | same | same | PASS |
+| Subtotal | `$saleType.Subtotal` | per sale type | Subtotal (formatted money includes ISO code) | same | PASS |
+| Secondary Currency under Subtotal | `$saleType.Currency` | per sale type | **intentionally omitted** (duplicate of code already in Subtotal); currency value still present via Subtotal + header | N/A | PASS (cleanup) |
 | Day Total Items | `$day.TotalItems` | `$day.HasSales` | Day Total → Items | same | PASS |
 | Day Total Transactions | `$day.TotalTransactions` | `$day.HasSales` | Day Total → Transactions | same | PASS |
 | Day Total Subtotal | `$day.TotalSubtotal` | `$day.HasSales` | Day Total → Subtotal | same | PASS |
@@ -198,7 +199,7 @@ None — Kit conditions already matched Legacy (`Festivals` / `HasSales` / day `
 | Malformed/empty URL | none |
 | Report fields / totals / no-sales copy | preserved |
 
-Intentional design differences only: Kit shell/chrome, logo via CdnURL, multipart/alternative wrapper, detail-card layout.
+Intentional design differences only: Kit shell/chrome, logo via CdnURL, multipart/alternative wrapper, detail-card layout, and **approved currency presentation cleanup** (see §19) — Legacy still shows `CurrencyLabel (Currency)` and a secondary Subtotal currency line; Kit does not. Functional/MIME/link parity remains strict; no allowlist weakening.
 
 ## 11. Root-fallback cleanup
 
@@ -256,17 +257,73 @@ Evidence HTML: `docs/agent/production-migration/baselines/festival_end_of_day_re
 |---|---|
 | Overlay `go test ./email/... -count=1 -timeout 600s` (Kit #50 migration) | **PASS** — 520.076s |
 | Overlay `go test ./email/... -count=1 -timeout 600s` (data-mapping audit re-run) | **PASS** — 510.832s |
+| Restored evidence `go test ./email/... -count=1 -timeout 600s` (currency cleanup 2026-09-30) | **PASS** — 552.566s |
 
-Includes Kit/Legacy snapshots, parity, MIME/inventory/load/asset checks, static/link audits, visual-parity allowlist guards, and `TestFestivalEOD_LegacyTableToKitCardDataMapping`. Original 48 + Kit #49 + Kit #50 PASS. No Kit HTML change in the data-mapping audit.
+Includes Kit/Legacy snapshots, parity, MIME/inventory/load/asset checks, static/link audits, visual-parity allowlist guards, and `TestFestivalEOD_LegacyTableToKitCardDataMapping`. Original 48 + Kit #49 + Kit #50 PASS. Currency cleanup: Kit EOD goldens refreshed only; Legacy goldens unchanged. (Also selectively refreshed 8 stale `festival_ticket_registration_reject` Kit goldens left by a prior padding session so the full suite could close green.)
 
 ## 17. Git status
 
 No commit / push / deploy performed.
 
+## 19. Intentional Currency Presentation Cleanup
+
+Date: 2026-09-30. Owner-approved Kit-only visual/product cleanup after Legacy→Kit parity was already proven.
+
+### Before
+
+| Surface | Presentation |
+|---|---|
+| Festival header | `TimeZone • CurrencyLabel (Currency)` → e.g. `America/Toronto • CAD (CAD)` |
+| Sale-type Subtotal | Formatted money **plus** secondary `$saleType.Currency` line → e.g. `$150.00 CAD` then `CAD` |
+
+Cause: `CurrencyLabel` is `ToUpper(Currency)` (identical for current ISO codes), and `Subtotal` already includes the ISO code via `GetMoneyForDisplay`. Legacy printed both; Kit had preserved that for parity.
+
+### After (Kit only)
+
+| Surface | Presentation |
+|---|---|
+| Festival header | `TimeZone • CurrencyLabel` → e.g. `America/Toronto • CAD` |
+| Sale-type Subtotal | Formatted money only → e.g. `$150.00 CAD` |
+
+### Not changed
+
+- Backend / model currency generation and money formatter
+- Archived Legacy template (still shows the duplicated presentation)
+- Totals, metrics, conditions, locale, MIME, recipients, subject, scheduling
+- Other Kit templates
+
+### Files touched
+
+| File | Change |
+|---|---|
+| `email/templates/kit/festival_end_of_day_report.template` | Header + Subtotal cleanup |
+| `emails/festival_end_of_day_report.html` | Preview matches Kit |
+| `shared/post-scope-renderers.js` | Preview renderer matches Kit |
+| `docs/.../goldens/.../kit_snapshots/festival_end_of_day_report/{multi_festival,single_festival,no_sales}__en.eml` | Selective Kit golden refresh only |
+
+### Parity handling
+
+- Legacy goldens **unchanged**
+- Kit↔Legacy RFC822/MIME/link parity still **PASS** (body HTML design may differ; no currency-value bypass added)
+- `TestFestivalEOD_LegacyTableToKitCardDataMapping` still **PASS** — currency code remains in header + Subtotal strings
+- Classified as **approved intentional Kit presentation difference** scoped to this ID’s redundant currency chrome only
+
+### Visual
+
+| Viewport | Header | Subtotal | Overflow |
+|---|---|---|---|
+| 600px | `America/Toronto • CAD` | single line `$…. CAD` | PASS |
+| 320px | same | same | PASS |
+
+### Reason
+
+Both duplicated values were semantically identical for current currency data. Cleanup removes presentation noise without removing any unique business/report data.
+
 ## 18. Final verdict
 
 **FESTIVAL END OF DAY REPORT — KIT #50 PASS**  
 **DESIGN SYSTEM REVIEW — PASS**  
-**FESTIVAL END OF DAY REPORT DATA MAPPING — PASS**
+**FESTIVAL END OF DAY REPORT DATA MAPPING — PASS**  
+**FESTIVAL END OF DAY REPORT CURRENCY CLEANUP — PASS**
 
-All Legacy report metrics and conditions are preserved 1:1 in the Kit card layout; only presentation changed.
+The duplicated Legacy currency presentation was intentionally removed from Kit #50. Currency data and all report metrics remain unchanged.

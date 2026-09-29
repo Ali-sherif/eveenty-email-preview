@@ -69,7 +69,7 @@ function saleTypeCard(saleType) {
                             ${metricRow('% Sold', `<span dir="ltr">${esc(saleType.SoldPercentage)}</span>`)}
                             <tr>
                               <td align="left" style="padding:8px 10px;border-top:1px solid #ebebeb;font-size:13px;font-weight:600;color:#4d4c49;">Subtotal</td>
-                              <td align="right" style="padding:8px 10px;border-top:1px solid #ebebeb;font-size:14px;${subtotalWeight};color:#2b2a28;"><span dir="ltr">${esc(saleType.Subtotal)}</span><br /><span style="font-weight:400;font-size:12px;color:#4d4c49;">${esc(saleType.Currency)}</span></td>
+                              <td align="right" style="padding:8px 10px;border-top:1px solid #ebebeb;font-size:14px;${subtotalWeight};color:#2b2a28;"><span dir="ltr">${esc(saleType.Subtotal)}</span></td>
                             </tr>
                           </table>
                         </td>
@@ -137,7 +137,7 @@ function festivalSection(festival) {
                 <tr>
                   <td style="padding:16px 18px;background-color:#fefdf4;border-bottom:1px solid #ebebeb;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;">
                     <h2 style="margin:0 0 6px 0;font-size:17px;font-weight:600;line-height:1.3;color:#2b2a28;"><bdi>${esc(festival.FestivalName)}</bdi></h2>
-                    <p style="margin:0 0 4px 0;font-size:14px;line-height:1.5;color:#4d4c49;">${esc(festival.TimeZone)} &nbsp;•&nbsp; ${esc(festival.CurrencyLabel)} (${esc(festival.Currency)})</p>
+                    <p style="margin:0 0 4px 0;font-size:14px;line-height:1.5;color:#4d4c49;">${esc(festival.TimeZone)} &nbsp;•&nbsp; ${esc(festival.CurrencyLabel)}</p>
                     <p style="margin:0;font-size:13px;line-height:1.5;color:#4d4c49;">${esc(festival.From)} &nbsp;–&nbsp; ${esc(festival.To)}</p>
                   </td>
                 </tr>

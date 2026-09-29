@@ -507,8 +507,8 @@ export function sectionTitle({ title, dir = 'ltr', fontFamily = T.fontStack, fon
 export function kvRow(label, value, dir = 'ltr') {
   return `
     <tr>
-      <td align="${dir === 'rtl' ? 'right' : 'left'}" style="padding:6px 0;font-family:${T.fontStack};font-size:14px;color:${T.dark500};">${esc(label)}</td>
-      <td align="${dir === 'rtl' ? 'left' : 'right'}" style="padding:6px 0;font-family:${T.fontStack};font-size:14px;font-weight:700;color:${T.heading};">${value}</td>
+      <td align="${dir === 'rtl' ? 'right' : 'left'}" style="padding:10px 16px;font-family:${T.fontStack};font-size:14px;color:${T.dark500};">${esc(label)}</td>
+      <td align="${dir === 'rtl' ? 'left' : 'right'}" style="padding:10px 16px;font-family:${T.fontStack};font-size:14px;font-weight:700;color:${T.heading};">${value}</td>
     </tr>`;
 }
 

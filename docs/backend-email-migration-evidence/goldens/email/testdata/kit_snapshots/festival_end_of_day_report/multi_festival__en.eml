@@ -24,7 +24,7 @@ Here is the sales summary for your festivals for Saturday, March 14, 2026.
 
 Snapshot Festival 2026
 
-America/Toronto =C2=A0=E2=80=A2=C2=A0 CAD (CAD)
+America/Toronto =C2=A0=E2=80=A2=C2=A0 CAD
 
 NORMALIZED_DATE =C2=A0=E2=80=93=C2=A0 NORMALIZED_DATE
 
@@ -53,7 +53,6 @@ Sold To Date
 
 Subtotal
 $450.00 CAD
-CAD
 
 Booths
 
@@ -76,7 +75,6 @@ Sold To Date
 
 Subtotal
 $800.00 CAD
-CAD
 
 Donations
 
@@ -99,7 +97,6 @@ Sold To Date
 
 Subtotal
 $150.00 CAD
-CAD
 
 Day Total
 
@@ -117,7 +114,7 @@ as no total.
 
 Second Snapshot Fest
 
-America/Toronto =C2=A0=E2=80=A2=C2=A0 CAD (CAD)
+America/Toronto =C2=A0=E2=80=A2=C2=A0 CAD
 
 NORMALIZED_DATE =C2=A0=E2=80=93=C2=A0 NORMALIZED_DATE
 
@@ -283,7 +280,7 @@ ma, sans-serif;">
 t:600;line-height:1.3;color:#2b2a28;"><bdi>Snapshot Festival 2026</bdi></h2=
 >
                     <p style=3D"margin:0 0 4px 0;font-size:14px;line-height=
-:1.5;color:#4d4c49;">America/Toronto &nbsp;=E2=80=A2&nbsp; CAD (CAD)</p>
+:1.5;color:#4d4c49;">America/Toronto &nbsp;=E2=80=A2&nbsp; CAD</p>
                     <p style=3D"margin:0;font-size:13px;line-height:1.5;col=
 or:#4d4c49;">NORMALIZED_DATE &nbsp;=E2=80=93&nbsp; NORMALIZED_DATE</p>
                   </td>
@@ -363,8 +360,7 @@ border-top:1px solid #ebebeb;font-size:13px;font-weight:600;color:#4d4c49;"=
 >Subtotal</td>
                               <td align=3D"right" style=3D"padding:8px 10px=
 ;border-top:1px solid #ebebeb;font-size:14px;font-weight:600;color:#2b2a28;=
-"><span dir=3D"ltr">$450.00 CAD</span><br /><span style=3D"font-weight:400;=
-font-size:12px;color:#4d4c49;">CAD</span></td>
+"><span dir=3D"ltr">$450.00 CAD</span></td>
                             </tr>
                           </table>
                         </td>
@@ -434,8 +430,7 @@ border-top:1px solid #ebebeb;font-size:13px;font-weight:600;color:#4d4c49;"=
 >Subtotal</td>
                               <td align=3D"right" style=3D"padding:8px 10px=
 ;border-top:1px solid #ebebeb;font-size:14px;font-weight:600;color:#2b2a28;=
-"><span dir=3D"ltr">$800.00 CAD</span><br /><span style=3D"font-weight:400;=
-font-size:12px;color:#4d4c49;">CAD</span></td>
+"><span dir=3D"ltr">$800.00 CAD</span></td>
                             </tr>
                           </table>
                         </td>
@@ -505,8 +500,7 @@ border-top:1px solid #ebebeb;font-size:13px;font-weight:600;color:#4d4c49;"=
 >Subtotal</td>
                               <td align=3D"right" style=3D"padding:8px 10px=
 ;border-top:1px solid #ebebeb;font-size:14px;font-weight:600;color:#2b2a28;=
-"><span dir=3D"ltr">$150.00 CAD</span><br /><span style=3D"font-weight:400;=
-font-size:12px;color:#4d4c49;">CAD</span></td>
+"><span dir=3D"ltr">$150.00 CAD</span></td>
                             </tr>
                           </table>
                         </td>
@@ -579,7 +573,7 @@ ma, sans-serif;">
                     <h2 style=3D"margin:0 0 6px 0;font-size:17px;font-weigh=
 t:600;line-height:1.3;color:#2b2a28;"><bdi>Second Snapshot Fest</bdi></h2>
                     <p style=3D"margin:0 0 4px 0;font-size:14px;line-height=
-:1.5;color:#4d4c49;">America/Toronto &nbsp;=E2=80=A2&nbsp; CAD (CAD)</p>
+:1.5;color:#4d4c49;">America/Toronto &nbsp;=E2=80=A2&nbsp; CAD</p>
                     <p style=3D"margin:0;font-size:13px;line-height:1.5;col=
 or:#4d4c49;">NORMALIZED_DATE &nbsp;=E2=80=93&nbsp; NORMALIZED_DATE</p>
                   </td>
