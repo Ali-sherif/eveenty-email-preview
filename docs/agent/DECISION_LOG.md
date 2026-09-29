@@ -451,3 +451,17 @@ Agent skills/rules/docs were updated only where stale or contradictory; no new s
 - Fix: `.outer-pad` mobile sides → **16px** (matches desktop inline `padding:40px 16px`). Updated `shared/email-kit.js`, regenerated 50 `emails/*.html`, and `rescounts-backend` `kit_head_styles.template`. Patched 278 kit snapshot goldens + 12 baseline HTMLs for the CSS line.
 - Wallet Condensed badges (max ~186px @48px) still fit inside a 320px viewport with 16px gutters. Level B Gmail/Outlook/Apple Mail **NOT RUN**.
 - No commit/push/deploy.
+
+---
+
+**[2026-09-30 — Kit-50 bordered kv-row horizontal padding sweep (owner-requested)]**
+
+- Owner authorized applying the reject-reference inset (`padding:10px 16px`) across all 50 current Kit/Preview emails wherever bordered (or equivalent two-column) label|value rows still used flush `padding:6px 0`.
+- Inventory: catalog IN_SCOPE 48 + post_scope `organizer_team_invitation` + `festival_end_of_day_report` = 50.
+- Preview / shared: no new edits this session — `shared/email-kit.js` `kvRow` already `padding:10px 16px` from the prior reject session; all 50 Preview HTML files already had zero `padding:6px 0`.
+- Kit FIXED this session (`6px 0` → `10px 16px`):
+  - `partials/kit_registration_details.template` define `kit_registration_details` (table layout) — affects `festival_ticket_registration`, `festival_ticket_registration_deadline_exceeded`, `festival_ticket_registration_payment_deadline_exceeded`.
+  - `festival_donation.template`, `contact_submission.template`, `festival_vendor_sale_rejection.template` (Order Details rows only; item cards already `6px 14px` left unchanged).
+- ALREADY OK: `festival_ticket_registration_reject` (prior); `needs_response_dispute_reminder` (bordered card already has inner `padding:16px` wrapper — cell `6px 0` is not flush-to-border; left unchanged); commerce/refund Kit rows already at `6px 14px` / `8px 16px`; Preview emails already on `kvRow` inset.
+- N/A: remaining templates have no flush bordered kv pattern (approval uses `padding:24px` wrappers; EOD uses `8px 10px` / `6px 10px` metric rows with existing horizontal inset; invitation/auth/marketing bodies without this pattern).
+- No subject/recipient/link/attachment/data-mapping/locale changes. No redesign. No golden refresh. No commit/push/deploy.

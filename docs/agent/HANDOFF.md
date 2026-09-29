@@ -2,7 +2,37 @@
 
 
 
-## Latest session — Kit-50 mobile outer horizontal padding (2026-09-30)
+## Latest session — Kit-50 bordered kv-row horizontal padding (2026-09-30)
+
+
+
+**BORDERED KV ROW INSET SWEEP — DONE across 50.**
+
+
+
+- Problem: bordered (or equivalent) label|value rows with `padding:6px 0` sat flush to card edges (confirmed on reject; same pattern elsewhere).
+
+- Required fix: `padding:10px 16px` (reject reference). No redesign; no inventing padding where pattern absent.
+
+- Preview / shared this session: **0 edits** — `kvRow` already `10px 16px`; all 50 `emails/*.html` already free of `padding:6px 0`.
+
+- Kit FIXED this session (4 files):
+
+  - `email/templates/kit/partials/kit_registration_details.template` → `kit_registration_details` table define (38 cells). Consumers: `festival_ticket_registration`, `…_deadline_exceeded`, `…_payment_deadline_exceeded`.
+
+  - `festival_donation.template`, `contact_submission.template`, `festival_vendor_sale_rejection.template` (Order Details only).
+
+- ALREADY OK: reject (prior); `needs_response_dispute_reminder` (inner `padding:16px` wrapper — left unchanged); Kit refund/commerce rows already `6px 14px` / `8px 16px`; Preview kvRow consumers.
+
+- N/A: remaining of 50 (no flush bordered kv) including approval (`24px` wrappers), EOD (`8px 10px` / `6px 10px`), invitation, most marketing/auth.
+
+- Edit counts: Preview **0** · shared-helper **0** · Kit **4 files** (6 template IDs FIXED this session).
+
+- No golden refresh / commit / push / deploy.
+
+
+
+## Prior session — Kit-50 mobile outer horizontal padding (2026-09-30)
 
 
 
