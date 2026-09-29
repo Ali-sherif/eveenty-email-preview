@@ -3,6 +3,7 @@ import { renderEmail } from './shared/render-emails.js';
 import { BATCH20_EMAIL_IDS } from './shared/batch20-definitions.js';
 import { BATCH8_EMAIL_IDS } from './shared/batch8-definitions.js';
 import { FINAL7_EMAIL_IDS } from './shared/final7-definitions.js';
+import { POST_SCOPE_EMAIL_IDS, POST_SCOPE_PREVIEW_IDS } from './shared/post-scope-definitions.js';
 
 const OWNER_APPROVED_IDS = new Set([
   'activate_email',
@@ -89,9 +90,16 @@ function syncVariantLocales() {
 
 function updateMeta() {
   const def = currentDef();
-  const reviewStatus = OWNER_APPROVED_IDS.has(def.id)
-    ? 'OWNER VISUAL APPROVED — protected baseline'
-    : 'DESIGNED — awaiting owner review';
+  let reviewStatus;
+  if (POST_SCOPE_PREVIEW_IDS.includes(def.id)) {
+    reviewStatus =
+      def.previewStatus ||
+      'current Kit preview · post-original-scope addition · design-system reviewed';
+  } else if (OWNER_APPROVED_IDS.has(def.id)) {
+    reviewStatus = 'OWNER VISUAL APPROVED — protected baseline';
+  } else {
+    reviewStatus = 'DESIGNED — awaiting owner review';
+  }
   els.meta.innerHTML = `
     <dt>Template</dt><dd>${def.id}</dd>
     <dt>Design Kit family</dt><dd>${def.master}</dd>
@@ -106,16 +114,29 @@ function renderCatalogList() {
   if (!els.catalogList || !catalog) return;
   const family = els.catalogFamily?.value || 'all';
   const status = els.catalogStatus?.value || 'all';
-  const items = catalog.emails.filter((e) => {
+  const historic = catalog.emails || [];
+  const postScope = (catalog.post_scope_emails || []).map((e) => ({
+    ...e,
+    design_status: e.design_status || 'DESIGNED',
+    preview_selectable: e.preview_selectable !== false,
+  }));
+  const items = [...historic, ...postScope].filter((e) => {
     const famKey = e.scope === 'EXCLUDED' ? 'Excluded' : e.design_kit_family;
     if (family !== 'all' && famKey !== family) return false;
+    if (status === 'POST_SCOPE') return Boolean(e.post_original_scope);
     if (status !== 'all' && e.design_status !== status) return false;
     return true;
   });
   els.catalogList.innerHTML = items
     .map((e) => {
       const selectable = e.preview_selectable;
-      const statusLabel = e.design_status === 'DESIGNED' ? 'DESIGNED' : e.design_status === 'UNDESIGNED' ? 'UNDESIGNED' : 'EXCLUDED';
+      const statusLabel = e.post_original_scope
+        ? 'POST-SCOPE KIT'
+        : e.design_status === 'DESIGNED'
+          ? 'DESIGNED'
+          : e.design_status === 'UNDESIGNED'
+            ? 'UNDESIGNED'
+            : 'EXCLUDED';
       if (selectable) {
         return `<li><button type="button" class="catalog-link" data-email-id="${e.id}">${e.id}</button> <span class="catalog-tag">${statusLabel}</span> <span class="catalog-path">${e.functional_subfolder}</span></li>`;
       }
@@ -139,7 +160,7 @@ async function loadCatalog() {
     renderCatalogList();
   } catch (err) {
     if (els.catalogList) {
-      els.catalogList.innerHTML = `<li class="catalog-error">Catalog unavailable (${err.message}). The 48 local previews still work.</li>`;
+      els.catalogList.innerHTML = `<li class="catalog-error">Catalog unavailable (${err.message}). The local previews still work.</li>`;
     }
   }
 }
@@ -213,6 +234,10 @@ function updatePreviewAnnotation(def) {
   } else if (FINAL7_EMAIL_IDS.some(({ id }) => id === def.id)) {
     els.annotation.hidden = false;
     els.annotation.innerHTML = `<strong>FINAL 7 · AWAITING OWNER REVIEW</strong> — HTML Preview only. Content and URLs are synthetic fixtures; no production template, backend, Figma, CDN, or official asset was changed.`;
+  } else if (POST_SCOPE_EMAIL_IDS.some(({ id }) => id === def.id)) {
+    els.annotation.hidden = false;
+    els.annotation.innerHTML =
+      `<strong>CURRENT KIT PREVIEW · POST-ORIGINAL-SCOPE ADDITION · DESIGN-SYSTEM REVIEWED</strong> — Not part of the historic approved 48. Generated from current Kit #${def.kitNumber} design. Fixtures are inert; formal visual-owner approval is separate.`;
   } else if (!OWNER_APPROVED_IDS.has(def.id)) {
     els.annotation.hidden = false;
     els.annotation.innerHTML = `<strong>DESIGNED · AWAITING OWNER REVIEW</strong> — HTML Preview only. Content and URLs are synthetic fixtures.`;

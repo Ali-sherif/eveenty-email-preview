@@ -958,3 +958,112 @@ func fixedSendingMarketingEmailParams() model.SendingMarketingEmailParams {
 		Restaurant:     fixedRestaurant(),
 	}
 }
+
+// ── Festival End of Day Report fixtures (Kit #50) ─────────────────────────────
+
+func fixedEODFestival(id, name string) *model.Festival {
+	start := time.Date(2026, 3, 14, 0, 0, 0, 0, time.UTC)
+	return &model.Festival{
+		FestivalID: id,
+		Name:       name,
+		StartTime:  start,
+		EndTime:    start.Add(72 * time.Hour),
+		TimeZone:   "America/Toronto",
+		Currency:   "CAD",
+	}
+}
+
+func fixedEODReportMulti() ([]*model.Festival, *model.OrganizerEndOfDayReport) {
+	f1 := fixedEODFestival("festival-fixed-001", "Snapshot Festival 2026")
+	f2 := fixedEODFestival("festival-fixed-002", "Second Snapshot Fest")
+	report := &model.OrganizerEndOfDayReport{
+		OrganizerUserID: "organizer-user-001",
+		From:            "2026-03-14",
+		To:              "2026-03-14",
+		Festivals: []*model.FestivalEndOfDayReport{
+			{
+				FestivalID:   f1.FestivalID,
+				FestivalName: f1.Name,
+				Currency:     "CAD",
+				TimeZone:     "America/Toronto",
+				From:         "2026-03-14",
+				To:           "2026-03-14",
+				Days: []model.EndOfDayReportDay{
+					{
+						Date: "2026-03-14",
+						SaleTypes: []model.SaleTypeEndOfDayReport{
+							{SaleType: model.SaleTypeTickets, ItemsCount: 12, TransactionsCount: 5, Subtotal: 45000, TotalItems: 100, TotalSoldItems: 40, SoldPercentage: 0.4},
+							{SaleType: model.SaleTypeBooths, ItemsCount: 2, TransactionsCount: 2, Subtotal: 80000, TotalItems: 20, TotalSoldItems: 8, SoldPercentage: 0.4},
+							{SaleType: model.SaleTypeDonations, ItemsCount: 3, TransactionsCount: 3, Subtotal: 15000, TotalItems: 0, TotalSoldItems: 3, SoldPercentage: 0},
+						},
+					},
+				},
+			},
+			{
+				FestivalID:   f2.FestivalID,
+				FestivalName: f2.Name,
+				Currency:     "CAD",
+				TimeZone:     "America/Toronto",
+				From:         "2026-03-14",
+				To:           "2026-03-14",
+				Days: []model.EndOfDayReportDay{
+					{Date: "2026-03-14", SaleTypes: nil},
+				},
+			},
+		},
+	}
+	return []*model.Festival{f1, f2}, report
+}
+
+func fixedEODReportSingle() ([]*model.Festival, *model.OrganizerEndOfDayReport) {
+	f1 := fixedEODFestival("festival-fixed-001", "Snapshot Festival 2026")
+	report := &model.OrganizerEndOfDayReport{
+		OrganizerUserID: "organizer-user-001",
+		From:            "2026-03-14",
+		To:              "2026-03-14",
+		Festivals: []*model.FestivalEndOfDayReport{
+			{
+				FestivalID:   f1.FestivalID,
+				FestivalName: f1.Name,
+				Currency:     "CAD",
+				TimeZone:     "America/Toronto",
+				From:         "2026-03-14",
+				To:           "2026-03-14",
+				Days: []model.EndOfDayReportDay{
+					{
+						Date: "2026-03-14",
+						SaleTypes: []model.SaleTypeEndOfDayReport{
+							{SaleType: model.SaleTypeTickets, ItemsCount: 12, TransactionsCount: 5, Subtotal: 45000, TotalItems: 100, TotalSoldItems: 40, SoldPercentage: 0.4},
+							{SaleType: model.SaleTypeActivities, ItemsCount: 4, TransactionsCount: 4, Subtotal: 20000, TotalItems: 50, TotalSoldItems: 10, SoldPercentage: 0.2},
+						},
+					},
+				},
+			},
+		},
+	}
+	return []*model.Festival{f1}, report
+}
+
+func fixedEODReportNoSales() ([]*model.Festival, *model.OrganizerEndOfDayReport) {
+	f1 := fixedEODFestival("festival-fixed-001", "Snapshot Festival 2026")
+	report := &model.OrganizerEndOfDayReport{
+		OrganizerUserID: "organizer-user-001",
+		From:            "2026-03-14",
+		To:              "2026-03-14",
+		Festivals: []*model.FestivalEndOfDayReport{
+			{
+				FestivalID:   f1.FestivalID,
+				FestivalName: f1.Name,
+				Currency:     "CAD",
+				TimeZone:     "America/Toronto",
+				From:         "2026-03-14",
+				To:           "2026-03-14",
+				Days: []model.EndOfDayReportDay{
+					{Date: "2026-03-14", SaleTypes: nil},
+				},
+			},
+		},
+	}
+	return []*model.Festival{f1}, report
+}
+

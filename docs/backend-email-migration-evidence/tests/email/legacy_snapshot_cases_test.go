@@ -42,7 +42,8 @@ type snapshotCase struct {
 }
 
 // allSnapshotCases is the full case table — original 48 Kit templates plus
-// Kit #49 organizer_team_invitation, plus EXCLUDED legacy stems as applicable.
+// Kit #49 organizer_team_invitation, Kit #50 festival_end_of_day_report,
+// plus EXCLUDED legacy stems as applicable.
 var allSnapshotCases = []snapshotCase{
 
 	// ── Auth family ───────────────────────────────────────────────────────────
@@ -605,6 +606,36 @@ var allSnapshotCases = []snapshotCase{
 				Token:           "oti-token-new-001",
 				Status:          model.OrganizerTeamInvitationStatusPending,
 			}, false)
+		},
+	},
+
+	// ── Festival End of Day Report (Kit #50; post-original-48 addition) ──────
+
+	{
+		templateID: "festival_end_of_day_report",
+		persona:    "multi_festival",
+		locale:     "en",
+		invoke: func(ctx context.Context, c *smtpClient) error {
+			festivals, report := fixedEODReportMulti()
+			return c.SendOrganizerEndOfDayReportToOrganizer(ctx, fixedOrganizer(), festivals, report)
+		},
+	},
+	{
+		templateID: "festival_end_of_day_report",
+		persona:    "single_festival",
+		locale:     "en",
+		invoke: func(ctx context.Context, c *smtpClient) error {
+			festivals, report := fixedEODReportSingle()
+			return c.SendOrganizerEndOfDayReportToOrganizer(ctx, fixedOrganizer(), festivals, report)
+		},
+	},
+	{
+		templateID: "festival_end_of_day_report",
+		persona:    "no_sales",
+		locale:     "en",
+		invoke: func(ctx context.Context, c *smtpClient) error {
+			festivals, report := fixedEODReportNoSales()
+			return c.SendOrganizerEndOfDayReportToOrganizer(ctx, fixedOrganizer(), festivals, report)
 		},
 	},
 

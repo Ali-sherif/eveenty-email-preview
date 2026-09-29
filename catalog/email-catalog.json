@@ -1082,5 +1082,70 @@
       "preview": "emails/organizer_announcement.html",
       "preview_selectable": true
     }
+  ],
+  "current_kit_preview": {
+    "historic_approved_preview_scope": 48,
+    "current_kit_preview_scope": 50,
+    "note": "Historic Phase-1 approved Preview set remains 48. Kit #49/#50 are post-original-scope current Kit previews (design-system reviewed; not historic owner visual approvals).",
+    "post_original_scope_additions": [
+      {
+        "kit_number": 49,
+        "id": "organizer_team_invitation",
+        "preview": "emails/organizer_team_invitation.html",
+        "kit_template": "email/templates/kit/organizer_team_invitation.template",
+        "variable_contract": "docs/agent/production-migration/VARIABLE_CONTRACTS/organizer_team_invitation.md",
+        "status": "current Kit preview · post-original-scope addition · design-system reviewed"
+      },
+      {
+        "kit_number": 50,
+        "id": "festival_end_of_day_report",
+        "preview": "emails/festival_end_of_day_report.html",
+        "kit_template": "email/templates/kit/festival_end_of_day_report.template",
+        "variable_contract": "docs/agent/production-migration/VARIABLE_CONTRACTS/festival_end_of_day_report.md",
+        "status": "current Kit preview · post-original-scope addition · design-system reviewed"
+      }
+    ]
+  },
+  "post_scope_emails": [
+    {
+      "id": "organizer_team_invitation",
+      "kit_number": 49,
+      "filename": "organizer_team_invitation.template",
+      "production_path": "email/templates/kit/organizer_team_invitation.template",
+      "archived_legacy_path": "email/templates/archive/legacy/organizer_team_invitation.template",
+      "backend_family": "Workflow/Status",
+      "design_kit_family": "NOTIFICATION",
+      "functional_subfolder": "Organizer-Team",
+      "catalog_path": "Post-Original-Scope/Kit-49/organizer_team_invitation.template",
+      "scope": "POST_ORIGINAL_SCOPE",
+      "design_status": "DESIGNED",
+      "preview_status": "current Kit preview · post-original-scope addition · design-system reviewed",
+      "post_original_scope": true,
+      "figma": null,
+      "preview": "emails/organizer_team_invitation.html",
+      "preview_selectable": true,
+      "variable_contract": "docs/agent/production-migration/VARIABLE_CONTRACTS/organizer_team_invitation.md",
+      "sender": "(*smtpClient).SendOrganizerTeamInvitation"
+    },
+    {
+      "id": "festival_end_of_day_report",
+      "kit_number": 50,
+      "filename": "festival_end_of_day_report.template",
+      "production_path": "email/templates/kit/festival_end_of_day_report.template",
+      "archived_legacy_path": "email/templates/archive/legacy/festival_end_of_day_report.template",
+      "backend_family": "Internal/Operational",
+      "design_kit_family": "NOTIFICATION",
+      "functional_subfolder": "Organizer-Reports",
+      "catalog_path": "Post-Original-Scope/Kit-50/festival_end_of_day_report.template",
+      "scope": "POST_ORIGINAL_SCOPE",
+      "design_status": "DESIGNED",
+      "preview_status": "current Kit preview · post-original-scope addition · design-system reviewed",
+      "post_original_scope": true,
+      "figma": null,
+      "preview": "emails/festival_end_of_day_report.html",
+      "preview_selectable": true,
+      "variable_contract": "docs/agent/production-migration/VARIABLE_CONTRACTS/festival_end_of_day_report.md",
+      "sender": "(*smtpClient).SendOrganizerEndOfDayReportToOrganizer"
+    }
   ]
 }

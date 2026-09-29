@@ -1,0 +1,176 @@
+From: "Eveenty" <noreply@snapshot.invalid>
+To: "Bob Organizer" <organizer@snapshot.invalid>
+Subject: 📊 End of Day Sales Report | All Festivals | Organizer Email
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>End of Day Sales Report</title>
+    <style>
+      html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
+      .eod-container { box-sizing: border-box; }
+      .eod-table-wrapper { display: block; width: 100%; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+      .eod-table { border-collapse: collapse; width: 100%; min-width: 680px; table-layout: auto; }
+      .eod-table th, .eod-table td { white-space: nowrap; }
+      .eod-table th:first-child, .eod-table td:first-child { white-space: normal; min-width: 140px; }
+      .eod-header-logo { max-width: 100%; height: auto; }
+      .eod-festival-body { max-width: 100%; box-sizing: border-box; }
+      @media only screen and (max-width: 600px) {
+        .eod-container { padding: 20px 12px !important; }
+        .eod-table { min-width: 680px !important; table-layout: auto !important; }
+        .eod-table th, .eod-table td { white-space: nowrap !important; }
+        .eod-table th:first-child, .eod-table td:first-child { white-space: normal !important; }
+        .eod-header-logo { padding: 0 !important; margin: 0 auto !important; float: none !important; display: block; height: 3.5em !important; max-width: 80% !important; }
+        .eod-festival-body { padding: 12px !important; }
+      }
+    </style>
+  </head>
+  <body style="text-align: left; font-family: Arial, Helvetica, sans-serif; color: #292929; width: 100%; max-width: 100%; box-sizing: border-box; overflow-x: hidden; margin: 0; padding: 0; background-color: #f5f5f5;" dir="ltr">
+
+    <!-- Header -->
+    <div style="width: 100%; max-width: 100%; box-sizing: border-box; height: 5em; padding-top: 1.8em; overflow: hidden;">
+      <div style="width: 100%; max-width: 100%; box-sizing: border-box; height: 5em; background: linear-gradient(90deg, #E8CF21 50%, #E8CF21 50%); background-repeat: no-repeat; background-size: 100% 15%; background-position: center; text-align: center;">
+        <img class="eod-header-logo" style="padding: 0 20px; margin: 0 auto; background-color:rgb(250, 255, 222); height: 5em; max-width: 80%; width: auto;" src="https://cdn.eveenty.com/assets/logo_transparent_en.png" alt="Eveenty">
+      </div>
+    </div>
+
+    <!-- Main Content Container -->
+    <div class="eod-container" style="max-width: 800px; width: 100%; box-sizing: border-box; margin: 0 auto; background-color: #ffffff; padding: 40px 30px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+
+      <!-- Greeting -->
+      <p style="font-size: 130%; font-weight: bold; padding: 0 0 20px 0; margin: 0; color: #292929;">Dear <bdi>Bob Organizer</bdi>,</p>
+
+      <!-- Intro Message -->
+      <p style="font-size: 120%; line-height: 1.5; margin: 0 0 30px 0; color: #292929;">
+        Here is the sales summary for your festivals for <strong>Saturday, March 14, 2026</strong>.
+        
+      </p>
+
+      
+      
+      <!-- Festival Section: standalone block, same shape as API (festival + its own days) -->
+      <div style="margin-bottom: 35px; border: 1px solid #e9ecef; border-radius: 8px; overflow: hidden;">
+        <div style="background-color: #292929; padding: 16px 20px;">
+          <h2 style="color: #ffffff; margin: 0; font-size: 135%;"><bdi>Snapshot Festival 2026</bdi></h2>
+          <p style="margin: 5px 0 0 0; font-size: 100%; color: #E8CF21;">America/Toronto &nbsp;•&nbsp; CAD (CAD)</p>
+          <p style="margin: 5px 0 0 0; font-size: 95%; color: #cccccc;">2026-03-14 &nbsp;–&nbsp; 2026-03-14</p>
+        </div>
+        <div class="eod-festival-body" style="padding: 20px; max-width: 100%; box-sizing: border-box;">
+        
+        
+        
+        <!-- Day Section (same shape as API: one date with its own sale types, displayed alone) -->
+        <h3 style="color: #292929; margin: 0 0 5px 0; font-size: 115%;">Saturday, March 14, 2026</h3>
+        <p style="margin: 0 0 10px 0; font-size: 95%; color: #6c757d;">2026-03-14</p>
+      <!-- Sales Table: one row per saleType, same fields as API saleTypes[] -->
+      <div class="eod-table-wrapper" style="display: block; width: 100%; max-width: 100%; border: 1px solid #e9ecef; border-radius: 8px; overflow-x: auto; -webkit-overflow-scrolling: touch; margin-bottom: 20px;">
+        <table class="eod-table" style="width: 100%; min-width: 680px; border-collapse: collapse;">
+          <thead>
+            <tr style="background-color: #292929;">
+              <th style="padding: 14px 15px; color: #ffffff; font-size: 105%; font-weight: 600; text-align: left;">Sale Type</th>
+              <th style="padding: 14px 15px; color: #ffffff; font-size: 105%; font-weight: 600; text-align: center;">Items</th>
+              <th style="padding: 14px 15px; color: #ffffff; font-size: 105%; font-weight: 600; text-align: center;">Transactions</th>
+              <th style="padding: 14px 15px; color: #ffffff; font-size: 105%; font-weight: 600; text-align: center;">Total</th>
+              <th style="padding: 14px 15px; color: #ffffff; font-size: 105%; font-weight: 600; text-align: center;">Sold To Date</th>
+              <th style="padding: 14px 15px; color: #ffffff; font-size: 105%; font-weight: 600; text-align: center;">% Sold</th>
+              <th style="padding: 14px 15px; color: #ffffff; font-size: 105%; font-weight: 600; text-align: right;">Subtotal</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            <tr style="background-color: #f8f9fa; border-bottom: 1px solid #e9ecef;">
+              <td style="padding: 14px 15px; color: #292929; font-weight: 600; text-align: left;">Tickets<br /><span style="font-weight: 400; font-size: 85%; color: #6c757d;">tickets</span></td>
+              <td style="padding: 14px 15px; color: #333; text-align: center;">12</td>
+              <td style="padding: 14px 15px; color: #333; text-align: center;">5</td>
+              <td style="padding: 14px 15px; color: #333; text-align: center;">100</td>
+              <td style="padding: 14px 15px; color: #333; text-align: center;">40</td>
+              <td style="padding: 14px 15px; color: #333; text-align: center;">40%</td>
+              <td style="padding: 14px 15px; color: #333; text-align: right; font-weight: 600;">$450.00 CAD<br /><span style="font-weight: 400; font-size: 85%; color: #6c757d;">CAD</span></td>
+            </tr>
+            
+            <tr style="background-color: #ffffff; border-bottom: 1px solid #e9ecef;">
+              <td style="padding: 14px 15px; color: #292929; font-weight: 600; text-align: left;">Booths<br /><span style="font-weight: 400; font-size: 85%; color: #6c757d;">booths</span></td>
+              <td style="padding: 14px 15px; color: #333; text-align: center;">2</td>
+              <td style="padding: 14px 15px; color: #333; text-align: center;">2</td>
+              <td style="padding: 14px 15px; color: #333; text-align: center;">20</td>
+              <td style="padding: 14px 15px; color: #333; text-align: center;">8</td>
+              <td style="padding: 14px 15px; color: #333; text-align: center;">40%</td>
+              <td style="padding: 14px 15px; color: #333; text-align: right; font-weight: 600;">$800.00 CAD<br /><span style="font-weight: 400; font-size: 85%; color: #6c757d;">CAD</span></td>
+            </tr>
+            
+            <tr style="background-color: #f8f9fa; border-bottom: 1px solid #e9ecef;">
+              <td style="padding: 14px 15px; color: #292929; font-weight: 600; text-align: left;">Donations<br /><span style="font-weight: 400; font-size: 85%; color: #6c757d;">donations</span></td>
+              <td style="padding: 14px 15px; color: #333; text-align: center;">3</td>
+              <td style="padding: 14px 15px; color: #333; text-align: center;">3</td>
+              <td style="padding: 14px 15px; color: #333; text-align: center;">0</td>
+              <td style="padding: 14px 15px; color: #333; text-align: center;">3</td>
+              <td style="padding: 14px 15px; color: #333; text-align: center;">—</td>
+              <td style="padding: 14px 15px; color: #333; text-align: right; font-weight: 600;">$150.00 CAD<br /><span style="font-weight: 400; font-size: 85%; color: #6c757d;">CAD</span></td>
+            </tr>
+            
+            <tr style="background-color: #fffbe6; border-top: 2px solid #E8CF21;">
+              <td style="padding: 16px 15px; color: #292929; font-weight: 700; font-size: 115%; text-align: left;">Day Total</td>
+              <td style="padding: 16px 15px; color: #292929; font-weight: 700; font-size: 115%; text-align: center;">17</td>
+              <td style="padding: 16px 15px; color: #292929; font-weight: 700; font-size: 115%; text-align: center;">10</td>
+              <td style="padding: 16px 15px; color: #292929; font-weight: 700; font-size: 115%; text-align: center;"></td>
+              <td style="padding: 16px 15px; color: #292929; font-weight: 700; font-size: 115%; text-align: center;"></td>
+              <td style="padding: 16px 15px; color: #292929; font-weight: 700; font-size: 115%; text-align: center;"></td>
+              <td style="padding: 16px 15px; color: #292929; font-weight: 700; font-size: 115%; text-align: right;">$1,400.00 CAD</td>
+            </tr>
+          </tbody>
+        </table>
+        <p style="margin: 0; padding: 12px 15px; font-size: 95%; color: #6c757d; background-color: #f8f9fa; border-top: 1px solid #e9ecef;">
+          % Sold is the share of the total sold to date. A dash means the sale type has no total.
+        </p>
+      </div>
+        
+        
+      
+        </div>
+      </div>
+      
+      <!-- Festival Section: standalone block, same shape as API (festival + its own days) -->
+      <div style="margin-bottom: 35px; border: 1px solid #e9ecef; border-radius: 8px; overflow: hidden;">
+        <div style="background-color: #292929; padding: 16px 20px;">
+          <h2 style="color: #ffffff; margin: 0; font-size: 135%;"><bdi>Second Snapshot Fest</bdi></h2>
+          <p style="margin: 5px 0 0 0; font-size: 100%; color: #E8CF21;">America/Toronto &nbsp;•&nbsp; CAD (CAD)</p>
+          <p style="margin: 5px 0 0 0; font-size: 95%; color: #cccccc;">2026-03-14 &nbsp;–&nbsp; 2026-03-14</p>
+        </div>
+        <div class="eod-festival-body" style="padding: 20px; max-width: 100%; box-sizing: border-box;">
+        
+      <!-- No Sales -->
+      <div style="background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px;">
+        <p style="margin: 0; font-size: 120%; color: #555;">No sales were recorded for this festival on this day.</p>
+      </div>
+      
+        </div>
+      </div>
+      
+      
+
+      <!-- Need Help Section -->
+      <div style="background-color: #f8f9fa; border-left: 4px solid #E8CF21; padding: 20px; margin: 30px 0;">
+        <h3 style="margin: 0 0 15px 0; color: #292929; font-size: 130%; font-weight: 600;">Need Help?</h3>
+        <p style="margin: 0; font-size: 120%; color: #333; line-height: 1.5;">
+          If you have any questions or need assistance, please contact us at <a href="mailto:info@eveenty.com" style="color: #856404; text-decoration: none; font-weight: 600;">info@eveenty.com</a>.
+        </p>
+      </div>
+
+      <!-- Footer -->
+      <div style="border-top: 2px solid #E8CF21; padding-top: 20px; margin-top: 30px;">
+        <p style="font-size: 120%; font-weight: 500; margin: 0 0 10px 0; color: #292929;">Best regards,</p>
+        <p style="font-size: 120%; font-weight: 600; margin: 0; color: #E8CF21;">The Eveenty Team</p>
+      </div>
+
+    </div>
+
+    <!-- Bottom Logo -->
+    <div style="text-align: center; padding: 30px 0; background-color: #f5f5f5;">
+      <img src="https://cdn.eveenty.com/assets/logo_transparent_en.png" style="height: auto; width: 200px; max-width: 80%;" alt="Eveenty" />
+    </div>
+
+  </body>
+</html>

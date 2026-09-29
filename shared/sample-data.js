@@ -2,6 +2,7 @@
 import { BATCH20_EMAIL_IDS } from './batch20-definitions.js';
 import { BATCH8_EMAIL_IDS } from './batch8-definitions.js';
 import { FINAL7_EMAIL_IDS } from './final7-definitions.js';
+import { POST_SCOPE_EMAIL_IDS } from './post-scope-definitions.js';
 
 export const SAMPLE = {
   user: {
@@ -757,4 +758,5 @@ export const EMAIL_IDS = [
   ...BATCH20_EMAIL_IDS,
   ...BATCH8_EMAIL_IDS,
   ...FINAL7_EMAIL_IDS,
+  ...POST_SCOPE_EMAIL_IDS,
 ];

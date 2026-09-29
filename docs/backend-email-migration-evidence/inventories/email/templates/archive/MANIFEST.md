@@ -2,9 +2,13 @@
 
 All moves are git renames. Content bytes are unchanged.
 
-## Templates (60)
+## Templates (61)
 
-Original Phase-1 archive was **59** catalog bodies. Kit #49 added archived Legacy for `organizer_team_invitation` (was root-level until 2026-09-29). `festival_end_of_day_report` remains root-level Legacy-only (not in this archive table).
+Original Phase-1 archive was **59** catalog bodies. Post-review archives:
+- Kit #49 `organizer_team_invitation` (2026-09-29)
+- Kit #50 `festival_end_of_day_report` (2026-09-29)
+
+Both former root-level out-of-catalog Legacy bodies are now archived.
 
 | Original path | Archived path | Scope |
 |---|---|---|
@@ -43,6 +47,7 @@ Original Phase-1 archive was **59** catalog bodies. Kit #49 added archived Legac
 | `email/templates/needs_response_dispute_reminder.template` | `email/templates/archive/legacy/needs_response_dispute_reminder.template` | IN_SCOPE (Kit active) |
 | `email/templates/organizer_announcement.template` | `email/templates/archive/legacy/organizer_announcement.template` | IN_SCOPE (Kit active) |
 | `email/templates/organizer_team_invitation.template` | `email/templates/archive/legacy/organizer_team_invitation.template` | IN_SCOPE (Kit #49; post-original-48) |
+| `email/templates/festival_end_of_day_report.template` | `email/templates/archive/legacy/festival_end_of_day_report.template` | IN_SCOPE (Kit #50; post-original-48) |
 | `email/templates/organizer_festival_marketing_email_receipt.template` | `email/templates/archive/legacy/organizer_festival_marketing_email_receipt.template` | IN_SCOPE (Kit active) |
 | `email/templates/organizer_festival_marketing_sms_receipt.template` | `email/templates/archive/legacy/organizer_festival_marketing_sms_receipt.template` | IN_SCOPE (Kit active) |
 | `email/templates/partner_coupons.template` | `email/templates/archive/legacy/partner_coupons.template` | IN_SCOPE (Kit active) |

@@ -68,8 +68,7 @@ export const FINAL7_DESIGNED_IDS = [
   'extra_service_request',
 ];
 
-// Counts are derived from explicit owner-authorized sets so the validator cannot
-// silently accept an arbitrary catalog-wide status change.
+/** Historic approved Preview set — do not expand this list when adding post-scope Kit previews. */
 export const EXPECTED_DESIGNED_IDS = [
   ...DESIGNED_REFERENCE_IDS,
   ...PILOT_DESIGNED_IDS,
@@ -78,12 +77,21 @@ export const EXPECTED_DESIGNED_IDS = [
   ...FINAL7_DESIGNED_IDS,
 ];
 
+/** Post-original-scope Kit preview additions (#49, #50). Not part of historic 48. */
+export const POST_SCOPE_PREVIEW_IDS = [
+  'organizer_team_invitation',
+  'festival_end_of_day_report',
+];
+
 export const EXPECTED = {
   physical: 59,
   excluded: 11,
   in_scope: 48,
   designed: EXPECTED_DESIGNED_IDS.length,
   undesigned: 48 - EXPECTED_DESIGNED_IDS.length,
+  historic_approved_preview_scope: 48,
+  current_kit_preview_scope: 50,
+  post_scope_additions: POST_SCOPE_PREVIEW_IDS.length,
   backendFamilies: {
     'Auth/Simple': 2,
     'Financial/Receipt': 20,
@@ -186,16 +194,27 @@ export function countBy(items, keyFn) {
 
 export function resolveTemplate(catalog, templateId) {
   const exact = catalog.emails.find((e) => e.id === templateId);
-  if (exact) return { match: exact, ambiguous: [] };
+  if (exact) return { match: exact, ambiguous: [], postScope: false };
+  const postExact = (catalog.post_scope_emails || []).find((e) => e.id === templateId);
+  if (postExact) return { match: postExact, ambiguous: [], postScope: true };
   const lower = String(templateId).toLowerCase();
-  const candidates = catalog.emails.filter(
+  const candidates = [
+    ...catalog.emails,
+    ...(catalog.post_scope_emails || []),
+  ].filter(
     (e) =>
       e.id.toLowerCase() === lower ||
       e.filename.toLowerCase() === lower ||
       e.filename.toLowerCase() === `${lower}.template`,
   );
-  if (candidates.length === 1) return { match: candidates[0], ambiguous: [] };
-  return { match: null, ambiguous: candidates.map((c) => c.id) };
+  if (candidates.length === 1) {
+    return {
+      match: candidates[0],
+      ambiguous: [],
+      postScope: Boolean(candidates[0].post_original_scope),
+    };
+  }
+  return { match: null, ambiguous: candidates.map((c) => c.id), postScope: false };
 }
 
 export function buildContextPackage(catalogEntry, traceRow) {
@@ -215,6 +234,10 @@ export function buildContextPackage(catalogEntry, traceRow) {
     preview: catalogEntry.preview,
     preview_selectable: catalogEntry.preview_selectable,
     preview_exists: previewAbs ? fs.existsSync(previewAbs) : false,
+    post_original_scope: Boolean(catalogEntry.post_original_scope),
+    preview_status: catalogEntry.preview_status || null,
+    kit_number: catalogEntry.kit_number || null,
+    variable_contract: catalogEntry.variable_contract || null,
     production_lookup_key: traceRow?.template_id_or_lookup_key || null,
     call_sites: traceRow?.backend_send_functions_and_call_sites || null,
     trigger: traceRow?.trigger_or_business_event || null,

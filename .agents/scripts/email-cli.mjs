@@ -6,8 +6,9 @@
  */
 import fs from 'fs';
 import path from 'path';
-import {
+  import {
   EXPECTED_DESIGNED_IDS,
+  POST_SCOPE_PREVIEW_IDS,
   EXPECTED,
   REPO_ROOT,
   buildContextPackage,
@@ -22,9 +23,9 @@ import {
 function usage(exitCode = 1) {
   const text = `Usage: node .agents/scripts/email-cli.mjs <command> [args] [--json]
 
-Commands:
+  Commands:
   context <template_id>              JSON/human context package for one template
-  validate-catalog                   Verify inventory, mappings, preview paths, exact 48/0 state
+  validate-catalog                   Verify historic 48 inventory + current Kit preview scope 50
   validate-template <template_id>    Validate one template mapping + preview artifacts
   qa [template_id | --all]           Report available Level-A evidence (no new test runner)
   status                             Compact inventory + next actionable items
@@ -206,19 +207,85 @@ function cmdValidateCatalog(asJson) {
   if (missingProduction.length) fail('production_templates', missingProduction.join(', '));
   else pass('production_templates', `${emails.length} read-only sources readable`);
 
+  // ---- Current Kit/Preview scope (post-original-scope #49/#50) ----
+  // Historic inventory above stays 48. These checks assert CURRENT preview scope only.
+  const current = catalog.current_kit_preview || {};
+  if (current.historic_approved_preview_scope !== EXPECTED.historic_approved_preview_scope) {
+    fail(
+      'historic_approved_preview_scope',
+      `got ${current.historic_approved_preview_scope}, expected ${EXPECTED.historic_approved_preview_scope}`,
+    );
+  } else pass('historic_approved_preview_scope', String(EXPECTED.historic_approved_preview_scope));
+
+  if (current.current_kit_preview_scope !== EXPECTED.current_kit_preview_scope) {
+    fail(
+      'current_kit_preview_scope',
+      `got ${current.current_kit_preview_scope}, expected ${EXPECTED.current_kit_preview_scope}`,
+    );
+  } else pass('current_kit_preview_scope', String(EXPECTED.current_kit_preview_scope));
+
+  const postScopeEmails = catalog.post_scope_emails || [];
+  const postIds = postScopeEmails.map((e) => e.id).sort();
+  const expectedPostIds = [...POST_SCOPE_PREVIEW_IDS].sort();
+  if (JSON.stringify(postIds) !== JSON.stringify(expectedPostIds)) {
+    fail('post_scope_ids', `got ${postIds.join(',')}`);
+  } else pass('post_scope_ids', postIds.join(', '));
+
+  const postDupes = postIds.filter((id, i) => postIds.indexOf(id) !== i);
+  const overlapHistoric = postIds.filter((id) => emails.some((e) => e.id === id));
+  if (postDupes.length || overlapHistoric.length) {
+    fail(
+      'post_scope_unique',
+      `dupes=${postDupes.join(',') || 'none'}; overlap_historic=${overlapHistoric.join(',') || 'none'}`,
+    );
+  } else pass('post_scope_unique', 'no duplicate preview IDs');
+
+  const postPreviewProblems = postScopeEmails.flatMap((email) => {
+    if (!email.post_original_scope) return [`${email.id}:missing post_original_scope`];
+    if (!email.preview || email.preview_selectable !== true) return [`${email.id}:missing preview mapping`];
+    if (!String(email.preview_status || '').includes('post-original-scope')) {
+      return [`${email.id}:preview_status must note post-original-scope`];
+    }
+    const previewPath = path.join(REPO_ROOT, email.preview);
+    if (!fs.existsSync(previewPath)) return [`${email.id}:missing ${email.preview}`];
+    const kitPath = path.join(REPO_ROOT, '..', 'rescounts-backend', email.production_path);
+    if (!fs.existsSync(kitPath)) return [`${email.id}:kit template missing at ${email.production_path}`];
+    if (email.kit_number !== 49 && email.kit_number !== 50) {
+      return [`${email.id}:invalid kit_number ${email.kit_number}`];
+    }
+    return [];
+  });
+  if (postPreviewProblems.length) fail('post_scope_previews', postPreviewProblems.join(', '));
+  else pass('post_scope_previews', `${EXPECTED.post_scope_additions} post-scope Kit previews readable`);
+
+  const additions = current.post_original_scope_additions || [];
+  if (additions.length !== EXPECTED.post_scope_additions) {
+    fail('post_scope_additions_block', `got ${additions.length}`);
+  } else {
+    const additionIds = additions.map((a) => a.id).sort();
+    if (JSON.stringify(additionIds) !== JSON.stringify(expectedPostIds)) {
+      fail('post_scope_additions_block', additionIds.join(','));
+    } else pass('post_scope_additions_block', additionIds.join(', '));
+  }
+
+  // Sanity: current scope = historic designed + post-scope
+  if (EXPECTED.designed + EXPECTED.post_scope_additions !== EXPECTED.current_kit_preview_scope) {
+    fail('scope_arithmetic', 'designed + post_scope !== current_kit_preview_scope');
+  } else pass('scope_arithmetic', '48 + 2 = 50');
+
   const ok = checks.every((c) => c.ok);
   const lines = [
     ok ? 'PASS validate-catalog' : 'FAIL validate-catalog',
     ...checks.map((c) => `  ${c.ok ? 'PASS' : 'FAIL'} ${c.name}: ${c.detail}`),
   ];
-  printHuman(lines, { ok, checks, inventory: inv, backend, design_kit_in_scope: dk, designedIds }, asJson);
+  printHuman(lines, { ok, checks, inventory: inv, backend, design_kit_in_scope: dk, designedIds, current_kit_preview: current }, asJson);
   process.exit(ok ? 0 : 1);
 }
 
 function cmdValidateTemplate(templateId, asJson) {
   if (!templateId) usage(1);
   const catalog = loadCatalog();
-  const { match, ambiguous } = resolveTemplate(catalog, templateId);
+  const { match, ambiguous, postScope } = resolveTemplate(catalog, templateId);
   if (!match) {
     printHuman(
       [`FAIL: template '${templateId}' not resolved`],
@@ -233,28 +300,40 @@ function cmdValidateTemplate(templateId, asJson) {
   const add = (name, ok, detail) => checks.push({ name, ok, detail });
 
   add('catalog_record', true, match.id);
-  add('traceability_row', Boolean(row), row ? 'present' : 'missing');
-  if (row) {
+  if (postScope || match.post_original_scope) {
+    add('post_original_scope', true, `Kit #${match.kit_number || '?'}`);
     add(
-      'scope_parity',
-      row.phase1_scope_status === match.scope,
-      `${row.phase1_scope_status} vs ${match.scope}`,
+      'preview_status',
+      String(match.preview_status || '').includes('post-original-scope'),
+      match.preview_status || '(none)',
     );
-    add(
-      'design_status_parity',
-      row.current_design_status === match.design_status ||
-        (match.design_status === 'EXCLUDED_NO_DESIGN' && row.current_design_status),
-      `${row.current_design_status} vs ${match.design_status}`,
-    );
-    add(
-      'design_kit_parity',
-      row.verified_design_kit_family === match.design_kit_family,
-      `${row.verified_design_kit_family} vs ${match.design_kit_family}`,
-    );
+    add('not_in_historic_48', !EXPECTED_DESIGNED_IDS.includes(match.id), 'excluded from historic designed set');
+    // Post-scope IDs intentionally lack Phase-1 traceability rows.
+    add('traceability_row_optional', true, row ? 'present (unexpected but ok)' : 'absent (expected)');
+  } else {
+    add('traceability_row', Boolean(row), row ? 'present' : 'missing');
+    if (row) {
+      add(
+        'scope_parity',
+        row.phase1_scope_status === match.scope,
+        `${row.phase1_scope_status} vs ${match.scope}`,
+      );
+      add(
+        'design_status_parity',
+        row.current_design_status === match.design_status ||
+          (match.design_status === 'EXCLUDED_NO_DESIGN' && row.current_design_status),
+        `${row.current_design_status} vs ${match.design_status}`,
+      );
+      add(
+        'design_kit_parity',
+        row.verified_design_kit_family === match.design_kit_family,
+        `${row.verified_design_kit_family} vs ${match.design_kit_family}`,
+      );
+    }
   }
 
   const previewPath = match.preview ? path.join(REPO_ROOT, match.preview) : null;
-  if (match.design_status === 'DESIGNED') {
+  if (match.design_status === 'DESIGNED' || match.post_original_scope) {
     add('preview_path_set', Boolean(match.preview), match.preview || '(none)');
     add('preview_file_exists', previewPath ? fs.existsSync(previewPath) : false, previewPath || '');
     add('preview_selectable', match.preview_selectable === true, String(match.preview_selectable));
@@ -270,8 +349,6 @@ function cmdValidateTemplate(templateId, asJson) {
     backendReadable ? backendTemplate : `not found at ${backendTemplate} (optional read-only check)`,
   );
 
-  const ok = checks.every((c) => c.ok || c.name === 'backend_template_readable');
-  // backend check is informational if path missing — still report but don't fail install validation on path layout
   const hardOk = checks.filter((c) => c.name !== 'backend_template_readable').every((c) => c.ok);
   const lines = [
     hardOk ? `PASS validate-template ${match.id}` : `FAIL validate-template ${match.id}`,
@@ -342,6 +419,7 @@ function cmdQa(target, asJson) {
 function cmdStatus(asJson) {
   const catalog = loadCatalog();
   const inv = catalog.inventory;
+  const current = catalog.current_kit_preview || {};
   const next = catalog.emails
     .filter((e) => e.scope === 'IN_SCOPE' && e.design_status === 'UNDESIGNED')
     .slice(0, 5)
@@ -349,11 +427,14 @@ function cmdStatus(asJson) {
   const lines = [
     `physical=${inv.physical} excluded=${inv.excluded} in_scope=${inv.in_scope}`,
     `designed=${inv.designed} undesigned=${inv.undesigned}`,
-    `next_undesigned_sample=${next.join(', ')}`,
+    `historic_approved_preview_scope=${current.historic_approved_preview_scope ?? EXPECTED.historic_approved_preview_scope}`,
+    `current_kit_preview_scope=${current.current_kit_preview_scope ?? '(missing)'}`,
+    `post_original_scope=${(catalog.post_scope_emails || []).map((e) => e.id).join(', ') || '(none)'}`,
+    `next_undesigned_sample=${next.join(', ') || '(none)'}`,
     `organizer_announcement=${catalog.emails.find((e) => e.id === 'organizer_announcement')?.design_status}`,
-    'active_design_task=none (8-template batch completed; owner review required before final seven)',
+    `active_design_task=none (8-template batch completed; owner review required before final seven)`,
   ];
-  printHuman(lines, { ok: true, inventory: inv, next_undesigned_sample: next }, asJson);
+  printHuman(lines, { ok: true, inventory: inv, current_kit_preview: current, next_undesigned: next }, asJson);
 }
 
 function cmdHandoff(asJson) {

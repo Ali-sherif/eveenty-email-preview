@@ -1,5 +1,6 @@
 /**
- * Renders the 48 Phase-1 Eveenty reference emails as standalone HTML strings.
+ * Renders the 48 historic Phase-1 Eveenty reference emails plus post-original-scope
+ * Kit #49/#50 previews as standalone HTML strings.
  * Annotations from Figma are omitted — production-representative content only.
  */
 import {
@@ -28,6 +29,7 @@ import { renderBatch20WorkflowEmail } from './batch20-workflow-renderers.js';
 import { renderBatch20InstallmentEmail } from './batch20-installment-renderers.js';
 import { renderBatch8Email } from './batch8-renderers.js';
 import { renderFinal7Email } from './final7-renderers.js';
+import { renderPostScopeEmail } from './post-scope-renderers.js';
 
 export function renderEmail(emailId, options = {}) {
   setAssetBase(options.assetBase ?? './');
@@ -100,6 +102,9 @@ export function renderEmail(emailId, options = {}) {
     case 'book_demo_admin':
     case 'extra_service_request':
       return renderFinal7Email(emailId, { locale, variant, longContent });
+    case 'organizer_team_invitation':
+    case 'festival_end_of_day_report':
+      return renderPostScopeEmail(emailId, { locale, variant, longContent });
     default:
       throw new Error(`Unknown email id: ${emailId}`);
   }
