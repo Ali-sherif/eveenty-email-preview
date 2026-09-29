@@ -41,8 +41,8 @@ type snapshotCase struct {
 	invoke func(ctx context.Context, c *smtpClient) error
 }
 
-// allSnapshotCases is the full case table — all 48 legacy templates, at least
-// one persona each.
+// allSnapshotCases is the full case table — original 48 Kit templates plus
+// Kit #49 organizer_team_invitation, plus EXCLUDED legacy stems as applicable.
 var allSnapshotCases = []snapshotCase{
 
 	// ── Auth family ───────────────────────────────────────────────────────────
@@ -572,6 +572,39 @@ var allSnapshotCases = []snapshotCase{
 		locale:     "en",
 		invoke: func(ctx context.Context, c *smtpClient) error {
 			return c.SendOrganizerAnnouncement(ctx, "buyer@snapshot.invalid", "Festival Announcement", "We have an important update about the event.")
+		},
+	},
+
+	// ── Organizer Team Invitation (Kit #49; post-original-48 addition) ───────
+
+	{
+		templateID: "organizer_team_invitation",
+		persona:    "existing_user",
+		locale:     "en",
+		invoke: func(ctx context.Context, c *smtpClient) error {
+			return c.SendOrganizerTeamInvitation(ctx, &model.OrganizerTeamInvitation{
+				InvitationID:    "oti-inv-existing-001",
+				OrganizerUserID: "organizer-user-001",
+				Email:           "invitee-existing@snapshot.invalid",
+				FestivalIDs:     `["festival-fixed-001"]`,
+				Token:           "oti-token-existing-001",
+				Status:          model.OrganizerTeamInvitationStatusPending,
+			}, true)
+		},
+	},
+	{
+		templateID: "organizer_team_invitation",
+		persona:    "new_user",
+		locale:     "en",
+		invoke: func(ctx context.Context, c *smtpClient) error {
+			return c.SendOrganizerTeamInvitation(ctx, &model.OrganizerTeamInvitation{
+				InvitationID:    "oti-inv-new-001",
+				OrganizerUserID: "organizer-user-001",
+				Email:           "invitee-new@snapshot.invalid",
+				FestivalIDs:     `["festival-fixed-001"]`,
+				Token:           "oti-token-new-001",
+				Status:          model.OrganizerTeamInvitationStatusPending,
+			}, false)
 		},
 	},
 

@@ -79,9 +79,9 @@ func TestLoadKitTemplates_MissingKitDir_Inactive(t *testing.T) {
 	}
 }
 
-// TestLoadKitTemplates_All48_Active — kit is always selected when templates parse;
+// TestLoadKitTemplates_AllInScope_Active — kit is always selected when templates parse;
 // CDN eligibility is not a gate (assets use config.CdnURL).
-func TestLoadKitTemplates_All48_Active(t *testing.T) {
+func TestLoadKitTemplates_AllInScope_Active(t *testing.T) {
 	prev := config.AppConfig
 	t.Cleanup(func() { config.AppConfig = prev })
 
@@ -117,7 +117,7 @@ func TestLoadKitTemplates_All48_Active(t *testing.T) {
 		}
 		seen[tc.templateID] = true
 		if !kitTemplateFileExists(tc.templateID) {
-			continue // EXCLUDED stems snapshotted in P1 but not in the 48
+			continue // EXCLUDED stems snapshotted in P1 but not in the Kit set
 		}
 		legacyStub := template.New("legacy-stub-" + tc.templateID)
 		got := client.templateFor(tc.templateID, legacyStub)
@@ -141,6 +141,161 @@ func TestLoadKitTemplates_All48_Active(t *testing.T) {
 			t.Fatalf("excluded template %s must keep legacy path via templateFor", id)
 		}
 	}
+
+	// festival_end_of_day_report stays Legacy-only (never Kit).
+	if _, ok := client.kitTemplates.templates["festival_end_of_day_report"]; ok {
+		t.Fatal("festival_end_of_day_report must not be in kit set")
+	}
+}
+
+func TestLoadKitTemplates_PartialSet_Inactive(t *testing.T) {
+	prev := config.AppConfig
+	t.Cleanup(func() { config.AppConfig = prev })
+
+	kitDir := findKitDir(t)
+	dataDir := filepath.Clean(filepath.Join(kitDir, "..", "..", ".."))
+	config.AppConfig = &config.Config{CdnURL: utils.KitAssetTestCDNBase}
+
+	full, count, reason := tryLoadKitTemplates(dataDir)
+	if full == nil || count != ExpectedInScopeKitTemplateCount {
+		t.Fatalf("expected full kit set of %d, got %d (%s)", ExpectedInScopeKitTemplateCount, count, reason)
+	}
+
+	// Clone set and drop one template to prove fail-closed below expected count.
+	partial := &kitTemplateSet{
+		templatesDir: full.templatesDir,
+		partialsDir:  full.partialsDir,
+		partialPaths: full.partialPaths,
+		templates:    make(map[string]*template.Template, count-1),
+		funcMap:      full.funcMap,
+	}
+	dropped := false
+	for name, tmpl := range full.templates {
+		if !dropped && name == "organizer_team_invitation" {
+			dropped = true
+			continue
+		}
+		partial.templates[name] = tmpl
+	}
+	if !dropped {
+		t.Fatal("expected organizer_team_invitation in full kit set")
+	}
+
+	client := &smtpClient{kitTemplates: partial, kitActive: len(partial.templates) == ExpectedInScopeKitTemplateCount}
+	if client.KitActive() {
+		t.Fatalf("partial kit set (%d) must leave kit inactive", len(partial.templates))
+	}
+	legacyStub := template.New("legacy-oti")
+	if client.templateFor("organizer_team_invitation", legacyStub) != legacyStub {
+		t.Fatal("inactive kit must fall back to legacy for organizer_team_invitation")
+	}
+}
+
+func TestInventory_KitAnd11Excluded(t *testing.T) {
+	kitDir := findKitDir(t)
+	kitMatches, err := filepath.Glob(filepath.Join(kitDir, "*.template"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(kitMatches) != ExpectedInScopeKitTemplateCount {
+		t.Fatalf("kit template files: want %d, got %d", ExpectedInScopeKitTemplateCount, len(kitMatches))
+	}
+
+	legacyDir := filepath.Clean(filepath.Join(kitDir, "..", "archive", "legacy"))
+	legacyMatches, err := filepath.Glob(filepath.Join(legacyDir, "*.template"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	// Original catalog archive was 59; organizer_team_invitation archive makes 60.
+	if len(legacyMatches) != 60 {
+		t.Fatalf("archived legacy templates: want 60, got %d under %s", len(legacyMatches), legacyDir)
+	}
+
+	partialMatches, err := filepath.Glob(filepath.Join(legacyDir, "partials", "*.template"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(partialMatches) != 12 {
+		t.Fatalf("archived legacy partials: want 12, got %d", len(partialMatches))
+	}
+
+	kitIDs := map[string]struct{}{}
+	for _, p := range kitMatches {
+		kitIDs[strings.TrimSuffix(filepath.Base(p), ".template")] = struct{}{}
+	}
+	if _, ok := kitIDs["organizer_team_invitation"]; !ok {
+		t.Fatal("organizer_team_invitation must be Kit #49")
+	}
+	if _, ok := kitIDs["festival_end_of_day_report"]; ok {
+		t.Fatal("festival_end_of_day_report must remain outside the Kit set")
+	}
+	for _, id := range excludedLegacyTemplateIDs {
+		if _, ok := kitIDs[id]; ok {
+			t.Fatalf("excluded template %s must not have a kit file", id)
+		}
+		legacyPath := filepath.Join(legacyDir, id+".template")
+		if _, err := os.Stat(legacyPath); err != nil {
+			t.Fatalf("excluded legacy template missing from archive: %s", legacyPath)
+		}
+	}
+	for id := range kitIDs {
+		legacyPath := filepath.Join(legacyDir, id+".template")
+		if _, err := os.Stat(legacyPath); err != nil {
+			t.Fatalf("IN_SCOPE kit template %s missing archived legacy body at %s", id, legacyPath)
+		}
+	}
+}
+
+func TestLegacyArchivePath_LoadsViaInitiator(t *testing.T) {
+	prevDir := *config.DataDirectory
+	t.Cleanup(func() { *config.DataDirectory = prevDir })
+
+	kitDir := findKitDir(t)
+	repoRoot := filepath.Clean(filepath.Join(kitDir, "..", "..", ".."))
+	*config.DataDirectory = repoRoot
+
+	c := new(emailClientInitiator).initTemplatesSettings()
+	wantLegacy := filepath.Join(repoRoot, "email", "templates", "archive", "legacy")
+	if c.templatesDir != wantLegacy {
+		t.Fatalf("legacy templatesDir: want %s, got %s", wantLegacy, c.templatesDir)
+	}
+	if len(c.partialFilesPaths) != 12 {
+		t.Fatalf("legacy partial paths: want 12, got %d", len(c.partialFilesPaths))
+	}
+
+	// Smoke-load archived IN_SCOPE bodies (including Kit #49) and one EXCLUDED body.
+	for _, name := range []string{"activate_email", "organizer_team_invitation", "receipt"} {
+		tmpl, err := c.newEmailTemplate(name)
+		if err != nil {
+			t.Fatalf("parse archived legacy %s: %v", name, err)
+		}
+		if tmpl == nil {
+			t.Fatalf("nil template for %s", name)
+		}
+	}
+
+	// festival_end_of_day_report remains root-level Legacy-only.
+	eod, err := c.newEmailTemplate("festival_end_of_day_report")
+	if err != nil {
+		t.Fatalf("festival_end_of_day_report must still load from root Legacy path: %v", err)
+	}
+	if eod == nil {
+		t.Fatal("nil festival_end_of_day_report template")
+	}
+	rootPath := filepath.Join(repoRoot, "email", "templates", "festival_end_of_day_report.template")
+	if _, err := os.Stat(rootPath); err != nil {
+		t.Fatalf("festival_end_of_day_report root Legacy body missing: %v", err)
+	}
+	if _, err := os.Stat(filepath.Join(legacyDirFromKit(kitDir), "organizer_team_invitation.template")); err != nil {
+		t.Fatalf("organizer_team_invitation must be archived, not root: %v", err)
+	}
+	if _, err := os.Stat(filepath.Join(repoRoot, "email", "templates", "organizer_team_invitation.template")); !os.IsNotExist(err) {
+		t.Fatal("organizer_team_invitation must no longer exist at root templates path")
+	}
+}
+
+func legacyDirFromKit(kitDir string) string {
+	return filepath.Clean(filepath.Join(kitDir, "..", "archive", "legacy"))
 }
 
 func TestKitPartialsParseInIsolation(t *testing.T) {
@@ -158,7 +313,6 @@ func TestKitPartialsParseInIsolation(t *testing.T) {
 		t.Fatalf("expected shared kit chrome partials, got %d paths: %v", len(set.partialPaths), set.partialPaths)
 	}
 
-	// Prove kit partials parse without any legacy partial.
 	files := append([]string{}, set.partialPaths...)
 	tmpl, err := template.New("kit_partials_root").Funcs(set.funcMap).ParseFiles(files...)
 	if err != nil {
@@ -232,81 +386,4 @@ var excludedLegacyTemplateIDs = []string{
 	"receipt", "invoice", "restaurant_approval", "restaurant_decline",
 	"marketing", "marketing2", "marketing3", "marketing4",
 	"marketing_approval_1", "marketing_sms_approval", "marketing_notification_approval",
-}
-
-func TestInventory_48KitAnd11Excluded(t *testing.T) {
-	kitDir := findKitDir(t)
-	kitMatches, err := filepath.Glob(filepath.Join(kitDir, "*.template"))
-	if err != nil {
-		t.Fatal(err)
-	}
-	if len(kitMatches) != ExpectedInScopeKitTemplateCount {
-		t.Fatalf("kit template files: want %d, got %d", ExpectedInScopeKitTemplateCount, len(kitMatches))
-	}
-
-	legacyDir := filepath.Clean(filepath.Join(kitDir, "..", "archive", "legacy"))
-	legacyMatches, err := filepath.Glob(filepath.Join(legacyDir, "*.template"))
-	if err != nil {
-		t.Fatal(err)
-	}
-	if len(legacyMatches) != 59 {
-		t.Fatalf("archived legacy templates: want 59, got %d under %s", len(legacyMatches), legacyDir)
-	}
-
-	partialMatches, err := filepath.Glob(filepath.Join(legacyDir, "partials", "*.template"))
-	if err != nil {
-		t.Fatal(err)
-	}
-	if len(partialMatches) != 12 {
-		t.Fatalf("archived legacy partials: want 12, got %d", len(partialMatches))
-	}
-
-	kitIDs := map[string]struct{}{}
-	for _, p := range kitMatches {
-		kitIDs[strings.TrimSuffix(filepath.Base(p), ".template")] = struct{}{}
-	}
-	for _, id := range excludedLegacyTemplateIDs {
-		if _, ok := kitIDs[id]; ok {
-			t.Fatalf("excluded template %s must not have a kit file", id)
-		}
-		legacyPath := filepath.Join(legacyDir, id+".template")
-		if _, err := os.Stat(legacyPath); err != nil {
-			t.Fatalf("excluded legacy template missing from archive: %s", legacyPath)
-		}
-	}
-	for id := range kitIDs {
-		legacyPath := filepath.Join(legacyDir, id+".template")
-		if _, err := os.Stat(legacyPath); err != nil {
-			t.Fatalf("IN_SCOPE kit template %s missing archived legacy body at %s", id, legacyPath)
-		}
-	}
-}
-
-func TestLegacyArchivePath_LoadsViaInitiator(t *testing.T) {
-	prevDir := *config.DataDirectory
-	t.Cleanup(func() { *config.DataDirectory = prevDir })
-
-	kitDir := findKitDir(t)
-	repoRoot := filepath.Clean(filepath.Join(kitDir, "..", "..", ".."))
-	*config.DataDirectory = repoRoot
-
-	c := new(emailClientInitiator).initTemplatesSettings()
-	wantLegacy := filepath.Join(repoRoot, "email", "templates", "archive", "legacy")
-	if c.templatesDir != wantLegacy {
-		t.Fatalf("legacy templatesDir: want %s, got %s", wantLegacy, c.templatesDir)
-	}
-	if len(c.partialFilesPaths) != 12 {
-		t.Fatalf("legacy partial paths: want 12, got %d", len(c.partialFilesPaths))
-	}
-
-	// Smoke-load one IN_SCOPE archived body and one EXCLUDED body.
-	for _, name := range []string{"activate_email", "receipt"} {
-		tmpl, err := c.newEmailTemplate(name)
-		if err != nil {
-			t.Fatalf("parse archived legacy %s: %v", name, err)
-		}
-		if tmpl == nil {
-			t.Fatalf("nil template for %s", name)
-		}
-	}
 }
