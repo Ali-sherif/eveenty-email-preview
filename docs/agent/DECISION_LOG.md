@@ -402,3 +402,13 @@ Agent skills/rules/docs were updated only where stale or contradictory; no new s
 - Render review found concrete missing approved status/receipt sections and remaining port differences. Classification NEEDS REVIEW; approved reference HTML was not edited or reapproved.
 - DEV CDN: 14/14 200 image/png; nine Wallet hashes match, five logo hashes differ. Artwork/pixel equivalence unknown, not a claim of wrong branding; Infra/Backend must establish it. Production objects: 14/14 403. No upload.
 - Report verdict NOT READY — MIGRATION DEFECTS FOUND. Local test-evidence/design-port blockers are separate from external CDN/DEV/Level B/Security gates. Four security handoffs remain Backend/Security-owned and not cleared. Session stopped with report and handoff; fixes unstaged, inherited staged migration preserved.
+
+---
+
+**[2026-09-29 — Four-template Kit visual parity fixes (owner-authorized)]**
+
+- Owner authorized implementing approved-design visual fixes for exactly four Kit templates after side-by-side Kit vs Preview comparison: `registration_approval_status_changed`, `festival_approval_status_changed`, `organizer_festival_marketing_email_receipt`, `organizer_festival_marketing_sms_receipt`.
+- Backend Kit source updated to restore status alerts / branded footer / campaign-receipt headings / neutral TOTAL / remove Twitter from receipt social rows. Email subjects, recipients, links, attachments, and review-note data gating unchanged. Festival alert titles added as locale strings (Subject lines unchanged).
+- Approved Preview HTML under `emails/` was **not** redesigned or reapproved. Fixture name/amount differences are not defects.
+- Re-render compare: all four match approved structure/styling for the requested sections. Report: `production-migration/VISUAL_FIX_FOUR_TEMPLATES.md`. FINAL_PRE_MERGE_REVIEW §8 items 1–3 recorded as fixed; remaining visual NEEDS REVIEW items (final-seven / registration chrome) unchanged.
+- Preview docs updated; kit snapshot goldens for these four IDs **not** refreshed this session (optional follow-up if preserved suite re-run). No commit/push/deploy.

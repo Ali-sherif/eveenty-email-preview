@@ -1,23 +1,32 @@
 # HANDOFF — Eveenty Email Design Kit
 
-## Latest session — preserved suite reconciliation (2026-09-29)
+## Latest session — four-template approved visual fixes (2026-09-29)
+
+**VISUAL PORT FIXES APPLIED (4 IDs) in `rescounts-backend`.** See `production-migration/VISUAL_FIX_FOUR_TEMPLATES.md`.
+
+- Compared Kit vs approved Preview for: `registration_approval_status_changed`, `festival_approval_status_changed`, `organizer_festival_marketing_email_receipt`, `organizer_festival_marketing_sms_receipt`.
+- Implemented approved status-alert / footer / campaign-receipt heading / neutral TOTAL / no-Twitter social row. Subjects, recipients, links, attachments, review-note data gating unchanged.
+- Re-rendered and re-compared all four — **structure/styling match** approved designs for the requested sections (fixture copy differences ignored).
+- Preview-repo docs updated this session (HANDOFF, DECISION_LOG, FINAL_PRE_MERGE_REVIEW §8 notes, this report). Approved `emails/*.html` **not** edited.
+- Follow-up (not done): refresh kit snapshot goldens for these four IDs under `docs/backend-email-migration-evidence/goldens/` if the preserved suite is re-run against the new Kit bodies.
+
+## Prior session — preserved suite reconciliation (2026-09-29)
 
 **PRESERVED MIGRATION SUITE — PASS.** See `production-migration/PRESERVED_SUITE_RECONCILIATION_REPORT.md`.
 
 - Initial preserved failures: 167 leaf (130 historical + day-drift reminders + ICS UID). After justified normalize/ICS expectation fixes and selective golden refresh against current HEAD: **0 leaf failures**.
 - Organizer ticket sale: HEAD has no `FestivalICSData` — stale ICS expectations removed from goldens/parity only. ICS UID expectation updated to `@eveenty.com` to match `model/festival.go`. No production behavior changes for tests.
-- `go build ./...`, `go vet ./email/... ./config/...`, checkout `go test ./email/...`, full overlay preserved suite, and model ICS filter: PASS. No commit/push/deploy.
-- Final pre-merge visual/CDN/security items from `FINAL_PRE_MERGE_REVIEW.md` are unchanged and still block an unqualified merge-ready claim outside this suite gate.
+- Final pre-merge visual/CDN/security items from `FINAL_PRE_MERGE_REVIEW.md` remain partially open; the four status/receipt visual omissions above are now **closed in Kit source**.
 
 ## Prior session — final pre-merge review (2026-09-28)
 
-**NOT READY — MIGRATION DEFECTS FOUND** (visual/CDN/security/port-omission gates). Functional fresh HEAD comparisons had already PASS; preserved suite was the open local test gate and is now reconciled (see above). Details remain in `production-migration/FINAL_PRE_MERGE_REVIEW.md`.
+**NOT READY — MIGRATION DEFECTS FOUND** (visual/CDN/security/port-omission gates). Functional fresh HEAD comparisons had already PASS; preserved suite was later reconciled. Remaining visual NEEDS REVIEW items are final-seven / registration chrome (not the four fixed above). Details: `production-migration/FINAL_PRE_MERGE_REVIEW.md`.
 
 ## Current task
 
-**Post-P4 local work COMPLETE in `rescounts-backend`. Next environment: DEV deploy (not Production).**
+**Post-P4 local work COMPLETE in `rescounts-backend`. Four approved visual port omissions fixed. Next environment: DEV deploy (not Production).**
 
-Owner architecture stands: no `EMAIL_KIT_ENABLED`; release control is deploy. Kit assets use **`config.CdnURL`** (not a separate `EMAIL_KIT_CDN_BASE_URL`). Kit is selected for IN_SCOPE when kit templates parse; EXCLUDED stay Legacy.
+Owner architecture stands: no `EMAIL_KIT_ENABLED`; release control is deploy. Kit assets use **`config.CdnURL`**. Kit is selected for IN_SCOPE when kit templates parse; EXCLUDED stay Legacy.
 
 Backend verification report: `D:\last\rescounts-backend\email\POST_P4_LOCAL_VERIFICATION.md`  
 Legacy archive: `email/templates/archive/` (moved, not deleted).
@@ -35,20 +44,22 @@ Google **Condensed ONLY** on `festival_ticket_sale`; CDN inventory **14** unique
 | Phase 3 — Verification | LOCAL PASS |
 | Phase 4 — Activation prep | LOCAL IMPLEMENTATION COMPLETE |
 | Post-P4 local (archive + re-verify) | **COMPLETE — DEV READY** |
+| Four-template visual port omissions | **FIXED (2026-09-29)** |
 | DEV deployment | **NEXT** (operator) |
 | Production deploy / verification | **OUT OF SCOPE for current task** — deferred |
 
 ## Remaining open items
 
-1. **Operator** — review backend diff; deploy to DEV; smoke-check Kit ACTIVE + sample sends.
+1. **Operator** — review backend diff (incl. four visual fixes); deploy to DEV; smoke-check Kit ACTIVE + sample sends.
 2. **Infra** — Production `cdn.eveenty.com` currently 403 for kit object keys; upload/verify before Production.
 3. **QA** — Level B when authorized (`LEVEL_B_CHECKLIST.md`); agent must not mark rows passed.
 4. **Backend/Security** — dispositions for four handoffs (11 ids); still required before Production release gate.
 5. **User** — approve or reject `DELETE_CANDIDATES.md` entry for `welcome_email_ad.png` before any deletion/push.
+6. **Optional evidence** — refresh kit goldens for the four fixed IDs if re-running preserved snapshot suite against new Kit HTML.
 
 ## Next authorized action
 
-**Review backend post-P4 changes → DEV deploy → DEV smoke verification.**  
+**Review backend post-P4 + visual-fix changes → DEV deploy → DEV smoke verification.**  
 Do not push/merge/deploy Production without explicit authorization.  
 Do not delete archive candidates without user approval.
 
@@ -59,7 +70,7 @@ Do not delete archive candidates without user approval.
 - Verified inventory: **59 physical / 11 excluded / 48 in scope**.
 - Kit templates: **48/48** under `email/templates/kit/`.
 - Legacy bodies: archived under `email/templates/archive/legacy/` (59 + 12 partials).
-- Local email package tests: **PASS** (2026-09-28).
+- Local email package tests: **PASS** (2026-09-28); visual four-ID re-compare **PASS** (2026-09-29).
 - Level B: **NOT RUN**.
 - Production CDN kit assets: **403 / DEFERRED**.
 - Live Production kit traffic: **NOT CLAIMED**.
