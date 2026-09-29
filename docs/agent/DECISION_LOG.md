@@ -476,3 +476,14 @@ Agent skills/rules/docs were updated only where stale or contradictory; no new s
 - Templates unchanged (still interpolate preformatted strings). Kit + Legacy snapshot goldens refreshed under evidence `docs/backend-email-migration-evidence/goldens/…` (278 kit + 288 legacy). Overlay suite: Kit/Legacy snapshots + parity + EOD mapping + P3/inventory/MIME-related runs **PASS**.
 - Preview: `shared/post-scope-renderers.js`, `emails/festival_end_of_day_report.html`, and EOD kit HTML baselines updated to `CA$…`. Most other Preview fixtures already used `CA$`.
 - No commit/push/deploy.
+
+---
+
+**[2026-09-30 — festival_end_of_day_report Daily Report presentation cleanup (owner-requested)]**
+
+- Verified from source: cron + resend always build a single report day (`from`=`to`=previous local day). Festival From/To and day RawDate duplicate that same day relative to the human-readable date already shown.
+- Kit/Preview-only removals: ISO RawDate under day headings; festival header `From – To`; internal sale-type keys (`tickets`/`booths`/…) under labels. Kept organizer-facing labels + all metrics/conditions.
+- Legacy archive + Legacy goldens unchanged. No model/sender/business-logic edits.
+- Evidence: Kit EOD goldens + HTML baselines refreshed; `festival_eod_data_mapping_test.go` facts no longer require presentation-only duplicates.
+- Overlay `go test ./email/... -count=1 -timeout 600s` **PASS**. Verdict: **FESTIVAL END OF DAY REPORT PRESENTATION CLEANUP — PASS**.
+- No commit/push/deploy.

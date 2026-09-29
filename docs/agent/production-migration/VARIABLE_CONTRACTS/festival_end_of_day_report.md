@@ -60,9 +60,10 @@ SaleTypes[]: SaleType, SaleTypeKey, ItemsCount, TransactionsCount, SoldPercentag
 | Field | Source |
 |---|---|
 | ReportDate (intro) | `formatEndOfDayReportDate(report.ReportDay(), time.UTC)` → `Monday, January 2, 2006` |
-| Festival name / TZ / currency / From–To | `FestivalEndOfDayReport` + currency upper label |
-| Day Date / RawDate | formatted day + `YYYY-MM-DD` |
-| Sale type label / key | mapped label (`Tickets`, …) + raw key (`tickets`, …) |
+| Festival name / TZ / currency | `FestivalEndOfDayReport` + currency upper label |
+| Day Date / RawDate | formatted day + `YYYY-MM-DD` (params still built; **Kit/Preview display human-readable Date only**) |
+| Sale type label / key | mapped label (`Tickets`, …) + raw key (`tickets`, …) (**Kit/Preview display label only**) |
+| Festival From–To | report filter day keys (params still built; **Kit/Preview omit** — always the single report day for cron/resend) |
 | Items / Transactions / Total / Sold To Date / % Sold / Subtotal | per sale type row |
 | Day Total Items / Transactions / Subtotal | summed in section builder |
 | No-sales day / festival messages | `HasSales` conditionals |

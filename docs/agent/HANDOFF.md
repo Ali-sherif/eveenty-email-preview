@@ -2,7 +2,29 @@
 
 
 
-## Latest session — email currency FormatPriceNumber alignment (2026-09-30)
+## Latest session — festival_end_of_day_report presentation cleanup (2026-09-30)
+
+
+
+**FESTIVAL END OF DAY REPORT PRESENTATION CLEANUP — PASS.** See `production-migration/FESTIVAL_END_OF_DAY_REPORT_KIT50_REPORT.md` §20.
+
+
+
+- Source: cron + resend always send a **single** report day (`from`=`to`=`dateKey`).
+
+- Kit/Preview removed: duplicate ISO `RawDate`, festival `From – To` (same-day metadata), internal sale keys (`tickets` / `booths`).
+
+- Kept: human-readable report/day date, TZ • currency, sale-type labels, all metrics/conditions.
+
+- Legacy archive + Legacy goldens unchanged. No backend/model/logic changes.
+
+- Evidence: Kit EOD goldens + baselines refreshed; `TestFestivalEOD_…` facts omit presentation-only duplicates.
+
+- Overlay full suite `go test ./email/... -count=1 -timeout 600s` **PASS** (345.923s). No commit / push / deploy.
+
+
+
+## Prior session — email currency FormatPriceNumber alignment (2026-09-30)
 
 
 

@@ -141,24 +141,25 @@ func eodBusinessFacts(organizer *model.FestivalOrganizer, report *model.Organize
 		facts = append(facts, formatEndOfDayReportDate(reportDate, time.UTC))
 	}
 	for _, section := range sections {
+		// Kit presentation omits festival From/To (always the single report day
+		// for cron/resend) — do not require those ISO keys as visible Kit copy.
 		facts = append(facts,
 			section.FestivalName,
 			section.TimeZone,
 			section.CurrencyLabel,
 			section.Currency,
-			section.From,
-			section.To,
 		)
 		for _, day := range section.Days {
+			// Keep human-readable day.Date only; RawDate duplicates the same day.
 			facts = append(facts, day.Date)
 			if day.HasSales {
-				facts = append(facts, day.RawDate, day.TotalSubtotal)
+				facts = append(facts, day.TotalSubtotal)
 				facts = append(facts, strconv.FormatInt(day.TotalItems, 10))
 				facts = append(facts, strconv.FormatInt(day.TotalTransactions, 10))
 				for _, st := range day.SaleTypes {
+					// SaleType label only — SaleTypeKey (tickets/booths/…) is internal.
 					facts = append(facts,
 						st.SaleType,
-						st.SaleTypeKey,
 						strconv.FormatInt(st.ItemsCount, 10),
 						strconv.FormatInt(st.TransactionsCount, 10),
 						strconv.FormatInt(st.TotalItems, 10),

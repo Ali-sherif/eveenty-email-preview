@@ -54,10 +54,7 @@ function saleTypeCard(saleType) {
   const subtotalWeight = 'font-weight:600';
   return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;border-collapse:collapse;border:1px solid #ebebeb;border-radius:8px;background-color:#ffffff;margin:0 0 12px 0;">
                       <tr>
-                        <td style="padding:12px 14px 6px;font-size:15px;font-weight:600;color:#2b2a28;">${esc(saleType.SaleType)}</td>
-                      </tr>
-                      <tr>
-                        <td style="padding:0 14px 10px;font-size:12px;line-height:1.4;color:#4d4c49;">${esc(saleType.SaleTypeKey)}</td>
+                        <td style="padding:12px 14px;font-size:15px;font-weight:600;color:#2b2a28;">${esc(saleType.SaleType)}</td>
                       </tr>
                       <tr>
                         <td style="padding:0 6px 8px;">
@@ -124,8 +121,7 @@ function festivalSection(festival) {
                       </tr>
                     </table>`;
       }
-      return `<h3 style="margin:0 0 4px 0;font-size:15px;font-weight:600;line-height:1.3;color:#2b2a28;">${esc(day.Date)}</h3>
-                    <p style="margin:0 0 12px 0;font-size:13px;line-height:1.5;color:#4d4c49;">${esc(day.RawDate)}</p>
+      return `<h3 style="margin:0 0 12px 0;font-size:15px;font-weight:600;line-height:1.3;color:#2b2a28;">${esc(day.Date)}</h3>
                     ${day.SaleTypes.map(saleTypeCard).join('\n')}
                     ${dayTotalCard(day)}`;
     }).join('\n');
@@ -137,8 +133,7 @@ function festivalSection(festival) {
                 <tr>
                   <td style="padding:16px 18px;background-color:#fefdf4;border-bottom:1px solid #ebebeb;font-family:Arial, Helvetica, 'Roboto', Tahoma, sans-serif;">
                     <h2 style="margin:0 0 6px 0;font-size:17px;font-weight:600;line-height:1.3;color:#2b2a28;"><bdi>${esc(festival.FestivalName)}</bdi></h2>
-                    <p style="margin:0 0 4px 0;font-size:14px;line-height:1.5;color:#4d4c49;">${esc(festival.TimeZone)} &nbsp;•&nbsp; ${esc(festival.CurrencyLabel)}</p>
-                    <p style="margin:0;font-size:13px;line-height:1.5;color:#4d4c49;">${esc(festival.From)} &nbsp;–&nbsp; ${esc(festival.To)}</p>
+                    <p style="margin:0;font-size:14px;line-height:1.5;color:#4d4c49;">${esc(festival.TimeZone)} &nbsp;•&nbsp; ${esc(festival.CurrencyLabel)}</p>
                   </td>
                 </tr>
                 <tr>

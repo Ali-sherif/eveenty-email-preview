@@ -26,15 +26,9 @@ Snapshot Festival 2026
 
 America/Toronto =C2=A0=E2=80=A2=C2=A0 CAD
 
-NORMALIZED_DATE =C2=A0=E2=80=93=C2=A0 NORMALIZED_DATE
-
 Saturday, March 14, 2026
 
-NORMALIZED_DATE
-
 Tickets
-
-tickets
 
 Items
 12
@@ -56,8 +50,6 @@ CA$450.00
 
 Booths
 
-booths
-
 Items
 2
 
@@ -77,8 +69,6 @@ Subtotal
 CA$800.00
 
 Donations
-
-donations
 
 Items
 3
@@ -115,8 +105,6 @@ as no total.
 Second Snapshot Fest
 
 America/Toronto =C2=A0=E2=80=A2=C2=A0 CAD
-
-NORMALIZED_DATE =C2=A0=E2=80=93=C2=A0 NORMALIZED_DATE
 
 No sales were recorded for this festival on this day.
 
@@ -279,10 +267,8 @@ ma, sans-serif;">
                     <h2 style=3D"margin:0 0 6px 0;font-size:17px;font-weigh=
 t:600;line-height:1.3;color:#2b2a28;"><bdi>Snapshot Festival 2026</bdi></h2=
 >
-                    <p style=3D"margin:0 0 4px 0;font-size:14px;line-height=
-:1.5;color:#4d4c49;">America/Toronto &nbsp;=E2=80=A2&nbsp; CAD</p>
-                    <p style=3D"margin:0;font-size:13px;line-height:1.5;col=
-or:#4d4c49;">NORMALIZED_DATE &nbsp;=E2=80=93&nbsp; NORMALIZED_DATE</p>
+                    <p style=3D"margin:0;font-size:14px;line-height:1.5;col=
+or:#4d4c49;">America/Toronto &nbsp;=E2=80=A2&nbsp; CAD</p>
                   </td>
                 </tr>
                 <tr>
@@ -291,10 +277,8 @@ ca, 'Roboto', Tahoma, sans-serif;">
                    =20
                    =20
                    =20
-                    <h3 style=3D"margin:0 0 4px 0;font-size:15px;font-weigh=
-t:600;line-height:1.3;color:#2b2a28;">Saturday, March 14, 2026</h3>
-                    <p style=3D"margin:0 0 12px 0;font-size:13px;line-heigh=
-t:1.5;color:#4d4c49;">NORMALIZED_DATE</p>
+                    <h3 style=3D"margin:0 0 12px 0;font-size:15px;font-weig=
+ht:600;line-height:1.3;color:#2b2a28;">Saturday, March 14, 2026</h3>
 
                    =20
                     <table role=3D"presentation" width=3D"100%" cellpadding=
@@ -302,12 +286,8 @@ t:1.5;color:#4d4c49;">NORMALIZED_DATE</p>
 ollapse;border:1px solid #ebebeb;border-radius:8px;background-color:#ffffff=
 ;margin:0 0 12px 0;">
                       <tr>
-                        <td style=3D"padding:12px 14px 6px;font-size:15px;f=
-ont-weight:600;color:#2b2a28;">Tickets</td>
-                      </tr>
-                      <tr>
-                        <td style=3D"padding:0 14px 10px;font-size:12px;lin=
-e-height:1.4;color:#4d4c49;">tickets</td>
+                        <td style=3D"padding:12px 14px;font-size:15px;font-=
+weight:600;color:#2b2a28;">Tickets</td>
                       </tr>
                       <tr>
                         <td style=3D"padding:0 6px 8px;">
@@ -372,12 +352,8 @@ border-top:1px solid #ebebeb;font-size:13px;font-weight:600;color:#4d4c49;"=
 ollapse;border:1px solid #ebebeb;border-radius:8px;background-color:#ffffff=
 ;margin:0 0 12px 0;">
                       <tr>
-                        <td style=3D"padding:12px 14px 6px;font-size:15px;f=
-ont-weight:600;color:#2b2a28;">Booths</td>
-                      </tr>
-                      <tr>
-                        <td style=3D"padding:0 14px 10px;font-size:12px;lin=
-e-height:1.4;color:#4d4c49;">booths</td>
+                        <td style=3D"padding:12px 14px;font-size:15px;font-=
+weight:600;color:#2b2a28;">Booths</td>
                       </tr>
                       <tr>
                         <td style=3D"padding:0 6px 8px;">
@@ -442,12 +418,8 @@ border-top:1px solid #ebebeb;font-size:13px;font-weight:600;color:#4d4c49;"=
 ollapse;border:1px solid #ebebeb;border-radius:8px;background-color:#ffffff=
 ;margin:0 0 12px 0;">
                       <tr>
-                        <td style=3D"padding:12px 14px 6px;font-size:15px;f=
-ont-weight:600;color:#2b2a28;">Donations</td>
-                      </tr>
-                      <tr>
-                        <td style=3D"padding:0 14px 10px;font-size:12px;lin=
-e-height:1.4;color:#4d4c49;">donations</td>
+                        <td style=3D"padding:12px 14px;font-size:15px;font-=
+weight:600;color:#2b2a28;">Donations</td>
                       </tr>
                       <tr>
                         <td style=3D"padding:0 6px 8px;">
@@ -572,10 +544,8 @@ order-bottom:1px solid #ebebeb;font-family:Arial, Helvetica, 'Roboto', Taho=
 ma, sans-serif;">
                     <h2 style=3D"margin:0 0 6px 0;font-size:17px;font-weigh=
 t:600;line-height:1.3;color:#2b2a28;"><bdi>Second Snapshot Fest</bdi></h2>
-                    <p style=3D"margin:0 0 4px 0;font-size:14px;line-height=
-:1.5;color:#4d4c49;">America/Toronto &nbsp;=E2=80=A2&nbsp; CAD</p>
-                    <p style=3D"margin:0;font-size:13px;line-height:1.5;col=
-or:#4d4c49;">NORMALIZED_DATE &nbsp;=E2=80=93&nbsp; NORMALIZED_DATE</p>
+                    <p style=3D"margin:0;font-size:14px;line-height:1.5;col=
+or:#4d4c49;">America/Toronto &nbsp;=E2=80=A2&nbsp; CAD</p>
                   </td>
                 </tr>
                 <tr>

@@ -9,9 +9,10 @@ Evidence: `D:\last\eveenty-email-preview\docs\backend-email-migration-evidence`
 **FESTIVAL END OF DAY REPORT — KIT #50 PASS**  
 **DESIGN SYSTEM REVIEW — PASS**  
 **FESTIVAL END OF DAY REPORT DATA MAPPING — PASS**  
-**FESTIVAL END OF DAY REPORT CURRENCY CLEANUP — PASS**
+**FESTIVAL END OF DAY REPORT CURRENCY CLEANUP — PASS**  
+**FESTIVAL END OF DAY REPORT PRESENTATION CLEANUP — PASS**
 
-All Legacy report metrics and conditions are preserved 1:1 in the Kit card layout; only presentation changed. The duplicated Legacy currency presentation was intentionally removed from Kit #50. Currency data and all report metrics remain unchanged.
+All Legacy report metrics and conditions are preserved 1:1 in the Kit card layout; only presentation changed. The duplicated Legacy currency presentation was intentionally removed from Kit #50. Currency data and all report metrics remain unchanged. A later Kit-only presentation cleanup removed redundant same-day ISO dates, festival From/To metadata, and internal sale-type keys from organizer-facing Kit/Preview copy.
 
 ## Scope clarification
 
@@ -258,8 +259,9 @@ Evidence HTML: `docs/agent/production-migration/baselines/festival_end_of_day_re
 | Overlay `go test ./email/... -count=1 -timeout 600s` (Kit #50 migration) | **PASS** — 520.076s |
 | Overlay `go test ./email/... -count=1 -timeout 600s` (data-mapping audit re-run) | **PASS** — 510.832s |
 | Restored evidence `go test ./email/... -count=1 -timeout 600s` (currency cleanup 2026-09-30) | **PASS** — 552.566s |
+| Overlay `go test ./email/... -count=1 -timeout 600s` (presentation cleanup 2026-09-30) | **PASS** — 345.923s |
 
-Includes Kit/Legacy snapshots, parity, MIME/inventory/load/asset checks, static/link audits, visual-parity allowlist guards, and `TestFestivalEOD_LegacyTableToKitCardDataMapping`. Original 48 + Kit #49 + Kit #50 PASS. Currency cleanup: Kit EOD goldens refreshed only; Legacy goldens unchanged. (Also selectively refreshed 8 stale `festival_ticket_registration_reject` Kit goldens left by a prior padding session so the full suite could close green.)
+Includes Kit/Legacy snapshots, parity, MIME/inventory/load/asset checks, static/link audits, visual-parity allowlist guards, and `TestFestivalEOD_LegacyTableToKitCardDataMapping`. Original 48 + Kit #49 + Kit #50 PASS. Currency cleanup: Kit EOD goldens refreshed only; Legacy goldens unchanged. Presentation cleanup: Kit EOD goldens + baselines refreshed only; Legacy goldens/template unchanged. (Also selectively refreshed 8 stale `festival_ticket_registration_reject` Kit goldens left by a prior padding session so the full suite could close green.)
 
 ## 17. Git status
 
@@ -319,11 +321,60 @@ Cause: `CurrencyLabel` is `ToUpper(Currency)` (identical for current ISO codes),
 
 Both duplicated values were semantically identical for current currency data. Cleanup removes presentation noise without removing any unique business/report data.
 
+## 20. Intentional Daily-Report Presentation Cleanup
+
+Date: 2026-09-30. Owner-requested Kit/Preview-only cleanup for Daily Report readability.
+
+### Source verification (single report day)
+
+| Sender | From/To filters |
+|---|---|
+| Cron `processOrganizer` | `from` = `to` = previous local calendar day (`dateKey`) |
+| API `ResendOrganizerEndOfDayReport` | same single-day `dateKey` |
+
+Each email therefore represents **one** report day. Festival section `From`/`To` equal that same day (e.g. `2026-03-14`–`2026-03-14`). Day `RawDate` (`YYYY-MM-DD`) is the same calendar day as human-readable `Date` (`Saturday, March 14, 2026`).
+
+### Removed from Kit / Preview display only
+
+| Surface | Before | After | Reason |
+|---|---|---|---|
+| Day heading | Human date + ISO `RawDate` | Human date only | Same day; keep organizer-facing form |
+| Festival header | `TimeZone • Currency` + `From – To` | `TimeZone • Currency` only | From/To are redundant same-day metadata for this email, not festival schedule dates |
+| Sale-type card title | Label + internal key (`Tickets` / `tickets`) | Label only (`Tickets`) | Internal keys are not organizer-facing |
+
+### Preserved metrics & conditions
+
+Items, Transactions, Total, Sold To Date, % Sold, Subtotal, Day Total, empty-day / empty-festival copy, help callout, intro `ReportDate`, timezone, currency label, money values — all still present. `TestFestivalEOD_LegacyTableToKitCardDataMapping` updated to stop requiring presentation-only duplicates (`From`/`To`, `RawDate`, `SaleTypeKey`) while still asserting labels, counts, money, and condition phrases.
+
+### Not changed
+
+- Backend/model/business logic, sender, schedulers
+- Archived Legacy template (still shows ISO date, From/To, and sale-type keys)
+- Legacy goldens
+- Other Kit templates
+
+### Files touched
+
+| File | Change |
+|---|---|
+| `email/templates/kit/festival_end_of_day_report.template` | Drop RawDate, From/To, SaleTypeKey display |
+| `shared/post-scope-renderers.js` + `emails/festival_end_of_day_report.html` | Preview matches Kit |
+| `docs/.../tests/email/festival_eod_data_mapping_test.go` | Facts list omits presentation-only duplicates |
+| Kit EOD goldens + `baselines/.../*.{fresh.,}kit.html` | Selective refresh |
+
+### Tests
+
+| Command | Result |
+|---|---|
+| Focused EOD mapping + Kit/Legacy EOD snapshots | **PASS** |
+| Overlay `go test ./email/... -count=1 -timeout 600s` | **PASS** — 345.923s |
+
 ## 18. Final verdict
 
 **FESTIVAL END OF DAY REPORT — KIT #50 PASS**  
 **DESIGN SYSTEM REVIEW — PASS**  
 **FESTIVAL END OF DAY REPORT DATA MAPPING — PASS**  
-**FESTIVAL END OF DAY REPORT CURRENCY CLEANUP — PASS**
+**FESTIVAL END OF DAY REPORT CURRENCY CLEANUP — PASS**  
+**FESTIVAL END OF DAY REPORT PRESENTATION CLEANUP — PASS**
 
-The duplicated Legacy currency presentation was intentionally removed from Kit #50. Currency data and all report metrics remain unchanged.
+The duplicated Legacy currency presentation was intentionally removed from Kit #50. Redundant same-day ISO dates, festival From/To metadata, and internal sale-type keys were intentionally removed from Kit/Preview display. Currency data and all report metrics remain unchanged.
