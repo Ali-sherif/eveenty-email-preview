@@ -43,7 +43,8 @@ Results:
 | Pass Content-ID gains `@sender-domain`; Apple href changes consistently to that ID | DOCUMENTED DIFFERENCE | Restored working HTML-to-attachment reference; matching IDs tested |
 | Old goldens contain older raw-calendar wrappers/content and obsolete organizer-ticket ICS expectations | NEEDS REVIEW | Preserved suite fails; fresh HEAD comparison passes |
 | Newer backend model has no ticket-type Price field; ICS test expects older Rescounts UID | DOCUMENTED DIFFERENCE / NEEDS REVIEW | Upstream drift, not a reason to edit business/model code in this task |
-| Missing approved status alerts and campaign receipt headings; retained legacy TOTAL styling | **FIXED 2026-09-29** | Four IDs — see `VISUAL_FIX_FOUR_TEMPLATES.md`; remaining visual NEEDS REVIEW items unchanged |
+| Missing approved status alerts and campaign receipt headings; retained legacy TOTAL styling | **FIXED 2026-09-29** | Four IDs — see `VISUAL_FIX_FOUR_TEMPLATES.md` |
+| Five registration ports: festival-logo + legacy footer/social chrome | **FIXED 2026-09-29** | Five IDs — see `VISUAL_FIX_FIVE_REGISTRATION.md`; remaining visual NEEDS REVIEW is final-seven |
 | Pre-existing Rescounts coupon body/store/help copy | DOCUMENTED DIFFERENCE | P2 explicitly retained it; Kit uses approved Eveenty header artwork |
 | Eight defects corrected in this review | FUNCTIONAL DEFECT | Exact fixes below |
 
@@ -127,7 +128,7 @@ Reviewed actual freshly captured Kit HTML, all 48 approved HTML files, DOM conte
 2. `festival_approval_status_changed`: **FIXED 2026-09-29** — Kit now includes status-alert (`AlertTitleApproved` / `AlertTitleRejected`) and branded footer. Review-note section remains data-gated (`{{ if .ReviewNote }}`); empty note in a reject fixture is not a defect.
 3. Both `organizer_festival_marketing_*_receipt` templates: **FIXED 2026-09-29** — campaign-receipt alert title + “Campaign receipt” section heading restored; yellow Legacy TOTAL band replaced with approved neutral row; Twitter removed from social row to match approved Preview.
 4. Final-seven administrative/commerce ports move headings into the body after the branded header and retain additional Legacy copy/sections; coupon bodies retain Rescounts app/help text. Those differences need explicit port disposition against the approved references; they do not authorize reopening the original design decisions.
-5. Five registration ports retain extra Legacy footer/social content and a dynamic festival-logo slot absent from some approved references. These are source-preserving differences, not missing attachments. Their visual parity must be recorded rather than assumed.
+5. Five registration ports: **FIXED 2026-09-29** — festival-logo slot and legacy Make-your-event/live social chrome removed; per-template footers, Ticket N of N / approval cards / reject Event Details (no map), and deadline alert titles matched to approved Preview. See `VISUAL_FIX_FIVE_REGISTRATION.md`.
 
 Functional links that were present in Legacy remain in the captured Kit fixtures. Optional calendar CTAs, optional note sections, campaign images and item images depend on data. Missing real fixture images in these screenshots are intentional network blocking, not proof of broken production URLs. No actual real-client delivery or visual owner approval was granted by this review.
 
@@ -152,7 +153,7 @@ The four existing handoffs remain owned by **Backend/Security**. Existing raw HT
 
 ## 11. Remaining work, separated from external gates
 
-**Local merge blockers:** preserved snapshot/parity/ICS suite reconciled 2026-09-29 (see `PRESERVED_SUITE_RECONCILIATION_REPORT.md`). Four status/receipt visual port omissions fixed 2026-09-29 (see `VISUAL_FIX_FOUR_TEMPLATES.md`). Remaining: disposition FINAL_PRE_MERGE section 8 items 4–5 (final-seven / registration chrome); optional kit golden refresh for the four fixed IDs; document the two additional pre-existing Legacy IDs without silently expanding the approved 48-template scope.
+**Local merge blockers:** preserved snapshot/parity/ICS suite reconciled 2026-09-29 (see `PRESERVED_SUITE_RECONCILIATION_REPORT.md`). Four status/receipt visual port omissions fixed 2026-09-29 (see `VISUAL_FIX_FOUR_TEMPLATES.md`). Five registration visual port omissions fixed 2026-09-29 (see `VISUAL_FIX_FIVE_REGISTRATION.md`). Remaining: disposition FINAL_PRE_MERGE section 8 item 4 (final-seven); optional kit golden refresh for the nine fixed IDs; document the two additional pre-existing Legacy IDs without silently expanding the approved 48-template scope.
 
 **External gates only:** Infra/Backend establish DEV logo asset identity; Operator/Backend perform authorized DEV deployment and actual sample sends/rollback smoke; QA perform Level B; Infra make and verify Production's 14 objects; Backend/Security disposition the four existing handoffs; obtain the separate Production release authorization. No Backend/Security work is assigned to the owner.
 
@@ -198,11 +199,11 @@ Functional PASS below means current-source capture/source parity within reviewed
 | `refund_receipt_admin` | 1 | en | SendRefundItemsToAdmin | PASS | SAMPLE REVIEWED |
 | `marketing_package_sale` | 6 | en, es, fa, fr | SendMarketingPackageSaleToAdmin, SendMarketingPackageSaleToOrganizer | PASS | NEEDS REVIEW |
 | `festival_payout` | 6 | en | sendPayoutEmail | PASS | NEEDS REVIEW |
-| `festival_ticket_registration` | 13 | ar, en, es, fa, fr | SendTicketRegistrationToAdmin, SendTicketRegistrationToOrganizer, SendTicketRegistrationToBuyerUser | PASS | NEEDS REVIEW |
-| `festival_ticket_registration_approval` | 8 | ar, en, es, fa, fr | SendFestivalTicketRegistrationApprovalToAdmin, SendFestivalTicketRegistrationApprovalToOrganizer, SendFestivalTicketRegistrationApprovalToUser | PASS | NEEDS REVIEW |
-| `festival_ticket_registration_reject` | 8 | ar, en, es, fa, fr | SendFestivalTicketRegistrationRejectToAdmin, SendFestivalTicketRegistrationRejectToOrganizer, SendFestivalTicketRegistrationRejectToUser | PASS | NEEDS REVIEW |
-| `festival_ticket_registration_deadline_exceeded` | 8 | ar, en, es, fa, fr | SendFestivalTicketRegistrationReviewDeadlineExceededToAdmin, SendFestivalTicketRegistrationReviewDeadlineExceededToOrganizer, SendFestivalTicketRegistrationReviewDeadlineExceededToUser | PASS | NEEDS REVIEW |
-| `festival_ticket_registration_payment_deadline_exceeded` | 8 | ar, en, es, fa, fr | SendFestivalTicketRegistrationPaymentDeadlineExceededToAdmin, SendFestivalTicketRegistrationPaymentDeadlineExceededToOrganizer, SendFestivalTicketRegistrationPaymentDeadlineExceededToUser | PASS | NEEDS REVIEW |
+| `festival_ticket_registration` | 13 | ar, en, es, fa, fr | SendTicketRegistrationToAdmin, SendTicketRegistrationToOrganizer, SendTicketRegistrationToBuyerUser | PASS | **FIXED 2026-09-29** |
+| `festival_ticket_registration_approval` | 8 | ar, en, es, fa, fr | SendFestivalTicketRegistrationApprovalToAdmin, SendFestivalTicketRegistrationApprovalToOrganizer, SendFestivalTicketRegistrationApprovalToUser | PASS | **FIXED 2026-09-29** |
+| `festival_ticket_registration_reject` | 8 | ar, en, es, fa, fr | SendFestivalTicketRegistrationRejectToAdmin, SendFestivalTicketRegistrationRejectToOrganizer, SendFestivalTicketRegistrationRejectToUser | PASS | **FIXED 2026-09-29** |
+| `festival_ticket_registration_deadline_exceeded` | 8 | ar, en, es, fa, fr | SendFestivalTicketRegistrationReviewDeadlineExceededToAdmin, SendFestivalTicketRegistrationReviewDeadlineExceededToOrganizer, SendFestivalTicketRegistrationReviewDeadlineExceededToUser | PASS | **FIXED 2026-09-29** |
+| `festival_ticket_registration_payment_deadline_exceeded` | 8 | ar, en, es, fa, fr | SendFestivalTicketRegistrationPaymentDeadlineExceededToAdmin, SendFestivalTicketRegistrationPaymentDeadlineExceededToOrganizer, SendFestivalTicketRegistrationPaymentDeadlineExceededToUser | PASS | **FIXED 2026-09-29** |
 | `registration_approval_status_changed` | 7 | ar, en, es, fa, fr | SendRegistrationApprovalStatusChangedToUser | PASS | VISUAL FIXED 2026-09-29 |
 | `partner_coupons` | 1 | en | SendCoupon | PASS | NEEDS REVIEW |
 | `partner_coupons_partner` | 1 | en | SendCouponToPartner | PASS | NEEDS REVIEW |

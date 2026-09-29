@@ -412,3 +412,13 @@ Agent skills/rules/docs were updated only where stale or contradictory; no new s
 - Approved Preview HTML under `emails/` was **not** redesigned or reapproved. Fixture name/amount differences are not defects.
 - Re-render compare: all four match approved structure/styling for the requested sections. Report: `production-migration/VISUAL_FIX_FOUR_TEMPLATES.md`. FINAL_PRE_MERGE_REVIEW §8 items 1–3 recorded as fixed; remaining visual NEEDS REVIEW items (final-seven / registration chrome) unchanged.
 - Preview docs updated; kit snapshot goldens for these four IDs **not** refreshed this session (optional follow-up if preserved suite re-run). No commit/push/deploy.
+
+---
+
+**[2026-09-29 — Five registration Kit visual parity fixes (owner-authorized)]**
+
+- Owner authorized implementing approved-design visual fixes for exactly five Kit templates after completed Kit vs Preview comparison: `festival_ticket_registration`, `festival_ticket_registration_approval`, `festival_ticket_registration_reject`, `festival_ticket_registration_deadline_exceeded`, `festival_ticket_registration_payment_deadline_exceeded`.
+- Backend Kit source updated: remove festival-logo slot; replace legacy registration social/footer chrome per approved Preview; Ticket N of N / approval card + Answers / reject Event Details without map; add Review-deadline and Cancelled alert titles. Subjects, recipients, links, attachments, and data mapping unchanged. Conditional fields remain data-gated.
+- Approved Preview HTML under `emails/` was **not** redesigned or reapproved. Fixture name/date/ID differences are not defects.
+- Re-render compare: all five **PASS** for requested sections. Report: `production-migration/VISUAL_FIX_FIVE_REGISTRATION.md`. FINAL_PRE_MERGE_REVIEW §8 item 5 recorded as fixed; remaining visual NEEDS REVIEW is final-seven (§8 item 4).
+- Preview docs updated; kit snapshot goldens for these five IDs **not** refreshed this session. No commit/push/deploy.
